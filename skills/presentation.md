@@ -290,7 +290,7 @@ description: Создаёт HTML-презентацию для видеоуро�
 :root { --accent: #710C04; --split: 60%; }
 
 @page {
-  size: 1920px 1080px;
+  size: 1280px 720px;
   margin: 0;
 }
 
@@ -612,7 +612,12 @@ body {
 /* ===== АДАПТИВ ===== */
 
 @media print {
-  .slide { height: 1080px; width: 1920px; page-break-after: always; }
+  html, body { width: 1280px; }
+  .slide {
+    width: 1280px; height: 720px;
+    page-break-after: always; page-break-inside: avoid;
+  }
+  .slide:last-child { page-break-after: auto; }
   body { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
 }
 
