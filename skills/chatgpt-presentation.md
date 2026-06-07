@@ -60,6 +60,11 @@ https://maiyamaiya19999-bit.github.io/maysoulme-assets/logo-ms.png
 *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
 :root { --accent: #710C04; --split: 60%; }
 
+@page {
+  size: 1920px 1080px;
+  margin: 0;
+}
+
 body {
   font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
   background: #ffffff;
@@ -73,7 +78,7 @@ body {
 .slide {
   width: 100%; height: 100vh;
   display: flex; flex-direction: column;
-  position: relative;
+  page-break-after: always; position: relative;
 }
 .divider {
   position: absolute; top: 0; bottom: 0;
