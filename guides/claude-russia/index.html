@@ -1,0 +1,362 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Практический гайд: как зарегистрироваться, настроить и начать работать с Claude из России.">
+  <title>Как начать работать с Claude из России — maysoulme</title>
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Inter:wght@400;500;600;700;800&family=DM+Sans:ital@1&display=swap" rel="stylesheet">
+  <style>
+*, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+:root { --accent: #710C04; }
+
+body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  background: #ffffff;
+  color: #1a1a1a;
+  font-size: 17px;
+  line-height: 1.75;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Nav */
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 48px;
+  border-bottom: 1px solid #f0f0f0;
+  position: sticky;
+  top: 0;
+  background: #fff;
+  z-index: 100;
+}
+.nav__logo { text-decoration: none; display: flex; align-items: center; }
+.nav__logo img { height: 30px; width: auto; }
+.nav__logo-name {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 14px; font-weight: 400; font-style: italic;
+  color: #888; letter-spacing: 0.5px;
+  margin-left: auto;
+}
+
+/* Container */
+.container { max-width: 740px; margin: 0 auto; padding: 0 24px; }
+
+/* Hero */
+.hero { padding: 60px 0 48px; }
+.badge {
+  display: inline-block; font-size: 11px; font-weight: 600;
+  color: var(--accent); border: 1px solid var(--accent);
+  padding: 5px 16px; margin-bottom: 20px;
+  letter-spacing: 2px; text-transform: uppercase;
+}
+.hero h1 {
+  font-family: 'Libre Baskerville', Georgia, serif;
+  font-size: 38px; font-weight: 700; line-height: 1.25; margin-bottom: 16px;
+}
+.hero h1 em { font-style: italic; color: var(--accent); }
+.hero__desc { font-size: 18px; color: #666; line-height: 1.7; }
+.hero__meta { font-size: 14px; color: #999; margin-top: 16px; letter-spacing: 1px; }
+
+/* Intro */
+.intro-bold { font-size: 18px; font-weight: 700; line-height: 1.65; color: #1a1a1a; padding: 40px 0 16px; }
+.intro-text { font-size: 17px; color: #444; line-height: 1.75; padding-bottom: 48px; }
+
+/* Section heading */
+.section-heading {
+  font-family: 'Libre Baskerville', Georgia, serif;
+  font-size: 30px; font-weight: 700; line-height: 1.3;
+  padding: 56px 0 24px; border-top: 1px solid #e8e8e8;
+}
+.section-heading span { color: var(--accent); margin-right: 8px; }
+.section-heading em { font-style: italic; color: var(--accent); }
+
+/* Highlight block */
+.highlight { background: #f5f5f5; padding: 20px 24px; margin: 24px 0; font-size: 16px; line-height: 1.75; color: #444; }
+
+/* Sub heading */
+.sub-heading { font-family: 'Libre Baskerville', Georgia, serif; font-size: 22px; font-weight: 700; padding: 36px 0 16px; }
+
+/* Text */
+.text { font-size: 17px; color: #444; line-height: 1.75; margin-bottom: 16px; }
+
+/* List */
+.guide-list { list-style: none; margin: 16px 0 24px; }
+.guide-list li {
+  font-size: 16px; line-height: 1.75; color: #444;
+  padding: 8px 0 8px 20px; position: relative;
+  border-bottom: 1px solid #f0f0f0;
+}
+.guide-list li:last-child { border-bottom: none; }
+.guide-list li::before {
+  content: ''; position: absolute; left: 0; top: 16px;
+  width: 6px; height: 6px; border-radius: 50%; background: var(--accent);
+}
+.guide-list li strong { color: #1a1a1a; }
+
+/* Headline list (нумерованный) */
+.headline-list { list-style: none; margin: 16px 0 32px; }
+.headline-list li {
+  display: flex; gap: 16px; padding: 16px 0;
+  border-bottom: 1px solid #f0f0f0; align-items: baseline;
+}
+.headline-list li:first-child { border-top: 1px solid #f0f0f0; }
+.headline-num {
+  font-family: 'Libre Baskerville', Georgia, serif;
+  font-style: italic; font-size: 15px;
+  color: var(--accent); min-width: 28px; flex-shrink: 0;
+}
+.headline-text { font-size: 17px; line-height: 1.6; color: #1a1a1a; font-weight: 500; }
+
+/* Prompt box */
+.prompt-box { background: #f5f5f5; padding: 36px; margin: 32px 0; }
+.prompt-box__title {
+  font-family: 'Libre Baskerville', Georgia, serif;
+  font-size: 20px; font-weight: 700;
+  color: var(--accent); margin-bottom: 6px;
+}
+.prompt-box__subtitle { font-size: 13px; color: #888; margin-bottom: 20px; }
+.prompt-box__text { font-size: 15px; line-height: 1.8; color: #444; }
+
+/* Scenario / step card */
+.scenario-card { border: 1px solid #e8e8e8; padding: 32px; margin: 24px 0; background: #f9f9f9; }
+.scenario-card__num {
+  font-family: 'Libre Baskerville', Georgia, serif;
+  font-style: italic; font-size: 14px;
+  color: var(--accent); letter-spacing: 1px; margin-bottom: 8px;
+}
+.scenario-card__title {
+  font-family: 'Libre Baskerville', Georgia, serif;
+  font-size: 20px; font-weight: 700; line-height: 1.4; margin-bottom: 20px;
+}
+.scenario-card__point { margin-bottom: 14px; }
+.scenario-card__point-label { font-weight: 600; font-size: 16px; color: #1a1a1a; }
+.scenario-card__point-text { font-size: 15px; color: #666; line-height: 1.7; }
+.scenario-card__ending {
+  font-family: 'Libre Baskerville', Georgia, serif;
+  font-size: 17px; font-style: italic; color: #1a1a1a;
+  padding-top: 16px; margin-top: 16px; border-top: 1px solid #e0e0e0;
+}
+.scenario-card__tip {
+  background: #f0f0f0; padding: 14px 18px; margin-top: 16px;
+  font-size: 14px; color: #555; line-height: 1.65;
+}
+.scenario-card__tip strong { color: var(--accent); }
+
+/* Footer */
+.footer {
+  text-align: center; padding: 64px 24px;
+  border-top: 1px solid #e8e8e8; margin-top: 64px;
+  color: #999; font-size: 14px;
+}
+.footer .tiny {
+  font-size: 12.5px; color: #bbb; max-width: 52ch;
+  margin: 12px auto 0; line-height: 1.6; letter-spacing: 0;
+}
+.footer-note {
+  font-family: 'Libre Baskerville', Georgia, serif;
+  font-size: 18px; font-style: italic; color: #444;
+  text-align: center; padding: 48px 24px 0;
+}
+.footer-note em { color: var(--accent); }
+
+/* Responsive */
+@media (max-width: 768px) {
+  .nav { padding: 16px 20px; }
+  .hero h1 { font-size: 28px; }
+  .section-heading { font-size: 24px; }
+  .scenario-card { padding: 20px; }
+  .prompt-box { padding: 24px; }
+}
+  </style>
+</head>
+<body>
+  <nav class="nav">
+    <a class="nav__logo" href="#"><img src="https://maiyamaiya19999-bit.github.io/maysoulme-assets/logo-ms.png" alt="MS"></a>
+    <span class="nav__logo-name">maysoulme</span>
+  </nav>
+  <div class="container">
+    <div class="hero">
+      <div class="badge">Гайд</div>
+      <h1>Как начать работать с <em>Claude из России</em></h1>
+      <p class="hero__desc">Регистрация, безопасный вход, возможная SMS-проверка, оплата и первый запуск — без иллюзий и пропущенных шагов.</p>
+      <p class="hero__meta">Доступ &middot; Регистрация &middot; Настройка</p>
+    </div>
+    <p class="intro-bold">Claude не обязательно устанавливать: начать можно в браузере на сайте claude.ai. Самая сложная часть — правильно подготовить доступ и пройти регистрацию.</p>
+    <p class="intro-text">Россия не указана в официальном списке поддерживаемых стран Anthropic, а Казахстан указан. Поэтому условия доступа могут меняться, отдельные способы могут перестать работать, а гарантии сохранения аккаунта нет. Перед регистрацией проверь актуальный список на anthropic.com/supported-countries и правила сервиса.</p>
+
+    <h2 class="section-heading"><span>01.</span> Что подготовить <em>заранее</em></h2>
+    <p class="text">Не начинай регистрацию на бегу. Выдели 15–20 минут и заранее собери всё, что может понадобиться.</p>
+    <ol class="headline-list">
+      <li><span class="headline-num">01.</span><span class="headline-text">Отдельный рабочий email, к которому у тебя есть постоянный доступ.</span></li>
+      <li><span class="headline-num">02.</span><span class="headline-text">Стабильное подключение из поддерживаемой страны.</span></li>
+      <li><span class="headline-num">03.</span><span class="headline-text">Номер телефона из supported location, только если Claude его запросит.</span></li>
+      <li><span class="headline-num">04.</span><span class="headline-text">Понимание, будешь ли ты начинать с Free или оплачивать подписку.</span></li>
+      <li><span class="headline-num">05.</span><span class="headline-text">Отдельный профиль браузера, чтобы не смешивать разные геолокации в одной сессии.</span></li>
+    </ol>
+    <div class="highlight"><strong>Безопасность:</strong> не показывай и не отправляй никому пароль, CVV, полный номер карты, SMS-коды, адрес кошелька с балансом и личные документы. Аккаунт, email и номер должны оставаться под твоим контролем.</div>
+
+    <h2 class="section-heading"><span>02.</span> Настрой стабильный <em>доступ</em></h2>
+    <div class="scenario-card">
+      <div class="scenario-card__num">ШАГ 01</div>
+      <div class="scenario-card__title">Создай отдельный профиль браузера</div>
+      <div class="scenario-card__point">
+        <span class="scenario-card__point-label">Зачем.</span>
+        <span class="scenario-card__point-text"> Так история, cookies и вход в Claude не будут смешиваться с обычными российскими сервисами.</span>
+      </div>
+      <div class="scenario-card__point">
+        <span class="scenario-card__point-label">Как.</span>
+        <span class="scenario-card__point-text"> В Chrome или другом браузере создай новый профиль только для Claude и связанных рабочих сервисов.</span>
+      </div>
+      <div class="scenario-card__ending">Один профиль — одна рабочая геолокация.</div>
+    </div>
+    <div class="scenario-card">
+      <div class="scenario-card__num">ШАГ 02</div>
+      <div class="scenario-card__title">Подключись до открытия Claude</div>
+      <div class="scenario-card__point">
+        <span class="scenario-card__point-label">Сначала.</span>
+        <span class="scenario-card__point-text"> Включи надёжный VPN с локацией из официального списка поддерживаемых стран.</span>
+      </div>
+      <div class="scenario-card__point">
+        <span class="scenario-card__point-label">Потом.</span>
+        <span class="scenario-card__point-text"> Открой отдельный профиль браузера и только после этого переходи на claude.ai.</span>
+      </div>
+      <div class="scenario-card__tip"><strong>Важно:</strong> не меняй страну посреди регистрации и не входи в тот же аккаунт одновременно с резко отличающихся геолокаций.</div>
+      <div class="scenario-card__ending">Стабильность важнее постоянной смены сервисов и стран.</div>
+    </div>
+    <p class="text">В уроке как личный опыт упоминаются Cosmos VPN и NetCloud, а также идея иметь запасной VPN. Это сторонние сервисы, не связанные с Anthropic: условия, цены и работоспособность могут измениться.</p>
+
+    <h2 class="section-heading"><span>03.</span> Подготовь рабочий <em>email</em></h2>
+    <p class="text">На claude.ai можно продолжить через Google или войти по другому email. Для работы удобнее завести отдельный адрес, а не использовать личную почту со всей перепиской и покупками.</p>
+    <ul class="guide-list">
+      <li><strong>Google.</strong> Подойдёт аккаунт, которым ты действительно владеешь и который сможешь восстановить.</li>
+      <li><strong>Proton Mail.</strong> В материалах он указан как альтернатива, если отдельного Google-аккаунта нет.</li>
+      <li><strong>Российские домены.</strong> В уроке не рекомендуют адреса на mail.ru и yandex.ru из-за возможных сложностей с регистрацией.</li>
+      <li><strong>Покупные аккаунты.</strong> Это риск: продавец может восстановить доступ, а данные аккаунта могут не совпасть с твоими.</li>
+    </ul>
+    <div class="highlight"><strong>Лучший вариант:</strong> почта, созданная тобой и защищённая уникальным паролем и двухфакторной аутентификацией. Не покупай аккаунт, если не понимаешь риски восстановления и блокировки.</div>
+
+    <h2 class="section-heading"><span>04.</span> Пройди <em>регистрацию</em></h2>
+    <div class="scenario-card">
+      <div class="scenario-card__num">ШАГ 01</div>
+      <div class="scenario-card__title">Открой официальный сайт</div>
+      <div class="scenario-card__point">
+        <span class="scenario-card__point-label">Адрес.</span>
+        <span class="scenario-card__point-text"> Вводи вручную claude.ai и проверяй домен перед вводом данных.</span>
+      </div>
+      <div class="scenario-card__point">
+        <span class="scenario-card__point-label">Вход.</span>
+        <span class="scenario-card__point-text"> Выбери Google или email и подтверди адрес кодом из письма, если он придёт.</span>
+      </div>
+      <div class="scenario-card__tip"><strong>Осторожно:</strong> не используй рекламные копии сайта и не вводи пароль Claude на сторонних страницах.</div>
+    </div>
+    <div class="scenario-card">
+      <div class="scenario-card__num">ШАГ 02</div>
+      <div class="scenario-card__title">Пройди SMS-проверку, если она появилась</div>
+      <div class="scenario-card__point">
+        <span class="scenario-card__point-label">Не всегда нужна.</span>
+        <span class="scenario-card__point-text"> У части пользователей Claude запрашивает номер, у части — нет.</span>
+      </div>
+      <div class="scenario-card__point">
+        <span class="scenario-card__point-label">Страна.</span>
+        <span class="scenario-card__point-text"> Номер должен относиться к поддерживаемой локации и быть доступен тебе для получения кода.</span>
+      </div>
+      <div class="scenario-card__ending">Если проверка не появилась, не добавляй номер без необходимости.</div>
+    </div>
+    <p class="text">В уроке упоминается Grizzly SMS как возможный сервис для SMS-верификации. Это не сервис Anthropic. Временные номера могут быть повторно выданы другому человеку, не подойти для восстановления аккаунта или не пройти проверку.</p>
+    <div class="highlight"><strong>Если код не приходит:</strong> проверь страну, формат номера, качество соединения и не запускай много попыток подряд. Не передавай SMS-код помощникам и продавцам.</div>
+
+    <h2 class="section-heading"><span>05.</span> Сначала протестируй <em>Free</em></h2>
+    <p class="text">После входа откроется главный экран Claude. Напиши короткое тестовое сообщение и убедись, что чат работает. Бесплатного тарифа достаточно, чтобы познакомиться с интерфейсом и понять, подходит ли тебе сервис.</p>
+    <div class="prompt-box">
+      <div class="prompt-box__title">Первый тестовый запрос</div>
+      <div class="prompt-box__subtitle">Вставь → Получи ответ → Уточни</div>
+      <p class="prompt-box__text">Я создаю контент для экспертного блога. Задай мне пять вопросов о нише, аудитории, продукте, цели и стиле. После моих ответов предложи три идеи для Reels. Для каждой дай хук, основную мысль, пример и CTA. Пиши просто, без канцелярита и давления.</p>
+    </div>
+    <p class="text">Первый ответ — черновик. Попроси сделать его короче, живее или ближе к твоему голосу. Чем точнее контекст, тем полезнее результат.</p>
+    <div class="highlight"><strong>Про тарифы:</strong> в уроке автор рекомендует дорогой план для интенсивной работы, но это личный опыт, а не обязательный шаг. Начни с Free и переходи на платный тариф только когда поймёшь свои задачи и реальные лимиты. Цены проверяй в разделе Upgrade Plan — они меняются.</div>
+
+    <h2 class="section-heading"><span>06.</span> Если нужна <em>оплата</em></h2>
+    <p class="text">Для подписки обычно нужна карта, способная проводить международные онлайн-платежи. Успех зависит от страны выпуска карты, банка, лимитов, 3DS и корректного billing address.</p>
+    <div class="scenario-card">
+      <div class="scenario-card__num">ОПЛАТА</div>
+      <div class="scenario-card__title">Проверяй данные по порядку</div>
+      <div class="scenario-card__point">
+        <span class="scenario-card__point-label">Карта.</span>
+        <span class="scenario-card__point-text"> Поддерживает международные интернет-платежи и имеет достаточный баланс.</span>
+      </div>
+      <div class="scenario-card__point">
+        <span class="scenario-card__point-label">Адрес.</span>
+        <span class="scenario-card__point-text"> Billing address правдивый и соответствует данным платёжного метода.</span>
+      </div>
+      <div class="scenario-card__point">
+        <span class="scenario-card__point-label">Подтверждение.</span>
+        <span class="scenario-card__point-text"> 3DS и коды банка проходят в приложении или SMS.</span>
+      </div>
+      <div class="scenario-card__tip"><strong>Важно:</strong> не указывай случайный адрес или «безналоговый штат», если он не относится к твоему реальному платёжному профилю.</div>
+    </div>
+    <h3 class="sub-heading">Варианты из материалов урока</h3>
+    <ul class="guide-list">
+      <li><strong>Собственная зарубежная карта.</strong> Самый понятный вариант, если карта и billing address принадлежат тебе.</li>
+      <li><strong>Виртуальная зарубежная карта.</strong> В расшифровке упоминается сервис EPN; заранее проверь комиссии, правила, возвраты и репутацию.</li>
+      <li><strong>Платёжный посредник или Telegram-бот.</strong> Быстрее, но ты доверяешь деньги и данные третьей стороне; Anthropic не отвечает за такой сервис.</li>
+      <li><strong>Пополнение через криптовалюту.</strong> В уроке описана цепочка через BestChange и USDT TRC-20 для пополнения виртуальной карты. Это сложный и необратимый путь с комиссиями и риском ошибки сети.</li>
+    </ul>
+    <div class="highlight"><strong>Криптовалюта:</strong> TRC-20 — это конкретная сеть. Адрес и сеть отправки должны совпадать. Ошибочный перевод обычно нельзя отменить. Не используй этот путь без опыта и не переводи деньги незнакомому посреднику под давлением.</div>
+
+    <h2 class="section-heading"><span>07.</span> Если карта <em>не прошла</em></h2>
+    <p class="text">Не повторяй оплату двадцать раз подряд. Серия одинаковых попыток может усилить антифрод-проверку.</p>
+    <ol class="headline-list">
+      <li><span class="headline-num">01.</span><span class="headline-text">Проверь баланс и разрешение на международные онлайн-платежи.</span></li>
+      <li><span class="headline-num">02.</span><span class="headline-text">Сверь страну карты и billing address.</span></li>
+      <li><span class="headline-num">03.</span><span class="headline-text">Убедись, что 3DS не ждёт подтверждения в приложении банка.</span></li>
+      <li><span class="headline-num">04.</span><span class="headline-text">Проверь лимиты банка и причину отклонения операции.</span></li>
+      <li><span class="headline-num">05.</span><span class="headline-text">Сделай паузу перед новой попыткой или используй другой законный платёжный метод.</span></li>
+    </ol>
+    <div class="highlight"><strong>Не делай:</strong> не отправляй фото карты, CVV, SMS-код или пароль «помощнику по оплате». Для оплаты достаточно данных в защищённой форме самого сервиса.</div>
+
+    <h2 class="section-heading"><span>08.</span> Настрой Claude <em>под себя</em></h2>
+    <p class="text">После регистрации найди поле ввода, новый чат, историю, прикрепление файлов, Settings и Projects. Не загружай личные документы только ради теста.</p>
+    <h3 class="sub-heading">Базовая формула запроса</h3>
+    <ol class="headline-list">
+      <li><span class="headline-num">01.</span><span class="headline-text">Роль — кем Claude должен выступить в этой задаче.</span></li>
+      <li><span class="headline-num">02.</span><span class="headline-text">Задача — что именно нужно сделать.</span></li>
+      <li><span class="headline-num">03.</span><span class="headline-text">Контекст — ниша, аудитория, продукт и исходные данные.</span></li>
+      <li><span class="headline-num">04.</span><span class="headline-text">Ограничения — тон, длина и то, чего нельзя использовать.</span></li>
+      <li><span class="headline-num">05.</span><span class="headline-text">Формат — структура готового ответа.</span></li>
+    </ol>
+    <div class="prompt-box">
+      <div class="prompt-box__title">Инструкция для Claude</div>
+      <div class="prompt-box__subtitle">Добавь в настройки или Project</div>
+      <p class="prompt-box__text">Я веду экспертный блог. Мне нужны короткие, живые тексты без канцелярита. Пиши простым языком. Не используй фразы «в современном мире» и «важно отметить». Сначала давай структуру, потом текст. Если данных мало, задай 2–3 вопроса.</p>
+    </div>
+    <p class="text">Project — отдельное рабочее пространство для описания продукта, аудитории, примеров текстов, правил стиля и постоянных инструкций. Для разовой задачи достаточно обычного чата.</p>
+
+    <h2 class="section-heading"><span>09.</span> Финальная <em>проверка</em></h2>
+    <ol class="headline-list">
+      <li><span class="headline-num">01.</span><span class="headline-text">Проверена актуальная supported location и правила Anthropic.</span></li>
+      <li><span class="headline-num">02.</span><span class="headline-text">Создан отдельный email и профиль браузера.</span></li>
+      <li><span class="headline-num">03.</span><span class="headline-text">Подключение включается до входа и не меняет страну посреди сессии.</span></li>
+      <li><span class="headline-num">04.</span><span class="headline-text">Регистрация пройдена на claude.ai, тестовый запрос отправлен.</span></li>
+      <li><span class="headline-num">05.</span><span class="headline-text">Free протестирован до покупки подписки.</span></li>
+      <li><span class="headline-num">06.</span><span class="headline-text">Платёжные данные вводятся только на официальной странице оплаты.</span></li>
+      <li><span class="headline-num">07.</span><span class="headline-text">В Settings добавлены базовые инструкции, а для контента создан Project.</span></li>
+    </ol>
+    <h3 class="sub-heading">Что чаще всего ломает результат</h3>
+    <ul class="guide-list">
+      <li><strong>Скачки геолокации.</strong> Вход в один аккаунт с разных стран и IP.</li>
+      <li><strong>Слишком много попыток.</strong> Повторная регистрация или оплата без проверки причины ошибки.</li>
+      <li><strong>Чужие данные.</strong> Покупной email, временный номер или карта, к которым потом нет доступа.</li>
+      <li><strong>Ожидание магии.</strong> Claude даёт черновик, который нужно проверять и редактировать.</li>
+      <li><strong>Один хаотичный чат.</strong> Разные задачи лучше разделять, а постоянный контекст хранить в Project.</li>
+    </ul>
+
+    <p class="footer-note">Самый сложный этап — начать. Дальше <em>Claude становится рабочим инструментом.</em></p>
+    <div class="footer">
+      © 2026 · maysoulme · Все права защищены
+      <div class="tiny">Гайд составлен по материалам урока и презентации. Сервисы, цены, тарифы и список поддерживаемых стран могут измениться. Проверяй актуальные условия на официальных страницах Anthropic.</div>
+    </div>
+  </div>
+</body>
+</html>
