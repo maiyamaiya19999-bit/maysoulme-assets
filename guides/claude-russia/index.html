@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Практический гайд: как зарегистрироваться, настроить и начать работать с Claude из России.">
-  <title>Как начать работать с Claude из России — maysoulme</title>
+  <meta name="description" content="Подробная инструкция: как зарегистрировать, установить и оплатить Claude и ChatGPT из России.">
+  <title>Как установить Claude и ChatGPT в России — maysoulme</title>
   <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Inter:wght@400;500;600;700;800&family=DM+Sans:ital@1&display=swap" rel="stylesheet">
   <style>
 *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
@@ -178,184 +178,243 @@ body {
   </nav>
   <div class="container">
     <div class="hero">
-      <div class="badge">Гайд</div>
-      <h1>Как начать работать с <em>Claude из России</em></h1>
-      <p class="hero__desc">Регистрация, безопасный вход, возможная SMS-проверка, оплата и первый запуск — без иллюзий и пропущенных шагов.</p>
-      <p class="hero__meta">Доступ &middot; Регистрация &middot; Настройка</p>
+      <div class="badge">Подробный гайд</div>
+      <h1>Как установить <em>Claude и ChatGPT</em> в России</h1>
+      <p class="hero__desc">Полный путь без пропущенных шагов: подготовка, доступ, регистрация, одноразовый номер, виртуальная карта, оплата, установка и первая настройка.</p>
+      <p class="hero__meta">Claude &middot; ChatGPT &middot; Россия</p>
     </div>
-    <p class="intro-bold">Claude не обязательно устанавливать: начать можно в браузере на сайте claude.ai. Самая сложная часть — правильно подготовить доступ и пройти регистрацию.</p>
-    <p class="intro-text">Россия не указана в официальном списке поддерживаемых стран Anthropic, а Казахстан указан. Поэтому условия доступа могут меняться, отдельные способы могут перестать работать, а гарантии сохранения аккаунта нет. Перед регистрацией проверь актуальный список на anthropic.com/supported-countries и правила сервиса.</p>
+    <p class="intro-bold">Начни с браузерной версии. Она не требует установки и позволяет проверить доступ, аккаунт и бесплатный тариф до любых расходов.</p>
+    <p class="intro-text">Claude открывается на claude.ai, ChatGPT — на chatgpt.com. Россия не входит в официальные списки поддерживаемых стран этих сервисов, поэтому способы доступа и оплаты могут меняться. Используй стабильную геолокацию, вводи правдивые платёжные данные и проверяй актуальные условия перед оплатой.</p>
 
-    <h2 class="section-heading"><span>01.</span> Что подготовить <em>заранее</em></h2>
-    <p class="text">Не начинай регистрацию на бегу. Выдели 15–20 минут и заранее собери всё, что может понадобиться.</p>
+    <h2 class="section-heading"><span>01.</span> Подготовь всё <em>до регистрации</em></h2>
+    <p class="text">Собери инструменты заранее. Если прерывать регистрацию и менять страну, почту или карту посреди процесса, вероятность ошибки выше.</p>
     <ol class="headline-list">
-      <li><span class="headline-num">01.</span><span class="headline-text">Отдельный рабочий email, к которому у тебя есть постоянный доступ.</span></li>
-      <li><span class="headline-num">02.</span><span class="headline-text">Стабильное подключение из поддерживаемой страны.</span></li>
-      <li><span class="headline-num">03.</span><span class="headline-text">Номер телефона из supported location, только если Claude его запросит.</span></li>
-      <li><span class="headline-num">04.</span><span class="headline-text">Понимание, будешь ли ты начинать с Free или оплачивать подписку.</span></li>
-      <li><span class="headline-num">05.</span><span class="headline-text">Отдельный профиль браузера, чтобы не смешивать разные геолокации в одной сессии.</span></li>
+      <li><span class="headline-num">01.</span><span class="headline-text">Стабильный VPN с одной выбранной поддерживаемой страной.</span></li>
+      <li><span class="headline-num">02.</span><span class="headline-text">Отдельный профиль браузера только для Claude и ChatGPT.</span></li>
+      <li><span class="headline-num">03.</span><span class="headline-text">Рабочий email, доступ к которому останется у тебя.</span></li>
+      <li><span class="headline-num">04.</span><span class="headline-text">Одноразовый номер на случай, если сервис запросит SMS.</span></li>
+      <li><span class="headline-num">05.</span><span class="headline-text">Зарубежная или виртуальная карта, только если понадобится платный тариф.</span></li>
+      <li><span class="headline-num">06.</span><span class="headline-text">30–40 минут без спешки и повторных попыток.</span></li>
     </ol>
-    <div class="highlight"><strong>Безопасность:</strong> не показывай и не отправляй никому пароль, CVV, полный номер карты, SMS-коды, адрес кошелька с балансом и личные документы. Аккаунт, email и номер должны оставаться под твоим контролем.</div>
+    <div class="highlight"><strong>Не передавай:</strong> пароль от почты, CVV, полный номер карты, SMS-код, коды 3DS и резервные коды двухфакторной защиты. Эти данные вводятся только тобой на официальной странице.</div>
 
-    <h2 class="section-heading"><span>02.</span> Настрой стабильный <em>доступ</em></h2>
+    <h2 class="section-heading"><span>02.</span> Настрой VPN и <em>браузер</em></h2>
     <div class="scenario-card">
       <div class="scenario-card__num">ШАГ 01</div>
+      <div class="scenario-card__title">Выбери одну страну</div>
+      <div class="scenario-card__point"><span class="scenario-card__point-label">Что сделать.</span><span class="scenario-card__point-text"> Выбери страну, которая официально поддерживается Claude и ChatGPT. Не используй случайную локацию.</span></div>
+      <div class="scenario-card__point"><span class="scenario-card__point-label">Зачем.</span><span class="scenario-card__point-text"> Страна соединения, номер телефона и платёжный профиль не должны противоречить друг другу.</span></div>
+      <div class="scenario-card__ending">Одну рабочую страну используй постоянно.</div>
+    </div>
+    <div class="scenario-card">
+      <div class="scenario-card__num">ШАГ 02</div>
       <div class="scenario-card__title">Создай отдельный профиль браузера</div>
-      <div class="scenario-card__point">
-        <span class="scenario-card__point-label">Зачем.</span>
-        <span class="scenario-card__point-text"> Так история, cookies и вход в Claude не будут смешиваться с обычными российскими сервисами.</span>
-      </div>
-      <div class="scenario-card__point">
-        <span class="scenario-card__point-label">Как.</span>
-        <span class="scenario-card__point-text"> В Chrome или другом браузере создай новый профиль только для Claude и связанных рабочих сервисов.</span>
-      </div>
-      <div class="scenario-card__ending">Один профиль — одна рабочая геолокация.</div>
+      <div class="scenario-card__point"><span class="scenario-card__point-label">Chrome.</span><span class="scenario-card__point-text"> Нажми на аватар профиля → «Добавить» → создай новый профиль.</span></div>
+      <div class="scenario-card__point"><span class="scenario-card__point-label">Другой браузер.</span><span class="scenario-card__point-text"> Создай отдельный профиль или используй отдельный браузер только для AI-сервисов.</span></div>
+      <div class="scenario-card__tip"><strong>Порядок каждого входа:</strong> сначала включи VPN, затем открой рабочий профиль браузера, после этого заходи в Claude или ChatGPT.</div>
+      <div class="scenario-card__ending">Не открывай российские сервисы в этом же профиле во время работы.</div>
     </div>
-    <div class="scenario-card">
-      <div class="scenario-card__num">ШАГ 02</div>
-      <div class="scenario-card__title">Подключись до открытия Claude</div>
-      <div class="scenario-card__point">
-        <span class="scenario-card__point-label">Сначала.</span>
-        <span class="scenario-card__point-text"> Включи надёжный VPN с локацией из официального списка поддерживаемых стран.</span>
-      </div>
-      <div class="scenario-card__point">
-        <span class="scenario-card__point-label">Потом.</span>
-        <span class="scenario-card__point-text"> Открой отдельный профиль браузера и только после этого переходи на claude.ai.</span>
-      </div>
-      <div class="scenario-card__tip"><strong>Важно:</strong> не меняй страну посреди регистрации и не входи в тот же аккаунт одновременно с резко отличающихся геолокаций.</div>
-      <div class="scenario-card__ending">Стабильность важнее постоянной смены сервисов и стран.</div>
-    </div>
-    <p class="text">В уроке как личный опыт упоминаются Cosmos VPN и NetCloud, а также идея иметь запасной VPN. Это сторонние сервисы, не связанные с Anthropic: условия, цены и работоспособность могут измениться.</p>
-
-    <h2 class="section-heading"><span>03.</span> Подготовь рабочий <em>email</em></h2>
-    <p class="text">На claude.ai можно продолжить через Google или войти по другому email. Для работы удобнее завести отдельный адрес, а не использовать личную почту со всей перепиской и покупками.</p>
     <ul class="guide-list">
-      <li><strong>Google.</strong> Подойдёт аккаунт, которым ты действительно владеешь и который сможешь восстановить.</li>
-      <li><strong>Proton Mail.</strong> В материалах он указан как альтернатива, если отдельного Google-аккаунта нет.</li>
-      <li><strong>Российские домены.</strong> В уроке не рекомендуют адреса на mail.ru и yandex.ru из-за возможных сложностей с регистрацией.</li>
-      <li><strong>Покупные аккаунты.</strong> Это риск: продавец может восстановить доступ, а данные аккаунта могут не совпасть с твоими.</li>
+      <li><strong>Не меняй страну посреди сессии.</strong> Если соединение оборвалось, закрой вкладку, восстанови VPN и только потом войди снова.</li>
+      <li><strong>Не входи одновременно с разных устройств.</strong> Сначала настрой одинаковую рабочую геолокацию на каждом устройстве.</li>
+      <li><strong>Имей запасной VPN.</strong> Основной сервис может временно перестать подключаться.</li>
     </ul>
-    <div class="highlight"><strong>Лучший вариант:</strong> почта, созданная тобой и защищённая уникальным паролем и двухфакторной аутентификацией. Не покупай аккаунт, если не понимаешь риски восстановления и блокировки.</div>
 
-    <h2 class="section-heading"><span>04.</span> Пройди <em>регистрацию</em></h2>
+    <h2 class="section-heading"><span>03.</span> Создай рабочий <em>email</em></h2>
+    <p class="text">Один отдельный адрес можно использовать для Claude и ChatGPT. Главное — чтобы ты могла получить письмо, восстановить пароль и включить двухфакторную защиту.</p>
+    <ul class="guide-list">
+      <li><strong>Gmail.</strong> Удобен для входа через Google. Используй собственный аккаунт с доступом к восстановлению.</li>
+      <li><strong>Proton Mail.</strong> Подходит для регистрации через обычный email.</li>
+      <li><strong>Mail.ru и Яндекс.</strong> Лучше не использовать для этой задачи: отдельная международная почта обычно создаёт меньше проблем.</li>
+      <li><strong>Покупной аккаунт.</strong> Нежелателен: продавец может восстановить его, а региональные данные могут не совпадать.</li>
+    </ul>
     <div class="scenario-card">
-      <div class="scenario-card__num">ШАГ 01</div>
-      <div class="scenario-card__title">Открой официальный сайт</div>
-      <div class="scenario-card__point">
-        <span class="scenario-card__point-label">Адрес.</span>
-        <span class="scenario-card__point-text"> Вводи вручную claude.ai и проверяй домен перед вводом данных.</span>
-      </div>
-      <div class="scenario-card__point">
-        <span class="scenario-card__point-label">Вход.</span>
-        <span class="scenario-card__point-text"> Выбери Google или email и подтверди адрес кодом из письма, если он придёт.</span>
-      </div>
-      <div class="scenario-card__tip"><strong>Осторожно:</strong> не используй рекламные копии сайта и не вводи пароль Claude на сторонних страницах.</div>
+      <div class="scenario-card__num">НАСТРОЙКА ПОЧТЫ</div>
+      <div class="scenario-card__title">Защити аккаунт до регистрации</div>
+      <div class="scenario-card__point"><span class="scenario-card__point-label">Пароль.</span><span class="scenario-card__point-text"> Создай уникальный пароль, который нигде больше не используется.</span></div>
+      <div class="scenario-card__point"><span class="scenario-card__point-label">Восстановление.</span><span class="scenario-card__point-text"> Добавь резервный email и сохрани резервные коды.</span></div>
+      <div class="scenario-card__point"><span class="scenario-card__point-label">2FA.</span><span class="scenario-card__point-text"> Включи двухфакторную защиту через приложение-аутентификатор.</span></div>
     </div>
-    <div class="scenario-card">
-      <div class="scenario-card__num">ШАГ 02</div>
-      <div class="scenario-card__title">Пройди SMS-проверку, если она появилась</div>
-      <div class="scenario-card__point">
-        <span class="scenario-card__point-label">Не всегда нужна.</span>
-        <span class="scenario-card__point-text"> У части пользователей Claude запрашивает номер, у части — нет.</span>
-      </div>
-      <div class="scenario-card__point">
-        <span class="scenario-card__point-label">Страна.</span>
-        <span class="scenario-card__point-text"> Номер должен относиться к поддерживаемой локации и быть доступен тебе для получения кода.</span>
-      </div>
-      <div class="scenario-card__ending">Если проверка не появилась, не добавляй номер без необходимости.</div>
-    </div>
-    <p class="text">В уроке упоминается Grizzly SMS как возможный сервис для SMS-верификации. Это не сервис Anthropic. Временные номера могут быть повторно выданы другому человеку, не подойти для восстановления аккаунта или не пройти проверку.</p>
-    <div class="highlight"><strong>Если код не приходит:</strong> проверь страну, формат номера, качество соединения и не запускай много попыток подряд. Не передавай SMS-код помощникам и продавцам.</div>
 
-    <h2 class="section-heading"><span>05.</span> Сначала протестируй <em>Free</em></h2>
-    <p class="text">После входа откроется главный экран Claude. Напиши короткое тестовое сообщение и убедись, что чат работает. Бесплатного тарифа достаточно, чтобы познакомиться с интерфейсом и понять, подходит ли тебе сервис.</p>
+    <h2 class="section-heading"><span>04.</span> Зарегистрируй <em>Claude</em></h2>
+    <div class="scenario-card">
+      <div class="scenario-card__num">CLAUDE · РЕГИСТРАЦИЯ</div>
+      <div class="scenario-card__title">Пошаговый порядок</div>
+      <div class="scenario-card__point"><span class="scenario-card__point-label">1.</span><span class="scenario-card__point-text"> Включи VPN и открой отдельный профиль браузера.</span></div>
+      <div class="scenario-card__point"><span class="scenario-card__point-label">2.</span><span class="scenario-card__point-text"> Вручную открой claude.ai и проверь адрес сайта.</span></div>
+      <div class="scenario-card__point"><span class="scenario-card__point-label">3.</span><span class="scenario-card__point-text"> Нажми Continue with Google или введи рабочий email.</span></div>
+      <div class="scenario-card__point"><span class="scenario-card__point-label">4.</span><span class="scenario-card__point-text"> Подтверди email кодом или ссылкой из письма.</span></div>
+      <div class="scenario-card__point"><span class="scenario-card__point-label">5.</span><span class="scenario-card__point-text"> Если появился запрос номера, переходи к разделу «Одноразовый номер».</span></div>
+      <div class="scenario-card__point"><span class="scenario-card__point-label">6.</span><span class="scenario-card__point-text"> После входа создай новый чат и отправь сообщение «Привет».</span></div>
+      <div class="scenario-card__tip"><strong>Проверка:</strong> если открылось поле чата и Claude ответил, бесплатный аккаунт работает. Не оплачивай подписку до этой проверки.</div>
+    </div>
+
+    <h2 class="section-heading"><span>05.</span> Зарегистрируй <em>ChatGPT</em></h2>
+    <div class="scenario-card">
+      <div class="scenario-card__num">CHATGPT · РЕГИСТРАЦИЯ</div>
+      <div class="scenario-card__title">Пошаговый порядок</div>
+      <div class="scenario-card__point"><span class="scenario-card__point-label">1.</span><span class="scenario-card__point-text"> Оставь VPN включённым и используй тот же отдельный профиль браузера.</span></div>
+      <div class="scenario-card__point"><span class="scenario-card__point-label">2.</span><span class="scenario-card__point-text"> Вручную открой chatgpt.com и нажми Sign up.</span></div>
+      <div class="scenario-card__point"><span class="scenario-card__point-label">3.</span><span class="scenario-card__point-text"> Выбери вход через Google, Apple или рабочий email.</span></div>
+      <div class="scenario-card__point"><span class="scenario-card__point-label">4.</span><span class="scenario-card__point-text"> Подтверди email и заполни данные аккаунта, которые запросит официальный сайт.</span></div>
+      <div class="scenario-card__point"><span class="scenario-card__point-label">5.</span><span class="scenario-card__point-text"> Если появился запрос телефона, используй номер из поддерживаемой страны.</span></div>
+      <div class="scenario-card__point"><span class="scenario-card__point-label">6.</span><span class="scenario-card__point-text"> После входа отправь первое тестовое сообщение.</span></div>
+      <div class="scenario-card__tip"><strong>Не перепутай:</strong> официальный адрес — chatgpt.com. Не вводи пароль OpenAI на сайтах с похожими названиями.</div>
+    </div>
+
+    <h2 class="section-heading"><span>06.</span> Купи <em>одноразовый номер</em></h2>
+    <p class="text">Номер покупай только после того, как Claude или ChatGPT показал экран SMS-проверки. Укажи нужный сервис и страну, совпадающую с рабочей геолокацией.</p>
+    <h3 class="sub-heading">Сервисы для номера</h3>
+    <ul class="guide-list">
+      <li><strong><a href="https://smsfast.pro/?ref=953924" target="_blank" rel="noopener noreferrer">SMSFAST</a>.</strong> Хороший сервис для одноразовых номеров.</li>
+      <li><strong><a href="https://online-sim.io/" target="_blank" rel="noopener noreferrer">online-sim.io</a>.</strong> Пополнение от $5, номер для Claude около $0.04.</li>
+      <li><strong><a href="https://grizzlysms.com/" target="_blank" rel="noopener noreferrer">grizzlysms.com</a>.</strong> Пополнение рублями через СБП.</li>
+    </ul>
+    <div class="scenario-card">
+      <div class="scenario-card__num">SMS · ПОРЯДОК</div>
+      <div class="scenario-card__title">Как получить код</div>
+      <div class="scenario-card__point"><span class="scenario-card__point-label">1.</span><span class="scenario-card__point-text"> Зарегистрируйся в сервисе номеров и пополни баланс минимальной суммой.</span></div>
+      <div class="scenario-card__point"><span class="scenario-card__point-label">2.</span><span class="scenario-card__point-text"> В поиске выбери Claude или OpenAI/ChatGPT. Не покупай номер для другого сервиса.</span></div>
+      <div class="scenario-card__point"><span class="scenario-card__point-label">3.</span><span class="scenario-card__point-text"> Выбери ту же страну, которую используешь для рабочей сессии.</span></div>
+      <div class="scenario-card__point"><span class="scenario-card__point-label">4.</span><span class="scenario-card__point-text"> Скопируй номер без пробелов и вставь его в форму регистрации.</span></div>
+      <div class="scenario-card__point"><span class="scenario-card__point-label">5.</span><span class="scenario-card__point-text"> Запроси код один раз и дождись его в кабинете сервиса.</span></div>
+      <div class="scenario-card__point"><span class="scenario-card__point-label">6.</span><span class="scenario-card__point-text"> Введи код на официальном сайте Claude или ChatGPT.</span></div>
+      <div class="scenario-card__tip"><strong>Если код не пришёл:</strong> не запрашивай его много раз. Отмени аренду по правилам сервиса, возьми другой номер той же страны и повтори один раз.</div>
+    </div>
+    <div class="highlight"><strong>Ограничение:</strong> одноразовый номер не принадлежит тебе постоянно. Он может не подойти для восстановления аккаунта и позже быть выдан другому человеку. Сохрани доступ к email и сразу включи 2FA внутри Claude и ChatGPT, если функция доступна.</div>
+
+    <h2 class="section-heading"><span>07.</span> Установи на <em>компьютер и телефон</em></h2>
+    <h3 class="sub-heading">Самый надёжный вариант — браузер</h3>
+    <ul class="guide-list">
+      <li><strong>Claude.</strong> Открой claude.ai и войди в созданный аккаунт.</li>
+      <li><strong>ChatGPT.</strong> Открой chatgpt.com и войди в созданный аккаунт.</li>
+      <li><strong>Ярлык на компьютере.</strong> В Chrome открой меню → «Трансляция, сохранение и отправка» → «Установить страницу как приложение» или «Создать ярлык».</li>
+      <li><strong>Ярлык на iPhone.</strong> Открой сайт в Safari → «Поделиться» → «На экран Домой».</li>
+      <li><strong>Ярлык на Android.</strong> Открой сайт в Chrome → меню → «Добавить на главный экран».</li>
+    </ul>
+    <h3 class="sub-heading">Официальные приложения</h3>
+    <p class="text">Скачивай приложение только со страницы официального сервиса, App Store, Google Play или Microsoft Store. Проверь название разработчика. Если магазин твоего региона не показывает приложение, продолжай пользоваться браузерной версией — по основным функциям её достаточно.</p>
+    <div class="highlight"><strong>Важно:</strong> приложение не решает вопрос доступа. VPN и стабильная рабочая геолокация должны быть настроены на самом устройстве до запуска приложения.</div>
+
+    <h2 class="section-heading"><span>08.</span> Проверь бесплатные <em>версии</em></h2>
+    <p class="text">Не покупай подписки сразу. Сначала выполни одинаковую тестовую задачу в обоих сервисах и сравни результат.</p>
     <div class="prompt-box">
-      <div class="prompt-box__title">Первый тестовый запрос</div>
-      <div class="prompt-box__subtitle">Вставь → Получи ответ → Уточни</div>
-      <p class="prompt-box__text">Я создаю контент для экспертного блога. Задай мне пять вопросов о нише, аудитории, продукте, цели и стиле. После моих ответов предложи три идеи для Reels. Для каждой дай хук, основную мысль, пример и CTA. Пиши просто, без канцелярита и давления.</p>
+      <div class="prompt-box__title">Тест для Claude и ChatGPT</div>
+      <div class="prompt-box__subtitle">Один запрос → два ответа → сравнение</div>
+      <p class="prompt-box__text">Я веду экспертный блог. Прежде чем отвечать, задай мне пять вопросов о нише, аудитории, продукте, цели контента и стиле. После моих ответов предложи три идеи для Reels. Для каждой дай хук, основную мысль, пример и CTA. Пиши просто, без канцелярита, пафоса и давления.</p>
     </div>
-    <p class="text">Первый ответ — черновик. Попроси сделать его короче, живее или ближе к твоему голосу. Чем точнее контекст, тем полезнее результат.</p>
-    <div class="highlight"><strong>Про тарифы:</strong> в уроке автор рекомендует дорогой план для интенсивной работы, но это личный опыт, а не обязательный шаг. Начни с Free и переходи на платный тариф только когда поймёшь свои задачи и реальные лимиты. Цены проверяй в разделе Upgrade Plan — они меняются.</div>
+    <ol class="headline-list">
+      <li><span class="headline-num">01.</span><span class="headline-text">Убедись, что оба сервиса отвечают без ошибки доступа.</span></li>
+      <li><span class="headline-num">02.</span><span class="headline-text">Проверь, сохраняется ли история после перезагрузки.</span></li>
+      <li><span class="headline-num">03.</span><span class="headline-text">Прикрепи только тестовый файл без личных данных.</span></li>
+      <li><span class="headline-num">04.</span><span class="headline-text">Сравни качество ответа и реальные ограничения Free.</span></li>
+      <li><span class="headline-num">05.</span><span class="headline-text">Покупай подписку только если бесплатных лимитов не хватает.</span></li>
+    </ol>
 
-    <h2 class="section-heading"><span>06.</span> Если нужна <em>оплата</em></h2>
-    <p class="text">Для подписки обычно нужна карта, способная проводить международные онлайн-платежи. Успех зависит от страны выпуска карты, банка, лимитов, 3DS и корректного billing address.</p>
+    <h2 class="section-heading"><span>09.</span> Выпусти <em>виртуальную карту</em></h2>
+    <p class="text">Для платной подписки нужна карта, которая поддерживает международные онлайн-платежи. Перед выпуском уточни у поддержки конкретного сервиса, проходит ли оплата Claude или ChatGPT сейчас.</p>
+    <h3 class="sub-heading">Рабочие сервисы на апрель 2026</h3>
+    <ul class="guide-list">
+      <li><strong><a href="https://t.me/zarub_robot?start=ref_rfH4TJ" target="_blank" rel="noopener noreferrer">Zarub</a>.</strong> Виртуальные карты, выпуск от $8. Claude временно недоступен.</li>
+      <li><strong><a href="https://pyyplbot.com/?refid=263176577" target="_blank" rel="noopener noreferrer">Pyypl Bot</a>.</strong> Виртуальные карты, выпуск от $10. Возможность оплаты Claude уточняй перед выпуском.</li>
+      <li><strong><a href="https://t.me/WantToPayBot?start=w17851188--MYP1Q" target="_blank" rel="noopener noreferrer">WantToPayBot</a>.</strong> По отзывам пользователей, оплата работает; проверь актуальный статус и комиссии.</li>
+    </ul>
     <div class="scenario-card">
-      <div class="scenario-card__num">ОПЛАТА</div>
-      <div class="scenario-card__title">Проверяй данные по порядку</div>
-      <div class="scenario-card__point">
-        <span class="scenario-card__point-label">Карта.</span>
-        <span class="scenario-card__point-text"> Поддерживает международные интернет-платежи и имеет достаточный баланс.</span>
-      </div>
-      <div class="scenario-card__point">
-        <span class="scenario-card__point-label">Адрес.</span>
-        <span class="scenario-card__point-text"> Billing address правдивый и соответствует данным платёжного метода.</span>
-      </div>
-      <div class="scenario-card__point">
-        <span class="scenario-card__point-label">Подтверждение.</span>
-        <span class="scenario-card__point-text"> 3DS и коды банка проходят в приложении или SMS.</span>
-      </div>
-      <div class="scenario-card__tip"><strong>Важно:</strong> не указывай случайный адрес или «безналоговый штат», если он не относится к твоему реальному платёжному профилю.</div>
+      <div class="scenario-card__num">КАРТА · ПЕРЕД ВЫПУСКОМ</div>
+      <div class="scenario-card__title">Задай поддержке пять вопросов</div>
+      <div class="scenario-card__point"><span class="scenario-card__point-label">1.</span><span class="scenario-card__point-text"> Проходит ли сейчас оплата Claude, ChatGPT или обоих сервисов?</span></div>
+      <div class="scenario-card__point"><span class="scenario-card__point-label">2.</span><span class="scenario-card__point-text"> Какова страна выпуска карты и какой billing address использовать?</span></div>
+      <div class="scenario-card__point"><span class="scenario-card__point-label">3.</span><span class="scenario-card__point-text"> Есть ли 3DS и где придёт код подтверждения?</span></div>
+      <div class="scenario-card__point"><span class="scenario-card__point-label">4.</span><span class="scenario-card__point-text"> Сколько стоят выпуск, пополнение, конвертация и ежемесячное обслуживание?</span></div>
+      <div class="scenario-card__point"><span class="scenario-card__point-label">5.</span><span class="scenario-card__point-text"> Возможны ли возвраты и что произойдёт при отклонённой операции?</span></div>
+      <div class="scenario-card__tip"><strong>Не выпускай карту вслепую:</strong> статус оплаты конкретного сервиса может измениться быстрее, чем информация на сайте посредника.</div>
     </div>
-    <h3 class="sub-heading">Варианты из материалов урока</h3>
+    <p class="text">Пополняй карту только после получения её данных и инструкций. Если используется криптовалюта, внимательно сверь сеть. Для USDT TRC-20 сеть отправки и сеть пополнения должны совпадать; ошибочный перевод обычно нельзя вернуть.</p>
+
+    <h2 class="section-heading"><span>10.</span> Оплати <em>подписку</em></h2>
+    <h3 class="sub-heading">Claude</h3>
+    <ol class="headline-list">
+      <li><span class="headline-num">01.</span><span class="headline-text">Войди на claude.ai в правильный аккаунт.</span></li>
+      <li><span class="headline-num">02.</span><span class="headline-text">Открой Settings или Upgrade Plan.</span></li>
+      <li><span class="headline-num">03.</span><span class="headline-text">Выбери тариф по своим лимитам, не по чужой рекомендации.</span></li>
+      <li><span class="headline-num">04.</span><span class="headline-text">Введи данные карты и billing address, выданный вместе с картой.</span></li>
+      <li><span class="headline-num">05.</span><span class="headline-text">Подтверди 3DS и дождись экрана успешной оплаты.</span></li>
+      <li><span class="headline-num">06.</span><span class="headline-text">Проверь тариф и дату следующего списания в настройках.</span></li>
+    </ol>
+    <h3 class="sub-heading">ChatGPT</h3>
+    <ol class="headline-list">
+      <li><span class="headline-num">01.</span><span class="headline-text">Войди на chatgpt.com в правильный аккаунт.</span></li>
+      <li><span class="headline-num">02.</span><span class="headline-text">Открой меню профиля и выбери Upgrade Plan.</span></li>
+      <li><span class="headline-num">03.</span><span class="headline-text">Выбери нужный личный тариф.</span></li>
+      <li><span class="headline-num">04.</span><span class="headline-text">Введи данные карты и соответствующий billing address.</span></li>
+      <li><span class="headline-num">05.</span><span class="headline-text">Пройди подтверждение и проверь статус подписки.</span></li>
+    </ol>
+    <div class="highlight"><strong>Баланс:</strong> положи на карту стоимость тарифа плюс запас на комиссию и возможную конвертацию. Не указывай случайный адрес или «безналоговый штат», если он не относится к реальному платёжному профилю карты.</div>
+
+    <h2 class="section-heading"><span>11.</span> Исправь типовые <em>ошибки</em></h2>
+    <div class="scenario-card">
+      <div class="scenario-card__num">SMS НЕ ПРИХОДИТ</div>
+      <div class="scenario-card__title">Проверь последовательно</div>
+      <div class="scenario-card__point"><span class="scenario-card__point-label">Сервис.</span><span class="scenario-card__point-text"> Выбран именно Claude или OpenAI/ChatGPT.</span></div>
+      <div class="scenario-card__point"><span class="scenario-card__point-label">Страна.</span><span class="scenario-card__point-text"> Совпадает с выбранной рабочей геолокацией.</span></div>
+      <div class="scenario-card__point"><span class="scenario-card__point-label">Формат.</span><span class="scenario-card__point-text"> Код страны не продублирован, пробелов нет.</span></div>
+      <div class="scenario-card__tip"><strong>После одной неудачи:</strong> отмени номер по правилам площадки и возьми другой. Не нажимай «отправить код» много раз подряд.</div>
+    </div>
+    <div class="scenario-card">
+      <div class="scenario-card__num">КАРТА НЕ ПРОШЛА</div>
+      <div class="scenario-card__title">Проверь последовательно</div>
+      <div class="scenario-card__point"><span class="scenario-card__point-label">Баланс.</span><span class="scenario-card__point-text"> Хватает на тариф, комиссию и конвертацию.</span></div>
+      <div class="scenario-card__point"><span class="scenario-card__point-label">Адрес.</span><span class="scenario-card__point-text"> Billing address введён без ошибок и относится к карте.</span></div>
+      <div class="scenario-card__point"><span class="scenario-card__point-label">3DS.</span><span class="scenario-card__point-text"> Подтверждение не ожидает в приложении или боте карты.</span></div>
+      <div class="scenario-card__point"><span class="scenario-card__point-label">Лимиты.</span><span class="scenario-card__point-text"> Международные интернет-платежи разрешены.</span></div>
+      <div class="scenario-card__tip"><strong>Не повторяй оплату сразу:</strong> уточни причину у поддержки карты, сделай паузу и только после исправления повтори один раз.</div>
+    </div>
     <ul class="guide-list">
-      <li><strong>Собственная зарубежная карта.</strong> Самый понятный вариант, если карта и billing address принадлежат тебе.</li>
-      <li><strong>Виртуальная зарубежная карта.</strong> В расшифровке упоминается сервис EPN; заранее проверь комиссии, правила, возвраты и репутацию.</li>
-      <li><strong>Платёжный посредник или Telegram-бот.</strong> Быстрее, но ты доверяешь деньги и данные третьей стороне; Anthropic не отвечает за такой сервис.</li>
-      <li><strong>Пополнение через криптовалюту.</strong> В уроке описана цепочка через BestChange и USDT TRC-20 для пополнения виртуальной карты. Это сложный и необратимый путь с комиссиями и риском ошибки сети.</li>
+      <li><strong>Сайт не открывается.</strong> Проверь VPN, страну, DNS и открой новый чистый профиль браузера.</li>
+      <li><strong>Письмо не приходит.</strong> Проверь «Спам», правильность адреса и запроси письмо повторно один раз.</li>
+      <li><strong>Аккаунт заблокирован.</strong> Не создавай много новых аккаунтов подряд. Обратись в официальную поддержку и подготовь email аккаунта и описание ситуации.</li>
+      <li><strong>Подписка не появилась.</strong> Проверь чек и аккаунт, на котором проходила оплата. Не плати второй раз до проверки.</li>
     </ul>
-    <div class="highlight"><strong>Криптовалюта:</strong> TRC-20 — это конкретная сеть. Адрес и сеть отправки должны совпадать. Ошибочный перевод обычно нельзя отменить. Не используй этот путь без опыта и не переводи деньги незнакомому посреднику под давлением.</div>
 
-    <h2 class="section-heading"><span>07.</span> Если карта <em>не прошла</em></h2>
-    <p class="text">Не повторяй оплату двадцать раз подряд. Серия одинаковых попыток может усилить антифрод-проверку.</p>
-    <ol class="headline-list">
-      <li><span class="headline-num">01.</span><span class="headline-text">Проверь баланс и разрешение на международные онлайн-платежи.</span></li>
-      <li><span class="headline-num">02.</span><span class="headline-text">Сверь страну карты и billing address.</span></li>
-      <li><span class="headline-num">03.</span><span class="headline-text">Убедись, что 3DS не ждёт подтверждения в приложении банка.</span></li>
-      <li><span class="headline-num">04.</span><span class="headline-text">Проверь лимиты банка и причину отклонения операции.</span></li>
-      <li><span class="headline-num">05.</span><span class="headline-text">Сделай паузу перед новой попыткой или используй другой законный платёжный метод.</span></li>
-    </ol>
-    <div class="highlight"><strong>Не делай:</strong> не отправляй фото карты, CVV, SMS-код или пароль «помощнику по оплате». Для оплаты достаточно данных в защищённой форме самого сервиса.</div>
-
-    <h2 class="section-heading"><span>08.</span> Настрой Claude <em>под себя</em></h2>
-    <p class="text">После регистрации найди поле ввода, новый чат, историю, прикрепление файлов, Settings и Projects. Не загружай личные документы только ради теста.</p>
-    <h3 class="sub-heading">Базовая формула запроса</h3>
-    <ol class="headline-list">
-      <li><span class="headline-num">01.</span><span class="headline-text">Роль — кем Claude должен выступить в этой задаче.</span></li>
-      <li><span class="headline-num">02.</span><span class="headline-text">Задача — что именно нужно сделать.</span></li>
-      <li><span class="headline-num">03.</span><span class="headline-text">Контекст — ниша, аудитория, продукт и исходные данные.</span></li>
-      <li><span class="headline-num">04.</span><span class="headline-text">Ограничения — тон, длина и то, чего нельзя использовать.</span></li>
-      <li><span class="headline-num">05.</span><span class="headline-text">Формат — структура готового ответа.</span></li>
-    </ol>
+    <h2 class="section-heading"><span>12.</span> Настрой сервисы <em>под себя</em></h2>
+    <h3 class="sub-heading">Claude</h3>
+    <ul class="guide-list">
+      <li><strong>Settings.</strong> Проверь профиль, безопасность, тариф и usage.</li>
+      <li><strong>Instructions.</strong> Укажи нишу, аудиторию, стиль и запрещённые формулировки.</li>
+      <li><strong>Projects.</strong> Создай отдельное пространство для контента, добавь описание продукта, аудиторию и примеры текстов.</li>
+      <li><strong>Чаты.</strong> Разделяй сценарии, прогревы и лидмагниты, не храни всё в одном диалоге.</li>
+    </ul>
+    <h3 class="sub-heading">ChatGPT</h3>
+    <ul class="guide-list">
+      <li><strong>Settings.</strong> Проверь безопасность, персонализацию и управление данными.</li>
+      <li><strong>Custom Instructions.</strong> Добавь информацию о себе и требования к ответам.</li>
+      <li><strong>Projects.</strong> Создай отдельные проекты для разных продуктов или направлений.</li>
+      <li><strong>Память.</strong> Проверь, какие данные сервис запомнил, и не сохраняй чувствительную информацию.</li>
+    </ul>
     <div class="prompt-box">
-      <div class="prompt-box__title">Инструкция для Claude</div>
-      <div class="prompt-box__subtitle">Добавь в настройки или Project</div>
-      <p class="prompt-box__text">Я веду экспертный блог. Мне нужны короткие, живые тексты без канцелярита. Пиши простым языком. Не используй фразы «в современном мире» и «важно отметить». Сначала давай структуру, потом текст. Если данных мало, задай 2–3 вопроса.</p>
+      <div class="prompt-box__title">Базовая инструкция</div>
+      <div class="prompt-box__subtitle">Подходит для Claude и ChatGPT</div>
+      <p class="prompt-box__text">Я веду экспертный блог. Мне нужны короткие, живые тексты без канцелярита. Пиши простым языком. Не используй фразы «в современном мире» и «важно отметить». Сначала давай структуру, потом текст. Если данных недостаточно, задай 2–3 уточняющих вопроса. Не выдумывай факты и отмечай, что требует проверки.</p>
     </div>
-    <p class="text">Project — отдельное рабочее пространство для описания продукта, аудитории, примеров текстов, правил стиля и постоянных инструкций. Для разовой задачи достаточно обычного чата.</p>
 
-    <h2 class="section-heading"><span>09.</span> Финальная <em>проверка</em></h2>
+    <h2 class="section-heading"><span>13.</span> Финальный <em>чек-лист</em></h2>
     <ol class="headline-list">
-      <li><span class="headline-num">01.</span><span class="headline-text">Проверена актуальная supported location и правила Anthropic.</span></li>
-      <li><span class="headline-num">02.</span><span class="headline-text">Создан отдельный email и профиль браузера.</span></li>
-      <li><span class="headline-num">03.</span><span class="headline-text">Подключение включается до входа и не меняет страну посреди сессии.</span></li>
-      <li><span class="headline-num">04.</span><span class="headline-text">Регистрация пройдена на claude.ai, тестовый запрос отправлен.</span></li>
-      <li><span class="headline-num">05.</span><span class="headline-text">Free протестирован до покупки подписки.</span></li>
-      <li><span class="headline-num">06.</span><span class="headline-text">Платёжные данные вводятся только на официальной странице оплаты.</span></li>
-      <li><span class="headline-num">07.</span><span class="headline-text">В Settings добавлены базовые инструкции, а для контента создан Project.</span></li>
+      <li><span class="headline-num">01.</span><span class="headline-text">Выбрана одна рабочая страна и стабильный VPN.</span></li>
+      <li><span class="headline-num">02.</span><span class="headline-text">Созданы отдельный профиль браузера и защищённый email.</span></li>
+      <li><span class="headline-num">03.</span><span class="headline-text">Claude зарегистрирован и отвечает в бесплатном чате.</span></li>
+      <li><span class="headline-num">04.</span><span class="headline-text">ChatGPT зарегистрирован и отвечает в бесплатном чате.</span></li>
+      <li><span class="headline-num">05.</span><span class="headline-text">SMS-номер покупался только при появлении проверки.</span></li>
+      <li><span class="headline-num">06.</span><span class="headline-text">Перед выпуском карты уточнена поддержка нужного сервиса.</span></li>
+      <li><span class="headline-num">07.</span><span class="headline-text">На карте есть сумма тарифа и запас на комиссии.</span></li>
+      <li><span class="headline-num">08.</span><span class="headline-text">Подписка оплачена один раз и подтверждена в настройках.</span></li>
+      <li><span class="headline-num">09.</span><span class="headline-text">На компьютере или телефоне создан безопасный ярлык.</span></li>
+      <li><span class="headline-num">10.</span><span class="headline-text">Включена 2FA и добавлены инструкции для работы.</span></li>
     </ol>
-    <h3 class="sub-heading">Что чаще всего ломает результат</h3>
-    <ul class="guide-list">
-      <li><strong>Скачки геолокации.</strong> Вход в один аккаунт с разных стран и IP.</li>
-      <li><strong>Слишком много попыток.</strong> Повторная регистрация или оплата без проверки причины ошибки.</li>
-      <li><strong>Чужие данные.</strong> Покупной email, временный номер или карта, к которым потом нет доступа.</li>
-      <li><strong>Ожидание магии.</strong> Claude даёт черновик, который нужно проверять и редактировать.</li>
-      <li><strong>Один хаотичный чат.</strong> Разные задачи лучше разделять, а постоянный контекст хранить в Project.</li>
-    </ul>
 
-    <p class="footer-note">Самый сложный этап — начать. Дальше <em>Claude становится рабочим инструментом.</em></p>
+    <p class="footer-note">Сначала настрой доступ. Потом превращай <em>Claude и ChatGPT в рабочие инструменты.</em></p>
     <div class="footer">
       © 2026 · maysoulme · Все права защищены
-      <div class="tiny">Гайд составлен по материалам урока и презентации. Сервисы, цены, тарифы и список поддерживаемых стран могут измениться. Проверяй актуальные условия на официальных страницах Anthropic.</div>
+      <div class="tiny">Актуальность сервисов виртуальных карт указана на апрель 2026 года. Цены, комиссии, доступность оплаты и правила AI-сервисов могут измениться. Перед оплатой уточняй условия у поддержки выбранного сервиса.</div>
     </div>
   </div>
 </body>
