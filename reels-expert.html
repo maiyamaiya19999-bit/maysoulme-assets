@@ -160,6 +160,21 @@ body {
 }
 .footer-note em { color: var(--accent); }
 
+/* Copy button */
+.copy-btn {
+  display: inline-flex; align-items: center; gap: 10px;
+  font-family: 'Inter', sans-serif;
+  font-size: 13px; font-weight: 600;
+  letter-spacing: 1.5px; text-transform: uppercase;
+  color: #fff; background: var(--accent);
+  border: 1px solid var(--accent);
+  padding: 14px 28px; margin-top: 28px;
+  cursor: pointer; transition: opacity 0.2s;
+}
+.copy-btn:hover { opacity: 0.85; }
+.copy-btn.copied { background: #1a1a1a; border-color: #1a1a1a; }
+.copy-btn__hint { display: block; font-size: 13px; color: #999; margin-top: 10px; }
+
 /* Responsive */
 @media (max-width: 768px) {
   .nav { padding: 16px 20px; }
@@ -184,6 +199,8 @@ body {
     <h1>Разговорный <em>экспертный</em> ролик</h1>
     <p class="hero__desc">Промпт превращает сырой тезис в сценарий, где ты звучишь как человек, который реально разбирается: с первой секунды ясно, ради чего смотреть, через ролик идёт один острый сдвиг взгляда, а в финале остаётся польза, которую хочется сохранить.</p>
     <p class="hero__meta">Сдвиг взгляда &middot; Механика &middot; Доказательство &middot; Польза</p>
+    <button class="copy-btn" id="copyAllBtn" onclick="copyAllText()">Скопировать весь промпт</button>
+    <span class="copy-btn__hint">Одна кнопка — весь текст в буфере. Вставь его в Claude и добавь свой материал.</span>
   </div>
 
   <p class="intro-bold">Как использовать.</p>
@@ -445,6 +462,46 @@ body {
   </div>
 
 </div>
+
+<script>
+function copyAllText() {
+  var btn = document.getElementById('copyAllBtn');
+  var hint = document.querySelector('.copy-btn__hint');
+  var container = document.querySelector('.container');
+  btn.style.display = 'none';
+  hint.style.display = 'none';
+  var text = container.innerText.trim();
+  btn.style.display = '';
+  hint.style.display = '';
+
+  function done() {
+    btn.classList.add('copied');
+    btn.textContent = 'Скопировано ✓';
+    setTimeout(function () {
+      btn.classList.remove('copied');
+      btn.textContent = 'Скопировать весь промпт';
+    }, 2500);
+  }
+
+  if (navigator.clipboard && navigator.clipboard.writeText) {
+    navigator.clipboard.writeText(text).then(done).catch(function () { fallbackCopy(text, done); });
+  } else {
+    fallbackCopy(text, done);
+  }
+}
+
+function fallbackCopy(text, done) {
+  var ta = document.createElement('textarea');
+  ta.value = text;
+  ta.style.position = 'fixed';
+  ta.style.opacity = '0';
+  document.body.appendChild(ta);
+  ta.focus();
+  ta.select();
+  try { document.execCommand('copy'); done(); } catch (e) {}
+  document.body.removeChild(ta);
+}
+</script>
 
 </body>
 </html>
