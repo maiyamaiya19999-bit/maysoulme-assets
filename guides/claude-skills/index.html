@@ -273,6 +273,7 @@ body {
       <span class="scenario-card__point-text"> Открой терминал в папке проекта, вставь команду скилла (они ниже, у каждого своя кнопка) и нажми Enter. Claude Code подхватит скилл автоматически.</span>
     </div>
     <div class="scenario-card__tip"><strong>Совет:</strong> добавь к команде <em>--global</em> — и скилл будет работать во всех проектах, а не только в текущей папке.</div>
+    <div class="scenario-card__tip"><strong>Важно:</strong> после вставки команда задаст вопрос, куда установить скилл. Это не ошибка: стрелками на клавиатуре выбери Claude Code и нажми Enter.</div>
   </div>
 
   <div class="scenario-card">
@@ -339,15 +340,19 @@ body {
   <div class="prompt-box">
     <div class="prompt-box__title">7. TDD Guard</div>
     <div class="prompt-box__subtitle">Код через тесты</div>
-    <p class="prompt-box__text">Заставляет Claude работать по принципу «сначала тест — потом код». Меньше сломанного, больше предсказуемого. Для тех, кто вайб-кодит всерьёз.</p>
-    <span class="cmd-line" id="cmd-7">npm install -g tdd-guard</span>
-    <button class="copy-btn" data-copy="cmd-7">Скопировать команду</button>
+    <p class="prompt-box__text">Заставляет Claude работать по принципу «сначала тест — потом код». Меньше сломанного, больше предсказуемого. Для тех, кто вайб-кодит всерьёз. Ставится тремя командами прямо в чате Claude Code — по очереди, после каждой жми Enter.</p>
+    <span class="cmd-line" id="cmd-7">/plugin marketplace add nizos/tdd-guard</span>
+    <button class="copy-btn" data-copy="cmd-7">Скопировать команду 1</button>
+    <span class="cmd-line" id="cmd-7b">/plugin install tdd-guard@tdd-guard</span>
+    <button class="copy-btn" data-copy="cmd-7b">Скопировать команду 2</button>
+    <span class="cmd-line" id="cmd-7c">/tdd-guard:setup</span>
+    <button class="copy-btn" data-copy="cmd-7c">Скопировать команду 3</button>
   </div>
 
   <div class="prompt-box">
     <div class="prompt-box__title">8. Context Engineering Kit</div>
     <div class="prompt-box__subtitle">Память и качество работы агента</div>
-    <p class="prompt-box__text">Набор для контекст-инжиниринга: помогает Claude лучше держать контекст проекта, писать себе команды и хуки. Команда вставляется прямо в чат Claude Code.</p>
+    <p class="prompt-box__text">Набор для контекст-инжиниринга: помогает Claude лучше держать контекст проекта, писать себе команды и хуки. Команда вставляется прямо в чат Claude Code. После неё набери /plugin — откроется список, где можно выбрать и установить нужные наборы из этого каталога.</p>
     <span class="cmd-line" id="cmd-8">/plugin marketplace add NeoLabHQ/context-engineering-kit</span>
     <button class="copy-btn" data-copy="cmd-8">Скопировать команду</button>
   </div>
@@ -364,7 +369,7 @@ body {
     <div class="prompt-box__title">10. Claude Mem</div>
     <div class="prompt-box__subtitle">Память между сессиями</div>
     <p class="prompt-box__text">Claude запоминает, что вы делали в прошлых сессиях, и сам подтягивает нужный контекст в новые. Больше не нужно каждый раз пересказывать проект заново.</p>
-    <span class="cmd-line" id="cmd-10">npm install -g claude-mem &amp;&amp; claude-mem install</span>
+    <span class="cmd-line" id="cmd-10">npx claude-mem install</span>
     <button class="copy-btn" data-copy="cmd-10">Скопировать команду</button>
   </div>
 
@@ -376,7 +381,16 @@ body {
     <li><strong>Удаляй неиспользуемое.</strong> Скиллы лежат в папке .claude/skills — если чем-то не пользуешься месяц, убирай.</li>
   </ul>
 
-  <div class="highlight"><strong>Важно:</strong> команды установки проверены по GitHub-репозиториям на момент публикации. Скиллы обновляются часто — если команда не сработала, зайди в репозиторий скилла на GitHub и посмотри актуальную инструкцию в README.</div>
+  <h2 class="section-heading"><span>05.</span> Если что-то <em>не заработало</em></h2>
+  <ul class="guide-list">
+    <li><strong>«command not found» после установки Node.js.</strong> Закрой терминал полностью и открой заново — он подхватывает новые программы только при запуске.</li>
+    <li><strong>Команда npx задаёт вопросы.</strong> Так и должно быть: стрелками выбери Claude Code, подтверждай Enter.</li>
+    <li><strong>Скилл установился, но Claude им не пользуется.</strong> Перезапусти Claude Code (набери exit, потом снова claude) — скиллы подхватываются при старте сессии. И попроси прямо: «используй скилл такой-то».</li>
+    <li><strong>Проверить, что скилл встал.</strong> В папке проекта появилась папка .claude/skills (или ~/.claude/skills при установке с --global) — внутри лежит папка скилла.</li>
+    <li><strong>Ничего не помогло.</strong> Открой репозиторий скилла на GitHub и посмотри раздел Installation в README — авторы иногда меняют способ установки.</li>
+  </ul>
+
+  <div class="highlight"><strong>Важно:</strong> команды установки проверены по официальным README на момент публикации. Скиллы обновляются часто — если команда не сработала, актуальная инструкция всегда в репозитории скилла на GitHub.</div>
 
 </div>
 
