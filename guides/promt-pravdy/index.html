@@ -110,7 +110,16 @@ body {
 .headline-text { font-size: 17px; line-height: 1.6; color: #1a1a1a; font-weight: 500; }
 
 /* Prompt box */
-.prompt-box { background: #f5f5f5; padding: 36px; margin: 32px 0; }
+.prompt-box { background: #f5f5f5; padding: 36px; margin: 32px 0; position: relative; }
+.copy-btn {
+  display: inline-block; font-family: 'Inter', sans-serif;
+  font-size: 11px; font-weight: 600; letter-spacing: 2px; text-transform: uppercase;
+  color: var(--accent); background: #fff; border: 1px solid var(--accent);
+  padding: 8px 20px; margin-top: 20px; cursor: pointer; border-radius: 0;
+  transition: background 0.15s, color 0.15s;
+}
+.copy-btn:hover { background: var(--accent); color: #fff; }
+.copy-btn.copied { background: var(--accent); color: #fff; }
 .prompt-box__title {
   font-family: 'Libre Baskerville', Georgia, serif;
   font-size: 20px; font-weight: 700;
@@ -205,10 +214,11 @@ body {
   <div class="prompt-box">
     <div class="prompt-box__title">Промпт правды</div>
     <div class="prompt-box__subtitle">Копируй → Вставляй → Используй</div>
-    <p class="prompt-box__text">С этого момента отвечай по трём правилам.<br><br>
+    <p class="prompt-box__text" id="prompt-main">С этого момента отвечай по трём правилам.<br><br>
     Правило 1. Если ты не уверен в ответе — прямо скажи «я не уверен» и объясни почему. Никогда не угадывай и не выдавай предположение за факт.<br><br>
     Правило 2. После каждого ответа оцени свою уверенность по шкале от 1 до 10. Всё, что ниже 7 — отдельно пометь и объясни, что именно под сомнением.<br><br>
     Правило 3. Для любых цифр, статистики, цитат и утверждений о людях указывай проверяемый источник. Если источника нет — так и пиши: «подтвердить источником не могу».</p>
+    <button class="copy-btn" data-copy="prompt-main">Скопировать промпт</button>
   </div>
 
   <h2 class="section-heading"><span>03.</span> Куда вставить, чтобы работал <em>всегда</em></h2>
@@ -246,12 +256,33 @@ body {
   <h2 class="section-heading"><span>04.</span> Четыре техники проверки, когда <em>цена ошибки высокая</em></h2>
   <p class="text">Промпт правды — это первый фильтр. Когда ответ пойдёт в пост на большую аудиторию, в работу с клиентом или в важное решение, прогони его через одну-две техники ниже.</p>
 
-  <ol class="headline-list">
-    <li><span class="headline-num">01.</span><span class="headline-text">Обратный промптинг. Спроси: «Перечисли допущения, на которые ты опирался в этом ответе». Станет видно, какие пробелы модель заполнила сама.</span></li>
-    <li><span class="headline-num">02.</span><span class="headline-text">Спор с самим собой. Попроси: «Теперь поспорь со своим ответом. Где он может быть неверным и какие есть риски?»</span></li>
-    <li><span class="headline-num">03.</span><span class="headline-text">Таблица утверждений. Попроси разложить ответ в таблицу: утверждение → доказательство → уверенность → риск. Слабые места вылезут сразу.</span></li>
-    <li><span class="headline-num">04.</span><span class="headline-text">Привязка к источнику. Формулируй вопрос через «согласно такому-то источнику…» — модель будет отвечать из конкретного материала, а не из общих представлений.</span></li>
-  </ol>
+  <div class="prompt-box">
+    <div class="prompt-box__title">Техника 1. Обратный промптинг</div>
+    <div class="prompt-box__subtitle">Показывает, какие пробелы модель заполнила сама</div>
+    <p class="prompt-box__text" id="prompt-t1">Перечисли все допущения, на которые ты опирался в этом ответе. Отдельно выдели те, которые ты не можешь подтвердить.</p>
+    <button class="copy-btn" data-copy="prompt-t1">Скопировать промпт</button>
+  </div>
+
+  <div class="prompt-box">
+    <div class="prompt-box__title">Техника 2. Спор с самим собой</div>
+    <div class="prompt-box__subtitle">Модель ищет ошибки в собственном ответе</div>
+    <p class="prompt-box__text" id="prompt-t2">Теперь поспорь со своим ответом. Где он может быть неверным? Перечисли возможные ошибки и риски, если я буду опираться на этот ответ.</p>
+    <button class="copy-btn" data-copy="prompt-t2">Скопировать промпт</button>
+  </div>
+
+  <div class="prompt-box">
+    <div class="prompt-box__title">Техника 3. Таблица утверждений</div>
+    <div class="prompt-box__subtitle">Слабые места становятся видимыми</div>
+    <p class="prompt-box__text" id="prompt-t3">Разложи свой ответ в таблицу с колонками: утверждение → доказательство → уверенность (1–10) → риск, если это неправда.</p>
+    <button class="copy-btn" data-copy="prompt-t3">Скопировать промпт</button>
+  </div>
+
+  <div class="prompt-box">
+    <div class="prompt-box__title">Техника 4. Привязка к источнику</div>
+    <div class="prompt-box__subtitle">Ответ из конкретного материала, а не из общих представлений</div>
+    <p class="prompt-box__text" id="prompt-t4">Отвечай строго согласно [вставь источник: статья, книга, документ]. Если в этом источнике нет ответа — так и скажи, не дополняй из других знаний.</p>
+    <button class="copy-btn" data-copy="prompt-t4">Скопировать промпт</button>
+  </div>
 
   <h2 class="section-heading"><span>05.</span> Три железных <em>правила</em></h2>
   <ul class="guide-list">
@@ -270,5 +301,30 @@ body {
   <div class="tiny">Гайд подготовлен по мотивам «The Truth Prompt» Маверика Малтина (mavgpt.ai), переведён и адаптирован для русскоязычных нейросетей и форматов.</div>
 </div>
 
+<script>
+document.querySelectorAll('.copy-btn').forEach(function (btn) {
+  btn.addEventListener('click', function () {
+    var el = document.getElementById(btn.getAttribute('data-copy'));
+    var text = el.innerText.replace(/\n{3,}/g, '\n\n').trim();
+    function done() {
+      var old = btn.textContent;
+      btn.textContent = 'Скопировано ✓';
+      btn.classList.add('copied');
+      setTimeout(function () { btn.textContent = old; btn.classList.remove('copied'); }, 2000);
+    }
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+      navigator.clipboard.writeText(text).then(done);
+    } else {
+      var ta = document.createElement('textarea');
+      ta.value = text;
+      document.body.appendChild(ta);
+      ta.select();
+      document.execCommand('copy');
+      document.body.removeChild(ta);
+      done();
+    }
+  });
+});
+</script>
 </body>
 </html>
