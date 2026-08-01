@@ -199,13 +199,71 @@ body {
     <div class="badge">Гайд</div>
     <h1>Лучшие скиллы для Claude, которые стоит <em>установить в 2026</em></h1>
     <p class="hero__desc">Скиллы превращают Claude из чата в специалиста: дизайнера, редактора, SEO-шника, маркетолога. Десять главных — с командой установки в одно нажатие.</p>
-    <p class="hero__meta">Claude Code &middot; Скиллы &middot; Установка за 30 секунд</p>
+    <p class="hero__meta">Claude Code &middot; Скиллы &middot; С нуля, даже если не шаришь</p>
   </div>
 
   <p class="intro-bold">Скилл — это папка с инструкциями, которую Claude подключает сам, когда задача подходит.</p>
-  <p class="intro-text">Один раз установил — и Claude «умеет» новую профессию в каждом чате: рисует интерфейсы как дизайн-студия, чистит тексты от ИИ-штампов, делает SEO-аудит, помнит, что вы делали вчера. Не нужно каждый раз объяснять контекст и вставлять длинные промпты. Большинство скиллов ставятся одной командой в терминале — копируешь, вставляешь, готово.</p>
+  <p class="intro-text">Один раз установил — и Claude «умеет» новую профессию в каждом чате: рисует интерфейсы как дизайн-студия, чистит тексты от ИИ-штампов, делает SEO-аудит, помнит, что вы делали вчера. Не нужно каждый раз объяснять контекст и вставлять длинные промпты. Большинство скиллов ставятся одной командой — копируешь, вставляешь, готово. А если ты вообще впервые слышишь про терминал — начни с раздела 01, там всё с нуля.</p>
 
-  <h2 class="section-heading"><span>01.</span> Как установить <em>любой скилл</em></h2>
+  <h2 class="section-heading"><span>01.</span> Если ты не шаришь — <em>начни отсюда</em></h2>
+  <p class="text">Скиллы работают не в обычном чате Claude на сайте, а в Claude Code — это «рабочая» версия Claude, которая живёт у тебя на компьютере и умеет создавать файлы, сайты и проекты. Звучит страшно, ставится за 10 минут. Вот весь путь с нуля.</p>
+
+  <div class="highlight"><strong>Важно:</strong> всё, что ниже, делается на компьютере, не с телефона. И тебе нужна подписка Claude (Pro или выше) — по ней Claude Code работает без доплат.</div>
+
+  <div class="scenario-card">
+    <div class="scenario-card__num">ШАГ 01</div>
+    <div class="scenario-card__title">Найди терминал — он уже есть на твоём компьютере</div>
+    <div class="scenario-card__point">
+      <span class="scenario-card__point-label">Что это.</span>
+      <span class="scenario-card__point-text"> Чёрное окошко, куда вводят текстовые команды. Выглядит как из фильмов про хакеров, но по сути это просто чат с компьютером.</span>
+    </div>
+    <div class="scenario-card__point">
+      <span class="scenario-card__point-label">На Mac.</span>
+      <span class="scenario-card__point-text"> Нажми Cmd + пробел, набери «Терминал» и открой его.</span>
+    </div>
+    <div class="scenario-card__point">
+      <span class="scenario-card__point-label">На Windows.</span>
+      <span class="scenario-card__point-text"> Нажми Пуск, набери «PowerShell» и открой его.</span>
+    </div>
+    <div class="scenario-card__tip"><strong>Совет:</strong> команды в терминал не печатают руками — их копируют кнопочкой и вставляют: Cmd+V на Mac, правая кнопка мыши в PowerShell. Потом жмёшь Enter.</div>
+  </div>
+
+  <div class="scenario-card">
+    <div class="scenario-card__num">ШАГ 02</div>
+    <div class="scenario-card__title">Установи Node.js — фундамент, без него команды не работают</div>
+    <div class="scenario-card__point">
+      <span class="scenario-card__point-label">Что это.</span>
+      <span class="scenario-card__point-text"> Программа-помощник, через которую ставится и Claude Code, и почти все скиллы. Ставится как обычная программа: скачал — понажимал «Далее» — готово.</span>
+    </div>
+    <div class="scenario-card__point">
+      <span class="scenario-card__point-label">Где взять.</span>
+      <span class="scenario-card__point-text"> Зайди на nodejs.org и скачай зелёную кнопку LTS. После установки закрой терминал и открой заново.</span>
+    </div>
+    <div class="scenario-card__point">
+      <span class="scenario-card__point-label">Проверка.</span>
+      <span class="scenario-card__point-text"> Вставь в терминал команду ниже. Если в ответ видишь номер версии (например, v22.х) — всё получилось.</span>
+    </div>
+    <span class="cmd-line" id="cmd-node">node -v</span>
+    <button class="copy-btn" data-copy="cmd-node">Скопировать команду</button>
+  </div>
+
+  <div class="scenario-card">
+    <div class="scenario-card__num">ШАГ 03</div>
+    <div class="scenario-card__title">Установи Claude Code и войди в аккаунт</div>
+    <div class="scenario-card__point">
+      <span class="scenario-card__point-label">Установка.</span>
+      <span class="scenario-card__point-text"> Вставь в терминал команду ниже и дождись окончания (полминуты-минута).</span>
+    </div>
+    <span class="cmd-line" id="cmd-cc">npm install -g @anthropic-ai/claude-code</span>
+    <button class="copy-btn" data-copy="cmd-cc">Скопировать команду</button>
+    <div class="scenario-card__point" style="margin-top:16px;">
+      <span class="scenario-card__point-label">Вход.</span>
+      <span class="scenario-card__point-text"> Теперь набери в терминале слово claude и нажми Enter — откроется браузер, войди в свой аккаунт Claude. Это делается один раз.</span>
+    </div>
+    <div class="scenario-card__ending">Всё. У тебя есть Claude Code — можно ставить скиллы.</div>
+  </div>
+
+  <h2 class="section-heading"><span>02.</span> Как установить <em>любой скилл</em></h2>
 
   <div class="scenario-card">
     <div class="scenario-card__num">СПОСОБ 01</div>
@@ -227,7 +285,8 @@ body {
     <div class="scenario-card__ending">Оба способа занимают меньше 30 секунд.</div>
   </div>
 
-  <h2 class="section-heading"><span>02.</span> Десятка скиллов, <em>ради которых всё затевалось</em></h2>
+  <h2 class="section-heading"><span>03.</span> Десятка скиллов, <em>ради которых всё затевалось</em></h2>
+  <p class="text">Команды из блоков ниже вставляй в терминал, открытый в папке твоего проекта (или добавляй --global, чтобы скилл работал везде). Единственное исключение — Context Engineering Kit: его команда вставляется прямо в чат Claude Code.</p>
 
   <div class="prompt-box">
     <div class="prompt-box__title">1. UI/UX Pro Max</div>
@@ -309,7 +368,7 @@ body {
     <button class="copy-btn" data-copy="cmd-10">Скопировать команду</button>
   </div>
 
-  <h2 class="section-heading"><span>03.</span> Как выбирать и <em>не захламить</em> Claude</h2>
+  <h2 class="section-heading"><span>04.</span> Как выбирать и <em>не захламить</em> Claude</h2>
   <ul class="guide-list">
     <li><strong>Не ставь всё подряд.</strong> Каждый скилл занимает часть контекста модели — десяток лишних скиллов сделает Claude тупее, а не умнее.</li>
     <li><strong>Ставь под задачу.</strong> Пишешь тексты — Humanizer и Marketing Skills. Делаешь сайты — UI/UX Pro Max и Frontend Design. Остальное — когда понадобится.</li>
