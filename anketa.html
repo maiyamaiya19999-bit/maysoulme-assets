@@ -379,17 +379,28 @@
 
 <script>
 /* ═══ ОТПРАВКА ОТВЕТОВ ═══
-   Все 17 ответов собираются в одно письмо и отправляются в форму-приёмник Майи.
-   Каждая заполненная анкета = одна строка в Google-таблице «Новая форма (Ответы)». */
+   Каждый вопрос лендинга привязан к своему полю формы-приёмника Майи.
+   Одна заполненная анкета = одна строка в таблице, каждый ответ в своей колонке. */
 var FORM_ACTION = "https://docs.google.com/forms/d/e/1FAIpQLSfpJ44CerwY-llZIJtsWLtsfWeHYWevEJZ-oz5H54YEJ4o3Zw/formResponse";
-var ENTRY_ID = "entry.1740220496";
-var FIELDS = [
-  ["name","Имя"], ["tg","Ник в телеграме"], ["age","Возраст"], ["occupation","Чем занимается"],
-  ["income","Доход в месяц"], ["goal","Цель на полгода"], ["obstacle","Что мешает цели"],
-  ["blog","Ведёт ли блог"], ["ai_use","Использует ли ИИ"], ["ai_for","Для чего использует ИИ"],
-  ["ai_pain","Что раздражает в ИИ"], ["ai_tried","Что пробовала изучать"], ["actual","Что актуально"],
-  ["ideal","Идеальное обучение"], ["year","Лучший год"], ["question","Вопрос эксперту"], ["call","Готова к созвону"]
-];
+var ENTRIES = {
+  name:       "entry.1740220496",
+  tg:         "entry.1928225034",
+  age:        "entry.1951059619",
+  occupation: "entry.1956049209",
+  income:     "entry.386220680",
+  goal:       "entry.1537512746",
+  obstacle:   "entry.1889497973",
+  blog:       "entry.852741015",
+  ai_use:     "entry.308939407",
+  ai_for:     "entry.1729726899",
+  ai_pain:    "entry.547062445",
+  ai_tried:   "entry.1222410806",
+  actual:     "entry.2014224111",
+  ideal:      "entry.1640576803",
+  year:       "entry.223720002",
+  question:   "entry.750258597",
+  call:       "entry.1851149285"
+};
 
 var STEP_NAMES = {1:"Пара слов о тебе",2:"Твои цели",3:"Ты и ИИ",4:"Каким должно быть обучение"};
 var current = 1, TOTAL = 4;
@@ -456,16 +467,14 @@ $("#btnNext").addEventListener("click", function(){
 });
 
 function submitAll(){
-  var lines = [];
-  FIELDS.forEach(function(f){
-    var v = collect(f[0]);
-    lines.push(f[1] + ": " + (v || "—"));
-  });
-  var message = lines.join("\n");
-
-  // отправка в форму-приёмник → строка в Google-таблице Майи
+  // каждый ответ в своё поле формы-приёмника → своя колонка в таблице
   var fd = new FormData();
-  fd.append(ENTRY_ID, message);
+  var backup = [];
+  Object.keys(ENTRIES).forEach(function(k){
+    var v = collect(k);
+    fd.append(ENTRIES[k], v || "—");
+    backup.push(k + ": " + (v || "—"));
+  });
   try {
     if (navigator.sendBeacon) { navigator.sendBeacon(FORM_ACTION, fd); }
     else { fetch(FORM_ACTION, {method:"POST", mode:"no-cors", body:fd}); }
@@ -475,7 +484,7 @@ function submitAll(){
   // резервная копия на устройстве
   try {
     var arc = JSON.parse(localStorage.getItem("ms_anketa")||"[]");
-    arc.push(message); localStorage.setItem("ms_anketa", JSON.stringify(arc));
+    arc.push(backup.join("\n")); localStorage.setItem("ms_anketa", JSON.stringify(arc));
   } catch(e){}
 
   $("#surveyForm").style.display = "none";
