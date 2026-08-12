@@ -146,17 +146,17 @@
 <div class="wrap">
 
   <section class="hero" id="hero">
-    <div class="badge">Анкета</div>
-    <h1>Помогите собрать новый интенсив <em>по блогингу и ИИ</em></h1>
-    <p class="lead">Я обновляю свой интенсив и хочу построить его вокруг ваших настоящих задач, а не своих догадок. Отвечайте своими словами, честно — именно это мне ценно.</p>
+    <div class="badge">Мини-диагностика</div>
+    <h1>Помоги мне собрать новую программу <em>по ИИ</em></h1>
+    <p class="lead">Я создаю новую программу по внедрению ИИ в жизнь, работу и блог — и хочу построить её вокруг твоих настоящих задач, а не своих догадок. Отвечай своими словами, честно, именно это мне ценно.</p>
     <div class="meta">
-      <span>3–4 минуты</span>
-      <span>ответы читаю лично</span>
+      <span>5–7 минут</span>
+      <span>ответы читаю лично я</span>
     </div>
   </section>
 
   <div class="gift-teaser" id="giftTeaser">
-    🎁 Сразу после анкеты откроется доступ к промту для <b>экспертных разговорных роликов</b> и скиллу с инструкцией для новичков
+    🎁 Сразу после анкеты тебе откроется доступ к промту для <b>экспертных разговорных роликов</b> и скиллу с инструкцией для новичков
   </div>
 
   <form id="surveyForm" novalidate>
@@ -168,142 +168,173 @@
 
     <!-- STEP 1 -->
     <section class="step active" data-step="1">
-      <div class="step-title"><span class="num">01.</span>Пара слов о вас</div>
-      <p class="step-sub">Чтобы я понимала, кто вы и на каком этапе</p>
+      <div class="step-title"><span class="num">01.</span>Пара слов о тебе</div>
+      <p class="step-sub">Чтобы я понимала, кто ты</p>
+
+      <div class="q" data-name="name" data-required="1">
+        <label class="q-label">Как тебя зовут? <span class="req">*</span></label>
+        <input type="text" placeholder="Имя">
+        <div class="err">Напиши имя</div>
+      </div>
 
       <div class="q" data-name="tg" data-required="1">
-        <label class="q-label">Ваш ник в телеграме <span class="req">*</span>
+        <label class="q-label">Твой ник в телеграме <span class="req">*</span>
           <span class="q-hint">На него пришлю подарок и напишу, если позову на личный разговор</span></label>
-        <input type="text" placeholder="@ваш_ник">
-        <div class="err">Оставьте ник, иначе я не смогу прислать подарок</div>
+        <input type="text" placeholder="@ник">
+        <div class="err">Оставь ник, иначе я не смогу прислать подарок</div>
       </div>
 
-      <div class="q" data-name="niche">
-        <label class="q-label">Про что ваш блог? А если его пока нет — про что хотели бы вести?</label>
-        <input type="text" placeholder="Например: психология, кондитерка, стиль, мамский блог...">
-      </div>
-
-      <div class="q" data-name="stage" data-required="1">
-        <label class="q-label">На каком вы этапе с блогом? <span class="req">*</span></label>
+      <div class="q" data-name="age">
+        <label class="q-label">Сколько тебе лет?</label>
         <div class="opts">
-          <label class="opt"><input type="radio" name="stage" value="блога нет, собираюсь начать с нуля"><span>блога нет, собираюсь начать с «0»</span></label>
-          <label class="opt"><input type="radio" name="stage" value="блог есть, но веду редко / забросила"><span>блог есть, но веду редко / забросила</span></label>
-          <label class="opt"><input type="radio" name="stage" value="веду регулярно, но роста нет"><span>веду регулярно, но роста нет</span></label>
-          <label class="opt"><input type="radio" name="stage" value="веду активно, блог приносит доход"><span>веду активно, блог уже приносит доход</span></label>
+          <label class="opt"><input type="radio" name="age" value="до 20"><span>до 20</span></label>
+          <label class="opt"><input type="radio" name="age" value="20-25"><span>20–25</span></label>
+          <label class="opt"><input type="radio" name="age" value="26-35"><span>26–35</span></label>
+          <label class="opt"><input type="radio" name="age" value="36-45"><span>36–45</span></label>
+          <label class="opt"><input type="radio" name="age" value="45+"><span>45+</span></label>
         </div>
-        <div class="err">Выберите вариант</div>
       </div>
 
-      <div class="q" data-name="subs">
-        <label class="q-label">Сколько сейчас подписчиков?</label>
+      <div class="q" data-name="occupation" data-required="1">
+        <label class="q-label">Чем сейчас занимаешься? <span class="req">*</span></label>
         <div class="opts">
-          <label class="opt"><input type="radio" name="subs" value="начинаю с нуля"><span>начинаю с «0»</span></label>
-          <label class="opt"><input type="radio" name="subs" value="до 1000"><span>до 1.000</span></label>
-          <label class="opt"><input type="radio" name="subs" value="1000-10000"><span>1.000–10.000</span></label>
-          <label class="opt"><input type="radio" name="subs" value="10000-50000"><span>10.000–50.000</span></label>
-          <label class="opt"><input type="radio" name="subs" value="больше 50000"><span>больше 50.000</span></label>
+          <label class="opt"><input type="radio" name="occupation" value="работаю в найме"><span>работаю в найме</span></label>
+          <label class="opt"><input type="radio" name="occupation" value="свой бизнес / самозанятость"><span>свой бизнес / самозанятость</span></label>
+          <label class="opt"><input type="radio" name="occupation" value="фриланс"><span>фриланс</span></label>
+          <label class="opt"><input type="radio" name="occupation" value="в декрете / занимаюсь семьей"><span>в декрете / занимаюсь семьёй</span></label>
+          <label class="opt"><input type="radio" name="occupation" value="учусь"><span>учусь</span></label>
+          <label class="opt"><input type="radio" name="occupation" value="__other__"><span>другое:</span><input type="text" class="other-input" placeholder="напиши"></label>
+        </div>
+        <div class="err">Выбери вариант</div>
+      </div>
+
+      <div class="q" data-name="income">
+        <label class="q-label">Какой у тебя доход в месяц? <span class="q-hint">Если комфортно поделиться — это помогает собрать программу под реальные ситуации</span></label>
+        <div class="opts">
+          <label class="opt"><input type="radio" name="income" value="до 50 тыс"><span>до 50 тыс. ₽</span></label>
+          <label class="opt"><input type="radio" name="income" value="50-100 тыс"><span>50–100 тыс. ₽</span></label>
+          <label class="opt"><input type="radio" name="income" value="100-200 тыс"><span>100–200 тыс. ₽</span></label>
+          <label class="opt"><input type="radio" name="income" value="200-500 тыс"><span>200–500 тыс. ₽</span></label>
+          <label class="opt"><input type="radio" name="income" value="500 тыс - 1 млн"><span>500 тыс. – 1 млн ₽</span></label>
+          <label class="opt"><input type="radio" name="income" value="более 1 млн"><span>больше 1 млн ₽</span></label>
         </div>
       </div>
     </section>
 
     <!-- STEP 2 -->
     <section class="step" data-step="2">
-      <div class="step-title"><span class="num">02.</span>Вы и нейросети</div>
-      <p class="step-sub">Честно — тут нет правильных ответов</p>
+      <div class="step-title"><span class="num">02.</span>Твои цели</div>
+      <p class="step-sub">Самое интересное — пиши как есть</p>
 
-      <div class="q" data-name="ai_level" data-required="1">
-        <label class="q-label">Насколько плотно вы пользуетесь нейросетями? <span class="req">*</span></label>
-        <div class="opts">
-          <label class="opt"><input type="radio" name="ai_level" value="вообще не пользуюсь, страшно начать"><span>вообще не трогала, даже страшно начать</span></label>
-          <label class="opt"><input type="radio" name="ai_level" value="пробовала пару раз, не прижилось"><span>пробовала пару раз, не прижилось</span></label>
-          <label class="opt"><input type="radio" name="ai_level" value="пользуюсь иногда по мелочи"><span>пользуюсь иногда, по мелочи</span></label>
-          <label class="opt"><input type="radio" name="ai_level" value="пользуюсь почти каждый день"><span>пользуюсь почти каждый день</span></label>
-        </div>
-        <div class="err">Выберите вариант</div>
+      <div class="q" data-name="goal" data-required="1">
+        <label class="q-label">Какая у тебя главная цель на ближайшие полгода? <span class="req">*</span></label>
+        <textarea placeholder="Своими словами, без красивых формулировок"></textarea>
+        <div class="err">Напиши хотя бы пару фраз</div>
       </div>
 
-      <div class="q" data-name="ai_tasks">
-        <label class="q-label">Что вы уже пробовали отдать нейросетям? <span class="q-hint">Можно несколько</span></label>
-        <div class="opts">
-          <label class="opt"><input type="checkbox" name="ai_tasks" value="идеи для контента"><span>придумывать идеи для контента</span></label>
-          <label class="opt"><input type="checkbox" name="ai_tasks" value="сценарии для роликов"><span>писать сценарии для роликов</span></label>
-          <label class="opt"><input type="checkbox" name="ai_tasks" value="тексты постов"><span>писать тексты постов</span></label>
-          <label class="opt"><input type="checkbox" name="ai_tasks" value="фото и видео"><span>создавать фото / видео</span></label>
-          <label class="opt"><input type="checkbox" name="ai_tasks" value="пока ничего"><span>пока ничего</span></label>
-        </div>
+      <div class="q" data-name="obstacle" data-required="1">
+        <label class="q-label">Что сейчас больше всего мешает прийти к этой цели? <span class="req">*</span></label>
+        <textarea placeholder="Время, знания, страхи, деньги — что угодно, честно"></textarea>
+        <div class="err">Это один из самых важных вопросов — напиши пару фраз</div>
       </div>
 
-      <div class="q" data-name="barrier" data-required="1">
-        <label class="q-label">Что сильнее всего мешает внедрить ИИ в блог? <span class="req">*</span> <span class="q-hint">Можно несколько</span></label>
+      <div class="q" data-name="blog">
+        <label class="q-label">Ведёшь ли ты блог?</label>
         <div class="opts">
-          <label class="opt"><input type="checkbox" name="barrier" value="не знаю с чего начать"><span>не знаю, с чего начать</span></label>
-          <label class="opt"><input type="checkbox" name="barrier" value="кажется что это сложно"><span>кажется, что это сложно и не для меня</span></label>
-          <label class="opt"><input type="checkbox" name="barrier" value="не понимаю какие задачи отдать"><span>не понимаю, какие задачи можно отдать нейросети</span></label>
-          <label class="opt"><input type="checkbox" name="barrier" value="нет времени разбираться"><span>нет времени разбираться</span></label>
-          <label class="opt"><input type="checkbox" name="barrier" value="выдает не то что нужно"><span>пробовала, а она выдаёт фигню</span></label>
-          <label class="opt"><input type="checkbox" name="barrier" value="боюсь неживого контента"><span>боюсь, что контент выйдет «неживым», без меня</span></label>
-          <label class="opt"><input type="checkbox" name="barrier" value="__other__"><span>другое:</span><input type="text" class="other-input" placeholder="напишите"></label>
+          <label class="opt"><input type="radio" name="blog" value="нет и пока не планирую"><span>нет и пока не планирую</span></label>
+          <label class="opt"><input type="radio" name="blog" value="нет, но хочу начать"><span>нет, но хочу начать</span></label>
+          <label class="opt"><input type="radio" name="blog" value="веду, но нерегулярно"><span>веду, но нерегулярно</span></label>
+          <label class="opt"><input type="radio" name="blog" value="веду активно"><span>веду активно</span></label>
         </div>
-        <div class="err">Выберите хотя бы один вариант</div>
       </div>
     </section>
 
     <!-- STEP 3 -->
     <section class="step" data-step="3">
-      <div class="step-title"><span class="num">03.</span>Самое важное</div>
-      <p class="step-sub">Своими словами, как есть — это самая ценная часть анкеты</p>
+      <div class="step-title"><span class="num">03.</span>Ты и ИИ</div>
+      <p class="step-sub">Честно — тут нет правильных ответов</p>
 
-      <div class="q" data-name="pain" data-required="1">
-        <label class="q-label">Какая самая большая сложность с блогом у вас прямо сейчас? <span class="req">*</span></label>
-        <textarea placeholder="Пишите как думаете, без красивых формулировок"></textarea>
-        <div class="err">Это самый важный вопрос анкеты — напишите хотя бы пару фраз</div>
+      <div class="q" data-name="ai_use" data-required="1">
+        <label class="q-label">Используешь ли ты ИИ? <span class="req">*</span></label>
+        <div class="opts">
+          <label class="opt"><input type="radio" name="ai_use" value="нет, еще не пробовала"><span>нет, ещё не пробовала</span></label>
+          <label class="opt"><input type="radio" name="ai_use" value="пробовала пару раз, не прижилось"><span>пробовала пару раз, не прижилось</span></label>
+          <label class="opt"><input type="radio" name="ai_use" value="пользуюсь иногда"><span>пользуюсь иногда</span></label>
+          <label class="opt"><input type="radio" name="ai_use" value="пользуюсь почти каждый день"><span>пользуюсь почти каждый день</span></label>
+        </div>
+        <div class="err">Выбери вариант</div>
       </div>
 
-      <div class="q" data-name="tried">
-        <label class="q-label">Что вы уже пробовали, чтобы это решить? Почему не сработало?</label>
-        <textarea placeholder="Курсы, марафоны, сама по видео на ютубе..."></textarea>
+      <div class="q" data-name="ai_for">
+        <label class="q-label">Если используешь — для чего чаще всего? <span class="q-hint">Можно несколько</span></label>
+        <div class="opts">
+          <label class="opt"><input type="checkbox" name="ai_for" value="создание контента"><span>создание контента</span></label>
+          <label class="opt"><input type="checkbox" name="ai_for" value="работа"><span>работа</span></label>
+          <label class="opt"><input type="checkbox" name="ai_for" value="учеба"><span>учёба</span></label>
+          <label class="opt"><input type="checkbox" name="ai_for" value="автоматизация"><span>автоматизация</span></label>
+          <label class="opt"><input type="checkbox" name="ai_for" value="продажи"><span>продажи</span></label>
+          <label class="opt"><input type="checkbox" name="ai_for" value="поиск информации"><span>поиск информации</span></label>
+          <label class="opt"><input type="checkbox" name="ai_for" value="дизайн"><span>дизайн</span></label>
+          <label class="opt"><input type="checkbox" name="ai_for" value="__other__"><span>другое:</span><input type="text" class="other-input" placeholder="напиши"></label>
+        </div>
       </div>
 
-      <div class="q" data-name="dream" data-required="1">
-        <label class="q-label">Представьте: прошло 3 месяца после интенсива, и вы говорите «вау, оно того стоило». Что изменилось в вашем блоге и жизни? <span class="req">*</span></label>
-        <textarea placeholder="Опишите картинку результата, какой вы её видите"></textarea>
-        <div class="err">Напишите хотя бы пару фраз — это поможет мне сделать программу под вас</div>
+      <div class="q" data-name="ai_pain">
+        <label class="q-label">Что тебя больше всего раздражает или не получается при работе с ИИ?</label>
+        <textarea placeholder="Выдаёт не то, слишком сложно, непонятно с чего начать..."></textarea>
       </div>
 
-      <div class="q" data-name="stopper">
-        <label class="q-label">Что обычно останавливает вас от покупки обучений?</label>
-        <textarea placeholder="Честно: цена, недоверие, нет времени, прошлый опыт..."></textarea>
+      <div class="q" data-name="ai_tried">
+        <label class="q-label">Что ты уже пробовала изучать по ИИ? Получилось ли?</label>
+        <textarea placeholder="Курсы, ютуб, сама методом тыка — и что вышло"></textarea>
       </div>
     </section>
 
     <!-- STEP 4 -->
     <section class="step" data-step="4">
-      <div class="step-title"><span class="num">04.</span>Почти всё</div>
-      <p class="step-sub">Последние два вопроса — и подарок ваш</p>
+      <div class="step-title"><span class="num">04.</span>Каким должно быть обучение</div>
+      <p class="step-sub">Финальный рывок — и подарок твой 🎁</p>
 
-      <div class="q" data-name="format">
-        <label class="q-label">В каком формате вам удобнее всего учиться? <span class="q-hint">Можно несколько</span></label>
+      <div class="q" data-name="actual" data-required="1">
+        <label class="q-label">Что для тебя сейчас актуальнее всего? <span class="req">*</span> <span class="q-hint">Можно несколько</span></label>
         <div class="opts">
-          <label class="opt"><input type="checkbox" name="format" value="короткие видео-уроки"><span>короткие видео-уроки</span></label>
-          <label class="opt"><input type="checkbox" name="format" value="готовые промты и инструкции"><span>текстовые инструкции и готовые промты</span></label>
-          <label class="opt"><input type="checkbox" name="format" value="живые эфиры и разборы"><span>живые эфиры и разборы</span></label>
-          <label class="opt"><input type="checkbox" name="format" value="чат с поддержкой"><span>чат с поддержкой, где можно задать вопрос</span></label>
-          <label class="opt"><input type="checkbox" name="format" value="личная работа"><span>личная работа с Майей</span></label>
+          <label class="opt"><input type="checkbox" name="actual" value="изучить базу ИИ"><span>изучить базу ИИ с нуля</span></label>
+          <label class="opt"><input type="checkbox" name="actual" value="автоматизировать работу"><span>автоматизировать работу</span></label>
+          <label class="opt"><input type="checkbox" name="actual" value="увеличить доход"><span>увеличить доход</span></label>
+          <label class="opt"><input type="checkbox" name="actual" value="экономить время"><span>экономить время</span></label>
+          <label class="opt"><input type="checkbox" name="actual" value="делать контент быстрее"><span>делать контент быстрее</span></label>
+          <label class="opt"><input type="checkbox" name="actual" value="масштабировать бизнес"><span>масштабировать бизнес</span></label>
+          <label class="opt"><input type="checkbox" name="actual" value="научиться писать сильные промты"><span>научиться писать сильные промты</span></label>
+          <label class="opt"><input type="checkbox" name="actual" value="создать ИИ-ассистента"><span>создать своего ИИ-ассистента</span></label>
+          <label class="opt"><input type="checkbox" name="actual" value="__other__"><span>другое:</span><input type="text" class="other-input" placeholder="напиши"></label>
         </div>
+        <div class="err">Выбери хотя бы один вариант</div>
+      </div>
+
+      <div class="q" data-name="ideal" data-required="1">
+        <label class="q-label">Представь идеальное обучение по ИИ. Чему оно должно тебя научить, чтобы ты сказала «это то, что мне нужно»? <span class="req">*</span></label>
+        <textarea placeholder="Опиши, каким ты его видишь"></textarea>
+        <div class="err">Напиши хотя бы пару фраз — это поможет мне собрать программу под тебя</div>
+      </div>
+
+      <div class="q" data-name="year" data-required="1">
+        <label class="q-label">Представь: через год ты оглядываешься назад и говоришь «это был лучший год». Что изменилось в твоей жизни? <span class="req">*</span></label>
+        <textarea placeholder="Опиши картинку, какой ты её видишь"></textarea>
+        <div class="err">Напиши хотя бы пару фраз</div>
+      </div>
+
+      <div class="q" data-name="question">
+        <label class="q-label">Если бы ты могла задать эксперту по ИИ любой вопрос — что бы спросила?</label>
+        <textarea placeholder="Любой, даже самый «глупый» — таких не бывает"></textarea>
       </div>
 
       <div class="q" data-name="call">
-        <label class="q-label">Готовы пообщаться со мной или менеджером голосом минут 20? <span class="q-hint">Часть из вас я выборочно позову на личный разговор — копнуть ваш запрос глубже</span></label>
+        <label class="q-label">Готова пообщаться со мной или менеджером голосом минут 20? <span class="q-hint">Часть из вас я выборочно позову на личный разговор — копнуть запрос глубже</span></label>
         <div class="opts">
           <label class="opt"><input type="radio" name="call" value="да, с удовольствием"><span>да, с удовольствием</span></label>
           <label class="opt"><input type="radio" name="call" value="может быть, зависит от времени"><span>может быть, зависит от времени</span></label>
           <label class="opt"><input type="radio" name="call" value="нет, только анкета"><span>нет, мне комфортнее только анкета</span></label>
         </div>
-      </div>
-
-      <div class="q" data-name="free">
-        <label class="q-label">Хотите что-то сказать мне лично? <span class="q-hint">Я правда всё читаю 🤍</span></label>
-        <textarea placeholder="Любые мысли, вопросы, пожелания"></textarea>
       </div>
     </section>
 
@@ -318,24 +349,24 @@
     <div class="reward-head">
       <span class="emoji">🎁</span>
       <h2>Готово! Ваш доступ <em>открыт</em></h2>
-      <p>Спасибо вам огромное — вы очень помогли мне сделать интенсив сильнее. А это подарок за пройденную анкету, как обещала 🤍</p>
+      <p>Спасибо тебе огромное — ты очень помогла мне сделать новую программу сильнее. А это подарок за пройденную анкету, как обещала 🤍</p>
     </div>
 
     <a class="reward-card" href="reels-expert.html" target="_blank" rel="noopener">
       <div class="rc-tag">Подарок 1 · Промт</div>
       <h3>Экспертные разговорные ролики</h3>
-      <p>Полный гайд с готовыми промтами: как создавать разговорные экспертные reels, которые показывают вас профессионалом и приводят подписчиков</p>
+      <p>Полный гайд с готовыми промтами: как создавать разговорные экспертные reels, которые показывают тебя профессионалом и приводят подписчиков</p>
       <div class="rc-go">Открыть гайд →</div>
     </a>
 
     <a class="reward-card" href="guides/claude-skills/" target="_blank" rel="noopener">
       <div class="rc-tag">Подарок 2 · Скилл</div>
       <h3>Скиллы для Claude + установка для новичков</h3>
-      <p>Что такое скиллы, какие стоит поставить и пошаговая инструкция, как всё установить, даже если вы никогда этого не делали</p>
+      <p>Что такое скиллы, какие стоит поставить и пошаговая инструкция, как всё установить, даже если ты никогда этого не делала</p>
       <div class="rc-go">Открыть инструкцию →</div>
     </a>
 
-    <div class="reward-note">Персональный подарок пришлю в телеграм на ник из анкеты, а если позову на разговор — напишу лично 🤍</div>
+    <div class="reward-note">Персональный подарок пришлю тебе в телеграм на ник из анкеты, а если позову на разговор — напишу лично 🤍</div>
   </section>
 
 </div>
@@ -349,13 +380,13 @@
    Пока значения не заполнены, отправка идёт только в резервное хранилище. */
 var FORM_ACTION = "";  // например: https://docs.google.com/forms/d/e/ФОРМА_ID/formResponse
 var ENTRIES = {
-  tg: "", niche: "", stage: "", subs: "",
-  ai_level: "", ai_tasks: "", barrier: "",
-  pain: "", tried: "", dream: "", stopper: "",
-  format: "", call: "", free: ""
+  name: "", tg: "", age: "", occupation: "", income: "",
+  goal: "", obstacle: "", blog: "",
+  ai_use: "", ai_for: "", ai_pain: "", ai_tried: "",
+  actual: "", ideal: "", year: "", question: "", call: ""
 };
 
-var STEP_NAMES = {1:"Пара слов о вас",2:"Вы и нейросети",3:"Самое важное",4:"Почти всё"};
+var STEP_NAMES = {1:"Пара слов о тебе",2:"Твои цели",3:"Ты и ИИ",4:"Каким должно быть обучение"};
 var current = 1, TOTAL = 4;
 
 function $(s,c){return (c||document).querySelector(s)}
