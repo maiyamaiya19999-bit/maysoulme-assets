@@ -8,71 +8,132 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Inter:wght@400;500;600;700;800&family=DM+Sans:ital@1&display=swap" rel="stylesheet">
 <style>
+  :root { --accent: #710C04; }
   * { margin: 0; padding: 0; box-sizing: border-box; }
   body {
     font-family: 'Inter', -apple-system, sans-serif;
-    background: #ffffff;
-    color: #1a1a1a;
-    font-size: 17px;
-    line-height: 1.75;
+    background: #ffffff; color: #1a1a1a;
+    font-size: 17px; line-height: 1.7;
+    -webkit-font-smoothing: antialiased;
   }
   .navbar {
     position: sticky; top: 0; z-index: 100;
-    background: #ffffff;
-    border-bottom: 1px solid #f0f0f0;
+    background: #fff; border-bottom: 1px solid #f0f0f0;
     display: flex; align-items: center; justify-content: space-between;
     padding: 14px 24px;
   }
   .navbar img { height: 30px; display: block; }
-  .navbar .nick {
-    font-family: 'DM Sans', sans-serif; font-style: italic;
-    color: #888; font-size: 15px;
-  }
-  .wrap { max-width: 720px; margin: 0 auto; padding: 0 24px; }
-  .hero { padding: 64px 0 40px; text-align: center; }
+  .navbar .nick { font-family: 'DM Sans', sans-serif; font-style: italic; color: #888; font-size: 15px; }
+  .wrap { max-width: 640px; margin: 0 auto; padding: 0 22px; }
+
+  .hero { padding: 56px 0 36px; text-align: center; }
   .badge {
-    display: inline-block;
-    border: 1px solid #710C04; color: #710C04;
-    font-size: 11px; font-weight: 600;
-    letter-spacing: 0.18em; text-transform: uppercase;
-    padding: 6px 14px; margin-bottom: 28px;
+    display: inline-block; border: 1px solid var(--accent); color: var(--accent);
+    font-size: 11px; font-weight: 600; letter-spacing: 0.18em; text-transform: uppercase;
+    padding: 6px 14px; margin-bottom: 26px;
   }
   h1 {
     font-family: 'Libre Baskerville', Georgia, serif;
-    font-size: clamp(28px, 5vw, 40px);
-    font-weight: 700; line-height: 1.3;
-    margin-bottom: 20px;
+    font-size: clamp(27px, 5vw, 38px); font-weight: 700; line-height: 1.3;
+    margin-bottom: 18px;
   }
-  h1 em { font-style: italic; color: #710C04; }
-  .hero p.lead { color: #444; font-size: 18px; max-width: 560px; margin: 0 auto; }
-  .meta {
-    margin-top: 26px; color: #666; font-size: 14.5px;
-    display: flex; gap: 22px; justify-content: center; flex-wrap: wrap;
+  h1 em { font-style: italic; color: var(--accent); }
+  .lead { color: #444; font-size: 17.5px; max-width: 540px; margin: 0 auto; }
+  .meta { margin-top: 24px; color: #666; font-size: 14px; display: flex; gap: 20px; justify-content: center; flex-wrap: wrap; }
+  .meta span::before { content: ""; display: inline-block; width: 5px; height: 5px; background: var(--accent); border-radius: 50%; margin-right: 8px; vertical-align: 2px; }
+
+  .gift-teaser {
+    background: #f5f5f5; padding: 20px 24px; margin: 6px 0 40px;
+    font-size: 15.5px; color: #333; text-align: center;
   }
-  .meta span::before { content: ""; display: inline-block; width: 5px; height: 5px; background: #710C04; border-radius: 50%; margin-right: 9px; vertical-align: 2px; }
-  .highlight {
-    background: #f5f5f5;
-    padding: 24px 28px;
-    margin: 8px 0 40px;
-    font-size: 16.5px; color: #333;
+
+  /* Progress */
+  .progress { margin: 0 0 26px; }
+  .progress-label { font-size: 13px; color: #888; margin-bottom: 8px; display: flex; justify-content: space-between; }
+  .progress-bar { height: 3px; background: #eee; }
+  .progress-fill { height: 3px; background: var(--accent); width: 25%; transition: width .4s ease; }
+
+  /* Steps */
+  .step { display: none; animation: fade .35s ease; }
+  .step.active { display: block; }
+  @keyframes fade { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: none; } }
+  .step-title {
+    font-family: 'Libre Baskerville', Georgia, serif;
+    font-size: 21px; font-weight: 700; margin-bottom: 4px;
   }
-  .highlight b { color: #1a1a1a; }
-  .form-frame { margin: 0 0 56px; }
-  .form-frame iframe {
-    width: 100%; border: none; display: block;
-    min-height: 1900px;
+  .step-title .num { font-style: italic; color: var(--accent); margin-right: 8px; }
+  .step-sub { color: #666; font-size: 15px; margin-bottom: 26px; }
+
+  .q { margin-bottom: 28px; }
+  .q-label { font-weight: 600; font-size: 16.5px; margin-bottom: 12px; display: block; }
+  .q-label .req { color: var(--accent); }
+  .q-hint { font-weight: 400; color: #888; font-size: 14px; display: block; margin-top: 2px; }
+
+  input[type="text"], textarea {
+    width: 100%; border: 1px solid #ddd; background: #fff;
+    font-family: 'Inter', sans-serif; font-size: 16px; color: #1a1a1a;
+    padding: 13px 15px; outline: none; border-radius: 0;
+    transition: border-color .2s;
   }
-  .fallback { text-align: center; color: #666; font-size: 15px; margin: -30px 0 56px; }
-  .fallback a { color: #710C04; }
-  footer {
-    border-top: 1px solid #f0f0f0;
-    padding: 28px 24px; text-align: center;
-    color: #999; font-size: 13.5px;
+  input[type="text"]:focus, textarea:focus { border-color: var(--accent); }
+  textarea { min-height: 110px; resize: vertical; line-height: 1.6; }
+
+  .opts { display: flex; flex-direction: column; gap: 9px; }
+  .opt {
+    border: 1px solid #e4e4e4; background: #fff;
+    padding: 12px 15px; cursor: pointer; font-size: 15.5px;
+    display: flex; align-items: flex-start; gap: 11px;
+    transition: border-color .15s, background .15s;
+    user-select: none;
   }
-  @media (max-width: 600px) {
-    .hero { padding: 44px 0 28px; }
-    .highlight { padding: 20px 22px; }
+  .opt:hover { border-color: #bbb; }
+  .opt input { accent-color: var(--accent); margin-top: 4px; flex-shrink: 0; }
+  .opt.checked { border-color: var(--accent); background: #faf6f5; }
+  .opt .other-input { border: none; border-bottom: 1px solid #ccc; padding: 0 2px; font-size: 15.5px; flex: 1; display: none; }
+  .opt.checked .other-input { display: block; }
+
+  .err { color: var(--accent); font-size: 13.5px; margin-top: 8px; display: none; }
+  .q.invalid .err { display: block; }
+  .q.invalid input[type="text"], .q.invalid textarea { border-color: var(--accent); }
+
+  .nav-btns { display: flex; gap: 12px; margin: 34px 0 60px; }
+  .btn {
+    font-family: 'Inter', sans-serif; font-size: 15.5px; font-weight: 600;
+    padding: 14px 28px; cursor: pointer; border: none; border-radius: 0;
+    transition: opacity .15s;
   }
+  .btn:active { opacity: .8; }
+  .btn-primary { background: var(--accent); color: #fff; flex: 1; }
+  .btn-ghost { background: #fff; color: #555; border: 1px solid #ddd; }
+
+  /* Reward */
+  .reward { display: none; padding: 26px 0 60px; animation: fade .5s ease; }
+  .reward.active { display: block; }
+  .reward-head { text-align: center; margin-bottom: 36px; }
+  .reward-head .emoji { font-size: 44px; display: block; margin-bottom: 14px; }
+  .reward-head h2 {
+    font-family: 'Libre Baskerville', Georgia, serif;
+    font-size: 27px; font-weight: 700; margin-bottom: 12px;
+  }
+  .reward-head h2 em { font-style: italic; color: var(--accent); }
+  .reward-head p { color: #555; max-width: 480px; margin: 0 auto; font-size: 16px; }
+  .reward-card {
+    display: block; text-decoration: none; color: inherit;
+    border: 1px solid #e8e8e8; background: #f9f9f9;
+    padding: 24px 26px; margin-bottom: 16px;
+    transition: border-color .15s;
+  }
+  .reward-card:hover { border-color: var(--accent); }
+  .reward-card .rc-tag {
+    font-size: 11px; font-weight: 600; letter-spacing: 0.16em; text-transform: uppercase;
+    color: var(--accent); margin-bottom: 10px;
+  }
+  .reward-card h3 { font-family: 'Libre Baskerville', Georgia, serif; font-size: 18.5px; margin-bottom: 8px; }
+  .reward-card p { color: #555; font-size: 15px; }
+  .reward-card .rc-go { margin-top: 14px; font-size: 14.5px; font-weight: 600; color: var(--accent); }
+  .reward-note { background: #f5f5f5; padding: 18px 22px; margin-top: 22px; font-size: 15px; color: #444; text-align: center; }
+
+  footer { border-top: 1px solid #f0f0f0; padding: 26px 24px; text-align: center; color: #999; font-size: 13.5px; }
 </style>
 </head>
 <body>
@@ -84,30 +145,307 @@
 
 <div class="wrap">
 
-  <section class="hero">
+  <section class="hero" id="hero">
     <div class="badge">Анкета</div>
     <h1>Помогите собрать новый интенсив <em>по блогингу и ИИ</em></h1>
     <p class="lead">Я обновляю свой интенсив и хочу построить его вокруг ваших настоящих задач, а не своих догадок. Отвечайте своими словами, честно — именно это мне ценно.</p>
     <div class="meta">
       <span>3–4 минуты</span>
-      <span>каждой — подарок 🎁</span>
       <span>ответы читаю лично</span>
     </div>
   </section>
 
-  <div class="highlight">
-    <b>Как это работает:</b> вы заполняете анкету ниже, я изучаю каждый ответ, а часть из вас мы с менеджером позовём на личный разговор — чтобы копнуть ваш запрос глубже. Подарок пришлю в телеграм на ник, который вы оставите 🤍
+  <div class="gift-teaser" id="giftTeaser">
+    🎁 Сразу после анкеты откроется доступ к промту для <b>экспертных разговорных роликов</b> и скиллу с инструкцией для новичков
   </div>
 
-  <div class="form-frame">
-    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdaSBaG-DIXOrkfrrlUQBiL9GAQ6pgO11d9geKEPXEovDSTEA/viewform?embedded=true" loading="lazy" title="Анкета maysoulme">Загрузка…</iframe>
-  </div>
+  <form id="surveyForm" novalidate>
 
-  <p class="fallback">Если форма не открылась — <a href="https://docs.google.com/forms/d/e/1FAIpQLSdaSBaG-DIXOrkfrrlUQBiL9GAQ6pgO11d9geKEPXEovDSTEA/viewform" target="_blank" rel="noopener">заполнить её отдельной страницей</a></p>
+    <div class="progress" id="progress">
+      <div class="progress-label"><span id="stepLabel">Шаг 1 из 4</span><span id="stepName">Пара слов о вас</span></div>
+      <div class="progress-bar"><div class="progress-fill" id="progressFill"></div></div>
+    </div>
+
+    <!-- STEP 1 -->
+    <section class="step active" data-step="1">
+      <div class="step-title"><span class="num">01.</span>Пара слов о вас</div>
+      <p class="step-sub">Чтобы я понимала, кто вы и на каком этапе</p>
+
+      <div class="q" data-name="tg" data-required="1">
+        <label class="q-label">Ваш ник в телеграме <span class="req">*</span>
+          <span class="q-hint">На него пришлю подарок и напишу, если позову на личный разговор</span></label>
+        <input type="text" placeholder="@ваш_ник">
+        <div class="err">Оставьте ник, иначе я не смогу прислать подарок</div>
+      </div>
+
+      <div class="q" data-name="niche">
+        <label class="q-label">Про что ваш блог? А если его пока нет — про что хотели бы вести?</label>
+        <input type="text" placeholder="Например: психология, кондитерка, стиль, мамский блог...">
+      </div>
+
+      <div class="q" data-name="stage" data-required="1">
+        <label class="q-label">На каком вы этапе с блогом? <span class="req">*</span></label>
+        <div class="opts">
+          <label class="opt"><input type="radio" name="stage" value="блога нет, собираюсь начать с нуля"><span>блога нет, собираюсь начать с «0»</span></label>
+          <label class="opt"><input type="radio" name="stage" value="блог есть, но веду редко / забросила"><span>блог есть, но веду редко / забросила</span></label>
+          <label class="opt"><input type="radio" name="stage" value="веду регулярно, но роста нет"><span>веду регулярно, но роста нет</span></label>
+          <label class="opt"><input type="radio" name="stage" value="веду активно, блог приносит доход"><span>веду активно, блог уже приносит доход</span></label>
+        </div>
+        <div class="err">Выберите вариант</div>
+      </div>
+
+      <div class="q" data-name="subs">
+        <label class="q-label">Сколько сейчас подписчиков?</label>
+        <div class="opts">
+          <label class="opt"><input type="radio" name="subs" value="начинаю с нуля"><span>начинаю с «0»</span></label>
+          <label class="opt"><input type="radio" name="subs" value="до 1000"><span>до 1.000</span></label>
+          <label class="opt"><input type="radio" name="subs" value="1000-10000"><span>1.000–10.000</span></label>
+          <label class="opt"><input type="radio" name="subs" value="10000-50000"><span>10.000–50.000</span></label>
+          <label class="opt"><input type="radio" name="subs" value="больше 50000"><span>больше 50.000</span></label>
+        </div>
+      </div>
+    </section>
+
+    <!-- STEP 2 -->
+    <section class="step" data-step="2">
+      <div class="step-title"><span class="num">02.</span>Вы и нейросети</div>
+      <p class="step-sub">Честно — тут нет правильных ответов</p>
+
+      <div class="q" data-name="ai_level" data-required="1">
+        <label class="q-label">Насколько плотно вы пользуетесь нейросетями? <span class="req">*</span></label>
+        <div class="opts">
+          <label class="opt"><input type="radio" name="ai_level" value="вообще не пользуюсь, страшно начать"><span>вообще не трогала, даже страшно начать</span></label>
+          <label class="opt"><input type="radio" name="ai_level" value="пробовала пару раз, не прижилось"><span>пробовала пару раз, не прижилось</span></label>
+          <label class="opt"><input type="radio" name="ai_level" value="пользуюсь иногда по мелочи"><span>пользуюсь иногда, по мелочи</span></label>
+          <label class="opt"><input type="radio" name="ai_level" value="пользуюсь почти каждый день"><span>пользуюсь почти каждый день</span></label>
+        </div>
+        <div class="err">Выберите вариант</div>
+      </div>
+
+      <div class="q" data-name="ai_tasks">
+        <label class="q-label">Что вы уже пробовали отдать нейросетям? <span class="q-hint">Можно несколько</span></label>
+        <div class="opts">
+          <label class="opt"><input type="checkbox" name="ai_tasks" value="идеи для контента"><span>придумывать идеи для контента</span></label>
+          <label class="opt"><input type="checkbox" name="ai_tasks" value="сценарии для роликов"><span>писать сценарии для роликов</span></label>
+          <label class="opt"><input type="checkbox" name="ai_tasks" value="тексты постов"><span>писать тексты постов</span></label>
+          <label class="opt"><input type="checkbox" name="ai_tasks" value="фото и видео"><span>создавать фото / видео</span></label>
+          <label class="opt"><input type="checkbox" name="ai_tasks" value="пока ничего"><span>пока ничего</span></label>
+        </div>
+      </div>
+
+      <div class="q" data-name="barrier" data-required="1">
+        <label class="q-label">Что сильнее всего мешает внедрить ИИ в блог? <span class="req">*</span> <span class="q-hint">Можно несколько</span></label>
+        <div class="opts">
+          <label class="opt"><input type="checkbox" name="barrier" value="не знаю с чего начать"><span>не знаю, с чего начать</span></label>
+          <label class="opt"><input type="checkbox" name="barrier" value="кажется что это сложно"><span>кажется, что это сложно и не для меня</span></label>
+          <label class="opt"><input type="checkbox" name="barrier" value="не понимаю какие задачи отдать"><span>не понимаю, какие задачи можно отдать нейросети</span></label>
+          <label class="opt"><input type="checkbox" name="barrier" value="нет времени разбираться"><span>нет времени разбираться</span></label>
+          <label class="opt"><input type="checkbox" name="barrier" value="выдает не то что нужно"><span>пробовала, а она выдаёт фигню</span></label>
+          <label class="opt"><input type="checkbox" name="barrier" value="боюсь неживого контента"><span>боюсь, что контент выйдет «неживым», без меня</span></label>
+          <label class="opt"><input type="checkbox" name="barrier" value="__other__"><span>другое:</span><input type="text" class="other-input" placeholder="напишите"></label>
+        </div>
+        <div class="err">Выберите хотя бы один вариант</div>
+      </div>
+    </section>
+
+    <!-- STEP 3 -->
+    <section class="step" data-step="3">
+      <div class="step-title"><span class="num">03.</span>Самое важное</div>
+      <p class="step-sub">Своими словами, как есть — это самая ценная часть анкеты</p>
+
+      <div class="q" data-name="pain" data-required="1">
+        <label class="q-label">Какая самая большая сложность с блогом у вас прямо сейчас? <span class="req">*</span></label>
+        <textarea placeholder="Пишите как думаете, без красивых формулировок"></textarea>
+        <div class="err">Это самый важный вопрос анкеты — напишите хотя бы пару фраз</div>
+      </div>
+
+      <div class="q" data-name="tried">
+        <label class="q-label">Что вы уже пробовали, чтобы это решить? Почему не сработало?</label>
+        <textarea placeholder="Курсы, марафоны, сама по видео на ютубе..."></textarea>
+      </div>
+
+      <div class="q" data-name="dream" data-required="1">
+        <label class="q-label">Представьте: прошло 3 месяца после интенсива, и вы говорите «вау, оно того стоило». Что изменилось в вашем блоге и жизни? <span class="req">*</span></label>
+        <textarea placeholder="Опишите картинку результата, какой вы её видите"></textarea>
+        <div class="err">Напишите хотя бы пару фраз — это поможет мне сделать программу под вас</div>
+      </div>
+
+      <div class="q" data-name="stopper">
+        <label class="q-label">Что обычно останавливает вас от покупки обучений?</label>
+        <textarea placeholder="Честно: цена, недоверие, нет времени, прошлый опыт..."></textarea>
+      </div>
+    </section>
+
+    <!-- STEP 4 -->
+    <section class="step" data-step="4">
+      <div class="step-title"><span class="num">04.</span>Почти всё</div>
+      <p class="step-sub">Последние два вопроса — и подарок ваш</p>
+
+      <div class="q" data-name="format">
+        <label class="q-label">В каком формате вам удобнее всего учиться? <span class="q-hint">Можно несколько</span></label>
+        <div class="opts">
+          <label class="opt"><input type="checkbox" name="format" value="короткие видео-уроки"><span>короткие видео-уроки</span></label>
+          <label class="opt"><input type="checkbox" name="format" value="готовые промты и инструкции"><span>текстовые инструкции и готовые промты</span></label>
+          <label class="opt"><input type="checkbox" name="format" value="живые эфиры и разборы"><span>живые эфиры и разборы</span></label>
+          <label class="opt"><input type="checkbox" name="format" value="чат с поддержкой"><span>чат с поддержкой, где можно задать вопрос</span></label>
+          <label class="opt"><input type="checkbox" name="format" value="личная работа"><span>личная работа с Майей</span></label>
+        </div>
+      </div>
+
+      <div class="q" data-name="call">
+        <label class="q-label">Готовы пообщаться со мной или менеджером голосом минут 20? <span class="q-hint">Часть из вас я выборочно позову на личный разговор — копнуть ваш запрос глубже</span></label>
+        <div class="opts">
+          <label class="opt"><input type="radio" name="call" value="да, с удовольствием"><span>да, с удовольствием</span></label>
+          <label class="opt"><input type="radio" name="call" value="может быть, зависит от времени"><span>может быть, зависит от времени</span></label>
+          <label class="opt"><input type="radio" name="call" value="нет, только анкета"><span>нет, мне комфортнее только анкета</span></label>
+        </div>
+      </div>
+
+      <div class="q" data-name="free">
+        <label class="q-label">Хотите что-то сказать мне лично? <span class="q-hint">Я правда всё читаю 🤍</span></label>
+        <textarea placeholder="Любые мысли, вопросы, пожелания"></textarea>
+      </div>
+    </section>
+
+    <div class="nav-btns">
+      <button type="button" class="btn btn-ghost" id="btnBack" style="display:none">Назад</button>
+      <button type="button" class="btn btn-primary" id="btnNext">Дальше</button>
+    </div>
+  </form>
+
+  <!-- REWARD -->
+  <section class="reward" id="reward">
+    <div class="reward-head">
+      <span class="emoji">🎁</span>
+      <h2>Готово! Ваш доступ <em>открыт</em></h2>
+      <p>Спасибо вам огромное — вы очень помогли мне сделать интенсив сильнее. А это подарок за пройденную анкету, как обещала 🤍</p>
+    </div>
+
+    <a class="reward-card" href="reels-expert.html" target="_blank" rel="noopener">
+      <div class="rc-tag">Подарок 1 · Промт</div>
+      <h3>Экспертные разговорные ролики</h3>
+      <p>Полный гайд с готовыми промтами: как создавать разговорные экспертные reels, которые показывают вас профессионалом и приводят подписчиков</p>
+      <div class="rc-go">Открыть гайд →</div>
+    </a>
+
+    <a class="reward-card" href="guides/claude-skills/" target="_blank" rel="noopener">
+      <div class="rc-tag">Подарок 2 · Скилл</div>
+      <h3>Скиллы для Claude + установка для новичков</h3>
+      <p>Что такое скиллы, какие стоит поставить и пошаговая инструкция, как всё установить, даже если вы никогда этого не делали</p>
+      <div class="rc-go">Открыть инструкцию →</div>
+    </a>
+
+    <div class="reward-note">Персональный подарок пришлю в телеграм на ник из анкеты, а если позову на разговор — напишу лично 🤍</div>
+  </section>
 
 </div>
 
 <footer>© 2026 · maysoulme · Все права защищены</footer>
+
+<script>
+/* ═══ НАСТРОЙКА ОТПРАВКИ В GOOGLE ТАБЛИЦУ ═══
+   FORM_ACTION — адрес formResponse гугл-формы Майи.
+   ENTRIES — соответствие полей анкеты полям формы (entry.XXXXXXXX).
+   Пока значения не заполнены, отправка идёт только в резервное хранилище. */
+var FORM_ACTION = "";  // например: https://docs.google.com/forms/d/e/ФОРМА_ID/formResponse
+var ENTRIES = {
+  tg: "", niche: "", stage: "", subs: "",
+  ai_level: "", ai_tasks: "", barrier: "",
+  pain: "", tried: "", dream: "", stopper: "",
+  format: "", call: "", free: ""
+};
+
+var STEP_NAMES = {1:"Пара слов о вас",2:"Вы и нейросети",3:"Самое важное",4:"Почти всё"};
+var current = 1, TOTAL = 4;
+
+function $(s,c){return (c||document).querySelector(s)}
+function $$(s,c){return Array.prototype.slice.call((c||document).querySelectorAll(s))}
+
+// highlight checked options
+document.addEventListener("change", function(e){
+  if(e.target.matches(".opt input[type=radio]")){
+    $$("input[name="+e.target.name+"]").forEach(function(i){ i.closest(".opt").classList.toggle("checked", i.checked); });
+  }
+  if(e.target.matches(".opt input[type=checkbox]")){
+    e.target.closest(".opt").classList.toggle("checked", e.target.checked);
+  }
+});
+
+function collect(name){
+  var q = $('.q[data-name="'+name+'"]');
+  var t = $('input[type=text]', q); var ta = $("textarea", q);
+  var radios = $$("input[type=radio]", q); var checks = $$("input[type=checkbox]", q);
+  if(radios.length){ var r = radios.filter(function(i){return i.checked})[0]; return r ? r.value : ""; }
+  if(checks.length){
+    return checks.filter(function(i){return i.checked}).map(function(i){
+      if(i.value==="__other__"){ var o=$(".other-input", i.closest(".opt")); return o && o.value.trim() ? "другое: "+o.value.trim() : "другое"; }
+      return i.value;
+    }).join(", ");
+  }
+  if(ta) return ta.value.trim();
+  if(t) return t.value.trim();
+  return "";
+}
+
+function validateStep(n){
+  var ok = true;
+  $$('.step[data-step="'+n+'"] .q[data-required]').forEach(function(q){
+    var v = collect(q.dataset.name);
+    q.classList.toggle("invalid", !v);
+    if(!v) ok = false;
+  });
+  return ok;
+}
+
+function showStep(n){
+  $$(".step").forEach(function(s){ s.classList.toggle("active", +s.dataset.step===n); });
+  $("#stepLabel").textContent = "Шаг "+n+" из "+TOTAL;
+  $("#stepName").textContent = STEP_NAMES[n];
+  $("#progressFill").style.width = (n/TOTAL*100)+"%";
+  $("#btnBack").style.display = n>1 ? "block" : "none";
+  $("#btnNext").textContent = n===TOTAL ? "Готово 🎁" : "Дальше";
+  window.scrollTo({top: $("#progress").offsetTop - 70, behavior: "smooth"});
+}
+
+$("#btnBack").addEventListener("click", function(){ if(current>1){ current--; showStep(current);} });
+
+$("#btnNext").addEventListener("click", function(){
+  if(!validateStep(current)){
+    var firstInvalid = $('.step[data-step="'+current+'"] .q.invalid');
+    if(firstInvalid) firstInvalid.scrollIntoView({behavior:"smooth", block:"center"});
+    return;
+  }
+  if(current < TOTAL){ current++; showStep(current); return; }
+  submitAll();
+});
+
+function submitAll(){
+  var data = {};
+  Object.keys(ENTRIES).forEach(function(k){ data[k] = collect(k); });
+  data._ts = new Date().toISOString();
+
+  // отправка в гугл-форму (ответы падают в таблицу Майи)
+  if(FORM_ACTION){
+    var fd = new FormData();
+    Object.keys(ENTRIES).forEach(function(k){ if(ENTRIES[k] && data[k]) fd.append(ENTRIES[k], data[k]); });
+    try { navigator.sendBeacon ? navigator.sendBeacon(FORM_ACTION, fd)
+        : fetch(FORM_ACTION, {method:"POST", mode:"no-cors", body:fd}); } catch(e){}
+  }
+  // резервная копия на устройстве, чтобы ни один ответ не потерялся
+  try {
+    var arc = JSON.parse(localStorage.getItem("ms_anketa")||"[]");
+    arc.push(data); localStorage.setItem("ms_anketa", JSON.stringify(arc));
+  } catch(e){}
+
+  $("#surveyForm").style.display = "none";
+  $("#hero").style.display = "none";
+  $("#giftTeaser").style.display = "none";
+  $("#reward").classList.add("active");
+  window.scrollTo({top:0, behavior:"smooth"});
+}
+
+showStep(1);
+</script>
 
 </body>
 </html>
