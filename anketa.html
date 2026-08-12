@@ -378,17 +378,18 @@
 <footer>© 2026 · maysoulme · Все права защищены</footer>
 
 <script>
-/* ═══ НАСТРОЙКА ОТПРАВКИ В GOOGLE ТАБЛИЦУ ═══
-   FORM_ACTION — адрес formResponse гугл-формы Майи.
-   ENTRIES — соответствие полей анкеты полям формы (entry.XXXXXXXX).
-   Пока значения не заполнены, отправка идёт только в резервное хранилище. */
-var FORM_ACTION = "";  // например: https://docs.google.com/forms/d/e/ФОРМА_ID/formResponse
-var ENTRIES = {
-  name: "", tg: "", age: "", occupation: "", income: "",
-  goal: "", obstacle: "", blog: "",
-  ai_use: "", ai_for: "", ai_pain: "", ai_tried: "",
-  actual: "", ideal: "", year: "", question: "", call: ""
-};
+/* ═══ ОТПРАВКА ОТВЕТОВ ═══
+   Все 17 ответов собираются в одно письмо и отправляются в форму-приёмник Майи.
+   Каждая заполненная анкета = одна строка в Google-таблице «Новая форма (Ответы)». */
+var FORM_ACTION = "https://docs.google.com/forms/d/e/1FAIpQLSfpJ44CerwY-llZIJtsWLtsfWeHYWevEJZ-oz5H54YEJ4o3Zw/formResponse";
+var ENTRY_ID = "entry.1740220496";
+var FIELDS = [
+  ["name","Имя"], ["tg","Ник в телеграме"], ["age","Возраст"], ["occupation","Чем занимается"],
+  ["income","Доход в месяц"], ["goal","Цель на полгода"], ["obstacle","Что мешает цели"],
+  ["blog","Ведёт ли блог"], ["ai_use","Использует ли ИИ"], ["ai_for","Для чего использует ИИ"],
+  ["ai_pain","Что раздражает в ИИ"], ["ai_tried","Что пробовала изучать"], ["actual","Что актуально"],
+  ["ideal","Идеальное обучение"], ["year","Лучший год"], ["question","Вопрос эксперту"], ["call","Готова к созвону"]
+];
 
 var STEP_NAMES = {1:"Пара слов о тебе",2:"Твои цели",3:"Ты и ИИ",4:"Каким должно быть обучение"};
 var current = 1, TOTAL = 4;
@@ -455,21 +456,26 @@ $("#btnNext").addEventListener("click", function(){
 });
 
 function submitAll(){
-  var data = {};
-  Object.keys(ENTRIES).forEach(function(k){ data[k] = collect(k); });
-  data._ts = new Date().toISOString();
+  var lines = [];
+  FIELDS.forEach(function(f){
+    var v = collect(f[0]);
+    lines.push(f[1] + ": " + (v || "—"));
+  });
+  var message = lines.join("\n");
 
-  // отправка в гугл-форму (ответы падают в таблицу Майи)
-  if(FORM_ACTION){
-    var fd = new FormData();
-    Object.keys(ENTRIES).forEach(function(k){ if(ENTRIES[k] && data[k]) fd.append(ENTRIES[k], data[k]); });
-    try { navigator.sendBeacon ? navigator.sendBeacon(FORM_ACTION, fd)
-        : fetch(FORM_ACTION, {method:"POST", mode:"no-cors", body:fd}); } catch(e){}
+  // отправка в форму-приёмник → строка в Google-таблице Майи
+  var fd = new FormData();
+  fd.append(ENTRY_ID, message);
+  try {
+    if (navigator.sendBeacon) { navigator.sendBeacon(FORM_ACTION, fd); }
+    else { fetch(FORM_ACTION, {method:"POST", mode:"no-cors", body:fd}); }
+  } catch(e) {
+    try { fetch(FORM_ACTION, {method:"POST", mode:"no-cors", body:fd}); } catch(e2) {}
   }
-  // резервная копия на устройстве, чтобы ни один ответ не потерялся
+  // резервная копия на устройстве
   try {
     var arc = JSON.parse(localStorage.getItem("ms_anketa")||"[]");
-    arc.push(data); localStorage.setItem("ms_anketa", JSON.stringify(arc));
+    arc.push(message); localStorage.setItem("ms_anketa", JSON.stringify(arc));
   } catch(e){}
 
   $("#surveyForm").style.display = "none";
