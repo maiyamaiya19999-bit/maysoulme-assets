@@ -1,0 +1,149 @@
+{
+  "datasetVersion": 1,
+  "sentences": [
+    {
+      "id": 1,
+      "russian": "Я живу в Москве, но часто работаю из других городов.",
+      "english": "I live in Moscow, but I often work from other cities.",
+      "explanation": "I live — Present Simple, потому что это постоянный факт о жизни, а не временная ситуация. Формула: подлежащее + V1. live in + город = «жить в»: с городами и странами используется предлог in (in Moscow, in Russia). often — наречие частотности, его обычное место — перед смысловым глаголом: I often work, а не I work often. work from home / from other cities — устойчивый способ сказать «работать откуда-то»: from показывает точку, из которой ты работаешь. cities — множественное число от city: y после согласной меняется на ie (city → cities).",
+      "level": "A1",
+      "grammarTags": ["present-simple", "place-preposition", "word-order"],
+      "topicTags": ["acquaintance", "work"]
+    },
+    {
+      "id": 2,
+      "russian": "Что ты сейчас делаешь?",
+      "english": "What are you doing?",
+      "explanation": "Present Continuous, потому что вопрос о действии прямо сейчас, в момент разговора. Формула: am/is/are + V-ing. В вопросе вспомогательный глагол are выходит перед подлежащим: What are you doing?, а не What you are doing? Здесь не нужен do — do используется для вопросов в Present Simple (What do you do? = «кем ты работаешь / чем занимаешься вообще»). Сравни: What do you do? — про жизнь в целом, What are you doing? — про этот момент.",
+      "level": "A1",
+      "grammarTags": ["present-continuous", "question", "word-order"],
+      "topicTags": ["texting", "small-talk"]
+    },
+    {
+      "id": 3,
+      "russian": "Я не очень люблю говорить по телефону — мне проще писать.",
+      "english": "I don't really like talking on the phone — texting is easier for me.",
+      "explanation": "I don't like — отрицание в Present Simple строится через don't (do not) + V1. really стоит между don't и like: I don't really like = «не то чтобы очень люблю» (мягче, чем I really don't like — «совсем не люблю»). После like действие обычно идёт в форме -ing: like talking. on the phone — устойчивое выражение «по телефону», предлог on. Вторая часть — не буквальный перевод «мне проще писать»: естественнее сказать texting is easier for me, где герундий texting работает как подлежащее («переписка»). easier — сравнительная степень от easy: y → ier. По-русски «мне проще» — по-английски easier for me, без всяких «for me it is simpler to write».",
+      "level": "A2",
+      "grammarTags": ["present-simple", "negation", "gerund", "comparative", "preposition", "word-order"],
+      "topicTags": ["texting", "lifestyle", "communication"]
+    },
+    {
+      "id": 4,
+      "russian": "Ты когда-нибудь был в Италии?",
+      "english": "Have you ever been to Italy?",
+      "explanation": "Present Perfect, потому что спрашиваем о жизненном опыте вообще, без привязки к конкретному моменту. Формула: have/has + V3, в вопросе have выходит вперёд: Have you ever been…? ever = «когда-нибудь», ставится между подлежащим и V3. Обрати внимание на предлог: been to Italy, а не been in Italy — с Present Perfect об опыте поездок используется to, потому что смысл «съездил туда (и вернулся)». Если бы речь шла о конкретном прошлом моменте, был бы Past Simple: Were you in Italy last summer?",
+      "level": "A2",
+      "grammarTags": ["present-perfect", "question", "preposition"],
+      "topicTags": ["travel", "small-talk", "acquaintance"]
+    },
+    {
+      "id": 5,
+      "russian": "Сейчас я думаю о том, чтобы пожить некоторое время в другой стране.",
+      "english": "I'm thinking about living in another country for a while.",
+      "explanation": "I'm = I am. I'm thinking — Present Continuous по формуле am/is/are + V-ing. Continuous здесь показывает не действие в эту секунду, а процесс текущего периода: я сейчас обдумываю эту идею. think about — устойчивое сочетание «думать о». about — предлог, поэтому действие после него получает -ing: about living, а не about live. live in another country — «жить в другой стране», с странами предлог in. another используется с исчисляемым существительным в единственном числе и уже содержит артикль внутри (an + other), поэтому отдельный a не нужен. for a while — устойчивое выражение «какое-то время»: for + период показывает длительность.",
+      "level": "B1",
+      "grammarTags": ["present-continuous", "gerund", "preposition", "for-since", "article", "collocation"],
+      "topicTags": ["deep-talk", "plans", "travel"]
+    },
+    {
+      "id": 6,
+      "russian": "Я очень жду нашей встречи, но не хочу заранее строить слишком много ожиданий.",
+      "english": "I'm really looking forward to meeting you, but I don't want to build up too many expectations beforehand.",
+      "explanation": "I'm = I am. look forward to означает «с нетерпением ждать». В этой конструкции to — предлог, поэтому после него действие идёт в форме V-ing: looking forward to meeting, а не to meet. meet someone используется без with: meeting you. I don't want — отрицание в Present Simple через don't. После want идёт to + V1: want to build. Здесь два разных to: look forward to meeting → to — предлог → V-ing; want to build → to — часть инфинитива → V1. build up expectations — естественное сочетание «создавать/наращивать ожидания», build up — фразовый глагол. too many используется с исчисляемыми существительными во множественном числе: too many expectations (с неисчисляемыми было бы too much). beforehand = «заранее».",
+      "level": "B1",
+      "grammarTags": ["present-continuous", "look-forward-to", "to-preposition", "infinitive", "negation", "phrasal-verb", "quantifier", "collocation"],
+      "topicTags": ["dating", "feelings"]
+    },
+    {
+      "id": 7,
+      "russian": "Когда ты позвонил, я работала, поэтому не смогла ответить.",
+      "english": "I was working when you called, so I couldn't pick up.",
+      "explanation": "Два прошедших времени в контрасте. I was working — Past Continuous (was/were + V-ing): длительный фон, действие было в процессе. when you called — Past Simple: короткое событие, которое произошло на этом фоне. Классическая пара: was doing when did. couldn't = could not — «не смогла», прошедшее от can't. После модального глагола идёт голый инфинитив без to: couldn't pick up, а не couldn't to pick up. pick up — фразовый глагол «взять трубку, ответить на звонок»; answer the phone тоже можно, но в живой речи чаще pick up. so = «поэтому», связывает причину и следствие.",
+      "level": "B1",
+      "grammarTags": ["past-continuous", "past-simple", "modal", "bare-infinitive", "negation", "phrasal-verb"],
+      "topicTags": ["texting", "daily-life"]
+    },
+    {
+      "id": 8,
+      "russian": "Мне интересно, что ты ищешь в отношениях.",
+      "english": "I'm curious about what you're looking for in a relationship.",
+      "explanation": "I'm curious about — «мне любопытно/интересно»: прилагательное curious требует предлог about. Дальше идёт косвенный вопрос what you're looking for — и в нём обычный порядок слов, без вспомогательного do: what you're looking for, а не what are you looking for (прямой вопрос был бы What are you looking for?). look for — фразовый глагол «искать»: предлог for уходит в конец — what you're looking for. you're looking — Present Continuous, потому что поиск — текущий процесс этого периода жизни. in a relationship — устойчивое «в отношениях»; артикль a, потому что речь об отношениях как об одном (пока абстрактном) варианте, а не о конкретных известных отношениях.",
+      "level": "B1",
+      "grammarTags": ["indirect-question", "present-continuous", "phrasal-verb", "preposition", "article", "word-order"],
+      "topicTags": ["dating", "deep-talk"]
+    },
+    {
+      "id": 9,
+      "russian": "Если всё пройдёт хорошо, я останусь там подольше.",
+      "english": "If everything goes well, I'll stay longer.",
+      "explanation": "First Conditional — реальное условие о будущем. Правило: в части с if используется Present Simple, хотя речь о будущем: If everything goes well, а не If everything will go well. will живёт только в главной части: I'll stay. I'll = I will. everything — единственное число, поэтому goes с окончанием -s. go well — устойчивое сочетание «пройти хорошо» (well — наречие, good — прилагательное: things go well, но things are good). stay longer — «остаться дольше», сравнительная степень long → longer; слово «там» в переводе не нужно, англичанин скажет просто stay longer, место понятно из контекста.",
+      "level": "B1",
+      "grammarTags": ["conditional-1", "present-simple", "future-will", "comparative", "collocation"],
+      "topicTags": ["plans", "travel"]
+    },
+    {
+      "id": 10,
+      "russian": "В последнее время я так много работаю, что почти ни с кем не вижусь.",
+      "english": "I've been working so much lately that I hardly see anyone.",
+      "explanation": "I've been working — Present Perfect Continuous: have/has + been + V-ing. Это время для действия, которое началось в прошлом и продолжается до сих пор, с акцентом на процесс и длительность. Маркер lately («в последнее время») — типичный спутник именно этого времени. so much… that… — конструкция «так много…, что…». hardly = «почти не» — само по себе отрицательное слово, поэтому дополнительное not не нужно: I hardly see, а не I don't hardly see. С hardly используется anyone, а не no one: hardly see anyone = «почти ни с кем не вижусь». see someone здесь — «видеться с кем-то», без with.",
+      "level": "B1",
+      "grammarTags": ["present-perfect-continuous", "present-simple", "negation", "word-order", "collocation"],
+      "topicTags": ["work", "lifestyle", "texting"]
+    },
+    {
+      "id": 11,
+      "russian": "Мой рейс отменили, поэтому мне пришлось поменять все планы.",
+      "english": "My flight was canceled, so I had to change all my plans.",
+      "explanation": "My flight was canceled — Passive Voice в Past Simple: was/were + V3. Пассив здесь естественен, потому что неважно, кто именно отменил рейс — важно, что это случилось с рейсом. По-русски «рейс отменили» — безличная конструкция, по-английски она передаётся именно пассивом. canceled — американское написание (британское — cancelled). had to — прошедшее время от have to («пришлось»): must прошедшей формы не имеет, поэтому вынужденность в прошлом — всегда had to + V1. change my plans — обрати внимание: по-английски обычно уточняют чьи планы — my plans, а не просто the plans.",
+      "level": "B1",
+      "grammarTags": ["passive", "past-simple", "modal", "infinitive"],
+      "topicTags": ["travel", "daily-life"]
+    },
+    {
+      "id": 12,
+      "russian": "Если бы у меня было больше свободного времени, я бы чаще путешествовала.",
+      "english": "If I had more free time, I'd travel more often.",
+      "explanation": "Second Conditional — нереальное или маловероятное условие о настоящем: «сейчас времени нет, но если бы было». Формула: If + Past Simple, would + V1. If I had — это не про прошлое: Past Simple здесь показывает нереальность, а не время. I'd = I would (не I had — после would идёт голый глагол travel, это и подсказывает). more free time — сравнительная степень: more + неисчисляемое существительное. time здесь неисчисляемое, поэтому much/more, а не many. more often — «чаще»: у наречия often сравнительная степень образуется через more.",
+      "level": "B1",
+      "grammarTags": ["conditional-2", "past-simple", "modal", "countable-uncountable", "comparative", "word-order"],
+      "topicTags": ["deep-talk", "travel", "lifestyle"]
+    },
+    {
+      "id": 13,
+      "russian": "Можешь дать мне совет? Мне нужно принять непростое решение.",
+      "english": "Can you give me some advice? I need to make a tough decision.",
+      "explanation": "Can you…? — самый нейтральный способ попросить. После модального can идёт голый инфинитив: can you give. give me some advice — advice неисчисляемое существительное: нельзя сказать an advice или advices. Поэтому берём some advice («немного совета») или a piece of advice («один совет»). I need to — после need идёт to + V1: need to make. make a decision — устойчивое сочетание: решения по-английски «делают» (make), а не «принимают» (take a decision звучит по-британски формально, accept — вообще неверно). tough = «трудный, непростой» — живое разговорное слово (произносится «таф»). Артикль a — потому что решение исчисляемое и упоминается впервые.",
+      "level": "A2",
+      "grammarTags": ["modal", "question", "bare-infinitive", "infinitive", "countable-uncountable", "quantifier", "article", "collocation"],
+      "topicTags": ["communication", "deep-talk"]
+    },
+    {
+      "id": 14,
+      "russian": "Я привыкла путешествовать одна, но с тобой мне было бы веселее.",
+      "english": "I'm used to traveling alone, but it would be more fun with you.",
+      "explanation": "be used to + V-ing = «быть привычным к чему-то»: I'm used to traveling. Здесь to — предлог, поэтому после него -ing: to traveling, а не to travel. Не путай три конструкции: I used to travel (раньше путешествовала, а теперь нет), I'm used to traveling (привыкла путешествовать), I'm getting used to traveling (привыкаю). alone = «одна, в одиночку» — нейтральное слово, без оттенка грусти (lonely — это «одиноко» как чувство). it would be more fun — would показывает воображаемую ситуацию («было бы»), это скрытый Second Conditional без произнесённого if. fun — существительное, поэтому сравнение через more: more fun, а не funner (и не funnier — funny означает «смешной», а не «весёлый»).",
+      "level": "B2",
+      "grammarTags": ["be-used-to", "to-preposition", "gerund", "modal", "conditional-2", "comparative", "collocation"],
+      "topicTags": ["travel", "dating", "humor"]
+    },
+    {
+      "id": 15,
+      "russian": "Расскажи, чем ты увлекаешься, когда не работаешь.",
+      "english": "Tell me what you're into when you're not working.",
+      "explanation": "Tell me what… — косвенный вопрос после tell me: внутри него обычный порядок слов, без do: what you're into, а не what are you into. be into something — очень живое разговорное «увлекаться чем-то»: I'm into music = «я фанат музыки». into здесь предлог, после него шло бы существительное или -ing. when you're not working — Present Continuous в отрицании: are not + V-ing; речь о периодах, когда ты не занята работой. Обрати внимание, что императив Tell me — нормальная вежливая форма в дружеской переписке, смягчать через could you необязательно.",
+      "level": "B1",
+      "grammarTags": ["imperative", "indirect-question", "present-continuous", "negation", "preposition", "collocation", "word-order"],
+      "topicTags": ["interests", "acquaintance", "texting"]
+    },
+    {
+      "id": 16,
+      "russian": "К пятнице я уже приму решение — обещаю.",
+      "english": "I'll have made a decision by Friday — I promise.",
+      "explanation": "I'll have made — Future Perfect: will have + V3. Это время говорит «к какому-то моменту в будущем действие уже будет завершено». Ключевой маркер — by Friday: by + момент времени = «не позднее, к». Сравни: by Friday — к пятнице (крайний срок), until Friday — до пятницы (действие длится до этого момента). made — V3 от неправильного глагола make (make — made — made). make a decision — устойчивое «принять решение». I promise — Present Simple, потому что обещание совершается самим произнесением слова, здесь не нужно will.",
+      "level": "B2",
+      "grammarTags": ["future-perfect", "by-until", "time-preposition", "present-simple", "collocation"],
+      "topicTags": ["texting", "plans"]
+    }
+  ]
+}
