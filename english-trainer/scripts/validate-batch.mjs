@@ -64,6 +64,34 @@ for (const [tag, min] of Object.entries(brief.topicQuotas)) {
   if ((tCount[tag] ?? 0) < min) errors.push(`Квота topic ${tag}: ${tCount[tag] ?? 0} < ${min}`);
 }
 
+// Дубли с другими пакетами (агенты не видят чужие пакеты, проверяем здесь)
+import { readdirSync, existsSync } from "node:fs";
+const normalize = (s) =>
+  s.toLowerCase().replace(/[’']/g, "'").replace(/[ё]/g, "е").replace(/[—–-]/g, "-").replace(/\s+/g, " ").replace(/[.,!?;:()"«»]/g, "").trim();
+const own = new Set(arr.map((s) => s.id));
+const batchesDir = join(__dirname, "../src/data/batches");
+const others = [];
+if (existsSync(batchesDir)) {
+  for (const f of readdirSync(batchesDir).filter((x) => /^batch-\d\d\.json$/.test(x))) {
+    if (f === `batch-${nn}.json`) continue;
+    others.push(...JSON.parse(readFileSync(join(batchesDir, f), "utf8")));
+  }
+}
+const ruMap = new Map();
+const enMap = new Map();
+for (const s of others) {
+  if (!own.has(s.id)) {
+    ruMap.set(normalize(s.russian ?? ""), s.id);
+    enMap.set(normalize(s.english ?? ""), s.id);
+  }
+}
+for (const s of arr) {
+  const ru = ruMap.get(normalize(s.russian ?? ""));
+  if (ru !== undefined) errors.push(`id=${s.id}: russian дублирует №${ru} из другого пакета`);
+  const en = enMap.get(normalize(s.english ?? ""));
+  if (en !== undefined) errors.push(`id=${s.id}: english дублирует №${en} из другого пакета`);
+}
+
 // Структурная проверка через основной валидатор
 const tmp = join(mkdtempSync(join(tmpdir(), "et-batch-")), "ds.json");
 writeFileSync(tmp, JSON.stringify({ datasetVersion: 1, sentences: arr }));

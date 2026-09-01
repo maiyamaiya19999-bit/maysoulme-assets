@@ -1,0 +1,452 @@
+[
+  {
+    "id": 451,
+    "russian": "Я работаю дизайнером на фрилансе, и у меня сейчас три проекта одновременно.",
+    "english": "I work as a freelance designer, and I have three projects going on at the same time.",
+    "explanation": "I work и I have — Present Simple, потому что речь о постоянной ситуации: профессия и общее положение дел, а не действие в момент речи. «Работаю кем-то» — work as + профессия, и артикль обязателен: a freelance designer, потому что я «одна из» дизайнеров (в русском артикля нет, и его легко потерять). «У меня есть» передаётся через have, а не через there is: I have three projects. Going on после существительного — разговорное «идут, находятся в работе»: three projects going on. At the same time — устойчивое сочетание «одновременно», именно с предлогом at и артиклем the; in one time или simultaneously in a chat звучало бы неестественно.",
+    "level": "A2",
+    "grammarTags": ["present-simple", "article", "collocation", "preposition"],
+    "topicTags": ["work", "acquaintance"]
+  },
+  {
+    "id": 452,
+    "russian": "А чем именно ты занимаешься на работе? Расскажи, мне правда интересно.",
+    "english": "So what exactly do you do for work? Tell me more — I'm really curious.",
+    "explanation": "What do you do? — классический вопрос о профессии в Present Simple: вспомогательный do выходит вперёд, а второй do — смысловой глагол «делать», поэтому do встречается дважды и это нормально. Exactly ставится после вопросительного слова: what exactly. «На работе» здесь не at work (это «на рабочем месте»), а for work — устойчивое «в плане работы, кем работаешь». Tell me more — повелительное наклонение: глагол в начальной форме без to и без подлежащего; после tell адресат идёт без предлога (tell me, а не tell to me). I'm really curious — «мне правда интересно» по-английски строится через прилагательное: я = любопытная, I'm curious; усиление — really, а не very со связкой (интонация «правда» = really).",
+    "level": "A2",
+    "grammarTags": ["question", "present-simple", "imperative", "preposition"],
+    "topicTags": ["acquaintance", "work", "communication"]
+  },
+  {
+    "id": 453,
+    "russian": "Мой любимый клиент — маленькая кофейня: в прошлом году я сделала для них сайт.",
+    "english": "My favorite client is a small coffee shop — I made a website for them last year.",
+    "explanation": "В русском между подлежащим и сказуемым стоит тире, но в английском глагол-связка обязателен: My favorite client is… A small coffee shop — артикль a, потому что кофейня упоминается впервые и она «одна из» кофеен. I made — Past Simple от неправильного глагола make—made—made: действие полностью в прошлом, есть маркер last year (обрати внимание: last year без предлога in). A website — снова a: один сайт, впервые в разговоре. For them — «для них»: о компании по-английски часто говорят they/them, как о коллективе людей. Favorite — американское написание (британское favourite).",
+    "level": "A2",
+    "grammarTags": ["present-simple", "past-simple", "article", "preposition"],
+    "topicTags": ["work"]
+  },
+  {
+    "id": 454,
+    "russian": "Клиент опять всё поменял в последний момент — представляешь?",
+    "english": "The client changed everything at the last minute again — can you believe it?",
+    "explanation": "The client — определённый артикль: это мой конкретный клиент, о котором собеседник уже знает из контекста. Changed — Past Simple: конкретное завершённое событие. At the last minute — устойчивое выражение «в последний момент»: именно предлог at и артикль the, буквальный перевод in the last moment — калька. Again «опять» уходит в конец предложения. Can you believe it? — живой разговорный аналог «представляешь?!»: модальный can в вопросе выходит перед подлежащим (инверсия), it обязательно — «можешь ты в это поверить». Русское «представляешь» не переводится буквально через imagine — can you believe it звучит куда естественнее.",
+    "level": "B1",
+    "grammarTags": ["past-simple", "collocation", "question", "modal", "article"],
+    "topicTags": ["work", "humor", "texting"]
+  },
+  {
+    "id": 455,
+    "russian": "Сколько у тебя сейчас клиентов? Ты работаешь один или с командой?",
+    "english": "How many clients do you have right now? Do you work alone or with a team?",
+    "explanation": "How many + исчисляемое существительное во множественном числе: how many clients (с неисчисляемым было бы how much). Дальше обычный порядок вопроса Present Simple: вспомогательный do + подлежащее + have. «У тебя есть» — do you have, а не is there by you: обладание в английском выражается глаголом have. Второй вопрос — Do you work…? — тоже Present Simple, потому что спрашиваем о постоянном устройстве работы, а не о данном моменте. Alone — «один, в одиночку» (не one — это числительное). With a team — предлог with «с» и артикль a: какая-то команда, впервые упомянутая. Or соединяет альтернативы внутри одного вопроса.",
+    "level": "A2",
+    "grammarTags": ["question", "present-simple", "quantifier", "preposition", "article"],
+    "topicTags": ["work", "acquaintance"]
+  },
+  {
+    "id": 456,
+    "russian": "У меня жёсткий дедлайн в пятницу, поэтому на этой неделе я почти не сплю.",
+    "english": "I have a tight deadline on Friday, so I'm barely sleeping this week.",
+    "explanation": "I have a tight deadline — Present Simple: констатация факта; tight deadline — устойчивая пара «жёсткий дедлайн» (именно tight, а не hard/strict), артикль a — один конкретный, но впервые названный дедлайн. On Friday — с днями недели всегда предлог on (не in и не at). I'm barely sleeping — Present Continuous, хотя сон вроде бы «привычка»: время выбрано потому, что это временная ситуация именно этого периода (this week), отклонение от нормы. Barely = «едва, почти не» — слово уже почти отрицательное, поэтому not не нужно: barely sleeping, а не don't barely sleep. This week — без предлога: со словами this/last/next предлог времени опускается.",
+    "level": "B1",
+    "grammarTags": ["present-simple", "present-continuous", "time-preposition", "collocation", "article"],
+    "topicTags": ["work", "daily-life"]
+  },
+  {
+    "id": 457,
+    "russian": "Если закончу проект к четвергу, возьму в пятницу выходной.",
+    "english": "If I finish the project by Thursday, I'll take Friday off.",
+    "explanation": "First Conditional — реальное условие о будущем. Главное правило: в части с if будущее время НЕ ставится — только Present Simple: If I finish, а не If I will finish, хотя по-русски «если закончу» звучит как будущее. Will живёт только в главной части: I'll take. By Thursday — предлог by о крайнем сроке: «к четвергу, не позже четверга»; until значил бы «непрерывно до четверга» (work until Thursday — работать вплоть до). Take Friday off — фразовый глагол take off в значении «взять выходной»: объект (Friday) встаёт между глаголом и частицей; та же модель — take a day off, take some time off. The project — the, потому что оба понимают, о каком проекте речь.",
+    "level": "B1",
+    "grammarTags": ["conditional-1", "future-will", "by-until", "phrasal-verb", "article"],
+    "topicTags": ["work", "plans"]
+  },
+  {
+    "id": 458,
+    "russian": "Я не успею закончить всё вовремя — придётся попросить ещё пару дней.",
+    "english": "I'm not going to finish everything on time, so I'll have to ask for a couple more days.",
+    "explanation": "I'm not going to finish — отрицание be going to: not после am. Going to выбран, а не will, потому что это предсказание на основе того, что я уже вижу сейчас (завал очевиден). I'll have to — «придётся»: у must нет будущего времени, поэтому будущее долженствование выражается will + have to. Ask for + то, что просишь: попросить дни = ask for days; без for ask значит «спросить, задать вопрос» (ask a question), и русская модель «попросить что-то» без предлога — частая ошибка. On time — «вовремя, в срок» (in time — «успеть к моменту, пока не поздно» — другой смысл). A couple more days — обрати внимание на порядок: more после couple, «ещё пару дней».",
+    "level": "B1",
+    "grammarTags": ["negation", "going-to", "future-will", "modal", "collocation", "preposition"],
+    "topicTags": ["work", "communication"]
+  },
+  {
+    "id": 459,
+    "russian": "Ты когда-нибудь срывал дедлайн? Мне нужна история, чтобы мне стало легче.",
+    "english": "Have you ever missed a deadline? I need a story to make me feel better.",
+    "explanation": "Have you ever missed…? — Present Perfect для вопроса о жизненном опыте вообще, без привязки к конкретному моменту: формула have/has + V3, в вопросе have выходит вперёд, ever «когда-нибудь» встаёт между подлежащим и V3. Miss a deadline — устойчивое «сорвать/пропустить дедлайн» (не break и не fail — collocation именно с miss); a deadline — любой, хоть какой-нибудь, поэтому a. I need a story — Present Simple: need — глагол состояния. To make — инфинитив цели, «чтобы»: a story to make me feel better. И ключевое: после make инфинитив идёт БЕЗ to — make me feel, а не make me to feel; make somebody do something = «заставить/сделать так, чтобы». Feel better — «почувствовать себя лучше», без myself: feel myself — ошибка-калька.",
+    "level": "B1",
+    "grammarTags": ["question", "present-perfect", "infinitive", "bare-infinitive", "present-simple", "article"],
+    "topicTags": ["work", "texting", "humor"]
+  },
+  {
+    "id": 460,
+    "russian": "Вчера я работала до полуночи, а сегодня встала в шесть.",
+    "english": "Yesterday I worked until midnight, and this morning I got up at six.",
+    "explanation": "Оба действия — законченные события в прошлом с маркерами yesterday и this morning, поэтому Past Simple: worked (правильный глагол, +ed) и got up (неправильный: get—got—gotten). Get up — фразовый глагол «вставать с постели» (wake up — «проснуться», это раньше). Until midnight — until о действии, которое длилось вплоть до точки: «работала до полуночи и в полночь закончила»; by было бы о дедлайне «к полуночи». Midnight без артикля — как noon, устойчиво. At six — точное время всегда с at (at six, at 6 a.m.). This morning — без предлога: с this/last/next предлоги времени не ставятся (не in this morning).",
+    "level": "A2",
+    "grammarTags": ["past-simple", "time-preposition", "by-until", "phrasal-verb"],
+    "topicTags": ["work", "daily-life"]
+  },
+  {
+    "id": 461,
+    "russian": "Клиент перенёс наш созвон на завтра, так что вечер у меня внезапно свободен.",
+    "english": "The client moved our call to tomorrow, so my evening is suddenly free.",
+    "explanation": "The client — определённый артикль: мой конкретный клиент, понятный из контекста. Moved — Past Simple: событие уже произошло. «Перенести на» по-английски — move something to: moved our call to tomorrow; распространённая калька transfer здесь не подходит (transfer — про деньги и переводы). Call — обычное слово для «созвона» (video call, если по видео). My evening is free — обрати внимание: по-русски «вечер у меня свободен», а по-английски принадлежность выражается притяжательным местоимением прямо при существительном: my evening. Suddenly встаёт между is и free — наречие при составном сказуемом идёт после глагола be.",
+    "level": "A2",
+    "grammarTags": ["past-simple", "article", "preposition", "word-order"],
+    "topicTags": ["work", "plans", "dating"]
+  },
+  {
+    "id": 462,
+    "russian": "Может, созвонимся сегодня в восемь? Обещаю не говорить о работе всё время.",
+    "english": "Want to hop on a call tonight at eight? I promise not to talk about work the whole time.",
+    "explanation": "Want to…? — разговорное сокращение полного вопроса Do you want to…?: в переписке и живой речи do you часто опускается, остаётся Want to hop on a call? Hop on a call — живое американское «созвониться» (буквально «запрыгнуть на звонок»); сухой вариант — have a call. Tonight — без предлога, at eight — точное время с at. I promise not to talk — отрицательный инфинитив: not ставится ПЕРЕД to (promise not to talk, а не promise to not talk в аккуратной речи и тем более не don't promise — это меняло бы смысл). Talk about work — говорить О чём-то = about; work без артикля, потому что это работа вообще, как явление. The whole time — устойчивое «всё это время», с the.",
+    "level": "B1",
+    "grammarTags": ["question", "infinitive", "time-preposition", "collocation", "preposition"],
+    "topicTags": ["texting", "dating", "plans"]
+  },
+  {
+    "id": 463,
+    "russian": "Прости, мне пришлось перенести наш звонок — свалилось срочное рабочее дело.",
+    "english": "I'm so sorry I had to move our call — an urgent work thing came up.",
+    "explanation": "I'm so sorry (that) I had to… — после sorry союз that в разговоре опускается. Had to — прошедшее время от have to, «пришлось, была вынуждена»: у must прошедшей формы нет, поэтому вынужденность в прошлом — только had to + V1. Move our call — «перенести звонок» (см. move to tomorrow — та же модель). Came up — фразовый глагол come up: «внезапно возникнуть, свалиться» — именно о делах, проблемах, обстоятельствах (something came up — универсальное «кое-что случилось»); come—came—come, здесь Past Simple. An urgent work thing — разговорное thing «дело, штука»; артикль an перед гласным звуком urgent; work стоит перед thing как определение «рабочее».",
+    "level": "B1",
+    "grammarTags": ["modal", "past-simple", "phrasal-verb", "article"],
+    "topicTags": ["texting", "dating", "work"]
+  },
+  {
+    "id": 464,
+    "russian": "Когда тебе удобнее созвониться — до работы или после? Мне подходит любой вариант.",
+    "english": "When is it easier for you to talk — before work or after? Either works for me.",
+    "explanation": "When is it easier…? — вопрос со связкой be: is выходит перед it (инверсия), вспомогательный do не нужен. Easier — сравнительная степень: easy — короткое прилагательное, поэтому +er с заменой y на i (не more easy). Конструкция it is easier for you to talk — безличное it + for + человек + инфинитив: «тебе удобнее поговорить»; так английский передаёт русское «тебе удобнее» без дословного you more comfortable. Before work — before как предлог времени; work без артикля (работа как часть дня). Either works for me — either «любой из двух» и глагол в единственном числе с -s: works; целиком это устойчивая фраза «мне подходит любой вариант» (ср. Both work for me — «подходят оба»).",
+    "level": "B1",
+    "grammarTags": ["question", "comparative", "infinitive", "time-preposition", "present-simple"],
+    "topicTags": ["communication", "plans", "texting"]
+  },
+  {
+    "id": 465,
+    "russian": "Мой начальник — хороший человек, но он отвечает на письма в полночь.",
+    "english": "My boss is a nice guy, but he answers emails at midnight.",
+    "explanation": "My boss is a nice guy — в русском тире, в английском обязательна связка is; артикль a перед характеристикой человека: он «один из» хороших людей (a nice guy, a great person — с артиклем всегда). He answers — Present Simple о привычке, регулярном поведении; в третьем лице к глаголу добавляется -s: answers. Важно: answer emails БЕЗ предлога — «отвечать НА письма» по-английски не answers on emails (частая калька), answer уже включает «на»: answer a question, answer the phone. At midnight — устойчиво с at, как и at noon, at night; артикль не нужен. Guy — нейтрально-разговорное «человек, парень» о мужчине.",
+    "level": "A2",
+    "grammarTags": ["present-simple", "article", "time-preposition"],
+    "topicTags": ["work", "small-talk"]
+  },
+  {
+    "id": 466,
+    "russian": "Ты ладишь со своими коллегами? Мои немного странные, но я их люблю.",
+    "english": "Do you get along with your coworkers? Mine are a little weird, but I love them.",
+    "explanation": "Get along with someone — фразовый глагол «ладить, хорошо уживаться с кем-то»: get along уже значит «ладить», with присоединяет человека. Вопрос обычный для Present Simple: Do you + V1. Coworkers — американское слово для «коллеги» (colleagues тоже верно, но звучит формальнее). Mine = my coworkers — абсолютная форма притяжательного местоимения: она заменяет «my + существительное», чтобы не повторяться (my — mine, your — yours). Mine are — глагол во множественном числе, потому что коллег много. A little weird — «немного странные»: a little смягчает прилагательное. I love them — привычный порядок: подлежащее + глагол + дополнение.",
+    "level": "A2",
+    "grammarTags": ["question", "present-simple", "phrasal-verb", "preposition"],
+    "topicTags": ["work", "small-talk"]
+  },
+  {
+    "id": 467,
+    "russian": "Наша команда сейчас работает над большим проектом, и все немного на нервах.",
+    "english": "Our team is working on a big project right now, and everyone's a little on edge.",
+    "explanation": "Is working — Present Continuous: работа над проектом — процесс, разворачивающийся в текущий период, есть маркер right now. Work ON something — «работать над» передаётся предлогом on (не work over и не work above — кальки с «над»). A big project — артикль a: проект упоминается впервые. Everyone's = everyone is; ключевой момент — everyone формально единственное число, поэтому is, а не are, хотя по смыслу «все». On edge — идиома «на взводе, на нервах» (буквально «на краю»); не путай с on the edge of — «на грани чего-то». A little — мягкое «немного» перед состоянием.",
+    "level": "B1",
+    "grammarTags": ["present-continuous", "preposition", "collocation", "article"],
+    "topicTags": ["work", "feelings"]
+  },
+  {
+    "id": 468,
+    "russian": "Я не боюсь начальника — я боюсь его десятиминутных голосовых.",
+    "english": "I'm not afraid of my boss — I'm afraid of his ten-minute voice messages.",
+    "explanation": "«Бояться» по-английски — не отдельный глагол, а конструкция be afraid of: я = боящаяся. Поэтому отрицание строится через be: I'm not afraid, а не I don't afraid (частая ошибка — don't ставят там, где нет смыслового глагола). Afraid требует предлог of: afraid of my boss, afraid of his voice messages. Ten-minute — составное прилагательное перед существительным: пишется через дефис, и minute остаётся в единственном числе — ten-minute messages, а не ten-minutes (ср. a five-year plan). Voice messages — «голосовые сообщения». Повтор I'm afraid of в двух половинах — намеренный параллелизм, так шутка звучит ритмично.",
+    "level": "A2",
+    "grammarTags": ["negation", "present-simple", "preposition"],
+    "topicTags": ["work", "humor"]
+  },
+  {
+    "id": 469,
+    "russian": "Почему ты выбрал эту работу? Это была мечта или просто так сложилось?",
+    "english": "Why did you choose this job? Was it a dream, or did it just happen?",
+    "explanation": "Why did you choose — вопрос в Past Simple: вспомогательный did + глагол в начальной форме V1 (choose), а не did you chose — после did вторая форма не нужна, время уже показано. Choose — неправильный: choose—chose—chosen. Was it a dream? — вопрос со связкой be строится простой инверсией, без did: was выходит перед it. A dream — артикль a: одна из возможных мечт. Did it just happen? — «просто так получилось/само сложилось»: happen «случаться», just перед смысловым глаголом. Русское «так сложилось» не переводится буквально — it just happened и есть естественный эквивалент.",
+    "level": "A2",
+    "grammarTags": ["question", "past-simple", "article"],
+    "topicTags": ["acquaintance", "work", "deep-talk"]
+  },
+  {
+    "id": 470,
+    "russian": "Я выбрала дизайн, потому что мне всегда нравилось делать красивые вещи.",
+    "english": "I chose design because I've always loved making beautiful things.",
+    "explanation": "I chose — Past Simple: выбор был сделан в конкретный момент прошлого (choose—chose—chosen). А вот I've always loved — Present Perfect с always: «всегда нравилось — и до сих пор нравится», связь с настоящим сохраняется, поэтому не Past Simple (I always loved прозвучало бы так, будто теперь уже не нравится). Always встаёт между have и V3. Love + V-ing: после глаголов love/like/enjoy/hate действие обычно идёт в форме герундия — loved making. Design без артикля — абстрактная сфера деятельности, как music или sports. Beautiful things — множественное число без артикля: красивые вещи вообще, обобщение.",
+    "level": "B1",
+    "grammarTags": ["past-simple", "present-perfect", "gerund", "article"],
+    "topicTags": ["work", "interests"]
+  },
+  {
+    "id": 471,
+    "russian": "В университете я училась на экономиста, но поняла, что это не моё.",
+    "english": "I studied economics in college, but I realized it wasn't for me.",
+    "explanation": "«Училась на экономиста» по-английски — study + название предмета/области: studied economics; конструкции studied on economist не существует, это калька. Оба глагола в Past Simple (studied, realized) — завершённые факты из прошлого. In college — американское «в университете/вузе», без артикля: учёба как этап жизни (как in school); the появился бы, если говорить о здании. После realized союз that опущен — обычное дело в разговорной речи: I realized (that) it wasn't… It wasn't for me — устойчивый способ сказать «это не моё»: буквально «это было не для меня»; отрицание прошедшего be — was + not = wasn't. Economics — единственное число, несмотря на -s (как physics).",
+    "level": "A2",
+    "grammarTags": ["past-simple", "negation", "preposition"],
+    "topicTags": ["work", "acquaintance"]
+  },
+  {
+    "id": 472,
+    "russian": "Я люблю свою работу, потому что каждый проект не похож на предыдущий.",
+    "english": "I love my job because every project is different from the last one.",
+    "explanation": "I love — Present Simple: love — глагол состояния, в Continuous в этом значении не используется. Every + существительное в ЕДИНСТВЕННОМ числе и глагол с -s: every project is, а не every projects are — русское «каждый» здесь совпадает, но после all логика другая, и это стоит запомнить. Different from — «отличается от»: стандартный предлог from (в американской речи встречается и different than, но from универсален). Русское отрицание «не похож» естественнее передать утвердительным is different, чем isn't similar. The last one — определённый артикль: предыдущий проект конкретен; one заменяет слово project, чтобы не повторять его (замена существительного через one — очень английский приём).",
+    "level": "A2",
+    "grammarTags": ["present-simple", "preposition", "article", "quantifier"],
+    "topicTags": ["work", "interests"]
+  },
+  {
+    "id": 473,
+    "russian": "Ты работаешь из дома или ездишь в офис? Что тебе больше нравится?",
+    "english": "Do you work from home, or do you go into an office? Which do you like better?",
+    "explanation": "Work from home — устойчивое «работать из дома»: именно from, и home без артикля и без предлога at. Go into an office — движение внутрь передаёт предлог into; артикль an — «в какой-то офис» как тип места. Оба вопроса в Present Simple (do you…), потому что речь о постоянном укладе. Which do you like better? — which, а не what, потому что выбор из двух только что названных вариантов. «Больше нравится» — like better: в американском английском предпочтение выражается через better (Which do you like better?); дословное more like — калька с неверным порядком. Не забудь do в обеих частях альтернативного вопроса: or do you go.",
+    "level": "A2",
+    "grammarTags": ["question", "present-simple", "movement-preposition", "article", "comparative"],
+    "topicTags": ["work", "lifestyle"]
+  },
+  {
+    "id": 474,
+    "russian": "Я работаю из дома уже два года и до сих пор в восторге.",
+    "english": "I've worked from home for two years, and I still love it.",
+    "explanation": "I've worked — Present Perfect: действие началось два года назад и продолжается до сих пор. По-русски мы говорим настоящим временем («работаю уже два года»), и в этом ловушка: английское I work from home for two years — ошибка, длительность «до сегодня» требует перфекта. Формула: have/has + V3. For two years — for с периодом времени («в течение двух лет»); since был бы с точкой отсчёта: since 2024, since last spring. Разница for/since — классическая пара к Present Perfect. I still love it — Present Simple, состояние; still «до сих пор» ставится перед смысловым глаголом. Love it — «в восторге от этого»: русскую эмоцию часто передаёт простое love + it.",
+    "level": "B1",
+    "grammarTags": ["present-perfect", "for-since", "present-simple", "preposition"],
+    "topicTags": ["work", "lifestyle", "daily-life"]
+  },
+  {
+    "id": 475,
+    "russian": "В офисе я не могу сосредоточиться: там всегда кто-то разговаривает.",
+    "english": "I can't focus at the office — someone is always talking there.",
+    "explanation": "Can't focus — модальный can с отрицанием: «не могу сосредоточиться»; после модального глагол в начальной форме без to. At the office — предлог at, когда офис — точка, место где ты бываешь («на работе»); in the office подчёркивало бы «внутри помещения». Someone is always talking — интересный случай: Present Continuous + always выражает раздражение повторяющимся действием («вечно кто-то болтает!»). Обычная привычка описывалась бы Present Simple (someone always talks), а Continuous добавляет эмоцию недовольства — живой разговорный приём. Someone — единственное число, поэтому is. There в конце — «там».",
+    "level": "A2",
+    "grammarTags": ["negation", "modal", "place-preposition", "present-continuous", "article"],
+    "topicTags": ["work", "daily-life"]
+  },
+  {
+    "id": 476,
+    "russian": "У работы из дома есть один минус: холодильник слишком близко к рабочему столу.",
+    "english": "There's one downside to working from home: the fridge is too close to my desk.",
+    "explanation": "There's = There is — конструкция «есть, существует»: русское «у X есть минус» по-английски строится как There is a downside to X, а не X has minus. Downside — «минус, обратная сторона»; после него идёт предлог to. И это ключевой момент: здесь to — ПРЕДЛОГ, а не частица инфинитива, поэтому после него глагол в форме V-ing: to working from home, а не to work (та же логика, что в look forward to meeting). The fridge — определённый артикль: мой конкретный холодильник, единственный в квартире. Too close to — too «слишком» + close + предлог to «близко к». My desk — «рабочий стол» = desk (table — обеденный).",
+    "level": "B1",
+    "grammarTags": ["there-is", "to-preposition", "gerund", "article", "present-simple"],
+    "topicTags": ["work", "humor", "food"]
+  },
+  {
+    "id": 477,
+    "russian": "Я так устала после работы — просто лежу на диване и смотрю сериал.",
+    "english": "I'm so tired after work — I'm just lying on the couch watching a show.",
+    "explanation": "I'm so tired — состояние через be + прилагательное; so — усиление «так». After work — предлог after, work без артикля (работа как часть дня). I'm lying — Present Continuous, действие прямо сейчас; важно написание: lie «лежать» → lying (lie—lay—lain), не путай с lay «класть» → laying — их смешивают даже носители. On the couch — предлог on для поверхности; couch — американское «диван» (sofa звучит чуть формальнее). Watching a show — второе одновременное действие можно присоединить просто формой -ing, без and I'm: lying on the couch watching a show. A show — артикль a; «смотрю сериал» по-американски чаще watch a show, чем watch a series.",
+    "level": "A2",
+    "grammarTags": ["present-continuous", "place-preposition", "preposition", "article"],
+    "topicTags": ["daily-life", "texting", "feelings"]
+  },
+  {
+    "id": 478,
+    "russian": "Как ты отдыхаешь после тяжёлого дня? Мне нужны свежие идеи.",
+    "english": "How do you unwind after a long day? I need some new ideas.",
+    "explanation": "How do you unwind? — вопрос в Present Simple о привычке: how + do + подлежащее + V1. Unwind — «расслабиться, выдохнуть» (буквально «размотаться») — живое слово, гораздо естественнее, чем rest, когда речь про отдых после напряжения; синоним — relax. After a long day — обрати внимание: «тяжёлый день» по-английски a long day или a rough day, а не a heavy day (heavy — про вес, это калька). Артикль a — «какой-нибудь очередной» тяжёлый день. I need some new ideas — need + существительное напрямую, без предлога; some с исчисляемым во множественном числе — «несколько, какие-нибудь»: some new ideas.",
+    "level": "A2",
+    "grammarTags": ["question", "present-simple", "article", "quantifier", "preposition"],
+    "topicTags": ["daily-life", "small-talk"]
+  },
+  {
+    "id": 479,
+    "russian": "Не хочу сегодня никуда идти — может, просто попереписываемся?",
+    "english": "I don't feel like going anywhere tonight — can we just text instead?",
+    "explanation": "Feel like + V-ing — важная разговорная конструкция «хотеться»: I don't feel like going = «не хочется идти»; после feel like глагол ТОЛЬКО в герундии (не feel like to go). Отрицание — обычное don't в Present Simple. Anywhere — «никуда» в отрицательном предложении: английский не терпит двойного отрицания, поэтому don't + anywhere, а не don't + nowhere. Tonight без предлога. Can we just text? — предложение через модальный can в вопросе; text — глагол «переписываться, писать сообщения» (не write letters!). Instead в конце — «вместо этого», короткое слово-хвост, очень характерное для живой речи. Just смягчает: «просто попереписываемся».",
+    "level": "B1",
+    "grammarTags": ["negation", "feel-like", "gerund", "question", "modal"],
+    "topicTags": ["texting", "dating", "feelings"]
+  },
+  {
+    "id": 480,
+    "russian": "Когда я слишком устаю, я начинаю смеяться над всем подряд.",
+    "english": "When I get too tired, I start laughing at everything.",
+    "explanation": "Zero Conditional — общая закономерность «со мной всегда так»: в обеих частях Present Simple (When I get…, I start…), никакого will. When/if здесь взаимозаменяемы, when подчёркивает регулярность. Get too tired — get + прилагательное = «становиться»: get tired «уставать», get hungry, get angry; become tired звучало бы книжно. Too — «слишком» (не very). Start laughing — после start можно и герундий, и инфинитив, но с -ing естественнее описывается втягивание в процесс. Laugh AT — смеяться НАД кем-то/чем-то передаётся предлогом at (laugh at everything), русское «над» напрямую не переводится (не laugh over/above). Everything — единым словом.",
+    "level": "A2",
+    "grammarTags": ["conditional-0", "present-simple", "gerund", "preposition"],
+    "topicTags": ["humor", "feelings"]
+  },
+  {
+    "id": 481,
+    "russian": "Мне дали новый проект, и впервые за долгое время мне по-настоящему интересно.",
+    "english": "I got a new project, and for the first time in a long time I'm actually excited.",
+    "explanation": "«Мне дали» по-английски естественнее всего в активной форме: I got — «я получила» (get—got—gotten), а не пассив I was given, который тут звучал бы тяжеловесно. A new project — артикль a, первое упоминание. For the first time in a long time — целая устойчивая фраза «впервые за долгое время»: оба артикля обязательны, предлоги именно for и in. I'm excited — «мне интересно, я в предвкушении»: чувство передаётся через be + причастие на -ed о человеке; не путай пары -ed/-ing: excited — это я, exciting — это сам проект (the project is exciting → I'm excited). Actually здесь — «по-настоящему, действительно», а не «актуально» (ложный друг переводчика).",
+    "level": "B1",
+    "grammarTags": ["past-simple", "collocation", "article", "present-simple"],
+    "topicTags": ["work", "feelings", "interests"]
+  },
+  {
+    "id": 482,
+    "russian": "Сейчас разбираюсь с новой программой — это сложнее, чем я думала.",
+    "english": "I'm figuring out a new tool right now — it's harder than I thought.",
+    "explanation": "I'm figuring out — Present Continuous: процесс идёт прямо сейчас (right now). Figure out — очень частотный фразовый глагол «разобраться, понять, как что-то устроено»: figure out a tool, figure out how it works; с местоимением частица уходит в конец — figure it out. A new tool — артикль a; tool «инструмент/программа» — обычное слово для рабочего софта. It's harder than — сравнительная степень: hard → harder (+er у короткого прилагательного) + союз than «чем». Than I thought — «чем я думала»: Past Simple thought (think—thought—thought), моё прежнее представление осталось в прошлом. В русском можно сказать без подлежащего «сложнее, чем думала», в английском подлежащее обязательно: it's harder, I thought.",
+    "level": "B1",
+    "grammarTags": ["present-continuous", "phrasal-verb", "comparative", "past-simple", "article"],
+    "topicTags": ["work", "interests"]
+  },
+  {
+    "id": 483,
+    "russian": "Что тебе больше всего нравится в твоей работе? Только честно.",
+    "english": "What do you like most about your job? Be honest.",
+    "explanation": "What do you like…? — обычный вопрос Present Simple со вспомогательным do. Most — «больше всего»: like most / like the most — оба варианта живые. Ключевой предлог: «нравится В работе» по-английски — like ABOUT your job, а не like in your job (калька): about вводит то, за что именно нравится (What do you like about him? — «что тебе в нём нравится?»). Be honest — повелительное наклонение с глаголом be: в императиве be ведёт себя как обычный глагол и стоит в начальной форме (Be careful, Be yourself); русское «только честно» естественно сжимается до Be honest — короткой живой команды-просьбы.",
+    "level": "A2",
+    "grammarTags": ["question", "present-simple", "preposition", "imperative"],
+    "topicTags": ["work", "acquaintance", "deep-talk"]
+  },
+  {
+    "id": 484,
+    "russian": "Хочу освоить новый навык в этом году — думаю про 3D-дизайн.",
+    "english": "I want to learn a new skill this year — I'm thinking about 3D design.",
+    "explanation": "Want to learn — после want всегда инфинитив с to: want + to + V1. «Освоить навык» — collocation learn a skill (также pick up a skill); а артикль a — один какой-то новый навык. This year — БЕЗ предлога: с this/next/last предлог времени не ставится (не in this year). I'm thinking about — Present Continuous, потому что обдумывание — активный процесс текущего периода, я прямо сейчас взвешиваю варианты; think about + существительное или герундий — «размышлять о» (think of чаще «вспомнить, считать»). 3D design без артикля — абстрактная область. Обрати внимание на смену времён в одной реплике: want (состояние, Simple) и am thinking (процесс, Continuous).",
+    "level": "A2",
+    "grammarTags": ["infinitive", "present-continuous", "preposition", "article", "present-simple"],
+    "topicTags": ["interests", "plans", "work"]
+  },
+  {
+    "id": 485,
+    "russian": "После этого дедлайна я собираюсь взять несколько выходных и рвануть к морю.",
+    "english": "After this deadline, I'm going to take a few days off and head to the beach.",
+    "explanation": "I'm going to — план и намерение: решение уже принято, поэтому going to, а не will (will — про спонтанное «а поеду-ка я»). Take a few days off — «взять несколько выходных»: та же модель фразового take off, объект между глаголом и частицей. A few + исчисляемое во множественном числе — «несколько» с позитивным оттенком (few без a значило бы «мало, почти нет»). Head to — разговорное «направиться, рвануть куда-то»; to — предлог направления движения. The beach — устойчиво с определённым артиклем: the beach, the mountains, the ocean — как «типовые места». After this deadline — after как предлог + указательное this.",
+    "level": "A2",
+    "grammarTags": ["going-to", "phrasal-verb", "quantifier", "movement-preposition", "preposition"],
+    "topicTags": ["travel", "plans", "work"]
+  },
+  {
+    "id": 486,
+    "russian": "Ты когда-нибудь работал из другой страны? Всё думаю попробовать.",
+    "english": "Have you ever worked from another country? I keep thinking about trying it.",
+    "explanation": "Have you ever worked…? — Present Perfect об опыте за всю жизнь: have + V3, ever между подлежащим и worked. Work from — «работать из» (как work from home). Another country — another = an + other, уже содержит артикль: «какая-нибудь другая страна»; the other была бы «та самая вторая из двух». I keep thinking — keep + V-ing = «продолжаю, всё время делаю»: «всё думаю» точно передаётся именно так, не I all the time think. Think about + герундий: about — предлог, поэтому trying, а не to try. Trying it — it не выбрасывается: попробовать именно ЭТО; английский требует дополнение там, где русский обходится без него.",
+    "level": "B1",
+    "grammarTags": ["question", "present-perfect", "gerund", "preposition"],
+    "topicTags": ["travel", "work"]
+  },
+  {
+    "id": 487,
+    "russian": "Когда ты вчера написал, я как раз выбирала отель для отпуска.",
+    "english": "When you texted me yesterday, I was actually looking for a hotel for my vacation.",
+    "explanation": "Классическая пара Past Continuous + Past Simple: was looking — длительный процесс-фон («выбирала, сидела искала»), а texted — короткое событие, которое произошло на фоне этого процесса. Формула Past Continuous: was/were + V-ing. Text me — «написать мне (сообщение)»: text давно стал глаголом, звучит естественнее, чем wrote to me, когда речь о переписке. Look for — фразовый глагол «искать»: looking for a hotel; без for look значит «смотреть». A hotel — артикль a: отель ещё не выбран, любой из возможных. For my vacation — «для отпуска»; vacation — американское слово (британцы говорят holiday). Actually здесь — «как раз, именно в тот момент».",
+    "level": "B1",
+    "grammarTags": ["past-continuous", "past-simple", "phrasal-verb", "article", "preposition"],
+    "topicTags": ["travel", "texting"]
+  },
+  {
+    "id": 488,
+    "russian": "Я бы хотела когда-нибудь совместить работу и путешествия — хотя бы на месяц.",
+    "english": "I'd like to combine work and travel someday — even just for a month.",
+    "explanation": "I'd like = I would like — вежливо-мечтательное «я бы хотела», мягче прямого I want. Как понять, что 'd здесь would, а не had? По следующему слову: после would like идёт to + V1 (to combine), а после had было бы V3. Would like + to-инфинитив — устойчивая рамка. Combine work and travel — совместить А и Б; оба слова без артикля: работа и путешествия как явления, абстрактно. Someday — одним словом «когда-нибудь в будущем» (мечта без даты); не путай с some day «в какой-то из дней». For a month — for + отрезок времени «на месяц/в течение месяца»: именно так for работает с длительностью. Even just — «хотя бы, ну хоть» — разговорное усиление скромного желания.",
+    "level": "B1",
+    "grammarTags": ["would-like", "infinitive", "for-since", "article"],
+    "topicTags": ["travel", "work", "lifestyle"]
+  },
+  {
+    "id": 489,
+    "russian": "Если я когда-нибудь приеду в твой город, покажешь мне свои любимые места?",
+    "english": "If I ever come to your city, will you show me your favorite places?",
+    "explanation": "First Conditional в форме вопроса. Правило то же: в if-части ТОЛЬКО Present Simple — If I ever come, никакого will come, хотя по-русски «приеду» — будущее. Will живёт в главной части и, раз это вопрос, выходит вперёд: will you show…? Ever внутри условия = «когда-нибудь, вдруг». Come to your city — направление передаёт предлог to. Show me your favorite places — глагол с двумя дополнениями: сначала кому (me), потом что (places), и никакого to перед me (show to me — ошибка порядка; to появляется, только если поменять части местами: show your favorite places to me). Favorite — американское написание.",
+    "level": "B1",
+    "grammarTags": ["conditional-1", "question", "future-will", "movement-preposition", "word-order"],
+    "topicTags": ["travel", "dating", "plans"]
+  },
+  {
+    "id": 490,
+    "russian": "Мама до сих пор не понимает, чем я занимаюсь, — говорит всем, что я «рисую на компьютере».",
+    "english": "My mom still doesn't understand what I do — she tells everyone I 'draw on the computer.'",
+    "explanation": "Doesn't understand — отрицание Present Simple в третьем лице: does + not, смысловой глагол без -s. Understand — глагол состояния, в Continuous не ставится. Still «до сих пор» встаёт перед doesn't. What I do — косвенный вопрос внутри предложения: порядок слов ПРЯМОЙ, без вспомогательного do — what I do, а не what do I do (прямым вопросом было бы What do you do?). Это одна из самых частых ошибок русскоязычных. She tells everyone (that)… — tell + адресат без предлога (tells everyone), в отличие от say: says TO everyone; that опущено. Draw on the computer — устойчивое on the computer с артиклем the. Кавычки передают мамину «цитату» — ироничный эффект.",
+    "level": "B1",
+    "grammarTags": ["negation", "present-simple", "word-order", "indirect-question", "preposition", "article"],
+    "topicTags": ["family", "work", "humor"]
+  },
+  {
+    "id": 491,
+    "russian": "У тебя большая семья? Вы близки с родителями?",
+    "english": "Do you have a big family? Are you close to your parents?",
+    "explanation": "Два вопроса — две разные схемы, и в этом соль. Первый: есть смысловой глагол have, поэтому вопрос строится через вспомогательный do: Do you have a big family? (не Have you a big family — устарело). A big family — артикль a. Второй вопрос: сказуемое — прилагательное close со связкой be, и тогда никакого do не нужно, просто инверсия: Are you close…? Русское «вы близки?» без глагола — по-английски be обязателен. Close to your parents — «близка С кем-то» по-английски close TO (в американской разговорной речи бывает и close with, оба живые). Parents — именно родители; relatives — родственники вообще.",
+    "level": "A2",
+    "grammarTags": ["question", "present-simple", "article", "preposition"],
+    "topicTags": ["family", "acquaintance"]
+  },
+  {
+    "id": 492,
+    "russian": "Папа хотел, чтобы я стала врачом, но я выбрала совсем другой путь.",
+    "english": "My dad wanted me to become a doctor, but I chose a completely different path.",
+    "explanation": "Want someone to do something — ключевая конструкция: «хотеть, ЧТОБЫ кто-то сделал» = wanted me to become. Русская модель с «чтобы» тянет сказать wanted that I become — это грубая калька, английский так не работает: после want сразу идёт человек и инфинитив. Wanted — Past Simple. Become a doctor — с профессией артикль a обязателен: стать врачом = become a doctor, работать учителем = work as a teacher. Chose — Past Simple от choose (choose—chose—chosen), не путай написание chose/choose. A completely different path — completely усиливает different («совсем другой»); path «путь» здесь в переносном смысле — карьерная дорога.",
+    "level": "B1",
+    "grammarTags": ["past-simple", "want-someone-to", "infinitive", "article"],
+    "topicTags": ["family", "work", "deep-talk"]
+  },
+  {
+    "id": 493,
+    "russian": "Я столько работала в последнее время, что не видела друзей две недели.",
+    "english": "I've been working so much lately that I haven't seen my friends in two weeks.",
+    "explanation": "I've been working — Present Perfect Continuous (have + been + V-ing): процесс тянулся весь последний период и объясняет нынешнее состояние; маркер lately «в последнее время» — типичный спутник этого времени. So much… that… — «столько…, что…»: much, потому что работа измеряется неисчислимо. I haven't seen — уже обычный Present Perfect (have + V3): результат к сегодняшнему дню — «так и не увиделась»; see—saw—seen. In two weeks — американский способ сказать «уже две недели как» в отрицании: haven't seen them in two weeks (британцы чаще скажут for two weeks — тоже верно). Контраст двух перфектов в одной фразе: been working — процесс, haven't seen — итог.",
+    "level": "B1",
+    "grammarTags": ["present-perfect-continuous", "present-perfect", "negation", "preposition", "quantifier"],
+    "topicTags": ["friends", "work", "daily-life"]
+  },
+  {
+    "id": 494,
+    "russian": "Ты уже рассказывал обо мне своим друзьям? Мне просто любопытно.",
+    "english": "Have you told your friends about me yet? I'm just curious.",
+    "explanation": "Have you told… yet? — Present Perfect с yet: вопрос о том, случилось ли что-то к настоящему моменту; yet «уже» в вопросах и отрицаниях ставится в самый конец (в утверждениях «уже» — already). Tell—told—told — неправильный глагол. Tell your friends — после tell адресат идёт без предлога (не told TO your friends), а вот тема — с about: about me. Порядок: told + кому + about + о ком. I'm just curious — «мне просто любопытно» строится через be + прилагательное: я = любопытная; безличная русская конструкция «мне любопытно» дословно не переводится (не to me curious). Just — «просто», смягчает вопрос, чтобы он не звучал как допрос.",
+    "level": "A2",
+    "grammarTags": ["question", "present-perfect", "preposition", "present-simple"],
+    "topicTags": ["dating", "texting", "friends"]
+  },
+  {
+    "id": 495,
+    "russian": "Прости, что не взяла трубку — я как раз разговаривала с клиентом.",
+    "english": "Sorry I missed your call — I was talking to a client.",
+    "explanation": "Sorry (that) I missed your call — после sorry союз that в живой речи опускается. Важно: «не взяла трубку» по-английски выражается утвердительно — «пропустила твой звонок»: missed your call; дословное didn't take the phone — калька, а miss здесь «пропустить, не успеть ответить». Missed — Past Simple, короткое событие. I was talking — Past Continuous: процесс, который шёл именно в тот момент, когда ты звонил; связка «звонок (точка) на фоне разговора (процесс)» — типичное разделение Past Simple / Past Continuous. Talk to someone — «разговаривать с» в американском чаще с to (talk to a client), with тоже допустимо. A client — один из моих клиентов, впервые упомянут.",
+    "level": "A2",
+    "grammarTags": ["past-simple", "past-continuous", "article", "preposition"],
+    "topicTags": ["communication", "work"]
+  },
+  {
+    "id": 496,
+    "russian": "У меня сегодня слишком много работы и слишком мало кофе.",
+    "english": "I have too much work and not enough coffee today.",
+    "explanation": "Урок про исчисляемость. Work «работа» и coffee «кофе» — неисчисляемые существительные, поэтому «слишком много» = too MUCH work (too many — только с исчисляемыми во множественном: too many projects, too many emails). «Слишком мало» естественнее всего передать через not enough — «недостаточно»: not enough coffee; вариант too little coffee грамматически верен, но в живой речи not enough звучит чаще и легче. Заметь симметрию шутки: too much X and not enough Y — готовый разговорный шаблон для жалоб. «У меня» — I have, никакого there is. Today без предлога, в конце фразы. Неисчисляемые всегда в единственном числе: work is, coffee is.",
+    "level": "A2",
+    "grammarTags": ["countable-uncountable", "quantifier", "present-simple", "negation"],
+    "topicTags": ["work", "daily-life", "humor"]
+  },
+  {
+    "id": 497,
+    "russian": "В пятницу вечером мы с командой собираемся отметить конец проекта.",
+    "english": "My team and I are going to celebrate the end of the project on Friday night.",
+    "explanation": "«Мы с командой» по-английски — перечисление My team and I: буквально «моя команда и я», причём I вежливо ставится в конец (не Me and my team в нейтральной речи, и уж точно не We with the team — калька). Are going to — план: договорённость уже есть, поэтому going to, а не will. Celebrate — «отмечать» без предлога: celebrate something (не celebrate about). The end of the project — оба артикля the: конкретный конец конкретного проекта; принадлежность через of. On Friday night — интересный стык: «ночью/вечером» само по себе at night, но как только появляется день недели, предлог меняется на on: on Friday night, on Saturday morning.",
+    "level": "A2",
+    "grammarTags": ["going-to", "time-preposition", "article", "word-order"],
+    "topicTags": ["work", "plans"]
+  },
+  {
+    "id": 498,
+    "russian": "Пишу тебе прямо с совещания — надеюсь, никто не видит мой экран.",
+    "english": "I'm texting you from a meeting right now — I hope nobody can see my screen.",
+    "explanation": "I'm texting you — Present Continuous: действие происходит прямо в момент письма (right now); text + адресат без предлога: texting you, не texting to you. From a meeting — «с совещания» = from; артикль a — одно из совещаний. I hope (that)… — that опущено. Nobody can see — главный пункт: в английском предложении только ОДНО отрицание. Nobody уже отрицательное слово, поэтому глагол остаётся утвердительным: nobody can see, а не nobody can't see (двойное отрицание — прямая калька с русского «никто не видит»). Nobody — единственное число. Can see — о восприятии (see, hear) англичане часто говорят через can: «видит» = can see.",
+    "level": "B1",
+    "grammarTags": ["present-continuous", "negation", "modal", "article", "present-simple"],
+    "topicTags": ["texting", "work", "humor"]
+  },
+  {
+    "id": 499,
+    "russian": "Какой у тебя график? Кажется, ты работаешь даже больше меня.",
+    "english": "What's your schedule like? I feel like you work even more than I do.",
+    "explanation": "What is X like? — устойчивый вопрос «какой X? как X устроен?»: like здесь не «нравится», а «каков» (What's the weather like? — «какая погода?»). Отвечать на него надо описанием, а слово like в ответе не повторяется. I feel like + целое предложение — разговорное «кажется, такое ощущение, что»: I feel like you work… — мягче, чем I think. You work — Present Simple о постоянном режиме. Even more than — «даже больше, чем»: even усиливает сравнение. Than I do — do в конце заменяет work, чтобы не повторять глагол («чем работаю я»); разговорный вариант than me тоже верен, но than I do звучит чуть аккуратнее и очень по-американски.",
+    "level": "B1",
+    "grammarTags": ["question", "present-simple", "comparative", "collocation"],
+    "topicTags": ["work", "small-talk", "acquaintance"]
+  },
+  {
+    "id": 500,
+    "russian": "Знаешь, после наших разговоров даже тяжёлый рабочий день кажется легче.",
+    "english": "You know, after our conversations, even a rough workday feels easier.",
+    "explanation": "You know — разговорная вводная «знаешь», смягчает признание. After our conversations — предлог after + притяжательное our. Even перед подлежащим — «даже»: even a rough workday. A rough workday — «тяжёлый день» по-английски rough day / long day (не heavy day — heavy про физический вес, калька); артикль a — любой такой день; workday — одним словом «рабочий день». Feels easier — глагол feel здесь «казаться, ощущаться» (день ощущается легче), и он согласуется с подлежащим третьего лица: feels с -s. Easier — сравнительная степень easy → easier. В русском «кажется» безлично, а в английском обязательно есть подлежащее: именно day feels, конструкция строится вокруг него.",
+    "level": "B1",
+    "grammarTags": ["present-simple", "comparative", "article", "preposition"],
+    "topicTags": ["feelings", "dating", "communication"]
+  }
+]
