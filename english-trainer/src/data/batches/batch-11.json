@@ -1,0 +1,452 @@
+[
+  {
+    "id": 501,
+    "russian": "Какие сериалы ты сейчас смотришь?",
+    "english": "What shows are you watching these days?",
+    "explanation": "Present Continuous (are watching), потому что речь о процессе текущего периода: не «вообще смотришь», а «смотришь в эти дни» — сериал начат и ещё идёт. Формула вопроса: What + am/is/are + подлежащее + V-ing: What are you watching? Вспомогательный are выходит вперёд, до you. «Сериалы» по-американски чаще shows или TV shows (series тоже можно, но у него одинаковая форма в единственном и множественном числе, что путает). these days — естественная замена «сейчас, в последнее время» для занятий текущего периода; right now сместило бы смысл на «прямо в эту минуту». Если бы спрашивали о вкусах вообще, был бы Present Simple: What shows do you watch?",
+    "level": "A2",
+    "grammarTags": ["question", "present-continuous"],
+    "topicTags": ["interests", "small-talk"]
+  },
+  {
+    "id": 502,
+    "russian": "Я не очень люблю ужасы — после них плохо сплю.",
+    "english": "I'm not really into horror movies — I can't sleep well after watching them.",
+    "explanation": "be into something — разговорное «увлекаться, любить»: I'm not really into… звучит гораздо естественнее, чем попытка сказать I don't very like (так нельзя — усилитель для глаголов really, и стоит он перед глаголом: I don't really like). Отрицание строится через am not: I'm not into. into — предлог, после него существительное: into horror movies, без артикля — жанр вообще, во множественном числе. can't sleep — модальный can в отрицании: «не могу заснуть, не спится». after watching them — после предлога after действие идёт в форме V-ing (герундий): не after to watch. Дословное «после них» (after them) по-английски хуже: естественнее назвать само действие — after watching them, «после того как посмотрю».",
+    "level": "B1",
+    "grammarTags": ["negation", "collocation", "gerund", "preposition", "modal"],
+    "topicTags": ["interests", "feelings"]
+  },
+  {
+    "id": 503,
+    "russian": "Ты уже посмотрел новый сезон? Только не спойлери мне!",
+    "english": "Have you seen the new season yet? Just don't spoil it for me!",
+    "explanation": "Present Perfect (Have you seen…?), потому что важен результат к настоящему моменту: успел посмотреть или нет. Формула: have/has + V3, в вопросе have выходит вперёд. see — неправильный глагол: see — saw — seen. yet в вопросе — «уже», ставится в самый конец. О фильмах чаще спрашивают see, а не watch: Have you seen it? the new season — определённый артикль: оба понимают, о каком сезоне речь. Don't spoil it for me — отрицательный императив: Don't + V1. Обрати внимание на предлог: spoil it for me — по-английски портят что-то «для кого-то» (for), а не «кому-то»; глагол spoil и дал название слову «спойлер». Just в начале смягчает просьбу, как русское «только».",
+    "level": "B1",
+    "grammarTags": ["present-perfect", "question", "imperative", "negation", "article"],
+    "topicTags": ["texting", "interests"]
+  },
+  {
+    "id": 504,
+    "russian": "Вчера вечером мы наконец посмотрели фильм, который ты советовал.",
+    "english": "Last night we finally watched the movie you recommended.",
+    "explanation": "Past Simple (watched, recommended): оба действия — законченное прошлое, есть точное время «вчера вечером». «Вчера вечером» — last night, а не yesterday evening (грамматически можно, но night здесь обычнее и короче); слова last, this, next вытесняют предлог — нельзя in last night. finally («наконец») ставится перед смысловым глаголом: we finally watched. the movie — определённый артикль: фильм конкретный, известный обоим. the movie you recommended — придаточное без союза: слово that/which можно опустить, когда оно было бы дополнением: the movie (that) you recommended — в разговоре его почти всегда опускают. recommend — правильный глагол, прошедшее через -ed, и после него не нужен предлог: recommended the movie, а не recommended about it.",
+    "level": "A2",
+    "grammarTags": ["past-simple", "article", "relative-clause", "word-order"],
+    "topicTags": ["interests", "texting"]
+  },
+  {
+    "id": 505,
+    "russian": "Какой фильм посмотреть в самолёте — посоветуешь что-нибудь?",
+    "english": "What movie should I watch on the plane — can you recommend something?",
+    "explanation": "Русский безличный инфинитив «какой фильм посмотреть?» дословно не переводится — по-английски нужен модальный should: What movie should I watch? — «какой мне стоит посмотреть». Порядок: вопросительная фраза What movie + should + I + V1. on the plane — предлог on: с транспортом, в который «заходят» (самолёт, поезд, автобус), используется on, а не in; артикль the — конкретный самолёт предстоящего рейса. Can you recommend something? — просьба через can; recommend берёт дополнение напрямую: recommend something, без предлога и без me сразу после глагола. something, а не anything, потому что это просьба-предложение с ожидаемым «да», а не «хоть что-нибудь вообще».",
+    "level": "B1",
+    "grammarTags": ["question", "modal", "place-preposition", "article"],
+    "topicTags": ["travel", "interests"]
+  },
+  {
+    "id": 506,
+    "russian": "Если ты любишь детективы, этот сериал тебе точно зайдёт.",
+    "english": "If you like crime shows, you'll definitely love this one.",
+    "explanation": "First Conditional — реальное условие с результатом в будущем. В части с if — Present Simple (If you like), хотя по смыслу речь о будущем: после if нельзя ставить will (не If you will like). В главной части — will: you'll definitely love. definitely («точно, наверняка») ставится после will, перед смысловым глаголом. «Детективы» как жанр по-американски — crime shows, mysteries или detective shows; слово detectives без уточнения означало бы самих сыщиков. «Зайдёт» — разговорное русское, по-английски это просто you'll love it: love о вещах — «очень понравится». this one — местоимение one заменяет слово show, чтобы не повторять существительное: «именно этот».",
+    "level": "B1",
+    "grammarTags": ["conditional-1", "present-simple", "future-will"],
+    "topicTags": ["interests"]
+  },
+  {
+    "id": 507,
+    "russian": "Мы с сестрой собираемся пересмотреть весь сериал на выходных.",
+    "english": "My sister and I are going to rewatch the whole show over the weekend.",
+    "explanation": "be going to + V1 — план, о котором уже договорились: are going to rewatch. «Мы с сестрой» — по-английски перечисление: My sister and I, причём себя вежливо ставят в конец (не I and my sister и не We with my sister — это калька). Подлежащее «сестра + я» — множественное число, поэтому are. Приставка «пере-» в значении «заново» часто передаётся через re-: rewatch — «пересмотреть», reread — «перечитать». the whole show — «весь сериал целиком»; после whole артикль the обязателен: the whole show, the whole day. over the weekend — «за выходные, в течение выходных»: over подчёркивает, что дело растянется на оба дня; можно и обычное американское on the weekend.",
+    "level": "A2",
+    "grammarTags": ["going-to", "time-preposition", "word-order", "article"],
+    "topicTags": ["family", "plans", "interests"]
+  },
+  {
+    "id": 508,
+    "russian": "Я сейчас читаю книгу о привычках — она интереснее, чем я ожидала.",
+    "english": "I'm reading a book about habits right now — it's more interesting than I expected.",
+    "explanation": "Present Continuous (I'm reading), потому что чтение — процесс текущего периода: книга начата и ещё не дочитана; right now здесь значит «в данный период», не обязательно «в эту секунду». a book — неопределённый артикль: собеседник об этой книге ещё не слышал, она вводится впервые. about habits — «о чём» книга передаётся предлогом about; habits без артикля и во множественном — привычки вообще. more interesting than — сравнительная степень: длинные прилагательные (три слога и больше) образуют её через more, а не через -er. than — «чем». I expected — Past Simple: ожидания были в прошлом, до начала чтения; expect — правильный глагол. Русское «она» о книге — по-английски it: неодушевлённые предметы не бывают she.",
+    "level": "B1",
+    "grammarTags": ["present-continuous", "comparative", "article", "past-simple"],
+    "topicTags": ["interests", "lifestyle"]
+  },
+  {
+    "id": 509,
+    "russian": "А сколько книг ты обычно читаешь в год?",
+    "english": "How many books do you usually read a year?",
+    "explanation": "Вопрос о привычке — Present Simple. Формула: How many + существительное + do + подлежащее + V1: How many books do you read? Вспомогательный do обязателен — без него вопрос не строится. How many используется с исчисляемыми существительными во множественном числе (книги можно посчитать); с неисчисляемыми было бы How much: how much time, how much money. usually ставится между подлежащим и смысловым глаголом: do you usually read. «В год» — просто a year: неопределённый артикль работает как «в расчёте на один» (a = per, как в once a week), предлог не нужен — не in a year. Русское «а» в начале вопроса отдельным словом не переводится — его заменяет интонация или So в начале.",
+    "level": "A2",
+    "grammarTags": ["question", "present-simple", "quantifier", "countable-uncountable", "word-order"],
+    "topicTags": ["interests", "small-talk"]
+  },
+  {
+    "id": 510,
+    "russian": "Я читаю эту книгу уже две недели и всё ещё на середине.",
+    "english": "I've been reading this book for two weeks, and I'm still only halfway through.",
+    "explanation": "Present Perfect Continuous (I've been reading): процесс начался в прошлом и тянется до сих пор — «читаю уже две недели». Формула: have/has + been + V-ing. Русское настоящее время тут ловушка: сказать I read this book for two weeks нельзя — длительность «до настоящего момента» требует перфекта. for two weeks — предлог for с отрезком времени («в течение двух недель»); если бы называли точку старта, был бы since: since mid-August. still — «всё ещё», ставится после I'm, перед остальным. halfway through — устойчивое «на середине» (книги, фильма, пути): through передаёт продвижение «сквозь» книгу, и отдельное слово «середина» не нужно; only добавляет оттенок «всего лишь».",
+    "level": "B1",
+    "grammarTags": ["present-perfect-continuous", "for-since", "collocation"],
+    "topicTags": ["interests", "daily-life"]
+  },
+  {
+    "id": 511,
+    "russian": "Интересно, чем закончится эта книга.",
+    "english": "I wonder how this book ends.",
+    "explanation": "Русское безличное «интересно» по-английски требует подлежащего: I wonder — «мне любопытно»; вариант It is interesting не подходит — он значит «книга интересная», это другой смысл. После wonder идёт косвенный вопрос how this book ends — и в нём прямой порядок слов, без вспомогательного does: how this book ends, а не how does this book end (так выглядел бы отдельный прямой вопрос). ends — Present Simple с -s в третьем лице: о сюжете книги или фильма по-английски говорят в настоящем времени, потому что содержание «существует всегда»: the book ends, the movie starts with… «Чем закончится» — по-английски просто how it ends, «как заканчивается»; калька with what it will end не работает.",
+    "level": "B1",
+    "grammarTags": ["indirect-question", "present-simple", "word-order"],
+    "topicTags": ["interests"]
+  },
+  {
+    "id": 512,
+    "russian": "Я взяла книгу в поездку, но так и не открыла её.",
+    "english": "I took a book on the trip, but I didn't even open it.",
+    "explanation": "Past Simple: поездка — законченное прошлое. take — неправильный глагол: take — took — taken. a book — неопределённый артикль: какая-то одна книга, упоминается впервые. on the trip — с поездками используется предлог on: on a trip, on vacation; артикль the — та самая конкретная поездка, о которой рассказываю. Отрицание в Past Simple — через didn't + V1: didn't open, глагол возвращается в начальную форму (не didn't opened). «Так и не» передано через didn't even open — «даже не открыла»; другой хороший вариант — never opened it, «так ни разу и не открыла». Запятая перед but соединяет два полных предложения. «Её» о книге — it: предметы по-английски не she.",
+    "level": "A2",
+    "grammarTags": ["past-simple", "negation", "article", "preposition"],
+    "topicTags": ["travel", "interests"]
+  },
+  {
+    "id": 513,
+    "russian": "Ты больше любишь бумажные книги или электронные?",
+    "english": "Do you prefer paper books or e-books?",
+    "explanation": "Вопрос о постоянном предпочтении — Present Simple: Do you prefer…? Вспомогательный do выходит вперёд, смысловой глагол остаётся в V1. «Больше любить» — это один глагол prefer («предпочитать»); можно и like more (Do you like paper books more?), но prefer короче и звучит взрослее. Выбор из двух вариантов соединяется союзом or; в таких вопросах-альтернативах интонация идёт вверх на первом варианте и вниз на втором. paper books и e-books — нулевой артикль: речь о категориях вообще, во множественном числе, а не о конкретных книгах. «Электронная книга» как формат — e-book (по модели e-mail); если бы речь шла про устройство-читалку, это e-reader.",
+    "level": "A2",
+    "grammarTags": ["question", "present-simple", "article"],
+    "topicTags": ["interests", "small-talk"]
+  },
+  {
+    "id": 514,
+    "russian": "Я записалась на танцы — в четверг первое занятие.",
+    "english": "I signed up for dance classes — my first class is on Thursday.",
+    "explanation": "sign up for — фразовый глагол «записаться на»: sign up (зарегистрироваться) + for (на что именно): signed up for dance classes. Past Simple, потому что запись уже произошла — законченное действие. «Танцы» как курс — dance classes, во множественном числе (много занятий) и без артикля. Во второй части по-русски глагола нет («в четверг первое занятие»), а по-английски он обязателен: my first class is on Thursday — связку is опускать нельзя. С днями недели предлог on: on Thursday (не in и не at). my first class — по-английски естественно уточнять чьё: притяжательное my ставится там, где русский спокойно обходится без «моё».",
+    "level": "A2",
+    "grammarTags": ["past-simple", "phrasal-verb", "time-preposition", "preposition"],
+    "topicTags": ["plans", "interests", "lifestyle"]
+  },
+  {
+    "id": 515,
+    "russian": "Я учусь танцевать сальсу, и пока получается так себе.",
+    "english": "I'm learning to dance salsa, and honestly I'm not very good at it yet.",
+    "explanation": "Present Continuous (I'm learning): обучение — процесс, растянутый в настоящем, я хожу на занятия в этот период жизни. После learn идёт инфинитив с to: learn to dance. «Получается так себе» дословно не переводится — по-английски это через be good at: I'm not very good at it — «я в этом пока не очень». Прилагательное good требует предлог at, когда речь о навыке: good at dancing, good at math. Отрицание через am not, а смягчитель very делает фразу самоироничной, а не самокритичной: not very good мягче, чем bad. yet — «пока ещё», ставится в конец отрицательного предложения и намекает, что прогресс впереди. honestly — «честно говоря», разговорное вводное слово.",
+    "level": "B1",
+    "grammarTags": ["present-continuous", "infinitive", "negation", "preposition"],
+    "topicTags": ["interests", "lifestyle"]
+  },
+  {
+    "id": 516,
+    "russian": "Ты когда-нибудь пробовал танцевать бачату?",
+    "english": "Have you ever tried dancing bachata?",
+    "explanation": "Present Perfect — вопрос о жизненном опыте вообще, без привязки к моменту: Have you ever tried…? Формула have/has + V3, в вопросе have выходит вперёд; ever («когда-нибудь») ставится между подлежащим и V3. Важная пара: try + V-ing и try + to V значат разное. tried dancing = «попробовал ради интереса, ради эксперимента» — наш случай: попробовать новый танец. А tried to dance значило бы «пытался, но было трудно или не получилось». Поэтому здесь герундий: tried dancing bachata. Названия танцев — без артикля: dance salsa, dance bachata. Если бы речь шла о конкретном прошлом случае, был бы Past Simple: Did you try dancing at the party last night?",
+    "level": "B1",
+    "grammarTags": ["present-perfect", "question", "gerund", "stop-remember-try"],
+    "topicTags": ["dating", "interests"]
+  },
+  {
+    "id": 517,
+    "russian": "Если я пропускаю неделю занятий, тело сразу всё забывает.",
+    "english": "If I skip a week of classes, my body forgets everything right away.",
+    "explanation": "Zero Conditional — закономерность, которая срабатывает каждый раз: пропустила → забыло. В обеих частях Present Simple: If I skip…, my body forgets. Это не First Conditional: там will говорил бы о конкретном будущем случае, а здесь общая правда жизни, и will не нужен. forgets — с окончанием -s: подлежащее my body — третье лицо единственного числа. skip — живое слово «пропускать» (занятие, завтрак, серию): skip a week, skip class; не путай с miss в значении «скучать». a week of classes — неопределённый артикль: любая неделя, не конкретная. everything — пишется слитно, глагол при нём в единственном числе. right away — «сразу же», ставится в конец.",
+    "level": "B1",
+    "grammarTags": ["conditional-0", "present-simple", "article"],
+    "topicTags": ["interests", "daily-life"]
+  },
+  {
+    "id": 518,
+    "russian": "Пойдёшь со мной на занятие в пятницу?",
+    "english": "Will you come to the class with me on Friday?",
+    "explanation": "Will you come…? — вопрос-приглашение о будущем: will выходит на первое место, за ним подлежащее и V1. «Пойдёшь со мной» — по-английски come, а не go: come используется, когда зовут присоединиться к говорящему, двигаться «в мою сторону»; go — движение прочь от обоих собеседников. to the class — to показывает направление «куда»; артикль the — то самое занятие, о котором уже шла речь. with me — «со мной». on Friday — с днями недели предлог on. Порядок обстоятельств в конце: сначала куда (to the class), потом с кем (with me), потом когда (on Friday) — время по-английски обычно ставится последним.",
+    "level": "A2",
+    "grammarTags": ["question", "future-will", "movement-preposition", "time-preposition"],
+    "topicTags": ["dating", "plans"]
+  },
+  {
+    "id": 519,
+    "russian": "Когда я работаю, я всегда включаю какую-нибудь спокойную музыку.",
+    "english": "When I work, I always put on some calm music.",
+    "explanation": "Present Simple в обеих частях — привычка, повторяющееся действие: When I work, I put on. always («всегда») ставится между подлежащим и смысловым глаголом: I always put on — не Always I put. put on — фразовый глагол «включить, поставить» (музыку, фильм): put on some music звучит живее, чем turn on the music, когда речь о фоне под настроение. some calm music — some здесь «какая-нибудь, немного»: music — неисчисляемое существительное, артикль a к нему не ставится (нельзя a music), и some отлично закрывает роль «какая-то». calm — «спокойная»; порядок слов: some + прилагательное + существительное. Запятая после придаточного When I work в начале предложения.",
+    "level": "A2",
+    "grammarTags": ["present-simple", "phrasal-verb", "word-order", "quantifier", "countable-uncountable"],
+    "topicTags": ["work", "daily-life"]
+  },
+  {
+    "id": 520,
+    "russian": "Какую музыку ты слушаешь, когда тебе грустно?",
+    "english": "What music do you listen to when you're sad?",
+    "explanation": "Вопрос о привычке — Present Simple: What music + do + you + listen to. Глагол listen всегда требует предлог to: listen to music, listen to me; в вопросе to уезжает в конец, но бросать его нельзя — What music do you listen to?, а не What music do you listen? «Тебе грустно» — по-английски безличной конструкции нет, нужен субъект и связка: you're sad (или мягче — you're feeling down). when you're sad — Present Simple после when, потому что речь об обобщённой ситуации «всякий раз, когда». music — неисчисляемое, без артикля; вопрос строится через What music, не What a music.",
+    "level": "A2",
+    "grammarTags": ["question", "present-simple", "preposition"],
+    "topicTags": ["feelings", "interests"]
+  },
+  {
+    "id": 521,
+    "russian": "Эта песня мгновенно поднимает мне настроение.",
+    "english": "This song instantly cheers me up.",
+    "explanation": "Present Simple (cheers): это постоянное свойство песни — она действует так каждый раз; окончание -s из-за третьего лица (this song = it). cheer up — фразовый глагол «поднять настроение, взбодрить»; местоимение-дополнение обязательно встаёт внутрь: cheers me up, а не cheers up me — это правило для разделяемых фразовых глаголов с местоимением. Русское «поднимает мне настроение» дословно не переводится: raises my mood — калька; естественные варианты — cheers me up, lifts my mood, puts me in a good mood. instantly — «мгновенно», наречие ставится перед смысловым глаголом: instantly cheers. This song — после указательного this артикль не нужен.",
+    "level": "A2",
+    "grammarTags": ["present-simple", "phrasal-verb", "word-order"],
+    "topicTags": ["feelings", "interests"]
+  },
+  {
+    "id": 522,
+    "russian": "Я собираюсь собрать плейлист для нашей поездки.",
+    "english": "I'm going to put together a playlist for our trip.",
+    "explanation": "be going to + V1 — намерение, план уже созрел в голове: I'm going to put together. put together — фразовый глагол «собрать, составить» (плейлист, план, презентацию): put together a playlist — живой разговорный вариант; можно и просто make a playlist. a playlist — неопределённый артикль: плейлиста ещё не существует, он упоминается впервые. for our trip — предлог for отвечает на «для чего, к какому случаю»; our — «нашей». «Поездка» — trip: короткое путешествие туда-обратно; слово travel в этом значении существительным почти не используется — for our travel было бы калькой. Не путай с Present Continuous: I'm putting together значило бы «прямо сейчас сижу и собираю».",
+    "level": "A2",
+    "grammarTags": ["going-to", "phrasal-verb", "article", "preposition"],
+    "topicTags": ["travel", "plans", "interests"]
+  },
+  {
+    "id": 523,
+    "russian": "Можешь скинуть мне ту песню, которая играла у тебя в машине?",
+    "english": "Can you send me the song that was playing in your car?",
+    "explanation": "Can you send me…? — просьба через модальный can, после него V1 без to. send me the song — два дополнения без предлога: сначала кому (me), потом что (the song); вариант с предлогом — send the song to me. «Скинуть» из переписки — по-английски просто send: отдельного сленгового глагола не требуется. the song — артикль the: песня конкретная, оба её помнят. that was playing — Past Continuous: песня длилась как фон в тот момент поездки; формула was/were + V-ing. Заметь: по-английски песня «играет» сама, без «кто-то включил»: the song was playing — глагол play здесь без дополнения. in your car — предлог in: внутри легковой машины всегда in, не on (on — для транспорта, по которому ходят: автобус, поезд, самолёт).",
+    "level": "B1",
+    "grammarTags": ["question", "modal", "past-continuous", "article", "place-preposition"],
+    "topicTags": ["texting", "dating"]
+  },
+  {
+    "id": 524,
+    "russian": "Что ты имеешь в виду? Я не уверена, что правильно тебя поняла.",
+    "english": "What do you mean? I'm not sure I understood you correctly.",
+    "explanation": "What do you mean? — главная фраза, чтобы переспросить: «что ты имеешь в виду?». Present Simple с do: mean — глагол состояния и в Continuous не ставится (не What are you meaning). Русское «иметь в виду» — это один глагол mean; калька have in mind существует, но значит другое — «присмотреть, задумать вариант» (I have a place in mind). I'm not sure — отрицание на связке am: «я не уверена». Дальше придаточное без союза: I'm not sure (that) I understood — that в разговоре опускается. understood — Past Simple от неправильного understand — understood — understood: реплика уже прозвучала, понимание относится к прошлому. correctly — наречие «правильно» описывает глагол и стоит в конце; прилагательное correct тут не подойдёт.",
+    "level": "A2",
+    "grammarTags": ["question", "present-simple", "negation", "past-simple"],
+    "topicTags": ["communication", "texting"]
+  },
+  {
+    "id": 525,
+    "russian": "Можешь объяснить, что ты хотел этим сказать?",
+    "english": "Can you explain what you meant by that?",
+    "explanation": "Просьба через модальный Can you + V1: Can you explain…? После explain идёт косвенный вопрос what you meant — и в нём прямой порядок слов без вспомогательного did: what you meant, а не what did you mean (это был бы отдельный прямой вопрос What did you mean?). meant — Past Simple от неправильного mean — meant — meant: фраза уже сказана, поэтому прошедшее время. «Хотел этим сказать» — устойчивое mean by that: предлог by показывает «под этим, посредством этого»: What do you mean by that? → …what you meant by that. И важное про explain: он не берёт двух дополнений, как tell — сказать explain me нельзя; адресат добавляется через to: explain it to me.",
+    "level": "B1",
+    "grammarTags": ["question", "indirect-question", "modal", "past-simple", "preposition"],
+    "topicTags": ["communication", "texting"]
+  },
+  {
+    "id": 526,
+    "russian": "Прости, я не расслышала — тут очень шумно.",
+    "english": "Sorry, I didn't catch that — it's really noisy in here.",
+    "explanation": "I didn't catch that — устойчивая разговорная фраза «я не расслышала»: catch здесь «уловить» сказанное; звучит намного естественнее буквального I didn't hear you well. Отрицание в Past Simple через didn't + V1: didn't catch (сам catch неправильный: catch — caught — caught, но после didn't всегда начальная форма). that — «то, что ты сказал». Во второй части по-английски обязательно подлежащее: it's noisy — безличное it там, где по-русски просто «шумно»; опустить его нельзя. really — усилитель перед прилагательным: «очень». in here — «здесь, в этом помещении»: here — наречие, а добавка in подчёркивает закрытое пространство — бар, кафе, вагон.",
+    "level": "A2",
+    "grammarTags": ["past-simple", "negation", "collocation", "place-preposition"],
+    "topicTags": ["communication", "dating"]
+  },
+  {
+    "id": 527,
+    "russian": "Ты это серьёзно или шутишь?",
+    "english": "Are you serious, or are you joking?",
+    "explanation": "Два вопроса, соединённые or, и в них видна важная разница. Are you serious? — вопрос с прилагательным строится через глагол be: am/is/are выходит вперёд, и никакого do (нельзя Do you serious — serious не глагол). Are you joking? — Present Continuous: шутишь ли ты прямо сейчас, в этой самой реплике; формула are + V-ing. Получается контраст: состояние передаётся через be + прилагательное, действие в моменте — через Continuous. Очень частые американские синонимы: Are you kidding? / Are you kidding me? / No way, seriously? Русское «это» в «ты это серьёзно» отдельным словом не переводится — английская фраза обходится без него.",
+    "level": "A2",
+    "grammarTags": ["question", "present-continuous", "present-simple"],
+    "topicTags": ["humor", "communication"]
+  },
+  {
+    "id": 528,
+    "russian": "Кажется, ты меня не так понял — я не это имела в виду.",
+    "english": "I think you got me wrong — that's not what I meant.",
+    "explanation": "«Кажется» в начале реплики — по-английски чаще всего I think…: вежливое смягчение перед поправкой. get someone wrong — разговорное «понять кого-то неправильно»: you got me wrong (get — got — gotten; здесь Past Simple got). Отсюда же известная фраза Don't get me wrong — «не пойми меня неправильно». that's not what I meant — «я не это имела в виду», буквально «это не то, что я имела в виду»: отрицание вешается на связку is (that's not), а дальше идёт придаточное what I meant с прямым порядком слов. meant — V2 от mean (mean — meant — meant). Калька I meant not this не работает: по-английски отрицание выносится вперёд через конструкцию that's not what….",
+    "level": "B1",
+    "grammarTags": ["negation", "past-simple", "collocation"],
+    "topicTags": ["communication", "texting", "feelings"]
+  },
+  {
+    "id": 529,
+    "russian": "Что значит это слово? Я его раньше не слышала.",
+    "english": "What does this word mean? I've never heard it before.",
+    "explanation": "What does this word mean? — классическая ловушка порядка слов: нужен вспомогательный does, а смысловой mean остаётся в V1 в конце. Сказать What means this word? нельзя — это прямая калька. Формула: What + does + подлежащее + mean. Второе предложение — Present Perfect: I've never heard it before — опыт «за всю жизнь до этого момента», конкретное время не важно. Формула have + V3: hear — heard — heard. never — «ни разу», ставится между have и V3 и уже содержит отрицание, поэтому вспомогательный глагол без not: I've never heard, а не I haven't never heard — двойного отрицания в английском нет. before в конце — «раньше, прежде», без дополнения.",
+    "level": "A2",
+    "grammarTags": ["question", "present-simple", "word-order", "present-perfect", "negation"],
+    "topicTags": ["communication"]
+  },
+  {
+    "id": 530,
+    "russian": "Объясни, пожалуйста, попроще — я не сильна в технических терминах.",
+    "english": "Please explain it more simply — I'm not great with technical terms.",
+    "explanation": "Императив — просьба без подлежащего: Explain в начальной форме, Please смягчает тон. explain it — глаголу нужно дополнение «это»; и помни: explain me сказать нельзя — если добавлять адресата, то только через to (explain it to me). more simply — сравнительная степень наречия: simply («просто») → more simply («попроще»); наречия на -ly сравниваются через more. Хорошая альтернатива — in simpler terms. I'm not great with… — мягкое отрицание вместо прямолинейного I'm bad at: not great звучит легче и с самоиронией. Предлог with после good/great в значении «хорошо управляюсь с чем-то»: good with numbers, great with kids, not great with technical terms. technical terms — устойчивая пара «технические термины».",
+    "level": "B1",
+    "grammarTags": ["imperative", "comparative", "negation", "preposition"],
+    "topicTags": ["work", "communication"]
+  },
+  {
+    "id": 531,
+    "russian": "Как произносится это слово? Скажи ещё раз, помедленнее.",
+    "english": "How do you pronounce this word? Say it again, a little more slowly.",
+    "explanation": "How do you pronounce…? — стандартный способ спросить о произношении: русское безличное «как произносится» по-английски передаётся через обобщённое you — «как (люди) произносят». Формула вопроса: How + do + you + V1. Пассив How is this word pronounced? грамматически верен, но в живой речи почти всегда говорят с do you. Say it again — императив: «скажи ещё раз»; глаголу say нужно дополнение it. Просят именно say, а не tell: say — про произнесение слов, а tell требует адресата (tell me a story). a little more slowly — сравнительная степень наречия slowly через more; a little смягчает просьбу — «чуть помедленнее». В разговоре скажут и slower — это допустимо в American English.",
+    "level": "A2",
+    "grammarTags": ["question", "present-simple", "imperative", "comparative"],
+    "topicTags": ["communication"]
+  },
+  {
+    "id": 532,
+    "russian": "Я бы хотела, чтобы ты объяснил мне это выражение.",
+    "english": "I'd like you to explain this expression to me.",
+    "explanation": "I'd like = I would like — вежливое «я бы хотела»; здесь I'd раскрывается как I would (не I had) — это видно по конструкции с инфинитивом после. Главная схема: «хочу, чтобы ты сделал» = would like / want + кого + to + V1: I'd like you to explain. Русское придаточное с «чтобы» дословно перевести нельзя: I'd like that you explain — калька, так не говорят. Разница в одном слове: I'd like to explain — «я хотела бы объяснить сама», I'd like you to explain — «хочу, чтобы объяснил ты». explain this expression to me — адресат после explain присоединяется только предлогом to и ставится после дополнения (нельзя explain me it). expression — «выражение, оборот речи».",
+    "level": "B1",
+    "grammarTags": ["would-like", "want-someone-to", "infinitive"],
+    "topicTags": ["communication"]
+  },
+  {
+    "id": 533,
+    "russian": "Не переживай, я объясню это слово позже — сейчас убегаю.",
+    "english": "Don't worry, I'll explain the word later — I'm running out the door right now.",
+    "explanation": "Don't worry — отрицательный императив: Don't + V1, «не переживай». I'll explain — will для решения, принятого в момент речи: «ладно, объясню потом» — классический случай спонтанного обещания; be going to здесь звучал бы хуже, он про заранее обдуманные планы. the word — определённый артикль: слово то самое, о котором спрашивали. later — «позже», одно слово, предлог не нужен. I'm running out the door — Present Continuous о происходящем прямо сейчас; run out the door — живое американское «выбегаю, уже на пороге», буквально «выбегаю за дверь». right now подчёркивает момент: «прямо сейчас». Обрати внимание, как в одном сообщении сочетаются will (обещание) и Continuous (текущий процесс).",
+    "level": "B1",
+    "grammarTags": ["imperative", "negation", "future-will", "present-continuous", "article"],
+    "topicTags": ["texting", "communication"]
+  },
+  {
+    "id": 534,
+    "russian": "Давай сменим тему — не хочу говорить о работе в свой выходной.",
+    "english": "Let's change the subject — I don't want to talk about work on my day off.",
+    "explanation": "Let's + V1 — предложение сделать что-то вместе: Let's change (сокращение от let us). change the subject — устойчивое «сменить тему разговора»: именно subject (или topic) и с артиклем the — тема та, что звучит сейчас. Отрицание в Present Simple через don't: I don't want. После want идёт инфинитив с to: want to talk. talk about work — предлог about («о чём»); work — неисчисляемое «работа вообще», без артикля. on my day off — «в мой выходной»: day off — «выходной день» (off = свободный от работы), с конкретным днём предлог on. Русское «свой» по-английски всегда превращается в конкретное притяжательное: my day off, his day off — универсального «свой» нет.",
+    "level": "B1",
+    "grammarTags": ["imperative", "negation", "infinitive", "preposition", "time-preposition", "collocation"],
+    "topicTags": ["work", "communication", "dating"]
+  },
+  {
+    "id": 535,
+    "russian": "Можно я спрошу тебя кое о чём другом?",
+    "english": "Can I ask you about something else?",
+    "explanation": "«Можно я…?» — разрешение через модальный Can I…?: Can I ask you…? Чуть формальнее было бы May I, но в живой американской речи почти всегда can. После модального — V1 без to. ask you about something — глагол ask берёт человека прямым дополнением без предлога: ask you, не ask to you; а вот тема присоединяется через about — «спросить кого-то о чём-то». something else — «кое-что другое, что-то ещё»: else ставится после слов something, anything, someone, nothing, what и заменяет целое словосочетание «другое». Используется something, а не anything: вопрос по смыслу утвердительный — я точно собираюсь спросить, просто вежливо предупреждаю о смене темы.",
+    "level": "A2",
+    "grammarTags": ["question", "modal", "preposition"],
+    "topicTags": ["acquaintance", "communication", "dating"]
+  },
+  {
+    "id": 536,
+    "russian": "Это долгая история — расскажу как-нибудь при встрече.",
+    "english": "It's a long story — I'll tell you sometime when we meet up.",
+    "explanation": "It's a long story — устойчивая фраза «это долгая история», вежливый способ отложить тему; артикль a — обычный для «одна из, некая»: a long story. I'll tell you — will как обещание, решение в момент речи. tell обязательно берёт адресата: tell you (глагол say тут не подойдёт — say you сказать нельзя, say используется со словами: say it, say hi). sometime — «как-нибудь, когда-нибудь», одним словом; не путай с some time («некоторое время») и sometimes («иногда»). when we meet up — после when о будущем идёт Present Simple, а не will: when we meet up, не when we will meet. meet up — фразовый глагол «встретиться, пересечься» (по договорённости); в разговоре он частотнее простого meet.",
+    "level": "B1",
+    "grammarTags": ["future-will", "article", "phrasal-verb", "present-simple"],
+    "topicTags": ["texting", "communication"]
+  },
+  {
+    "id": 537,
+    "russian": "Мы можем поговорить об этом позже? Сейчас не самый подходящий момент.",
+    "english": "Can we talk about this later? Now isn't the best time.",
+    "explanation": "Can we talk…? — вопрос-просьба с модальным can: can выходит вперёд, дальше подлежащее и V1. talk about this — предлог about: «об этом». later — «позже», одно слово, без предлога. Now isn't the best time — «сейчас не лучший момент»: подлежащим становится Now, а отрицание вешается на связку is → isn't. the best — превосходная степень от good (good — better — best); с превосходной степенью всегда идёт артикль the. not the best time / not a good time — стандартные мягкие фразы, чтобы отложить разговор, не обижая собеседника. Русское «момент» здесь передаётся словом time: not the best moment звучит по-английски заметно менее естественно.",
+    "level": "A2",
+    "grammarTags": ["question", "modal", "negation", "superlative", "article"],
+    "topicTags": ["texting", "work", "feelings"]
+  },
+  {
+    "id": 538,
+    "russian": "А чем ты увлекался в детстве?",
+    "english": "What were you into as a kid?",
+    "explanation": "be into something — разговорное «увлекаться чем-то»; в прошедшем времени be превращается в was/were: What were you into? — «чем ты был увлечён». В вопросе с глаголом be вспомогательный do не нужен: were само выходит вперёд, перед you. Предлог into остаётся в конце — нормальная позиция предлога в английских вопросах: What were you into? (сравни: Who did you go with?). as a kid — «в детстве», буквально «будучи ребёнком»: as + a + существительное; вариант when you were a kid тоже верен, просто длиннее. kid — нейтрально-разговорное «ребёнок» в американском английском (child звучит чуть формальнее). Русское «а» в начале передаётся интонацией или словом So.",
+    "level": "B1",
+    "grammarTags": ["question", "past-simple", "collocation", "preposition"],
+    "topicTags": ["acquaintance", "dating", "interests"]
+  },
+  {
+    "id": 539,
+    "russian": "В детстве я собирала наклейки и менялась ими с подружками.",
+    "english": "As a kid, I collected stickers and traded them with my friends.",
+    "explanation": "Past Simple (collected, traded) — регулярные действия в закрытом периоде прошлого: детство закончилось, поэтому привычки того времени спокойно передаются Past Simple. Можно и used to collect — это подчеркнуло бы контраст «раньше собирала, а теперь нет». collect — «собирать, коллекционировать»; stickers — без артикля, во множественном числе: наклейки как категория. trade — обычное американское слово «меняться» (карточками, наклейками, вещами): traded them, где them заменяет stickers. Русское возвратное «менялась» отдельно не переводится — trade уже включает взаимность; «с подружками» — with my friends, предлог with. As a kid в начале предложения отделяется запятой.",
+    "level": "A2",
+    "grammarTags": ["past-simple", "preposition", "article"],
+    "topicTags": ["interests", "friends"]
+  },
+  {
+    "id": 540,
+    "russian": "Ты играл в футбол, когда был маленьким?",
+    "english": "Did you play soccer when you were little?",
+    "explanation": "Вопрос о прошлом — Past Simple: Did + you + V1: Did you play? После did смысловой глагол возвращается в начальную форму — не Did you played. Важная страноведческая деталь: «футбол» в американском английском — soccer; слово football в США означает американский футбол, так что вопрос про football поймут неправильно. Виды спорта идут без артикля и без предлога: play soccer, play tennis, play chess — русское «играть в» превращается просто в play + название игры, кальки play in soccer нет. when you were little — «когда был маленьким»: о возрасте обычно little (не small); were — прошедшее от be для you. Обе части в Past Simple — закрытый период детства.",
+    "level": "A2",
+    "grammarTags": ["question", "past-simple", "article"],
+    "topicTags": ["acquaintance", "interests", "small-talk"]
+  },
+  {
+    "id": 541,
+    "russian": "Когда мне было десять, мы переехали, и я долго ни с кем не общалась.",
+    "english": "When I was ten, we moved, and I didn't talk to anyone for a long time.",
+    "explanation": "Past Simple во всей цепочке — последовательные факты прошлого: was, moved, didn't talk. «Мне было десять» — по-английски через be: I was ten (years old можно опустить); кальки I had ten years в английском нет — возраст не «имеют», им «являются». move — «переехать», дополнение не обязательно: we moved достаточно (при уточнении — we moved to another city). Отрицание didn't + V1: didn't talk. «Ни с кем» — anyone при отрицательном глаголе: didn't talk to anyone; двойное отрицание didn't talk to no one — ошибка. talk to someone — «общаться, разговаривать с кем-то», предлог to. for a long time — «долго»: предлог for с длительностью, устойчивое сочетание.",
+    "level": "B1",
+    "grammarTags": ["past-simple", "negation", "for-since", "preposition"],
+    "topicTags": ["family", "feelings"]
+  },
+  {
+    "id": 542,
+    "russian": "Раньше я рисовала часами, а теперь беру карандаш хорошо если раз в год.",
+    "english": "I used to draw for hours, but now I pick up a pencil maybe once a year.",
+    "explanation": "used to + V1 — привычка прошлого, которой больше нет: I used to draw — «раньше рисовала (а теперь нет)». Сам контраст «раньше — теперь» и есть сигнал для used to; простой Past Simple (I drew) потерял бы это значение «а сейчас всё иначе». for hours — «часами»: for + множественное число без числительного передаёт «подолгу» (for hours, for days). but now I pick up — нынешняя редкая привычка в Present Simple. pick up — фразовый глагол «взять, поднять» (в руку): pick up a pencil; артикль a — любой карандаш, не конкретный. maybe once a year — «хорошо если раз в год»: maybe передаёт сомнение, once a year — «раз в год», где артикль a работает как «в расчёте на» (как в twice a week), и предлог не нужен.",
+    "level": "B1",
+    "grammarTags": ["used-to", "present-simple", "phrasal-verb", "article"],
+    "topicTags": ["interests", "daily-life"]
+  },
+  {
+    "id": 543,
+    "russian": "Кем ты мечтал стать, когда вырастешь?",
+    "english": "What did you want to be when you grew up?",
+    "explanation": "Классический американский вопрос о детской мечте — он весь устойчивый: What did you want to be when you grew up? Первое: «кем стать» — What…to be, а не Who: профессия и род занятий спрашиваются через what (What do you do? — «кем работаешь?»). Формула вопроса Past Simple: What + did + you + want, после want инфинитив с to: want to be. Второе: русское «когда вырастешь» стоит в будущем, но по-английски вся рамка согласована в прошлом: when you grew up — Past Simple, потому что и мечта, и взросление в прошлом. grow up — фразовый глагол «расти, взрослеть» (о людях): grow — grew — grown; без up глагол grow — просто «расти, увеличиваться».",
+    "level": "B1",
+    "grammarTags": ["question", "past-simple", "infinitive", "phrasal-verb"],
+    "topicTags": ["acquaintance", "dating", "work"]
+  },
+  {
+    "id": 544,
+    "russian": "Этот сериал всегда заставляет меня смеяться, даже когда день совсем ужасный.",
+    "english": "This show always makes me laugh, even when I'm having a terrible day.",
+    "explanation": "make в значении «заставлять, вызывать реакцию» присоединяет голый инфинитив без to: makes me laugh, а не makes me to laugh — одно из главных исключений английской грамматики (так же работает let: let me go). makes — с -s: this show = it, третье лицо единственного числа. always — между подлежащим и глаголом: always makes. even when — «даже когда». I'm having a terrible day — Present Continuous с have: здесь have не «владеть», а часть выражения have a day / have fun — процесс, поэтому Continuous допустим (в значении «иметь» have в Continuous не ставится: нельзя I'm having a car). have a terrible/great day — устойчивое «день не задался / день отличный», артикль a обязателен.",
+    "level": "B1",
+    "grammarTags": ["bare-infinitive", "present-simple", "present-continuous", "word-order"],
+    "topicTags": ["interests", "humor", "feelings"]
+  },
+  {
+    "id": 545,
+    "russian": "Очень жду нашей поездки — уже начала собирать плейлист в дорогу.",
+    "english": "I'm really looking forward to our trip — I've already started making a playlist for the road.",
+    "explanation": "look forward to — «с нетерпением ждать»; to здесь предлог, а не частица инфинитива, поэтому после него идёт существительное или V-ing: looking forward to our trip; а «жду встречи с тобой» было бы looking forward to seeing you — ни в коем случае не to see. Сама конструкция обычно стоит в Present Continuous: I'm really looking forward to. Русское «очень жду» без подлежащего по-английски требует I. I've already started — Present Perfect: результат к настоящему моменту, already («уже») между have и V3. После start возможны и герундий, и инфинитив почти без разницы: started making = started to make. a playlist — упоминается впервые, артикль a. for the road — устойчивое «в дорогу».",
+    "level": "B1",
+    "grammarTags": ["look-forward-to", "to-preposition", "present-perfect", "gerund", "present-continuous"],
+    "topicTags": ["travel", "plans", "interests"]
+  },
+  {
+    "id": 546,
+    "russian": "Ты уже побывал в стольких странах — какая понравилась больше всего?",
+    "english": "You've been to so many countries — which one did you like best?",
+    "explanation": "Present Perfect (You've been to) — накопленный жизненный опыт: «успел побывать». been to + страна — «съездил туда и вернулся»; именно to, а не in: have been to Italy — опыт поездки, а was in Italy — просто находился там в конкретный момент. so many + исчисляемое во множественном числе: so many countries — «столько стран» (с неисчисляемым было бы so much: so much time). Второй вопрос — уже Past Simple: впечатление относится к конкретным прошлым поездкам, поэтому did you like, а не have you liked. which one — «какая из них»: which для выбора из известного набора, one заменяет country, чтобы не повторяться. like best — «нравиться больше всего»: best — превосходная степень наречия well; артикль the здесь обычно опускают.",
+    "level": "B1",
+    "grammarTags": ["present-perfect", "quantifier", "question", "past-simple", "superlative"],
+    "topicTags": ["travel", "acquaintance"]
+  },
+  {
+    "id": 547,
+    "russian": "Если приедешь к семи, я как раз закончу с ужином, и посмотрим что-нибудь.",
+    "english": "If you come over by seven, I'll be done cooking dinner, and we can watch something.",
+    "explanation": "First Conditional: в if-части Present Simple (If you come over), хотя речь о будущем — will после if не ставится; в главной части will: I'll be done. come over — фразовый глагол «зайти, приехать в гости» (к говорящему, к нему домой): come over by seven. by seven — предлог by = «к семи, не позже семи», крайний срок; until значило бы длительность «до семи» (например, ждать до семи) — их важно не путать: by о дедлайне, until о процессе. be done + V-ing — разговорное «закончить с чем-то»: I'll be done cooking — «как раз закончу готовить»; после done идёт герундий. cooking dinner — приёмы пищи (breakfast, lunch, dinner) обычно без артикля. we can watch something — мягкое предложение через can: «можем посмотреть».",
+    "level": "B1",
+    "grammarTags": ["conditional-1", "phrasal-verb", "by-until", "gerund", "future-will"],
+    "topicTags": ["food", "dating", "plans"]
+  },
+  {
+    "id": 548,
+    "russian": "В детстве брат вечно что-то мастерил, пока я смотрела мультики.",
+    "english": "When we were kids, my brother was always building something while I was watching cartoons.",
+    "explanation": "Past Continuous в обеих частях (was building, was watching): два длительных процесса шли параллельно в прошлом, их соединяет while («пока, в то время как»). Формула: was/were + V-ing. was always building — Continuous с always даёт оттенок «вечно, постоянно что-то мастерил», лёгкое преувеличение с эмоцией; always встаёт между was и V-ing. When we were kids — временная рамка в Past Simple: «были детьми» — это фон-состояние, а не процесс. «Мастерить» по-английски — build или make: was building something. my brother — родственники почти всегда с притяжательным: my brother, my mom, а не просто brother. cartoons — «мультики», множественное число без артикля: категория вообще, а не конкретный мультфильм.",
+    "level": "B1",
+    "grammarTags": ["past-continuous", "past-simple", "word-order"],
+    "topicTags": ["family", "interests"]
+  },
+  {
+    "id": 549,
+    "russian": "Давно не читала ничего, что по-настоящему зацепило, — собираюсь наконец взяться за классику.",
+    "english": "I haven't read anything that really hooked me in a while — I'm finally going to give the classics a try.",
+    "explanation": "Present Perfect в отрицании (haven't read) — «давно не…»: период тянется от прошлого до сейчас; read — неправильный глагол read — read — read (форма пишется одинаково, но V2/V3 произносится «ред»). in a while в конце — «уже довольно давно»: в отрицаниях привычнее in a while, чем for a while. anything при отрицательном глаголе: not… anything = «ничего» — второе отрицание с nothing не ставится. that really hooked me — «что по-настоящему зацепило»: hook — разговорное «зацепить, затянуть» (буквально — «подцепить крючком»), Past Simple о конкретных прочитанных книгах. I'm finally going to — план через be going to + V1; finally — «наконец-то». give something a try — устойчивое «попробовать, дать шанс»: give the classics a try; the classics — «классика» как известный всем корпус книг, поэтому the.",
+    "level": "B1",
+    "grammarTags": ["present-perfect", "negation", "going-to", "collocation", "article"],
+    "topicTags": ["interests", "deep-talk"]
+  },
+  {
+    "id": 550,
+    "russian": "Кажется, я только сейчас начинаю понимать, что мне на самом деле нравится.",
+    "english": "I feel like I'm only now starting to understand what I actually like.",
+    "explanation": "I feel like + целое предложение — разговорное «мне кажется, такое ощущение, что»: I feel like I'm starting… Важно различать: это же выражение с существительным или герундием значит «хочется» (I feel like coffee, I feel like dancing) — смысл определяется тем, что идёт после. I'm starting to understand — Present Continuous: «начинаю понимать» — процесс, разворачивающийся в этот период жизни; после start здесь инфинитив starting to understand — start берёт и герундий, но двух -ing подряд (starting understanding) носители избегают. only now — «только сейчас», стоит перед смысловой частью. what I actually like — косвенный вопрос с прямым порядком слов, без do: не what do I like. actually — «на самом деле», перед глаголом.",
+    "level": "B1",
+    "grammarTags": ["feel-like", "present-continuous", "infinitive", "indirect-question", "present-simple"],
+    "topicTags": ["deep-talk", "feelings"]
+  }
+]
