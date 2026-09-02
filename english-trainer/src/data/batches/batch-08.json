@@ -233,38 +233,39 @@
   },
   {
     "id": 357,
-    "russian": "У меня нет сил на игры и намёки — я от них устаю.",
-    "english": "I don't have the energy for games and mixed signals — they wear me out.",
+    "russian": "Я не играю в игры и не намекаю — если человек мне нравится, я так прямо и говорю.",
+    "english": "I don't play games or drop hints — if I like someone, I just come out and say it.",
     "alternatives": [
-      "I'm too tired for games and mixed signals — they drain me.",
-      "I can't deal with games and mixed signals anymore; they exhaust me."
+      "I'm not into games or mixed signals — if I like someone, I tell them straight up.",
+      "No games, no hints from me — when I like someone, I say so."
     ],
     "vocab": [
       {
-        "word": "have the energy for",
-        "translation": "иметь силы на"
+        "word": "play games",
+        "translation": "играть в игры (в отношениях)"
       },
       {
-        "word": "games",
-        "translation": "игры (в отношениях)"
+        "word": "drop hints",
+        "translation": "намекать"
       },
       {
-        "word": "mixed signals",
-        "translation": "противоречивые сигналы, намёки"
+        "word": "come out and say",
+        "translation": "сказать прямо, в открытую"
       },
       {
-        "word": "wear out",
-        "translation": "выматывать"
+        "word": "someone",
+        "translation": "человек, кто-то"
       }
     ],
-    "explanation": "don't have — отрицание Present Simple через don't + have: «у меня нет» по-английски строится от глагола have, русская конструкция «у меня» дословно не переводится. the energy for — «силы на что-то»: energy + for + существительное; energy — неисчисляемое (без a и без множественного числа), здесь с the — «те самые силы на это». mixed signals — устойчивое «противоречивые сигналы, недосказанность» из разговоров об отношениях. wear out — фразовый глагол «выматывать»; он разделяемый, и местоимение ставится внутрь: wear me out, а не wear out me. they — games и signals вместе, поэтому множественное число.",
+    "explanation": "I don't play games or drop hints — отрицание Present Simple через don't + V1; одно don't накрывает оба глагола, а связка между ними — or, не and: русское «не… и не…» в английском отрицании обычно даёт or (I don't play games or drop hints). play games — устойчивое «играть в игры» о манипуляциях в отношениях; drop hints — collocation «намекать», дословно «ронять намёки». games и hints — исчисляемые существительные во множественном числе без артикля: так говорят о явлении вообще (не a game, не the hints). if I like someone, I just come out and say it — нулевое условие (Zero Conditional): If + Present Simple, Present Simple — это личное правило, «всякий раз, когда». Никакого will в if-части. come out and say — разговорный оборот «сказать прямо, в открытую»: come out здесь фразовый глагол «выйти наружу (с тем, что думаешь)», а say it — «сказать это». just — «просто», подчёркивает лёгкость. someone — «человек, кто-то», без артикля.",
     "level": "B1",
     "grammarTags": [
       "negation",
       "present-simple",
       "phrasal-verb",
       "collocation",
-      "countable-uncountable"
+      "countable-uncountable",
+      "conditional-0"
     ],
     "topicTags": [
       "dating",
@@ -629,11 +630,11 @@
   },
   {
     "id": 367,
-    "russian": "Обычно я не пишу первой, но твой профиль меня рассмешил.",
-    "english": "I don't usually text first, but your profile made me laugh.",
+    "russian": "Обычно я не отвечаю на односложное «привет», но твоя шутка про шахматы меня рассмешила.",
+    "english": "I don't usually reply to a one-word 'hey,' but your chess joke made me laugh.",
     "alternatives": [
-      "I usually don't message first, but your profile cracked me up.",
-      "I'm not one to text first, but your profile was hilarious."
+      "I usually ignore one-word openers, but your chess joke cracked me up.",
+      "A plain 'hey' normally doesn't get a reply from me, but your chess joke was hilarious."
     ],
     "vocab": [
       {
@@ -641,19 +642,23 @@
         "translation": "обычно"
       },
       {
-        "word": "text",
-        "translation": "писать сообщения"
+        "word": "reply to",
+        "translation": "отвечать на"
       },
       {
-        "word": "first",
-        "translation": "первым"
+        "word": "one-word",
+        "translation": "односложный, из одного слова"
+      },
+      {
+        "word": "joke",
+        "translation": "шутка"
       },
       {
         "word": "make someone laugh",
         "translation": "рассмешить кого-то"
       }
     ],
-    "explanation": "don't usually text — отрицание Present Simple; наречие частотности usually ставится после вспомогательного don't, перед смысловым глаголом. text — обычный американский глагол «писать сообщения» (не write). first — «первой»: наречие, по родам не меняется, стоит после глагола. made me laugh — make + объект + голый инфинитив: «рассмешил» = «заставил смеяться», laugh без to (не made me to laugh). made — V2 от make. Past Simple, потому что профиль рассмешил один раз, в момент прочтения. Заметь: подлежащим спокойно становится неодушевлённое your profile — по-английски так говорят постоянно, по-русски мы бы чаще сказали «я рассмеялась».",
+    "explanation": "don't usually reply — отрицание Present Simple; наречие частотности usually стоит после вспомогательного don't и перед смысловым глаголом: I don't usually reply (I usually don't reply тоже встречается, но звучит чуть резче). reply to — «отвечать на» требует предлога to: reply to a message (reply a message — калька). a one-word 'hey' — само слово 'hey' превращено в существительное «одно такое „привет“», отсюда артикль a; one-word — прилагательное через дефис, «односложный». your chess joke — существительное chess в роли определения: «шутка про шахматы» = chess joke, без предлога. made me laugh — конструкция make + объект + голый инфинитив: «рассмешила» = «заставила смеяться», laugh без to (не made me to laugh); made — V2 от make (make—made—made). Past Simple, потому что рассмешила один раз, в момент прочтения. Обрати внимание: подлежащее — неодушевлённое your joke; по-английски так говорят постоянно, а по-русски мы бы скорее сказали «я рассмеялась».",
     "level": "A2",
     "grammarTags": [
       "negation",
@@ -874,11 +879,11 @@
   },
   {
     "id": 373,
-    "russian": "Я никогда не была в Азии, но очень хочу съездить.",
-    "english": "I've never been to Asia, but I really want to go.",
+    "russian": "Я никогда не была в Японии, но очень хочу съездить — она в самом верху моего списка.",
+    "english": "I've never been to Japan, but I really want to go — it's at the very top of my list.",
     "alternatives": [
-      "I haven't been to Asia yet, but it's on my list.",
-      "Asia's somewhere I've never been, and I'd love to go."
+      "I haven't been to Japan yet, but it's number one on my list.",
+      "Japan's somewhere I've never been, and I'd love to go — it's my top pick."
     ],
     "vocab": [
       {
@@ -894,11 +899,15 @@
         "translation": "очень хотеть"
       },
       {
-        "word": "go",
-        "translation": "поехать"
+        "word": "at the top of",
+        "translation": "в самом верху, на первом месте"
+      },
+      {
+        "word": "list",
+        "translation": "список (мест, куда хочу)"
       }
     ],
-    "explanation": "Present Perfect для жизненного опыта: I've never been — «за всю жизнь ни разу», без привязки к дате. never ставится между have и V3 и уже несёт отрицание — not не нужен (I haven't never been — двойное отрицание, ошибка). been to Asia — именно to, не in: been to с Present Perfect означает «съездила туда и вернулась». Asia — континенты и страны без артикля. really want — «очень хочу» = really + глагол (very want — калька, так сказать нельзя). want to go — инфинитив с to; куда — понятно из контекста, поэтому просто go, без повторения to Asia. go покрывает русские «съездить, поехать».",
+    "explanation": "Present Perfect для жизненного опыта: I've never been — «за всю жизнь ни разу», без привязки к дате. never ставится между have и V3 и уже несёт отрицание — not не нужен (I haven't never been — двойное отрицание, ошибка). been to Japan — именно to, не in: been to с Present Perfect означает «съездила туда и вернулась». Japan — названия стран без артикля. really want — «очень хочу» = really + глагол (very want — калька, так сказать нельзя). want to go — инфинитив с to; куда — понятно из контекста, поэтому просто go, без повторения to Japan; go покрывает русские «съездить, поехать». it's at the very top of my list — «в самом верху списка»: место «на вершине» = at the top, а не on; very перед top усиливает («в самом-самом верху»); of связывает вершину и список. my list — «мой список» мест, куда хочу поехать: по-английски так и говорят — it's on my list.",
     "level": "A2",
     "grammarTags": [
       "present-perfect",
@@ -1028,39 +1037,39 @@
   },
   {
     "id": 377,
-    "russian": "Мама до сих пор звонит мне каждое утро в семь — и, честно говоря, мне это нравится.",
-    "english": "My mom still calls me at seven every morning, and honestly, I love it.",
+    "russian": "Мы с сёстрами до сих пор созваниваемся каждое воскресенье в шесть вечера — и, честно говоря, это мой любимый час недели.",
+    "english": "My sisters and I still call each other every Sunday at six, and honestly, it's my favorite hour of the week.",
     "alternatives": [
-      "My mom still gives me a call every morning at seven, and I honestly love that.",
-      "To this day my mom calls me at 7 every morning — and truthfully, I wouldn't have it any other way."
+      "My sisters and I still have a call every Sunday at six, and I honestly love that.",
+      "To this day my sisters and I get on a call every Sunday at 6 p.m. — and truthfully, it's the best hour of my week."
     ],
     "vocab": [
       {
-        "word": "mom",
-        "translation": "мама"
+        "word": "sister",
+        "translation": "сестра"
       },
       {
         "word": "still",
         "translation": "до сих пор"
       },
       {
-        "word": "call",
-        "translation": "звонить"
+        "word": "call each other",
+        "translation": "созваниваться"
       },
       {
-        "word": "at seven",
-        "translation": "в семь"
+        "word": "every Sunday",
+        "translation": "каждое воскресенье"
       },
       {
-        "word": "every morning",
-        "translation": "каждое утро"
+        "word": "at six",
+        "translation": "в шесть"
       },
       {
-        "word": "honestly",
-        "translation": "честно говоря"
+        "word": "favorite",
+        "translation": "любимый"
       }
     ],
-    "explanation": "My mom — с членами семьи английский обычно ставит притяжательное: my mom, даже там, где по-русски просто «мама». still «до сих пор» стоит перед смысловым глаголом: still calls. calls — Present Simple с -s (третье лицо): регулярное действие, привычка. at seven — точное время с предлогом at: at seven, at 7 a.m. every morning — без предлога: every вытесняет предлог (не in every morning). call me — «звонить мне» без предлога: call someone (call to me — калька). honestly — вводное «честно говоря». I love it — русская безличная фраза «мне нравится» по-английски становится личной: я — подлежащее, и дополнение it обязательно.",
+    "explanation": "My sisters and I — русское «мы с сёстрами» по-английски строится как «мои сёстры и я», причём I ставится в конец: My sisters and I (Me and my sisters в разговоре встречается, но считается небрежным), и точно не We with my sisters — это калька. still «до сих пор» стоит перед смысловым глаголом: still call. call — Present Simple без -s, потому что подлежащее множественное (мы). call each other — «созваниваться»: взаимность передаётся через each other, без предлога (call to each other — ошибка, call someone всегда без to). every Sunday — без предлога: every вытесняет предлог (не on every Sunday). at six — точное время с предлогом at; «вечера» здесь понятно из контекста, иначе at 6 p.m. honestly — вводное «честно говоря». my favorite hour of the week — favorite «любимый» уже само по себе превосходная степень, most не нужен; of the week — «недели», с the, потому что неделя — понятный всем цикл.",
     "level": "A2",
     "grammarTags": [
       "present-simple",
@@ -1830,11 +1839,11 @@
   },
   {
     "id": 397,
-    "russian": "Я поймала себя на том, что в полночь проверяю телефон — жду твоего сообщения.",
-    "english": "I caught myself checking my phone at midnight, waiting for your text.",
+    "russian": "Я поймала себя на том, что во вторник за обедом перечитываю твои сообщения вместо новостей про ИИ.",
+    "english": "I caught myself rereading your messages at lunch on Tuesday instead of my AI news.",
     "alternatives": [
-      "I realized I was checking my phone at midnight, hoping you'd texted.",
-      "There I was at midnight, staring at my phone and waiting to hear from you."
+      "On Tuesday I realized I was reading your messages again over lunch instead of catching up on AI news.",
+      "There I was at lunch on Tuesday, going through your texts one more time instead of my usual AI news."
     ],
     "vocab": [
       {
@@ -1842,27 +1851,27 @@
         "translation": "поймать себя на том, что делаешь"
       },
       {
-        "word": "check",
-        "translation": "проверять"
+        "word": "reread",
+        "translation": "перечитывать"
       },
       {
-        "word": "phone",
-        "translation": "телефон"
+        "word": "at lunch",
+        "translation": "за обедом"
       },
       {
-        "word": "at midnight",
-        "translation": "в полночь"
+        "word": "on Tuesday",
+        "translation": "во вторник"
       },
       {
-        "word": "wait for",
-        "translation": "ждать (чего-то)"
+        "word": "instead of",
+        "translation": "вместо"
       },
       {
-        "word": "text",
-        "translation": "сообщение"
+        "word": "AI news",
+        "translation": "новости про ИИ"
       }
     ],
-    "explanation": "caught myself checking — конструкция catch yourself + V-ing: «поймать себя на том, что делаешь» — после catch oneself действие идёт герундием; caught — V2 от catch (catch—caught—caught). myself — возвратное «себя», меняется по лицам (yourself, himself). at midnight — предлог at с точками времени: at midnight, at noon, at seven. checking my phone — английский ставит притяжательные с личными вещами: my phone, даже когда по-русски просто «телефон». waiting for your text — причастный оборот «ожидая»; wait FOR обязателен: ждать «чего-то» = wait for something (wait your text — калька). text — разговорное «сообщение».",
+    "explanation": "caught myself rereading — конструкция catch yourself + V-ing: «поймать себя на том, что делаешь» — после catch oneself действие идёт герундием; caught — V2 от catch (catch—caught—caught). myself — возвратное «себя», меняется по лицам (yourself, himself). reread — приставка re- «заново»: reread = «перечитывать», одним словом, без «again». your messages — притяжательное обязательно, по-русски его часто опускают. at lunch — «за обедом» с предлогом at: приём пищи как точка дня (at lunch, at dinner, at breakfast). on Tuesday — с днями недели всегда on (не in, не at). instead of + существительное — «вместо чего-то»: instead of my AI news; если бы дальше стоял глагол, он был бы в V-ing (instead of reading). AI news — news неисчисляемое: без артикля, без множественного числа, и глагол с ним всегда в единственном (the news is).",
     "level": "B1",
     "grammarTags": [
       "past-simple",
