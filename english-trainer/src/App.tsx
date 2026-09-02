@@ -11,10 +11,22 @@ import {
   isCompleted
 } from "./lib/progress";
 import { loadVocab, saveVocab, addVocab, removeVocab } from "./lib/vocab";
+import {
+  type CourseState,
+  type Drill,
+  loadCourseState,
+  saveCourseState,
+  buildDrill,
+  answerDrill,
+  resetMastery,
+  dueForReview
+} from "./lib/course";
+import type { CourseModule } from "./data/course";
 import { CardView } from "./components/CardView";
 import { AllView } from "./components/AllView";
 import { HistoryView } from "./components/HistoryView";
 import { VocabView } from "./components/VocabView";
+import { CourseList, ModuleView, DrillView } from "./components/CourseView";
 import { Menu, ResetModal, ExportModal, ImportModal, AddWordModal } from "./components/Modals";
 
 export default function App() {
@@ -43,8 +55,9 @@ export default function App() {
   return <TrainerApp dataset={dataset} />;
 }
 
-type View = "card" | "all" | "vocab" | "history";
+type View = "course" | "module" | "drill" | "card" | "all" | "vocab" | "history";
 type Modal = "reset" | "export" | "import" | null;
+type DrillSession = { label: string; list: Sentence[]; drill: Drill; total: number; includeMastered: boolean };
 
 function TrainerApp({ dataset }: { dataset: Dataset }) {
   const sentences = dataset.sentences;
@@ -60,8 +73,9 @@ function TrainerApp({ dataset }: { dataset: Dataset }) {
     loadProgress(localStorage, dataset.datasetVersion)
   );
   const [vocab, setVocab] = useState<VocabEntry[]>(() => loadVocab(localStorage));
+  const [course, setCourse] = useState<CourseState>(() => loadCourseState(localStorage));
 
-  // Каждое изменение прогресса сохраняется немедленно.
+  // Каждое изменение сохраняется немедленно.
   const update = useCallback((fn: (s: ProgressState) => ProgressState) => {
     setProgress((prev) => {
       const next = fn(prev);
@@ -69,7 +83,6 @@ function TrainerApp({ dataset }: { dataset: Dataset }) {
       return next;
     });
   }, []);
-
   const updateVocab = useCallback((fn: (v: VocabEntry[]) => VocabEntry[]) => {
     setVocab((prev) => {
       const next = fn(prev);
@@ -77,8 +90,17 @@ function TrainerApp({ dataset }: { dataset: Dataset }) {
       return next;
     });
   }, []);
+  const updateCourse = useCallback((fn: (c: CourseState) => CourseState) => {
+    setCourse((prev) => {
+      const next = fn(prev);
+      if (next !== prev) saveCourseState(localStorage, next);
+      return next;
+    });
+  }, []);
 
-  const [view, setView] = useState<View>("card");
+  const [view, setView] = useState<View>("course");
+  const [activeModule, setActiveModule] = useState<CourseModule | null>(null);
+  const [session, setSession] = useState<DrillSession | null>(null);
   const [menuOpen, setMenuOpen] = useState(false);
   const [modal, setModal] = useState<Modal>(null);
   const [wordToAdd, setWordToAdd] = useState<{ word: string; sentence: Sentence } | null>(null);
@@ -89,40 +111,50 @@ function TrainerApp({ dataset }: { dataset: Dataset }) {
     setTimeout(() => setToast(null), 2200);
   }, []);
 
-  // «Продолжаем с №…» — при повторном открытии с сохранённой позицией
-  useEffect(() => {
-    if (progress.completedIds.length > 0 || progress.currentSentenceId > 1 || progress.currentRound > 1) {
-      showToast(`Продолжаем с №${progress.currentSentenceId}`);
-    }
-    // только при первом монтировании
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, []);
-
   const currentId = byId.has(progress.currentSentenceId) ? progress.currentSentenceId : ids[0];
   const current = byId.get(currentId)!;
   const completedCount = progress.completedIds.filter((id) => byId.has(id)).length;
   const roundDone = completedCount >= total;
   const percent = total > 0 ? Math.round((completedCount / total) * 100) : 0;
 
+  const switchView = useCallback((v: View) => {
+    setView(v);
+    window.scrollTo({ top: 0 });
+  }, []);
+
   const goTo = useCallback(
     (id: number) => {
       if (byId.has(id)) {
         update((s) => setPosition(s, id));
-        setView("card");
-        window.scrollTo({ top: 0 });
+        switchView("card");
       }
     },
-    [byId, update]
+    [byId, update, switchView]
   );
 
   const idx = ids.indexOf(currentId);
   const prevId = idx > 0 ? ids[idx - 1] : null;
   const nextId = idx < ids.length - 1 ? ids[idx + 1] : null;
 
-  const switchView = (v: View) => {
-    setView(v);
+  // ---- Курс ----
+  const startDrill = (list: Sentence[], label: string, includeMastered: boolean) => {
+    setSession({ label, list, drill: buildDrill(list, course, includeMastered), total: list.length, includeMastered });
+    switchView("drill");
+  };
+  const startReview = () => {
+    const due = dueForReview(sentences, course);
+    setSession({ label: "Повторение", list: due, drill: buildDrill(due, course, true), total: due.length, includeMastered: true });
+    switchView("drill");
+  };
+  const onDrillAnswer = (result: "ok" | "again") => {
+    if (!session) return;
+    const res = answerDrill(session.drill, course, result);
+    updateCourse(() => res.state);
+    setSession({ ...session, drill: res.drill });
     window.scrollTo({ top: 0 });
   };
+
+  const tabView = view === "module" || view === "drill" ? "course" : view;
 
   return (
     <div className="app">
@@ -153,6 +185,47 @@ function TrainerApp({ dataset }: { dataset: Dataset }) {
       </header>
 
       <main className="main">
+        {view === "course" && (
+          <CourseList
+            sentences={sentences}
+            course={course}
+            onOpen={(mod) => {
+              setActiveModule(mod);
+              switchView("module");
+            }}
+            onReview={startReview}
+          />
+        )}
+        {view === "module" && activeModule && (
+          <ModuleView
+            mod={activeModule}
+            sentences={sentences}
+            course={course}
+            onBack={() => switchView("course")}
+            onStart={startDrill}
+            onReset={(list) => {
+              updateCourse((c) => resetMastery(c, list));
+              showToast("Отметки модуля сброшены");
+            }}
+          />
+        )}
+        {view === "drill" && session && (
+          <DrillView
+            label={session.label}
+            list={session.list}
+            drill={session.drill}
+            total={session.total}
+            course={course}
+            vocab={vocab}
+            onAnswer={onDrillAnswer}
+            onWordTap={(word, sentence) => setWordToAdd({ word, sentence })}
+            onExit={() => switchView(activeModule ? "module" : "course")}
+            onRestart={() => {
+              updateCourse((c) => resetMastery(c, session.list));
+              setSession({ ...session, drill: buildDrill(session.list, resetMastery(course, session.list), false) });
+            }}
+          />
+        )}
         {view === "card" && roundDone && (
           <div className="round-done card">
             <div className="round-done-emoji">✨</div>
@@ -204,9 +277,13 @@ function TrainerApp({ dataset }: { dataset: Dataset }) {
       </main>
 
       <nav className="tabbar" aria-label="Разделы">
+        <button className={"tab" + (tabView === "course" ? " tab-active" : "")} onClick={() => switchView("course")}>
+          <span className="tab-icon">◎</span>
+          Курс
+        </button>
         <button className={"tab" + (view === "card" ? " tab-active" : "")} onClick={() => switchView("card")}>
           <span className="tab-icon">✎</span>
-          Учить
+          Марафон
         </button>
         <button className={"tab" + (view === "all" ? " tab-active" : "")} onClick={() => switchView("all")}>
           <span className="tab-icon">☰</span>

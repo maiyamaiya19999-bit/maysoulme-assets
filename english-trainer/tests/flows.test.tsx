@@ -52,7 +52,10 @@ function storedVocab() {
 }
 
 function renderApp() {
-  return render(<TrainerApp dataset={dataset} />);
+  const r = render(<TrainerApp dataset={dataset} />);
+  // приложение открывается на «Курсе» — сценарии ниже про марафон 1–N
+  fireEvent.click(screen.getByRole("button", { name: /Марафон/ }));
+  return r;
 }
 
 const openAll = () => fireEvent.click(screen.getByRole("button", { name: /Все$/ }));

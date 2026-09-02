@@ -1007,3 +1007,219 @@ button {
 .toast {
   bottom: calc(96px + env(safe-area-inset-bottom));
 }
+
+/* ---------- Курс ---------- */
+
+.course-view,
+.module-view,
+.drill-view {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.course-head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.course-intro {
+  color: var(--ink-soft);
+  font-size: 14.5px;
+  margin: 0 0 6px;
+}
+
+.course-block {
+  margin-top: 10px;
+}
+
+.course-block-title {
+  font-family: var(--serif);
+  font-size: 19px;
+  margin-bottom: 2px;
+}
+
+.course-block-note {
+  font-size: 13px;
+  color: var(--muted);
+  margin-bottom: 8px;
+}
+
+.course-mods {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.course-mod,
+.course-review {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  text-align: left;
+  background: var(--card);
+  border: none;
+  border-radius: var(--radius-sm);
+  padding: 13px 14px;
+  color: var(--ink);
+  box-shadow: 0 1px 2px rgba(60, 50, 30, 0.04);
+}
+
+.course-review {
+  border: 1.5px solid var(--accent-soft);
+  padding: 16px 18px;
+}
+
+.course-mod:disabled {
+  opacity: 0.4;
+}
+
+.course-mod-text {
+  flex: 1;
+  min-width: 0;
+}
+
+.course-mod-title {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.course-mod-sub {
+  font-size: 13px;
+  color: var(--muted);
+  margin-top: 1px;
+}
+
+.course-mod-progress {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 7px;
+}
+
+.course-mod-track {
+  flex: 1;
+  height: 3px;
+  background: var(--line);
+  border-radius: 2px;
+  overflow: hidden;
+}
+
+.course-mod-fill {
+  height: 100%;
+  background: var(--done);
+}
+
+.course-mod-count {
+  font-size: 12px;
+  color: var(--muted);
+  min-width: 48px;
+  text-align: right;
+}
+
+.course-arrow {
+  color: var(--muted);
+}
+
+.theory {
+  padding: 16px 18px;
+}
+
+.theory-toggle {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: transparent;
+  border: none;
+  padding: 0;
+  font-size: 14px;
+}
+
+.theory-toggle .answer-label {
+  margin: 0;
+}
+
+.theory-text {
+  margin-top: 12px;
+  white-space: pre-line;
+  font-size: 15px;
+  line-height: 1.6;
+  color: var(--ink);
+}
+
+.section-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.section-item {
+  padding: 14px 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.section-name {
+  font-weight: 500;
+}
+
+.course-reset {
+  color: var(--muted);
+  font-size: 14px;
+}
+
+.drill-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.drill-status {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  text-align: right;
+  font-size: 13px;
+}
+
+.drill-label {
+  color: var(--ink-soft);
+}
+
+.drill-streak {
+  font-size: 12px;
+  color: var(--muted);
+}
+
+.drill-actions {
+  display: flex;
+  gap: 8px;
+}
+
+.drill-actions .btn {
+  flex: 1;
+}
+
+.btn-again {
+  background: var(--card);
+  border: 1.5px solid var(--line);
+  color: var(--ink-soft);
+}
+
+.tab {
+  font-size: 11.5px;
+  padding: 6px 2px;
+}
