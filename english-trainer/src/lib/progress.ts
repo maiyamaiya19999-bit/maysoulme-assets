@@ -1,4 +1,5 @@
-import type { ProgressState, RoundHistoryEntry } from "./types";
+import type { ProgressState, RoundHistoryEntry, VocabEntry } from "./types";
+import { isValidVocab } from "./vocab";
 
 export const STORAGE_KEY = "english-trainer:progress:v1";
 export const RESET_CODE = "12345";
@@ -138,7 +139,7 @@ export function startNewRound(state: ProgressState, totalSentences: number, now:
 
 // ---- Export / Import ----
 
-export function exportProgress(state: ProgressState): string {
+export function exportProgress(state: ProgressState, vocab: VocabEntry[] = []): string {
   return JSON.stringify(
     {
       datasetVersion: state.datasetVersion,
@@ -146,7 +147,8 @@ export function exportProgress(state: ProgressState): string {
       currentSentenceId: state.currentSentenceId,
       completedIds: state.completedIds,
       roundStartedAt: state.roundStartedAt,
-      roundHistory: state.roundHistory
+      roundHistory: state.roundHistory,
+      vocab
     },
     null,
     2
@@ -154,7 +156,7 @@ export function exportProgress(state: ProgressState): string {
 }
 
 export type ImportResult =
-  | { ok: true; state: ProgressState }
+  | { ok: true; state: ProgressState; vocab: VocabEntry[] | null }
   | { ok: false; error: string };
 
 // Валидация импортируемого файла. Невалидный файл не меняет существующий progress —
@@ -188,5 +190,7 @@ export function parseImportedProgress(
     roundStartedAt: parsed.roundStartedAt,
     roundHistory: parsed.roundHistory
   };
-  return { ok: true, state };
+  const rawVocab = (parsed as unknown as Record<string, unknown>).vocab;
+  const vocab = isValidVocab(rawVocab) ? rawVocab : null;
+  return { ok: true, state, vocab };
 }

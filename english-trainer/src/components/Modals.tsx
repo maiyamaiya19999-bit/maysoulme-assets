@@ -1,32 +1,85 @@
-import { useRef, useState } from "react";
-import type { ProgressState } from "../lib/types";
+import { useEffect, useRef, useState } from "react";
+import type { ProgressState, Sentence, VocabEntry } from "../lib/types";
 import { RESET_CODE, exportProgress, parseImportedProgress } from "../lib/progress";
+import { findHint } from "../lib/vocab";
 
-// ---------- Меню ----------
+// ---------- Меню «Ещё» ----------
 
 type MenuProps = {
   onClose: () => void;
-  onShowAll: () => void;
   onHistory: () => void;
   onExport: () => void;
   onImport: () => void;
   onReset: () => void;
 };
 
-export function Menu({ onClose, onShowAll, onHistory, onExport, onImport, onReset }: MenuProps) {
+export function Menu({ onClose, onHistory, onExport, onImport, onReset }: MenuProps) {
   return (
     <div className="overlay" onClick={onClose}>
       <div className="sheet" onClick={(e) => e.stopPropagation()}>
         <div className="sheet-handle" />
-        <button className="sheet-item" onClick={onShowAll}>Все предложения</button>
-        <button className="sheet-item" onClick={onHistory}>История</button>
-        <button className="sheet-item" onClick={onExport}>Экспорт прогресса</button>
+        <button className="sheet-item" onClick={onHistory}>История кругов</button>
+        <button className="sheet-item" onClick={onExport}>Экспорт прогресса и словарика</button>
         <button className="sheet-item" onClick={onImport}>Импорт прогресса</button>
         <div className="sheet-divider" />
         <button className="sheet-item sheet-item-danger" onClick={onReset}>
           ↻ Учить заново
         </button>
         <button className="sheet-item sheet-item-close" onClick={onClose}>Закрыть</button>
+      </div>
+    </div>
+  );
+}
+
+// ---------- Добавить слово в словарик ----------
+
+type AddWordProps = {
+  word: string;
+  sentence: Sentence;
+  onCancel: () => void;
+  onAdd: (word: string, translation: string) => void;
+};
+
+export function AddWordModal({ word, sentence, onCancel, onAdd }: AddWordProps) {
+  const hint = findHint(sentence.vocab, word);
+  const [w, setW] = useState(hint?.word ?? word);
+  const [t, setT] = useState(hint?.translation ?? "");
+  const inputRef = useRef<HTMLInputElement>(null);
+
+  useEffect(() => {
+    if (!hint) inputRef.current?.focus();
+  }, [hint]);
+
+  const submit = () => {
+    if (w.trim()) onAdd(w.trim(), t.trim());
+  };
+
+  return (
+    <div className="overlay" onClick={onCancel}>
+      <div className="modal" onClick={(e) => e.stopPropagation()}>
+        <h3 className="modal-title">В словарик</h3>
+        <label className="field">
+          <span className="field-label">Слово</span>
+          <input className="input" value={w} onChange={(e) => setW(e.target.value)} lang="en" autoCapitalize="off" />
+        </label>
+        <label className="field">
+          <span className="field-label">Перевод</span>
+          <input
+            ref={inputRef}
+            className="input"
+            value={t}
+            placeholder="например: ждать с нетерпением"
+            onChange={(e) => setT(e.target.value)}
+            onKeyDown={(e) => e.key === "Enter" && submit()}
+          />
+        </label>
+        {!hint && <p className="muted modal-note">Подсказки для этого слова нет — впиши перевод сама.</p>}
+        <div className="modal-actions">
+          <button className="btn btn-ghost" onClick={onCancel}>Отмена</button>
+          <button className="btn btn-primary" onClick={submit} disabled={!w.trim()}>
+            Добавить
+          </button>
+        </div>
       </div>
     </div>
   );
@@ -57,7 +110,7 @@ export function ResetModal({ onCancel, onConfirm }: { onCancel: () => void; onCo
           <>
             <h3 className="modal-title">Начать новый круг обучения?</h3>
             <p className="modal-text">
-              Текущие отметки «Выучено» будут очищены, но история круга сохранится.
+              Текущие отметки «Выучено» будут очищены, но история круга сохранится. Словарик не затрагивается.
             </p>
             <p className="modal-text">Для подтверждения введи код.</p>
             <input
@@ -98,8 +151,16 @@ export function ResetModal({ onCancel, onConfirm }: { onCancel: () => void; onCo
 
 // ---------- Экспорт ----------
 
-export function ExportModal({ progress, onClose }: { progress: ProgressState; onClose: () => void }) {
-  const json = exportProgress(progress);
+export function ExportModal({
+  progress,
+  vocab,
+  onClose
+}: {
+  progress: ProgressState;
+  vocab: VocabEntry[];
+  onClose: () => void;
+}) {
+  const json = exportProgress(progress, vocab);
   const [copied, setCopied] = useState(false);
 
   const download = () => {
@@ -129,7 +190,8 @@ export function ExportModal({ progress, onClose }: { progress: ProgressState; on
       <div className="modal" onClick={(e) => e.stopPropagation()}>
         <h3 className="modal-title">Экспорт прогресса</h3>
         <p className="modal-text">
-          Сохрани этот файл — по нему можно восстановить прогресс на любом устройстве.
+          В файле — прогресс кругов и словарик ({vocab.length} слов). По нему можно всё восстановить на любом
+          устройстве.
         </p>
         <textarea className="input modal-json" readOnly value={json} rows={6} />
         <div className="modal-actions">
@@ -152,19 +214,19 @@ type ImportProps = {
   datasetVersion: number;
   validIds: Set<number>;
   onClose: () => void;
-  onApply: (state: ProgressState) => void;
+  onApply: (state: ProgressState, vocab: VocabEntry[] | null) => void;
 };
 
 export function ImportModal({ datasetVersion, validIds, onClose, onApply }: ImportProps) {
   const [text, setText] = useState("");
   const [error, setError] = useState<string | null>(null);
-  const [pending, setPending] = useState<ProgressState | null>(null);
+  const [pending, setPending] = useState<{ state: ProgressState; vocab: VocabEntry[] | null } | null>(null);
   const fileRef = useRef<HTMLInputElement>(null);
 
   const validate = (raw: string) => {
     const result = parseImportedProgress(raw, datasetVersion, validIds);
     if (result.ok) {
-      setPending(result.state);
+      setPending({ state: result.state, vocab: result.vocab });
       setError(null);
     } else {
       setPending(null);
@@ -216,15 +278,16 @@ export function ImportModal({ datasetVersion, validIds, onClose, onApply }: Impo
           <>
             <p className="modal-text">Файл корректный. Будет восстановлено:</p>
             <ul className="modal-summary">
-              <li>Круг {pending.currentRound}</li>
-              <li>Выучено: {pending.completedIds.length}</li>
-              <li>Позиция: №{pending.currentSentenceId}</li>
-              <li>Кругов в истории: {pending.roundHistory.length}</li>
+              <li>Круг {pending.state.currentRound}</li>
+              <li>Выучено: {pending.state.completedIds.length}</li>
+              <li>Позиция: №{pending.state.currentSentenceId}</li>
+              <li>Кругов в истории: {pending.state.roundHistory.length}</li>
+              <li>Словарик: {pending.vocab ? `${pending.vocab.length} слов` : "в файле нет — останется текущий"}</li>
             </ul>
             <p className="modal-text">Текущий прогресс будет заменён этим.</p>
             <div className="modal-actions">
               <button className="btn btn-ghost" onClick={onClose}>Отмена</button>
-              <button className="btn btn-danger" onClick={() => onApply(pending)}>
+              <button className="btn btn-danger" onClick={() => onApply(pending.state, pending.vocab)}>
                 Заменить прогресс
               </button>
             </div>

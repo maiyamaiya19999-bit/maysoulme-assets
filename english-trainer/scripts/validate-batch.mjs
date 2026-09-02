@@ -10,6 +10,8 @@ import { dirname, join } from "node:path";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const nn = String(process.argv[2] ?? "").padStart(2, "0");
+// --enriched: у каждой записи обязательны alternatives (≥1) и vocab (≥2)
+const ENRICHED = process.argv.includes("--enriched");
 if (!/^\d\d$/.test(nn)) {
   console.error("Использование: node scripts/validate-batch.mjs NN");
   process.exit(1);
@@ -62,6 +64,13 @@ for (const [tag, min] of Object.entries(brief.grammarQuotas)) {
 }
 for (const [tag, min] of Object.entries(brief.topicQuotas)) {
   if ((tCount[tag] ?? 0) < min) errors.push(`Квота topic ${tag}: ${tCount[tag] ?? 0} < ${min}`);
+}
+
+if (ENRICHED) {
+  for (const s of arr) {
+    if (!Array.isArray(s.alternatives) || s.alternatives.length < 1) errors.push(`id=${s.id}: нет alternatives (нужно 1–3)`);
+    if (!Array.isArray(s.vocab) || s.vocab.length < 2) errors.push(`id=${s.id}: vocab меньше 2 слов`);
+  }
 }
 
 // Дубли с другими пакетами (агенты не видят чужие пакеты, проверяем здесь)

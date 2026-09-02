@@ -3,6 +3,7 @@ import { describe, it, expect, beforeEach, afterEach, vi } from "vitest";
 import { render, screen, fireEvent, cleanup, act } from "@testing-library/react";
 import { TrainerApp } from "../src/App";
 import { STORAGE_KEY } from "../src/lib/progress";
+import { VOCAB_KEY } from "../src/lib/vocab";
 import type { Dataset } from "../src/lib/types";
 
 const dataset: Dataset = {
@@ -15,7 +16,9 @@ const dataset: Dataset = {
       explanation: "После love действие идёт в форме -ing: love traveling.",
       level: "A1",
       grammarTags: ["present-simple", "gerund"],
-      topicTags: ["travel"]
+      topicTags: ["travel"],
+      alternatives: ["I love to travel."],
+      vocab: [{ word: "travel", translation: "путешествовать" }]
     },
     {
       id: 2,
@@ -43,9 +46,17 @@ function storedProgress() {
   return raw ? JSON.parse(raw) : null;
 }
 
+function storedVocab() {
+  const raw = localStorage.getItem(VOCAB_KEY);
+  return raw ? JSON.parse(raw) : null;
+}
+
 function renderApp() {
   return render(<TrainerApp dataset={dataset} />);
 }
+
+const openAll = () => fireEvent.click(screen.getByRole("button", { name: /Все$/ }));
+const openMenu = () => fireEvent.click(screen.getByRole("button", { name: /Ещё/ }));
 
 beforeEach(() => {
   localStorage.clear();
@@ -57,18 +68,19 @@ afterEach(() => {
 });
 
 describe("основные сценарии UI", () => {
-  // Сценарий 1 + 16 (первая половина): reveal не меняет progress
-  it("«Показать перевод» показывает English, но не меняет completedIds", () => {
+  // Сценарий 1: reveal не меняет progress
+  it("«Показать перевод» показывает English и альтернативы, но не меняет completedIds", () => {
     renderApp();
-    expect(screen.queryByText("I love traveling.")).toBeNull();
+    expect(screen.queryByText("traveling.")).toBeNull();
     fireEvent.click(screen.getByText("Показать перевод"));
-    expect(screen.getByText("I love traveling.")).toBeTruthy();
+    expect(screen.getByText("traveling.")).toBeTruthy();
+    expect(screen.getByText("Так тоже можно")).toBeTruthy();
+    expect(screen.getByText("travel.")).toBeTruthy();
     const p = storedProgress();
-    // либо прогресс ещё не записан, либо completedIds пуст
     expect(p === null || p.completedIds.length === 0).toBe(true);
   });
 
-  // Сценарии 2 и 16: «Выучено» сохраняет прогресс, следующая карточка снова скрыта
+  // Сценарии 2 и 16
   it("«Выучено» отмечает и переходит дальше; English на следующей карточке скрыт", async () => {
     vi.useFakeTimers();
     renderApp();
@@ -78,13 +90,12 @@ describe("основные сценарии UI", () => {
     await act(async () => {
       vi.advanceTimersByTime(600);
     });
-    // следующая карточка — №2, English скрыт
     expect(screen.getByText("Что ты сейчас делаешь?")).toBeTruthy();
-    expect(screen.queryByText("What are you doing?")).toBeNull();
+    expect(screen.queryByText("doing?")).toBeNull();
     expect(screen.getByText("Показать перевод")).toBeTruthy();
   });
 
-  // Сценарий 3: снятие галочки
+  // Сценарий 3
   it("повторное нажатие «Выучено» снимает отметку", async () => {
     vi.useFakeTimers();
     renderApp();
@@ -93,43 +104,40 @@ describe("основные сценарии UI", () => {
     await act(async () => {
       vi.advanceTimersByTime(600);
     });
-    // вернуться к №1
     fireEvent.click(screen.getByText("← Предыдущее"));
     fireEvent.click(screen.getByText("Показать перевод"));
     fireEvent.click(screen.getByText("✓ Выучено"));
     expect(storedProgress().completedIds).toEqual([]);
   });
 
-  // Сценарий 6: Show All не меняет progress
-  it("«Показать все» не меняет progress и не спойлерит English", () => {
+  // Сценарий 6: список не меняет progress; показывает RU и EN
+  it("«Все» не меняет progress и показывает русский вместе с английским", () => {
     renderApp();
     fireEvent.click(screen.getByText("Показать перевод"));
     fireEvent.click(screen.getByText("✓ Выучено"));
     const before = JSON.stringify(storedProgress());
-    fireEvent.click(screen.getByLabelText("Показать все"));
+    openAll();
     expect(screen.getByText("Ты когда-нибудь был в Италии?")).toBeTruthy();
-    expect(screen.queryByText("Have you ever been to Italy?")).toBeNull();
+    expect(screen.getByText("Have you ever been to Italy?")).toBeTruthy();
     expect(JSON.stringify(storedProgress())).toBe(before);
   });
 
-  // Сценарий 7: search не меняет progress и не показывает English
-  it("поиск (в т.ч. по English) не меняет progress и не показывает English", () => {
+  // Сценарий 7
+  it("поиск не меняет progress", () => {
     renderApp();
-    fireEvent.click(screen.getByLabelText("Показать все"));
+    openAll();
     const before = JSON.stringify(storedProgress());
     const search = screen.getByPlaceholderText("Поиск: русский, English, №…");
     fireEvent.change(search, { target: { value: "ever been" } });
-    // найдено по English, но показан только русский
     expect(screen.getByText("Ты когда-нибудь был в Италии?")).toBeTruthy();
-    expect(screen.queryByText("Have you ever been to Italy?")).toBeNull();
     expect(screen.queryByText("Я люблю путешествовать.")).toBeNull();
     expect(JSON.stringify(storedProgress())).toBe(before);
   });
 
-  // Сценарий 8: фильтры не меняют progress
+  // Сценарий 8
   it("фильтры не меняют progress", () => {
     renderApp();
-    fireEvent.click(screen.getByLabelText("Показать все"));
+    openAll();
     const before = JSON.stringify(storedProgress());
     fireEvent.click(screen.getByText("Фильтры"));
     fireEvent.click(screen.getByText("Вопросы"));
@@ -137,13 +145,13 @@ describe("основные сценарии UI", () => {
     expect(JSON.stringify(storedProgress())).toBe(before);
   });
 
-  // Сценарий 9: неверный код
+  // Сценарий 9
   it("код 11111 ничего не меняет", () => {
     renderApp();
     fireEvent.click(screen.getByText("Показать перевод"));
     fireEvent.click(screen.getByText("✓ Выучено"));
     const before = JSON.stringify(storedProgress());
-    fireEvent.click(screen.getByLabelText("Меню"));
+    openMenu();
     fireEvent.click(screen.getByText("↻ Учить заново"));
     fireEvent.change(screen.getByPlaceholderText("Код"), { target: { value: "11111" } });
     fireEvent.click(screen.getByText("Продолжить"));
@@ -151,12 +159,12 @@ describe("основные сценарии UI", () => {
     expect(JSON.stringify(storedProgress())).toBe(before);
   });
 
-  // Сценарии 10–13: правильный код + confirm
+  // Сценарии 10–13
   it("12345 + подтверждение начинает новый круг, старый уходит в историю", () => {
     renderApp();
     fireEvent.click(screen.getByText("Показать перевод"));
     fireEvent.click(screen.getByText("✓ Выучено"));
-    fireEvent.click(screen.getByLabelText("Меню"));
+    openMenu();
     fireEvent.click(screen.getByText("↻ Учить заново"));
     fireEvent.change(screen.getByPlaceholderText("Код"), { target: { value: "12345" } });
     fireEvent.click(screen.getByText("Продолжить"));
@@ -170,7 +178,7 @@ describe("основные сценарии UI", () => {
     expect(p.roundHistory[0].completedCount).toBe(1);
   });
 
-  // Сценарии 4–5: перезапуск приложения сохраняет прогресс
+  // Сценарии 4–5
   it("повторный рендер (перезапуск) восстанавливает прогресс", () => {
     const first = renderApp();
     fireEvent.click(screen.getByText("Показать перевод"));
@@ -192,5 +200,53 @@ describe("основные сценарии UI", () => {
       });
     }
     expect(screen.getByText("Круг завершён")).toBeTruthy();
+  });
+});
+
+describe("словарик", () => {
+  it("нажатие на слово добавляет его в словарик с подсказкой перевода, удаление убирает", () => {
+    renderApp();
+    fireEvent.click(screen.getByText("Показать перевод"));
+    fireEvent.click(screen.getByText("traveling."));
+    // подсказка из vocab предложения: travel → путешествовать
+    const translation = screen.getByDisplayValue("путешествовать");
+    expect(translation).toBeTruthy();
+    fireEvent.click(screen.getByText("Добавить"));
+    expect(storedVocab()).toHaveLength(1);
+    expect(storedVocab()[0].word).toBe("travel");
+    // прогресс не тронут
+    const p = storedProgress();
+    expect(p === null || p.completedIds.length === 0).toBe(true);
+
+    fireEvent.click(screen.getByRole("button", { name: /Словарик/ }));
+    expect(screen.getByText("путешествовать")).toBeTruthy();
+    fireEvent.click(screen.getByLabelText("Убрать travel"));
+    expect(storedVocab()).toHaveLength(0);
+    expect(screen.getByText("Пока пусто.")).toBeTruthy();
+  });
+
+  it("слово без подсказки добавляется с переводом, введённым вручную", () => {
+    renderApp();
+    fireEvent.click(screen.getByText("Показать перевод"));
+    fireEvent.click(screen.getAllByText("love")[0]);
+    const translation = screen.getByPlaceholderText("например: ждать с нетерпением");
+    fireEvent.change(translation, { target: { value: "любить" } });
+    fireEvent.click(screen.getByText("Добавить"));
+    expect(storedVocab()[0]).toMatchObject({ word: "love", translation: "любить", sentenceId: 1 });
+  });
+
+  it("словарик переживает перезапуск и «Учить заново»", () => {
+    const first = renderApp();
+    fireEvent.click(screen.getByText("Показать перевод"));
+    fireEvent.click(screen.getByText("traveling."));
+    fireEvent.click(screen.getByText("Добавить"));
+    first.unmount();
+    renderApp();
+    openMenu();
+    fireEvent.click(screen.getByText("↻ Учить заново"));
+    fireEvent.change(screen.getByPlaceholderText("Код"), { target: { value: "12345" } });
+    fireEvent.click(screen.getByText("Продолжить"));
+    fireEvent.click(screen.getByText("Да, начать новый круг"));
+    expect(storedVocab()).toHaveLength(1);
   });
 });
