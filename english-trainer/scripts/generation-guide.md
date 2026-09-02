@@ -9,12 +9,17 @@
   "id": 301,
   "russian": "…",
   "english": "…",
+  "alternatives": ["…", "…"],
+  "vocab": [{ "word": "look forward to", "translation": "ждать с нетерпением" }, { "word": "beforehand", "translation": "заранее" }],
   "explanation": "…",
   "level": "B1",
   "grammarTags": ["past-simple", "question"],
   "topicTags": ["travel", "small-talk"]
 }
 ```
+
+- `alternatives` — 1–3 ДРУГИХ естественных способа сказать то же самое по-английски (другая конструкция, другое слово, другой регистр: I'm really looking forward to meeting you → I can't wait to meet you / I'm so excited to meet you). Не повторяй english с косметическими изменениями. Каждый вариант должен быть правильным и живым.
+- `vocab` — 2–6 ключевых слов или фраз предложения с переводом: словарная форма (без -s/-ed/-ing, кроме случаев, когда важна именно форма), фразовые глаголы и устойчивые сочетания целиком (pick up, look forward to, make a decision). Перевод — короткий, как в словаре, в контексте предложения. Служебные слова (the, to, do) не включай, если они не часть выражения.
 
 - `id` — строго из диапазона твоего пакета, все 50 подряд, без пропусков.
 - `level` — только уровни, разрешённые твоему пакету.

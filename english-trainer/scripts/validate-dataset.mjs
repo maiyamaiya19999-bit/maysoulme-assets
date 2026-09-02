@@ -118,6 +118,35 @@ for (const s of list) {
     else englishSet.set(key, s.id);
   }
 
+  // alternatives: 1–3 альтернативных естественных варианта (обязательны в финале)
+  if (s.alternatives !== undefined) {
+    if (!Array.isArray(s.alternatives) || s.alternatives.length > 4) errors.push(`${where}: alternatives — массив до 4 строк`);
+    else {
+      for (const a of s.alternatives) {
+        if (typeof a !== "string" || a.trim().length < 3) errors.push(`${where}: пустой вариант в alternatives`);
+        else if (typeof s.english === "string" && normalize(a) === normalize(s.english)) errors.push(`${where}: alternatives повторяет english`);
+      }
+    }
+  } else if (FINAL) {
+    errors.push(`${where}: нет alternatives`);
+  }
+  if (FINAL && Array.isArray(s.alternatives) && s.alternatives.length === 0) errors.push(`${where}: alternatives пуст`);
+
+  // vocab: 2–8 ключевых слов/фраз с переводом (обязательны в финале)
+  if (s.vocab !== undefined) {
+    if (!Array.isArray(s.vocab) || s.vocab.length > 10) errors.push(`${where}: vocab — массив до 10 элементов`);
+    else {
+      for (const v of s.vocab) {
+        if (typeof v !== "object" || v === null || typeof v.word !== "string" || typeof v.translation !== "string" || !v.word.trim() || !v.translation.trim()) {
+          errors.push(`${where}: элемент vocab должен быть {word, translation} с непустыми строками`);
+        }
+      }
+    }
+  } else if (FINAL) {
+    errors.push(`${where}: нет vocab`);
+  }
+  if (FINAL && Array.isArray(s.vocab) && s.vocab.length < 2) errors.push(`${where}: vocab меньше 2 слов`);
+
   if (!LEVELS.has(s.level)) errors.push(`${where}: некорректный level "${s.level}"`);
   if (!Array.isArray(s.grammarTags) || s.grammarTags.length === 0) errors.push(`${where}: нет grammarTags`);
   else for (const t of s.grammarTags) if (!GRAMMAR_TAGS.has(t)) errors.push(`${where}: неизвестный grammarTag "${t}"`);

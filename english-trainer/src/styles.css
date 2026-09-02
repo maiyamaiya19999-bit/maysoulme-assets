@@ -739,3 +739,271 @@ button {
     margin-bottom: 40px;
   }
 }
+
+/* ---------- Tab bar ---------- */
+
+.app {
+  padding-bottom: calc(84px + env(safe-area-inset-bottom));
+}
+
+.tabbar {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 30;
+  display: flex;
+  justify-content: center;
+  gap: 4px;
+  padding: 8px 12px calc(10px + env(safe-area-inset-bottom));
+  background: rgba(255, 255, 255, 0.92);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-top: 1px solid var(--line);
+}
+
+.tab {
+  flex: 1;
+  max-width: 150px;
+  min-height: 52px;
+  border: none;
+  background: transparent;
+  color: var(--muted);
+  font-size: 12.5px;
+  border-radius: var(--radius-sm);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 3px;
+  padding: 6px 4px;
+}
+
+.tab-icon {
+  font-size: 18px;
+  line-height: 1;
+}
+
+.tab-active {
+  color: var(--accent-ink);
+  background: var(--accent-soft);
+}
+
+.header-pos {
+  border: 1px solid var(--line);
+  background: var(--card);
+  color: var(--ink-soft);
+  border-radius: 999px;
+  min-height: 40px;
+  padding: 6px 14px;
+  font-size: 14px;
+  align-self: center;
+}
+
+/* ---------- Tappable words / alternatives ---------- */
+
+.word {
+  background: transparent;
+  border: none;
+  padding: 0 1px;
+  margin: 0;
+  font: inherit;
+  color: inherit;
+  border-radius: 4px;
+  text-decoration: underline;
+  text-decoration-color: rgba(162, 102, 78, 0.25);
+  text-decoration-thickness: 1px;
+  text-underline-offset: 4px;
+}
+
+.word:active {
+  background: var(--accent-soft);
+}
+
+.word-saved {
+  color: var(--accent-ink);
+  text-decoration-color: var(--accent);
+  text-decoration-thickness: 1.5px;
+}
+
+.card-alternatives {
+  margin: -8px 0 16px;
+}
+
+.alt-label {
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: var(--muted);
+  margin-bottom: 4px;
+}
+
+.card-alt {
+  font-family: var(--serif);
+  font-size: 16.5px;
+  line-height: 1.5;
+  color: var(--ink-soft);
+  margin: 0 0 4px;
+}
+
+.word-hint {
+  font-size: 12.5px;
+  color: var(--muted);
+  margin: 0 0 18px;
+}
+
+/* ---------- Список: RU + EN ---------- */
+
+.all-text {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  min-width: 0;
+}
+
+.all-english {
+  font-family: var(--serif);
+  font-size: 14.5px;
+  color: var(--ink-soft);
+}
+
+.all-list li {
+  contain-intrinsic-size: auto 78px;
+}
+
+/* ---------- Словарик ---------- */
+
+.vocab-view {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.vocab-head {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+}
+
+.vocab-count {
+  color: var(--muted);
+  font-size: 14px;
+}
+
+.vocab-empty {
+  text-align: center;
+  padding: 36px 22px;
+}
+
+.vocab-empty p {
+  margin: 0 0 8px;
+}
+
+.muted {
+  color: var(--muted);
+  font-size: 14.5px;
+}
+
+.vocab-tools {
+  display: flex;
+  gap: 8px;
+}
+
+.btn-compact {
+  white-space: nowrap;
+  font-size: 14px;
+  padding: 10px 14px;
+}
+
+.vocab-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.vocab-item {
+  background: var(--card);
+  border-radius: var(--radius-sm);
+  padding: 12px 8px 12px 16px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  box-shadow: 0 1px 2px rgba(60, 50, 30, 0.04);
+}
+
+.vocab-text {
+  flex: 1;
+  min-width: 0;
+}
+
+.vocab-word {
+  font-family: var(--serif);
+  font-size: 18px;
+}
+
+.vocab-translation {
+  color: var(--ink-soft);
+  font-size: 15px;
+  transition: opacity 0.2s;
+}
+
+.vocab-translation-hidden {
+  opacity: 0;
+  user-select: none;
+}
+
+.vocab-translation-hidden:active {
+  opacity: 1;
+}
+
+.vocab-source {
+  border: none;
+  background: transparent;
+  color: var(--muted);
+  font-size: 12px;
+  padding: 2px 0;
+}
+
+.vocab-remove {
+  width: 44px;
+  height: 44px;
+  border: none;
+  background: transparent;
+  color: var(--muted);
+  font-size: 24px;
+  border-radius: var(--radius-sm);
+}
+
+.vocab-remove:active {
+  background: var(--danger-soft);
+  color: var(--danger);
+}
+
+.vocab-nomatch {
+  text-align: center;
+}
+
+.field {
+  display: block;
+  margin-bottom: 12px;
+}
+
+.field-label {
+  display: block;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--muted);
+  margin-bottom: 6px;
+}
+
+.modal-note {
+  margin: 0 0 4px;
+}
+
+.toast {
+  bottom: calc(96px + env(safe-area-inset-bottom));
+}

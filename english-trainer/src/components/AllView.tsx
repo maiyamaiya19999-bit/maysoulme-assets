@@ -6,14 +6,13 @@ type Props = {
   sentences: Sentence[];
   progress: ProgressState;
   onOpen: (id: number) => void;
-  onBack: () => void;
 };
 
 type StatusFilter = "all" | "done" | "todo";
 
-// «Показать все» — только способ просмотра. Никогда не меняет прогресс.
-// English в списке не показывается (даже если поиск шёл по English).
-export function AllView({ sentences, progress, onOpen, onBack }: Props) {
+// «Все предложения» — только способ просмотра. Никогда не меняет прогресс.
+// В списке сразу и русский, и английский.
+export function AllView({ sentences, progress, onOpen }: Props) {
   const [query, setQuery] = useState("");
   const [jump, setJump] = useState("");
   const [filtersOpen, setFiltersOpen] = useState(false);
@@ -66,9 +65,6 @@ export function AllView({ sentences, progress, onOpen, onBack }: Props) {
   return (
     <div className="all-view">
       <div className="all-toolbar">
-        <button className="btn btn-ghost btn-back" onClick={onBack}>
-          ← К карточке
-        </button>
         <div className="all-search-row">
           <input
             type="search"
@@ -164,7 +160,14 @@ export function AllView({ sentences, progress, onOpen, onBack }: Props) {
                 {completed.has(s.id) ? "✓" : "○"}
               </span>
               <span className="all-num">{s.id}.</span>
-              <span className="all-russian">{s.russian}</span>
+              <span className="all-text">
+                <span className="all-russian" lang="ru">
+                  {s.russian}
+                </span>
+                <span className="all-english" lang="en">
+                  {s.english}
+                </span>
+              </span>
             </button>
           </li>
         ))}
