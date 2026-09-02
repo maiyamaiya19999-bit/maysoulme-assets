@@ -1,0 +1,452 @@
+[
+  {
+    "id": 701,
+    "russian": "Можно нам заселиться пораньше? Мы прилетели в шесть утра.",
+    "english": "Could we check in early? We landed at six in the morning.",
+    "explanation": "Could — вежливая просьба, мягче, чем can: Could we…? = «можно нам…?». После модального глагола идёт V1 без to: could check. check in — фразовый глагол «заселиться, зарегистрироваться» (в отеле или на рейс). We landed — Past Simple, потому что прилёт — законченное действие в конкретный момент прошлого; land — правильный глагол, поэтому просто +ed. Время дня: at six in the morning — с точным часом всегда предлог at, а «утра» передаётся через in the morning. И обрати внимание: по-русски «можно заселиться?» звучит безлично, а в английском обязательно нужно подлежащее — Could we check in.",
+    "level": "A2",
+    "grammarTags": ["question", "modal", "phrasal-verb", "past-simple", "time-preposition"],
+    "topicTags": ["travel"]
+  },
+  {
+    "id": 702,
+    "russian": "Я бы хотела номер этажом повыше и с видом на море.",
+    "english": "I'd like a room on a higher floor, with a view of the sea.",
+    "explanation": "I'd like = I would like — вежливое «я бы хотела», стандартная формула просьбы в отеле или ресторане (мягче, чем прямое I want). Здесь I'd = I would, а не I had: после would идёт глагол like, а после had стояла бы V3. a room — артикль a, потому что просим один любой подходящий номер, не конкретный. on a higher floor — про этажи используется предлог on; higher — сравнительная степень от high («повыше»): короткое прилагательное получает -er. a view of the sea — устойчивое «вид на море»: view сочетается с предлогом of, не с on (калька «view on the sea» — ошибка); the sea — с морем как природным объектом обычно определённый артикль.",
+    "level": "A2",
+    "grammarTags": ["would-like", "article", "place-preposition", "comparative", "preposition"],
+    "topicTags": ["travel"]
+  },
+  {
+    "id": 703,
+    "russian": "Кондиционер в номере не работает, и я не собираюсь мириться с этим за такие деньги.",
+    "english": "The air conditioning in the room isn't working, and I'm not going to put up with it for that kind of money.",
+    "explanation": "isn't working — Present Continuous в отрицании (is not + V-ing): кондиционер не работает именно сейчас, это временная поломка, а не постоянное свойство техники (сравни: This model doesn't work well — «эта модель вообще плохо работает», Present Simple). The air conditioning — the, потому что речь о конкретном кондиционере в нашем номере. I'm not going to + V1 — «не собираюсь»: осознанное намерение, поэтому going to, а не will. put up with — фразовый глагол «мириться, терпеть»: I'm not going to put up with it = «я не намерена это терпеть». for that kind of money — устойчивое «за такие деньги»: предлог for в значении «в обмен на», that kind of — «такого рода».",
+    "level": "B1",
+    "grammarTags": ["present-continuous", "negation", "going-to", "phrasal-verb", "article"],
+    "topicTags": ["travel", "feelings"]
+  },
+  {
+    "id": 704,
+    "russian": "Не подскажете, во сколько начинается завтрак и как долго он длится?",
+    "english": "Could you tell me what time breakfast starts and how long it lasts?",
+    "explanation": "Could you tell me — вежливое обращение к персоналу, а дальше идёт косвенный вопрос, и в нём прямой порядок слов без вспомогательного does: what time breakfast starts, а не what time does breakfast start (так выглядел бы прямой вопрос). Поэтому у глаголов окончание -s: starts, lasts — Present Simple третьего лица, ведь речь о расписании, а расписание — регулярный факт. breakfast — без артикля: приёмы пищи (breakfast, lunch, dinner) обычно идут с нулевым артиклем. last здесь глагол «длиться», а не прилагательное «последний». Знак вопроса в конце сохраняется, потому что вся фраза целиком — вопрос (Could you tell me…?).",
+    "level": "B1",
+    "grammarTags": ["question", "indirect-question", "modal", "present-simple"],
+    "topicTags": ["travel", "food"]
+  },
+  {
+    "id": 705,
+    "russian": "Я попросила на ресепшене поменять нам номер, потому что соседи шумели всю ночь.",
+    "english": "I asked the front desk to change our room because the people next door were making noise all night.",
+    "explanation": "asked … to change — конструкция ask someone to do something: «попросить кого-то сделать», после дополнения идёт to + V1. the front desk — так по-английски называется стойка ресепшен; артикль the, потому что в отеле она одна и понятно, о какой речь. asked — Past Simple: сам факт просьбы, законченное действие. А вот were making noise — Past Continuous (was/were + V-ing): шум был длительным фоном, тянулся всю ночь (all night это подчёркивает). make noise — устойчивое «шуметь»: именно make, не do. the people next door — «соседи по отелю», буквально «люди за соседней дверью»; про соседей по этажу или номеру говорят именно так, слово neighbors больше про место жительства.",
+    "level": "B1",
+    "grammarTags": ["past-simple", "past-continuous", "infinitive", "collocation", "article"],
+    "topicTags": ["travel", "daily-life"]
+  },
+  {
+    "id": 706,
+    "russian": "У вас есть свободный номер на завтрашнюю ночь?",
+    "english": "Do you have a room available for tomorrow night?",
+    "explanation": "Do you have — общий вопрос в Present Simple строится через вспомогательный do: Do + you + have. Русское «у вас есть» превращается в личное you have — конструкции «у кого-то есть» в английском нет, есть глагол have. a room — артикль a: спрашиваем про один любой номер. available стоит после существительного: a room available — «номер, который есть в наличии»; это одно из прилагательных, которые могут идти после слова, к которому относятся (как в seats available, tickets available) — необычный для русского порядок слов. for tomorrow night — «на завтрашнюю ночь»: предлог for показывает, на какой срок нужна бронь; tomorrow night — без артикля и без in/on.",
+    "level": "A2",
+    "grammarTags": ["question", "present-simple", "article", "word-order"],
+    "topicTags": ["travel", "plans"]
+  },
+  {
+    "id": 707,
+    "russian": "Отель оказался даже лучше, чем на фотографиях.",
+    "english": "The hotel turned out to be even better than in the photos.",
+    "explanation": "turned out to be — «оказался»: turn out — фразовый глагол «выясниться, оказаться», после него идёт инфинитив to be. Past Simple turned, потому что вывод сделан по итогам конкретной поездки. even better — усиление сравнительной степени: even («даже») ставится перед better; better — неправильная сравнительная форма от good (good — better — the best), сказать more good нельзя. than in the photos — «чем на фотографиях»: после than может стоять не только существительное, но и целая предложная фраза; про изображение на фото используется предлог in (in the photos), а не on. the photos — определённый артикль: те самые фотографии с сайта отеля, которые мы обе видели.",
+    "level": "B1",
+    "grammarTags": ["past-simple", "phrasal-verb", "comparative", "infinitive", "article"],
+    "topicTags": ["travel", "feelings"]
+  },
+  {
+    "id": 708,
+    "russian": "Я еду в командировку на три дня, в пятницу уже вернусь.",
+    "english": "I'm going on a business trip for three days — I'll be back on Friday.",
+    "explanation": "I'm going — Present Continuous в значении будущего: так говорят о ближайших договорённых планах, когда всё уже решено и билеты куплены. go on a business trip — устойчивое «ехать в командировку»: trip сочетается с глаголом go on, не с make или do. for three days — предлог for отвечает на вопрос «как надолго». I'll be back — «вернусь»: will для простого сообщения о будущем факте; be back («быть обратно») звучит в разговоре естественнее, чем return. on Friday — с днями недели всегда предлог on (at Friday или in Friday — ошибка). Заметь: в одном предложении два способа говорить о будущем — I'm going (план-договорённость) и I'll be back (просто факт о будущем).",
+    "level": "A2",
+    "grammarTags": ["present-continuous-future", "future-will", "time-preposition", "collocation"],
+    "topicTags": ["work", "plans"]
+  },
+  {
+    "id": 709,
+    "russian": "Как прошла твоя встреча с клиентом?",
+    "english": "How did your meeting with the client go?",
+    "explanation": "How did … go? — универсальный вопрос «как прошло?»: How did the meeting go? How did the interview go? How did the date go? Строится через did (вопрос в Past Simple), а смысловой глагол go остаётся в V1 и уходит в самый конец — запомни этот порядок слов: How + did + подлежащее + go. go здесь не «идти ногами», а «проходить, складываться». go — неправильный глагол (go — went — gone), но после did всегда первая форма: did … go, а не did … went. with the client — определённый артикль the, потому что оба собеседника понимают, о каком клиенте речь. Естественный ответ: It went well / It went great — и вот тут уже появится went.",
+    "level": "B1",
+    "grammarTags": ["question", "past-simple", "word-order", "article"],
+    "topicTags": ["work", "small-talk"]
+  },
+  {
+    "id": 710,
+    "russian": "Я не успела подготовить презентацию заранее, поэтому доделывала её ночью в отеле.",
+    "english": "I didn't have time to prepare the presentation beforehand, so I was finishing it up at night at the hotel.",
+    "explanation": "didn't have time to + V1 — «не успела»: по-английски «успеть что-то сделать» чаще всего передаётся как have time to do something; отрицание в Past Simple через didn't + V1 (didn't have, не didn't had). was finishing it up — Past Continuous: доделывание — процесс, который тянулся ночью; finish up — фразовый глагол «доделать до конца», местоимение it встаёт в середину: finish it up, а не finish up it. at night — устойчивое «ночью», предлог at (не in the night). at the hotel — предлог at, потому что отель здесь точка, где я находилась в тот момент; in the hotel подчёркивало бы «внутри здания, в его стенах». beforehand — «заранее».",
+    "level": "B1",
+    "grammarTags": ["negation", "past-simple", "past-continuous", "infinitive", "phrasal-verb", "place-preposition"],
+    "topicTags": ["work", "daily-life"]
+  },
+  {
+    "id": 711,
+    "russian": "Сколько дней ты там пробудешь?",
+    "english": "How many days will you be there?",
+    "explanation": "How many + существительное во множественном числе — вопрос о количестве исчисляемого: how many days (дни можно посчитать; с неисчисляемым было бы how much: how much time). Дальше обычный вопрос о будущем с will: will + you + be. Обрати внимание на порядок: вся конструкция how many days выносится в начало, а will встаёт перед подлежащим — How many days will you be there? be there — «находиться там»: по-русски «пробудешь», но английский обходится простым глаголом be, отдельного глагола «пробыть» не нужно (ещё вариант — stay: How long will you stay?). Ответом было бы: I'll be there for four days.",
+    "level": "A2",
+    "grammarTags": ["question", "future-will", "quantifier"],
+    "topicTags": ["texting", "travel", "plans"]
+  },
+  {
+    "id": 712,
+    "russian": "Надеюсь, у тебя останется хотя бы один свободный вечер, чтобы погулять по городу.",
+    "english": "I hope you'll have at least one free evening to walk around the city.",
+    "explanation": "I hope — Present Simple, а дальше будущее с will: hope + will (I hope you'll have…). Сравни с условными предложениями: после if будущее с will не ставят, а вот после hope — можно и нужно. you'll have = you will have — «у тебя будет/останется»: русское «у тебя останется вечер» по-английски передаётся через have, конструкции «у тебя» нет. at least — «хотя бы, как минимум». to walk — инфинитив цели: «(для того) чтобы погулять»; evening to walk — «вечер, чтобы погулять». around the city — предлог around передаёт движение по территории без чёткого маршрута, «по городу туда-сюда»; walk around — «гулять, бродить».",
+    "level": "B1",
+    "grammarTags": ["present-simple", "future-will", "infinitive", "movement-preposition"],
+    "topicTags": ["texting", "work"]
+  },
+  {
+    "id": 713,
+    "russian": "Начальник хочет, чтобы я поехала на конференцию вместо него.",
+    "english": "My boss wants me to go to the conference instead of him.",
+    "explanation": "wants me to go — ключевая конструкция want someone to do something: «хотеть, ЧТОБЫ кто-то сделал». По-русски здесь придаточное с «чтобы», но по-английски НЕЛЬЗЯ сказать wants that I go — только wants + me + to + V1. wants с окончанием -s — Present Simple третьего лица (my boss = he). go to the conference — to как направление движения; the, потому что конференция конкретная, известная обоим. instead of him — «вместо него»: после составного предлога instead of местоимение стоит в объектной форме him, не he. My boss — по-английски перед «начальником» естественно притяжательное my: просто boss без определителя в такой фразе не говорят.",
+    "level": "B1",
+    "grammarTags": ["want-someone-to", "infinitive", "present-simple", "movement-preposition"],
+    "topicTags": ["work", "plans"]
+  },
+  {
+    "id": 714,
+    "russian": "Ты уже спишь? У нас тут только девять вечера.",
+    "english": "Are you sleeping already? It's only nine in the evening here.",
+    "explanation": "Are you sleeping? — вопрос в Present Continuous (am/is/are + V-ing): интересует, что происходит прямо сейчас, в момент переписки; в вопросе are выходит перед подлежащим, вспомогательный do не нужен. already — «уже», в вопросе часто уходит в конец: Are you sleeping already? It's only nine — про время всегда безличное it: It's nine, It's late (сказать is nine или now nine нельзя — подлежащее it обязательно). in the evening — «вечера/вечером»: предлог in с артиклем the; с точным часом в полной фразе было бы at: at nine in the evening. here в конце — «у нас тут», буквально «здесь»: русское «у нас» в смысле места по-английски — просто here.",
+    "level": "A2",
+    "grammarTags": ["question", "present-continuous", "time-preposition"],
+    "topicTags": ["texting", "dating"]
+  },
+  {
+    "id": 715,
+    "russian": "Не обижайся, если я отвечаю посреди ночи — у нас разница в семь часов.",
+    "english": "Don't take it personally if I text back in the middle of the night — there's a seven-hour time difference between us.",
+    "explanation": "Don't take it personally — отрицательный императив: Don't + V1; take it personally — устойчивое «принимать на свой счёт, обижаться». if I text back — условие типа Zero Conditional: if + Present Simple, потому что речь об общем правиле «так бывает регулярно», а не о разовом будущем событии. text back — «ответить на сообщение»: back добавляет значение «в ответ». in the middle of the night — устойчивое «посреди ночи», предлог in. there's = there is — конструкция «есть, существует»: русское «у нас разница» по-английски строится через there is. a seven-hour time difference — числительное с существительным перед другим существительным работает как прилагательное и теряет множественное число: seven-hour, а не seven-hours; артикль a — разница упоминается впервые.",
+    "level": "B1",
+    "grammarTags": ["imperative", "negation", "conditional-0", "collocation", "time-preposition", "there-is"],
+    "topicTags": ["texting", "communication"]
+  },
+  {
+    "id": 716,
+    "russian": "Мне нравится, что ты пишешь мне первым, даже когда я далеко.",
+    "english": "I like that you text me first, even when I'm far away.",
+    "explanation": "I like that + целое предложение — «мне нравится, что…»: русское безличное «мне нравится» по-английски становится личным I like, конструкции «to me likes» не существует. text — глагол «писать сообщения»: text me — дополнение сразу, без предлога, не text to me (управление глагола отличается от русского «писать МНЕ»). first здесь наречие «первым» и стоит после дополнения: text me first — такой порядок слов надо запомнить. you text — Present Simple, потому что это повторяющееся, характерное для тебя поведение, а не действие в момент речи. even when I'm far away — «даже когда я далеко»: when + Present Simple; far away — «далеко» о расстоянии, be far away — «находиться далеко».",
+    "level": "B1",
+    "grammarTags": ["present-simple", "word-order"],
+    "topicTags": ["dating", "texting", "feelings"]
+  },
+  {
+    "id": 717,
+    "russian": "Ты по мне скучаешь или уже привык, что меня нет рядом?",
+    "english": "Do you miss me, or have you already gotten used to me not being around?",
+    "explanation": "Do you miss me — Present Simple через do; важно: miss берёт дополнение сразу, без предлога — miss me, а не miss about me (русское «скучать ПО мне» провоцирует кальку). Вторая часть — Present Perfect: have you already gotten used to — «уже привык», результат к настоящему моменту; gotten — американская V3 от get (get — got — gotten). get used to + V-ing — «привыкнуть к чему-то»: здесь to — ПРЕДЛОГ, поэтому дальше не инфинитив, а герундий: used to me not being around — «к тому, что меня нет рядом»; отрицание при герундии ставится перед ним: not being. be around — «быть рядом, поблизости». Не путай с used to + V1 (I used to smoke — «раньше курил») — это совсем другая конструкция о прошлой привычке.",
+    "level": "B1",
+    "grammarTags": ["question", "present-simple", "present-perfect", "be-used-to", "gerund", "to-preposition"],
+    "topicTags": ["dating", "feelings"]
+  },
+  {
+    "id": 718,
+    "russian": "Извини, я не видела твоё сообщение — мы как раз ужинали.",
+    "english": "Sorry, I didn't see your message — we were having dinner.",
+    "explanation": "I didn't see — отрицание в Past Simple: did not (didn't) + V1. Смысловой глагол возвращается в первую форму: didn't see, а не didn't saw (see — неправильный глагол: see — saw — seen). we were having dinner — Past Continuous (was/were + V-ing): ужин был процессом, на фоне которого пришло сообщение — классическая пара «длительный фон + короткое событие». have dinner — устойчивое «ужинать»: с приёмами пищи используется have (have breakfast/lunch/dinner), и артикль перед dinner не нужен. Заметь: have здесь не «иметь», а часть устойчивого выражения, поэтому его спокойно можно ставить в Continuous — were having.",
+    "level": "A2",
+    "grammarTags": ["negation", "past-simple", "past-continuous"],
+    "topicTags": ["texting", "communication", "daily-life"]
+  },
+  {
+    "id": 719,
+    "russian": "Сколько у тебя сейчас времени? Я всё время путаюсь в этой разнице.",
+    "english": "What time is it there right now? I keep getting confused by the time difference.",
+    "explanation": "What time is it? — классический вопрос о времени: безличное it обязательно (What time is it, а не What time now). there — «у тебя там», добавляет «в твоём часовом поясе». I keep getting confused — конструкция keep + V-ing: «постоянно, раз за разом что-то делать» (keep forgetting — всё время забываю, keep making the same mistake — всё время повторяю ошибку). После keep только герундий, инфинитив не ставится. get confused — «запутаться»: get + причастие/прилагательное передаёт переход в состояние. by the time difference — «из-за разницы во времени»: путает меня именно она, поэтому by; the — потому что разница конкретная, между нашими городами. time difference — устойчивое «разница во времени».",
+    "level": "B1",
+    "grammarTags": ["question", "present-simple", "gerund", "article"],
+    "topicTags": ["texting", "communication"]
+  },
+  {
+    "id": 720,
+    "russian": "Давай созвонимся по видео в выходные, когда я вернусь в свой часовой пояс.",
+    "english": "Let's video call this weekend, once I'm back in my time zone.",
+    "explanation": "Let's + V1 — «давай сделаем»: приглашение к совместному действию; после let's глагол идёт без to, это голый инфинитив: let's video call. video call здесь глагол — «созвониться по видео»: по-английски call, text, video call спокойно работают как глаголы. this weekend — «в выходные»: со словами this/next/last предлог не ставится (не on this weekend). once I'm back — «как только я вернусь»: в придаточных времени после once/when/as soon as будущее выражается Present Simple, БЕЗ will: once I'm back, а не once I will be back — одна из самых частых ошибок. be back in my time zone — «снова оказаться в своём часовом поясе»: предлог in — внутри зоны.",
+    "level": "B1",
+    "grammarTags": ["imperative", "bare-infinitive", "present-simple"],
+    "topicTags": ["dating", "plans", "communication"]
+  },
+  {
+    "id": 721,
+    "russian": "Мы с мамой сейчас гуляем по старому городу с гидом — тут невероятно красиво.",
+    "english": "My mom and I are walking around the old town with a guide right now — it's incredibly beautiful here.",
+    "explanation": "are walking — Present Continuous: прогулка происходит прямо сейчас, в момент сообщения (right now это подчёркивает). My mom and I — «мы с мамой»: по-английски участников перечисляют, и себя вежливо называют последней (не I and my mom); дальше глагол во множественном числе — are. walk around — «гулять по»: around передаёт движение по территории без чёткого маршрута. the old town — the, потому что старый город в этом городе один и понятно, какой; a guide — a, потому что гид упоминается впервые, просто «какой-то гид». it's incredibly beautiful — безличное it для описания места (как It's hot here); incredibly — наречие «невероятно», стоит перед прилагательным.",
+    "level": "B1",
+    "grammarTags": ["present-continuous", "movement-preposition", "article"],
+    "topicTags": ["travel", "family"]
+  },
+  {
+    "id": 722,
+    "russian": "Пойдём завтра на пляж, или ты опять предпочтёшь музеи?",
+    "english": "Do you want to go to the beach tomorrow, or would you rather do museums again?",
+    "explanation": "Do you want to go — вопрос через do; после want всегда инфинитив с to: want to go. go to the beach — to как направление; the beach — с пляжем в значении «пляж как место отдыха» ставится определённый артикль (как the movies, the gym). Вторая часть — would rather + V1 БЕЗ to: «предпочёл бы» — would you rather do, ни в коем случае не would rather to do. do museums — разговорное «ходить по музеям» (как do the sights — «осматривать достопримечательности»). again — «опять», в конце. Сравни два случая в одном предложении: want TO go (инфинитив с частицей to) и would rather do (голый инфинитив) — правило зависит от конструкции, а не от глагола.",
+    "level": "B1",
+    "grammarTags": ["question", "infinitive", "bare-infinitive", "movement-preposition", "article"],
+    "topicTags": ["travel", "family", "plans"]
+  },
+  {
+    "id": 723,
+    "russian": "Я сгорела в первый же день, хотя мазалась солнцезащитным кремом.",
+    "english": "I got sunburned on the very first day, even though I was wearing sunscreen.",
+    "explanation": "got sunburned — «сгорела на солнце»: get + причастие показывает, что это со мной случилось, я не делала это специально (та же модель: get hurt — пораниться, get lost — потеряться). got — Past Simple от get, законченное событие. on the very first day — с днями предлог on; very здесь усиление: «в самый первый день». even though — «хотя, несмотря на то что»: сильнее и выразительнее, чем просто though. I was wearing sunscreen — Past Continuous: крем был на мне в течение того времени, это длительный фон, на котором всё равно случился ожог. wear — не только про одежду: по-английски крем, макияж и духи тоже «носят» (wear sunscreen, wear makeup, wear perfume). sunscreen — неисчисляемое, без артикля.",
+    "level": "B1",
+    "grammarTags": ["past-simple", "past-continuous", "time-preposition", "collocation"],
+    "topicTags": ["travel", "daily-life"]
+  },
+  {
+    "id": 724,
+    "russian": "Какая завтра будет погода? Хочу успеть на пляж до жары.",
+    "english": "What's the weather going to be like tomorrow? I want to make it to the beach before it gets hot.",
+    "explanation": "What's the weather going to be like? — вопрос «какая будет погода»: ключевое слово — like в конце, буквально «на что погода будет похожа» (модель What is X like? — «какой X?»; без like вопрос развалится). going to — стандартный способ говорить о прогнозах. the weather — со словом weather всегда the. I want to make it to the beach — make it to + место: разговорное «успеть добраться» (make it — «успеть, справиться»). before it gets hot — «до жары»: в придаточных времени после before будущее выражается Present Simple, не will (не before it will get hot); get hot — «становиться жарко»; безличное it о погоде обязательно.",
+    "level": "A2",
+    "grammarTags": ["question", "going-to", "infinitive", "present-simple", "article"],
+    "topicTags": ["travel", "plans"]
+  },
+  {
+    "id": 725,
+    "russian": "Вода оказалась холоднее, чем я ожидала, но я всё равно поплавала.",
+    "english": "The water was colder than I expected, but I went swimming anyway.",
+    "explanation": "colder than I expected — сравнительная степень: короткое прилагательное cold получает -er; «чем» = than (не путай с then — «потом»). После than может идти целое предложение: than I expected — «чем я ожидала»; expected — правильный глагол, +ed. The water — the, потому что вода конкретная: то самое море или бассейн, где я купалась. went swimming — конструкция go + V-ing для активностей: go swimming, go shopping, go hiking; в прошедшем времени go превращается в went (go — went — gone). anyway — «всё равно, несмотря на это», обычно ставится в конец предложения. Русское «поплавала» не требует отдельного глагола «плавать один раз» — went swimming уже передаёт разовый заход.",
+    "level": "B1",
+    "grammarTags": ["past-simple", "comparative", "gerund", "article"],
+    "topicTags": ["travel", "interests"]
+  },
+  {
+    "id": 726,
+    "russian": "Возьми с собой воды — на экскурсии будет жарко.",
+    "english": "Take some water with you — it's going to be hot on the tour.",
+    "explanation": "Take — императив: совет или указание начинается прямо с V1, без подлежащего. some water — вода неисчисляемая: нельзя сказать a water, а «немного воды, воды с собой» передаётся через some. with you — «с собой»: по-английски буквально «с тобой», возвратного «с собой» нет (take it with you, не with yourself). it's going to be hot — прогноз через going to: по всем признакам будет жарко; безличное it о погоде обязательно — нельзя сказать просто will be hot без подлежащего. on the tour — «на экскурсии»: предлог on (как on a trip); the — та самая экскурсия, на которую собираемся. Обрати внимание, что русское «будет жарко» — одно слово «будет», а в английском нужна полная конструкция it's going to be.",
+    "level": "A2",
+    "grammarTags": ["imperative", "quantifier", "countable-uncountable", "going-to", "preposition"],
+    "topicTags": ["travel", "daily-life"]
+  },
+  {
+    "id": 727,
+    "russian": "Я уже три года работаю онлайн, поэтому могу вести проекты из любой точки мира.",
+    "english": "I've been working online for three years now, so I can run projects from anywhere in the world.",
+    "explanation": "I've been working — Present Perfect Continuous (have been + V-ing): действие началось три года назад и продолжается до сих пор. Русское настоящее время «работаю уже три года» — ловушка: Present Simple (I work online for three years) здесь грубая ошибка, длительность до настоящего момента требует перфекта. for three years — предлог for с отрезком времени, отвечает на «как долго»; со стартовой точкой был бы since: since 2023 (запомни пару: for + срок, since + точка отсчёта). now в конце усиливает: «вот уже три года». can run — модальный can + V1 без to: «могу вести». run projects — run здесь «вести, управлять» (run a business, run a project), а не «бежать». from anywhere in the world — «из любой точки мира»: anywhere — «где угодно»; in the world — устойчивое «в мире» с the.",
+    "level": "B1",
+    "grammarTags": ["present-perfect-continuous", "for-since", "modal", "preposition"],
+    "topicTags": ["work", "lifestyle"]
+  },
+  {
+    "id": 728,
+    "russian": "Тебе не мешает, что приходится постоянно работать то из отелей, то из аэропортов?",
+    "english": "Doesn't it bother you to work out of hotels and airports all the time?",
+    "explanation": "Doesn't it bother you…? — отрицательный вопрос: «разве тебе не мешает?» — так выражают лёгкое удивление или сомнение; строится через doesn't + it + V1. bother — «мешать, напрягать»: it bothers me — «меня это напрягает»; русское «тебе не мешает» по-английски личное — bother YOU. Настоящее подлежащее здесь — инфинитив: to work out of hotels…, а в начале стоит формальное it: без него предложение не построить. work out of + место — устойчивое «работать откуда-то, базироваться где-то»: work out of a hotel, work out of a home office. hotels and airports — множественное число без артикля: речь об отелях и аэропортах вообще, как о типе мест. all the time — «постоянно, всё время».",
+    "level": "B1",
+    "grammarTags": ["question", "negation", "present-simple", "infinitive", "preposition"],
+    "topicTags": ["work", "acquaintance"]
+  },
+  {
+    "id": 729,
+    "russian": "Мне нужен только ноутбук и хороший интернет.",
+    "english": "All I need is my laptop and good Wi-Fi.",
+    "explanation": "All I need is… — выразительная конструкция «всё, что мне нужно, — это…»: All I need = «всё, что я нуждаюсь» с опущенным that (All (that) I need). Глагол-связка is стоит в единственном числе, даже если дальше идёт перечисление — согласование с all, а не со списком. need — Present Simple: постоянная потребность, факт. Русское безличное «мне нужен» по-английски личное: I need (кальки вроде to me need не существует). my laptop — с личными вещами англичане ставят притяжательное my там, где по-русски определитель не нужен вовсе. good Wi-Fi — нулевой артикль: Wi-Fi здесь неисчисляемое, «хороший интернет вообще», а не конкретная сеть.",
+    "level": "A2",
+    "grammarTags": ["present-simple", "word-order", "article"],
+    "topicTags": ["work", "daily-life"]
+  },
+  {
+    "id": 730,
+    "russian": "Я сейчас отвечаю на письма прямо у бассейна — это лучший офис в моей жизни.",
+    "english": "I'm answering emails right by the pool — it's the best office I've ever had.",
+    "explanation": "I'm answering — Present Continuous: действие разворачивается прямо в момент речи. answer emails — без предлога: answer сразу принимает дополнение (не answer ON emails — частая калька с русского «отвечать НА письма»). right by the pool — by = «у, рядом с»; right — усиление «прямо у». the pool — the: бассейн конкретный, в моём отеле. the best office I've ever had — превосходная степень с обязательным the: best — неправильная форма от good (good — better — best). После превосходной степени очень часто идёт Present Perfect с ever: I've ever had — «который у меня когда-либо был»; связку the best/the worst + I've ever + V3 стоит запомнить целиком: the best decision I've ever made, the worst hotel I've ever stayed at.",
+    "level": "B1",
+    "grammarTags": ["present-continuous", "place-preposition", "superlative", "present-perfect"],
+    "topicTags": ["work", "lifestyle"]
+  },
+  {
+    "id": 731,
+    "russian": "Не подскажешь, есть ли здесь поблизости кафе с розетками и нормальным вайфаем?",
+    "english": "Do you know if there's a café with power outlets and decent Wi-Fi around here?",
+    "explanation": "Do you know if… — вежливый способ спросить у незнакомого или малознакомого человека: сначала общий вопрос Do you know, а дальше косвенный вопрос с if («ли»): if there's a café. В косвенном вопросе прямой порядок слов: if there's a café, а не if is there a café — вспомогательный глагол вперёд не выносится. there's = there is — конструкция «есть, имеется»: русское «есть ли здесь кафе» строится именно через there is, а не через have. a café — неопределённый артикль: подойдёт любое кафе. with power outlets — «с розетками»: в американском английском розетка — outlet (британцы скажут socket). decent — «нормальный, приличный» — очень ходовое слово. around here — «здесь поблизости, в этом районе».",
+    "level": "B1",
+    "grammarTags": ["question", "indirect-question", "there-is", "present-simple", "preposition"],
+    "topicTags": ["small-talk", "acquaintance"]
+  },
+  {
+    "id": 732,
+    "russian": "Я стараюсь не проверять рабочую почту после восьми, даже когда путешествую.",
+    "english": "I try not to check my work email after eight, even when I'm traveling.",
+    "explanation": "try not to + V1 — «стараться НЕ делать»: отрицание not ставится перед инфинитивом (try not to check). Сравни: I don't try to check — «я не стараюсь проверять» — отрицание при try полностью меняет смысл, поэтому позиция not здесь принципиальна. try — Present Simple: это моё постоянное правило, привычка. check my work email — check без предлога; my — по-английски перед «рабочей почтой» естественно притяжательное местоимение. after eight — «после восьми»: предлог after, слово o'clock в разговоре спокойно опускается. even when I'm traveling — Present Continuous после when: «в те периоды, когда я в поездках» — временное, продолжающееся состояние, поэтому I'm traveling, а не I travel (это значило бы «путешествую вообще, всегда»).",
+    "level": "B1",
+    "grammarTags": ["negation", "infinitive", "present-simple", "present-continuous", "time-preposition"],
+    "topicTags": ["work", "lifestyle", "communication"]
+  },
+  {
+    "id": 733,
+    "russian": "Прилетели мы в Лиссабон, а мой чемодан — нет.",
+    "english": "We landed in Lisbon, but my suitcase didn't.",
+    "explanation": "Красивый пример эллипсиса — сокращения, на котором держится английская разговорная речь и юмор: вместо повторения but my suitcase didn't land говорят просто but my suitcase didn't — вспомогательный did заменяет всё сказуемое целиком (тот же механизм, что в коротких ответах: Did you go? — No, I didn't). landed — Past Simple правильного глагола land: конкретное событие в прошлом. land in + город — «приземлиться в»: предлог in, потому что город — территория, внутри которой оказываешься. my suitcase — притяжательное my перед чемоданом обязательно. Противопоставление we did — it didn't звучит сухо и иронично — идеальный тон для начала истории про потерянный багаж.",
+    "level": "B1",
+    "grammarTags": ["past-simple", "negation", "place-preposition"],
+    "topicTags": ["travel", "humor"]
+  },
+  {
+    "id": 734,
+    "russian": "Ты когда-нибудь терял багаж в аэропорту?",
+    "english": "Have you ever lost your luggage at the airport?",
+    "explanation": "Present Perfect для вопроса о жизненном опыте вообще: have + V3, в вопросе have выходит вперёд — Have you ever lost…? ever = «когда-нибудь», ставится между подлежащим и V3. lose — неправильный глагол: lose — lost — lost (не путай с loose — «свободный»). luggage — неисчисляемое: никаких luggages и a luggage; «один чемодан» — a suitcase или a piece of luggage; поэтому your luggage без окончания множественного числа. at the airport — предлог at: аэропорт как точка маршрута, этап поездки (in the airport подчёркивало бы «внутри здания»). Если бы речь шла о конкретном случае в прошлом, был бы Past Simple: Did you lose your luggage on that trip?",
+    "level": "B1",
+    "grammarTags": ["question", "present-perfect", "place-preposition", "countable-uncountable"],
+    "topicTags": ["travel", "acquaintance"]
+  },
+  {
+    "id": 735,
+    "russian": "Оказалось, что мой чемодан улетел в Мадрид вместо Лиссабона.",
+    "english": "It turned out that my suitcase had flown to Madrid instead of Lisbon.",
+    "explanation": "It turned out that… — «оказалось, что…»: turn out — фразовый глагол «выясниться, оказаться»; конструкция безличная, с формальным it. turned out — Past Simple: момент в прошлом, когда я это узнала. had flown — Past Perfect (had + V3): чемодан улетел РАНЬШЕ, чем я об этом узнала; когда в рассказе о прошлом одно событие предшествует другому, более раннее ставится в Past Perfect — это и есть его главная работа. fly — неправильный глагол: fly — flew — flown. to Madrid — предлог to как направление движения, «куда». instead of Lisbon — «вместо Лиссабона»: составной предлог instead of, после него существительное или V-ing.",
+    "level": "B1",
+    "grammarTags": ["past-simple", "past-perfect", "phrasal-verb", "movement-preposition"],
+    "topicTags": ["travel"]
+  },
+  {
+    "id": 736,
+    "russian": "Чемодан нашли только через два дня.",
+    "english": "My suitcase was only found two days later.",
+    "explanation": "was found — страдательный залог (Passive) в Past Simple: was/were + V3. Пассив выбран, потому что русское «нашли» — неопределённо-личное: неизвестно и неважно, КТО нашёл, важен сам чемодан. По-английски такие фразы («нашли», «сказали», «построили») почти всегда передаются пассивом, а подлежащим становится сам предмет: my suitcase was found. find — неправильный глагол: find — found — found. only стоит внутри сказуемого, перед смысловой частью: was only found — «нашли только (лишь) через…». two days later — «через два дня» в рассказе о прошлом: именно later; вариант in two days означал бы «через два дня, считая от сегодня» — то есть про будущее, здесь он не подходит.",
+    "level": "B1",
+    "grammarTags": ["passive", "past-simple", "word-order"],
+    "topicTags": ["travel"]
+  },
+  {
+    "id": 737,
+    "russian": "Авиакомпания выплатила мне компенсацию, но она не окупила весь этот стресс.",
+    "english": "The airline paid me compensation, but it didn't really make up for all the stress.",
+    "explanation": "paid — Past Simple неправильного глагола pay (pay — paid — paid). paid me compensation — два дополнения подряд без предлога: сначала кому (me), потом что (compensation) — та же модель, что give me money, send me a photo. The airline — the: конкретная авиакомпания, которой я летела. didn't make up for — отрицание в Past Simple плюс фразовый глагол make up for — «компенсировать, возмещать»: деньги не «окупили» нервы. У make up много значений (помириться, придумать, накраситься) — здесь именно make up FOR something, значение держится на предлоге. really смягчает отрицание: didn't really — «не особо, не то чтобы». all the stress — stress неисчисляемое; all the — «весь этот».",
+    "level": "B1",
+    "grammarTags": ["past-simple", "negation", "phrasal-verb", "article"],
+    "topicTags": ["travel", "feelings"]
+  },
+  {
+    "id": 738,
+    "russian": "Теперь я всегда кладу всё самое важное в ручную кладь.",
+    "english": "Now I always pack the most important stuff in my carry-on.",
+    "explanation": "pack — Present Simple: моя новая постоянная привычка, выработанное правило. always стоит строго между подлежащим и смысловым глаголом: I always pack — место наречий частотности (always, usually, often, never) в предложении фиксированное. the most important — превосходная степень длинного прилагательного: the most + important (окончание -est к длинным словам не добавляется). stuff — разговорное «вещи, всё нужное»: неисчисляемое, без множественного числа и без артикля a. in my carry-on — carry-on — «ручная кладь» в американском английском (существительное, выросшее из фразового глагола carry on — «проносить с собой»); предлог in — «внутрь». Now в начале — «теперь», подчёркивает контраст с прошлым опытом.",
+    "level": "A2",
+    "grammarTags": ["present-simple", "superlative", "word-order", "place-preposition"],
+    "topicTags": ["travel", "lifestyle"]
+  },
+  {
+    "id": 739,
+    "russian": "Что посоветуешь посмотреть в Стамбуле, если у меня всего два дня?",
+    "english": "What would you recommend seeing in Istanbul if I only have two days?",
+    "explanation": "What would you recommend — would смягчает вопрос: «что бы ты посоветовал», звучит вежливее прямого What do you recommend. Главная ловушка: recommend + V-ing — recommend seeing, а НЕ recommend to see; после recommend и suggest инфинитив с to не ставится (либо герундий, либо существительное: recommend a place). seeing in Istanbul — предлог in с городом. if I only have two days — реальное условие в Present Simple: if + I have, без will; only перед have — «всего, только». two days — исчисляемое во множественном числе. Ответ, кстати, тоже строился бы с герундием: I'd recommend starting with the old town.",
+    "level": "B1",
+    "grammarTags": ["question", "modal", "gerund", "present-simple"],
+    "topicTags": ["travel", "interests", "communication"]
+  },
+  {
+    "id": 740,
+    "russian": "Если пойдёшь на рынок с утра, успеешь до толп туристов.",
+    "english": "If you go to the market in the morning, you'll beat the crowds.",
+    "explanation": "Классический First Conditional — реальное условие с результатом в будущем. Запомни главное правило: в if-части ТОЛЬКО Present Simple (If you go), ни в коем случае не If you will go — will после if не ставится; will живёт в главной части: you'll beat. go to the market — to как направление; the market — известный, конкретный рынок этого города. in the morning — «утром, с утра»: устойчивое сочетание с in и артиклем the. beat the crowds — устойчивое выражение «успеть до наплыва людей, опередить толпы»: beat здесь «обойти, опередить», а the crowds — толпы туристов, которые обязательно появятся. Русское «успеешь до толп» дословно не переводится — именно beat the crowds звучит по-английски естественно.",
+    "level": "B1",
+    "grammarTags": ["conditional-1", "present-simple", "future-will", "time-preposition", "article", "collocation"],
+    "topicTags": ["travel", "interests"]
+  },
+  {
+    "id": 741,
+    "russian": "Ты уже бывал в этом городе или едешь впервые?",
+    "english": "Have you been to this city before, or is it your first time?",
+    "explanation": "Have you been to…? — Present Perfect для вопроса об опыте: «доводилось ли бывать». Ключевой предлог — to, не in: been to this city несёт смысл «съездил и вернулся»; been in подчёркивало бы нахождение внутри в какой-то период. be — неправильный глагол: be — was/were — been. before — «раньше, прежде», ставится в конец вопроса. Вторая часть — обычный вопрос со связкой is: or is it your first time — «или это твой первый раз»; в альтернативном вопросе обе половины сохраняют вопросительный порядок слов, поэтому is снова перед it. your first time — порядковое first идёт после притяжательного your, и артикль the при этом уже не нужен: либо the first time, либо your first time, но не the your first time.",
+    "level": "A2",
+    "grammarTags": ["question", "present-perfect", "preposition"],
+    "topicTags": ["travel", "acquaintance"]
+  },
+  {
+    "id": 742,
+    "russian": "Обязательно поднимись на смотровую площадку на закате — вид оттуда невероятный.",
+    "english": "You have to go up to the viewpoint at sunset — the view from there is incredible.",
+    "explanation": "You have to — «обязательно сделай»: в рекомендациях have to звучит как настойчивый, но живой совет («ты просто обязан»), в разговоре он естественнее, чем строгое must. После have to идёт V1: have to go. go up to — «подняться к»: up передаёт движение вверх, to — направление к конкретной точке; предлоги складываются, и каждый делает свою работу. the viewpoint — the: конкретная площадка, о которой я рассказываю. at sunset — «на закате»: со словами sunset, sunrise, noon, midnight используется предлог at и нулевой артикль. the view from there — «вид оттуда»: view с the, потому что вид конкретный; from there — «оттуда». is incredible — Present Simple: постоянное свойство места, а не разовое впечатление.",
+    "level": "B1",
+    "grammarTags": ["modal", "movement-preposition", "article", "time-preposition", "present-simple"],
+    "topicTags": ["travel", "interests", "feelings"]
+  },
+  {
+    "id": 743,
+    "russian": "Я составила тебе список мест, куда стоит заглянуть.",
+    "english": "I've made you a list of places worth checking out.",
+    "explanation": "I've made — Present Perfect: список готов и существует сейчас, важен результат к настоящему моменту, а не когда именно я его писала. made you a list — два дополнения: сначала кому (you), потом что (a list), без предлога to — тот же порядок, что в give you advice, send you a photo. a list of places — «список мест»: существительные связывает of. worth + V-ing — «стоит того, чтобы»: places worth checking out — «места, которые стоит посмотреть»; после worth всегда герундий, не инфинитив (worth visiting, worth trying, worth reading). check out — фразовый глагол, здесь разговорное «посмотреть, заценить». Не путай с отельным check out «выселиться» и с check in «заселиться» — у check out несколько значений, и контекст решает.",
+    "level": "B1",
+    "grammarTags": ["present-perfect", "gerund", "phrasal-verb", "word-order"],
+    "topicTags": ["friends", "travel", "communication"]
+  },
+  {
+    "id": 744,
+    "russian": "Где лучше поменять деньги — в аэропорту или в городе?",
+    "english": "Where's the best place to exchange money — at the airport or in the city?",
+    "explanation": "Where's the best place to + V1 — естественный способ спросить «где лучше сделать»: буквально «где лучшее место, чтобы поменять деньги». По-русски «где лучше поменять» безлично, по-английски нужна опора — the best place. the best — превосходная степень от good (good — better — best) с обязательным артиклем the. to exchange — инфинитив после place: place to exchange — «место, чтобы поменять». exchange money — money неисчисляемое: без множественного числа и без a. И главный контраст предлогов: at the airport — аэропорт как точка города, пункт на карте; in the city — внутри города, на его территории. Разница at/in для мест — одна из самых частых развилок, и здесь она видна в одном предложении.",
+    "level": "A2",
+    "grammarTags": ["question", "superlative", "infinitive", "place-preposition"],
+    "topicTags": ["travel", "daily-life"]
+  },
+  {
+    "id": 745,
+    "russian": "Наш обратный рейс задержали на четыре часа, так что мы просто сидим в аэропорту.",
+    "english": "Our return flight has been delayed by four hours, so we're just sitting around at the airport.",
+    "explanation": "has been delayed — Present Perfect в пассиве (has been + V3): рейс задержали, и результат актуален прямо сейчас — мы всё ещё ждём. Пассив, потому что русское «рейс задержали» не называет виновника: по-английски подлежащим становится сам рейс. by four hours — предлог by показывает, НА СКОЛЬКО задержали: delayed by four hours. return flight — «обратный рейс»: return работает как прилагательное перед flight. we're just sitting around — Present Continuous: происходит в данный момент; sit around — фразовый глагол «сидеть без дела, торчать»: around добавляет оттенок бесцельности, просто sitting был бы нейтральнее. at the airport — предлог at: аэропорт как точка, где мы застряли. just — «просто», смягчает и добавляет обречённости.",
+    "level": "B1",
+    "grammarTags": ["present-perfect", "passive", "present-continuous", "phrasal-verb", "preposition"],
+    "topicTags": ["travel", "texting"]
+  },
+  {
+    "id": 746,
+    "russian": "Во сколько ты теперь приземлишься? Хочешь, я тебя встречу?",
+    "english": "What time will you land now? Do you want me to pick you up?",
+    "explanation": "What time will you land? — вопрос о будущем с will: will выходит перед подлежащим (What time + will + you + land). now здесь «теперь» — то есть с учётом задержки рейса. Do you want me to pick you up — конструкция want someone to do something: «хочешь, ЧТОБЫ Я тебя встретила» — по-английски без всякого «чтобы»: want + me + to + V1; сказать want that I pick you up нельзя. pick up — фразовый глагол «встретить и забрать (обычно на машине)»; местоимение обязательно встаёт в середину: pick you up, а не pick up you. Русская фраза «хочешь, я тебя встречу?» устроена совсем иначе, чем английская, поэтому конструкцию Do you want me to…? стоит выучить как готовый блок — она нужна постоянно.",
+    "level": "A2",
+    "grammarTags": ["question", "future-will", "want-someone-to", "phrasal-verb"],
+    "topicTags": ["family", "plans", "communication"]
+  },
+  {
+    "id": 747,
+    "russian": "Не переживай, я не буду сидеть все четыре часа у выхода — найду кафе и поработаю.",
+    "english": "Don't worry, I'm not going to sit at the gate for four hours — I'll find a café and get some work done.",
+    "explanation": "Don't worry — отрицательный императив: Don't + V1, готовая формула «не переживай». I'm not going to sit — «не собираюсь сидеть»: отрицание при going to, потому что решение уже принято и обдумано. Дальше — контраст двух будущих: I'll find — will для действия, которое я озвучиваю как простое обещание/решение в момент речи. Рядом они хорошо показывают разницу: going to — план, will — «вот прямо найду и всё». at the gate — «у выхода на посадку»: gate — выход в аэропорту, at — точка. for four hours — for со сроком. get some work done — устойчивая конструкция «поработать, разделаться с делами»: get something done — буквально «добиться, чтобы работа была сделана»; some work — work неисчисляемое, поэтому some, а не a.",
+    "level": "B1",
+    "grammarTags": ["imperative", "negation", "going-to", "future-will", "collocation"],
+    "topicTags": ["texting", "communication"]
+  },
+  {
+    "id": 748,
+    "russian": "Раньше я злилась из-за задержек, а теперь просто беру с собой хорошую книгу.",
+    "english": "I used to get angry about delays, but now I just bring a good book with me.",
+    "explanation": "used to + V1 — «раньше делала (а теперь нет)»: I used to get angry — регулярное состояние в прошлом, которое закончилось; сам контраст подчёркнут через but now. Не путай с get used to + V-ing («привыкать к чему-то») — здесь именно used to + инфинитив, конструкция о прошлой привычке. get angry — «злиться»: get + прилагательное = переход в состояние (get tired, get bored, get angry). angry about delays — злиться «из-за чего-то» — about; про человека было бы angry with someone или angry at someone. now I just bring — Present Simple: новая постоянная привычка; just — «просто». a good book — артикль a: каждый раз какая-то одна книга, не конкретная. with me — «с собой»: по-английски буквально «со мной», возвратной формы нет.",
+    "level": "B1",
+    "grammarTags": ["used-to", "present-simple", "preposition", "article"],
+    "topicTags": ["travel", "deep-talk", "lifestyle"]
+  },
+  {
+    "id": 749,
+    "russian": "Ты меня встретишь, если я прилечу уже за полночь?",
+    "english": "Will you still meet me if I get in after midnight?",
+    "explanation": "First Conditional в форме вопроса: главная часть с will (Will you still meet me), а в if-части Present Simple: if I get in — НЕ if I will get in. После if будущее с will не ставится, даже когда речь очевидно о будущем — одна из самых живучих ошибок. still — «всё равно, всё-таки», встаёт между will you и смысловым глаголом: Will you still meet…? meet me — «встретить меня»: без предлога. get in — фразовый глагол «прибыть» о самолётах и поездах: What time does your flight get in? — очень ходовое разговорное выражение. after midnight — «за полночь»: after + midnight без артикля (так же: after noon). Вопрос звучит с лёгкой надеждой и проверкой — типичная реплика из переписки перед поздним рейсом.",
+    "level": "B1",
+    "grammarTags": ["question", "conditional-1", "future-will", "phrasal-verb", "time-preposition"],
+    "topicTags": ["dating", "plans", "travel"]
+  },
+  {
+    "id": 750,
+    "russian": "Я так соскучилась — жду не дождусь, когда наконец окажусь дома и обниму тебя.",
+    "english": "I've missed you so much — I'm really looking forward to finally being home and hugging you.",
+    "explanation": "I've missed you so much — Present Perfect: тоска копилась до настоящего момента и всё ещё со мной; miss без предлога — miss you, а не miss about you. so much — усиление «так сильно». look forward to — «ждать с нетерпением»: в этой конструкции to — ПРЕДЛОГ, а не часть инфинитива, поэтому дальше идёт V-ing: looking forward to being и to hugging (не to be, not to hug). I'm looking forward — Present Continuous делает чувство живым, происходящим прямо сейчас. finally — «наконец», ставится перед герундием. being home — «оказаться дома»: home идёт без предлога (be home, go home, get home — никакого to). Два герундия соединены and, и оба зависят от одного to: to being … and hugging.",
+    "level": "B1",
+    "grammarTags": ["present-perfect", "look-forward-to", "to-preposition", "gerund", "present-continuous"],
+    "topicTags": ["dating", "feelings"]
+  }
+]
