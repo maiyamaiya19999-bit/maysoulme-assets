@@ -36,11 +36,11 @@
   },
   {
     "id": 152,
-    "russian": "Нас в семье четверо: мама, папа, старшая сестра и я.",
-    "english": "There are four of us in my family: my mom, my dad, my older sister, and me.",
+    "russian": "Нас у мамы четверо: я и три младшие сестры, и все мы играем на скрипке.",
+    "english": "There are four of us — me and my three younger sisters — and we all play the violin.",
     "alternatives": [
-      "It's just the four of us: my mom, my dad, my older sister, and me.",
-      "We're a family of four — my parents, my older sister, and me."
+      "It's four girls in our family: me and my three younger sisters, and we're all violinists.",
+      "I'm the oldest of four sisters, and every one of us plays the violin."
     ],
     "vocab": [
       {
@@ -52,19 +52,19 @@
         "translation": "нас четверо"
       },
       {
-        "word": "older sister",
-        "translation": "старшая сестра"
+        "word": "younger sister",
+        "translation": "младшая сестра"
       },
       {
-        "word": "mom",
-        "translation": "мама"
+        "word": "play the violin",
+        "translation": "играть на скрипке"
       },
       {
-        "word": "dad",
-        "translation": "папа"
+        "word": "we all",
+        "translation": "все мы"
       }
     ],
-    "explanation": "Конструкция there are — «есть/имеется», стандартный способ сказать о наличии или количестве. С множественным числом — are: there are four. four of us — «нас четверо», буквально «четверо из нас», предлог of обязателен. Русская калька «In my family are four people» с постановкой места в начало звучит неестественно — англичане начинают именно с there. in my family — предлог in. Перед каждым членом семьи притяжательное my: my mom, my dad — в английском это звучит нормально, а не навязчиво. older sister — «старшая сестра»: в AmE о возрасте говорят older (elder — книжное). В конце перечисления — and me: в разговорной речи в позиции дополнения естественно me, а не I.",
+    "explanation": "Конструкция there are — стандартный способ сказать о наличии и количестве: с множественным числом всегда are (there are four). four of us — «нас четверо», буквально «четверо из нас», предлог of обязателен; калька «In our family are four girls» с местом в начале звучит неестественно, англичане начинают именно с there. my three younger sisters — порядок слов жёсткий: притяжательное, потом число, потом прилагательное, потом существительное. younger — сравнительная форма от young: о возрасте внутри семьи говорят younger/older. we all play — местоименное all стоит после подлежащего и перед смысловым глаголом (а с глаголом be — после него: we're all violinists). play the violin — с музыкальными инструментами традиционно ставится артикль the: play the violin, play the piano.",
     "level": "A2",
     "grammarTags": [
       "there-is",
@@ -77,28 +77,31 @@
   },
   {
     "id": 153,
-    "russian": "Моя сестра на два года старше меня.",
-    "english": "My sister is two years older than me.",
+    "russian": "Моя младшая сестра на пять лет младше меня и уже поёт в опере.",
+    "english": "My little sister is five years younger than me, and she already sings opera.",
     "alternatives": [
-      "My sister's two years older than I am.",
-      "I'm two years younger than my sister.",
-      "My sister has two years on me."
+      "My little sister's five years younger than I am, and she's already an opera singer.",
+      "I'm five years older than my little sister, and she already performs opera."
     ],
     "vocab": [
       {
-        "word": "older than",
-        "translation": "старше, чем"
+        "word": "younger than",
+        "translation": "младше, чем"
       },
       {
-        "word": "two years older",
-        "translation": "на два года старше"
+        "word": "five years younger",
+        "translation": "на пять лет младше"
       },
       {
-        "word": "sister",
-        "translation": "сестра"
+        "word": "little sister",
+        "translation": "младшая сестра"
+      },
+      {
+        "word": "sing opera",
+        "translation": "петь оперу"
       }
     ],
-    "explanation": "Сравнительная степень: older + than — «старше, чем». Мера разницы (two years) ставится ПЕРЕД прилагательным: two years older, а не older on two years — русское «старше НА два года» с предлогом сюда не переносится, разница указывается просто числом перед сравнительной формой. than me — разговорная норма; than I am — более формальный вариант, оба верны. is — Present Simple глагола be: постоянный факт, разница в возрасте не меняется. Обрати внимание: короткое прилагательное old образует сравнительную через -er (older), а не через more.",
+    "explanation": "Сравнительная степень: younger + than — «младше, чем». Мера разницы ставится ПЕРЕД прилагательным: five years younger, а не younger on five years — русское «младше НА пять лет» с предлогом сюда не переносится, разница указывается просто числом перед сравнительной формой. than me — разговорная норма, than I am — чуть формальнее, оба верны. is — Present Simple глагола be: постоянный факт, разница в возрасте не меняется. sings — окончание -s в 3-м лице единственного числа. already стоит между подлежащим и смысловым глаголом: she already sings. Короткое прилагательное young образует сравнительную форму через -er (younger), а не через more. sing opera — без артикля: здесь опера как жанр, а не конкретный спектакль.",
     "level": "A2",
     "grammarTags": [
       "comparative",
@@ -146,11 +149,11 @@
   },
   {
     "id": 155,
-    "russian": "Мои родители живут в маленьком городке недалеко от Москвы.",
-    "english": "My parents live in a small town not far from Moscow.",
+    "russian": "Мои родители живут в маленьком городке недалеко от Москвы, и я стараюсь приезжать к ним раз в месяц.",
+    "english": "My parents live in a small town not far from Moscow, and I try to visit them once a month.",
     "alternatives": [
-      "My parents live in a small town just outside Moscow.",
-      "My folks live in a little town near Moscow."
+      "My parents are in a small town just outside Moscow, and I get out there about once a month.",
+      "My folks live in a little town near Moscow — I make it out to see them every month or so."
     ],
     "vocab": [
       {
@@ -166,11 +169,15 @@
         "translation": "недалеко от"
       },
       {
-        "word": "just outside",
-        "translation": "прямо за пределами, рядом с"
+        "word": "try to do",
+        "translation": "стараться сделать"
+      },
+      {
+        "word": "once a month",
+        "translation": "раз в месяц"
       }
     ],
-    "explanation": "Present Simple (live) — постоянный факт: родители там живут всегда, не временно. Окончания -s нет, потому что подлежащее во множественном числе (parents). in a small town — предлог in для населённых пунктов («в городе»); артикль a, потому что городок упоминается впервые и это «один из» маленьких городов, слушатель о нём ещё не знает. not far from — «недалеко от»: удобная готовая связка, far — «далеко», from — «от». Moscow — без артикля, как почти все названия городов. Обрати внимание на порядок: сначала где (in a small town), потом уточнение расстояния (not far from Moscow).",
+    "explanation": "Present Simple (live, try) — постоянные факты и привычки; окончания -s нет, потому что в первой части подлежащее во множественном числе (parents), а во второй — I. in a small town — предлог in для населённых пунктов; артикль a, потому что городок упоминается впервые и слушатель о нём ещё не знает. not far from — готовая связка «недалеко от». Moscow — без артикля, как почти все названия городов. try to visit — после try инфинитив с to в значении «стараться»; try visiting значило бы «попробовать этот способ». visit them — без предлога: русское «приезжать К ним» провоцирует кальку visit to them, но visit принимает прямое дополнение. once a month — «раз в месяц», где артикль a работает как русское «в»: twice a week, three times a year.",
     "level": "A2",
     "grammarTags": [
       "present-simple",
@@ -183,12 +190,11 @@
   },
   {
     "id": 156,
-    "russian": "У меня нет братьев — только сестра.",
-    "english": "I don't have any brothers — just a sister.",
+    "russian": "Братьев у меня нет — только три младшие сестры, я самая старшая.",
+    "english": "I don't have any brothers — just three younger sisters. I'm the oldest one.",
     "alternatives": [
-      "I have no brothers, just a sister.",
-      "No brothers — it's just me and my sister.",
-      "I only have a sister, no brothers."
+      "No brothers, just three younger sisters — I'm the oldest of the four of us.",
+      "I have no brothers; it's me and my three little sisters, and I'm the oldest."
     ],
     "vocab": [
       {
@@ -196,25 +202,30 @@
         "translation": "брат"
       },
       {
-        "word": "sister",
-        "translation": "сестра"
+        "word": "any",
+        "translation": "никаких (в отрицании)"
+      },
+      {
+        "word": "younger sister",
+        "translation": "младшая сестра"
       },
       {
         "word": "just",
         "translation": "только, всего лишь"
       },
       {
-        "word": "any",
-        "translation": "никаких (в отрицании)"
+        "word": "the oldest",
+        "translation": "самая старшая"
       }
     ],
-    "explanation": "Русское «у меня нет» переводится через глагол have с отрицанием: I don't have — вспомогательный don't + V1. Вариант I have no brothers тоже верен, но с don't нужен any: в отрицательных предложениях с исчисляемыми существительными во множественном числе ставится any (don't have any brothers = «нет никаких братьев»). just a sister — «только сестра»: артикль a, потому что сестра одна и упоминается впервые. Частая ошибка — калька «I have not brothers»: в современном английском have в значении «иметь» не строит отрицание сам, ему нужен don't/doesn't.",
+    "explanation": "Русское «у меня нет» передаётся глаголом have с отрицанием: I don't have — вспомогательный don't + V1. В отрицаниях с исчисляемыми существительными во множественном числе ставится any: don't have any brothers. Вариант I have no brothers тоже верен, но тогда any уже не нужен — двух отрицаний в одном предложении английский не допускает. Частая ошибка — калька I have not brothers: have в значении «иметь» отрицание сам не строит, ему нужен don't/doesn't. just — «только, всего лишь». the oldest — превосходная степень, и артикль the с ней обязателен всегда: the oldest, the youngest, the best. one заменяет уже понятное из контекста существительное (the oldest one = the oldest sister), чтобы не повторять слово.",
     "level": "A1",
     "grammarTags": [
       "negation",
       "present-simple",
       "quantifier",
-      "article"
+      "article",
+      "superlative"
     ],
     "topicTags": [
       "family"
@@ -328,31 +339,35 @@
   },
   {
     "id": 160,
-    "russian": "Моя сестра замужем, у неё двое маленьких детей.",
-    "english": "My sister is married and has two little kids.",
+    "russian": "Моя младшая сестра учит китайский и мечтает поехать со мной в Китай.",
+    "english": "My little sister studies Chinese and dreams of going to China with me.",
     "alternatives": [
-      "My sister's married with two little kids.",
-      "My sister has a husband and two small children."
+      "My youngest sister is learning Chinese, and her big dream is a trip to China with me.",
+      "My little sister takes Chinese lessons and can't wait for the two of us to visit China."
     ],
     "vocab": [
       {
-        "word": "be married",
-        "translation": "быть замужем / женатым"
+        "word": "study Chinese",
+        "translation": "учить китайский"
       },
       {
-        "word": "little kids",
-        "translation": "маленькие дети"
+        "word": "dream of doing",
+        "translation": "мечтать сделать"
       },
       {
-        "word": "married with two kids",
-        "translation": "замужем, с двумя детьми"
+        "word": "little sister",
+        "translation": "младшая сестра"
       },
       {
-        "word": "husband",
-        "translation": "муж"
+        "word": "take lessons",
+        "translation": "брать уроки"
+      },
+      {
+        "word": "go to China",
+        "translation": "поехать в Китай"
       }
     ],
-    "explanation": "be married — устойчивое «быть замужем/женатым»: состояние передаётся через be + married (married здесь прилагательное). is married — Present Simple, постоянный факт. Не путай с глаголом действия: She got married last year — «вышла замуж» (событие), She is married — «замужем» (состояние). has — форма have в 3-м лице единственного числа: she has, окончание -s обязательно. Русское «у неё двое детей» снова передаётся глаголом «иметь»: (she) has two little kids. Второе подлежащее не повторяется: My sister is married and has… — обе части относятся к одному подлежащему, союз and их склеивает.",
+    "explanation": "Present Simple — регулярные занятия и постоянное желание, а не разовое действие: studies и dreams, оба с окончанием -s в 3-м лице единственного числа. study Chinese — название языка с большой буквы и без артикля. dream of (или about) doing something — «мечтать о том, чтобы что-то сделать»: of здесь предлог, поэтому после него глагол идёт в форме V-ing: dreams of GOING, а не dreams to go — это типичная ловушка для русскоговорящих. go to China — предлог направления to; названия стран идут без артикля (исключения вроде the USA запоминаются отдельно). with me — после предлога местоимение стоит в объектной форме (me, а не I). Союз and связывает два сказуемых при одном подлежащем, поэтому she во второй части не повторяется.",
     "level": "A2",
     "grammarTags": [
       "present-simple",
@@ -364,11 +379,11 @@
   },
   {
     "id": 161,
-    "russian": "По воскресеньям мы обычно обедаем у родителей.",
-    "english": "On Sundays, we usually have lunch at my parents' place.",
+    "russian": "По воскресеньям мы обычно обедаем у родителей — отчим готовит на всех.",
+    "english": "On Sundays, we usually have lunch at my parents' place — my stepdad cooks for everyone.",
     "alternatives": [
-      "We usually go to my parents' for lunch on Sundays.",
-      "Sunday lunch at my parents' is kind of a tradition for us."
+      "We usually go over to my parents' for Sunday lunch, and my stepdad does the cooking.",
+      "Sunday lunch at my parents' is kind of a tradition — my stepdad cooks for the whole family."
     ],
     "vocab": [
       {
@@ -386,9 +401,17 @@
       {
         "word": "at my parents' place",
         "translation": "у родителей (дома)"
+      },
+      {
+        "word": "stepdad",
+        "translation": "отчим"
+      },
+      {
+        "word": "cook for somebody",
+        "translation": "готовить для кого-то"
       }
     ],
-    "explanation": "on Sundays — предлог on с днями недели; множественное число Sundays передаёт регулярность «по воскресеньям». usually — наречие частотности, его место перед смысловым глаголом: we usually have. have lunch — устойчивое «обедать»: с приёмами пищи используется have + название еды без артикля (have breakfast/lunch/dinner), не eat lunch и тем более не «dinner» в кальке «обед» — lunch это дневной приём пищи, dinner — вечерний. at my parents' place — «у родителей»: at для точки-места; parents' — притяжательный падеж от множественного числа, апостроф ставится ПОСЛЕ s; place — разговорное «дом/жильё» (можно и просто at my parents').",
+    "explanation": "on Sundays — предлог on с днями недели; множественное число Sundays передаёт регулярность «по воскресеньям». usually — наречие частотности, его место перед смысловым глаголом: we usually have. have lunch — устойчивое «обедать»: с приёмами пищи используется have + название еды без артикля (have breakfast/lunch/dinner); lunch — дневной приём пищи, dinner — вечерний, путать их нельзя. at my parents' place — «у родителей»: at обозначает точку-место, parents' — притяжательный падеж множественного числа с апострофом ПОСЛЕ s, place — разговорное «дом, жильё». cooks — окончание -s в 3-м лице. cook for somebody — «готовить для кого-то», предлог for; everyone грамматически единственное число, поэтому глагол при нём тоже был бы с -s.",
     "level": "A2",
     "grammarTags": [
       "present-simple",
@@ -486,12 +509,11 @@
   },
   {
     "id": 164,
-    "russian": "Вчера я весь вечер убирала квартиру.",
-    "english": "I spent the whole evening cleaning my apartment yesterday.",
+    "russian": "Вчера я весь вечер провела за скрипкой — разбирала новую пьесу.",
+    "english": "I spent the whole evening with my violin yesterday, working on a new piece.",
     "alternatives": [
-      "I cleaned my apartment all evening yesterday.",
-      "Yesterday I spent all evening cleaning the place.",
-      "My whole evening yesterday went to cleaning the apartment."
+      "I spent all evening yesterday practicing a new piece on the violin.",
+      "My whole evening yesterday went into learning a new piece for violin."
     ],
     "vocab": [
       {
@@ -503,15 +525,19 @@
         "translation": "весь вечер"
       },
       {
-        "word": "clean",
-        "translation": "убирать"
+        "word": "work on",
+        "translation": "работать над, разбирать"
       },
       {
-        "word": "apartment",
-        "translation": "квартира"
+        "word": "piece",
+        "translation": "пьеса, произведение"
+      },
+      {
+        "word": "practice",
+        "translation": "заниматься, отрабатывать"
       }
     ],
-    "explanation": "Естественный способ сказать «весь вечер делала что-то» — конструкция spend time doing something: «провести время за чем-то». spent — Past Simple от spend (spend—spent—spent, неправильный глагол). После spend + отрезок времени действие идёт в форме герундия V-ing: spent the evening CLEANING, а не to clean. the whole evening — артикль the обязателен со словом whole: «весь (этот) вечер». my apartment — apartment — американское слово для квартиры (flat — британское). yesterday стоит в конце без предлога. Дословный перевод «I cleaned the apartment all evening» тоже верен, но вариант со spend звучит живее и взрослее.",
+    "explanation": "Естественный способ сказать «весь вечер занималась чем-то» — конструкция spend + отрезок времени + V-ing: spent the whole evening WORKING, а не to work; герундий здесь обязателен. spent — Past Simple неправильного глагола spend (spend—spent—spent). the whole evening — со словом whole артикль the обязателен: «весь (этот) вечер». work on something — устойчивое «работать над чем-то, разбирать»: предлог именно on. a new piece — артикль a, потому что пьеса упоминается впервые; piece — «музыкальное произведение» (полная форма — a piece of music). yesterday стоит в конце и без предлога, как и last night, last week. Обрати внимание: with my violin — «за скрипкой», предлог with, инструмент как спутник.",
     "level": "A2",
     "grammarTags": [
       "past-simple",
@@ -525,24 +551,24 @@
   },
   {
     "id": 165,
-    "russian": "Вчера я постирала, всё погладила и приготовила ужин — в общем, я герой.",
-    "english": "Yesterday I did the laundry, ironed everything, and made dinner — basically, I'm a hero.",
+    "russian": "Вчера я приготовила ужин на шестерых, всё убрала и ещё позанималась на скрипке — в общем, я герой.",
+    "english": "Yesterday I made dinner for six people, cleaned everything up, and still practiced my violin — basically, I'm a hero.",
     "alternatives": [
-      "Yesterday I got the laundry done, ironed everything, and cooked dinner — I'm basically a superhero.",
-      "Laundry, ironing, dinner — I did it all yesterday. I'm a hero, honestly."
+      "Yesterday I cooked dinner for six, cleaned the whole place up, and got my violin practice in — I'm basically a superhero.",
+      "Dinner for six, a full clean-up, and violin practice — all in one day. I'm a hero, honestly."
     ],
     "vocab": [
       {
-        "word": "do the laundry",
-        "translation": "стирать, заниматься стиркой"
-      },
-      {
-        "word": "iron",
-        "translation": "гладить"
-      },
-      {
         "word": "make dinner",
         "translation": "готовить ужин"
+      },
+      {
+        "word": "clean up",
+        "translation": "убирать, приводить в порядок"
+      },
+      {
+        "word": "practice",
+        "translation": "заниматься (музыкой)"
       },
       {
         "word": "basically",
@@ -553,7 +579,7 @@
         "translation": "герой"
       }
     ],
-    "explanation": "Три глагола в Past Simple подряд: did (do—did—done), ironed (правильный глагол, просто -ed), made (make—made—made). do the laundry — устойчивое американское «стирать/заниматься стиркой», артикль the — часть выражения; не wash clothes в бытовом смысле. made dinner — «приготовила ужин»: make dinner и cook dinner равноправны; dinner без артикля, как все приёмы пищи. basically — разговорное «в общем/по сути», отличный филлер для живой речи. I'm a hero — Present Simple + артикль a: перед исчисляемым существительным в единственном числе, когда называешь себя кем-то, артикль обязателен (I'm a doctor, I'm a hero).",
+    "explanation": "Три глагола в Past Simple подряд: made (make—made—made, неправильный), cleaned (правильный, просто -ed) и practiced (в AmE пишется через c: practiced, британское practised). made dinner — «приготовила ужин»: make dinner и cook dinner равноправны, dinner без артикля, как все приёмы пищи; for six people — предлог for о количестве едоков. clean up — фразовый глагол «убрать, привести в порядок»; он отделяемый, и местоимения и слова вроде everything встают ВНУТРЬ: cleaned everything up, cleaned it up. still — «ещё, вдобавок», стоит перед смысловым глаголом. basically — разговорное «в общем, по сути», живой филлер. I'm a hero — когда называешь себя кем-то, перед исчисляемым существительным в единственном числе артикль a обязателен.",
     "level": "A2",
     "grammarTags": [
       "past-simple",
@@ -601,12 +627,11 @@
   },
   {
     "id": 167,
-    "russian": "Я вчера никуда не ходила — просто осталась дома и смотрела сериал.",
-    "english": "I didn't go anywhere yesterday — I just stayed home and watched a show.",
+    "russian": "Я вчера никуда не пошла — осталась дома, приготовила свою фирменную пасту и дочитала книгу.",
+    "english": "I didn't go anywhere yesterday — I stayed home, made my signature pasta, and finished a book.",
     "alternatives": [
-      "I stayed in yesterday and just binge-watched a show.",
-      "I didn't go out yesterday — I just hung out at home watching a series.",
-      "Nowhere, really — I was home all day watching TV."
+      "I stayed in yesterday — cooked my signature pasta and finished the book I was reading.",
+      "Nowhere, honestly — I was home making my favorite pasta and reading all evening."
     ],
     "vocab": [
       {
@@ -622,15 +647,15 @@
         "translation": "не выходить из дома"
       },
       {
-        "word": "watch a show",
-        "translation": "смотреть сериал"
+        "word": "signature dish",
+        "translation": "фирменное блюдо"
       },
       {
-        "word": "binge-watch",
-        "translation": "смотреть запоем"
+        "word": "finish a book",
+        "translation": "дочитать книгу"
       }
     ],
-    "explanation": "didn't + V1 — отрицание в Past Simple: didn't go, а не didn't went (время уже выражено в didn't, глагол остаётся в начальной форме). anywhere — «никуда/куда-либо» в отрицательных предложениях; двойного отрицания, как в русском «НИкуда НЕ ходила», в английском нет — отрицание одно (didn't), дальше any-слова. stayed home — американский вариант без предлога: home здесь наречие «дома» (британцы скажут stayed at home). watched a show — артикль a: какой-то один сериал, собеседник о нём ещё не знает; show — разговорное «сериал/передача». stayed и watched — правильные глаголы с -ed.",
+    "explanation": "didn't + V1 — отрицание в Past Simple: didn't go, а не didn't went (время уже выражено во вспомогательном didn't, смысловой глагол возвращается в начальную форму). anywhere — «никуда» в отрицательном предложении: двойного отрицания, как в русском «НИкуда НЕ пошла», в английском нет — отрицание одно (didn't), а дальше идут any-слова. stayed home — американский вариант без предлога, home здесь наречие «дома» (британцы скажут stayed at home). made — Past Simple от make (make—made—made). my signature pasta — signature dish означает «фирменное блюдо», притяжательное my занимает место артикля. a book — артикль a: книга упоминается впервые. Все три действия перечислены через запятую и завершающее and при одном подлежащем.",
     "level": "A2",
     "grammarTags": [
       "negation",
@@ -920,11 +945,11 @@
   },
   {
     "id": 175,
-    "russian": "Моё главное хобби — фотография, я снимаю всё подряд.",
-    "english": "My main hobby is photography — I take pictures of everything.",
+    "russian": "Моё главное хобби — скрипка: занимаюсь раз в неделю и до сих пор влюблена в классику.",
+    "english": "My main hobby is the violin — I practice once a week, and I'm still in love with classical music.",
     "alternatives": [
-      "I'm really into photography — I shoot pretty much everything.",
-      "Photography's my biggest hobby; I take photos of just about anything."
+      "The violin is my biggest hobby: I take a lesson every week, and I'm crazy about classical music.",
+      "My number one hobby is playing the violin — one practice a week, and I still love classical music."
     ],
     "vocab": [
       {
@@ -936,19 +961,23 @@
         "translation": "хобби"
       },
       {
-        "word": "photography",
-        "translation": "фотография (занятие)"
+        "word": "play the violin",
+        "translation": "играть на скрипке"
       },
       {
-        "word": "take pictures",
-        "translation": "фотографировать"
+        "word": "practice",
+        "translation": "заниматься"
       },
       {
-        "word": "be into",
-        "translation": "увлекаться"
+        "word": "be in love with",
+        "translation": "быть влюблённым в"
+      },
+      {
+        "word": "classical music",
+        "translation": "классическая музыка"
       }
     ],
-    "explanation": "My main hobby is photography — конструкция с be: подлежащее + is + именная часть. photography без артикля — это неисчисляемое абстрактное занятие/область (как music, art). take pictures — устойчивое «фотографировать»: в английском снимки именно «берут» (take a picture / take photos), русская калька make pictures — ошибка, make здесь невозможен. of everything — предлог of: снимки ЧЕГО. Present Simple в I take — постоянная привычка. Обрати внимание, что hobby — исчисляемое: одно хобби — a hobby, поэтому в других фразах будет артикль (I have a new hobby).",
+    "explanation": "My main hobby is the violin — конструкция с be: подлежащее + is + именная часть. С музыкальными инструментами традиционно ставится артикль the: the violin, the piano (play the violin). Present Simple в I practice — регулярная привычка. once a week — «раз в неделю», где артикль a работает как русское «в»: twice a month, three times a year. be in love with — устойчивое «быть влюблённой в»: предлог именно with, а не in, как подсказывает русское «влюблена В» — это частая ошибка. still стоит после глагола be: I'm still. classical music — неисчисляемое, артикль не нужен: музыка как область. А hobby, наоборот, исчисляемое, поэтому в других фразах будет артикль: I have a new hobby.",
     "level": "A2",
     "grammarTags": [
       "present-simple",
@@ -1042,32 +1071,35 @@
   },
   {
     "id": 178,
-    "russian": "Я не очень спортивная, но много хожу пешком.",
-    "english": "I'm not a very sporty person, but I walk a lot.",
+    "russian": "Я не пропускаю тренировки — хожу в зал четыре раза в неделю и много бегаю.",
+    "english": "I don't skip my workouts — I go to the gym four times a week, and I run a lot.",
     "alternatives": [
-      "I'm not much of an athlete, but I do a lot of walking.",
-      "I'm not really into sports, but I walk a lot.",
-      "Sports aren't really my thing, but I walk everywhere."
+      "I never skip a workout: the gym four times a week, plus running.",
+      "Skipping workouts isn't really my thing — I'm at the gym four times a week and I run a lot."
     ],
     "vocab": [
       {
-        "word": "sporty",
-        "translation": "спортивный (о человеке)"
+        "word": "skip",
+        "translation": "пропускать"
       },
       {
-        "word": "walk a lot",
-        "translation": "много ходить пешком"
+        "word": "workout",
+        "translation": "тренировка"
       },
       {
-        "word": "not much of a",
-        "translation": "не особо, так себе (о ком-то)"
+        "word": "go to the gym",
+        "translation": "ходить в зал"
       },
       {
-        "word": "not my thing",
-        "translation": "не моё"
+        "word": "four times a week",
+        "translation": "четыре раза в неделю"
+      },
+      {
+        "word": "run a lot",
+        "translation": "много бегать"
       }
     ],
-    "explanation": "I'm not — отрицание с глаголом be: be сам берёт not, вспомогательный do не нужен. a very sporty person — артикль a перед исчисляемым существительным в единственном числе (person); very усиливает прилагательное sporty — «спортивный (о человеке, по характеру)». Сказать просто I'm not very sporty тоже можно — короче и так же естественно. walk a lot — «много хожу»: a lot стоит после глагола и означает «много» в утвердительных предложениях (much в утверждениях почти не используется). Русское «хожу пешком» — просто walk: канцелярская калька go on foot в разговоре звучит странно, walk уже содержит «пешком».",
+    "explanation": "don't skip — отрицание Present Simple: вспомогательный don't + V1, потому что речь о постоянной привычке. skip — «пропускать (тренировку, занятие)», живой разговорный глагол; my workouts во множественном числе — тренировки вообще, а не одна конкретная. go to the gym — устойчивое сочетание с артиклем the: зал мыслится как известное обоим место (сравни go to school и go to work, где артикля нет вовсе). four times a week — «четыре раза в неделю»: артикль a здесь означает «в» (once a week, twice a day). run a lot — «много бегаю»: a lot ставится ПОСЛЕ глагола и используется в утвердительных предложениях, тогда как much в утверждениях почти не встречается и остаётся для отрицаний и вопросов: I don't run much.",
     "level": "A2",
     "grammarTags": [
       "negation",
@@ -1122,35 +1154,39 @@
   },
   {
     "id": 180,
-    "russian": "Я слушаю музыку постоянно: дома, в метро, на работе.",
-    "english": "I listen to music all the time — at home, on the subway, at work.",
+    "russian": "Классику я слушаю каждый день: дома за готовкой, в зале, по дороге в шахматный клуб.",
+    "english": "I listen to classical music every day — at home while I cook, at the gym, on my way to the chess club.",
     "alternatives": [
-      "I've always got music on — at home, on the subway, at work.",
-      "I'm constantly listening to music, whether I'm home, on the train, or at work."
+      "Classical music is on every day at my place — while I'm cooking, at the gym, on the way to chess.",
+      "I've got classical music playing all day: cooking at home, working out, heading to the chess club."
     ],
     "vocab": [
       {
-        "word": "all the time",
-        "translation": "постоянно, всё время"
+        "word": "listen to",
+        "translation": "слушать"
+      },
+      {
+        "word": "classical music",
+        "translation": "классическая музыка"
       },
       {
         "word": "at home",
         "translation": "дома"
       },
       {
-        "word": "on the subway",
-        "translation": "в метро"
+        "word": "at the gym",
+        "translation": "в зале"
       },
       {
-        "word": "at work",
-        "translation": "на работе"
+        "word": "on my way to",
+        "translation": "по дороге в"
       },
       {
-        "word": "constantly",
-        "translation": "постоянно"
+        "word": "chess club",
+        "translation": "шахматный клуб"
       }
     ],
-    "explanation": "Present Simple — постоянная привычка. listen to music — обязательный предлог to после listen. all the time — «постоянно/всё время», артикль the — часть устойчивого выражения. Дальше три места с разными предлогами, и это стоит запомнить блоком: at home — «дома» (at без артикля, устойчивое); on the subway — общественный транспорт идёт с on (on the bus, on the train, on the plane), subway — американское «метро» (в Британии underground или tube); at work — «на работе», тоже at без артикля. at здесь обозначает «точку» пребывания, а не нахождение внутри здания.",
+    "explanation": "Present Simple — постоянная привычка, маркер every day (пишется раздельно; слитное everyday — прилагательное «повседневный»). listen to — глагол с обязательным предлогом: listen TO music; калька listen music — одна из самых частых русских ошибок, потому что в русском «слушать музыку» предлога нет. classical music — неисчисляемое, без артикля. Дальше три обстоятельства места, и предлоги стоит запомнить блоком: at home — «дома», устойчиво без артикля; at the gym — «в зале», с артиклем the; on my way to — «по дороге в», предлог on плюс притяжательное. while I cook — while вводит целое предложение с подлежащим и сказуемым, а не существительное (during идёт только с существительным: during dinner).",
     "level": "A2",
     "grammarTags": [
       "present-simple",
@@ -1165,11 +1201,11 @@
   },
   {
     "id": 181,
-    "russian": "У меня нет любимой группы — всё зависит от настроения.",
-    "english": "I don't have a favorite band — it depends on my mood.",
+    "russian": "У меня нет любимого композитора — всё зависит от настроения: то Бах, то Рахманинов.",
+    "english": "I don't have a favorite composer — it depends on my mood: some days it's Bach, some days Rachmaninoff.",
     "alternatives": [
-      "I don't really have a favorite band — it depends on what mood I'm in.",
-      "No favorite band, honestly; it changes with my mood."
+      "I couldn't name one favorite composer — it really depends on my mood.",
+      "No single favorite composer, honestly; it changes with my mood — Bach one day, Rachmaninoff the next."
     ],
     "vocab": [
       {
@@ -1177,8 +1213,8 @@
         "translation": "любимый"
       },
       {
-        "word": "band",
-        "translation": "группа (музыкальная)"
+        "word": "composer",
+        "translation": "композитор"
       },
       {
         "word": "depend on",
@@ -1189,11 +1225,11 @@
         "translation": "настроение"
       },
       {
-        "word": "be in a mood",
-        "translation": "быть в (каком-то) настроении"
+        "word": "some days",
+        "translation": "в какие-то дни"
       }
     ],
-    "explanation": "don't have — отрицание Present Simple: «у меня нет» = I don't have. a favorite band — артикль a: любимая группа мыслится как один «экземпляр», которого нет; favorite — американское написание (британское favourite). depend on — глагол с фиксированным предлогом: «зависеть ОТ» = depend ON, а не depend from — русская калька с «от» здесь ошибочна и очень распространена. it — формальное подлежащее «это/всё»: it depends — само по себе готовая разговорная реплика («смотря как», «по-разному»). depends — окончание -s в 3-м лице. my mood — «моё настроение»; mood исчисляемое: be in a good/bad mood.",
+    "explanation": "don't have — отрицание Present Simple: «у меня нет» = I don't have. a favorite composer — артикль a: любимый композитор мыслится как один «экземпляр», которого нет; favorite — американское написание (британское favourite). depend on — глагол с жёстко закреплённым предлогом: «зависеть ОТ» = depend ON, а не depend from — эта калька очень распространена. it — формальное подлежащее «это, всё»: реплика it depends сама по себе означает «смотря как, по-разному». depends — окончание -s в 3-м лице. my mood — «моё настроение»; mood исчисляемое, отсюда be in a good mood. some days — «в какие-то дни», обстоятельство времени без предлога, как every day или this week.",
     "level": "A2",
     "grammarTags": [
       "negation",
@@ -1251,17 +1287,16 @@
   },
   {
     "id": 183,
-    "russian": "Эта группа выступает в Москве в июне — хочешь сходить со мной?",
-    "english": "This band is playing in Moscow in June — do you want to go with me?",
+    "russian": "Мой любимый оркестр выступает в Москве в июне — хочешь сходить вместе?",
+    "english": "My favorite orchestra is playing in Moscow in June — do you want to go together?",
     "alternatives": [
-      "This band has a show in Moscow in June — want to come with me?",
-      "They're playing Moscow in June — would you like to go together?",
-      "This band is coming to Moscow in June — wanna go?"
+      "My favorite orchestra has a concert in Moscow in June — want to come with me?",
+      "There's a concert by my favorite orchestra in Moscow in June — would you like to go together?"
     ],
     "vocab": [
       {
-        "word": "band",
-        "translation": "группа"
+        "word": "orchestra",
+        "translation": "оркестр"
       },
       {
         "word": "play",
@@ -1276,11 +1311,11 @@
         "translation": "хотеть пойти"
       },
       {
-        "word": "have a show",
-        "translation": "давать концерт"
+        "word": "together",
+        "translation": "вместе"
       }
     ],
-    "explanation": "is playing — Present Continuous в значении будущего: событие уже запланировано и стоит в афише, поэтому о нём говорят как о «разворачивающемся» — обычная манера для концертов, рейсов, встреч с датой. play здесь — «выступать/играть концерт». in Moscow — предлог in с городами; in June — in с месяцами (а с датами будет on: on June 5th). do you want to go — вопрос Present Simple; после want всегда инфинитив с to: want TO go. with me — «со мной». Заметь: band в американском английском согласуется как единственное число — the band IS playing (британцы могут сказать the band are).",
+    "explanation": "is playing — Present Continuous в значении будущего: концерт уже назначен и стоит в афише, поэтому о нём говорят как о запланированном — так же говорят о рейсах и встречах с датой. play здесь означает «выступать, давать концерт», а не «играть во что-то». in Moscow — предлог in с городами; in June — in с месяцами (а с конкретными датами будет on: on June 5th). do you want to go — вопрос в Present Simple со вспомогательным do; после want всегда идёт инфинитив с to: want TO go. together — «вместе», наречие в конце без всякого предлога. Заметь: orchestra в американском английском согласуется как единственное число — the orchestra IS playing.",
     "level": "A2",
     "grammarTags": [
       "question",
@@ -1500,7 +1535,7 @@
   {
     "id": 189,
     "russian": "Я работаю из дома, поэтому могу звонить маме даже днём.",
-    "english": "I work from home, so I can call my mom during the day.",
+    "english": "I work from home, so I can even call my mom during the day.",
     "alternatives": [
       "I work remotely, so I can give my mom a call even in the middle of the day.",
       "Since I work from home, I can call my mom during the day too.",
@@ -1528,7 +1563,7 @@
         "translation": "работать удалённо"
       }
     ],
-    "explanation": "work from home — устойчивое «работать из дома/на удалёнке», именно с from (существует и work at home — просто «работать, находясь дома», но об удалённом формате говорят from home; в переписке часто сокращают до WFH). Present Simple — постоянный уклад жизни. so — «поэтому», связывает причину и следствие. can — модальный «могу», после него V1 без to: can call. call my mom — без предлога to. during the day — «в течение дня/днём»: предлог during + существительное с артиклем the. Запомни разницу: during + существительное (during the day, during the meeting), while + целое предложение (while I work).",
+    "explanation": "work from home — устойчивое «работать из дома, на удалёнке», именно с from (work at home значит просто «работать, находясь дома»; в переписке часто сокращают до WFH). Present Simple — постоянный уклад жизни. so — «поэтому», связывает причину и следствие. can — модальный «могу», после него V1 без to: can call. even — «даже» — ставится непосредственно перед тем словом, которое усиливает: can EVEN call — «могу даже позвонить» (если поставить even в другое место, сместится и смысл). call my mom — без предлога to: русское «звонить маме» провоцирует кальку call to my mom. during the day — «в течение дня, днём»: предлог during + существительное с артиклем the. Запомни разницу: during + существительное (during the day), while + целое предложение (while I work).",
     "level": "A2",
     "grammarTags": [
       "present-simple",
@@ -1544,12 +1579,11 @@
   },
   {
     "id": 190,
-    "russian": "Прошлым летом мы всей семьёй ездили на море на две недели.",
-    "english": "Last summer, my whole family went to the beach for two weeks.",
+    "russian": "Прошлым летом мы всей семьёй на две недели уехали в Италию.",
+    "english": "Last summer, my whole family went to Italy for two weeks and rented a house by the sea.",
     "alternatives": [
-      "Last summer, the whole family took a two-week trip to the beach.",
-      "We went to the beach as a family for two weeks last summer.",
-      "My whole family spent two weeks at the beach last summer."
+      "Last summer, the whole family took a two-week trip to Italy and stayed in a house by the sea.",
+      "My whole family spent two weeks in Italy last summer — we had a little place right by the water."
     ],
     "vocab": [
       {
@@ -1561,19 +1595,19 @@
         "translation": "вся семья"
       },
       {
-        "word": "go to the beach",
-        "translation": "поехать на море"
+        "word": "go to",
+        "translation": "поехать в"
       },
       {
         "word": "for two weeks",
         "translation": "на две недели"
       },
       {
-        "word": "take a trip",
-        "translation": "съездить, отправиться в поездку"
+        "word": "rent a house",
+        "translation": "снять дом"
       }
     ],
-    "explanation": "Last summer — «прошлым летом»: с last ни предлога, ни артикля (не in the last summer). went — Past Simple от go (go—went—gone, неправильный глагол); конкретное завершённое событие в прошлом — поэтому Past Simple. to — предлог направления после went. the beach — в американском английском «поехать на море» — это go to the beach или go to the ocean; артикль the устойчивый. Русская калька to the sea в AmE звучит странно — sea американцы почти не употребляют о своём отдыхе. for two weeks — for + длительность: «на две недели». my whole family — «вся моя семья»; whole стоит между притяжательным и существительным.",
+    "explanation": "Last summer — «прошлым летом»: со словом last нет ни предлога, ни артикля (не in the last summer; сравни last night, last week). went — Past Simple неправильного глагола go (go—went—gone); конкретное завершённое событие в прошлом, поэтому именно Past Simple. to Italy — предлог направления to; названия стран идут без артикля. for two weeks — for + длительность отвечает на вопрос «на сколько»: for two weeks (since так использовать нельзя, since указывает точку начала: since June). my whole family — «вся моя семья»: whole стоит между притяжательным и существительным, а в AmE такое подлежащее согласуется как единственное число. a house — артикль a, дом упоминается впервые; by the sea — «у моря», предлог by в значении «рядом с».",
     "level": "A2",
     "grammarTags": [
       "past-simple",
@@ -1633,11 +1667,11 @@
   },
   {
     "id": 192,
-    "russian": "Сейчас я не могу много путешествовать, но очень хочу съездить к сестре в Прагу.",
-    "english": "I can't travel much right now, but I'd love to visit my sister in Prague.",
+    "russian": "Сейчас я почти не путешествую, но очень хочу однажды съездить с сестрой в Китай.",
+    "english": "I can't travel much right now, but I'd love to spend a couple of weeks in China with my sister someday.",
     "alternatives": [
-      "I can't do much traveling right now, but I really want to go see my sister in Prague.",
-      "Travel isn't really an option for me at the moment, but I'd love to get to Prague to see my sister."
+      "I'm not traveling much these days, but going to China with my sister is a dream of mine.",
+      "Travel is on pause for me at the moment, but someday I'd really love to go to China with my sister."
     ],
     "vocab": [
       {
@@ -1653,15 +1687,15 @@
         "translation": "я бы очень хотела"
       },
       {
-        "word": "visit",
-        "translation": "навестить, съездить к"
+        "word": "a couple of weeks",
+        "translation": "пара недель"
       },
       {
-        "word": "go see",
-        "translation": "съездить повидать"
+        "word": "someday",
+        "translation": "когда-нибудь"
       }
     ],
-    "explanation": "can't + V1 — отрицание модального can: can't travel. much — «много» в отрицательных предложениях (в утвердительных естественнее a lot: I travel a lot). I'd love to = I would love to — «очень хотела бы», эмоционально сильнее, чем I'd like to; здесь 'd — это would. После love — инфинитив с to: love to visit. visit — «навестить/съездить к»: принимает прямое дополнение без предлога — visit my sister, а не visit TO my sister (в русском «съездить К сестре» предлог есть, в английском — нет). in Prague — предлог in с городами: сестра живёт В Праге; направление уже заложено в глаголе visit.",
+    "explanation": "can't + V1 — отрицание модального can: после модального глагола всегда начальная форма без to (can't travel). much — «много» в отрицательных предложениях; в утвердительных естественнее a lot: I travel a lot. I'd love to = I would love to — «очень хотела бы», эмоционально сильнее, чем I'd like to; здесь 'd — это именно would, а не had (после had шла бы форма V3, а тут инфинитив to spend). После would love идёт инфинитив с to. a couple of weeks — разговорное «пара недель», предлог of обязателен. in China — предлог in о нахождении в стране (движение было бы to: go to China). someday — «когда-нибудь» о будущем, пишется слитно и обычно стоит в конце предложения.",
     "level": "A2",
     "grammarTags": [
       "negation",
@@ -1761,17 +1795,24 @@
   },
   {
     "id": 195,
-    "russian": "Можно я позвоню тебе сегодня вечером? Хочу услышать твой голос.",
-    "english": "Can I call you tonight? I want to hear your voice.",
+    "russian": "Позвонишь мне сегодня до девяти? Я так люблю твой голос.",
+    "english": "Can you call me before nine tonight? I'd love to hear your voice.",
     "alternatives": [
-      "Could I give you a call tonight? I'd love to hear your voice.",
-      "Mind if I call you later tonight? I miss your voice.",
-      "Can we talk on the phone tonight? I just want to hear you."
+      "Could you give me a call before nine tonight? Hearing your voice would make my day.",
+      "Are you free to call tonight before nine? I really want to hear your voice."
     ],
     "vocab": [
       {
         "word": "call",
         "translation": "звонить"
+      },
+      {
+        "word": "give somebody a call",
+        "translation": "позвонить кому-то"
+      },
+      {
+        "word": "before nine",
+        "translation": "до девяти"
       },
       {
         "word": "tonight",
@@ -1784,18 +1825,15 @@
       {
         "word": "voice",
         "translation": "голос"
-      },
-      {
-        "word": "give somebody a call",
-        "translation": "позвонить кому-то"
       }
     ],
-    "explanation": "Can I…? — просьба-разрешение через модальный can: после него глагол в V1 без to (can I call). Это самый нейтральный разговорный вариант; чуть вежливее — Could I…? tonight — «сегодня вечером» одним словом, без предлога и артикля (не in this evening — калька). call you — без предлога to. want to hear — после want всегда инфинитив с to. Обрати внимание на выбор глагола: hear — «слышать», пассивное восприятие звука, а listen to — «слушать», намеренное действие; голос человека в трубке именно hear. your voice — «твой голос». Вторая фраза добавляет тепла — так реплика перестаёт быть просто логистикой.",
+    "explanation": "Can you…? — вежливая просьба через модальный глагол can; после модального идёт V1 без to: can you CALL. Чуть мягче звучит Could you…? call me — без предлога: русское «позвонишь МНЕ» (дательный падеж) провоцирует кальку call to me, но call принимает прямое дополнение. before nine — предлог времени before + час, слово o'clock в разговоре обычно опускают. tonight — «сегодня вечером» одним словом, без предлога и артикля (не in this evening). I'd love to hear = I would love to hear; после love — инфинитив с to. Важен выбор глагола: hear — «слышать», воспринимать звук, а listen to — «слушать» намеренно; голос в трубке именно hear.",
     "level": "A2",
     "grammarTags": [
       "question",
       "modal",
-      "infinitive"
+      "infinitive",
+      "would-like"
     ],
     "topicTags": [
       "texting",
@@ -1804,11 +1842,11 @@
   },
   {
     "id": 196,
-    "russian": "Мы сейчас у родителей: папа жарит мясо на гриле, а я помогаю на кухне.",
-    "english": "We're at my parents' place right now — my dad is grilling, and I'm helping in the kitchen.",
+    "russian": "Мы сейчас у родителей: отчим жарит на гриле овощи, а я делаю большой салат.",
+    "english": "We're at my parents' place right now — my stepdad is grilling vegetables, and I'm making a big salad.",
     "alternatives": [
-      "We're over at my parents' — Dad's at the grill and I'm helping out in the kitchen.",
-      "We're at my parents' right now: my dad is barbecuing, and I'm on kitchen duty."
+      "We're over at my parents' — my stepdad's at the grill with the vegetables, and I'm on salad duty.",
+      "We're at my parents' right now: my stepdad is grilling veggies while I put together a big salad."
     ],
     "vocab": [
       {
@@ -1820,19 +1858,19 @@
         "translation": "жарить на гриле"
       },
       {
-        "word": "help",
-        "translation": "помогать"
+        "word": "vegetables",
+        "translation": "овощи"
       },
       {
-        "word": "in the kitchen",
-        "translation": "на кухне"
+        "word": "make a salad",
+        "translation": "делать салат"
       },
       {
-        "word": "help out",
-        "translation": "помогать, подсобить"
+        "word": "stepdad",
+        "translation": "отчим"
       }
     ],
-    "explanation": "We're at my parents' place — глагол be + место: at обозначает «точку», где ты находишься («у родителей»). parents' — притяжательный падеж множественного числа: апостроф ставится ПОСЛЕ s (сравни: my sister's place — апостроф до s, потому что сестра одна). Дальше два Present Continuous: is grilling и I'm helping — оба действия происходят прямо в момент сообщения, классическая «прямая трансляция» в переписке. grill — «жарить на гриле», один глагол вместо целой русской фразы; для американской семейной сцены очень характерное слово. in the kitchen — предлог in, потому что речь о нахождении внутри помещения; артикль the — кухня конкретная, в этом доме.",
+    "explanation": "We're at my parents' place — глагол be + место: предлог at обозначает «точку», где ты находишься. parents' — притяжательный падеж множественного числа: апостроф ставится ПОСЛЕ s (сравни my sister's place — апостроф перед s, потому что сестра одна). Дальше два Present Continuous: is grilling и I'm making — оба действия происходят прямо в момент сообщения, классическая «прямая трансляция» в переписке; формула am/is/are + V-ing. grill — «жарить на гриле» одним глаголом. vegetables — исчисляемое во множественном числе, артикль не нужен: овощи вообще. a big salad — артикль a перед исчисляемым существительным в единственном числе, салат упоминается впервые; прилагательное стоит между артиклем и существительным.",
     "level": "A2",
     "grammarTags": [
       "present-continuous",
@@ -1890,12 +1928,11 @@
   },
   {
     "id": 198,
-    "russian": "У меня на этой неделе гостит сестра, так что дома немного шумно.",
-    "english": "My sister is staying with me this week, so it's a little loud at my place.",
+    "russian": "У меня на этой неделе гостит сестра, так что дома шумно и очень весело.",
+    "english": "My sister is staying with me this week, so my place is loud and a lot of fun right now.",
     "alternatives": [
-      "My sister's visiting this week, so things are a little noisy here.",
-      "I've got my sister staying over this week, so it's kind of loud at home.",
-      "My sister is in town this week and staying with me — it's a bit noisy."
+      "My sister's visiting this week, so things are noisy and fun at my place.",
+      "I've got my sister staying over this week — the apartment is loud in the best way."
     ],
     "vocab": [
       {
@@ -1903,23 +1940,23 @@
         "translation": "гостить у"
       },
       {
-        "word": "this week",
-        "translation": "на этой неделе"
+        "word": "stay over",
+        "translation": "остаться, погостить"
       },
       {
-        "word": "a little loud",
-        "translation": "немного шумно"
+        "word": "this week",
+        "translation": "на этой неделе"
       },
       {
         "word": "at my place",
         "translation": "у меня дома"
       },
       {
-        "word": "stay over",
-        "translation": "остаться ночевать, погостить"
+        "word": "a lot of fun",
+        "translation": "очень весело"
       }
     ],
-    "explanation": "is staying — Present Continuous для ВРЕМЕННОЙ ситуации: сестра живёт у меня не постоянно, а именно эту неделю. Если бы жила постоянно, был бы Present Simple: my sister lives with me. Этот контраст live/stay + Simple/Continuous — классика: stay подчёркивает временность («гостить, остановиться»). stay with someone — предлог with: «гостить У кого-то» = буквально «оставаться С кем-то». this week — без предлога (не on this week). so — «так что». it's a little loud — формальное it описывает обстановку; a little + прилагательное = «немного шумно». at my place — «у меня дома»: разговорное place + предлог at.",
+    "explanation": "is staying — Present Continuous для ВРЕМЕННОЙ ситуации: сестра живёт у меня не постоянно, а именно эту неделю. Если бы жила всегда, был бы Present Simple: my sister lives with me. Контраст live/stay здесь ключевой: stay — «гостить, остановиться на время». stay WITH somebody — предлог with: «гостить У кого-то» буквально «оставаться С кем-то». this week — без предлога, как this year и next month (не on this week). so — «так что», вводит следствие. my place — разговорное «у меня дома, моя квартира». a lot of fun — устойчивое «очень весело»: fun здесь неисчисляемое существительное, поэтому a lot OF, а не many funs.",
     "level": "A2",
     "grammarTags": [
       "present-continuous",
@@ -1933,12 +1970,11 @@
   },
   {
     "id": 199,
-    "russian": "Я учусь играть на гитаре — только не смейся, у меня пока ужасно получается.",
-    "english": "I'm learning to play the guitar — don't laugh, I'm still pretty bad.",
+    "russian": "Я учусь играть в падел — только не смейся, пока попадаю по мячу через раз.",
+    "english": "I'm learning to play padel — don't laugh, I still miss the ball half the time.",
     "alternatives": [
-      "I'm taking guitar lessons — don't laugh, I'm terrible so far.",
-      "I've started learning guitar, and honestly, I'm still awful at it — no laughing!",
-      "I'm picking up the guitar — but please don't laugh, I'm not good yet."
+      "I just started playing padel — no laughing, please: I miss the ball about half the time.",
+      "I'm taking padel lessons — don't laugh at me, I'm still terrible at it."
     ],
     "vocab": [
       {
@@ -1946,27 +1982,27 @@
         "translation": "учиться (делать что-то)"
       },
       {
-        "word": "play the guitar",
-        "translation": "играть на гитаре"
+        "word": "play padel",
+        "translation": "играть в падел"
       },
       {
         "word": "laugh",
         "translation": "смеяться"
       },
       {
-        "word": "pretty bad",
-        "translation": "довольно плохо"
+        "word": "miss the ball",
+        "translation": "промахнуться по мячу"
+      },
+      {
+        "word": "half the time",
+        "translation": "через раз"
       },
       {
         "word": "be bad at",
         "translation": "плохо уметь"
-      },
-      {
-        "word": "pick up",
-        "translation": "начать осваивать"
       }
     ],
-    "explanation": "I'm learning — Present Continuous не про «прямо в эту секунду», а про растянутый процесс текущего периода жизни: учусь сейчас вообще, в эти месяцы. learn to play — после learn идёт инфинитив с to. the guitar — с музыкальными инструментами традиционно ставится артикль the: play the guitar, play the piano (в современном AmE слышно и play guitar, но the — надёжная норма). Don't laugh — отрицательный императив: don't + V1, русское «не смейся». I'm still pretty bad — still «всё ещё»; pretty перед прилагательным — разговорное «довольно/весьма» (pretty bad = «довольно плохо»), а не «красиво»; be bad at something — «плохо уметь».",
+    "explanation": "I'm learning — Present Continuous не про «прямо в эту секунду», а про растянутый процесс текущего периода жизни: учусь сейчас вообще, в эти месяцы. learn to play — после learn идёт инфинитив с to. Обрати внимание на артикли при глаголе play: с играми и видами спорта артикля нет (play padel, play tennis, play chess), а с музыкальными инструментами артикль the обязателен (play the violin) — две разные модели. Don't laugh — отрицательный императив: don't + V1, подлежащее не нужно. still — «пока, всё ещё», стоит перед смысловым глаголом: I still miss. the ball — артикль the: мяч конкретный, тот самый, по которому бью. half the time — устойчивое «через раз, в половине случаев», артикль the внутри выражения обязателен.",
     "level": "A2",
     "grammarTags": [
       "present-continuous",
@@ -1987,7 +2023,7 @@
     "alternatives": [
       "Mom, let me call you back in ten — I'm in the middle of making dinner.",
       "Mom, can I call you back in ten minutes? I'm cooking right now.",
-      "Mom, I'm cooking dinner — I'll ring you back in ten minutes."
+      "Mom, dinner's on the stove — I'll call you back in ten, okay?"
     ],
     "vocab": [
       {
