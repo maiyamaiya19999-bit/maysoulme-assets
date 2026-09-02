@@ -3,550 +3,550 @@
     "id": 401,
     "russian": "Ты уже купил билеты, или мне взять на нас двоих?",
     "english": "Have you bought the tickets yet, or should I get them for both of us?",
-    "alternatives": ["Did you already get the tickets, or do you want me to grab them for both of us?", "Are the tickets taken care of, or should I buy them for the two of us?"],
+    "alternatives": ["Did you already get the tickets, or do you want me to grab them for both of us?","Are the tickets taken care of, or should I buy them for the two of us?"],
     "vocab": [{"word":"buy a ticket","translation":"купить билет"}, {"word":"yet","translation":"уже (в вопросах)"}, {"word":"get","translation":"взять, купить (разг.)"}, {"word":"both of us","translation":"мы оба, нас двое"}],
     "explanation": "Present Perfect, потому что нас интересует результат к настоящему моменту: билеты куплены или нет. Формула: have/has + V3, глагол неправильный: buy—bought—bought. В вопросе have выходит вперёд: Have you bought…? yet = «уже» в вопросах (и «ещё» в отрицаниях), ставится в конец предложения — в утверждениях «уже» было бы already. the tickets — артикль the, потому что оба собеседника знают, о каких билетах речь (на общую поездку). Вторая часть — should I get: should здесь не совет, а предложение взять задачу на себя («мне взять?»), в вопросе should встаёт перед подлежащим. get в разговорном американском часто заменяет buy: get the tickets = купить. for both of us — предлог for «для», both of us = «нас двоих».",
     "level": "A2",
-    "grammarTags": ["question", "present-perfect", "modal", "article"],
-    "topicTags": ["travel", "plans"]
+    "grammarTags": ["question","present-perfect","modal","article"],
+    "topicTags": ["travel","plans"]
   },
   {
     "id": 402,
-    "russian": "Я как раз смотрю билеты на ноябрьскую конференцию — цены совсем не радуют.",
-    "english": "I'm looking at flights for the conference in November right now, and the prices aren't great at all.",
-    "alternatives": ["I'm checking flight prices for the November conference right now, and they're pretty steep.", "I'm browsing flights for the conference in November as we speak — the prices are nothing to get excited about."],
-    "vocab": [{"word":"look at","translation":"смотреть, разглядывать"}, {"word":"flight","translation":"рейс, авиабилет"}, {"word":"conference","translation":"конференция"}, {"word":"price","translation":"цена"}, {"word":"not… at all","translation":"совсем не"}, {"word":"steep","translation":"завышенный (о цене)"}],
-    "explanation": "Present Continuous (am/is/are + V-ing), потому что действие происходит прямо сейчас, в момент разговора: I'm looking = «сижу и смотрю». look at — «смотреть на», здесь именно разглядываю варианты; сравни look for = «искать». flights for the conference — for показывает назначение («билеты для/под конференцию»); the conference — the, потому что собеседник знает, о какой конференции речь. in November — предлог in с месяцами (at — с точным временем, on — с датами и днями). «Цены не радуют» нельзя переводить дословно — по-английски естественно сказать the prices aren't great: aren't = are not, отрицание через not после be, без вспомогательного do. at all усиливает отрицание: «совсем не».",
+    "russian": "Я как раз смотрю билеты на ноябрьскую конференцию по ИИ — цены совсем не радуют.",
+    "english": "I'm looking at flights for the AI conference in November right now, and the prices aren't great at all.",
+    "alternatives": ["I'm checking flight prices for the November AI conference right now, and they're pretty steep.","I'm browsing flights for the AI conference in November as we speak — the prices are nothing to get excited about."],
+    "vocab": [{"word":"look at","translation":"смотреть, разглядывать"}, {"word":"flight","translation":"рейс, авиабилет"}, {"word":"AI conference","translation":"конференция по ИИ"}, {"word":"price","translation":"цена"}, {"word":"not… at all","translation":"совсем не"}, {"word":"steep","translation":"завышенный (о цене)"}],
+    "explanation": "Present Continuous (am/is/are + V-ing), потому что действие происходит прямо сейчас, в момент разговора: I'm looking = «сижу и смотрю». look at — «смотреть на», здесь именно разглядываю варианты; сравни look for = «искать». flights for the conference — for показывает назначение («билеты для/под конференцию»); the AI conference — the, потому что собеседник знает, о какой конференции речь; AI = artificial intelligence, читается по буквам «эй-ай» и стоит перед conference как определение. in November — предлог in с месяцами (at — с точным временем, on — с датами и днями). «Цены не радуют» нельзя переводить дословно — по-английски естественно сказать the prices aren't great: aren't = are not, отрицание через not после be, без вспомогательного do. at all усиливает отрицание: «совсем не».",
     "level": "B1",
-    "grammarTags": ["present-continuous", "negation", "time-preposition", "article", "preposition"],
-    "topicTags": ["work", "travel", "plans"]
+    "grammarTags": ["present-continuous","negation","time-preposition","article","preposition"],
+    "topicTags": ["work","travel","plans"]
   },
   {
     "id": 403,
     "russian": "Если покупаешь билеты заранее, они обычно выходят дешевле.",
     "english": "If you buy your tickets in advance, they're usually cheaper.",
-    "alternatives": ["Tickets are usually cheaper if you book them ahead of time.", "Booking early usually gets you a better price on tickets."],
+    "alternatives": ["Tickets are usually cheaper if you book them ahead of time.","Booking early usually gets you a better price on tickets."],
     "vocab": [{"word":"in advance","translation":"заранее"}, {"word":"usually","translation":"обычно"}, {"word":"cheap","translation":"дешёвый"}, {"word":"ahead of time","translation":"заранее, заблаговременно"}, {"word":"book","translation":"бронировать, покупать заранее"}],
     "explanation": "Zero Conditional — общая закономерность, верная всегда: If + Present Simple, Present Simple. Никакого will в if-части быть не может (не If you will buy), и во второй части его тоже нет, потому что это не прогноз, а правило. you здесь обобщённое — «любой человек», как русское «покупаешь» без конкретного «ты». in advance — устойчивое «заранее», запомни целиком. cheaper — сравнительная степень: к короткому прилагательному добавляется -er (cheap → cheaper), никакого more cheap. usually ставится после глагола be: they're usually cheaper (с обычными глаголами наоборот — перед глаголом: I usually buy).",
     "level": "A2",
-    "grammarTags": ["conditional-0", "present-simple", "comparative", "collocation", "word-order"],
-    "topicTags": ["travel", "lifestyle"]
+    "grammarTags": ["conditional-0","present-simple","comparative","collocation","word-order"],
+    "topicTags": ["travel","lifestyle"]
   },
   {
     "id": 404,
     "russian": "Тебе какое место больше нравится — у окна или у прохода?",
     "english": "Do you prefer a window seat or an aisle seat?",
-    "alternatives": ["Window or aisle — which do you like better?", "Would you rather sit by the window or on the aisle?"],
+    "alternatives": ["Window or aisle — which do you like better?","Would you rather sit by the window or on the aisle?"],
     "vocab": [{"word":"prefer","translation":"предпочитать"}, {"word":"window seat","translation":"место у окна"}, {"word":"aisle seat","translation":"место у прохода"}, {"word":"would rather","translation":"предпочёл бы"}],
     "explanation": "Present Simple, потому что спрашиваем о постоянном предпочтении, а prefer — глагол состояния, он практически не используется в Continuous (как like, want, know). Формула вопроса: Do + подлежащее + V1: Do you prefer…? — вспомогательный do обязателен. a window seat / an aisle seat — артикль a/an, потому что речь о любом таком месте, не о конкретном кресле; an перед aisle, потому что слово начинается с гласного звука (s в aisle не читается: «айл»). Обрати внимание на конструкцию «существительное + существительное»: window seat, aisle seat — первое слово работает как прилагательное («оконное место»), по-русски так не скажешь, а по-английски это норма.",
     "level": "A2",
-    "grammarTags": ["question", "present-simple", "article"],
-    "topicTags": ["acquaintance", "travel", "small-talk"]
+    "grammarTags": ["question","present-simple","article"],
+    "topicTags": ["acquaintance","travel","small-talk"]
   },
   {
     "id": 405,
     "russian": "Мне нужно купить билет до Чикаго на следующую среду — лечу в командировку.",
     "english": "I need to buy a ticket to Chicago for next Wednesday — I'm going on a business trip.",
-    "alternatives": ["I have to get a ticket to Chicago for next Wednesday — I've got a work trip.", "I've got to book a flight to Chicago for next Wednesday — I'm traveling for work."],
+    "alternatives": ["I have to get a ticket to Chicago for next Wednesday — I've got a work trip.","I've got to book a flight to Chicago for next Wednesday — I'm traveling for work."],
     "vocab": [{"word":"need to","translation":"нужно, необходимо"}, {"word":"ticket","translation":"билет"}, {"word":"next Wednesday","translation":"в следующую среду"}, {"word":"go on a business trip","translation":"ехать в командировку"}, {"word":"business trip","translation":"командировка"}],
     "explanation": "I need — Present Simple, потому что это факт-необходимость, а не процесс. После need идёт инфинитив с to: need to buy. a ticket — артикль a: билет упоминается впервые, это просто «один билет». to Chicago — to показывает направление «до/в», с названиями городов без артикля. Билет «на дату» — через for: a ticket for next Wednesday; само next Wednesday без предлога и артикля (слова next, last, this, every вытесняют и предлог, и артикль). I'm going — Present Continuous для уже решённого плана на будущее: «лечу» = всё договорено. go on a business trip — устойчивое «ехать в командировку», предлог именно on (как go on vacation), не in и не to.",
     "level": "B1",
-    "grammarTags": ["present-simple", "infinitive", "movement-preposition", "present-continuous", "collocation", "article"],
-    "topicTags": ["work", "travel", "plans"]
+    "grammarTags": ["present-simple","infinitive","movement-preposition","present-continuous","collocation","article"],
+    "topicTags": ["work","travel","plans"]
   },
   {
     "id": 406,
     "russian": "Скинь мне, пожалуйста, номер брони — я не могу найти твоё письмо.",
     "english": "Can you send me the confirmation number, please? I can't find your email.",
-    "alternatives": ["Could you shoot me the confirmation number? I can't seem to find your email.", "Would you mind sending me the booking confirmation? Your email isn't showing up anywhere."],
+    "alternatives": ["Could you shoot me the confirmation number? I can't seem to find your email.","Would you mind sending me the booking confirmation? Your email isn't showing up anywhere."],
     "vocab": [{"word":"send","translation":"отправить, скинуть"}, {"word":"confirmation number","translation":"номер брони, номер подтверждения"}, {"word":"find","translation":"найти"}, {"word":"email","translation":"письмо (электронное)"}, {"word":"shoot someone something","translation":"быстро скинуть кому-то (разг.)"}],
     "explanation": "Русское «скинь» — повелительное, но по-английски просьбу вежливее оформить вопросом с can: Can you send me…? — модальный can выходит вперёд, после него V1 без to. Порядок дополнений: send + кому + что = send me the confirmation number; вариант с to (send the number to me) тоже верен, но «кому» без to ставится сразу после глагола. confirmation number — американское «номер брони/подтверждения» (британцы скажут booking reference); артикль the, потому что речь о конкретном номере конкретной брони, известной обоим. can't = cannot — отрицание модального глагола, вспомогательный do не нужен: I can't find, а не I don't can find. find — «найти» без предлога; не путай с find out «выяснить, узнать» — письмо мы именно ищем глазами, поэтому просто find.",
     "level": "A2",
-    "grammarTags": ["question", "modal", "negation", "article", "word-order"],
-    "topicTags": ["texting", "travel", "communication"]
+    "grammarTags": ["question","modal","negation","article","word-order"],
+    "topicTags": ["texting","travel","communication"]
   },
   {
     "id": 407,
     "russian": "В прошлом году я ездила в Португалию одна, и это была лучшая поездка в моей жизни.",
     "english": "Last year I went to Portugal by myself, and it was the best trip of my life.",
-    "alternatives": ["I traveled to Portugal on my own last year, and it was hands down the best trip I've ever taken.", "Last year I did a solo trip to Portugal — easily the best trip I've ever had."],
+    "alternatives": ["I traveled to Portugal on my own last year, and it was hands down the best trip I've ever taken.","Last year I did a solo trip to Portugal — easily the best trip I've ever had."],
     "vocab": [{"word":"by myself","translation":"одна, сама по себе"}, {"word":"trip","translation":"поездка"}, {"word":"the best… of my life","translation":"лучший… в моей жизни"}, {"word":"on one's own","translation":"самостоятельно, в одиночку"}, {"word":"hands down","translation":"безоговорочно"}],
     "explanation": "Past Simple (went, was), потому что есть законченный отрезок прошлого с маркером last year — «в прошлом году» без предлога in (last вытесняет предлог). go — неправильный глагол: go—went—gone. to Portugal — to показывает направление, с названиями стран артикль не нужен. by myself = «одна, сама по себе» — устойчивое сочетание by + возвратное местоимение; можно и alone, но by myself звучит теплее, без оттенка одиночества. the best — превосходная степень от good: good—better—the best; артикль the с превосходной степенью обязателен. of my life — «в моей жизни» по-английски присоединяется через of: the best trip of my life, не in my life в этой конструкции.",
     "level": "B1",
-    "grammarTags": ["past-simple", "superlative", "article", "collocation"],
-    "topicTags": ["travel", "deep-talk"]
+    "grammarTags": ["past-simple","superlative","article","collocation"],
+    "topicTags": ["travel","deep-talk"]
   },
   {
     "id": 408,
     "russian": "А что тебе тогда больше всего понравилось в той поездке?",
     "english": "What did you like most about that trip?",
-    "alternatives": ["What was the best part of that trip for you?", "What stood out to you the most on that trip?"],
+    "alternatives": ["What was the best part of that trip for you?","What stood out to you the most on that trip?"],
     "vocab": [{"word":"like","translation":"нравиться"}, {"word":"most","translation":"больше всего"}, {"word":"trip","translation":"поездка"}, {"word":"stand out","translation":"выделяться, запоминаться"}],
     "explanation": "Past Simple, потому что спрашиваем о конкретной завершённой поездке. Формула вопроса: What + did + подлежащее + V1: What did you like…? После did смысловой глагол возвращается в первую форму — like, а не liked (прошедшее время уже «забрал» did). most = «больше всего», ставится после глагола: like most; можно the most, в разговорной речи артикль часто опускается. Предлог about, а не in: по-английски «что понравилось В поездке» — это буквально «что понравилось О поездке», like something about something — «нравиться чем-то в чём-то»: What did you like about it? that trip — «та поездка», указательное that отсылает к уже упомянутой поездке.",
     "level": "B1",
-    "grammarTags": ["question", "past-simple", "preposition", "word-order"],
-    "topicTags": ["dating", "travel", "small-talk"]
+    "grammarTags": ["question","past-simple","preposition","word-order"],
+    "topicTags": ["dating","travel","small-talk"]
   },
   {
     "id": 409,
     "russian": "Командировка была такая плотная, что мы даже не успели посмотреть город.",
     "english": "The work trip was so busy that we didn't even have time to see the city.",
-    "alternatives": ["The business trip was so packed that we never got a chance to see the city.", "We were so slammed on that work trip that we didn't get to see the city at all."],
+    "alternatives": ["The business trip was so packed that we never got a chance to see the city.","We were so slammed on that work trip that we didn't get to see the city at all."],
     "vocab": [{"word":"work trip","translation":"командировка"}, {"word":"busy","translation":"плотный, насыщенный"}, {"word":"have time to","translation":"успеть, иметь время"}, {"word":"see the city","translation":"посмотреть город"}, {"word":"packed","translation":"забитый, плотный (о графике)"}, {"word":"slammed","translation":"заваленный делами (разг.)"}],
     "explanation": "Past Simple (was, didn't have), потому что командировка закончилась. Конструкция so + прилагательное + that = «такой…, что»: so busy that. Русское «успели» не переводится отдельным глаголом — по-английски это have time to + V1: «не успели посмотреть» = didn't have time to see. Отрицание в Past Simple через didn't + V1: didn't have (не hadn't в этом значении). even = «даже», ставится после вспомогательного: didn't even have. the work trip — the, потому что речь о конкретной, известной собеседнику командировке; the city — тоже the: город, куда ездили, уже понятен из контекста. see the city — «посмотреть город», see здесь «осмотреть», глагол look тут не подходит.",
     "level": "B1",
-    "grammarTags": ["past-simple", "negation", "infinitive", "collocation", "article"],
-    "topicTags": ["work", "travel"]
+    "grammarTags": ["past-simple","negation","infinitive","collocation","article"],
+    "topicTags": ["work","travel"]
   },
   {
     "id": 410,
     "russian": "Пока мы гуляли по старому городу, начался дождь, и мы спрятались в маленькой кофейне.",
     "english": "While we were walking around the old town, it started raining, and we hid in a little coffee shop.",
-    "alternatives": ["We were wandering around the old town when it started to rain, so we ducked into a tiny coffee shop.", "It started pouring while we were exploring the old town, and we took shelter in a little café."],
+    "alternatives": ["We were wandering around the old town when it started to rain, so we ducked into a tiny coffee shop.","It started pouring while we were exploring the old town, and we took shelter in a little café."],
     "vocab": [{"word":"walk around","translation":"гулять по"}, {"word":"old town","translation":"старый город"}, {"word":"start raining","translation":"начаться (о дожде)"}, {"word":"hide","translation":"прятаться"}, {"word":"coffee shop","translation":"кофейня"}, {"word":"duck into","translation":"юркнуть, нырнуть (в помещение)"}],
     "explanation": "Классическая пара времён: Past Continuous (were walking) — длительный фон, на котором происходит короткое событие в Past Simple (started, hid). while = «пока», обычно тянет за собой именно Continuous. walk around — «гулять по», around передаёт «туда-сюда по территории». Про дождь по-английски говорят через безличное it: it started raining — «начался дождь» буквально «оно начало дождить»; после start возможны и герундий, и инфинитив (started raining / started to rain), смысл тот же. hide — неправильный глагол: hide—hid—hidden. in a little coffee shop — предлог in, потому что спрятались внутри помещения; артикль a — кофейня упоминается впервые. the old town — the, исторический центр города обычно один.",
     "level": "B1",
-    "grammarTags": ["past-continuous", "past-simple", "gerund", "place-preposition", "article"],
-    "topicTags": ["travel", "food"]
+    "grammarTags": ["past-continuous","past-simple","gerund","place-preposition","article"],
+    "topicTags": ["travel","food"]
   },
   {
     "id": 411,
     "russian": "А ты когда-нибудь путешествовал в одиночку?",
     "english": "Have you ever traveled alone?",
-    "alternatives": ["Have you ever gone on a trip by yourself?", "Ever done any solo traveling?"],
+    "alternatives": ["Have you ever gone on a trip by yourself?","Ever done any solo traveling?"],
     "vocab": [{"word":"ever","translation":"когда-нибудь"}, {"word":"travel","translation":"путешествовать"}, {"word":"alone","translation":"в одиночку, один"}, {"word":"by yourself","translation":"сам, самостоятельно"}, {"word":"solo","translation":"соло, в одиночку"}],
     "explanation": "Present Perfect, потому что спрашиваем о жизненном опыте вообще, без привязки к конкретному времени — «хоть раз в жизни». Формула: have/has + V3, в вопросе have выходит вперёд: Have you traveled…? ever = «когда-нибудь», ставится между подлежащим и V3: Have you ever traveled. traveled — в American English с одной l (в британском travelled с двумя). alone = «в одиночку, один» — нейтральное слово, констатация факта; синоним by yourself звучит чуть мягче и подчёркивает самостоятельность («сам по себе»), а lonely — совсем другое слово, «одинокий» с грустным оттенком, его сюда ставить нельзя. Если бы речь шла о конкретной поездке, был бы Past Simple: Did you travel alone last year?",
     "level": "A2",
-    "grammarTags": ["question", "present-perfect", "word-order"],
-    "topicTags": ["acquaintance", "travel"]
+    "grammarTags": ["question","present-perfect","word-order"],
+    "topicTags": ["acquaintance","travel"]
   },
   {
     "id": 412,
     "russian": "В прошлом году мы с сестрой впервые поехали в отпуск вдвоём — и ни разу не поссорились.",
     "english": "My sister and I went on vacation together for the first time last year — and we didn't fight once.",
-    "alternatives": ["Last year my sister and I took our first trip together, and we didn't have a single argument.", "My sister and I vacationed together for the first time last year — and not one fight the whole time."],
+    "alternatives": ["Last year my sister and I took our first trip together, and we didn't have a single argument.","My sister and I vacationed together for the first time last year — and not one fight the whole time."],
     "vocab": [{"word":"go on vacation","translation":"поехать в отпуск"}, {"word":"together","translation":"вместе, вдвоём"}, {"word":"for the first time","translation":"впервые"}, {"word":"fight","translation":"ссориться"}, {"word":"not… once","translation":"ни разу не"}, {"word":"argument","translation":"ссора, спор"}],
     "explanation": "Русское «мы с сестрой» по-английски разворачивается в перечисление: My sister and I — себя вежливо ставят в конец, и в роли подлежащего это именно I, а не me (Me and my sister звучит небрежно). went — Past Simple от go (go—went—gone): конкретное событие в прошлом с маркером last year. go on vacation — устойчивое американское «поехать в отпуск» с предлогом on. for the first time = «впервые», запомни с for и артиклем the. «Ни разу не поссорились» — в английском одно отрицание на предложение: didn't fight once, где not уже сидит в didn't, а once = «(хоть) раз»; сказать didn't fight never нельзя — получится двойное отрицание. fight здесь «ссориться», не обязательно драка.",
     "level": "B1",
-    "grammarTags": ["past-simple", "negation", "collocation", "word-order"],
-    "topicTags": ["family", "travel"]
+    "grammarTags": ["past-simple","negation","collocation","word-order"],
+    "topicTags": ["family","travel"]
   },
   {
     "id": 413,
     "russian": "Во сколько нам нужно быть в аэропорту, если вылет в семь?",
     "english": "What time do we need to be at the airport if our flight is at seven?",
-    "alternatives": ["When should we get to the airport if the flight's at seven?", "How early do we have to be at the airport for a seven o'clock flight?"],
+    "alternatives": ["When should we get to the airport if the flight's at seven?","How early do we have to be at the airport for a seven o'clock flight?"],
     "vocab": [{"word":"what time","translation":"во сколько"}, {"word":"need to","translation":"нужно"}, {"word":"at the airport","translation":"в аэропорту"}, {"word":"flight","translation":"рейс, вылет"}, {"word":"get to","translation":"добраться до"}],
     "explanation": "What time = «во сколько»; дальше обычный вопрос Present Simple: do + we + need. После need — инфинитив с to: need to be. at the airport — предлог at, потому что аэропорт здесь точка на маршруте, этап пути («быть в аэропорту» = находиться там к сроку); in the airport сказали бы только подчёркивая «внутри здания». at seven — предлог at с точным временем (at seven, at 5:30). if-часть стоит в Present Simple (our flight is), хотя речь о будущем: после if и when будущее время не ставится. our flight — притяжательное our вместо артикля: «наш рейс». Present Simple для расписаний: the flight is at seven — рейсы, поезда и сеансы идут по расписанию, поэтому не will be.",
     "level": "A2",
-    "grammarTags": ["question", "present-simple", "infinitive", "place-preposition", "time-preposition"],
-    "topicTags": ["travel", "plans"]
+    "grammarTags": ["question","present-simple","infinitive","place-preposition","time-preposition"],
+    "topicTags": ["travel","plans"]
   },
   {
     "id": 414,
     "russian": "Я никогда не сдаю чемодан в багаж — летаю только с ручной кладью.",
     "english": "I never check a bag — I fly with just a carry-on.",
-    "alternatives": ["I never check luggage — I only ever travel with a carry-on.", "I always fly carry-on only; I don't bother checking a bag."],
+    "alternatives": ["I never check luggage — I only ever travel with a carry-on.","I always fly carry-on only; I don't bother checking a bag."],
     "vocab": [{"word":"check a bag","translation":"сдать чемодан в багаж"}, {"word":"carry-on","translation":"ручная кладь"}, {"word":"fly","translation":"летать"}, {"word":"just","translation":"только, всего лишь"}, {"word":"luggage","translation":"багаж"}],
     "explanation": "Present Simple, потому что описываем постоянную привычку. never = «никогда», ставится между подлежащим и глаголом: I never check; при этом сам глагол остаётся утвердительным — never уже несёт отрицание, don't добавлять нельзя (I don't never check — ошибка, двойное отрицание). check a bag — американское «сдать чемодан в багаж»: check здесь «сдать при регистрации», отдельного слова «багаж» не нужно. a carry-on — «ручная кладь», существительное, родившееся из фразового глагола carry on («проносить с собой»); артикль a, потому что это исчисляемое «одна сумка в салон». just = «только, всего лишь», ставится перед тем, что ограничивает: with just a carry-on.",
     "level": "A2",
-    "grammarTags": ["present-simple", "article", "word-order", "collocation"],
-    "topicTags": ["travel", "daily-life"]
+    "grammarTags": ["present-simple","article","word-order","collocation"],
+    "topicTags": ["travel","daily-life"]
   },
   {
     "id": 415,
     "russian": "Кажется, мой чемодан тяжелее нормы — сейчас придётся доплачивать за перевес.",
     "english": "I think my suitcase is over the limit — I'm going to have to pay for the extra weight.",
-    "alternatives": ["My suitcase is probably overweight — looks like I'll have to pay a baggage fee.", "I have a feeling my bag is too heavy — I'll probably get charged for the extra weight."],
+    "alternatives": ["My suitcase is probably overweight — looks like I'll have to pay a baggage fee.","I have a feeling my bag is too heavy — I'll probably get charged for the extra weight."],
     "vocab": [{"word":"suitcase","translation":"чемодан"}, {"word":"over the limit","translation":"сверх нормы, больше лимита"}, {"word":"have to","translation":"быть вынужденным, придётся"}, {"word":"pay for","translation":"платить за"}, {"word":"extra weight","translation":"перевес"}, {"word":"overweight","translation":"с перевесом, тяжелее нормы"}],
     "explanation": "I think + придаточное без союза that (в разговорной речи that почти всегда опускается): I think my suitcase is… «Тяжелее нормы» естественнее передать не сравнительной степенью, а идиомой over the limit — «сверх лимита». I'm going to have to pay — два пласта: be going to выражает предсказание по очевидным признакам (весы уже показывают перевес — значит, «сейчас придётся»), а have to — внешнюю необходимость «вынуждена» (правила аэропорта, не моё желание). Вместе going to have to = «видимо, придётся». pay for — платить «за что-то» всегда через for: pay for the extra weight, не pay the extra weight в этом смысле. the extra weight — the, конкретный перевес этого чемодана.",
     "level": "B1",
-    "grammarTags": ["going-to", "modal", "present-simple", "preposition", "article"],
+    "grammarTags": ["going-to","modal","present-simple","preposition","article"],
     "topicTags": ["travel"]
   },
   {
     "id": 416,
     "russian": "Мы уже прошли регистрацию и сидим у выхода на посадку. Напиши мне, как приземлишься.",
     "english": "We've already checked in, and we're sitting at the gate. Text me when you land.",
-    "alternatives": ["We're all checked in and waiting at the gate. Let me know when you land.", "Check-in's done and we're at the gate now. Shoot me a text once you've landed."],
+    "alternatives": ["We're all checked in and waiting at the gate. Let me know when you land.","Check-in's done and we're at the gate now. Shoot me a text once you've landed."],
     "vocab": [{"word":"check in","translation":"пройти регистрацию"}, {"word":"gate","translation":"выход на посадку"}, {"word":"text","translation":"написать сообщение"}, {"word":"land","translation":"приземлиться"}, {"word":"let someone know","translation":"дать знать кому-то"}],
     "explanation": "We've checked in — Present Perfect (have + V3) с already: действие завершено, и его результат актуален сейчас (мы уже внутри). already ставится между have и V3. check in — фразовый глагол «пройти регистрацию» (на рейс или в отель). we're sitting — Present Continuous: процесс прямо сейчас. at the gate — предлог at, выход на посадку — точка в аэропорту; the, потому что свой гейт у нас один и конкретный. Text me — повелительное наклонение: глагол в V1 без подлежащего; text = «написать сообщение», по-американски именно так, а не write me a message. when you land — после when о будущем идёт Present Simple: не when you will land. land = «приземлиться».",
     "level": "B1",
-    "grammarTags": ["present-perfect", "present-continuous", "imperative", "phrasal-verb", "place-preposition"],
-    "topicTags": ["texting", "travel", "communication"]
+    "grammarTags": ["present-perfect","present-continuous","imperative","phrasal-verb","place-preposition"],
+    "topicTags": ["texting","travel","communication"]
   },
   {
     "id": 417,
     "russian": "Тебе не обязательно распечатывать посадочный — можно просто показать его в телефоне.",
     "english": "You don't have to print your boarding pass — you can just show it on your phone.",
-    "alternatives": ["There's no need to print your boarding pass — just pull it up on your phone.", "You can skip printing the boarding pass; showing it on your phone works fine."],
+    "alternatives": ["There's no need to print your boarding pass — just pull it up on your phone.","You can skip printing the boarding pass; showing it on your phone works fine."],
     "vocab": [{"word":"don't have to","translation":"не обязательно"}, {"word":"print","translation":"распечатать"}, {"word":"boarding pass","translation":"посадочный талон"}, {"word":"show","translation":"показать"}, {"word":"on your phone","translation":"в телефоне, на экране телефона"}, {"word":"pull up","translation":"открыть, вывести на экран"}],
     "explanation": "don't have to = «не обязательно, нет необходимости» — важно не путать с mustn't «нельзя, запрещено». You don't have to print = можешь распечатать, а можешь и нет; You mustn't print значило бы «печатать запрещено». Отрицание через don't, потому что have to — не настоящий модальный глагол и требует вспомогательный do. После have to и can идёт V1: have to print, can show. you can — «можно» в смысле возможности. on your phone — предлог on для экранов и устройств: on your phone, on the screen, on TV (русское «в телефоне» — ловушка, in your phone звучало бы как «внутри корпуса»). boarding pass — «посадочный талон», устойчивое сочетание; притяжательное your вместо артикля.",
     "level": "B1",
-    "grammarTags": ["negation", "modal", "present-simple", "preposition"],
-    "topicTags": ["travel", "daily-life"]
+    "grammarTags": ["negation","modal","present-simple","preposition"],
+    "topicTags": ["travel","daily-life"]
   },
   {
     "id": 418,
     "russian": "Быстро прошла досмотр? Говорят, по утрам там огромные очереди.",
     "english": "Did you get through security quickly? They say the lines are huge in the morning.",
-    "alternatives": ["Was security fast? I hear the lines are crazy long in the morning.", "How long did security take? Apparently the morning lines are massive."],
+    "alternatives": ["Was security fast? I hear the lines are crazy long in the morning.","How long did security take? Apparently the morning lines are massive."],
     "vocab": [{"word":"get through","translation":"пройти (через)"}, {"word":"security","translation":"досмотр"}, {"word":"quickly","translation":"быстро"}, {"word":"they say","translation":"говорят"}, {"word":"line","translation":"очередь"}, {"word":"huge","translation":"огромный"}],
     "explanation": "Did + подлежащее + V1 — вопрос в Past Simple о конкретном недавнем событии: Did you get through…? get through — фразовый глагол «пройти через» (контроль, очередь, испытание). security — «досмотр, служба безопасности» как зона/процедура, без артикля (как school, work в устойчивых значениях). quickly — наречие от quick, описывает глагол: прошла как? — быстро. They say = безличное «говорят»: по-английски нужен формальный субъект they, просто Say the lines… нельзя. the lines — line по-американски «очередь» (британцы говорят queue); the — очереди на этом досмотре. in the morning — предлог in с частями суток: in the morning/afternoon/evening, но at night.",
     "level": "A2",
-    "grammarTags": ["question", "past-simple", "phrasal-verb", "time-preposition", "article"],
-    "topicTags": ["texting", "travel"]
+    "grammarTags": ["question","past-simple","phrasal-verb","time-preposition","article"],
+    "topicTags": ["texting","travel"]
   },
   {
     "id": 419,
     "russian": "Ты не поверишь: я опоздала на самолёт, потому что перепутала терминалы.",
     "english": "You won't believe this: I missed my flight because I mixed up the terminals.",
-    "alternatives": ["You're not going to believe this — I missed my flight because I went to the wrong terminal.", "Guess what? I got the terminals confused and missed my flight."],
+    "alternatives": ["You're not going to believe this — I missed my flight because I went to the wrong terminal.","Guess what? I got the terminals confused and missed my flight."],
     "vocab": [{"word":"believe","translation":"верить"}, {"word":"miss a flight","translation":"опоздать на самолёт"}, {"word":"mix up","translation":"перепутать"}, {"word":"terminal","translation":"терминал"}, {"word":"get something confused","translation":"перепутать что-то"}, {"word":"guess what","translation":"представляешь, угадай что"}],
     "explanation": "You won't believe this — won't = will not, отрицание в Future Simple: «не поверишь» — реакция на то, что сейчас расскажу; this отсылает к новости. «Опоздать на самолёт» — miss a flight, буквально «упустить рейс»: глагол miss, а не be late — I was late on the plane было бы калькой и значило бы другое. missed, mixed up — Past Simple правильных глаголов (+ -ed), события завершились. mix up — фразовый глагол «перепутать, спутать одно с другим»: I mixed up the terminals = пошла не в тот терминал. the terminals — the, потому что речь о конкретных терминалах конкретного аэропорта. my flight — притяжательное my: «мой рейс», по-английски с рейсами и билетами часто именно притяжательные, а не артикль.",
     "level": "B1",
-    "grammarTags": ["future-will", "negation", "past-simple", "phrasal-verb", "collocation"],
-    "topicTags": ["texting", "travel", "humor"]
+    "grammarTags": ["future-will","negation","past-simple","phrasal-verb","collocation"],
+    "topicTags": ["texting","travel","humor"]
   },
   {
     "id": 420,
     "russian": "Я стояла в очереди на досмотр, когда объявили посадку на мой рейс.",
     "english": "I was standing in line at security when they announced boarding for my flight.",
-    "alternatives": ["I was still in the security line when they called boarding for my flight.", "They started boarding my flight while I was waiting in line at security."],
+    "alternatives": ["I was still in the security line when they called boarding for my flight.","They started boarding my flight while I was waiting in line at security."],
     "vocab": [{"word":"stand in line","translation":"стоять в очереди"}, {"word":"security","translation":"досмотр"}, {"word":"announce","translation":"объявлять"}, {"word":"boarding","translation":"посадка"}, {"word":"flight","translation":"рейс"}, {"word":"call boarding","translation":"объявить посадку"}],
     "explanation": "Past Continuous (was + V-ing) — длительное действие-фон: я стояла и продолжала стоять. На этом фоне происходит короткое событие в Past Simple: they announced. Такая пара времён — стандарт для историй: was doing… when something happened. stand in line — американское «стоять в очереди» (британцы говорят queue); in line без артикля — устойчивое сочетание. at security — предлог at: досмотр как точка-этап в аэропорту. they announced — безличное «объявили»: по-английски нужно подлежащее, и им становится обобщённое they (сотрудники аэропорта). boarding for my flight — «посадку на мой рейс»: boarding — герундий, ставший существительным «посадка»; предлог for связывает посадку с рейсом.",
     "level": "B1",
-    "grammarTags": ["past-continuous", "past-simple", "collocation", "place-preposition"],
+    "grammarTags": ["past-continuous","past-simple","collocation","place-preposition"],
     "topicTags": ["travel"]
   },
   {
     "id": 421,
     "russian": "И что ты сделала, когда поняла, что не успеваешь?",
     "english": "So what did you do when you realized you weren't going to make it?",
-    "alternatives": ["So what did you do once you figured out you wouldn't make it in time?", "And what happened when it hit you that you weren't going to make the flight?"],
+    "alternatives": ["So what did you do once you figured out you wouldn't make it in time?","And what happened when it hit you that you weren't going to make the flight?"],
     "vocab": [{"word":"realize","translation":"понять, осознать"}, {"word":"make it","translation":"успеть"}, {"word":"figure out","translation":"понять, сообразить"}, {"word":"in time","translation":"вовремя"}, {"word":"it hit me","translation":"до меня дошло"}],
     "explanation": "So в начале — разговорная связка «и, ну и». Вопрос в Past Simple: What did you do — did берёт на себя прошедшее время, do остаётся в V1. realized — «поняла, осознала»; после него придаточное без союза that. weren't going to make it — прошедшая форма be going to: с точки зрения того момента в прошлом было ясно, что успеть НЕ получится, — «не успеваешь» глазами прошлого. Отрицание через weren't = were not. make it — идиома «успеть, добраться вовремя, справиться»: I won't make it = «я не успею»; буквальный перевод «сделать это» тут ни при чём. Обрати внимание: русское настоящее «не успеваешь» в английском согласуется с прошедшим контекстом — правило согласования времён.",
     "level": "B1",
-    "grammarTags": ["question", "past-simple", "going-to", "negation", "collocation"],
+    "grammarTags": ["question","past-simple","going-to","negation","collocation"],
     "topicTags": ["travel"]
   },
   {
     "id": 422,
     "russian": "Свободных мест на ближайший рейс не было, так что мне пришлось ждать в аэропорту пять часов.",
     "english": "There were no seats on the next flight, so I had to wait at the airport for five hours.",
-    "alternatives": ["The next flight was full, so I ended up waiting five hours at the airport.", "The next flight was completely booked, so I was stuck at the airport for five hours."],
+    "alternatives": ["The next flight was full, so I ended up waiting five hours at the airport.","The next flight was completely booked, so I was stuck at the airport for five hours."],
     "vocab": [{"word":"there were no","translation":"не было (никаких)"}, {"word":"seat","translation":"место"}, {"word":"next flight","translation":"ближайший рейс"}, {"word":"have to","translation":"быть вынужденным, пришлось"}, {"word":"wait","translation":"ждать"}, {"word":"end up","translation":"в итоге оказаться"}],
     "explanation": "There were — конструкция there is/are в прошедшем времени: «имелись/не имелись»; seats во множественном числе, поэтому were, а не was. no seats = not any seats — отрицание через no перед существительным, при этом сам глагол остаётся утвердительным (нельзя There weren't no seats — двойное отрицание). on the next flight — предлог on с рейсами и транспортом по расписанию: on the flight, on the train. had to — прошедшее время от have to: «пришлось», внешняя необходимость; в прошедшем have to меняется на had to, а must прошедшей формы вообще не имеет. wait at the airport — at, аэропорт как точка ожидания. for five hours — for с длительностью: «в течение пяти часов»; wait без предлога перед временем не обходится.",
     "level": "B1",
-    "grammarTags": ["there-is", "past-simple", "modal", "negation", "place-preposition", "preposition"],
+    "grammarTags": ["there-is","past-simple","modal","negation","place-preposition","preposition"],
     "topicTags": ["travel"]
   },
   {
     "id": 423,
     "russian": "Сначала я жутко разозлилась, а потом решила, что это знак: выпить кофе и просто выдохнуть.",
     "english": "At first I was really mad, but then I decided it was a sign to get some coffee and just breathe.",
-    "alternatives": ["I was furious at first, but then I figured it was a sign to grab a coffee and take a breather.", "Initially I was so annoyed, but then I told myself it was the universe's way of saying: get some coffee and chill."],
+    "alternatives": ["I was furious at first, but then I figured it was a sign to grab a coffee and take a breather.","Initially I was so annoyed, but then I told myself it was the universe's way of saying: get some coffee and chill."],
     "vocab": [{"word":"at first","translation":"сначала, поначалу"}, {"word":"mad","translation":"злой, разозлённый"}, {"word":"decide","translation":"решить"}, {"word":"sign","translation":"знак"}, {"word":"get some coffee","translation":"взять кофе"}, {"word":"breathe","translation":"дышать, выдохнуть"}],
     "explanation": "At first = «сначала, поначалу» — именно at first, когда дальше всё изменилось (but then…); просто first значит «во-первых/сперва» в перечислении шагов. was mad — Past Simple от be; mad по-американски «злая, разозлённая» (в британском mad — «сумасшедшая»). really усиливает прилагательное: really mad. decided (that) it was… — союз that опущен, времена согласованы: решила в прошлом → it was. a sign to get — инфинитив после существительного: «знак (чтобы) сделать что-то»; артикль a — некий знак, впервые упомянутый. some coffee — some с неисчисляемым coffee: «немного кофе, кофейку»; кофе как вещество не считается, поэтому не a coffee (хотя в кафе a coffee = «одна чашка»). get = «взять, купить». just breathe — «просто подышать/выдохнуть».",
     "level": "B1",
-    "grammarTags": ["past-simple", "infinitive", "quantifier", "countable-uncountable"],
-    "topicTags": ["feelings", "travel"]
+    "grammarTags": ["past-simple","infinitive","quantifier","countable-uncountable"],
+    "topicTags": ["feelings","travel"]
   },
   {
     "id": 424,
     "russian": "А с тобой в поездках когда-нибудь случалось что-то подобное?",
     "english": "Has anything like that ever happened to you while traveling?",
-    "alternatives": ["Have you ever had something like that happen on a trip?", "Ever run into anything like that when you travel?"],
+    "alternatives": ["Have you ever had something like that happen on a trip?","Ever run into anything like that when you travel?"],
     "vocab": [{"word":"anything like that","translation":"что-то подобное"}, {"word":"happen to someone","translation":"случаться с кем-то"}, {"word":"ever","translation":"когда-нибудь"}, {"word":"while traveling","translation":"в поездках, путешествуя"}, {"word":"run into","translation":"столкнуться с"}],
     "explanation": "Present Perfect — вопрос о жизненном опыте: has + V3 (happened). Подлежащее здесь anything, оно третьего лица единственного числа, поэтому has, а не have — и has выходит на первое место в вопросе. anything, а не something: в вопросах и отрицаниях some- обычно меняется на any-. anything like that = «что-то подобное, что-то в этом роде». happen to someone — «случаться С кем-то» присоединяется предлогом to: happened to you (не with you — это калька с русского «с тобой»). ever = «когда-нибудь», ставится перед V3. while traveling — сокращение от while you are traveling: когда в обеих частях один субъект, после while можно оставить просто V-ing — «в поездках, путешествуя».",
     "level": "B1",
-    "grammarTags": ["question", "present-perfect", "preposition"],
-    "topicTags": ["acquaintance", "travel"]
+    "grammarTags": ["question","present-perfect","preposition"],
+    "topicTags": ["acquaintance","travel"]
   },
   {
     "id": 425,
     "russian": "Из всех мест, где ты был, какой город впечатлил тебя больше всего?",
     "english": "Out of all the places you've been, which city impressed you the most?",
-    "alternatives": ["Of all the cities you've visited, which one blew you away the most?", "What's the city that impressed you the most out of everywhere you've traveled?"],
+    "alternatives": ["Of all the cities you've visited, which one blew you away the most?","Of everywhere you've traveled, which city impressed you the most?"],
     "vocab": [{"word":"out of all","translation":"из всех"}, {"word":"place","translation":"место"}, {"word":"have been (to)","translation":"побывать (в)"}, {"word":"impress","translation":"впечатлить"}, {"word":"the most","translation":"больше всего"}, {"word":"blow away","translation":"потрясти, поразить"}],
     "explanation": "Out of all the places = «из всех мест» — выбор из множества передаётся через out of. the places you've been — придаточное без союза: «места, (где/в которых) ты был»; слово where или that здесь опускается, и это очень по-английски. you've been — Present Perfect опыта: «побывал за жизнь». which, а не what: which спрашивает о выборе из ограниченного, уже названного набора (из этих мест — который?). impressed — Past Simple: само впечатление случилось в конкретный момент знакомства с городом, поэтому не Present Perfect. impress someone — «впечатлить кого-то», без предлога: impressed you. the most = «больше всего» — превосходная степень наречия, с артиклем the.",
     "level": "B1",
-    "grammarTags": ["question", "present-perfect", "past-simple", "superlative", "relative-clause"],
-    "topicTags": ["dating", "travel"]
+    "grammarTags": ["question","present-perfect","past-simple","superlative","relative-clause"],
+    "topicTags": ["dating","travel"]
   },
   {
     "id": 426,
     "russian": "Меня совершенно покорил Лиссабон — я не ожидала, что влюблюсь в него с первого дня.",
     "english": "Lisbon totally won me over — I didn't expect to fall in love with it from day one.",
-    "alternatives": ["Lisbon completely stole my heart — I never expected to fall for it that fast.", "I fell head over heels for Lisbon right away, which I really didn't see coming."],
+    "alternatives": ["Lisbon completely stole my heart — I never expected to fall for it that fast.","I fell head over heels for Lisbon right away, which I really didn't see coming."],
     "vocab": [{"word":"win over","translation":"покорить, расположить к себе"}, {"word":"totally","translation":"совершенно, полностью"}, {"word":"expect","translation":"ожидать"}, {"word":"fall in love with","translation":"влюбиться в"}, {"word":"from day one","translation":"с первого дня"}, {"word":"steal someone's heart","translation":"покорить чьё-то сердце"}],
     "explanation": "win over — фразовый глагол «покорить, расположить к себе»; местоимение встаёт внутрь: won me over, не won over me. win — неправильный глагол: win—won—won. Past Simple, потому что описываем завершённое впечатление от конкретной поездки. didn't expect to fall — после expect идёт инфинитив с to, и русское придаточное «не ожидала, ЧТО влюблюсь» сворачивается в него целиком: не didn't expect that I will fall (калька). fall in love with — «влюбиться В кого-то/что-то»: по-английски предлог with, а не in — in уже занят внутри самой идиомы (in love). from day one — идиома «с первого же дня»; артикль не нужен: day one — как номер, «день номер один».",
     "level": "B1",
-    "grammarTags": ["past-simple", "negation", "infinitive", "phrasal-verb", "preposition"],
-    "topicTags": ["travel", "feelings"]
+    "grammarTags": ["past-simple","negation","infinitive","phrasal-verb","preposition"],
+    "topicTags": ["travel","feelings"]
   },
   {
     "id": 427,
-    "russian": "Я была во многих европейских городах, но Рим — это что-то особенное.",
-    "english": "I've been to a lot of cities in Europe, but Rome is something special.",
-    "alternatives": ["I've seen plenty of European cities, but Rome is in a league of its own.", "I've visited tons of cities in Europe, and Rome still stands out as something else."],
+    "russian": "Я была во многих европейских городах, но Вена — это что-то особенное.",
+    "english": "I've been to a lot of cities in Europe, but Vienna is something special.",
+    "alternatives": ["I've seen plenty of European cities, but Vienna is in a league of its own.","I've visited tons of cities in Europe, and Vienna still stands out as something else."],
     "vocab": [{"word":"have been to","translation":"бывать (где-то)"}, {"word":"a lot of","translation":"много"}, {"word":"city","translation":"город"}, {"word":"something special","translation":"что-то особенное"}, {"word":"in a league of its own","translation":"вне конкуренции"}, {"word":"plenty of","translation":"много, полно"}],
-    "explanation": "I've been to — Present Perfect опыта: «бывала за свою жизнь», без привязки к датам; have + been, и обрати внимание на предлог to — been to a city, потому что смысл «съездила туда и вернулась» (been in было бы про нахождение там в какой-то момент). a lot of = «много» — универсальный вариант, который работает и с исчисляемыми (cities), и с неисчисляемыми; many cities тоже верно, но в утверждениях разговорный английский предпочитает a lot of. in Europe — предлог in с частями света. Rome без артикля, как почти все города. something special — прилагательное ставится ПОСЛЕ слов something/anything/nothing: something special, nothing interesting — не special something.",
+    "explanation": "I've been to — Present Perfect опыта: «бывала за свою жизнь», без привязки к датам; have + been, и обрати внимание на предлог to — been to a city, потому что смысл «съездила туда и вернулась» (been in было бы про нахождение там в какой-то момент). a lot of = «много» — универсальный вариант, который работает и с исчисляемыми (cities), и с неисчисляемыми; many cities тоже верно, но в утверждениях разговорный английский предпочитает a lot of. in Europe — предлог in с частями света. Vienna без артикля, как почти все города (по-английски город называется Vienna, а не Wien). something special — прилагательное ставится ПОСЛЕ слов something/anything/nothing: something special, nothing interesting — не special something.",
     "level": "A2",
-    "grammarTags": ["present-perfect", "quantifier", "preposition", "word-order"],
-    "topicTags": ["travel", "interests"]
+    "grammarTags": ["present-perfect","quantifier","preposition","word-order"],
+    "topicTags": ["travel","interests"]
   },
   {
     "id": 428,
     "russian": "Я бы с удовольствием показала тебе свой любимый район Барселоны.",
     "english": "I'd love to show you my favorite neighborhood in Barcelona.",
-    "alternatives": ["I'd be happy to take you around my favorite part of Barcelona.", "It'd be so fun to show you the neighborhood I love most in Barcelona."],
+    "alternatives": ["I'd be happy to take you around my favorite part of Barcelona.","It'd be so fun to show you the neighborhood I love most in Barcelona."],
     "vocab": [{"word":"I'd love to","translation":"с удовольствием бы"}, {"word":"show someone something","translation":"показать кому-то что-то"}, {"word":"favorite","translation":"любимый"}, {"word":"neighborhood","translation":"район"}, {"word":"take someone around","translation":"поводить кого-то по (месту)"}],
     "explanation": "I'd = I would (не had: после would идёт инфинитив с to — love to show; после had стояла бы форма V3). would love to + V1 — «с удовольствием бы» — тёплый, эмоциональный вариант would like to: I'd like — вежливое «хотела бы», I'd love — «очень хотела бы, с радостью». Порядок дополнений: show + кому + что: show you my neighborhood. favorite — по-американски без u (британцы пишут favourite); перед ним притяжательное my, поэтому артикль не нужен — my и артикль вместе не ставятся. neighborhood = «район» в смысле части города, где живут люди; district звучит казённо. in Barcelona — предлог in: район находится внутри города.",
     "level": "B1",
-    "grammarTags": ["would-like", "infinitive", "word-order", "place-preposition"],
-    "topicTags": ["dating", "travel", "plans"]
+    "grammarTags": ["would-like","infinitive","word-order","place-preposition"],
+    "topicTags": ["dating","travel","plans"]
   },
   {
     "id": 429,
     "russian": "Я всю эту неделю работаю из Мехико — и город меня, честно говоря, приятно удивляет.",
-    "english": "I'm working from Mexico City this week, and honestly, the city keeps surprising me.",
-    "alternatives": ["I'm working remotely from Mexico City this week, and I have to say, the city keeps blowing me away.", "This week I'm based in Mexico City for work, and honestly, it's been full of pleasant surprises."],
-    "vocab": [{"word":"work from","translation":"работать из"}, {"word":"this week","translation":"на этой неделе"}, {"word":"honestly","translation":"честно говоря"}, {"word":"keep doing","translation":"продолжать, всё время делать"}, {"word":"surprise","translation":"удивлять"}, {"word":"remotely","translation":"удалённо"}],
-    "explanation": "I'm working — Present Continuous для ВРЕМЕННОЙ ситуации: обычно я работаю из другого места, но именно эту неделю — из Мехико. Сравни: I work from home — постоянный уклад (Present Simple), I'm working from Mexico City this week — временно. from — работать «из» какого-то места. Mexico City — город называется именно так, чтобы не путать со страной Mexico. this week — без предлога: this вытесняет in. honestly = «честно говоря», вводное слово. keeps surprising me — keep + V-ing означает «продолжает/всё время делает»: город раз за разом меня удивляет; после keep только герундий, не инфинитив. keeps с -s — третье лицо, the city. the city — the, тот самый город, о котором уже сказала.",
+    "english": "I'm working from Mexico City this week, and honestly, the city keeps pleasantly surprising me.",
+    "alternatives": ["I'm working remotely from Mexico City this week, and I have to say, the city keeps blowing me away.","This week I'm based in Mexico City for work, and honestly, it's been full of pleasant surprises."],
+    "vocab": [{"word":"work from","translation":"работать из"}, {"word":"this week","translation":"на этой неделе"}, {"word":"honestly","translation":"честно говоря"}, {"word":"keep doing","translation":"продолжать, всё время делать"}, {"word":"pleasantly surprise","translation":"приятно удивлять"}, {"word":"remotely","translation":"удалённо"}],
+    "explanation": "I'm working — Present Continuous для ВРЕМЕННОЙ ситуации: обычно я работаю из другого места, но именно эту неделю — из Мехико. Сравни: I work from home — постоянный уклад (Present Simple), I'm working from Mexico City this week — временно. from — работать «из» какого-то места. Mexico City — город называется именно так, чтобы не путать со страной Mexico. this week — без предлога: this вытесняет in. honestly = «честно говоря», вводное слово. keeps pleasantly surprising me — keep + V-ing означает «продолжает/всё время делает»: город раз за разом меня удивляет; после keep только герундий, не инфинитив. pleasantly — наречие от pleasant, «приятно», ставится перед V-ing, который описывает. keeps с -s — третье лицо, the city. the city — the, тот самый город, о котором уже сказала.",
     "level": "B1",
-    "grammarTags": ["present-continuous", "gerund", "preposition", "article"],
-    "topicTags": ["work", "travel"]
+    "grammarTags": ["present-continuous","gerund","preposition","article"],
+    "topicTags": ["work","travel"]
   },
   {
     "id": 430,
     "russian": "Что для тебя важнее в городе — архитектура или атмосфера?",
     "english": "What matters more to you in a city — the architecture or the vibe?",
-    "alternatives": ["What do you care about more in a city — the buildings or the atmosphere?", "Which is a bigger deal for you in a city: the architecture or the feel of the place?"],
+    "alternatives": ["What do you care about more in a city — the buildings or the atmosphere?","Which is a bigger deal for you in a city: the architecture or the feel of the place?"],
     "vocab": [{"word":"matter","translation":"иметь значение, быть важным"}, {"word":"more","translation":"больше"}, {"word":"architecture","translation":"архитектура"}, {"word":"vibe","translation":"атмосфера, настроение места"}, {"word":"care about","translation":"придавать значение"}, {"word":"a big deal","translation":"что-то важное"}],
     "explanation": "What здесь — подлежащее вопроса, поэтому вспомогательный do НЕ нужен и порядок слов прямой: What matters…?, а не What does matter. Сравни: What do you value? — там подлежащее you, нужен do. matters — глагол matter «иметь значение, быть важным» с -s третьего лица; русское «важнее» удобно передавать именно им: What matters more = «что важнее». more — сравнительная степень наречия. to you — «для тебя» с matter присоединяется через to: it matters to me. in a city — артикль a: в любом, абстрактном городе. the architecture or the vibe — the при выборе из двух конкретных названных сторон. vibe — разговорное «атмосфера, настроение места»; atmosphere тоже можно, но vibe звучит живее.",
     "level": "B1",
-    "grammarTags": ["question", "present-simple", "comparative", "word-order", "article", "preposition"],
-    "topicTags": ["dating", "interests"]
+    "grammarTags": ["question","present-simple","comparative","word-order","article","preposition"],
+    "topicTags": ["dating","interests"]
   },
   {
     "id": 431,
     "russian": "Я только что скинула тебе фотки из поездки — глянь, когда будет минутка.",
     "english": "I just sent you the photos from my trip — take a look when you get a minute.",
-    "alternatives": ["Just sent over the trip photos — check them out whenever you have a sec.", "I've just shared the pictures from my trip with you — have a look when you get a chance."],
+    "alternatives": ["Just sent over the trip photos — check them out whenever you have a sec.","I've just shared the pictures from my trip with you — have a look when you get a chance."],
     "vocab": [{"word":"just","translation":"только что"}, {"word":"send","translation":"отправить, скинуть"}, {"word":"photo","translation":"фото"}, {"word":"take a look","translation":"взглянуть"}, {"word":"get a minute","translation":"выкроить минутку"}, {"word":"check out","translation":"глянуть, посмотреть"}],
     "explanation": "I just sent — в American English «только что» очень часто выражается через Past Simple + just: I just sent (британцы чаще скажут I've just sent — оба варианта верны). send — неправильный глагол: send—sent—sent. Порядок дополнений: sent + кому + что = sent you the photos. the photos — the, конкретные фотки, которые я отправила. from my trip — «из поездки». take a look — устойчивое «глянуть, взглянуть» (мягче, чем look); это повелительное наклонение: глагол в V1 без подлежащего. when you get a minute — «когда будет минутка»: после when о будущем идёт Present Simple (не when you will get); get a minute — идиоматичное «выкроить минутку», буквального «будет» здесь нет.",
     "level": "A2",
-    "grammarTags": ["past-simple", "imperative", "collocation", "article"],
-    "topicTags": ["texting", "friends"]
+    "grammarTags": ["past-simple","imperative","collocation","article"],
+    "topicTags": ["texting","friends"]
   },
   {
     "id": 432,
     "russian": "Кто сделал это фото? Ты здесь выглядишь такой счастливой.",
     "english": "Who took this photo? You look so happy here.",
-    "alternatives": ["Who snapped this one? You look thrilled in it.", "Who's the photographer here? You look so happy in this picture."],
+    "alternatives": ["Who snapped this one? You look thrilled in it.","Who's the photographer here? You look so happy in this picture."],
     "vocab": [{"word":"take a photo","translation":"сделать фото"}, {"word":"look","translation":"выглядеть"}, {"word":"so happy","translation":"такой счастливый"}, {"word":"snap","translation":"щёлкнуть, сфотографировать"}, {"word":"thrilled","translation":"в восторге"}],
     "explanation": "Who — вопрос к подлежащему: когда спрашиваем «КТО сделал», who само является подлежащим, поэтому вспомогательный did не нужен и глагол сразу в прошедшем: Who took?, а не Who did take. Сравни с вопросом к дополнению: Who did you meet? — там подлежащее you. take a photo — устойчивое «сделать фото»: именно take, не make и не do (make a photo — частая русская калька). take — неправильный: take—took—taken. You look + прилагательное: после глаголов «выглядеть, звучать, казаться» (look, sound, seem) идёт прилагательное, а не наречие: look happy, а не look happily — описываем не то, КАК смотришь, а какой выглядишь. so = «такой», усиливает: so happy. here — «здесь» = на этом фото.",
     "level": "A2",
-    "grammarTags": ["question", "past-simple", "word-order", "collocation", "present-simple"],
-    "topicTags": ["texting", "feelings"]
+    "grammarTags": ["question","past-simple","word-order","collocation","present-simple"],
+    "topicTags": ["texting","feelings"]
   },
   {
     "id": 433,
-    "russian": "Я обычно не выкладываю фото из поездок — мне лень их разбирать.",
-    "english": "I don't usually post my travel photos — I'm too lazy to sort through them.",
-    "alternatives": ["I rarely post travel photos — going through them is too much of a hassle.", "I hardly ever share my trip pictures; I can't be bothered to sort them out."],
-    "vocab": [{"word":"post","translation":"выкладывать, публиковать"}, {"word":"travel photos","translation":"фото из поездок"}, {"word":"too lazy to","translation":"слишком лениво, чтобы"}, {"word":"sort through","translation":"разбирать, перебирать"}, {"word":"hassle","translation":"морока"}, {"word":"can't be bothered","translation":"лень, неохота"}],
-    "explanation": "Present Simple с отрицанием — речь о привычке: don't + V1. usually встаёт между don't и глаголом: don't usually post. post = «выкладывать, публиковать» в соцсетях — стандартный глагол для этого, не put или upload в разговорной речи. travel photos — travel работает как определение: «фото из поездок». Русское «мне лень…» не переводится дословно — естественная конструкция too + прилагательное + to V1: I'm too lazy to sort = «я слишком ленивая, чтобы разбирать»; вариант I feel lazy тоже есть, но too lazy to точнее передаёт «лень настолько, что не делаю». sort through — фразовый глагол «разбирать, перебирать» (стопку, архив): through добавляет смысл «пройтись по всему массиву». them — фото, множественное.",
+    "russian": "Я обычно не выкладываю фото из поездок сразу — люблю сначала спокойно их перебрать и отобрать лучшие.",
+    "english": "I don't usually post my travel photos right away — I like to go through them first and pick out the best ones.",
+    "alternatives": ["I rarely post travel photos the same day — I prefer to sort through them first and choose the best ones.","I hardly ever share my trip pictures right away; I'd rather take my time going through them and picking the best ones."],
+    "vocab": [{"word":"post","translation":"выкладывать, публиковать"}, {"word":"travel photos","translation":"фото из поездок"}, {"word":"right away","translation":"сразу"}, {"word":"go through","translation":"просматривать, перебирать"}, {"word":"pick out","translation":"отбирать, выбирать"}, {"word":"the best ones","translation":"лучшие (из них)"}],
+    "explanation": "Present Simple с отрицанием — речь о привычке: don't + V1. usually встаёт между don't и смысловым глаголом: don't usually post — это стандартное место наречий частотности (после вспомогательного, перед смысловым). post = «выкладывать, публиковать» в соцсетях — стандартный глагол для этого. travel photos — travel работает как определение: «фото из поездок». right away = «сразу, немедленно», ставится в конец. I like to go — после like возможны и инфинитив, и герундий; инфинитив здесь подчёркивает осознанный выбор, привычку «предпочитаю делать так». go through — фразовый глагол «просматривать, перебирать одно за другим»: through добавляет смысл «пройтись по всему массиву». pick out — фразовый глагол «отобрать, выбрать из множества»: out несёт смысл «вытащить из общей массы». the best ones — ones заменяет уже названное photos, чтобы не повторяться; the с превосходной степенью best обязателен. first = «сначала», в конце фразы: go through them first.",
     "level": "B1",
-    "grammarTags": ["present-simple", "negation", "infinitive", "phrasal-verb", "word-order"],
-    "topicTags": ["interests", "daily-life"]
+    "grammarTags": ["present-simple","negation","infinitive","phrasal-verb","word-order"],
+    "topicTags": ["interests","daily-life"]
   },
   {
     "id": 434,
     "russian": "Люблю после поездки пересматривать фотографии — будто проживаешь всё ещё раз.",
     "english": "I enjoy going through my photos after a trip — it's like living it all over again.",
-    "alternatives": ["I love looking back through my photos after a trip — it's like reliving the whole thing.", "Scrolling through my trip photos afterward is one of my favorite things; you get to experience it all again."],
+    "alternatives": ["I love looking back through my photos after a trip — it's like reliving the whole thing.","Scrolling through my trip photos afterward is one of my favorite things; you get to experience it all again."],
     "vocab": [{"word":"enjoy doing","translation":"любить, получать удовольствие от"}, {"word":"go through","translation":"просматривать, перебирать"}, {"word":"after a trip","translation":"после поездки"}, {"word":"all over again","translation":"заново, ещё раз"}, {"word":"relive","translation":"прожить заново"}],
     "explanation": "enjoy + V-ing — железное правило: после enjoy только герундий, никогда инфинитив: enjoy going, не enjoy to go (в отличие от like, который допускает оба). go through — фразовый глагол «просматривать, перебирать одно за другим»: going through my photos. after a trip — артикль a: после любой поездки, это привычка, а не конкретный случай; after — предлог «после», за ним существительное. it's like + V-ing — «это как будто…»: после like-предлога действие тоже в форме герундия: like living. live it all over again — «прожить это заново»; all over again — устойчивое «всё с начала, ещё раз целиком». Русское безличное «проживаешь» по-английски передано через it's like — обобщение без «ты».",
     "level": "B1",
-    "grammarTags": ["gerund", "phrasal-verb", "preposition", "article"],
-    "topicTags": ["interests", "travel"]
+    "grammarTags": ["gerund","phrasal-verb","preposition","article"],
+    "topicTags": ["interests","travel"]
   },
   {
     "id": 435,
     "russian": "Покажешь мне вечером фотографии из Японии? Ты же обещал.",
     "english": "Will you show me your pictures from Japan tonight? You promised.",
-    "alternatives": ["Are you going to show me your Japan photos tonight? You said you would.", "Can I see your pictures from Japan tonight? You did promise."],
+    "alternatives": ["Are you going to show me your Japan photos tonight? You said you would.","Can I see your pictures from Japan tonight? You did promise."],
     "vocab": [{"word":"show","translation":"показать"}, {"word":"picture","translation":"фото, снимок"}, {"word":"tonight","translation":"сегодня вечером"}, {"word":"promise","translation":"обещать"}, {"word":"you said you would","translation":"ты же обещал"}],
     "explanation": "Will you + V1…? — вопрос-просьба о будущем действии: «покажешь?» — это и вопрос о планах, и мягкая просьба выполнить обещанное. Русское будущее «покажешь» здесь именно will, потому что договорённость только подтверждается, а не констатируется план (при твёрдом плане была бы конструкция Are you going to show / Are you showing). Порядок дополнений: show + кому + что: show me your pictures. from Japan — «из Японии», страны без артикля. tonight = «сегодня вечером» одним словом, без предлога — не in tonight. You promised — Past Simple: обещание случилось в прошлом и закончилось; короткая реплика без дополнений — очень разговорная, русское «же» передаётся самим упрёком-напоминанием.",
     "level": "A2",
-    "grammarTags": ["question", "future-will", "past-simple", "word-order"],
-    "topicTags": ["dating", "communication"]
+    "grammarTags": ["question","future-will","past-simple","word-order"],
+    "topicTags": ["dating","communication"]
   },
   {
     "id": 436,
     "russian": "Я сейчас выбираю фотографии, чтобы напечатать их для родителей.",
     "english": "I'm picking out photos to print for my parents right now.",
-    "alternatives": ["I'm choosing some photos to get printed for my parents at the moment.", "Right now I'm going through my pictures and picking the ones I want to print for my parents."],
+    "alternatives": ["I'm choosing some photos to get printed for my parents at the moment.","Right now I'm going through my pictures and picking the ones I want to print for my parents."],
     "vocab": [{"word":"pick out","translation":"выбирать, отбирать"}, {"word":"photo","translation":"фото"}, {"word":"print","translation":"распечатать"}, {"word":"parents","translation":"родители"}, {"word":"right now","translation":"прямо сейчас"}, {"word":"at the moment","translation":"в данный момент"}],
     "explanation": "Present Continuous (am + V-ing) — действие происходит прямо в момент речи, маркер right now это подчёркивает. pick out — фразовый глагол «выбирать, отбирать» из множества: pick out photos = отбираю лучшие; out несёт смысл «вытащить из общей массы». to print — инфинитив цели: «ЧТОБЫ напечатать»; по-английски «чтобы» перед глаголом чаще всего — просто to + V1, никакого for to или that: photos to print. for my parents — предлог for «для кого»; my parents — родители «мои», притяжательное вместо артикля. right now — «прямо сейчас», разговорное усиление now; ставится обычно в конец. Обрати внимание: слово «их» из русского в английском не понадобилось — photos to print уже связаны.",
     "level": "A2",
-    "grammarTags": ["present-continuous", "phrasal-verb", "infinitive", "preposition"],
-    "topicTags": ["family", "daily-life"]
+    "grammarTags": ["present-continuous","phrasal-verb","infinitive","preposition"],
+    "topicTags": ["family","daily-life"]
   },
   {
     "id": 437,
     "russian": "Куда ты летишь через месяц? Ты вроде говорил про какой-то остров.",
     "english": "Where are you flying next month? You mentioned some island.",
-    "alternatives": ["Where are you off to next month? I remember you said something about an island.", "Where's your trip next month? You were talking about some island, weren't you?"],
+    "alternatives": ["Where are you off to next month? I remember you said something about an island.","Where's your trip next month? You were talking about some island, weren't you?"],
     "vocab": [{"word":"fly","translation":"лететь"}, {"word":"next month","translation":"в следующем месяце, через месяц"}, {"word":"mention","translation":"упомянуть"}, {"word":"some","translation":"какой-то"}, {"word":"island","translation":"остров"}, {"word":"be off to","translation":"отправляться в"}],
     "explanation": "Where are you flying — Present Continuous в значении будущего: так говорят о ДОГОВОРЁННОСТИ, которая уже устроена (билеты куплены, даты известны). Русское «летишь» тоже настоящее о будущем — здесь языки совпадают. next month = «через месяц» в смысле «в следующем месяце», без предлога и артикля: next вытесняет их. You mentioned — Past Simple: упоминание было в конкретном прошлом разговоре. Важно: mention БЕЗ предлога about — mentioned some island, а не mentioned about (частая ошибка: «говорил ПРО» тянет за собой лишний about; about уже сидит в значении mention). some island — «какой-то остров»: some перед единственным числом = «некий, какой-то», когда точно не помнишь.",
     "level": "B1",
-    "grammarTags": ["question", "present-continuous", "past-simple"],
-    "topicTags": ["dating", "travel", "plans"]
+    "grammarTags": ["question","present-continuous","past-simple"],
+    "topicTags": ["dating","travel","plans"]
   },
   {
     "id": 438,
     "russian": "В следующем месяце мы с подругой собираемся провести десять дней в Греции.",
     "english": "My friend and I are going to spend ten days in Greece next month.",
-    "alternatives": ["My friend and I are planning a ten-day trip to Greece next month.", "Next month my friend and I are heading to Greece for ten days."],
+    "alternatives": ["My friend and I are planning a ten-day trip to Greece next month.","Next month my friend and I are heading to Greece for ten days."],
     "vocab": [{"word":"be going to","translation":"собираться"}, {"word":"spend","translation":"проводить (время)"}, {"word":"ten days","translation":"десять дней"}, {"word":"next month","translation":"в следующем месяце"}, {"word":"head to","translation":"направляться в"}, {"word":"plan","translation":"планировать"}],
     "explanation": "be going to + V1 — план и намерение, решение уже принято: are going to spend = «собираемся провести». Не путай с are going to Greece (просто «едем в Грецию», Continuous от go) — здесь going to часть конструкции намерения, а смысловой глагол spend. «Мы с подругой» — My friend and I: по-английски перечисление, себя ставят в конец, и в подлежащем именно I, не me. spend о времени — «проводить»: spend ten days, spend the weekend; тот же глагол, что о деньгах. in Greece — предлог in: находиться внутри страны (сравни to Greece — направление движения). next month — без предлога in и без артикля: next, last, this, every вытесняют их.",
     "level": "A2",
-    "grammarTags": ["going-to", "word-order", "place-preposition", "collocation"],
-    "topicTags": ["friends", "travel", "plans"]
+    "grammarTags": ["going-to","word-order","place-preposition","collocation"],
+    "topicTags": ["friends","travel","plans"]
   },
   {
     "id": 439,
     "russian": "Я не собираюсь брать кучу вещей — возьму только самое необходимое.",
     "english": "I'm not going to pack much — I'll just take the essentials.",
-    "alternatives": ["I'm going to pack light — just the basics.", "I don't plan on bringing a lot; only the stuff I really need."],
+    "alternatives": ["I'm going to pack light — just the basics.","I don't plan on bringing a lot; only the stuff I really need."],
     "vocab": [{"word":"pack","translation":"собирать вещи"}, {"word":"much","translation":"много"}, {"word":"take","translation":"брать"}, {"word":"the essentials","translation":"самое необходимое"}, {"word":"pack light","translation":"брать минимум вещей"}, {"word":"the basics","translation":"самое основное"}],
     "explanation": "I'm not going to — отрицание be going to: not после am — «не собираюсь», намерение-отказ уже созревшее. pack — «собирать вещи, паковаться» одним глаголом: не нужно take things with me, pack уже всё содержит. much — «много» в отрицаниях с неисчисляемым смыслом («не много всего»): not… much; в утверждениях звучало бы a lot. I'll just take — will для второй половины: это скорее лёгкое решение-обещание, чем выстраданный план, и контраст с going to заметен: not going to pack (обдуманное намерение) vs I'll take (решение, озвученное на ходу). the essentials — «самое необходимое»: прилагательное essential превратилось в существительное во множественном числе, артикль the обязателен — необходимый минимум определён.",
     "level": "B1",
-    "grammarTags": ["going-to", "negation", "future-will", "quantifier", "article"],
-    "topicTags": ["travel", "plans"]
+    "grammarTags": ["going-to","negation","future-will","quantifier","article"],
+    "topicTags": ["travel","plans"]
   },
   {
     "id": 440,
     "russian": "А сколько наличных ты обычно берёшь с собой в поездку?",
     "english": "How much cash do you usually take with you on a trip?",
-    "alternatives": ["How much cash do you normally bring on a trip?", "Do you usually carry a lot of cash when you travel?"],
+    "alternatives": ["How much cash do you normally bring on a trip?","Do you usually carry a lot of cash when you travel?"],
     "vocab": [{"word":"how much","translation":"сколько (неисч.)"}, {"word":"cash","translation":"наличные"}, {"word":"usually","translation":"обычно"}, {"word":"take with you","translation":"брать с собой"}, {"word":"on a trip","translation":"в поездку"}, {"word":"carry","translation":"носить с собой"}],
     "explanation": "How much + неисчисляемое существительное: cash «наличные» в английском не считается и не имеет множественного числа, поэтому much, а не many (how many сочетается с исчисляемыми: how many bags). Кстати, и деньги вообще — money — тоже неисчисляемые. Дальше обычный вопрос Present Simple о привычке: do + you + V1: do you take. usually ставится между подлежащим и смысловым глаголом: do you usually take. take with you — «брать с собой»: по-английски уточняется, с КЕМ — with you, просто take with невозможно. on a trip — предлог on с поездкой (как go on a trip, on vacation); артикль a — любая, типичная поездка, а не конкретная.",
     "level": "A2",
-    "grammarTags": ["question", "quantifier", "countable-uncountable", "present-simple", "word-order", "preposition"],
-    "topicTags": ["travel", "daily-life"]
+    "grammarTags": ["question","quantifier","countable-uncountable","present-simple","word-order","preposition"],
+    "topicTags": ["travel","daily-life"]
   },
   {
     "id": 441,
-    "russian": "Мы с ним не виделись с самой зимы, и я очень жду встречи.",
-    "english": "We haven't seen each other since winter, and I'm really looking forward to seeing him.",
-    "alternatives": ["We haven't seen each other since winter, and I can't wait to see him.", "It's been since winter that we last saw each other, and I'm so excited to finally see him."],
+    "russian": "Мы с сестрой не виделись с самой зимы, и я очень жду встречи.",
+    "english": "My sister and I haven't seen each other since winter, and I'm really looking forward to seeing her.",
+    "alternatives": ["My sister and I haven't seen each other since winter, and I can't wait to see her.","It's been since winter that my sister and I last saw each other, and I'm so excited to finally see her."],
     "vocab": [{"word":"see each other","translation":"видеться"}, {"word":"since","translation":"с (какого-то момента)"}, {"word":"winter","translation":"зима"}, {"word":"look forward to","translation":"ждать с нетерпением"}, {"word":"can't wait","translation":"не терпится"}],
-    "explanation": "Present Perfect с отрицанием: haven't + V3 (see—saw—seen) — период тянется от зимы до сейчас, и результат важен сейчас: до сих пор не виделись. since + точка отсчёта: since winter «с зимы»; сравни for + длительность: for six months «шесть месяцев» — since отвечает «с какого момента», for — «как долго». each other = «друг друга»: see each other — «видеться». look forward to — «с нетерпением ждать»; здесь to — ПРЕДЛОГ, а не частица инфинитива, поэтому после него герундий: looking forward to seeing, ни в коем случае не to see. Сама конструкция стоит в Present Continuous (I'm looking forward) — это живое, длящееся предвкушение. really — усилитель «очень», перед смысловым глаголом.",
+    "explanation": "«Мы с сестрой» по-английски разворачивается в перечисление: My sister and I — себя вежливо ставят в конец, и в роли подлежащего это именно I, а не me. Present Perfect с отрицанием: haven't + V3 (see—saw—seen) — период тянется от зимы до сейчас, и результат важен сейчас: до сих пор не виделись. since + точка отсчёта: since winter «с зимы»; сравни for + длительность: for six months «шесть месяцев» — since отвечает «с какого момента», for — «как долго». each other = «друг друга»: see each other — «видеться». look forward to — «с нетерпением ждать»; здесь to — ПРЕДЛОГ, а не частица инфинитива, поэтому после него герундий: looking forward to seeing, ни в коем случае не to see. Сама конструкция стоит в Present Continuous (I'm looking forward) — это живое, длящееся предвкушение. really — усилитель «очень», перед смысловым глаголом. seeing her — «увидеть её»: русское «жду встречи» без дополнения по-английски естественнее с объектом.",
     "level": "B1",
-    "grammarTags": ["present-perfect", "negation", "for-since", "look-forward-to", "to-preposition", "gerund"],
-    "topicTags": ["dating", "feelings"]
+    "grammarTags": ["present-perfect","negation","for-since","look-forward-to","to-preposition","gerund"],
+    "topicTags": ["family","feelings"]
   },
   {
     "id": 442,
     "russian": "Как думаешь, стоит мне оформлять страховку на эту поездку?",
     "english": "Do you think I should get travel insurance for this trip?",
-    "alternatives": ["Do you think it's worth getting travel insurance for this trip?", "Should I bother with travel insurance for this trip, in your opinion?"],
+    "alternatives": ["Do you think it's worth getting travel insurance for this trip?","Should I bother with travel insurance for this trip, in your opinion?"],
     "vocab": [{"word":"do you think","translation":"как думаешь"}, {"word":"should","translation":"стоит (ли)"}, {"word":"get","translation":"оформить, купить"}, {"word":"travel insurance","translation":"страховка для путешествий"}, {"word":"trip","translation":"поездка"}, {"word":"be worth doing","translation":"стоить того, чтобы"}],
     "explanation": "Do you think + придаточное — «как думаешь, …?»: сам вопрос задаётся к think, а внутри придаточного порядок слов ПРЯМОЙ, как в утверждении: I should get, а не should I get (прямой вопрос был бы Should I get travel insurance?). Это правило косвенного вопроса: вопросительная инверсия происходит только один раз, в главной части. should — «стоит ли», совет/рекомендация; после него V1 без to. get здесь «оформить, купить» — универсальный разговорный глагол. travel insurance — «страховка для путешествий»: insurance неисчисляемое, поэтому НУЛЕВОЙ артикль — никакого a; travel снова работает определением. for this trip — предлог for «на/для этой поездки»; this — конкретная обсуждаемая поездка.",
     "level": "B1",
-    "grammarTags": ["question", "indirect-question", "modal", "article", "preposition"],
-    "topicTags": ["travel", "daily-life"]
+    "grammarTags": ["question","indirect-question","modal","article","preposition"],
+    "topicTags": ["travel","daily-life"]
   },
   {
     "id": 443,
     "russian": "Мама помогла мне выбрать отель рядом с пляжем.",
     "english": "My mom helped me pick a hotel near the beach.",
-    "alternatives": ["My mom helped me choose a hotel close to the beach.", "I picked out a beachfront hotel with my mom's help."],
+    "alternatives": ["My mom helped me choose a hotel close to the beach.","I picked out a beachfront hotel with my mom's help."],
     "vocab": [{"word":"help someone do","translation":"помочь кому-то сделать"}, {"word":"pick","translation":"выбрать"}, {"word":"hotel","translation":"отель"}, {"word":"near","translation":"рядом с"}, {"word":"beach","translation":"пляж"}, {"word":"close to","translation":"недалеко от"}],
     "explanation": "help + дополнение + голый инфинитив (bare infinitive): helped me pick — после help частицу to можно опустить, и в American English так говорят чаще всего (helped me to pick тоже грамматично, но звучит тяжелее). Это одна из немногих конструкций, где инфинитив идёт без to — как после модальных и после let/make. helped — Past Simple правильного глагола: конкретное завершённое действие. pick = «выбрать», разговорный синоним choose. a hotel — артикль a: отель упоминается впервые, «какой-то один отель». near the beach — предлог near «рядом с, возле»; the beach — the, потому что пляж в курортном месте подразумевается конкретный, тот самый, у которого всё и выбирают (как the sun, the sea). My mom — по-американски mom, не mum.",
     "level": "A2",
-    "grammarTags": ["past-simple", "bare-infinitive", "article", "place-preposition"],
-    "topicTags": ["family", "travel"]
+    "grammarTags": ["past-simple","bare-infinitive","article","place-preposition"],
+    "topicTags": ["family","travel"]
   },
   {
     "id": 444,
     "russian": "Как быстрее всего добраться из аэропорта до офиса клиента — на метро или на такси?",
     "english": "What's the fastest way to get from the airport to the client's office — by subway or by taxi?",
-    "alternatives": ["What's the quickest way to get to the client's office from the airport — subway or cab?", "How do I get from the airport to the client's office the fastest — should I take the subway or a taxi?"],
+    "alternatives": ["What's the quickest way to get to the client's office from the airport — subway or cab?","How do I get from the airport to the client's office the fastest — should I take the subway or a taxi?"],
     "vocab": [{"word":"the fastest way","translation":"самый быстрый способ"}, {"word":"get from… to…","translation":"добраться из… до…"}, {"word":"airport","translation":"аэропорт"}, {"word":"client","translation":"клиент"}, {"word":"by subway","translation":"на метро"}, {"word":"by taxi","translation":"на такси"}],
     "explanation": "Русское «как добраться?» по-английски чаще всего звучит как вопрос о способе: What's the best/fastest way to + V1 — «какой самый быстрый способ…». How do I get to…? тоже верно, но конструкция со way очень частотна. the fastest — превосходная степень: fast → the fastest, артикль the обязателен. way to get — инфинитив после существительного way. get from… to… — «добраться ИЗ… ДО…»: from точка старта, to точка назначения; get = «добраться» (не только «получить»). by + транспорт БЕЗ артикля: by subway, by taxi, by bus — способ передвижения как категория (но on the subway, in a taxi, если о конкретной поездке). the client's office — притяжательный 's: «офис клиента»; subway — американское метро (в Лондоне underground/tube).",
     "level": "B1",
-    "grammarTags": ["question", "superlative", "infinitive", "movement-preposition", "article"],
-    "topicTags": ["work", "travel"]
+    "grammarTags": ["question","superlative","infinitive","movement-preposition","article"],
+    "topicTags": ["work","travel"]
   },
   {
     "id": 445,
     "russian": "Не волнуйся, я встречу тебя на выдаче багажа с табличкой.",
     "english": "Don't worry — I'll meet you at baggage claim with a sign.",
-    "alternatives": ["No worries — I'll be waiting for you at baggage claim holding a sign.", "Relax, I'll be right there at baggage claim with a sign with your name on it."],
+    "alternatives": ["No worries — I'll be waiting for you at baggage claim holding a sign.","Relax, I'll be right there at baggage claim with a sign with your name on it."],
     "vocab": [{"word":"don't worry","translation":"не волнуйся"}, {"word":"meet","translation":"встретить"}, {"word":"baggage claim","translation":"выдача багажа"}, {"word":"sign","translation":"табличка"}, {"word":"hold","translation":"держать"}, {"word":"no worries","translation":"не переживай"}],
     "explanation": "Don't worry — отрицательное повелительное наклонение: Don't + V1, «не делай»; просто Worry not или No worry невозможны (хотя разговорное No worries — «да без проблем» — существует как отдельная реплика). I'll = I will — will для обещания: «я тебя встречу» — говорящая берёт обязательство прямо сейчас, это классическое применение will, а не going to. meet you — «встретить тебя», без with: meet someone, русское «встретиться С» предлога в английском не требует. at baggage claim — «на выдаче багажа»: at как точка-этап в аэропорту, и без артикля — устойчивое обозначение зоны (как at check-in). with a sign — «с табличкой»: sign здесь «табличка с именем»; артикль a — впервые упомянутая, одна штука.",
     "level": "A2",
-    "grammarTags": ["imperative", "negation", "future-will", "place-preposition", "article"],
-    "topicTags": ["travel", "communication"]
+    "grammarTags": ["imperative","negation","future-will","place-preposition","article"],
+    "topicTags": ["travel","communication"]
   },
   {
     "id": 446,
     "russian": "Сможешь забрать меня из аэропорта в пятницу вечером?",
     "english": "Could you pick me up from the airport on Friday evening?",
-    "alternatives": ["Would you be able to get me from the airport Friday evening?", "Any chance you could come get me at the airport on Friday night?"],
+    "alternatives": ["Would you be able to get me from the airport Friday evening?","Any chance you could come get me at the airport on Friday night?"],
     "vocab": [{"word":"could you","translation":"не мог бы ты"}, {"word":"pick up","translation":"забрать, подхватить (на машине)"}, {"word":"airport","translation":"аэропорт"}, {"word":"on Friday evening","translation":"в пятницу вечером"}, {"word":"any chance","translation":"есть ли шанс, не мог бы"}, {"word":"come get someone","translation":"приехать за кем-то"}],
     "explanation": "Could you + V1…? — вежливая просьба: could звучит мягче и учтивее, чем can (Can you — «можешь?», Could you — «не мог бы ты?»). Хотя could — формально прошедшая форма can, здесь никакого прошлого нет, это именно вежливость. pick up — фразовый глагол «забрать, подхватить на машине»; местоимение обязательно встаёт В СЕРЕДИНУ: pick me up, никогда pick up me (с существительным можно и так и так: pick up my sister / pick my sister up). from the airport — «из аэропорта», точка, откуда забирают. on Friday evening — предлог on, когда назван день + часть суток: on Friday evening, on Monday morning; но без дня было бы in the evening. Русское «сможешь» — не про способность, а про просьбу, поэтому не will you be able to.",
     "level": "A2",
-    "grammarTags": ["question", "modal", "phrasal-verb", "word-order", "time-preposition"],
-    "topicTags": ["texting", "travel"]
+    "grammarTags": ["question","modal","phrasal-verb","word-order","time-preposition"],
+    "topicTags": ["texting","travel"]
   },
   {
     "id": 447,
     "russian": "Дорога из аэропорта заняла почти два часа — мы намертво встали в пробке в центре.",
     "english": "The drive from the airport took almost two hours — we got stuck in traffic downtown.",
-    "alternatives": ["It took us nearly two hours to get in from the airport — traffic downtown was a nightmare.", "We hit terrible traffic downtown, so the ride from the airport took almost two hours."],
+    "alternatives": ["It took us nearly two hours to get in from the airport — traffic downtown was a nightmare.","We hit terrible traffic downtown, so the ride from the airport took almost two hours."],
     "vocab": [{"word":"drive","translation":"поездка на машине"}, {"word":"take (time)","translation":"занимать (время)"}, {"word":"almost","translation":"почти"}, {"word":"get stuck","translation":"застрять"}, {"word":"traffic","translation":"пробки, дорожное движение"}, {"word":"downtown","translation":"в центре города"}],
     "explanation": "The drive — «поездка на машине» как существительное; артикль the — конкретная дорога из аэропорта, о которой рассказываю. О времени, которое что-то «заняло», по-английски говорят через take: took almost two hours; take — неправильный глагол: take—took—taken. almost = «почти». got stuck in traffic — «застряли в пробке»: get stuck — «застрять» (get + причастие — стать каким-то), traffic — неисчисляемое «дорожное движение/пробки», поэтому БЕЗ артикля и без множественного числа: никаких traffics или a traffic; сама пробка как затор — a traffic jam, но чаще говорят просто stuck in traffic. downtown — «в центре города» одним словом-наречием, без предлога и артикля: не in the downtown — это самая частая ошибка с этим словом.",
     "level": "B1",
-    "grammarTags": ["past-simple", "article", "collocation", "countable-uncountable"],
-    "topicTags": ["travel", "daily-life"]
+    "grammarTags": ["past-simple","article","collocation","countable-uncountable"],
+    "topicTags": ["travel","daily-life"]
   },
   {
     "id": 448,
     "russian": "Я не люблю брать такси прямо в аэропорту — выходит вдвое дороже, чем через приложение.",
     "english": "I don't like getting a cab right at the airport — it costs twice as much as through the app.",
-    "alternatives": ["I try not to grab a taxi at the airport itself — it's double the price of booking one through the app.", "I avoid hailing a cab at the airport; ordering through the app is half the price."],
+    "alternatives": ["I try not to grab a taxi at the airport itself — it's double the price of booking one through the app.","I avoid hailing a cab at the airport; ordering through the app is half the price."],
     "vocab": [{"word":"get a cab","translation":"взять такси"}, {"word":"cab","translation":"такси"}, {"word":"right at","translation":"прямо в"}, {"word":"cost","translation":"стоить"}, {"word":"twice as much as","translation":"вдвое дороже, чем"}, {"word":"through the app","translation":"через приложение"}],
     "explanation": "don't like + V-ing — отношение к процессу вообще, как к явлению: getting a cab; после like возможен и инфинитив (like to get), но про «не люблю сам процесс» естественнее герундий. get a cab — «взять такси»: get универсальный, cab — разговорное американское «такси». right at the airport — right усиливает предлог: «прямо в аэропорту»; at — аэропорт как точка. «Вдвое дороже» — конструкция twice as much as: «дважды столько же, сколько» — не twice more expensive (калька); для «втрое» было бы three times as much. it costs — Present Simple с -s: общее правило цен. through the app — «через приложение»: through о способе/канале; the app — то самое приложение такси, понятное из контекста.",
     "level": "B1",
-    "grammarTags": ["present-simple", "negation", "gerund", "place-preposition", "article"],
-    "topicTags": ["travel", "lifestyle"]
+    "grammarTags": ["present-simple","negation","gerund","place-preposition","article"],
+    "topicTags": ["travel","lifestyle"]
   },
   {
     "id": 449,
     "russian": "Ты уже едешь? Водитель ждёт у выхода с табличкой с твоим именем.",
     "english": "Are you on your way? The driver's waiting by the exit with your name on a sign.",
-    "alternatives": ["Are you heading over? The driver's by the exit holding a sign with your name.", "You on your way yet? Your driver is waiting at the exit with a name sign."],
+    "alternatives": ["Are you heading over? The driver's by the exit holding a sign with your name.","You on your way yet? Your driver is waiting at the exit with a name sign."],
     "vocab": [{"word":"be on one's way","translation":"быть в пути, ехать"}, {"word":"driver","translation":"водитель"}, {"word":"wait","translation":"ждать"}, {"word":"by the exit","translation":"у выхода"}, {"word":"sign","translation":"табличка"}, {"word":"head over","translation":"направляться сюда"}],
     "explanation": "Are you on your way? — «ты уже едешь/в пути?»: идиома be on one's way, буквально «быть на своём пути»; простое Are you going? без указания куда прозвучало бы неполно. Вопрос строится инверсией be: Are you…? The driver's waiting = The driver is waiting — Present Continuous: процесс идёт прямо сейчас, водитель стоит и ждёт; 's здесь сокращение от is, не притяжательный падеж — после него V-ing это выдаёт. The driver — the: конкретный водитель, которого заказали. by the exit — предлог by «у, возле, рядом с»: by the exit, by the window. with your name on a sign — «с твоим именем НА табличке»: надпись на поверхности — предлог on; a sign — табличка упоминается впервые.",
     "level": "A2",
-    "grammarTags": ["question", "present-continuous", "collocation", "place-preposition", "article"],
-    "topicTags": ["texting", "travel", "communication"]
+    "grammarTags": ["question","present-continuous","collocation","place-preposition","article"],
+    "topicTags": ["texting","travel","communication"]
   },
   {
     "id": 450,
     "russian": "Пока мы ехали из аэропорта, таксист всю дорогу рассказывал мне о своём городе — это было мило.",
     "english": "While we were driving from the airport, the cab driver kept telling me about his city — it was sweet.",
-    "alternatives": ["The whole ride from the airport, the cab driver was telling me all about his city — it was really sweet.", "On the way in from the airport, the taxi driver wouldn't stop talking about his city, and honestly it was adorable."],
+    "alternatives": ["The whole ride from the airport, the cab driver was telling me all about his city — it was really sweet.","On the way in from the airport, the taxi driver wouldn't stop talking about his city, and honestly it was adorable."],
     "vocab": [{"word":"drive","translation":"ехать (на машине)"}, {"word":"cab driver","translation":"таксист"}, {"word":"keep doing","translation":"продолжать, всё время делать"}, {"word":"tell someone about","translation":"рассказывать кому-то о"}, {"word":"sweet","translation":"милый, трогательный"}, {"word":"the whole ride","translation":"всю дорогу"}],
     "explanation": "While we were driving — Past Continuous: длительный процесс-фон «пока ехали»; after/while + процесс почти всегда тянет Continuous. На его фоне — kept telling: keep + V-ing означает «продолжать, делать всё время, не переставая»: kept telling = «всю дорогу рассказывал»; после keep ТОЛЬКО герундий, не инфинитив. keep — неправильный глагол: keep—kept—kept. tell someone about something — «рассказывать КОМУ о ЧЁМ»: tell без предлога перед адресатом (telling me), а тема — через about: about his city; не путай с say, у которого адресат идёт с to (said to me). the cab driver — the: водитель конкретного такси, в котором ехали. it was sweet — «это было мило»: sweet о трогательном поступке или человеке, очень по-американски.",
     "level": "B1",
-    "grammarTags": ["past-continuous", "past-simple", "gerund", "preposition", "article"],
-    "topicTags": ["travel", "communication"]
+    "grammarTags": ["past-continuous","past-simple","gerund","preposition","article"],
+    "topicTags": ["travel","communication"]
   }
 ]
