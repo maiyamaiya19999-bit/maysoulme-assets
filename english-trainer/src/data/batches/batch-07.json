@@ -1,22 +1,23 @@
 [
   {
     "id": 301,
-    "russian": "Прости, что так долго не отвечала — у меня была сумасшедшая неделя на работе.",
-    "english": "Sorry it took me so long to reply — I've had a crazy week at work.",
+    "russian": "Прости, что так долго не отвечала — я только что закончила снимать видео для блога, а телефон всё это время лежал в другой комнате.",
+    "english": "Sorry it took me so long to reply — I've just finished filming a video for my blog, and my phone was in the other room the whole time.",
     "alternatives": [
-      "Sorry for the late reply — work has been insane this week.",
-      "Sorry I didn't get back to you sooner — this week at work has been nuts.",
-      "I'm sorry I went quiet on you — it's been a hectic week at work."
+      "Sorry for the late reply — I was filming for my blog and left my phone in the other room.",
+      "Sorry I went quiet — I just wrapped up a video shoot for my blog, and my phone wasn't with me.",
+      "Sorry I didn't get back to you sooner — I was shooting a video and didn't have my phone on me."
     ],
     "vocab": [
       { "word": "take someone long to do something", "translation": "у кого-то занимает много времени сделать что-то" },
       { "word": "reply", "translation": "отвечать (на сообщение)" },
-      { "word": "crazy", "translation": "сумасшедший, безумный" },
-      { "word": "at work", "translation": "на работе" }
+      { "word": "finish doing something", "translation": "закончить делать что-то" },
+      { "word": "film a video", "translation": "снимать видео" },
+      { "word": "the whole time", "translation": "всё это время" }
     ],
-    "explanation": "Sorry it took me so long to reply — конструкция it takes someone time to do something: «у кого-то занимает время что-то сделать». took — V2 от take (take—took—taken), Past Simple, потому что речь о конкретной задержке, которая уже случилась. После so long идёт инфинитив с to: to reply. I've had — Present Perfect (have + V3): неделя только что закончилась или ещё длится, её результат — усталость — ощущается прямо сейчас; чистый Past Simple (I had a crazy week) звучал бы как отчёт о давно закрытом периоде. a crazy week — артикль a: одна из недель, упомянута впервые. at work — устойчивое «на работе», всегда с at и без артикля: at work — про состояние «на работе вообще», а не про здание.",
+    "explanation": "Sorry it took me so long to reply — конструкция it takes someone time to do something: «у кого-то уходит столько-то времени, чтобы сделать что-то». took — V2 от take (take—took—taken), Past Simple: задержка уже случилась и закрыта. После so long идёт инфинитив с to: to reply. I've just finished — Present Perfect (have + V3): действие закончилось буквально сейчас, и его результат — «я снова на связи» — важен в момент речи; just ставится между have и V3. После finish всегда герундий: finished filming, а не finished to film (как после enjoy, stop, keep). a video — артикль a: одно видео, упомянутое впервые; for my blog — «для блога», притяжательное my. was — Past Simple от be (was/were), описание того, где лежал телефон; in the other room — предлог in, потому что «внутри комнаты», и the: другая, вторая комната из известных. the whole time — «всё это время», устойчиво с артиклем the.",
     "level": "B1",
-    "grammarTags": ["past-simple", "present-perfect", "infinitive", "collocation", "place-preposition", "article"],
+    "grammarTags": ["past-simple", "present-perfect", "infinitive", "gerund", "collocation", "place-preposition", "article"],
     "topicTags": ["texting", "work"]
   },
   {
@@ -73,7 +74,7 @@
       { "word": "reply", "translation": "отвечать" },
       { "word": "for so long", "translation": "так долго" }
     ],
-    "explanation": "Are you upset — вопрос с глаголом be строится простой инверсией: are выходит вперёд, никакого do. upset — прилагательное «расстроенный, обиженный»; русскому глаголу «обиделся» соответствует английское состояние be upset. После него придаточное с that: upset that I didn't reply. didn't reply — отрицание в Past Simple: did + not + V1, глагол возвращается в начальную форму (не didn't replied). for so long — предлог for + отрезок времени: «в течение такого долгого времени»; for отвечает на вопрос «как долго», а since указывал бы точку отсчёта (since Monday). Обрати внимание: настоящее время в русском «не отвечала» здесь передаётся прошедшим, потому что период молчания уже закончился.",
+    "explanation": "Are you upset — вопрос с глаголом be строится простой инверсией: are выходит вперёд, никакого do. upset — прилагательное «расстроенный, обиженный»; русскому глаголу «обиделся» соответствует английское состояние be upset. После него придаточное с that: upset that I didn't reply. didn't reply — отрицание в Past Simple: did + not + V1, глагол возвращается в начальную форму (не didn't replied). for so long — предлог for + отрезок времени: «в течение такого долгого времени»; for отвечает на вопрос «как долго», а since указывал бы точку отсчёта (since Monday). Русское «не отвечала» — несовершенный вид, но по-английски здесь обычный Past Simple, а не Continuous: период молчания уже закончился, и важен сам факт, а не процесс.",
     "level": "A2",
     "grammarTags": ["question", "negation", "past-simple", "for-since"],
     "topicTags": ["texting", "feelings", "dating"]
@@ -142,24 +143,25 @@
   },
   {
     "id": 308,
-    "russian": "Я весь день просидела на встречах и даже не успела выпить кофе.",
-    "english": "I was in meetings all day, and I didn't even have time to grab a coffee.",
+    "russian": "Сегодня я решила не заказывать еду и приготовила на ужин свою фирменную пасту с песто — получилось идеально.",
+    "english": "Tonight I decided not to order in and made my signature pesto pasta for dinner instead — it turned out perfect.",
     "alternatives": [
-      "I've been stuck in meetings all day — I haven't even had a chance to get coffee.",
-      "It was back-to-back meetings all day, so I never got around to my coffee.",
-      "My whole day was meetings — I didn't even manage to grab a coffee."
+      "I skipped delivery tonight and cooked my signature pesto pasta — it came out perfect.",
+      "No takeout tonight — I made my famous pesto pasta for dinner, and it was flawless.",
+      "Instead of ordering food, I whipped up my signature pesto pasta tonight — perfection."
     ],
     "vocab": [
-      { "word": "be in meetings", "translation": "быть на встречах" },
-      { "word": "all day", "translation": "весь день" },
-      { "word": "have time to do something", "translation": "успевать что-то сделать" },
-      { "word": "grab a coffee", "translation": "выпить кофе по-быстрому" },
-      { "word": "even", "translation": "даже" }
+      { "word": "decide not to do something", "translation": "решить не делать что-то" },
+      { "word": "order in", "translation": "заказать еду на дом" },
+      { "word": "signature pasta", "translation": "фирменная паста" },
+      { "word": "for dinner", "translation": "на ужин" },
+      { "word": "instead", "translation": "вместо этого" },
+      { "word": "turn out", "translation": "получиться, оказаться" }
     ],
-    "explanation": "was in meetings — «на встречах» по-английски in: ты внутри процесса, а не сверху него (кальки on meetings нет). all day — «весь день» без предлога: слова all, every, this, last вытесняют предлог. «Не успела» — отдельного глагола нет, используется didn't have time to + V1: «не имела времени сделать». even ставится после didn't: didn't even have. grab a coffee — живое разговорное «схватить кофе, выпить по-быстрому»; grab здесь заменяет скучное drink. a coffee — интересный случай: кофе вообще неисчисляем, но в значении «одна чашка/один стакан» становится исчисляемым — a coffee, two coffees, как в кофейне.",
+    "explanation": "decided not to order — после decide идёт инфинитив с to, а отрицание ставится ПЕРЕД инфинитивом: decided not to order, не didn't decide to order (это меняло бы смысл: «не решала заказывать»). order in — фразовый глагол «заказать еду на дом»: in — «к себе, внутрь»; противоположность eat out «поесть в ресторане». decided, made — Past Simple: оба действия сегодня вечером и завершены; made — V2 от make (make—made—made), «приготовила». my signature pesto pasta — signature здесь прилагательное «фирменный» (signature dish — фирменное блюдо); порядок: притяжательное → характеристика → название блюда. for dinner — приёмы пищи с for и без артикля: for breakfast, for dinner. instead — «вместо этого», в конце своей части. it turned out perfect — фразовый глагол turn out «получиться, оказаться»: после него прилагательное perfect, а не наречие, потому что описываем результат-состояние (как в it turned out great).",
     "level": "B1",
-    "grammarTags": ["past-simple", "negation", "infinitive", "article", "preposition", "collocation"],
-    "topicTags": ["work", "daily-life", "food"]
+    "grammarTags": ["past-simple", "negation", "infinitive", "phrasal-verb", "preposition", "collocation"],
+    "topicTags": ["food", "daily-life", "lifestyle"]
   },
   {
     "id": 309,
@@ -202,22 +204,23 @@
   },
   {
     "id": 311,
-    "russian": "Я весь день была в дороге — в поезде почти не ловила связь.",
-    "english": "I was on the road all day — I barely had any signal on the train.",
+    "russian": "Я весь день ехала к родителям — в поезде почти не ловила связь.",
+    "english": "I was on the train to my parents' all day — I barely had any signal.",
     "alternatives": [
-      "I was traveling all day, and the signal on the train was terrible.",
-      "I spent the whole day on a train with almost no reception.",
-      "I've been in transit all day — my phone had hardly any bars on the train."
+      "I spent the whole day on a train to my parents' place, with almost no reception.",
+      "I was traveling to my parents' all day, and the signal on the train was terrible.",
+      "I've been on the road to my parents' all day — my phone had hardly any bars."
     ],
     "vocab": [
-      { "word": "on the road", "translation": "в дороге" },
+      { "word": "on the train", "translation": "в поезде" },
+      { "word": "my parents'", "translation": "к родителям (домой)" },
+      { "word": "all day", "translation": "весь день" },
       { "word": "barely", "translation": "едва, почти не" },
-      { "word": "signal", "translation": "связь, сигнал (мобильный)" },
-      { "word": "on the train", "translation": "в поезде" }
+      { "word": "signal", "translation": "связь, сигнал (мобильный)" }
     ],
-    "explanation": "on the road — устойчивое «в дороге, в разъездах», всегда с the: I was on the road. barely = «едва, почти не» — слово само по себе отрицательное, поэтому not не добавляется: barely had, а не didn't barely have — в английском одно отрицание на предложение. После barely естественно идёт any: barely had any signal — «почти не было никакой связи»; signal здесь неисчисляемая «связь, покрытие» (have signal / have no signal — так говорят про мобильную сеть). on the train — транспорт, в который заходишь и где можно стоять, идёт с on: on the train, on the bus, on the plane; но in the car — в машине in, потому что в неё «влезают».",
+    "explanation": "I was on the train — транспорт, где можно стоять и ходить, идёт с on: on the train, on the bus, on the plane; но in the car — в машину «влезают», поэтому in. the train — the: конкретный поезд, в котором я ехала. to my parents' — направление с to; parents' с апострофом после s — притяжательное множественного числа, а слово place опущено: «к родителям (домой)», как at my sister's. all day — «весь день» без предлога: all, every, this, last вытесняют предлог. barely — «едва, почти не»: слово само отрицательное, поэтому not не добавляется (не didn't barely have) — в английском одно отрицание на предложение. После barely естественно идёт any: barely had any signal — «почти не было связи»; signal здесь неисчисляемая «связь, покрытие» (have signal / have no signal — так говорят о мобильной сети). had — V2 от have (have—had—had).",
     "level": "B1",
-    "grammarTags": ["past-simple", "place-preposition", "quantifier", "collocation"],
+    "grammarTags": ["past-simple", "place-preposition", "movement-preposition", "quantifier", "collocation"],
     "topicTags": ["travel", "texting", "daily-life"]
   },
   {
@@ -381,44 +384,46 @@
   },
   {
     "id": 320,
-    "russian": "Я обычно записываю голосовые, пока иду домой с работы.",
-    "english": "I usually send voice messages while I'm walking home from work.",
+    "russian": "Я обычно записываю голосовые, пока иду домой из зала — так что не удивляйся, если я слегка запыхалась.",
+    "english": "I usually send voice messages while I'm walking home from the gym — so don't be surprised if I sound a little out of breath.",
     "alternatives": [
-      "I tend to record voice memos on my walk home from work.",
-      "Most of my voice messages get sent on the way home from work.",
-      "I usually do my voice notes while walking back from the office."
+      "I tend to record voice memos on my walk home from the gym, so I might sound a bit winded.",
+      "Most of my voice notes get sent on the way back from the gym — excuse the heavy breathing!",
+      "I usually do voice messages while walking home after my workout, so don't mind if I'm a little breathless."
     ],
     "vocab": [
-      { "word": "usually", "translation": "обычно" },
-      { "word": "send", "translation": "отправлять" },
       { "word": "voice message", "translation": "голосовое сообщение" },
       { "word": "walk home", "translation": "идти домой пешком" },
-      { "word": "from work", "translation": "с работы" }
+      { "word": "from the gym", "translation": "из зала" },
+      { "word": "be surprised", "translation": "удивляться" },
+      { "word": "sound + adjective", "translation": "звучать, казаться (на слух)" },
+      { "word": "out of breath", "translation": "запыхавшийся" }
     ],
-    "explanation": "I usually send — Present Simple для привычки; usually стоит между подлежащим и смысловым глаголом (не в начале обязательного порядка и не в конце). «Записываю голосовые» по-английски проще — send voice messages: их «отправляют», глагол record тут избыточен. while I'm walking — Present Continuous после while: процесс-фон, на котором происходит привычное действие; получается пара «привычка (Simple) во время процесса (Continuous)». walk home — home без предлога to: это наречие направления (как go home, get home). from work — движение «откуда» = from; work в значении «место работы» идёт без артикля: from work, at work, after work.",
+    "explanation": "I usually send — Present Simple для привычки; usually стоит между подлежащим и смысловым глаголом. «Записываю голосовые» по-английски проще — send voice messages: их «отправляют», record тут лишнее. while I'm walking — Present Continuous после while: процесс-фон, во время которого происходит привычное действие; получается пара «привычка (Simple) во время процесса (Continuous)». walk home — home без предлога to: это наречие направления (как go home). from the gym — «откуда» = from; gym с артиклем the — «мой зал, тот самый, куда хожу». don't be surprised — отрицательный императив с be: don't + be + прилагательное; русское «не удивляйся» по-английски — «не будь удивлён». if I sound — после if будущее не ставится, только Present Simple (не if I will sound); sound + прилагательное = «звучать, казаться на слух»: sound tired, sound happy. a little out of breath — «слегка запыхавшаяся»: out of breath — устойчивое выражение, a little смягчает.",
     "level": "A2",
-    "grammarTags": ["present-simple", "present-continuous", "movement-preposition", "word-order"],
-    "topicTags": ["texting", "daily-life", "work"]
+    "grammarTags": ["present-simple", "present-continuous", "movement-preposition", "word-order", "imperative", "negation", "conditional-1"],
+    "topicTags": ["texting", "daily-life", "lifestyle"]
   },
   {
     "id": 321,
-    "russian": "Твоё вчерашнее голосовое рассмешило меня прямо в метро.",
-    "english": "Your voice message from yesterday made me laugh right on the subway.",
+    "russian": "Твоё вчерашнее голосовое рассмешило меня прямо посреди партии в шахматном клубе.",
+    "english": "Your voice message from yesterday made me laugh right in the middle of a game at my chess club.",
     "alternatives": [
-      "I cracked up on the subway listening to your voice message yesterday.",
-      "Your voice note yesterday had me laughing out loud in the middle of the subway.",
-      "I couldn't stop laughing at yesterday's voice message — and I was on the subway."
+      "I cracked up in the middle of a chess game yesterday listening to your voice message.",
+      "Your voice note yesterday had me laughing out loud at the chess club — mid-game!",
+      "I couldn't stop laughing at yesterday's voice message — and I was in the middle of a chess game."
     ],
     "vocab": [
       { "word": "voice message", "translation": "голосовое сообщение" },
       { "word": "make someone laugh", "translation": "рассмешить кого-то" },
       { "word": "right", "translation": "прямо (усилитель)" },
-      { "word": "on the subway", "translation": "в метро" }
+      { "word": "in the middle of", "translation": "посреди" },
+      { "word": "chess club", "translation": "шахматный клуб" }
     ],
-    "explanation": "made me laugh — конструкция make somebody do something: «заставить кого-то сделать» — после make глагол идёт БЕЗ to, в голой форме V1 (bare infinitive): made me laugh, а не made me to laugh. made — V2 от make (make—made—made). «Рассмешило» целиком раскладывается на «заставило меня смеяться». from yesterday — «вчерашнее» = сообщение «от вчера»; прилагательного yesterday's message тоже можно, но from yesterday разговорнее. right = «прямо» (right on the subway — прямо в метро). on the subway — американское «в метро» с предлогом on (как on the train); артикль the — городская система как известный обоим объект. Британцы сказали бы on the Tube.",
+    "explanation": "made me laugh — конструкция make somebody do something: «заставить кого-то сделать» — после make глагол идёт БЕЗ to, в голой форме V1 (bare infinitive): made me laugh, а не made me to laugh. made — V2 от make (make—made—made). «Рассмешило» раскладывается на «заставило меня смеяться». from yesterday — «вчерашнее» = сообщение «от вчера»; yesterday's message тоже правильно, но from yesterday разговорнее. right — усилитель «прямо»: right in the middle of. in the middle of a game — «посреди партии»: устойчивое in the middle of + существительное; a game — артикль a, партия упомянута впервые; «партия» в шахматах по-английски именно game, не party. at my chess club — клуб как место встречи идёт с at (at the club, at the gym), а не in; притяжательное my — «в моём клубе, куда я хожу». Заодно запомни: chess — неисчисляемое, без артикля (play chess).",
     "level": "B1",
     "grammarTags": ["past-simple", "bare-infinitive", "place-preposition", "article"],
-    "topicTags": ["texting", "humor", "feelings"]
+    "topicTags": ["texting", "humor", "interests"]
   },
   {
     "id": 322,
@@ -544,66 +549,67 @@
   },
   {
     "id": 328,
-    "russian": "Если честно, день тяжёлый: начальник опять поменял все наши планы в последний момент.",
-    "english": "Honestly, it was a rough day — my boss changed all our plans at the last minute again.",
+    "russian": "Если честно, день был насыщенный: мы с командой в последний момент переписали весь сценарий видео — но результат того стоил.",
+    "english": "Honestly, it was a full day — my team and I rewrote the whole video script at the last minute, but it was totally worth it.",
     "alternatives": [
-      "To be honest, today was tough — my boss switched everything up last minute, as usual.",
-      "Not gonna lie, it was a hard day — my boss flipped all our plans at the eleventh hour again.",
-      "Truthfully, rough day — my boss pulled another last-minute change of plans on us."
+      "To be honest, it was a packed day — we redid the entire video script last minute, and it paid off.",
+      "Not gonna lie, it was a busy one — my team and I reworked the whole script at the eleventh hour, but the result was worth it.",
+      "Truthfully, a full day: a last-minute rewrite of the entire video script with my team — and it turned out great."
     ],
     "vocab": [
       { "word": "honestly", "translation": "если честно" },
-      { "word": "rough", "translation": "тяжёлый, непростой" },
-      { "word": "boss", "translation": "начальник" },
-      { "word": "change plans", "translation": "менять планы" },
+      { "word": "full (day)", "translation": "насыщенный, плотный (день)" },
+      { "word": "rewrite", "translation": "переписать (rewrite—rewrote—rewritten)" },
+      { "word": "the whole", "translation": "весь, целый" },
       { "word": "at the last minute", "translation": "в последний момент" },
-      { "word": "again", "translation": "опять" }
+      { "word": "be worth it", "translation": "стоить того" }
     ],
-    "explanation": "Honestly — вводное «если честно», одним словом в начале. a rough day — rough буквально «шершавый», в разговоре — «тяжёлый, непростой» (a rough day, a rough week); звучит естественнее школьного hard; артикль a — один из дней. changed — Past Simple: конкретное действие в прошедшем дне. all our plans — квантификатор all ставится ПЕРЕД притяжательным: all our plans, а не our all plans. at the last minute — устойчивое «в последний момент»: предлог at + артикль the, менять ничего нельзя. again — «опять», в самом конце предложения. my boss — притяжательное: «мой начальник», по-английски всегда уточняется чей.",
+    "explanation": "Honestly — вводное «если честно», одним словом в начале. a full day — full в разговоре значит «насыщенный, плотный» (a full day, a full schedule); артикль a — один из дней. my team and I — русское «мы с командой» по-английски перечисление «моя команда и я»: себя называют последней и в форме I, потому что это подлежащее. rewrote — V2 от rewrite (rewrite—rewrote—rewritten), «переписали»; Past Simple: конкретное завершённое действие сегодня. the whole video script — квантификатор whole «весь, целый» стоит после артикля: the whole script (all the script говорят гораздо реже); video script — существительное video в роли определения, «сценарий видео». at the last minute — устойчивое «в последний момент»: предлог at + артикль the, менять ничего нельзя. was totally worth it — устойчивое be worth it «стоить того»; totally — разговорный американский усилитель «полностью, абсолютно». but — противопоставление между плотным днём и результатом.",
     "level": "B1",
     "grammarTags": ["past-simple", "quantifier", "collocation", "time-preposition", "article"],
     "topicTags": ["work", "feelings"]
   },
   {
     "id": 329,
-    "russian": "После работы я заскочила к сестре — посидеть с племянником.",
-    "english": "After work, I stopped by my sister's place to hang out with my nephew.",
+    "russian": "После созвонов я заскочила к сестре — послушать, как она репетирует новую арию.",
+    "english": "After my calls, I stopped by my sister's place to listen to her practice a new aria.",
     "alternatives": [
-      "I swung by my sister's after work to spend some time with my nephew.",
-      "After work I dropped in on my sister and hung out with my nephew for a bit.",
-      "I popped over to my sister's after work — got some quality time with my nephew."
+      "I swung by my sister's after my calls to hear her rehearse a new aria.",
+      "Once my calls were done, I dropped in on my sister and listened to her run through a new aria.",
+      "After work I popped over to my sister's — she was practicing a new aria, and I got a private concert."
     ],
     "vocab": [
-      { "word": "after work", "translation": "после работы" },
       { "word": "stop by", "translation": "заскочить, заглянуть" },
       { "word": "someone's place", "translation": "чьё-то жильё, «к кому-то»" },
-      { "word": "hang out with", "translation": "проводить время с" },
-      { "word": "nephew", "translation": "племянник" }
+      { "word": "listen to someone do something", "translation": "послушать, как кто-то что-то делает" },
+      { "word": "practice", "translation": "репетировать, разучивать" },
+      { "word": "aria", "translation": "ария" }
     ],
-    "explanation": "stopped by — фразовый глагол «заскочить, заглянуть ненадолго»: by добавляет смысл «мимоходом, по пути». my sister's place — «к сестре» значит «к сестре домой»: притяжательное 's + place, где place — разговорное «чьё-то жильё» (my place, your place). to hang out — инфинитив цели: «(чтобы) посидеть, провести время»; hang out — очень частотный фразовый глагол «тусоваться, зависать, просто проводить время вместе» — без оттенка безделья, просто неформальное общение. with my nephew — nephew «племянник» (niece — племянница). After work — «после работы» без артикля: work как место/период работы артикля не берёт.",
+    "explanation": "After my calls — «после созвонов»: after + существительное, притяжательное my — мои рабочие созвоны. stopped by — фразовый глагол «заскочить, заглянуть ненадолго»: by добавляет смысл «мимоходом, по пути». my sister's place — «к сестре» = «к сестре домой»: притяжательное 's + place, где place — разговорное «чьё-то жильё» (my place, your place). to listen — инфинитив цели: «(чтобы) послушать». Дальше конструкция глагола восприятия: listen to somebody do something — после listen to / hear / see / watch + объект глагол идёт в голой форме V1 (bare infinitive): listen to her practice, а не to practice (форма practicing тоже возможна, но подчёркивала бы отрывок процесса). practice — американское написание глагола (британцы пишут practise), «репетировать, разучивать». a new aria — артикль a: новая, ранее не упоминавшаяся ария.",
     "level": "B1",
-    "grammarTags": ["past-simple", "phrasal-verb", "infinitive"],
-    "topicTags": ["family", "daily-life"]
+    "grammarTags": ["past-simple", "phrasal-verb", "infinitive", "bare-infinitive"],
+    "topicTags": ["family", "daily-life", "interests"]
   },
   {
     "id": 330,
-    "russian": "Не спрашивай про мой день — лучше расскажи что-нибудь хорошее.",
-    "english": "Don't ask about my day — tell me something good instead.",
+    "russian": "Не смейся, но я сегодня наконец обыграла своего тренера по шахматам — теперь расскажи, чем гордишься ты.",
+    "english": "Don't laugh, but I finally beat my chess coach today — now tell me something you're proud of.",
     "alternatives": [
-      "Let's not talk about my day — got any good news for me?",
-      "Skip the 'how was your day' — cheer me up with something nice.",
-      "I'd rather not get into my day — tell me something happy instead."
+      "Don't make fun of me, but I finally won against my chess coach today — your turn, what are you proud of?",
+      "Okay, no laughing: I beat my chess coach today for the first time — now share something you're proud of.",
+      "I finally got a win over my chess coach today, so don't laugh — and tell me what you've been proud of lately."
     ],
     "vocab": [
-      { "word": "ask about", "translation": "спрашивать о" },
+      { "word": "laugh", "translation": "смеяться" },
+      { "word": "beat", "translation": "обыграть, победить (beat—beat—beaten)" },
+      { "word": "coach", "translation": "тренер" },
       { "word": "tell me", "translation": "расскажи мне" },
-      { "word": "something good", "translation": "что-нибудь хорошее" },
-      { "word": "instead", "translation": "вместо этого, лучше" }
+      { "word": "be proud of", "translation": "гордиться чем-то" }
     ],
-    "explanation": "Don't + V1 — отрицательный императив: запрет или просьба не делать; don't обязателен, нельзя просто Not ask. ask about — «спрашивать о чём-то» с предлогом about. tell me — положительный императив с обязательным адресатом me. something good — ключевое правило порядка слов: прилагательное ставится ПОСЛЕ слов something, anything, nothing, someone: something good, nothing serious, someone special — а не good something. instead — «вместо этого, лучше», стоит в конце и заменяет целую русскую конструкцию «лучше…». Две команды в одной реплике — «не делай X, сделай Y» — очень живой разговорный ход.",
+    "explanation": "Don't + V1 — отрицательный императив: просьба не делать чего-то; don't обязателен, нельзя просто Not laugh. beat — «обыграть, победить кого-то в игре»: beat someone, а не win someone (win — «выиграть что-то»: win a game, win a prize). beat — неправильный глагол с одинаковыми V1 и V2 (beat—beat—beaten), поэтому Past Simple здесь узнаётся только по контексту: finally beat … today. finally — «наконец», перед смысловым глаголом. now tell me — положительный императив с обязательным адресатом me. something you're proud of — придаточное без союза (contact clause): «что-то, (чем) ты гордишься»; that опущен, а предлог of ушёл в конец — так устроено be proud of «гордиться чем-то»: proud OF, и предлог не теряется, даже когда объект стоит впереди. Порядок слов: определение всегда ПОСЛЕ something: something good, something you're proud of. Такой ход — рассказать о своём маленьком успехе и сразу спросить о его — двигает разговор лучше любого «как дела».",
     "level": "A2",
-    "grammarTags": ["imperative", "negation", "preposition", "word-order"],
-    "topicTags": ["feelings", "communication", "texting"]
+    "grammarTags": ["imperative", "negation", "past-simple", "word-order", "preposition", "relative-clause"],
+    "topicTags": ["feelings", "interests", "texting"]
   },
   {
     "id": 331,
@@ -627,148 +633,153 @@
   },
   {
     "id": 332,
-    "russian": "Ты ещё не спишь? Уже почти час ночи!",
-    "english": "Are you still awake? It's almost one in the morning!",
+    "russian": "Ты во сколько обычно ложишься? Я каждый вечер убираю телефон в десять.",
+    "english": "What time do you usually go to bed? I put my phone away at ten every night.",
     "alternatives": [
-      "You're still up? It's nearly 1 a.m.!",
-      "Why aren't you asleep yet? It's almost one!",
-      "Still awake? Do you know it's practically one in the morning?"
+      "When do you usually turn in? My phone gets put away at ten every night.",
+      "What's your bedtime, usually? I'm off my phone by ten every evening.",
+      "Are you an early sleeper? I put my phone away at ten sharp every night."
     ],
     "vocab": [
-      { "word": "still", "translation": "всё ещё" },
-      { "word": "awake", "translation": "бодрствующий, не спящий" },
-      { "word": "almost", "translation": "почти" },
-      { "word": "one in the morning", "translation": "час ночи" }
+      { "word": "What time…?", "translation": "Во сколько…?" },
+      { "word": "go to bed", "translation": "ложиться спать" },
+      { "word": "put away", "translation": "убирать (подальше)" },
+      { "word": "at ten", "translation": "в десять" },
+      { "word": "every night", "translation": "каждый вечер" }
     ],
-    "explanation": "Are you still awake? — англичане и американцы спрашивают не «ты не спишь?», а «ты ещё бодрствуешь?»: awake — прилагательное «неспящий», вопрос строится инверсией с are. still — «всё ещё», ставится перед прилагательным. Русское отрицание («не спишь») в английской версии исчезает — и это типично: утвердительный вопрос с awake звучит естественнее. It's almost one — время всегда объявляется через безличное it: It's one, It's five thirty. in the morning — вот сюрприз: русский «час НОЧИ» по-английски — час УТРА: время после полуночи и до рассвета называется morning (one in the morning, three in the morning). almost = «почти».",
+    "explanation": "What time do you usually go to bed? — вопрос Present Simple о привычке: вспомогательный do + подлежащее + V1; usually стоит между подлежащим и глаголом. What time — «во сколько» (не What o'clock и не At what time — в разговоре предлог опускают). go to bed — «ложиться спать»: bed без артикля в устойчивых выражениях о сне (go to bed, be in bed); артикль появился бы, только если речь о кровати как мебели. I put my phone away — фразовый глагол put away «убирать (на место, подальше)»: короткое дополнение my phone ставится между put и away (put away my phone тоже можно, но с местоимением только put it away). put — глагол с одинаковыми формами V1—V2—V3, здесь Present Simple: регулярное действие. at ten — точное время суток всегда с at. every night — «каждый вечер/ночь» без предлога: every вытесняет предлог.",
     "level": "A2",
-    "grammarTags": ["question", "present-simple", "time-preposition"],
-    "topicTags": ["texting", "small-talk"]
+    "grammarTags": ["question", "present-simple", "time-preposition", "phrasal-verb", "word-order"],
+    "topicTags": ["texting", "small-talk", "lifestyle"]
   },
   {
     "id": 333,
-    "russian": "Обычно я не сижу так поздно, но с тобой время летит незаметно.",
-    "english": "I don't usually stay up this late, but time flies when I'm talking to you.",
+    "russian": "Обычно после десяти я не сижу в телефоне, но с тобой время летит незаметно — всё, мне правда пора отключаться!",
+    "english": "I'm not usually on my phone after ten, but time flies when I'm talking to you — okay, I really have to sign off now!",
     "alternatives": [
-      "I'm not normally up this late, but I lose track of time when we're talking.",
-      "Staying up this late isn't like me — the hours just disappear when I'm with you.",
-      "I usually crash way earlier, but chatting with you makes time fly."
+      "I don't normally stay on my phone past ten, but I lose track of time when we're talking — all right, I'm logging off!",
+      "Being on my phone this late isn't like me, but the time just disappears with you — okay, good night for real!",
+      "I'm usually off my phone by ten, but chatting with you makes time fly — I really need to go now!"
     ],
     "vocab": [
-      { "word": "usually", "translation": "обычно" },
-      { "word": "stay up", "translation": "не ложиться спать, засиживаться" },
-      { "word": "this late", "translation": "так поздно" },
+      { "word": "be on one's phone", "translation": "сидеть в телефоне" },
+      { "word": "after ten", "translation": "после десяти" },
       { "word": "time flies", "translation": "время летит" },
-      { "word": "talk to", "translation": "разговаривать с" }
+      { "word": "talk to", "translation": "разговаривать с" },
+      { "word": "have to", "translation": "нужно, пора" },
+      { "word": "sign off", "translation": "отключаться, заканчивать переписку" }
     ],
-    "explanation": "don't usually — отрицание привычки в Present Simple; usually ставится после don't и перед смысловым глаголом. stay up — фразовый глагол «не ложиться спать, засиживаться»: up здесь — «оставаться на ногах»; очень частотный (stay up late, stay up all night). this late — разговорное «настолько поздно», this усиливает как so. time flies — устойчивое «время летит», Present Simple как общая истина; полная поговорка — time flies when you're having fun. when I'm talking to you — Present Continuous: процесс разговора как фон, в котором время и пропадает; talk to — «говорить с». Контраст Simple (привычка) и Continuous (процесс) в одной фразе — то, что тренажёр и должен натренировать.",
+    "explanation": "I'm not usually on my phone — отрицание с be в Present Simple: am + not; usually стоит после not, перед именной частью. be on one's phone — «сидеть в телефоне» с предлогом on, русский глагол «сидеть» не переводится. after ten — «после десяти»: after + время, без at. time flies — устойчивое «время летит», Present Simple как общая истина; полная поговорка — time flies when you're having fun. when I'm talking to you — Present Continuous: разговор как процесс-фон, в котором время и теряется; talk to — «говорить с». I really have to sign off — have to «нужно, приходится»: необходимость по обстоятельствам (здесь — по собственному правилу); really усиливает: «правда пора». sign off — фразовый глагол «отключаться, заканчивать переписку или эфир»: off — «выход из связи», как log off. Контраст Simple (привычка) и Continuous (процесс) в одной фразе — то, что стоит натренировать.",
     "level": "B1",
-    "grammarTags": ["negation", "present-simple", "phrasal-verb", "collocation", "present-continuous", "word-order"],
+    "grammarTags": ["negation", "present-simple", "collocation", "present-continuous", "word-order", "phrasal-verb", "modal", "time-preposition"],
     "topicTags": ["texting", "dating", "feelings"]
   },
   {
     "id": 334,
-    "russian": "Мне завтра рано вставать — в девять созвон с клиентом из Лондона.",
-    "english": "I have to get up early tomorrow — I have a call with a client from London at nine.",
+    "russian": "Мне завтра вставать в семь — в восемь пробежка, а в двенадцать созвон с партнёром из Нью-Йорка.",
+    "english": "I have to get up at seven tomorrow — I've got a run at eight and a call with a partner from New York at noon.",
     "alternatives": [
-      "I've got an early start tomorrow — a nine o'clock call with a client in London.",
-      "I need to be up early tomorrow, I'm on a call with a London client at nine.",
-      "Early morning for me tomorrow — I've got a client in London calling at nine."
+      "I've got an early start tomorrow — a run at eight and then a noon call with a partner in New York.",
+      "I need to be up at seven tomorrow: morning run at eight, and a call with a New York partner at twelve.",
+      "Seven a.m. wake-up for me tomorrow — I'm running at eight and jumping on a call with a partner from New York at noon."
     ],
     "vocab": [
       { "word": "have to", "translation": "приходится, нужно" },
       { "word": "get up", "translation": "вставать (с постели)" },
-      { "word": "early", "translation": "рано" },
+      { "word": "run (noun)", "translation": "пробежка" },
       { "word": "have a call with", "translation": "созваниваться с" },
-      { "word": "client", "translation": "клиент" },
-      { "word": "at nine", "translation": "в девять" }
+      { "word": "partner", "translation": "партнёр (по проекту)" },
+      { "word": "at noon", "translation": "в полдень" }
     ],
-    "explanation": "have to + V1 — «приходится, надо»: необходимость, навязанная обстоятельствами (расписанием), а не собственным желанием; must звучал бы жёстче, как внутренний приказ. get up — фразовый глагол «вставать с постели» (wake up — проснуться, get up — именно встать). early tomorrow — сначала «как» (early), потом «когда» (tomorrow). a call, a client — оба с артиклем a: и звонок, и клиент упоминаются впервые. with a client — созвон «с кем» = with. from London — происхождение/откуда = from; города без артикля. at nine — точное время суток всегда с at: at nine, at 9:30, at noon.",
+    "explanation": "have to + V1 — «приходится, надо»: необходимость по обстоятельствам (расписанию), а не внутренний приказ, как must. get up — фразовый глагол «вставать с постели» (wake up — проснуться, get up — именно встать). at seven, at eight, at noon — точное время суток всегда с at; noon — «полдень» одним словом, без артикля: at noon, at midnight. I've got — американское разговорное «у меня есть», синоним I have; здесь про запланированное: I've got a run — «у меня пробежка». a run, a call, a partner — все с артиклем a: каждый предмет упоминается впервые. with a partner — созвон «с кем» = with; partner — деловой партнёр (о романтическом обычно говорят boyfriend/girlfriend, чтобы не путать). from New York — происхождение «откуда» = from; города без артикля.",
     "level": "A2",
     "grammarTags": ["modal", "phrasal-verb", "time-preposition", "article", "preposition"],
     "topicTags": ["work", "plans", "daily-life"]
   },
   {
     "id": 335,
-    "russian": "Я такая сонная, что уже два раза отправила тебе одно и то же сообщение.",
-    "english": "I'm so sleepy that I've already sent you the same message twice.",
+    "russian": "Я так увлеклась нашим разговором, что у меня уже два раза убежала паста.",
+    "english": "I'm so into our conversation that I've already let the pasta boil over twice.",
     "alternatives": [
-      "I'm so tired I just sent you the same text two times in a row.",
-      "I'm half asleep — I literally texted you the same thing twice.",
-      "Look how sleepy I am: that's the second time I've sent you this exact message."
+      "I'm so caught up in talking to you that my pasta has boiled over twice already.",
+      "Our chat is so good that I've let the pasta boil over two times now.",
+      "Look what you're doing to me — that's the second time my pasta has boiled over while we're talking."
     ],
     "vocab": [
-      { "word": "sleepy", "translation": "сонный" },
+      { "word": "be into something", "translation": "увлекаться, быть захваченной чем-то" },
       { "word": "so ... that", "translation": "настолько ..., что" },
-      { "word": "send", "translation": "отправлять" },
-      { "word": "the same", "translation": "тот же самый" },
+      { "word": "let something happen", "translation": "допустить, дать чему-то случиться" },
+      { "word": "boil over", "translation": "убежать (о кипящей кастрюле)" },
       { "word": "twice", "translation": "дважды, два раза" }
     ],
-    "explanation": "so + прилагательное + that — конструкция «настолько…, что»: so sleepy that. I've sent — Present Perfect: результат налицо в настоящем (два одинаковых сообщения висят в чате), и счёт ещё может вырасти, пока вечер не кончился; already ставится между have и V3. sent — V3 от неправильного send (send—sent—sent). sent you the same message — два дополнения без предлога: сначала кому (you), потом что (the message). the same — same практически всегда ходит с артиклем the: the same message, the same thing. twice — «дважды» одним словом (once, twice, дальше уже three times). sleepy — «сонная», прилагательное от sleep.",
+    "explanation": "so + прилагательное + that — конструкция «настолько…, что»: so into … that. be into something — разговорное «увлекаться, быть захваченным чем-то»: I'm into our conversation — «я так увлечена разговором». I've already let — Present Perfect: результат налицо прямо сейчас (плита, пена, паста), и вечер ещё не кончился — счёт может вырасти; already ставится между have и V3; let — глагол с одинаковыми V1—V2—V3. let something do something — «позволить, допустить»: после let объект и голый инфинитив без to: let the pasta boil over, а не let the pasta to boil over. boil over — фразовый глагол «убежать (о кипящей кастрюле)»: over — «через край». the pasta — артикль the: та самая паста, что варится сейчас; pasta — неисчисляемое, множественного числа нет. twice — «дважды» одним словом (once, twice, дальше three times).",
     "level": "B1",
-    "grammarTags": ["present-simple", "present-perfect", "article"],
-    "topicTags": ["texting", "humor"]
+    "grammarTags": ["present-simple", "present-perfect", "article", "collocation", "bare-infinitive", "phrasal-verb"],
+    "topicTags": ["texting", "humor", "food"]
   },
   {
     "id": 336,
-    "russian": "Мы вчера проболтали до трёх ночи — до сих пор не могу поверить.",
-    "english": "We stayed up talking until three last night — I still can't believe it.",
+    "russian": "Мы вчера проболтали до самых десяти — до сих пор не верится, как быстро пролетел вечер.",
+    "english": "We ended up talking until ten last night — I still can't believe how fast the evening went.",
     "alternatives": [
-      "We were up chatting till 3 a.m. last night — I'm still in shock.",
-      "Last night we talked until three in the morning — how did that even happen?",
-      "I can't get over the fact that we talked till three last night."
+      "We talked right up until ten last night — I'm still amazed at how quickly the evening flew by.",
+      "Last night we chatted until ten on the dot — where did the evening even go?",
+      "I can't get over how fast last night flew — we were talking until ten."
     ],
     "vocab": [
-      { "word": "stay up", "translation": "не ложиться спать, засиживаться" },
-      { "word": "talk", "translation": "разговаривать, болтать" },
+      { "word": "end up doing", "translation": "в итоге (сделать что-то)" },
       { "word": "until", "translation": "до (какого-то момента)" },
-      { "word": "last night", "translation": "вчера вечером/ночью" },
+      { "word": "last night", "translation": "вчера вечером" },
       { "word": "still", "translation": "до сих пор, всё ещё" },
-      { "word": "believe", "translation": "верить" }
+      { "word": "can't believe", "translation": "не верится" },
+      { "word": "go fast (about time)", "translation": "пролетать (о времени)" }
     ],
-    "explanation": "stayed up talking — конструкция stay up + V-ing: «не ложиться, делая что-то» — проболтали до ночи; stay up — фразовый глагол «засиживаться». until three — принципиальный выбор предлога: until = действие ДЛИЛОСЬ до этого момента (болтали и болтали до трёх); by значил бы «к моменту, не позже» — про дедлайн, а не длительность (finish by three — «закончить к трём»). Пара by vs until — классическая ловушка. last night — «вчера ночью/вечером» без предлога: on last night — ошибка. still can't believe it — «до сих пор не верится»: still перед can't, объект it обязателен после believe, когда веришь «в это».",
+    "explanation": "ended up talking — фразовый глагол end up + V-ing: «в итоге оказаться делающим что-то», часто с оттенком «не планировали, а получилось»; после end up всегда герундий. ended — Past Simple: вчерашний вечер закрыт. until ten — принципиальный выбор предлога: until = действие ДЛИЛОСЬ до этого момента (говорили и говорили до десяти); by значил бы «к моменту, не позже» — про дедлайн, а не длительность (finish by ten — «закончить к десяти»). Пара by vs until — классическая ловушка. last night — «вчера вечером/ночью» без предлога: on last night — ошибка. still can't believe — «до сих пор не верится»: still перед can't; модальный can в отрицании — can't + V1. Дальше косвенный вопрос how fast the evening went: порядок слов прямой, без did (прямой вопрос был бы How fast did the evening go?); went — V2 от go (go—went—gone), «пролетел».",
     "level": "B1",
-    "grammarTags": ["past-simple", "phrasal-verb", "by-until", "modal", "negation"],
+    "grammarTags": ["past-simple", "phrasal-verb", "by-until", "modal", "negation", "indirect-question"],
     "topicTags": ["texting", "dating"]
   },
   {
     "id": 337,
-    "russian": "Как ты себя чувствуешь после четырёх часов сна?",
-    "english": "How are you feeling after four hours of sleep?",
+    "russian": "Как ты себя чувствуешь после двух часов падела в такую жару?",
+    "english": "How are you feeling after two hours of padel in this heat?",
     "alternatives": [
-      "How are you holding up on four hours of sleep?",
-      "So how's that four hours of sleep treating you?",
-      "Are you okay after only sleeping four hours?"
+      "How are you holding up after two hours of padel in this heat?",
+      "So how's your body doing after two hours on the padel court in this heat?",
+      "Are you okay after playing padel for two hours in this heat?"
     ],
     "vocab": [
       { "word": "feel", "translation": "чувствовать себя" },
       { "word": "after", "translation": "после" },
       { "word": "hour", "translation": "час" },
-      { "word": "sleep", "translation": "сон" }
+      { "word": "padel", "translation": "падел" },
+      { "word": "in this heat", "translation": "в такую жару" }
     ],
-    "explanation": "How are you feeling — Present Continuous: спрашиваем о состоянии именно сейчас, сегодня; How do you feel тоже правильно, но Continuous звучит теплее и участливее, когда интересуешься самочувствием в конкретный момент. Критически важно: русское «себя» НЕ переводится — feel используется без возвратного местоимения; How do you feel yourself — грубая ошибка, для носителя эта фраза звучит двусмысленно и неловко. four hours of sleep — часы исчисляемые (four hours), а sleep — неисчисляемое «сон», поэтому они соединяются через of: «четыре часа сна». after — предлог «после» перед существительным.",
+    "explanation": "How are you feeling — Present Continuous: спрашиваем о состоянии именно сейчас, после нагрузки; How do you feel тоже правильно, но Continuous звучит теплее и участливее в конкретный момент. Критически важно: русское «себя» НЕ переводится — feel без возвратного местоимения; How do you feel yourself — грубая ошибка, для носителя звучит двусмысленно. after — предлог «после» перед существительным. two hours of padel — часы исчисляемые (two hours), а padel как вид спорта — неисчисляемое, без артикля и множественного числа; соединяются через of: «два часа падела» (по той же модели: two hours of sleep, three hours of tennis). in this heat — «в такую жару»: предлог in для погодных условий (in the rain, in this cold); heat — неисчисляемое «жара», указательное this — «в эту, нынешнюю».",
     "level": "A2",
     "grammarTags": ["question", "present-continuous", "preposition", "countable-uncountable"],
-    "topicTags": ["small-talk", "texting", "humor"]
+    "topicTags": ["small-talk", "texting", "interests"]
   },
   {
     "id": 338,
-    "russian": "Из-за тебя я проспала и опоздала на утреннюю планёрку.",
-    "english": "Because of you, I overslept and was late for my morning meeting.",
+    "russian": "Из-за тебя я полдня читала про парусный спорт вместо того, чтобы монтировать видео.",
+    "english": "Because of you, I spent half the day reading about sailing instead of editing my video.",
     "alternatives": [
-      "Thanks to you, I slept in and showed up late to my morning meeting.",
-      "You made me oversleep — I was late for my morning stand-up!",
-      "It's your fault I overslept and missed the start of my morning meeting."
+      "Thanks to you, half my day went to reading about sailing instead of editing my video.",
+      "It's your fault I spent half the day on sailing articles instead of editing my video.",
+      "You got me so curious about sailing that I read about it for half the day instead of working on my video."
     ],
     "vocab": [
       { "word": "because of", "translation": "из-за" },
-      { "word": "oversleep", "translation": "проспать" },
-      { "word": "be late for", "translation": "опоздать на" },
-      { "word": "morning meeting", "translation": "утренняя планёрка" }
+      { "word": "spend time doing something", "translation": "проводить время за чем-то" },
+      { "word": "half the day", "translation": "полдня" },
+      { "word": "sailing", "translation": "парусный спорт" },
+      { "word": "instead of", "translation": "вместо" },
+      { "word": "edit a video", "translation": "монтировать видео" }
     ],
-    "explanation": "Because of + существительное/местоимение — «из-за кого-то/чего-то»: because of you, because of the rain. Просто because вводит целое придаточное с подлежащим и глаголом (because you kept me up), а because of — только объект. overslept — V2 от oversleep «проспать» (oversleep—overslept—overslept): приставка over- значит «сверх меры». was late for — «опоздать на» = be late FOR: late for work, late for a meeting, late for a flight; предлог on здесь — калька, так не говорят. my morning meeting — притяжательное my вместо русского нулевого «на планёрку»: моя, из моего расписания. Тон фразы — шутливое обвинение, в переписке это флирт, а не претензия.",
+    "explanation": "Because of + местоимение/существительное — «из-за кого-то/чего-то»: because of you. Просто because вводит целое придаточное с подлежащим и глаголом (because you told me about it), а because of — только объект. spent — V2 от spend (spend—spent—spent); конструкция spend time doing something: «провести время, делая что-то» — после spend + отрезок времени глагол идёт в форме -ing: spent half the day reading, а не to read. half the day — «полдня»: half стоит перед артиклем, без of (half the day, half an hour). reading about — «читать о чём-то» с предлогом about. instead of + V-ing — «вместо того, чтобы»: после предлога of только герундий: instead of editing, а не instead of to edit. edit a video — «монтировать видео» по-английски edit, не mount. Тон фразы — шутливый упрёк: в переписке это флирт, а не претензия.",
     "level": "A2",
-    "grammarTags": ["past-simple", "preposition", "collocation"],
+    "grammarTags": ["past-simple", "preposition", "collocation", "gerund"],
     "topicTags": ["work", "humor", "texting"]
   },
   {
@@ -814,44 +825,47 @@
   },
   {
     "id": 341,
-    "russian": "Мне кажется, ночные разговоры честнее дневных — люди перестают притворяться.",
-    "english": "I feel like late-night conversations are more honest — people stop pretending.",
+    "russian": "Мне кажется, разговоры вживую честнее переписки — люди перестают прятаться за экраном.",
+    "english": "I feel like talking in person is more honest than texting — people stop hiding behind a screen.",
     "alternatives": [
-      "I think people are more honest late at night — they drop the act.",
-      "It seems to me that conversations get more real after dark — nobody's pretending anymore.",
-      "In my experience, late-night talks are the most honest ones — people let their guard down."
+      "I think people are more honest face to face than over text — they drop the act.",
+      "It seems to me that in-person conversations are more real than messages — nobody's hiding behind a screen.",
+      "In my experience, real-life talks are the most honest ones — people let their guard down once the screen is gone."
     ],
     "vocab": [
       { "word": "feel like (= it seems to me)", "translation": "мне кажется, что" },
-      { "word": "late-night", "translation": "ночной, поздний" },
-      { "word": "conversation", "translation": "разговор" },
+      { "word": "in person", "translation": "вживую, лично" },
       { "word": "honest", "translation": "честный" },
-      { "word": "stop pretending", "translation": "перестать притворяться" }
+      { "word": "texting", "translation": "переписка" },
+      { "word": "stop hiding", "translation": "перестать прятаться" },
+      { "word": "behind a screen", "translation": "за экраном" }
     ],
-    "explanation": "I feel like + придаточное — разговорное «мне кажется, что»: I feel like they are… Важно не путать со вторым значением: I feel like + существительное/герундий = «мне хочется» (I feel like coffee — «хочу кофе»); здесь после feel like идёт целое предложение, поэтому смысл — «кажется». late-night — составное прилагательное через дефис: «ночные, поздневечерние». more honest — сравнительная степень длинного прилагательного строится через more, а не -er (не honester). stop pretending — глагол stop + герундий = «перестать делать»: stop pretending — «перестают притворяться». Разница принципиальна: stop to pretend означало бы «остановиться, ЧТОБЫ притворяться» — форма после stop меняет смысл. pretend = «притворяться, делать вид».",
+    "explanation": "I feel like + придаточное — разговорное «мне кажется, что»: I feel like talking is… Важно не путать со вторым значением: I feel like + существительное/герундий = «мне хочется» (I feel like coffee — «хочу кофе»); здесь после feel like идёт целое предложение с подлежащим и сказуемым, поэтому смысл — «кажется». talking, texting — герундии в роли подлежащего и второго члена сравнения: занятия названы одним словом через -ing (не to talk). in person — «вживую, лично», устойчиво без артикля. more honest than — сравнительная степень длинного прилагательного через more (не honester); than вводит второй член сравнения. stop hiding — глагол stop + герундий = «перестать делать»: stop hiding — «перестают прятаться». Разница принципиальна: stop to hide означало бы «остановиться, ЧТОБЫ спрятаться» — форма после stop меняет смысл. behind a screen — «за экраном»: behind — «позади», a — любой, абстрактный экран.",
     "level": "B1",
     "grammarTags": ["feel-like", "gerund", "stop-remember-try", "present-simple", "comparative"],
     "topicTags": ["deep-talk", "communication", "feelings"]
   },
   {
     "id": 342,
-    "russian": "Давай сегодня ляжем пораньше... хотя кого я обманываю?",
-    "english": "Let's go to bed earlier tonight... who am I kidding?",
+    "russian": "Давай в субботу сыграем пораньше, пока не жарко... хотя кого я обманываю — я всё равно тебе проиграю.",
+    "english": "Let's play earlier on Saturday, before it gets hot... who am I kidding, I'll still lose to you.",
     "alternatives": [
-      "Let's turn in early tonight... yeah, right, like that's going to happen.",
-      "We should get some sleep early tonight... okay, we both know we won't.",
-      "Early night tonight? ...Who am I trying to fool?"
+      "Let's hit the court earlier on Saturday while it's still cool... yeah, right, like that'll save me from losing.",
+      "How about an earlier game on Saturday before the heat? ...Who am I trying to fool, you'll beat me anyway.",
+      "Let's start earlier on Saturday so it's not so hot... okay, we both know I'm losing either way."
     ],
     "vocab": [
       { "word": "let's", "translation": "давай" },
-      { "word": "go to bed", "translation": "ложиться спать" },
       { "word": "earlier", "translation": "пораньше" },
-      { "word": "Who am I kidding?", "translation": "Кого я обманываю?" }
+      { "word": "before it gets hot", "translation": "пока не жарко" },
+      { "word": "Who am I kidding?", "translation": "Кого я обманываю?" },
+      { "word": "lose to someone", "translation": "проиграть кому-то" },
+      { "word": "still", "translation": "всё равно" }
     ],
-    "explanation": "Let's + V1 без to — предложение сделать что-то вместе: let's — это let us, и после него голый инфинитив (bare infinitive): Let's go. go to bed — «лечь спать»: bed без артикля в устойчивых выражениях про сон. earlier — сравнительная степень early через -er: «пораньше». tonight — «сегодня вечером/ночью» одним словом. Who am I kidding? — идиома самоиронии «кого я обманываю?»: вопрос с инверсией am I, глагол kid = «шутить, дурачить» (отсюда No kidding! — «Да ладно!»). Фраза говорится, когда сам не веришь в только что сказанное — отличный способ пошутить над собой в переписке.",
+    "explanation": "Let's + V1 без to — предложение сделать что-то вместе: let's — это let us, и после него голый инфинитив (bare infinitive): Let's play. earlier — сравнительная степень early через -er: «пораньше». on Saturday — дни недели с on. before it gets hot — в придаточных времени после before/when/until будущее не ставится, только Present Simple: before it gets hot, а не before it will get hot; get + прилагательное = «становиться»: get hot, get cold, get dark. Who am I kidding? — идиома самоиронии «кого я обманываю?»: вопрос с инверсией am I, глагол kid = «шутить, дурачить» (отсюда No kidding! — «Да ладно!»). I'll still lose to you — will для предсказания; lose to somebody — «проиграть кому-то»: предлог to обязателен (lose you значило бы «потерять тебя»!); still — «всё равно», между will и глаголом. Фраза говорится, когда сам не веришь в только что сказанное — хороший способ пошутить над собой.",
     "level": "B1",
-    "grammarTags": ["imperative", "bare-infinitive", "comparative", "question", "collocation"],
-    "topicTags": ["humor", "texting", "lifestyle"]
+    "grammarTags": ["imperative", "bare-infinitive", "comparative", "question", "collocation", "future-will", "time-preposition"],
+    "topicTags": ["humor", "texting", "interests"]
   },
   {
     "id": 343,
@@ -917,21 +931,21 @@
   },
   {
     "id": 346,
-    "russian": "Не собираюсь ничего планировать — просто останусь дома с книжкой и вином.",
-    "english": "I'm not going to make any plans — I'll just stay in with a book and some wine.",
+    "russian": "Не собираюсь ничего планировать — просто останусь дома с Достоевским и чашкой чая.",
+    "english": "I'm not going to make any plans — I'll just stay in with Dostoevsky and a cup of tea.",
     "alternatives": [
-      "No plans for me — just a quiet night at home with a book and a glass of wine.",
-      "I'm keeping my evening free — I'm staying home with a good book and some wine.",
-      "I don't plan on doing anything — I'm just going to curl up with a book and a glass of wine."
+      "No plans for me — just a quiet night at home with Dostoevsky and some tea.",
+      "I'm keeping my evening free — I'm staying home with a Dostoevsky novel and a big mug of tea.",
+      "I don't plan on doing anything — I'm just going to curl up with Dostoevsky and a cup of tea."
     ],
     "vocab": [
       { "word": "be going to", "translation": "собираться" },
       { "word": "make plans", "translation": "строить планы" },
       { "word": "stay in", "translation": "остаться дома" },
-      { "word": "book", "translation": "книга" },
-      { "word": "some wine", "translation": "немного вина" }
+      { "word": "Dostoevsky", "translation": "Достоевский (= его книги)" },
+      { "word": "a cup of tea", "translation": "чашка чая" }
     ],
-    "explanation": "I'm not going to — отрицание намерения: «не собираюсь», not после am. make plans — устойчивое «строить планы»: планы по-английски именно make, а не do (make plans, make a decision). any в отрицании = «никаких»: not … any plans; отдельное nothing здесь не нужно — одно отрицание уже есть. I'll stay in — will для решения-настроя; stay in — фразовый глагол «остаться дома, никуда не пойти» (противоположность go out «пойти куда-то развлекаться»). a book and some wine — красивый контраст: book исчисляемое, поэтому a book; wine — неисчисляемое, артикль a невозможен, вместо него some — «немного вина». just = «просто».",
+    "explanation": "I'm not going to — отрицание намерения: «не собираюсь», not после am. make plans — устойчивое «строить планы»: планы по-английски make, а не do (make plans, make a decision). any в отрицании = «никаких»: not … any plans; отдельное nothing не нужно — одно отрицание уже есть. I'll stay in — will для решения-настроя; stay in — фразовый глагол «остаться дома, никуда не пойти» (противоположность go out «пойти куда-то развлекаться»). with Dostoevsky — имя автора без артикля обозначает его книги: «с Достоевским» = с его романом; так говорят о любом авторе: read Tolstoy, listen to Bach. a cup of tea — классический пример неисчисляемого: tea нельзя посчитать напрямую (a tea — только в кафе как «порция»), поэтому счёт идёт через ёмкость — a cup of tea, two cups of tea; артикль a стоит перед cup, а не перед tea. just = «просто».",
     "level": "B1",
     "grammarTags": ["going-to", "negation", "quantifier", "future-will", "phrasal-verb", "countable-uncountable"],
     "topicTags": ["lifestyle", "plans", "daily-life"]
@@ -980,24 +994,24 @@
   },
   {
     "id": 349,
-    "russian": "Больше всего в путешествиях я люблю планировать маршрут — иногда даже больше самой поездки.",
-    "english": "My favorite part of traveling is planning the route — sometimes even more than the trip itself.",
+    "russian": "Больше всего в путешествиях я люблю бродить по городу без плана — так узнаёшь его лучше, чем по любому путеводителю.",
+    "english": "My favorite part of traveling is wandering around a city with no plan — that's how you get to know it better than any guidebook could.",
     "alternatives": [
-      "What I love most about traveling is mapping out the route — sometimes more than the actual trip.",
-      "Planning the itinerary is my favorite thing about travel — honestly, sometimes more fun than going.",
-      "The best part of a trip, for me, is planning it — occasionally I enjoy that more than the trip itself."
+      "What I love most about traveling is wandering through a city with no plan — you learn it better than from any guidebook.",
+      "Roaming around a city with zero plan is my favorite thing about travel — no guidebook can beat that.",
+      "The best part of a trip, for me, is exploring a city on foot without a plan — you see it in a way no guidebook shows."
     ],
     "vocab": [
       { "word": "favorite", "translation": "любимый" },
       { "word": "traveling", "translation": "путешествия" },
-      { "word": "plan the route", "translation": "планировать маршрут" },
-      { "word": "even more than", "translation": "даже больше, чем" },
-      { "word": "trip", "translation": "поездка" },
-      { "word": "itself", "translation": "сам, сама (усилительное)" }
+      { "word": "wander around", "translation": "бродить, гулять без цели" },
+      { "word": "with no plan", "translation": "без плана" },
+      { "word": "get to know", "translation": "узнать, познакомиться (постепенно)" },
+      { "word": "guidebook", "translation": "путеводитель" }
     ],
-    "explanation": "Здесь два герундия в разных ролях. traveling — герундий после предлога of: «часть путешествий» — после любого предлога глагол принимает форму -ing (американское написание с одной l; британцы пишут travelling). planning — герундий в роли именной части сказуемого: My favorite part is planning — «любимая часть — это планирование»; после is действие тоже называется через -ing, инфинитив to plan здесь звучал бы книжно. the route — the: маршрут конкретной планируемой поездки. more than — сравнение: «больше, чем». the trip itself — усилительное itself: «сама поездка»; itself ставится после существительного и подчёркивает контраст между процессом подготовки и самой поездкой.",
+    "explanation": "Здесь два герундия в разных ролях. traveling — герундий после предлога of: «часть путешествий» — после любого предлога глагол принимает форму -ing (американское написание с одной l; британцы пишут travelling). wandering — герундий в роли именной части сказуемого: My favorite part is wandering — «любимая часть — это бродить»; после is действие тоже называется через -ing, инфинитив to wander звучал бы книжно. wander around — фразовый глагол «бродить, слоняться без цели»: around добавляет смысл «туда-сюда, по округе». a city — артикль a: любой город, не конкретный. with no plan — «без плана»: with no + существительное — разговорная замена without a plan. you get to know it — get to know «узнать, познакомиться (постепенно)»; you здесь обобщённое «ты = любой человек», как русское «узнаёшь». better than any guidebook could — сравнительная степень от well: well—better—best; any в утверждении — «любой»; could в конце — усечённое could show you: модальный could («мог бы») остался, а повторяющийся глагол опущен.",
     "level": "B1",
-    "grammarTags": ["gerund", "present-simple", "comparative", "article"],
+    "grammarTags": ["gerund", "present-simple", "comparative", "article", "phrasal-verb", "modal"],
     "topicTags": ["travel", "interests", "lifestyle"]
   },
   {
