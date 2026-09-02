@@ -78,32 +78,32 @@
   },
   {
     "id": 203,
-    "russian": "В этом году я никуда не еду — коплю на большое путешествие.",
-    "english": "I'm not going anywhere this year — I'm saving up for a big trip.",
+    "russian": "В этом месяце я никуда не еду — по выходным помогаю в собачьем приюте.",
+    "english": "I'm not going anywhere this month — I'm helping out at the dog shelter on weekends.",
     "alternatives": [
-      "No trips for me this year — I'm putting money aside for a big one.",
-      "I'm staying put this year so I can save for a big trip.",
-      "I'm skipping travel this year to save up for something bigger."
+      "No trips for me this month — I'm volunteering at the dog shelter on weekends.",
+      "I'm staying in Moscow this month so I can help out at the dog shelter on weekends.",
+      "I'm not traveling this month — weekends are for the dog shelter."
     ],
     "vocab": [
       {
         "word": "go anywhere",
-        "translation": "ехать куда-либо"
+        "translation": "ехать куда-нибудь (в отрицании — никуда)"
       },
       {
-        "word": "anywhere",
-        "translation": "куда-нибудь / никуда (в отриц.)"
+        "word": "help out",
+        "translation": "помогать, выручать делом"
       },
       {
-        "word": "save up for",
-        "translation": "копить на"
+        "word": "dog shelter",
+        "translation": "собачий приют"
       },
       {
-        "word": "trip",
-        "translation": "поездка, путешествие"
+        "word": "on weekends",
+        "translation": "по выходным"
       }
     ],
-    "explanation": "Present Continuous для планов текущего периода: I'm not going = «я не еду» (решение уже есть). Отрицание: am not + V-ing. «Никуда» — anywhere, а не nowhere: в английском одно отрицание на предложение, not уже стоит при глаголе, поэтому отрицательное nowhere превратило бы фразу в двойное отрицание. save up — фразовый глагол «копить, откладывать деньги»; up добавляет смысл «накапливать до цели». Копить «на что-то» — save up for + существительное. a big trip — артикль a: путешествие упоминается впервые, это пока просто «одно большое путешествие». this year — без предлога in.",
+    "explanation": "Present Continuous в обеих частях, но с разными оттенками: I'm not going anywhere — о ближайшем будущем (уже понятно, что поездок не будет), I'm helping out — о том, что регулярно происходит именно в этот период жизни, временная «текущая» активность. Отрицание: am not + V-ing → I'm not going. «Никуда» в отрицании — anywhere, а не nowhere: английский не терпит двойного отрицания (I'm not going nowhere — ошибка). this month — без предлога, this вытесняет in. help out — фразовый глагол «помогать, выручать делом», out добавляет оттенок «прийти на подмогу»; просто help тоже верно, но help out звучит живее. at the dog shelter — предлог at, потому что приют — место-точка, куда приезжаешь; артикль the — конкретный приют, куда она ездит постоянно; dog работает определением к shelter без предлога for. on weekends — американское «по выходным» (британцы говорят at weekends).",
     "level": "A2",
     "grammarTags": [
       "present-continuous",
@@ -120,28 +120,32 @@
   },
   {
     "id": 204,
-    "russian": "Мне бы хотелось увидеть океан своими глазами.",
-    "english": "I'd like to see the ocean with my own eyes.",
+    "russian": "Мне бы хотелось увидеть северное сияние в Исландии.",
+    "english": "I'd like to see the northern lights in Iceland.",
     "alternatives": [
-      "I'd love to see the ocean in person.",
-      "I really want to see the ocean for myself.",
-      "Seeing the ocean in real life would be a dream."
+      "I'd love to see the northern lights in Iceland.",
+      "Seeing the northern lights in Iceland is on my bucket list.",
+      "I really want to see the northern lights in Iceland someday."
     ],
     "vocab": [
       {
         "word": "would like to",
-        "translation": "хотелось бы"
+        "translation": "хотелось бы (сделать)"
       },
       {
-        "word": "the ocean",
-        "translation": "океан"
+        "word": "see",
+        "translation": "увидеть"
       },
       {
-        "word": "with my own eyes",
-        "translation": "своими глазами"
+        "word": "the northern lights",
+        "translation": "северное сияние"
+      },
+      {
+        "word": "Iceland",
+        "translation": "Исландия"
       }
     ],
-    "explanation": "I'd = I would. would like to + V1 — вежливое «хотелось бы», мягче, чем I want. После would like всегда инфинитив с to: would like to see. the ocean — артикль the, потому что океан здесь как уникальный природный объект, «тот самый океан» (как the sun, the sea, the sky). with my own eyes — «своими глазами»: русское «свой» переводится притяжательным местоимением нужного лица (my/your/his), а own усиливает — «собственными». Обрати внимание: I'd в другом контексте может значить I had — здесь однозначно would, потому что дальше like to.",
+    "explanation": "I'd = I would (не had — дальше идёт инфинитив like to see, а после had стояла бы форма V3). would like to + V1 — вежливое «хотелось бы»: мягче, чем want, и ровно передаёт русское «мне бы хотелось». Русское безличное «мне хотелось бы» перестраивается в личное I'd like — по-английски обязательно нужен деятель-подлежащее. После like здесь инфинитив с to: like to see (would like всегда с to-инфинитивом, в отличие от like doing «нравится делать» вообще). the northern lights — устойчивое название явления, всегда с the и во множественном числе (как the Alps, the Rockies). in Iceland — предлог in для стран, артикль с названием страны не нужен. «Увидеть» — see, а не look или watch: see — «увидеть своими глазами», результат, а не процесс.",
     "level": "A2",
     "grammarTags": [
       "would-like",
@@ -273,12 +277,12 @@
   },
   {
     "id": 208,
-    "russian": "На следующей неделе я собираюсь работать из дома.",
-    "english": "I'm going to work from home next week.",
+    "russian": "На следующей неделе я собираюсь снимать видео про новые ИИ-инструменты для блога.",
+    "english": "Next week I'm going to shoot a few videos about new AI tools for my blog.",
     "alternatives": [
-      "I'll be working from home next week.",
-      "I'm planning to work remotely next week.",
-      "Next week I'm working from home."
+      "I'm planning to film a few videos about new AI tools for my blog next week.",
+      "Next week I'll be filming some videos on new AI tools for my blog.",
+      "I've got a few blog videos about new AI tools to shoot next week."
     ],
     "vocab": [
       {
@@ -286,15 +290,23 @@
         "translation": "собираться (сделать)"
       },
       {
-        "word": "work from home",
-        "translation": "работать из дома"
+        "word": "shoot a video",
+        "translation": "снимать видео"
       },
       {
-        "word": "next week",
-        "translation": "на следующей неделе"
+        "word": "a few",
+        "translation": "несколько"
+      },
+      {
+        "word": "AI tools",
+        "translation": "ИИ-инструменты"
+      },
+      {
+        "word": "for my blog",
+        "translation": "для блога"
       }
     ],
-    "explanation": "be going to + V1 — план, намерение: I'm going to work = «собираюсь работать». Здесь важно не запутаться: в этой фразе work — глагол «работать» после going to, а не существительное «работа» (фраза I'm going to work без from home значила бы «я еду на работу» — контекст решает). work from home — устойчивое «работать из дома», предлог from; заметь, home здесь без артикля и без my. next week — снова без предлога и артикля: next вытесняет их. Порядок: обстоятельство времени можно поставить и в начало (Next week I'm going to…), и в конец.",
+    "explanation": "be going to + V1 — «собираюсь»: план уже принят, решение есть, это самый точный перевод русского «собираюсь»; формула am/is/are + going to + V1 → I'm going to shoot. Сравни с will: I'll shoot — решение, принятое в момент разговора; здесь план заранее, поэтому going to. shoot a video — американское «снимать видео» (также film, make a video); «снимать» здесь не take и не remove. a few videos — a few с исчисляемым множественным = «несколько», без a (few) значило бы «мало». about new AI tools — предлог about «про, о чём видео»; артикль не нужен, tools во множественном числе в общем смысле; AI работает определением. for my blog — предлог for показывает назначение «для чего»; my — по-английски притяжательное ставится там, где по-русски достаточно «для блога». Next week в начале — без предлога и артикля.",
     "level": "A2",
     "grammarTags": [
       "going-to",
@@ -307,17 +319,17 @@
   },
   {
     "id": 209,
-    "russian": "В среду вечером я иду на йогу, а потом я свободна.",
-    "english": "I'm going to yoga on Wednesday evening, and after that I'm free.",
+    "russian": "В среду вечером я иду на падел, а потом я свободна.",
+    "english": "I'm going to padel on Wednesday evening, and after that I'm free.",
     "alternatives": [
-      "I have yoga on Wednesday evening, and I'm free after that.",
-      "Wednesday evening I've got yoga, but I'm open afterward.",
-      "I'm doing yoga Wednesday night, then I'm all yours."
+      "I have padel on Wednesday evening, and I'm free after that.",
+      "Wednesday evening I've got padel, but I'm open afterward.",
+      "I'm playing padel Wednesday evening — after that I'm all yours."
     ],
     "vocab": [
       {
-        "word": "go to yoga",
-        "translation": "идти на йогу"
+        "word": "padel",
+        "translation": "падел"
       },
       {
         "word": "on Wednesday evening",
@@ -328,11 +340,11 @@
         "translation": "после этого, потом"
       },
       {
-        "word": "free",
-        "translation": "свободный, незанятый"
+        "word": "be free",
+        "translation": "быть свободной"
       }
     ],
-    "explanation": "Present Continuous для договорённостей ближайшего будущего: I'm going to yoga = «я иду на йогу», занятие уже запланировано. Не путай с конструкцией be going to + глагол: здесь yoga — существительное, а to — предлог направления «на йогу» (как to work, to the gym). on Wednesday evening — с днём недели предлог on, даже когда добавлена часть дня (но просто «вечером» — in the evening). after that = «после этого». I'm free — состояние через be + прилагательное: «я свободна» = I am free, никакого have.",
+    "explanation": "I'm going to padel — Present Continuous в значении будущего: договорённость уже есть (тренировка записана), поэтому не will и не Present Simple. Осторожно: здесь going — обычный глагол движения «иду», а не конструкция be going to + V1 «собираюсь»: после going стоит место с предлогом to, а не глагол. to padel — направление «на» передаёт to (не on: on padel — калька с русского «на падел»); занятие без артикля, как to yoga, to practice. on Wednesday evening — предлог on, потому что назван день недели, даже с частью дня (просто «вечером» — in the evening). after that — «после этого/потом»; можно и then. I'm free — состояние через be + прилагательное: русское «свободна» без глагола по-английски требует связки am.",
     "level": "A2",
     "grammarTags": [
       "present-continuous",
@@ -348,28 +360,32 @@
   },
   {
     "id": 210,
-    "russian": "На этой неделе у меня почти нет свободного времени.",
-    "english": "I have almost no free time this week.",
+    "russian": "На этой неделе у меня немного созвонов, так что вечера свободны.",
+    "english": "I don't have many calls this week, so my evenings are free.",
     "alternatives": [
-      "I barely have any free time this week.",
-      "I hardly have a minute to myself this week.",
-      "My week is completely packed."
+      "My week is pretty light on calls, so my evenings are open.",
+      "There aren't many calls on my schedule this week, so I'm free in the evenings.",
+      "Not a lot of calls this week — my evenings are wide open."
     ],
     "vocab": [
       {
-        "word": "almost no",
-        "translation": "почти нет"
+        "word": "call",
+        "translation": "созвон, звонок"
       },
       {
-        "word": "free time",
-        "translation": "свободное время"
+        "word": "not many",
+        "translation": "немного, мало (исчисл.)"
       },
       {
         "word": "this week",
         "translation": "на этой неделе"
+      },
+      {
+        "word": "free",
+        "translation": "свободный"
       }
     ],
-    "explanation": "«У меня есть/нет» по-английски через have: I have. Отрицание здесь без not — через no перед существительным: no free time = «нет свободного времени» (равно I don't have any free time, но короче и выразительнее). almost no = «почти нет». time — неисчисляемое существительное: без артикля, без множественного числа, «сколько времени» — how much time. this week — без предлога: this вытесняет on/in. Порядок слов: время (this week) в конце или в начале, но не между глаголом и дополнением.",
+    "explanation": "Present Simple, потому что описывается расписание — положение дел на этот период, а have здесь состояние «иметь». Отрицание через don't + V1: I don't have (американская норма; британское haven't got тоже возможно). Русское «немного» перед исчисляемым «созвонов» естественнее передать отрицанием not many: calls исчисляемое, во множественном числе (с неисчисляемым было бы not much — not much free time). Заметь: живые носители скажут I don't have many calls, а не I have few calls — утверждение с few звучит книжно. this week — без предлога, this вытесняет on/in. so = «так что, поэтому». my evenings are free — evenings во множественном числе, глагол are; «свободны» через связку be, без кальки «есть».",
     "level": "A2",
     "grammarTags": [
       "present-simple",
@@ -421,32 +437,36 @@
   },
   {
     "id": 212,
-    "russian": "Я пока не знаю своё расписание на следующую неделю.",
-    "english": "I don't know my schedule for next week yet.",
+    "russian": "После пяти я созвоны не ставлю — вечера у меня для скрипки и подруг.",
+    "english": "I don't schedule calls after five — my evenings are for the violin and my friends.",
     "alternatives": [
-      "I'm not sure what my schedule looks like next week yet.",
-      "I still don't have my schedule for next week.",
-      "I haven't gotten my schedule for next week yet."
+      "I never book calls after five — evenings are for violin practice and my friends.",
+      "No work calls after five for me — that time is for the violin and my girlfriends.",
+      "I keep my evenings free of calls — they're for the violin and friends."
     ],
     "vocab": [
       {
-        "word": "know",
-        "translation": "знать"
-      },
-      {
         "word": "schedule",
-        "translation": "расписание, график"
+        "translation": "ставить в расписание, назначать"
       },
       {
-        "word": "yet",
-        "translation": "пока, ещё (в отриц.)"
+        "word": "call",
+        "translation": "созвон"
       },
       {
-        "word": "for next week",
-        "translation": "на следующую неделю"
+        "word": "after five",
+        "translation": "после пяти"
+      },
+      {
+        "word": "the violin",
+        "translation": "скрипка"
+      },
+      {
+        "word": "be for",
+        "translation": "быть предназначенным для"
       }
     ],
-    "explanation": "Отрицание в Present Simple: don't + V1 — I don't know. know — глагол состояния, в Continuous не ставится. my schedule — русское «своё» переводится притяжательным местоимением нужного лица: my, а не своё-own. schedule for next week — расписание «на» период = предлог for (как plans for). «Пока не» передаётся словом yet в конце отрицательного предложения: I don't know… yet = «ещё/пока не знаю» — сигнал, что скоро узнаю. Позиция yet — в самом конце, не после don't.",
+    "explanation": "Present Simple с отрицанием don't + V1: I don't schedule — это правило, постоянный порядок вещей, поэтому не Continuous. schedule как глагол — «ставить в расписание, назначать» (по-американски произносится «скеджул»). Порядок слов: подлежащее + don't + глагол + дополнение + обстоятельство времени: I don't schedule calls after five; русское «созвоны не ставлю» с дополнением перед глаголом по-английски невозможно. after five — предлог after + время, o'clock опускается. my evenings are for… — предлог for здесь «предназначено для»: are for the violin = «для скрипки». the violin — с музыкальными инструментами в значении «занятия инструментом» ставится the (play the violin). my friends — «подруги» = friends: пол по-английски отдельно не отмечают; girlfriends в устах женщины тоже значит «подруги», а не «девушка».",
     "level": "A2",
     "grammarTags": [
       "present-simple",
@@ -462,28 +482,36 @@
   },
   {
     "id": 213,
-    "russian": "В июле мы едем к морю на две недели.",
-    "english": "We're going to the beach for two weeks in July.",
+    "russian": "В июле мы с сестрой едем на озеро Комо на неделю.",
+    "english": "In July my sister and I are going to Lake Como for a week.",
     "alternatives": [
-      "We're headed to the beach for two weeks in July.",
-      "We're spending two weeks at the beach in July.",
-      "In July we're off to the beach for a couple of weeks."
+      "My sister and I are headed to Lake Como for a week in July.",
+      "In July my sister and I are spending a week at Lake Como.",
+      "My sister and I are off to Lake Como for a week in July."
     ],
     "vocab": [
       {
-        "word": "go to the beach",
-        "translation": "поехать на море"
+        "word": "my sister and I",
+        "translation": "мы с сестрой"
       },
       {
-        "word": "for two weeks",
-        "translation": "на две недели"
+        "word": "go to",
+        "translation": "ехать в/на"
+      },
+      {
+        "word": "Lake Como",
+        "translation": "озеро Комо"
+      },
+      {
+        "word": "for a week",
+        "translation": "на неделю"
       },
       {
         "word": "in July",
         "translation": "в июле"
       }
     ],
-    "explanation": "Present Continuous о будущем: поездка решена и, скорее всего, куплены билеты — поэтому We're going, а не will go. Русское «к морю» по-английски обычно the beach: go to the beach = «поехать на море/пляж»; артикль the — как с типичным местом отдыха. to — предлог направления. «На две недели» — длительность через for: for two weeks (не on two weeks). in July — с месяцами предлог in. Порядок обстоятельств: сначала место (to the beach), потом длительность (for two weeks), потом время (in July).",
+    "explanation": "Present Continuous в значении будущего: are going — поездка уже спланирована, даты есть, поэтому не will. Здесь going — глагол движения «едем» с предлогом места, а не конструкция be going to + V1. Русское «мы с сестрой» по-английски перестраивается в my sister and I — себя называют последним, и подлежащее — I, а не me (me — только в дополнении: with my sister and me). to Lake Como — направление через to; с названиями озёр по формуле Lake + имя артикль не ставится (Lake Como, Lake Baikal), хотя реки и моря идут с the (the Thames). for a week — «на неделю», длительность через for; артикль a, потому что «одна неделя». in July — месяц с предлогом in (дни недели — on, время — at).",
     "level": "A2",
     "grammarTags": [
       "present-continuous",
@@ -500,32 +528,36 @@
   },
   {
     "id": 214,
-    "russian": "Я собираюсь просто лежать на пляже и ничего не делать.",
-    "english": "I'm just going to lie on the beach and do nothing.",
+    "russian": "Я собираюсь каждое утро бегать по пляжу — не могу просто лежать, даже в отпуске.",
+    "english": "I'm going to run on the beach every morning — I can't just lie there, even on vacation.",
     "alternatives": [
-      "I plan to just lie on the beach and do absolutely nothing.",
-      "My plan is to lie on the beach and not do a thing.",
-      "I'm going to be a beach bum and do nothing at all."
+      "Every morning I'm going to go for a run on the beach — lying around isn't my thing, even on vacation.",
+      "I plan to run on the beach every morning — I can't sit still, even on vacation.",
+      "Morning beach runs are the plan — I'm not good at just lying there, even on vacation."
     ],
     "vocab": [
       {
-        "word": "just",
-        "translation": "просто"
+        "word": "be going to",
+        "translation": "собираться"
+      },
+      {
+        "word": "run on the beach",
+        "translation": "бегать по пляжу"
+      },
+      {
+        "word": "every morning",
+        "translation": "каждое утро"
       },
       {
         "word": "lie",
         "translation": "лежать"
       },
       {
-        "word": "on the beach",
-        "translation": "на пляже"
-      },
-      {
-        "word": "do nothing",
-        "translation": "ничего не делать"
+        "word": "on vacation",
+        "translation": "в отпуске"
       }
     ],
-    "explanation": "be going to + V1 — намерение: I'm going to lie. just = «просто», ставится перед going to. Важный глагол: lie — «лежать» (lie–lay–lain), не путай с lay — «класть» (lay–laid–laid); ошибка lay on the beach очень частая даже у носителей. on the beach — «на пляже» с on (поверхность), артикль the. do nothing — «ничего не делать»: nothing само по себе отрицательное, поэтому глагол в утвердительной форме — нельзя don't do nothing (двойное отрицание). Второй глагол (do) идёт без повторения I'm going to — союз and соединяет оба намерения.",
+    "explanation": "be going to + V1 — «собираюсь»: план принят заранее → I'm going to run. on the beach — предлог on, потому что пляж — открытая поверхность (не in the beach; at the beach значило бы «на пляже как в месте отдыха», а бегают именно «по» поверхности); артикль the — конкретный пляж у отеля. Порядок слов: обстоятельство every morning стоит в конце, после места, а не между подлежащим и глаголом (по-русски «каждое утро бегать» ставится свободно, по-английски — нет); every вытесняет предлог. can't just lie — модальный + голый инфинитив; just = «просто». Осторожно с lie: «лежать» — lie–lay–lain, а lay — «класть»; здесь V1 lie. there — «там», на пляже. on vacation — «в отпуске» с on, без артикля; even = «даже».",
     "level": "A2",
     "grammarTags": [
       "going-to",
@@ -573,32 +605,36 @@
   },
   {
     "id": 216,
-    "russian": "Я не очень люблю загорать — я быстро сгораю.",
-    "english": "I don't really like sunbathing — I burn really fast.",
+    "russian": "Я не очень люблю целый день лежать на пляже — мне интереснее гулять по новому городу.",
+    "english": "I don't really enjoy lying on the beach all day — I'd rather walk around a new city.",
     "alternatives": [
-      "I'm not big on sunbathing — I get sunburned really easily.",
-      "Sunbathing isn't really my thing — I burn in no time.",
-      "I'm not a fan of lying in the sun — my skin burns super fast."
+      "Lying on the beach all day isn't really my thing — I'd rather explore a new city on foot.",
+      "I'm not big on lying on the beach all day — I'd much rather wander around a new city.",
+      "A whole day on the beach isn't for me — give me a new city to walk around."
     ],
     "vocab": [
       {
-        "word": "not really like",
-        "translation": "не очень любить"
+        "word": "enjoy doing",
+        "translation": "любить (делать)"
       },
       {
-        "word": "sunbathe",
-        "translation": "загорать"
+        "word": "lie on the beach",
+        "translation": "лежать на пляже"
       },
       {
-        "word": "burn",
-        "translation": "сгорать (на солнце)"
+        "word": "all day",
+        "translation": "целый день"
       },
       {
-        "word": "fast",
-        "translation": "быстро"
+        "word": "would rather",
+        "translation": "предпочёл бы"
+      },
+      {
+        "word": "walk around",
+        "translation": "гулять по, обходить"
       }
     ],
-    "explanation": "don't really like = «не очень люблю»: порядок слов критичен — really после don't смягчает отрицание, а really don't like означало бы «совсем не люблю», гораздо жёстче. После like действие обычно в форме герундия: like sunbathing (американцы также говорят like to sunbathe — оба варианта верны). sunbathe = «загорать». I burn — Present Simple, потому что это постоянное свойство кожи: «я (всегда) сгораю». really fast — «очень быстро»: fast работает и как прилагательное, и как наречие, формы fastly не существует.",
+    "explanation": "Отрицание в Present Simple: don't + V1 — I don't really enjoy; really стоит между don't и глаголом и смягчает: «не очень люблю», а не «совсем не люблю» (I really don't enjoy — уже категорично: порядок слов меняет смысл!). После enjoy всегда герундий, не инфинитив: enjoy lying, а не enjoy to lie — enjoy входит в группу глаголов (like, love, hate, mind, finish) с V-ing. lying — герундий от lie «лежать» (ie → y + ing); не путай с lay «класть». on the beach — предлог on для открытой поверхности. all day — «целый день» без предлога и артикля. I'd rather + V1 — «мне бы больше хотелось, предпочту»: I'd = I would, после rather голый инфинитив без to: I'd rather walk. walk around a new city — around «по (городу)»; артикль a — любой новый город, не конкретный.",
     "level": "A2",
     "grammarTags": [
       "present-simple",
@@ -614,12 +650,12 @@
   },
   {
     "id": 217,
-    "russian": "Рядом с нашим отелем есть красивый пляж.",
-    "english": "There's a beautiful beach near our hotel.",
+    "russian": "Рядом с моим отелем есть красивый парк — я бегаю там каждое утро.",
+    "english": "There's a beautiful park near my hotel — I go running there every morning.",
     "alternatives": [
-      "Our hotel is right by a beautiful beach.",
-      "There's a gorgeous beach close to our hotel.",
-      "A beautiful beach is just a short walk from our hotel."
+      "My hotel is right by a beautiful park, and I run there every morning.",
+      "There's a lovely park close to my hotel — I go for a run there every morning.",
+      "Right next to my hotel there's a beautiful park where I run every morning."
     ],
     "vocab": [
       {
@@ -627,23 +663,23 @@
         "translation": "есть, имеется"
       },
       {
-        "word": "beautiful",
-        "translation": "красивый"
+        "word": "park",
+        "translation": "парк"
       },
       {
-        "word": "beach",
-        "translation": "пляж"
+        "word": "near my hotel",
+        "translation": "рядом с моим отелем"
       },
       {
-        "word": "near",
-        "translation": "рядом с, недалеко от"
+        "word": "go running",
+        "translation": "бегать, ходить на пробежку"
       },
       {
-        "word": "hotel",
-        "translation": "отель"
+        "word": "every morning",
+        "translation": "каждое утро"
       }
     ],
-    "explanation": "Русское «есть/имеется» передаётся конструкцией there is/there are: There's = There is, потому что пляж один (единственное число). Это формальное there не переводится словом «там» — оно просто вводит существование предмета. Порядок: There is + что + где, то есть сначала предмет, потом место — зеркально русскому. a beautiful beach — артикль a: пляж упоминается впервые, слушатель о нём ещё не знает; прилагательное ставится между артиклем и существительным. near our hotel — «рядом с» = near без всяких дополнительных предлогов (не near of, не near with).",
+    "explanation": "There's = There is — конструкция «есть/имеется» вводит в разговор новый объект; это there — формальное подлежащее, оно не переводится «там». Русское «рядом с отелем есть парк» по-английски нельзя начать с Near my hotel is a park — нужен именно оборот there is. a beautiful park — артикль a, потому что парк упоминается впервые; прилагательное стоит между артиклем и существительным. near my hotel — «рядом с» = near без дополнительных предлогов (не near to, не near with). I go running — Present Simple для привычки: go + V-ing с видами активности (go running, go swimming, go skiing) — естественнее, чем просто I run. there в конце — уже настоящее «там». every morning — без предлога: every вытесняет in.",
     "level": "A1",
     "grammarTags": [
       "there-is",
@@ -656,21 +692,17 @@
   },
   {
     "id": 218,
-    "russian": "Морепродукты там дешевле, чем у нас.",
-    "english": "Seafood is cheaper there than back home.",
+    "russian": "Свежая паста там дешевле, чем у нас, и намного вкуснее.",
+    "english": "Fresh pasta is cheaper there than back home, and it tastes so much better.",
     "alternatives": [
-      "Seafood costs less there than it does here.",
-      "Seafood is a lot more affordable there than at home.",
-      "You pay less for seafood there than back home."
+      "Fresh pasta costs less there than it does here, and it's way better.",
+      "Fresh pasta is a lot more affordable there than at home — and so much tastier.",
+      "You pay less for fresh pasta there than back home, and it tastes amazing."
     ],
     "vocab": [
       {
-        "word": "seafood",
-        "translation": "морепродукты"
-      },
-      {
-        "word": "cheap",
-        "translation": "дешёвый"
+        "word": "fresh pasta",
+        "translation": "свежая паста"
       },
       {
         "word": "cheaper than",
@@ -678,10 +710,18 @@
       },
       {
         "word": "back home",
-        "translation": "у нас, дома, на родине"
+        "translation": "у нас (дома, на родине)"
+      },
+      {
+        "word": "taste",
+        "translation": "быть на вкус"
+      },
+      {
+        "word": "so much better",
+        "translation": "намного лучше, вкуснее"
       }
     ],
-    "explanation": "seafood — неисчисляемое существительное: без артикля, без множественного числа, глагол в единственном числе — Seafood is, хотя по-русски «морепродукты» множественное. cheaper — сравнительная степень: к короткому прилагательному добавляется -er (cheap → cheaper), никакого more cheaper — more и -er вместе не используются. Сравнение вводится союзом than: cheaper than. back home — разговорное «у нас, дома, на родине»: удобная замена длинному in my country. there = «там», ставится после прилагательного, ближе к концу.",
+    "explanation": "Present Simple — постоянный факт о ценах и вкусе. pasta — неисчисляемое существительное, поэтому без артикля и с глаголом в единственном числе: pasta is; a pasta или pastas в этом значении не говорят. cheaper — сравнительная степень короткого прилагательного через -er, союз than «чем» (не then!). «У нас» в значении «дома, в своей стране» — back home: разговорное американское; калька at us означала бы «у нас в гостях». it tastes — taste здесь глагол «быть на вкус», после него прилагательное better, а не наречие (tastes good, не tastes well). so much better — со сравнительной степенью усилитель much / so much / a lot (very better — ошибка, very только с обычной формой). better — неправильная сравнительная от good; «вкуснее» о еде чаще говорят именно better, а не tastier.",
     "level": "A2",
     "grammarTags": [
       "present-simple",
@@ -767,32 +807,36 @@
   },
   {
     "id": 221,
-    "russian": "Мой отпуск начинается в понедельник, и я уже считаю дни.",
-    "english": "My vacation starts on Monday, and I'm counting the days.",
+    "russian": "Турнир в моём шахматном клубе начинается в субботу, и я уже считаю дни.",
+    "english": "The tournament at my chess club starts on Saturday, and I'm already counting the days.",
     "alternatives": [
-      "My vacation kicks off Monday, and I'm already counting down.",
-      "I'm off starting Monday, and I can't wait.",
-      "Vacation starts Monday — I'm counting down the days."
+      "My chess club's tournament kicks off Saturday, and I'm counting down the days.",
+      "The chess tournament at my club is this Saturday — I can't wait.",
+      "There's a tournament at my chess club on Saturday, and I'm already counting the days."
     ],
     "vocab": [
       {
-        "word": "vacation",
-        "translation": "отпуск"
+        "word": "tournament",
+        "translation": "турнир"
+      },
+      {
+        "word": "chess club",
+        "translation": "шахматный клуб"
       },
       {
         "word": "start",
         "translation": "начинаться"
       },
       {
-        "word": "on Monday",
-        "translation": "в понедельник"
+        "word": "on Saturday",
+        "translation": "в субботу"
       },
       {
         "word": "count the days",
         "translation": "считать дни"
       }
     ],
-    "explanation": "Здесь встречаются два времени, и оба на своих местах. starts — Present Simple для событий по расписанию/фиксированной дате: отпуск начинается тогда-то, как поезд отправляется по графику (не will start); окончание -s — третье лицо единственного числа (my vacation = it). on Monday — с днями недели предлог on. I'm counting the days — Present Continuous: процесс идёт прямо сейчас, в эти дни. count the days — устойчивое «считать дни» в нетерпеливом ожидании; артикль the — те самые дни до события.",
+    "explanation": "Два времени с разным смыслом. starts — Present Simple о будущем событии по расписанию: турниры, поезда, занятия «начинаются» по графику, поэтому не will start и не is starting. I'm already counting — Present Continuous: процесс идёт прямо сейчас, в этот период; already ставится между am и V-ing. The tournament — артикль the: конкретный турнир, о котором она думает. at my chess club — предлог at для организации/места-точки; chess — определение к club без предлога. on Saturday — день недели с on. count the days — устойчивое «считать дни (до события)»: артикль the — те самые дни до турнира. Русское «начинается» — возвратный глагол, но по-английски просто starts, без всяких itself.",
     "level": "A2",
     "grammarTags": [
       "present-simple",
@@ -801,39 +845,39 @@
       "article"
     ],
     "topicTags": [
-      "work",
       "plans",
-      "daily-life"
+      "daily-life",
+      "interests"
     ]
   },
   {
     "id": 222,
-    "russian": "Я не могу взять отпуск в августе — у нас слишком много работы.",
-    "english": "I can't take time off in August — we have too much work.",
+    "russian": "До полудня я звонки не беру — первые несколько часов дня у меня без телефона.",
+    "english": "I can't take calls before noon — the first few hours of my day are phone-free.",
     "alternatives": [
-      "I can't get any time off in August — we're swamped at work.",
-      "There's no way I can take vacation in August — we're too busy.",
-      "August is out for me — we've got way too much going on at work."
+      "I don't do calls before noon — my mornings are completely phone-free.",
+      "No calls before noon for me — I keep the first few hours of the day off my phone.",
+      "I'm not available for calls before noon — the start of my day is a no-phone zone."
     ],
     "vocab": [
       {
-        "word": "take time off",
-        "translation": "взять отпуск, отгул"
+        "word": "take a call",
+        "translation": "принимать звонок, созвон"
       },
       {
-        "word": "in August",
-        "translation": "в августе"
+        "word": "before noon",
+        "translation": "до полудня"
       },
       {
-        "word": "too much work",
-        "translation": "слишком много работы"
+        "word": "the first few hours",
+        "translation": "первые несколько часов"
       },
       {
-        "word": "have",
-        "translation": "иметь (у нас есть)"
+        "word": "phone-free",
+        "translation": "без телефона"
       }
     ],
-    "explanation": "can't = cannot: отрицание модального глагола, после него голый инфинитив — can't take. take time off — устойчивое «взять отпуск/отгулы»: off несёт смысл «свободный от работы» (day off — выходной). in August — с месяцами предлог in. too much + неисчисляемое существительное: work не считается штуками, поэтому much (с исчисляемыми было бы too many — too many tasks). too = «слишком», подчёркивает, что работы больше, чем хотелось бы, — very much work сказать нельзя. we have — «у нас» через have.",
+    "explanation": "can't take — модальный can в отрицании + голый инфинитив без to; здесь can't передаёт не «физически не могу», а «у меня так не заведено, это правило» — по-английски это нормально и звучит мягче, чем сухое I don't. take calls — устойчивое «принимать звонки» (не receive и не get в этом значении: take a call = ответить, провести созвон). before noon — предлог before + точка времени; noon = «полдень», без артикля (как midnight). the first few hours — квантификатор few с исчисляемым hours; артикль the обязателен, потому что «первые» — конкретные часы; of my day — принадлежность через of. are phone-free — hours во множественном числе → are; суффикс -free = «свободный от чего-то» (sugar-free, phone-free), очень продуктивная американская модель.",
     "level": "A2",
     "grammarTags": [
       "modal",
@@ -845,7 +889,7 @@
     ],
     "topicTags": [
       "work",
-      "plans"
+      "lifestyle"
     ]
   },
   {
@@ -956,32 +1000,36 @@
   },
   {
     "id": 226,
-    "russian": "Погода была ужасная, поэтому мы с сестрой весь день сидели дома.",
-    "english": "The weather was awful, so my sister and I stayed home all day.",
+    "russian": "В воскресенье мы с сестрой весь день готовили и играли дуэты на скрипке.",
+    "english": "On Sunday my sister and I spent the whole day cooking and playing violin duets.",
     "alternatives": [
-      "The weather was terrible, so my sister and I just hung out at home all day.",
-      "It was pouring all day, so my sister and I didn't leave the house.",
-      "With the weather that bad, my sister and I ended up staying in all day."
+      "My sister and I cooked and played violin duets all day Sunday.",
+      "Sunday was all cooking and violin duets with my sister.",
+      "My sister and I spent all of Sunday in the kitchen and then played duets on our violins."
     ],
     "vocab": [
       {
-        "word": "weather",
-        "translation": "погода"
+        "word": "spend the day doing",
+        "translation": "провести день (делая что-то)"
       },
       {
-        "word": "awful",
-        "translation": "ужасный"
-      },
-      {
-        "word": "stay home",
-        "translation": "сидеть дома, оставаться дома"
-      },
-      {
-        "word": "all day",
+        "word": "the whole day",
         "translation": "весь день"
+      },
+      {
+        "word": "cook",
+        "translation": "готовить"
+      },
+      {
+        "word": "violin duet",
+        "translation": "скрипичный дуэт"
+      },
+      {
+        "word": "my sister and I",
+        "translation": "мы с сестрой"
       }
     ],
-    "explanation": "the weather — слово weather практически всегда с артиклем the. was — Past Simple от be. Русское «мы с сестрой» по-английски перечисление: my sister and I — себя называют последним, и именно I, а не me, потому что это подлежащее. stayed home — «сидели дома»: по-английски не sat, а stayed — «оставались»; в американском варианте stay home без предлога (британцы скажут stay at home). all day — «весь день» без предлога и артикля (не all the day, не during all day). so = «поэтому» — связывает причину и следствие.",
+    "explanation": "Past Simple — законченное событие в прошлом с указанием времени. spent — вторая форма неправильного spend (spend–spent–spent). Устойчивая конструкция spend the day + V-ing: spent the whole day cooking and playing — «провести день, делая что-то»; после spend всегда герундий, не инфинитив (spent the day to cook — ошибка). the whole day — «весь день» с артиклем the (сравни all day без артикля). Порядок слов: обстоятельство времени On Sunday вынесено в начало для акцента, а «мы с сестрой» → my sister and I: себя называют последним, форма I как подлежащее. violin duets — violin определение к duets без предлога; артикля нет — дуэты вообще, во множественном числе. play с музыкой без предлога: play duets, play the violin.",
     "level": "A2",
     "grammarTags": [
       "past-simple",
@@ -1082,28 +1130,36 @@
   },
   {
     "id": 229,
-    "russian": "В воскресенье вечером я добралась домой уже поздно.",
-    "english": "I got home late on Sunday evening.",
+    "russian": "В воскресенье днём я вернулась из приюта уставшая, но очень счастливая.",
+    "english": "On Sunday afternoon I came back from the shelter tired but really happy.",
     "alternatives": [
-      "I didn't get home until late on Sunday night.",
-      "I made it home pretty late Sunday evening.",
-      "It was late by the time I got back on Sunday."
+      "I got back from the shelter on Sunday afternoon, worn out but so happy.",
+      "Sunday afternoon I came home from the shelter exhausted and really happy.",
+      "I was tired but really happy when I got back from the shelter on Sunday afternoon."
     ],
     "vocab": [
       {
-        "word": "get home",
-        "translation": "добраться домой"
+        "word": "come back from",
+        "translation": "вернуться из"
       },
       {
-        "word": "late",
-        "translation": "поздно"
+        "word": "shelter",
+        "translation": "приют"
       },
       {
-        "word": "on Sunday evening",
-        "translation": "в воскресенье вечером"
+        "word": "tired",
+        "translation": "уставший"
+      },
+      {
+        "word": "really happy",
+        "translation": "очень счастливая"
+      },
+      {
+        "word": "on Sunday afternoon",
+        "translation": "в воскресенье днём"
       }
     ],
-    "explanation": "got — Past Simple от get (get–got–gotten в американском). get home — устойчивое «добраться домой»: home ведёт себя как наречие, поэтому без предлога to и без артикля (как go home, come home); got to home — ошибка. late — наречие «поздно»; важно не спутать с lately, которое означает «в последнее время» и меняет смысл полностью. on Sunday evening — предлог on, потому что назван день недели, даже с добавкой evening (просто «вечером» было бы in the evening). Порядок: сначала как добралась (got home late), потом когда (on Sunday evening).",
+    "explanation": "Past Simple: came — вторая форма неправильного come (come–came–come); событие завершено и привязано ко времени. come back from — устойчивое «вернуться откуда-то»: back добавляет идею возвращения, from — «из»; returned from тоже верно, но звучит суше. on Sunday afternoon — предлог on, потому что назван день недели, даже с частью дня (просто «днём» — in the afternoon). the shelter — артикль the: конкретный приют, куда она ездит регулярно; после первого упоминания dog можно опустить. tired but really happy — прилагательные после глагола движения описывают состояние подлежащего в момент действия (как в русском «вернулась уставшая»); связка be здесь не нужна. «Очень счастливая» — really happy или very happy, но не very much happy (калька).",
     "level": "A2",
     "grammarTags": [
       "past-simple",
@@ -1112,7 +1168,7 @@
     ],
     "topicTags": [
       "daily-life",
-      "travel"
+      "lifestyle"
     ]
   },
   {
@@ -1182,7 +1238,7 @@
         "translation": "довольно дешёвый"
       }
     ],
-    "explanation": "Американский разговорный вариант: already + Past Simple — I already bought (британец скорее скажет I've already bought с Present Perfect; в American English обе версии нормальны). already ставится между подлежащим и глаголом. bought — вторая форма неправильного buy (buy–bought–bought). the plane tickets — артикль the: билеты конкретные, на нашу с тобой поездку; «билеты на самолёт» — plane tickets, существительное plane как определение, без предлога. they were — Past Simple от be во множественном числе. pretty cheap — pretty перед прилагательным означает «довольно», это не «красивый».",
+    "explanation": "Американский разговорный вариант: already + Past Simple — I already bought (британец скорее скажет I've already bought с Present Perfect; в American English обе версии нормальны). already ставится между подлежащим и глаголом. bought — вторая форма неправильного buy (buy–bought–bought). the plane tickets — артикль the: билеты конкретные — на ту поездку, о которой уже шла речь; «билеты на самолёт» — plane tickets, существительное plane как определение, без предлога. they were — Past Simple от be во множественном числе. pretty cheap — pretty перед прилагательным означает «довольно», это не «красивый».",
     "level": "A2",
     "grammarTags": [
       "past-simple",
@@ -1231,12 +1287,12 @@
   },
   {
     "id": 233,
-    "russian": "Сколько стоит билет до Барселоны?",
-    "english": "How much is a ticket to Barcelona?",
+    "russian": "А сколько сейчас стоит билет до Токио?",
+    "english": "How much is a ticket to Tokyo these days?",
     "alternatives": [
-      "How much does a ticket to Barcelona cost?",
-      "What's the fare to Barcelona?",
-      "How much are tickets to Barcelona?"
+      "How much does a ticket to Tokyo cost these days?",
+      "What's a flight to Tokyo going for these days?",
+      "Any idea how much a ticket to Tokyo runs these days?"
     ],
     "vocab": [
       {
@@ -1248,11 +1304,15 @@
         "translation": "билет"
       },
       {
-        "word": "to Barcelona",
-        "translation": "до Барселоны"
+        "word": "to Tokyo",
+        "translation": "до Токио"
+      },
+      {
+        "word": "these days",
+        "translation": "сейчас, в наши дни"
       }
     ],
-    "explanation": "Вопрос о цене строится с be, без глагола «стоить»: How much is…? — дословно «сколько есть билет». Глагол cost тоже существует (How much does a ticket cost?), но вариант с is короче и очень частотный. a ticket — артикль a: любой билет, не конкретный. to Barcelona — «до/в Барселону»: направление через to; города, как и страны, без артикля. Русское «сколько» перед ценой — всегда How much (деньги неисчисляемые), даже если спрашиваешь про исчисляемый предмет: считаются не билеты, а деньги за билет.",
+    "explanation": "Вопрос о цене строится через be, без глагола cost: How much is a ticket? — инверсия is + подлежащее; это самый частый бытовой вариант, а How much does a ticket cost? — полный синоним с do. How much, а не How many — спрашиваем о сумме денег, а деньги неисчисляемые. a ticket — артикль a: «один билет вообще», любой. to Tokyo — направление «до/в» передаёт to, не till и не until (те — только о времени); город без артикля. these days — «сейчас, в нынешнее время» о ценах, которые меняются; просто now тоже возможно, но these days звучит естественнее, когда спрашиваешь «почём сейчас». Русское «а» в начале вопроса отдельно не переводится.",
     "level": "A1",
     "grammarTags": [
       "question",
@@ -1657,32 +1717,36 @@
   },
   {
     "id": 244,
-    "russian": "Я сейчас еду домой — через час буду свободна.",
-    "english": "I'm heading home right now — I'll be free in an hour.",
+    "russian": "Я сейчас играю в шахматы в клубе — через час буду свободна.",
+    "english": "I'm playing chess at the club right now — I'll be free in an hour.",
     "alternatives": [
-      "I'm on my way home now — I'll be free in about an hour.",
-      "Just heading back home — give me an hour and I'm free.",
-      "I'm driving home right now, so I'll be available in an hour."
+      "I'm at the chess club right now — I'll be done in about an hour.",
+      "Just at chess club at the moment — give me an hour and I'm free.",
+      "I'm in the middle of a chess game — I'll be free in an hour or so."
     ],
     "vocab": [
       {
-        "word": "head home",
-        "translation": "направляться домой"
+        "word": "play chess",
+        "translation": "играть в шахматы"
+      },
+      {
+        "word": "at the club",
+        "translation": "в клубе"
       },
       {
         "word": "right now",
         "translation": "прямо сейчас"
       },
       {
-        "word": "free",
-        "translation": "свободный"
+        "word": "be free",
+        "translation": "освободиться, быть свободной"
       },
       {
         "word": "in an hour",
         "translation": "через час"
       }
     ],
-    "explanation": "I'm heading home — Present Continuous: процесс идёт прямо сейчас. head — разговорный глагол «направляться» (буквально «держать курс»): I'm heading home звучит живее, чем I'm going home. home без предлога to и без артикля — как с go home, get home. I'll be free — will для будущего состояния: «буду свободна» = will be + прилагательное. in an hour — «через час»: предлог in для «через сколько-то времени» (не after и не through — это кальки); артикль an, а не a, потому что в слове hour буква h не читается и слово начинается с гласного звука.",
+    "explanation": "Два времени с разной задачей. I'm playing — Present Continuous: действие идёт прямо сейчас, right now это подчёркивает. play chess — без артикля и без предлога in: с играми и видами спорта play + название (play chess, play padel), не play in chess. at the club — предлог at для места как точки/организации, где находишься; артикль the — свой конкретный клуб. I'll be free — Future Simple: will + V1 для констатации будущего факта о себе; после will всегда be, не am (I'll am — ошибка). «Через час» — in an hour: предлог in с промежутком времени означает «через» в будущем (after an hour здесь калька); артикль an, потому что hour начинается с гласного звука (h немая).",
     "level": "A2",
     "grammarTags": [
       "present-continuous",
@@ -1733,32 +1797,36 @@
   },
   {
     "id": 246,
-    "russian": "Я сейчас готовлю ужин и слушаю музыку.",
-    "english": "I'm making dinner and listening to music right now.",
+    "russian": "Я сейчас готовлю свою фирменную пасту и слушаю Шопена.",
+    "english": "I'm making my signature pasta and listening to Chopin right now.",
     "alternatives": [
-      "I'm cooking dinner with some music on.",
-      "Just making dinner and listening to some music.",
-      "I've got music on while I'm cooking dinner."
+      "I'm cooking my signature pasta with Chopin playing in the background.",
+      "Right now I'm making my famous pasta and listening to some Chopin.",
+      "I've got Chopin on and I'm making my signature pasta."
     ],
     "vocab": [
       {
-        "word": "make dinner",
-        "translation": "готовить ужин"
+        "word": "make pasta",
+        "translation": "готовить пасту"
+      },
+      {
+        "word": "signature",
+        "translation": "фирменный, авторский (о блюде)"
       },
       {
         "word": "listen to",
         "translation": "слушать"
       },
       {
-        "word": "music",
-        "translation": "музыка"
+        "word": "Chopin",
+        "translation": "Шопен"
       },
       {
         "word": "right now",
         "translation": "прямо сейчас"
       }
     ],
-    "explanation": "Present Continuous — оба действия происходят в момент речи: am + V-ing. Второй глагол идёт без повторения I'm: making… and listening — вспомогательный глагол общий. make dinner — «готовить ужин»: с приёмами пищи чаще make (make breakfast/dinner), cook тоже верно, но make универсальнее. dinner без артикля — приёмы пищи (breakfast, lunch, dinner) обычно без артикля. listen to — глагол listen всегда требует предлог to перед объектом: listening to music, а не listening music (в отличие от hear, который идёт без предлога). music — неисчисляемое, без артикля.",
+    "explanation": "Present Continuous — оба действия происходят прямо сейчас, в момент сообщения: I'm making … and listening — вспомогательный am общий для двух глаголов, второй раз его не повторяют. «Готовить пасту» — make pasta (make для блюд, которые собираешь; cook тоже возможно); my signature pasta — signature перед названием блюда = «фирменный, авторский», устойчивое американское сочетание (signature dish). listen to — глагол listen требует предлог to перед объектом: listening to Chopin, а не listen Chopin (частая калька). Chopin — имя композитора в значении «его музыка», без артикля. Артикль перед pasta не нужен: паста неисчисляемая, а my уже её определяет. right now в конце усиливает «прямо сейчас».",
     "level": "A1",
     "grammarTags": [
       "present-continuous",
@@ -1887,36 +1955,32 @@
   },
   {
     "id": 250,
-    "russian": "Обычно по вечерам я гуляю с собакой в парке недалеко от дома.",
-    "english": "In the evenings, I usually walk my dog in the park near my house.",
+    "russian": "Раз в месяц по субботам я волонтёрю в собачьем приюте за городом.",
+    "english": "Once a month, on a Saturday, I volunteer at the dog shelter outside the city.",
     "alternatives": [
-      "Most evenings I take my dog for a walk in the park by my house.",
-      "I usually take the dog to the park near my place in the evening.",
-      "My evening routine is walking the dog in the park down the street."
+      "One Saturday a month I help out at a dog shelter outside the city.",
+      "I spend one Saturday a month volunteering at a dog shelter just outside town.",
+      "Every month I take a Saturday to volunteer at the dog shelter outside the city."
     ],
     "vocab": [
       {
-        "word": "in the evenings",
-        "translation": "по вечерам"
+        "word": "once a month",
+        "translation": "раз в месяц"
       },
       {
-        "word": "usually",
-        "translation": "обычно"
+        "word": "volunteer",
+        "translation": "волонтёрить, помогать бесплатно"
       },
       {
-        "word": "walk the dog",
-        "translation": "выгуливать собаку"
+        "word": "dog shelter",
+        "translation": "собачий приют"
       },
       {
-        "word": "park",
-        "translation": "парк"
-      },
-      {
-        "word": "near my house",
-        "translation": "недалеко от дома"
+        "word": "outside the city",
+        "translation": "за городом"
       }
     ],
-    "explanation": "Present Simple — регулярная привычка. In the evenings — «по вечерам»: обстоятельство времени вынесено в начало и отделено запятой; множественное evenings подчёркивает повторяемость (in the evening тоже верно). usually — перед смысловым глаголом: I usually walk. walk my dog — walk с дополнением означает «выгуливать»: буквально «гуляю мою собаку»; конструкция walk with my dog возможна, но звучит слабее — walk the dog это устойчивое выражение. in the park — «в парке» c in (внутри территории); the — конкретный парк рядом с домом. near my house — «недалеко от дома»: near без лишних предлогов; my house — свой дом через притяжательное my.",
+    "explanation": "Present Simple — регулярная привычка: I volunteer. once a month — «раз в месяц»: артикль a здесь значит «в (один) месяц», без предлога per/in. on a Saturday — предлог on с днём недели; артикль a, потому что «в какую-то одну субботу», не каждую (сравни on Saturdays — по всем субботам). Порядок слов: обстоятельства частоты и времени вынесены в начало и отделены запятыми, потом подлежащее и глагол — так по-английски делают акцент; между подлежащим и глаголом эти обороты ставить нельзя. volunteer — глагол «работать волонтёром», без предлога и без слова work. at the dog shelter — предлог at для места как точки, куда ездят; the — конкретный приют. outside the city — «за городом» через outside (не behind the city — калька!); артикль the — свой город.",
     "level": "A2",
     "grammarTags": [
       "present-simple",
