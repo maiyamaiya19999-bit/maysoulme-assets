@@ -83,35 +83,39 @@
   },
   {
     "id": 703,
-    "russian": "Кондиционер в номере не работает, и я не собираюсь мириться с этим за такие деньги.",
-    "english": "The air conditioning in the room isn't working, and I'm not going to put up with it for that kind of money.",
+    "russian": "Я сейчас распаковываюсь, но закат пропускать не собираюсь — говорят, с крыши отеля потрясающий вид.",
+    "english": "I'm just unpacking, but I'm not going to miss out on the sunset — they say the view from the hotel rooftop is amazing.",
     "alternatives": [
-      "The AC in our room is broken, and I won't put up with that at these prices.",
-      "The air conditioner isn't working, and for what we're paying, that's not acceptable."
+      "I'm unpacking right now, but there's no way I'm missing the sunset — apparently the view from the roof is incredible.",
+      "Just unpacking, but I'm definitely catching the sunset — I hear the rooftop view is stunning."
     ],
     "vocab": [
       {
-        "word": "air conditioning",
-        "translation": "кондиционер"
-      },
-      {
-        "word": "work",
-        "translation": "работать (о технике)"
+        "word": "unpack",
+        "translation": "распаковывать вещи"
       },
       {
         "word": "be going to",
         "translation": "собираться"
       },
       {
-        "word": "put up with",
-        "translation": "мириться, терпеть"
+        "word": "miss out on",
+        "translation": "упустить, пропустить"
       },
       {
-        "word": "that kind of money",
-        "translation": "такие деньги"
+        "word": "sunset",
+        "translation": "закат"
+      },
+      {
+        "word": "rooftop",
+        "translation": "крыша здания"
+      },
+      {
+        "word": "amazing",
+        "translation": "потрясающий"
       }
     ],
-    "explanation": "isn't working — Present Continuous в отрицании (is not + V-ing): кондиционер не работает именно сейчас, это временная поломка, а не постоянное свойство техники (сравни: This model doesn't work well — «эта модель вообще плохо работает», Present Simple). The air conditioning — the, потому что речь о конкретном кондиционере в нашем номере. I'm not going to + V1 — «не собираюсь»: осознанное намерение, поэтому going to, а не will. put up with — фразовый глагол «мириться, терпеть»: I'm not going to put up with it = «я не намерена это терпеть». for that kind of money — устойчивое «за такие деньги»: предлог for в значении «в обмен на», that kind of — «такого рода».",
+    "explanation": "I'm unpacking — Present Continuous (am + V-ing): распаковка идёт прямо сейчас, в момент сообщения; just — «как раз, только». unpack — «распаковывать вещи»: приставка un- переворачивает значение pack. I'm not going to + V1 — «не собираюсь»: отрицание при going to, потому что решение уже принято — я точно пойду смотреть закат; not встаёт между am и going. miss out on — фразовый глагол «упустить, пропустить что-то хорошее»: просто miss the sunset тоже можно, но miss out on подчёркивает «остаться без впечатления». the sunset — the, потому что закат сегодняшний, конкретный. they say — «говорят»: русское безличное «говорят» по-английски требует подлежащего they. the view from the hotel rooftop — the view конкретный; from — «откуда»; hotel перед rooftop работает как прилагательное. is amazing — Present Simple: постоянное свойство места, а не разовое впечатление.",
     "level": "B1",
     "grammarTags": [
       "present-continuous",
@@ -293,20 +297,24 @@
   },
   {
     "id": 708,
-    "russian": "Я еду в командировку на три дня, в пятницу уже вернусь.",
-    "english": "I'm going on a business trip for three days — I'll be back on Friday.",
+    "russian": "Я лечу в Дубай на конференцию по ИИ — всего на три дня, в пятницу уже вернусь.",
+    "english": "I'm flying to Dubai for an AI conference — just three days, I'll be back on Friday.",
     "alternatives": [
-      "I'm off on a three-day business trip — I'll be home Friday.",
-      "I'm leaving for work for three days and coming back on Friday."
+      "I'm off to Dubai for an AI conference — only three days, I'll be home Friday.",
+      "I'm heading to Dubai for an AI conference — it's just three days, and I'll be back on Friday."
     ],
     "vocab": [
       {
-        "word": "go on a business trip",
-        "translation": "ехать в командировку"
+        "word": "fly to",
+        "translation": "лететь в"
       },
       {
-        "word": "for three days",
-        "translation": "на три дня"
+        "word": "AI conference",
+        "translation": "конференция по ИИ"
+      },
+      {
+        "word": "just",
+        "translation": "всего, только"
       },
       {
         "word": "be back",
@@ -317,13 +325,15 @@
         "translation": "в пятницу"
       }
     ],
-    "explanation": "I'm going — Present Continuous в значении будущего: так говорят о ближайших договорённых планах, когда всё уже решено и билеты куплены. go on a business trip — устойчивое «ехать в командировку»: trip сочетается с глаголом go on, не с make или do. for three days — предлог for отвечает на вопрос «как надолго». I'll be back — «вернусь»: will для простого сообщения о будущем факте; be back («быть обратно») звучит в разговоре естественнее, чем return. on Friday — с днями недели всегда предлог on (at Friday или in Friday — ошибка). Заметь: в одном предложении два способа говорить о будущем — I'm going (план-договорённость) и I'll be back (просто факт о будущем).",
+    "explanation": "I'm flying — Present Continuous в значении будущего: так говорят о ближайших договорённых планах, когда всё решено и билеты куплены (I'm flying tomorrow — «я лечу завтра»). fly to Dubai — to как направление движения, «куда». for an AI conference — предлог for отвечает на вопрос «зачем, с какой целью»; артикль a превращается в an перед гласным звуком: an AI conference (AI читается «эй-ай»). just three days — «всего три дня»: just здесь «всего лишь», а срок стоит короткой вставкой без предлога. I'll be back — «вернусь»: will для простого сообщения о будущем факте; be back («быть обратно») звучит в разговоре естественнее, чем return. on Friday — с днями недели всегда предлог on (at Friday или in Friday — ошибка). Заметь: в одном предложении два способа говорить о будущем — I'm flying (план-договорённость) и I'll be back (факт о будущем).",
     "level": "A2",
     "grammarTags": [
       "present-continuous-future",
       "future-will",
       "time-preposition",
-      "collocation"
+      "movement-preposition",
+      "collocation",
+      "article"
     ],
     "topicTags": [
       "work",
@@ -371,39 +381,39 @@
   },
   {
     "id": 710,
-    "russian": "Я не успела подготовить презентацию заранее, поэтому доделывала её ночью в отеле.",
-    "english": "I didn't have time to prepare the presentation beforehand, so I was finishing it up at night at the hotel.",
+    "russian": "Я не планировала работать в этой поездке, но пока пила кофе на террасе отеля, придумала идею для нового ролика.",
+    "english": "I didn't plan to work on this trip, but while I was having coffee on the hotel terrace, I came up with an idea for a new video.",
     "alternatives": [
-      "I didn't get a chance to prep the presentation ahead of time, so I ended up finishing it late at night in my hotel room.",
-      "I ran out of time to prepare the presentation, so I was still working on it in the hotel that night."
+      "I wasn't planning to do any work on this trip, but an idea for a new video hit me while I was having coffee on the hotel terrace.",
+      "Work wasn't on the agenda for this trip, but over coffee on the terrace I came up with a new video idea."
     ],
     "vocab": [
       {
-        "word": "have time to",
-        "translation": "успеть"
+        "word": "plan to",
+        "translation": "планировать"
       },
       {
-        "word": "prepare",
-        "translation": "подготовить"
+        "word": "on a trip",
+        "translation": "в поездке"
       },
       {
-        "word": "presentation",
-        "translation": "презентация"
+        "word": "have coffee",
+        "translation": "пить кофе"
       },
       {
-        "word": "beforehand",
-        "translation": "заранее"
+        "word": "terrace",
+        "translation": "терраса"
       },
       {
-        "word": "finish up",
-        "translation": "доделать"
+        "word": "come up with",
+        "translation": "придумать"
       },
       {
-        "word": "at night",
-        "translation": "ночью"
+        "word": "video",
+        "translation": "ролик"
       }
     ],
-    "explanation": "didn't have time to + V1 — «не успела»: по-английски «успеть что-то сделать» чаще всего передаётся как have time to do something; отрицание в Past Simple через didn't + V1 (didn't have, не didn't had). was finishing it up — Past Continuous: доделывание — процесс, который тянулся ночью; finish up — фразовый глагол «доделать до конца», местоимение it встаёт в середину: finish it up, а не finish up it. at night — устойчивое «ночью», предлог at (не in the night). at the hotel — предлог at, потому что отель здесь точка, где я находилась в тот момент; in the hotel подчёркивало бы «внутри здания, в его стенах». beforehand — «заранее».",
+    "explanation": "I didn't plan to work — отрицание в Past Simple: didn't + V1 (didn't plan, а не didn't planned); после plan идёт инфинитив с to: plan to work. on this trip — «в этой поездке»: с trip используется предлог on (on a trip, on a business trip), не in. while I was having coffee — Past Continuous (was + V-ing): кофе — длительный фон, на котором случилось короткое событие; while обычно вводит именно длительное действие. have coffee — устойчивое «пить кофе»: have здесь не «иметь», поэтому его спокойно ставят в Continuous. on the hotel terrace — про террасу как открытую площадку предлог on; hotel перед terrace работает как прилагательное. I came up with — Past Simple, come — неправильный глагол (come — came — come); come up with — фразовый глагол «придумать, предложить идею», все три части неразделимы: came up with an idea. an idea for a new video — «идея для ролика»: idea сочетается с for; артикли a, потому что и идея, и ролик упоминаются впервые.",
     "level": "B1",
     "grammarTags": [
       "negation",
@@ -498,37 +508,42 @@
   },
   {
     "id": 713,
-    "russian": "Начальник хочет, чтобы я поехала на конференцию вместо него.",
-    "english": "My boss wants me to go to the conference instead of him.",
+    "russian": "Организаторы хотят, чтобы я прилетела в Берлин выступить на их конференции по ИИ — и, кажется, я соглашусь.",
+    "english": "The organizers want me to fly to Berlin to speak at their AI conference — and I think I'll say yes.",
     "alternatives": [
-      "My boss is sending me to the conference in his place.",
-      "My boss asked me to go to the conference instead of him."
+      "The organizers are inviting me to speak at their AI conference in Berlin — and I'm leaning toward yes.",
+      "They want me to come to Berlin and give a talk at their AI conference — I'll probably go for it."
     ],
     "vocab": [
       {
-        "word": "boss",
-        "translation": "начальник"
+        "word": "organizer",
+        "translation": "организатор"
       },
       {
         "word": "want someone to do something",
         "translation": "хотеть, чтобы кто-то сделал"
       },
       {
-        "word": "conference",
-        "translation": "конференция"
+        "word": "fly to",
+        "translation": "лететь в"
       },
       {
-        "word": "instead of",
-        "translation": "вместо"
+        "word": "speak at a conference",
+        "translation": "выступать на конференции"
+      },
+      {
+        "word": "say yes",
+        "translation": "согласиться"
       }
     ],
-    "explanation": "wants me to go — ключевая конструкция want someone to do something: «хотеть, ЧТОБЫ кто-то сделал». По-русски здесь придаточное с «чтобы», но по-английски НЕЛЬЗЯ сказать wants that I go — только wants + me + to + V1. wants с окончанием -s — Present Simple третьего лица (my boss = he). go to the conference — to как направление движения; the, потому что конференция конкретная, известная обоим. instead of him — «вместо него»: после составного предлога instead of местоимение стоит в объектной форме him, не he. My boss — по-английски перед «начальником» естественно притяжательное my: просто boss без определителя в такой фразе не говорят.",
+    "explanation": "want me to fly — ключевая конструкция want someone to do something: «хотеть, ЧТОБЫ кто-то сделал». По-русски здесь придаточное с «чтобы», но по-английски НЕЛЬЗЯ сказать want that I fly — только want + me + to + V1. want — Present Simple без -s, потому что подлежащее во множественном числе: the organizers (the — конкретные организаторы этой конференции). fly to Berlin — to как направление движения, «куда». to speak — второй инфинитив, уже с другим смыслом: инфинитив цели, «(для того) чтобы выступить». speak at a conference — «выступать НА конференции» по-английски с предлогом at: конференция — мероприятие-точка (at a meeting, at a party). their AI conference — притяжательное their, и артикль с ним уже не нужен. I think I'll say yes — «кажется, соглашусь»: will для решения, которое принимается прямо сейчас, в момент речи; say yes — разговорное «согласиться».",
     "level": "B1",
     "grammarTags": [
       "want-someone-to",
       "infinitive",
       "present-simple",
-      "movement-preposition"
+      "movement-preposition",
+      "future-will"
     ],
     "topicTags": [
       "work",
@@ -575,35 +590,39 @@
   },
   {
     "id": 715,
-    "russian": "Не обижайся, если я отвечаю посреди ночи — у нас разница в семь часов.",
-    "english": "Don't take it personally if I text back in the middle of the night — there's a seven-hour time difference between us.",
+    "russian": "Не удивляйся, если мой ответ придёт только утром — у нас разница в семь часов, а после десяти я убираю телефон.",
+    "english": "Don't be surprised if you get my reply in the morning — there's a seven-hour time difference between us, and after ten I put my phone away.",
     "alternatives": [
-      "Don't be upset if I reply in the middle of the night — we're seven hours apart.",
-      "Don't take it the wrong way if I write back at 3 a.m. — there's a seven-hour time difference."
+      "Don't be surprised if I only reply in the morning — we're seven hours apart, and my phone goes away after ten.",
+      "If you don't hear back from me until morning, don't worry — there's a seven-hour time difference, and I put my phone away after ten."
     ],
     "vocab": [
       {
-        "word": "take it personally",
-        "translation": "принимать на свой счёт, обижаться"
+        "word": "be surprised",
+        "translation": "удивляться"
       },
       {
-        "word": "text back",
-        "translation": "ответить на сообщение"
+        "word": "reply",
+        "translation": "ответ"
       },
       {
-        "word": "in the middle of the night",
-        "translation": "посреди ночи"
+        "word": "in the morning",
+        "translation": "утром"
       },
       {
         "word": "time difference",
         "translation": "разница во времени"
       },
       {
-        "word": "between us",
-        "translation": "между нами"
+        "word": "put away",
+        "translation": "убирать"
+      },
+      {
+        "word": "after ten",
+        "translation": "после десяти"
       }
     ],
-    "explanation": "Don't take it personally — отрицательный императив: Don't + V1; take it personally — устойчивое «принимать на свой счёт, обижаться». if I text back — условие типа Zero Conditional: if + Present Simple, потому что речь об общем правиле «так бывает регулярно», а не о разовом будущем событии. text back — «ответить на сообщение»: back добавляет значение «в ответ». in the middle of the night — устойчивое «посреди ночи», предлог in. there's = there is — конструкция «есть, существует»: русское «у нас разница» по-английски строится через there is. a seven-hour time difference — числительное с существительным перед другим существительным работает как прилагательное и теряет множественное число: seven-hour, а не seven-hours; артикль a — разница упоминается впервые.",
+    "explanation": "Don't be surprised — отрицательный императив: Don't + V1; с прилагательным нужна связка be: don't be surprised, don't be upset. if you get my reply — условие типа Zero Conditional: if + Present Simple, потому что речь об общем правиле «так бывает регулярно», а не о разовом будущем событии. Русское «ответ придёт» по-английски естественнее перевернуть: «ты получишь мой ответ» — you get my reply. in the morning — «утром», предлог in с артиклем the. there's = there is — конструкция «есть, существует»: русское «у нас разница» по-английски строится через there is. a seven-hour time difference — числительное с существительным перед другим существительным работает как прилагательное и теряет множественное число: seven-hour, а не seven-hours; артикль a — разница упоминается впервые; time difference — устойчивое «разница во времени». after ten — «после десяти»: предлог after, o'clock в разговоре опускается. put my phone away — фразовый глагол put away «убрать (на место)»: дополнение встаёт в середину — put my phone away; Present Simple, потому что это моё постоянное правило.",
     "level": "B1",
     "grammarTags": [
       "imperative",
@@ -611,7 +630,8 @@
       "conditional-0",
       "collocation",
       "time-preposition",
-      "there-is"
+      "there-is",
+      "phrasal-verb"
     ],
     "topicTags": [
       "texting",
@@ -1470,37 +1490,47 @@
   },
   {
     "id": 737,
-    "russian": "Авиакомпания выплатила мне компенсацию, но она не окупила весь этот стресс.",
-    "english": "The airline paid me compensation, but it didn't really make up for all the stress.",
+    "russian": "Я даже не расстроилась: купила пару вещей на местном рынке, а авиакомпания потом всё это оплатила.",
+    "english": "I didn't even get upset — I picked up a few things at the local market, and the airline paid for all of it later.",
     "alternatives": [
-      "The airline compensated me, but it hardly made up for all the stress.",
-      "I got some money back from the airline, but it wasn't worth all the stress."
+      "I wasn't even upset — I grabbed a few things at the local market, and the airline covered it all later.",
+      "Honestly, it didn't bother me — I bought a couple of things at the local market, and the airline reimbursed me afterward."
     ],
     "vocab": [
       {
-        "word": "airline",
-        "translation": "авиакомпания"
+        "word": "get upset",
+        "translation": "расстроиться"
       },
       {
-        "word": "pay compensation",
-        "translation": "выплатить компенсацию"
+        "word": "even",
+        "translation": "даже"
       },
       {
-        "word": "make up for",
-        "translation": "компенсировать, окупить"
+        "word": "pick up",
+        "translation": "купить по случаю, прихватить"
       },
       {
-        "word": "stress",
-        "translation": "стресс"
+        "word": "a few",
+        "translation": "несколько, пара"
+      },
+      {
+        "word": "local market",
+        "translation": "местный рынок"
+      },
+      {
+        "word": "pay for",
+        "translation": "оплатить"
       }
     ],
-    "explanation": "paid — Past Simple неправильного глагола pay (pay — paid — paid). paid me compensation — два дополнения подряд без предлога: сначала кому (me), потом что (compensation) — та же модель, что give me money, send me a photo. The airline — the: конкретная авиакомпания, которой я летела. didn't make up for — отрицание в Past Simple плюс фразовый глагол make up for — «компенсировать, возмещать»: деньги не «окупили» нервы. У make up много значений (помириться, придумать, накраситься) — здесь именно make up FOR something, значение держится на предлоге. really смягчает отрицание: didn't really — «не особо, не то чтобы». all the stress — stress неисчисляемое; all the — «весь этот».",
+    "explanation": "I didn't even get upset — отрицание в Past Simple: didn't + V1; get upset — «расстроиться»: get + прилагательное передаёт переход в состояние (get angry, get tired); even — «даже», стоит после didn't, перед смысловым глаголом. picked up — фразовый глагол pick up, здесь в значении «прикупить, прихватить по случаю»; pick — правильный глагол, +ed. a few things — «пару вещей»: a few используется с исчисляемыми во множественном числе (с неисчисляемыми — a little). at the local market — предлог at: рынок как точка в городе; the — рынок в этом месте один, и понятно, какой. the airline — the: конкретная авиакомпания, которой я летела. paid — Past Simple неправильного глагола pay (pay — paid — paid); pay for something — «оплатить, заплатить ЗА что-то», предлог for обязателен: paid for all of it. later — «потом, позже» в рассказе о прошлом.",
     "level": "B1",
     "grammarTags": [
       "past-simple",
       "negation",
       "phrasal-verb",
-      "article"
+      "article",
+      "quantifier",
+      "place-preposition"
     ],
     "topicTags": [
       "travel",
@@ -1787,11 +1817,11 @@
   },
   {
     "id": 745,
-    "russian": "Наш обратный рейс задержали на четыре часа, так что мы просто сидим в аэропорту.",
-    "english": "Our return flight has been delayed by four hours, so we're just sitting around at the airport.",
+    "russian": "Наш обратный рейс задержали на четыре часа, так что мы с сестрой сидим в кафе и играем в шахматы.",
+    "english": "Our return flight has been delayed by four hours, so my sister and I are hanging out at a café playing chess.",
     "alternatives": [
-      "Our flight home got pushed back four hours, so we're just killing time at the airport.",
-      "Our return flight is delayed four hours, so we're stuck hanging around the airport."
+      "Our flight home got pushed back four hours, so my sister and I are killing time at a café over a game of chess.",
+      "Our return flight is delayed four hours, so my sister and I are at a café playing chess."
     ],
     "vocab": [
       {
@@ -1807,18 +1837,23 @@
         "translation": "на четыре часа"
       },
       {
-        "word": "sit around",
-        "translation": "сидеть без дела"
+        "word": "hang out",
+        "translation": "проводить время, зависать"
+      },
+      {
+        "word": "play chess",
+        "translation": "играть в шахматы"
       }
     ],
-    "explanation": "has been delayed — Present Perfect в пассиве (has been + V3): рейс задержали, и результат актуален прямо сейчас — мы всё ещё ждём. Пассив, потому что русское «рейс задержали» не называет виновника: по-английски подлежащим становится сам рейс. by four hours — предлог by показывает, НА СКОЛЬКО задержали: delayed by four hours. return flight — «обратный рейс»: return работает как прилагательное перед flight. we're just sitting around — Present Continuous: происходит в данный момент; sit around — фразовый глагол «сидеть без дела, торчать»: around добавляет оттенок бесцельности, просто sitting был бы нейтральнее. at the airport — предлог at: аэропорт как точка, где мы застряли. just — «просто», смягчает и добавляет обречённости.",
+    "explanation": "has been delayed — Present Perfect в пассиве (has been + V3): рейс задержали, и результат актуален прямо сейчас — мы всё ещё ждём. Пассив, потому что русское «рейс задержали» не называет виновника: по-английски подлежащим становится сам рейс. by four hours — предлог by показывает, НА СКОЛЬКО задержали: delayed by four hours. return flight — «обратный рейс»: return работает как прилагательное перед flight. my sister and I — «мы с сестрой»: себя вежливо называют последней (не I and my sister), дальше глагол во множественном числе: are. are hanging out — Present Continuous: происходит в данный момент; hang out — фразовый глагол «проводить время, зависать где-то». at a café — предлог at: кафе как точка, где мы сидим; a — любое кафе в аэропорту, упоминается впервые. playing chess — причастие, которое описывает, чем мы заняты, пока сидим в кафе; play chess — без артикля: с играми артикль не ставится (play chess, play tennis), в отличие от инструментов (play the violin).",
     "level": "B1",
     "grammarTags": [
       "present-perfect",
       "passive",
       "present-continuous",
       "phrasal-verb",
-      "preposition"
+      "preposition",
+      "article"
     ],
     "topicTags": [
       "travel",
