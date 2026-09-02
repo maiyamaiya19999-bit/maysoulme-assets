@@ -36,32 +36,32 @@
   },
   {
     "id": 102,
-    "russian": "Я работаю маркетологом в небольшой компании.",
-    "english": "I work as a marketing manager at a small company.",
+    "russian": "Я веду блог про искусственный интеллект и работаю из дома.",
+    "english": "I run a blog about artificial intelligence, and I work from home.",
     "alternatives": [
-      "I'm a marketing manager at a small company.",
-      "I do marketing for a small company.",
-      "I'm in marketing at a small firm."
+      "I'm a blogger — I write about AI, and I work from home.",
+      "I have a blog about artificial intelligence, and I work remotely.",
+      "I blog about AI, and my office is basically my apartment."
     ],
     "vocab": [
       {
-        "word": "work as",
-        "translation": "работать кем-либо"
+        "word": "run a blog",
+        "translation": "вести блог"
       },
       {
-        "word": "marketing manager",
-        "translation": "маркетолог, менеджер по маркетингу"
+        "word": "artificial intelligence (AI)",
+        "translation": "искусственный интеллект"
       },
       {
-        "word": "company",
-        "translation": "компания"
+        "word": "work from home",
+        "translation": "работать из дома"
       },
       {
-        "word": "small",
-        "translation": "небольшой"
+        "word": "remotely",
+        "translation": "удалённо"
       }
     ],
-    "explanation": "Present Simple (I work), потому что это постоянный факт о жизни. Профессия присоединяется через as: work as a marketing manager — русский творительный падеж «работаю кем» передаётся предлогом as. Артикль a перед профессией обязателен: a marketing manager — один из представителей профессии. Место работы — at a small company: at используется с организациями как «точками» (at a company, at Google, at school). a small company — неопределённый артикль, потому что компания упоминается впервые и собеседник её не знает. Не пропускай артикли: по-русски их нет, но a manager и a company без артикля — ошибка.",
+    "explanation": "Present Simple (I run, I work), потому что это постоянные факты о жизни, а не то, что происходит прямо сейчас. run a blog — устойчивое сочетание «вести блог»: именно run («вести, управлять»), а не do a blog или lead a blog. a blog — неопределённый артикль, потому что блог упоминается впервые и собеседник о нём ещё не знает. Тема присоединяется предлогом about: a blog about artificial intelligence — «блог ПРО что-то»; калька a blog of AI неверна. artificial intelligence — неисчисляемое абстрактное понятие, поэтому артикля нет; в живой речи его почти всегда сокращают до AI. work from home — стандартное выражение про удалённую работу: предлог from, а home идёт без артикля и без предлога to, потому что ведёт себя как наречие (сравни: at home — «дома», go home — «домой»).",
     "level": "A2",
     "grammarTags": [
       "present-simple",
@@ -115,32 +115,36 @@
   },
   {
     "id": 104,
-    "russian": "Я сейчас работаю не в офисе, а из дома.",
-    "english": "I'm not working at the office right now — I'm working from home.",
+    "russian": "Сегодня я работаю не дома, а в кофейне у парка — читаю новости про ИИ.",
+    "english": "I'm not working at home today — I'm sitting in a coffee shop by the park, reading AI news.",
     "alternatives": [
-      "I'm working remotely right now, not from the office.",
-      "I'm working from home these days instead of going into the office.",
-      "I'm not in the office at the moment — I'm working from home."
+      "I'm not home today — I'm at a cafe near the park, catching up on AI news.",
+      "Today I'm working from a coffee shop by the park instead of home.",
+      "I'm in a coffee shop by the park today, going through the AI news."
     ],
     "vocab": [
       {
-        "word": "work from home",
-        "translation": "работать из дома, на удалёнке"
+        "word": "work at home",
+        "translation": "работать дома"
       },
       {
-        "word": "at the office",
-        "translation": "в офисе"
+        "word": "coffee shop",
+        "translation": "кофейня"
       },
       {
-        "word": "right now",
-        "translation": "сейчас, в данный момент"
+        "word": "by the park",
+        "translation": "у парка, рядом с парком"
       },
       {
-        "word": "remotely",
-        "translation": "удалённо"
+        "word": "catch up on",
+        "translation": "навёрстывать, знакомиться с (новостями)"
+      },
+      {
+        "word": "AI news",
+        "translation": "новости про искусственный интеллект"
       }
     ],
-    "explanation": "Обе части — Present Continuous: I'm not working... I'm working... — потому что речь о временной ситуации нынешнего периода, а не о вечном факте (сравни: I work from home как постоянный уклад — Present Simple). Отрицание строится через am not: I'm not working. at the office — предлог at для места-точки; артикль the, потому что офис конкретный, офис моей компании. from home — устойчивое «из дома» без артикля: work from home — стандартное выражение про удалёнку. right now подчёркивает «в данный период». Русское «сейчас» здесь значит не «в эту секунду», а «в настоящее время» — Continuous покрывает оба смысла.",
+    "explanation": "Обе части — Present Continuous: I'm not working... I'm sitting... — речь о том, что происходит именно сегодня, в этот момент, а не о постоянном укладе (постоянный уклад был бы Present Simple: I work from home). Отрицание строится через am not, в сокращении I'm not working. at home — «дома»: устойчивое сочетание без артикля. in a coffee shop — предлог in, потому что я внутри помещения; артикль a, потому что кофейня для собеседника новая, неконкретная. by the park — «у парка, возле парка»: by означает «рядом», а the park — определённый артикль, ведь парк тут один, конкретный и понятный по контексту. Последний глагол reading тоже в -ing и присоединяется без and — так по-английски добавляют сопутствующее действие. today — без предлога.",
     "level": "A2",
     "grammarTags": [
       "present-continuous",
@@ -224,36 +228,36 @@
   },
   {
     "id": 107,
-    "russian": "Я правда люблю свою работу, но иногда очень устаю.",
-    "english": "I really love my job, but sometimes I get very tired.",
+    "russian": "Я правда люблю свою работу — каждый день узнаю что-то новое.",
+    "english": "I really love my job — I learn something new every single day.",
     "alternatives": [
-      "I really do love my job, but it wears me out sometimes.",
-      "I love what I do, but sometimes I'm exhausted.",
-      "I genuinely enjoy my work, but it can be really tiring."
+      "I genuinely love what I do — there's something new to learn every day.",
+      "I really do love my work; I pick up something new daily.",
+      "I love my job — every day teaches me something new."
     ],
     "vocab": [
       {
         "word": "really",
-        "translation": "правда, действительно, очень"
+        "translation": "правда, действительно"
       },
       {
         "word": "love",
         "translation": "любить, обожать"
       },
       {
-        "word": "sometimes",
-        "translation": "иногда"
+        "word": "learn",
+        "translation": "учиться, узнавать"
       },
       {
-        "word": "get tired",
-        "translation": "уставать"
+        "word": "something new",
+        "translation": "что-то новое"
       },
       {
-        "word": "wear out",
-        "translation": "выматывать"
+        "word": "every single day",
+        "translation": "каждый божий день"
       }
     ],
-    "explanation": "I really love my job — усилитель really ставится ПЕРЕД глаголом. Сказать I very love нельзя: very не сочетается с глаголами напрямую, только really (или very much в конце: I love my job very much). Наречие частоты sometimes может стоять в начале части предложения: but sometimes I get very tired. get tired — «устаю»: get + прилагательное описывает переход в состояние (get tired, get hungry, get angry), это живее, чем am tired — «уже уставшая». very tired — а вот с прилагательным very как раз работает. Present Simple в обеих частях, потому что речь о регулярной, повторяющейся ситуации. «Свою работу» — my job: русское «свой» переводится нужным притяжательным.",
+    "explanation": "I really love my job — усилитель really ставится ПЕРЕД глаголом. Сказать I very love нельзя: very не сочетается с глаголом напрямую, только really (или very much в конце: I love my job very much). «Свою работу» — my job: русское «свой» всегда превращается в нужное притяжательное местоимение, и job (исчисляемое «место работы, должность») здесь уместнее, чем неисчисляемое work. Порядок слов в something new обратный русскому: прилагательное идёт ПОСЛЕ слов something, anything, nothing — something new, nothing interesting. every single day — «каждый божий день»: single усиливает every, и вся обстоятельственная группа времени уходит в конец предложения. Present Simple в обеих частях, потому что это регулярно повторяющаяся ситуация.",
     "level": "A2",
     "grammarTags": [
       "present-simple",
@@ -345,32 +349,32 @@
   },
   {
     "id": 110,
-    "russian": "Я не хочу искать новую работу — мне и эта нравится.",
-    "english": "I don't want to look for a new job — I like this one.",
+    "russian": "Я не хочу возвращаться в найм — мне нравится работать на себя.",
+    "english": "I don't want to go back to a regular job — I love working for myself.",
     "alternatives": [
-      "I'm not looking for a new job — I'm happy where I am.",
-      "I have no plans to switch jobs. I like it here.",
-      "I'm not interested in a new job — this one suits me."
+      "I have no desire to go back to a nine-to-five — I like being my own boss.",
+      "I don't want a regular job again; working for myself suits me perfectly.",
+      "Going back to an office job isn't for me — I love being self-employed."
     ],
     "vocab": [
       {
-        "word": "look for",
-        "translation": "искать"
+        "word": "go back to",
+        "translation": "возвращаться к"
       },
       {
-        "word": "new job",
-        "translation": "новая работа"
+        "word": "regular job",
+        "translation": "обычная работа в найме"
       },
       {
-        "word": "this one",
-        "translation": "эта (работа)"
+        "word": "work for myself",
+        "translation": "работать на себя"
       },
       {
-        "word": "switch jobs",
-        "translation": "сменить работу"
+        "word": "be one's own boss",
+        "translation": "быть себе начальником"
       }
     ],
-    "explanation": "Отрицание в Present Simple: I don't want. После want идёт инфинитив с to: want to look. look for — фразовый глагол «искать»: for обязателен и относится к объекту поиска (look for a job — искать работу; без for глагол look значит просто «смотреть»). a new job — артикль a: любая новая работа, не какая-то конкретная. Во второй части this one: слово one заменяет существительное job, чтобы не повторять его — «мне нравится эта (работа)». Сказать I like this без one можно, но this one звучит определённее и естественнее. Замена работает только с исчисляемыми: job — исчисляемое, поэтому one подходит.",
+    "explanation": "Отрицание в Present Simple: I don't want. После want идёт инфинитив с to: want to go. go back to — фразовый глагол «возвращаться к чему-то»: back даёт смысл «обратно», а предлог to вводит то, куда возвращаешься. a regular job — артикль a: любая обычная работа по найму, не какая-то конкретная. Во второй части love + герундий: love working — после like, love, enjoy действие ставится в -ing, когда речь о занятии в целом. for myself — возвратное местоимение после предлога: «на себя»; сказать for me здесь нельзя, потому что подлежащее и объект — одно лицо. Обрати внимание: русское безличное «мне нравится» английский разворачивает в личное I love.",
     "level": "A2",
     "grammarTags": [
       "negation",
@@ -426,14 +430,22 @@
   },
   {
     "id": 112,
-    "russian": "Я работаю с десяти до шести, и меня это устраивает.",
-    "english": "I work from ten to six, and that works for me.",
+    "russian": "Я работаю всего три-четыре часа в день, с одиннадцати до двух, и меня это полностью устраивает.",
+    "english": "I only work three or four hours a day, from eleven to two, and that works great for me.",
     "alternatives": [
-      "My hours are ten to six, and I'm fine with that.",
-      "I work ten to six, and it suits me just fine.",
-      "I'm on a ten-to-six schedule, and that's perfect for me."
+      "My workday is short — three or four hours, eleven to two — and it suits me perfectly.",
+      "I put in just three or four hours a day, from eleven to two, and I'm happy with that.",
+      "Three or four hours a day is enough for me, usually eleven to two."
     ],
     "vocab": [
+      {
+        "word": "only",
+        "translation": "всего лишь, только"
+      },
+      {
+        "word": "hours a day",
+        "translation": "часов в день"
+      },
       {
         "word": "from ... to ...",
         "translation": "с ... до ..."
@@ -443,15 +455,11 @@
         "translation": "устраивать, подходить кому-либо"
       },
       {
-        "word": "hours",
-        "translation": "рабочие часы"
-      },
-      {
-        "word": "be fine with",
-        "translation": "быть довольным чем-либо"
+        "word": "suit",
+        "translation": "подходить, устраивать"
       }
     ],
-    "explanation": "Рабочие часы передаются конструкцией from ... to ...: from ten to six — «с десяти до шести». Часы в таких фразах называются просто числами, без слова o'clock. that works for me — разговорная идиома «меня это устраивает»: глагол work здесь в значении «подходить, срабатывать», и для подлежащего that берётся форма третьего лица works, а «меня» передаётся через for me. Получается игра слов: work «работать» и works «устраивает» в одном предложении — по-английски это звучит совершенно нормально. Present Simple в обеих частях: постоянный график и постоянная оценка. Русское «меня устраивает» не переводи дословно как it arranges me — это бессмыслица.",
+    "explanation": "only ставится перед смысловым глаголом: I only work — «я работаю всего лишь». Русское «три-четыре» по-английски всегда через or: three or four, а не через дефис. hours a day — «часов в день»: неопределённый артикль a здесь означает «за один, в расчёте на» — тот же механизм в twice a week и once a month. Рабочие часы задаются конструкцией from ... to ...: from eleven to two, и часы называются просто числами, без o'clock. that works for me — разговорная идиома «меня это устраивает»: глагол work в значении «подходить, срабатывать», для подлежащего that нужна форма третьего лица works, а «меня» передаётся через for me. Получается игра слов — work «работать» и works «устраивает» в одном предложении, и для английского это нормально. Не переводи «меня устраивает» как it arranges me — это бессмыслица.",
     "level": "A2",
     "grammarTags": [
       "present-simple",
@@ -501,32 +509,36 @@
   },
   {
     "id": 114,
-    "russian": "По пятницам мы заканчиваем раньше.",
-    "english": "We finish earlier on Fridays.",
+    "russian": "По пятницам я заканчиваю пораньше и еду в шахматный клуб.",
+    "english": "On Fridays I finish earlier and head to my chess club.",
     "alternatives": [
-      "We get off early on Fridays.",
-      "Fridays are short days for us.",
-      "We wrap up earlier on Fridays."
+      "I wrap up early on Fridays and go to my chess club.",
+      "Fridays are short days for me — I finish earlier and head to chess.",
+      "On Fridays I stop working earlier and go play chess."
     ],
     "vocab": [
+      {
+        "word": "on Fridays",
+        "translation": "по пятницам"
+      },
       {
         "word": "finish",
         "translation": "заканчивать"
       },
       {
         "word": "earlier",
-        "translation": "раньше"
+        "translation": "раньше, пораньше"
       },
       {
-        "word": "on Fridays",
-        "translation": "по пятницам"
+        "word": "head to",
+        "translation": "направляться в"
       },
       {
-        "word": "get off (work)",
-        "translation": "освобождаться с работы"
+        "word": "chess club",
+        "translation": "шахматный клуб"
       }
     ],
-    "explanation": "Present Simple (finish), потому что это регулярное правило — так происходит каждую пятницу. on Fridays — предлог on с днями недели; множественное число Fridays передаёт «по пятницам, каждую пятницу» (сравни: on Friday — в одну конкретную пятницу). earlier — сравнительная степень от early: «раньше (чем обычно)»; короткие прилагательные и наречия образуют сравнение суффиксом -er, а объект сравнения (than usual) можно не называть — он понятен из контекста. Глагол finish стоит без дополнения — «заканчиваем (работу)»: можно сказать и finish work, но в разговоре об офисе достаточно просто finish. Обрати внимание на порядок: обстоятельство времени on Fridays уходит в конец.",
+    "explanation": "Present Simple (finish, head), потому что это регулярное правило — так происходит каждую пятницу. on Fridays — предлог on с днями недели, а множественное число Fridays передаёт «по пятницам, каждую пятницу» (сравни: on Friday — в одну конкретную пятницу). Обстоятельство времени может стоять и в начале, как здесь, и в конце предложения. earlier — сравнительная степень от early: короткие наречия и прилагательные образуют её суффиксом -er, а объект сравнения (than usual) можно не называть, он понятен из контекста. Глагол finish стоит без дополнения — «заканчиваю (работу)»; можно сказать и finish work. head to — разговорное «направляться куда-то»: head здесь глагол «держать курс», а to задаёт направление; звучит живее нейтрального go to.",
     "level": "A2",
     "grammarTags": [
       "present-simple",
@@ -581,36 +593,36 @@
   },
   {
     "id": 116,
-    "russian": "У меня сегодня куча встреч — отвечу тебе вечером.",
-    "english": "I have a lot of meetings today — I'll text you back in the evening.",
+    "russian": "Сегодня у меня много созвонов и запись подкаста — напишу тебе вечером.",
+    "english": "I have a lot of calls and a podcast recording today — I'll text you back in the evening.",
     "alternatives": [
-      "I'm swamped with meetings today — I'll get back to you tonight.",
-      "My day is packed with meetings, so I'll reply this evening.",
-      "Meetings all day today — I'll write you back tonight."
+      "My day is full of calls and a podcast recording — I'll get back to you tonight.",
+      "I've got a lot of calls today plus a podcast to record, so I'll reply this evening.",
+      "Calls all day and a podcast recording — I'll write you back tonight."
     ],
     "vocab": [
       {
         "word": "a lot of",
-        "translation": "много, куча"
+        "translation": "много"
       },
       {
-        "word": "meeting",
-        "translation": "встреча, совещание"
+        "word": "call",
+        "translation": "созвон, звонок"
+      },
+      {
+        "word": "recording",
+        "translation": "запись"
       },
       {
         "word": "text back",
         "translation": "ответить на сообщение"
       },
       {
-        "word": "in the evening",
-        "translation": "вечером"
-      },
-      {
         "word": "get back to someone",
         "translation": "ответить кому-либо позже"
       }
     ],
-    "explanation": "I have a lot of meetings — «у меня много встреч»: русское «у меня есть» передаётся глаголом have, никакого at me. a lot of — универсальное «много/куча», работает и с исчисляемыми (meetings), и с неисчисляемыми; в утверждениях оно звучит естественнее, чем many. today — без предлога. I'll text you back — Future Simple: will (сокращённо 'll) для обещания, которое даёшь прямо в момент речи. text back — фразовый глагол «ответить на сообщение»: back добавляет смысл «в ответ», а местоимение you встаёт между глаголом и частицей: text you back. in the evening — «вечером»: предлог in с частями суток (in the morning, in the evening), но исключение — at night.",
+    "explanation": "I have a lot of calls — «у меня много созвонов»: русское «у меня есть» передаётся глаголом have, никакого at me. a lot of — универсальное «много», работает и с исчисляемыми (calls), и с неисчисляемыми, и в утверждениях звучит естественнее, чем many. a podcast recording — артикль a, потому что запись одна и упоминается впервые. today — без предлога, как и tomorrow, yesterday. I'll text you back — Future Simple: will (сокращённо 'll) для обещания, которое рождается прямо в момент речи. text back — фразовый глагол «ответить на сообщение»: back добавляет смысл «в ответ», а местоимение you обязательно встаёт МЕЖДУ глаголом и частицей: text you back, а не text back you. in the evening — «вечером»: предлог in с частями суток (in the morning, in the evening), но исключение — at night.",
     "level": "A2",
     "grammarTags": [
       "present-simple",
@@ -626,37 +638,42 @@
   },
   {
     "id": 117,
-    "russian": "Мои коллеги очень дружелюбные — мне с ними повезло.",
-    "english": "My coworkers are really friendly — I'm lucky to have them.",
+    "russian": "Люди, с которыми я работаю, очень тёплые — мне правда с ними повезло.",
+    "english": "The people I work with are really warm — I'm lucky to have them.",
     "alternatives": [
-      "I have really nice coworkers — I got lucky with them.",
-      "My colleagues are super friendly, so I'm pretty lucky.",
-      "I'm lucky to work with such friendly people."
+      "I work with really lovely people — I got lucky with my team.",
+      "The people on my team are so kind, so I'm pretty lucky.",
+      "I'm lucky to work with such warm, easygoing people."
     ],
     "vocab": [
       {
-        "word": "coworker",
-        "translation": "коллега"
+        "word": "the people I work with",
+        "translation": "люди, с которыми я работаю"
       },
       {
-        "word": "friendly",
-        "translation": "дружелюбный"
+        "word": "work with",
+        "translation": "работать с"
+      },
+      {
+        "word": "warm",
+        "translation": "тёплый, душевный"
       },
       {
         "word": "be lucky",
-        "translation": "повезти"
+        "translation": "везти, повезти"
       },
       {
-        "word": "get lucky with",
-        "translation": "повезти с кем-либо"
+        "word": "easygoing",
+        "translation": "лёгкий в общении"
       }
     ],
-    "explanation": "My coworkers are really friendly: подлежащее во множественном числе — глагол are. coworkers — американское слово для коллег (colleagues тоже правильно, но в AmE чаще говорят coworkers). really перед прилагательным — разговорный усилитель, взаимозаменяемый с very. Во второй части конструкция be lucky to + V1: I'm lucky to have them — «мне повезло, что они у меня есть». После lucky идёт инфинитив с to, и целое русское придаточное «что они у меня есть» сворачивается в короткое to have them — типичный английский способ сжать мысль. Не переводи «мне повезло» дословно как to me lucky: по-английски это личная конструкция, I am lucky — «я везучая (в этом)».",
+    "explanation": "The people I work with — определительное придаточное без союза: в английском who/that можно просто опустить, когда придаточное описывает дополнение (the people (who) I work with). Предлог with при этом уходит в самый конец — русское «с которыми» не переводится вперёд, сравни: the city I come from, the book I told you about. Подлежащее people — множественное число (people уже значит «люди»), поэтому глагол are, а не is. really warm — усилитель really перед прилагательным; warm о людях значит «тёплые, душевные». Вторая часть — конструкция be lucky to + V1: I'm lucky to have them, «мне повезло, что они у меня есть». Русское безличное «мне повезло» английский делает личным: I am lucky.",
     "level": "A2",
     "grammarTags": [
       "present-simple",
       "infinitive",
-      "collocation"
+      "collocation",
+      "relative-clause"
     ],
     "topicTags": [
       "work"
@@ -705,12 +722,12 @@
   },
   {
     "id": 119,
-    "russian": "Мы сейчас делаем большой проект, так что я очень занята.",
-    "english": "We're working on a big project right now, so I'm really busy.",
+    "russian": "Мы сейчас делаем большой проект про ИИ-инструменты, и мне это очень нравится.",
+    "english": "We're working on a big project about AI tools right now, and I'm really enjoying it.",
     "alternatives": [
-      "We've got a big project going on, so I'm swamped.",
-      "We're in the middle of a big project right now, so I'm super busy.",
-      "There's a big project going on at work, so I don't have much free time."
+      "We've got a big project about AI tools going on right now, and I love it.",
+      "We're in the middle of a big AI tools project, and it's so much fun.",
+      "Right now we're building a big project around AI tools, and I'm loving every minute."
     ],
     "vocab": [
       {
@@ -722,19 +739,19 @@
         "translation": "проект"
       },
       {
+        "word": "AI tools",
+        "translation": "ИИ-инструменты"
+      },
+      {
         "word": "right now",
-        "translation": "сейчас"
+        "translation": "сейчас, в данный момент"
       },
       {
-        "word": "busy",
-        "translation": "занятой"
-      },
-      {
-        "word": "swamped",
-        "translation": "завален работой"
+        "word": "enjoy",
+        "translation": "получать удовольствие от"
       }
     ],
-    "explanation": "We're working on a big project — Present Continuous, потому что проект — временная активность этого периода: у неё есть начало и конец (сравни: I work at a company — постоянный факт, Present Simple). Русское «делаем проект» по-английски — work on: «работать НАД чем-то» передаётся предлогом on, не above и не over. a big project — артикль a: проект упоминается впервые, собеседник о нём ещё не знает. right now усиливает смысл «именно в этот период». so — «поэтому, так что», связка следствия. I'm really busy — состояние через be + прилагательное; busy — «занята», усилитель really (или very) стоит перед прилагательным.",
+    "explanation": "We're working on a big project — Present Continuous, потому что проект временный: у него есть начало и конец (сравни: I work from home — постоянный факт, Present Simple). Русское «делаем проект» по-английски — work on: «работать НАД чем-то» передаётся предлогом on, не above и не over. a big project — артикль a, проект упоминается впервые. Тема присоединяется предлогом about: a project about AI tools. right now подчёркивает «именно в этот период». Во второй части I'm really enjoying it: глагол enjoy в Continuous звучит естественно, когда речь о текущем процессе, и после него дополнение идёт БЕЗ предлога — enjoy it, а не enjoy from it. Русское безличное «мне нравится» снова становится личной конструкцией с подлежащим I.",
     "level": "A2",
     "grammarTags": [
       "present-continuous",
@@ -875,12 +892,12 @@
   },
   {
     "id": 123,
-    "russian": "Я пишу тебе с работы — только никому не говори.",
-    "english": "I'm texting you from work — just don't tell anyone.",
+    "russian": "Я пишу тебе прямо со съёмки — только никому не говори.",
+    "english": "I'm texting you from a video shoot — just don't tell anyone.",
     "alternatives": [
-      "I'm messaging you from the office — keep it between us.",
-      "I'm writing to you from work, so don't tell a soul.",
-      "Texting you from my desk — this stays between us, okay?"
+      "I'm messaging you from a shoot — keep it between us.",
+      "Texting you between takes, so don't tell a soul.",
+      "I'm writing to you in the middle of filming — this stays between us, okay?"
     ],
     "vocab": [
       {
@@ -888,8 +905,8 @@
         "translation": "писать сообщение"
       },
       {
-        "word": "from work",
-        "translation": "с работы"
+        "word": "video shoot",
+        "translation": "съёмка видео"
       },
       {
         "word": "tell",
@@ -897,14 +914,14 @@
       },
       {
         "word": "anyone",
-        "translation": "кто-либо, никто (в отрицании)"
+        "translation": "кто-либо (в отрицании — «никому»)"
       },
       {
         "word": "keep it between us",
         "translation": "пусть это останется между нами"
       }
     ],
-    "explanation": "I'm texting you — Present Continuous: пишу прямо сейчас, в момент отправки сообщения. text — «писать сообщение», после него сразу you без предлога (не text to you — частая калька с «писать тебе»). from work — «с работы»: from для источника; work в значении места идёт без артикля (at work, from work, to work). Вторая часть — отрицательный императив: don't tell anyone — «никому не говори»: просьба-запрет строится через don't + V1 без подлежащего. Важно: anyone, а не no one — в английском только одно отрицание на предложение, оно уже сидит в don't, поэтому дальше нужно any-слово (don't tell anyone; don't tell no one — ошибка, двойное отрицание). just смягчает: «только не говори».",
+    "explanation": "I'm texting you — Present Continuous: пишу прямо сейчас, в момент отправки сообщения. text — «писать сообщение», и после него сразу идёт you без предлога (не text to you — частая калька с русского «писать ТЕБЕ»). from a video shoot — предлог from для места, откуда я пишу; артикль a, потому что съёмка упоминается впервые. Вторая часть — отрицательный императив: don't tell anyone — «никому не говори»: просьба-запрет строится как don't + V1, без подлежащего. Важно: anyone, а не no one — в английском предложении только одно отрицание, оно уже сидит в don't, поэтому дальше нужно any-слово (don't tell anyone; вариант don't tell no one — ошибка, двойное отрицание). just смягчает просьбу: «только не говори».",
     "level": "A2",
     "grammarTags": [
       "present-continuous",
@@ -926,7 +943,7 @@
     "alternatives": [
       "How often do you get food delivered?",
       "Do you order in a lot?",
-      "How much do you rely on takeout?"
+      "Do you get takeout often?"
     ],
     "vocab": [
       {
@@ -962,36 +979,36 @@
   },
   {
     "id": 125,
-    "russian": "Я обычно не завтракаю — только пью кофе.",
-    "english": "I don't usually eat breakfast — I just have coffee.",
+    "russian": "Я никогда не пропускаю завтрак — обычно это овсянка с ягодами и большая чашка кофе.",
+    "english": "I never skip breakfast — it's usually oatmeal with berries and a big cup of coffee.",
     "alternatives": [
-      "I usually skip breakfast — coffee is all I have.",
-      "I'm not much of a breakfast person, I just grab a coffee.",
-      "Breakfast isn't really my thing — I only drink coffee in the morning."
+      "Breakfast is a must for me — usually oatmeal with berries and a big coffee.",
+      "I always eat breakfast; my go-to is oatmeal with berries and a large cup of coffee.",
+      "I don't skip breakfast — oatmeal with berries and a big coffee is my usual."
     ],
     "vocab": [
       {
-        "word": "usually",
-        "translation": "обычно"
-      },
-      {
-        "word": "eat breakfast",
-        "translation": "завтракать"
-      },
-      {
-        "word": "just",
-        "translation": "только, всего лишь"
-      },
-      {
-        "word": "have coffee",
-        "translation": "пить кофе"
-      },
-      {
         "word": "skip breakfast",
         "translation": "пропускать завтрак"
+      },
+      {
+        "word": "oatmeal",
+        "translation": "овсянка"
+      },
+      {
+        "word": "berries",
+        "translation": "ягоды"
+      },
+      {
+        "word": "a cup of coffee",
+        "translation": "чашка кофе"
+      },
+      {
+        "word": "go-to",
+        "translation": "любимый, «дежурный» вариант"
       }
     ],
-    "explanation": "Отрицание с наречием частоты: I don't usually eat — usually ставится после don't, перед смысловым глаголом. Вариант I usually don't eat тоже встречается, но don't usually — нейтральный и самый частотный порядок. breakfast без артикля — с приёмами пищи артикль не нужен (eat breakfast, have lunch). I just have coffee — have снова в «пищевом» значении: «пью только кофе»; just = «только, всего лишь» и стоит перед глаголом. coffee здесь неисчисляемое и без артикля — речь о кофе вообще как о напитке, а не о конкретной чашке (сравни: a coffee — одна порция). Present Simple в обеих частях: описывается ежедневная привычка, рутина.",
+    "explanation": "never само по себе делает предложение отрицательным, поэтому don't не нужно: I never skip, а не I don't never skip — двойное отрицание в английском запрещено. Наречие частоты never стоит между подлежащим и смысловым глаголом: I never skip. breakfast идёт без артикля — с приёмами пищи артикль не ставится (eat breakfast, have lunch, at dinner). Дальше безличное it's usually — «обычно это»: английскому предложению обязательно нужно подлежащее, поэтому появляется it. oatmeal — неисчисляемое, без артикля; berries — исчисляемое во множественном числе, тоже без артикля, потому что речь о ягодах вообще. a big cup of coffee — кофе неисчисляемый, и порция задаётся ёмкостью: артикль a относится к cup, ведь чашка исчисляемая.",
     "level": "A2",
     "grammarTags": [
       "negation",
@@ -1042,18 +1059,14 @@
   },
   {
     "id": 127,
-    "russian": "Мясо я не ем, а вот рыбу ем.",
-    "english": "I don't eat meat, but I do eat fish.",
+    "russian": "Я вообще не ем ни мясо, ни рыбу — я вегетарианка.",
+    "english": "I don't eat meat or fish at all — I'm a vegetarian.",
     "alternatives": [
-      "I don't eat meat, but fish is fine.",
-      "No meat for me, but I'm okay with fish.",
-      "I'm a pescatarian — no meat, but I eat fish."
+      "No meat or seafood for me — I'm vegetarian.",
+      "I'm a vegetarian, so I don't eat meat or fish.",
+      "Meat and fish aren't part of my diet at all — I've been vegetarian my whole life."
     ],
     "vocab": [
-      {
-        "word": "eat",
-        "translation": "есть"
-      },
       {
         "word": "meat",
         "translation": "мясо"
@@ -1063,16 +1076,25 @@
         "translation": "рыба"
       },
       {
-        "word": "pescatarian",
-        "translation": "пескетарианец (ест рыбу, но не мясо)"
+        "word": "vegetarian",
+        "translation": "вегетарианец, вегетарианка"
+      },
+      {
+        "word": "at all",
+        "translation": "вообще, совсем"
+      },
+      {
+        "word": "seafood",
+        "translation": "морепродукты"
       }
     ],
-    "explanation": "Классика про еду и неисчисляемые: meat и fish — неисчисляемые существительные, когда речь о продукте, поэтому нулевой артикль: eat meat, eat fish. Отрицание Present Simple: don't + V1. Вторая часть — усилительное do: I do eat fish — «а вот рыбу я КАК РАЗ ем». Вспомогательный do в утвердительном предложении добавляет контраст и логическое ударение — идеально для противопоставления после but; в речи do выделяется голосом. Без него (but I eat fish) тоже правильно, просто менее выразительно. Заметь: fish как продукт — неисчисляемое, а как животные — исчисляемое (a fish, two fish), но это уже другой контекст.",
+    "explanation": "Отрицание в Present Simple: don't + V1 (I don't eat). Русское «ни мясо, ни рыбу» в отрицательном предложении передаётся союзом or, а не and: don't eat meat or fish — одно отрицание распространяется на оба слова; вариант с and звучал бы так, будто я не ем их только вместе. meat и fish — неисчисляемые, когда речь о продуктах, поэтому нулевой артикль: eat meat, eat fish (fish как живые существа — другое дело: a fish, two fish). at all — усилитель отрицания «вообще, совсем», ставится в конец. Во второй части I'm a vegetarian: перед профессией, статусом или образом жизни в единственном числе нужен артикль a — по-русски его нет, и это самая частая ошибка. Можно сказать и без артикля через прилагательное: I'm vegetarian.",
     "level": "A2",
     "grammarTags": [
       "negation",
       "present-simple",
-      "countable-uncountable"
+      "countable-uncountable",
+      "article"
     ],
     "topicTags": [
       "food",
@@ -1495,12 +1517,12 @@
   },
   {
     "id": 138,
-    "russian": "Хочешь заглянуть в новую кофейню рядом с моим офисом?",
-    "english": "Do you want to check out the new coffee shop near my office?",
+    "russian": "Хочешь заглянуть в новую кофейню рядом с моим шахматным клубом?",
+    "english": "Do you want to check out the new coffee shop near my chess club?",
     "alternatives": [
-      "Want to try that new coffee shop by my office?",
-      "There's a new cafe near my office — feel like checking it out?",
-      "Would you like to check out the new coffee place next to my office?"
+      "Want to try that new coffee shop by my chess club?",
+      "There's a new cafe next to my chess club — feel like checking it out?",
+      "Would you like to check out the new coffee place near my chess club?"
     ],
     "vocab": [
       {
@@ -1524,7 +1546,7 @@
         "translation": "хотеться, быть в настроении"
       }
     ],
-    "explanation": "Do you want to check out...? — «хочешь сходить глянуть...?»: want + инфинитив с to (want to check out). В неформальном приглашении Do you want to...? — самый естественный заход; вежливее было бы Would you like to...? check out — фразовый глагол «глянуть, заценить, посмотреть новое место»; out — неотъемлемая часть: просто check значило бы «проверить». the new coffee shop — определённый артикль: я имею в виду конкретную новую кофейню, и по уточнению near my office ты поймёшь, какую именно. near my office — «рядом с моим офисом»: предлог near используется без of. coffee shop — американское слово для кофейни; cafe тоже говорят, но чуть шире по смыслу.",
+    "explanation": "Do you want to check out...? — «хочешь сходить глянуть...?»: после want идёт инфинитив с to (want to check out). В неформальном приглашении Do you want to...? — самый естественный заход; вежливее было бы Would you like to...? check out — фразовый глагол «глянуть, заценить, посмотреть новое место»; out — неотъемлемая часть: просто check значило бы «проверить». the new coffee shop — определённый артикль: имеется в виду конкретная новая кофейня, и по уточнению near my chess club собеседник поймёт, какая именно. near my chess club — «рядом с моим шахматным клубом»: предлог near используется без of (не near of!). coffee shop — американское слово для кофейни; cafe тоже говорят, но чуть шире по смыслу.",
     "level": "A2",
     "grammarTags": [
       "question",
@@ -1541,7 +1563,7 @@
   },
   {
     "id": 139,
-    "russian": "Твоя работа связана с поездками?",
+    "russian": "Тебе по работе много приходится ездить?",
     "english": "Does your job involve a lot of travel?",
     "alternatives": [
       "Do you travel a lot for work?",
@@ -1566,7 +1588,7 @@
         "translation": "ездить по работе"
       }
     ],
-    "explanation": "Вопрос в Present Simple с подлежащим в третьем лице единственного числа: Does + your job + V1. Окончание -s уходит во вспомогательный does, а смысловой глагол остаётся в базовой форме: involve, а не involves. involve travel — устойчивое сочетание «включать в себя поездки»: буквально «твоя работа включает много разъездов?» — именно так носитель спросит про командировки. travel здесь — неисчисляемое существительное «поездки, разъезды в целом» (сравни: a trip — одна конкретная поездка), поэтому с ним a lot of, а не many. a lot of — универсальный разговорный вариант «много», работает и с исчисляемыми, и с неисчисляемыми.",
+    "explanation": "Вопрос в Present Simple с подлежащим в третьем лице единственного числа: Does + your job + V1. Окончание -s уходит во вспомогательный does, а смысловой глагол остаётся в базовой форме: involve, а не involves. involve travel — устойчивое сочетание «включать в себя поездки»: буквально «твоя работа включает много разъездов?» — именно так носитель спросит про командировки. travel здесь — неисчисляемое существительное «поездки, разъезды в целом» (сравни: a trip — одна конкретная поездка), поэтому с ним a lot of, а не many. a lot of — универсальный разговорный вариант «много», работает и с исчисляемыми, и с неисчисляемыми. Заметь и разницу конструкций: русское безличное «тебе приходится ездить» английский разворачивает в предложение с подлежащим-работой: your job involves travel — «твоя работа предполагает разъезды».",
     "level": "A2",
     "grammarTags": [
       "question",
@@ -1670,12 +1692,12 @@
   },
   {
     "id": 142,
-    "russian": "Я сейчас еду домой на такси, ужасно устала.",
-    "english": "I'm taking a taxi home right now — I'm really tired.",
+    "russian": "Я сейчас еду домой с тренировки по паделу и до сих пор улыбаюсь.",
+    "english": "I'm taking a taxi home from padel practice, and I'm still smiling.",
     "alternatives": [
-      "I'm in a cab on my way home — I'm exhausted.",
-      "Heading home in a taxi right now, totally wiped out.",
-      "I'm on my way home in an Uber, and I'm so tired."
+      "I'm in a cab on my way home from padel, still smiling.",
+      "Heading home from padel practice in a taxi — I'm so happy right now.",
+      "I'm on my way home from padel in a taxi, and I still can't stop smiling."
     ],
     "vocab": [
       {
@@ -1687,19 +1709,19 @@
         "translation": "домой"
       },
       {
-        "word": "tired",
-        "translation": "уставший"
+        "word": "padel",
+        "translation": "падел (вид спорта)"
+      },
+      {
+        "word": "practice",
+        "translation": "тренировка"
       },
       {
         "word": "on one's way home",
         "translation": "по дороге домой"
-      },
-      {
-        "word": "exhausted",
-        "translation": "измотанный, без сил"
       }
     ],
-    "explanation": "I'm taking a taxi home — Present Continuous: еду прямо сейчас, в момент переписки. take a taxi — устойчивое «ехать на такси»: транспорт по-английски «берут» — take a taxi, take the bus, take the train (никаких go on a taxi или sit in a taxi в этом смысле). a taxi — артикль a: какое-то такси, одно из многих. home — большой подводный камень: «домой» — просто home без предлога to (go home, come home, take a taxi home); фраза to home — ошибка, потому что home здесь наречие направления. Вторая часть: I'm really tired — состояние через be + прилагательное; really усиливает tired. Тире между частями — обычный стиль коротких сообщений.",
+    "explanation": "I'm taking a taxi home — Present Continuous: еду прямо сейчас, в момент переписки. take a taxi — устойчивое «ехать на такси»: транспорт по-английски «берут» — take a taxi, take the bus, take the train (никаких go on a taxi или sit in a taxi). a taxi — артикль a: одно из многих такси. home — важный подводный камень: «домой» — просто home, без предлога to (go home, come home, take a taxi home); фраза to home — ошибка, потому что home здесь ведёт себя как наречие направления. from padel practice — предлог from показывает, откуда я еду; padel practice идёт без артикля, как и football practice, yoga class — названия регулярных занятий. Во второй части still — «до сих пор, всё ещё», ставится между am и смысловым глаголом: I'm still smiling.",
     "level": "A2",
     "grammarTags": [
       "present-continuous",
@@ -1758,36 +1780,36 @@
   },
   {
     "id": 144,
-    "russian": "До утреннего кофе я не совсем человек, так что не пиши мне раньше десяти.",
-    "english": "I'm not really a person before my morning coffee, so don't text me before ten.",
+    "russian": "Я совсем не сова — после десяти вечера мой телефон уже спит, так что не жди ответа.",
+    "english": "I'm not a night owl at all — after ten my phone goes to sleep, so don't expect a reply.",
     "alternatives": [
-      "I'm basically useless before my first coffee, so no texts before ten, please.",
-      "Don't expect a reply before ten — I'm not human until I've had my coffee.",
-      "I'm a zombie before my morning coffee, so please wait till ten to text me."
+      "I'm an early bird — my phone goes off at ten, so don't wait up for an answer.",
+      "After ten at night I'm offline: my phone goes to bed before I do, so don't expect a reply.",
+      "I'm really not a night person — after ten my phone is off, so don't count on an answer."
     ],
     "vocab": [
       {
-        "word": "not really",
-        "translation": "не совсем, не то чтобы"
+        "word": "night owl",
+        "translation": "сова, ночной человек"
       },
       {
-        "word": "person",
-        "translation": "человек"
+        "word": "go to sleep",
+        "translation": "засыпать, ложиться спать"
       },
       {
-        "word": "morning coffee",
-        "translation": "утренний кофе"
+        "word": "expect",
+        "translation": "ждать, ожидать"
       },
       {
-        "word": "text",
-        "translation": "писать сообщение"
+        "word": "reply",
+        "translation": "ответ"
       },
       {
-        "word": "before ten",
-        "translation": "раньше десяти"
+        "word": "early bird",
+        "translation": "жаворонок"
       }
     ],
-    "explanation": "Шутливая самоирония на отрицании глагола be: I'm not really a person — «я не совсем человек»; not really смягчает — «не то чтобы». a person — артикль a перед исчисляемым в единственном числе обязателен даже в шутке. before my morning coffee — «до утреннего кофе»: предлог before + притяжательное my (англичане ставят my там, где по-русски просто «утренний кофе»). so — «так что». don't text me — отрицательный императив: don't + V1, просьба-запрет. before ten — «раньше десяти»: с конкретным часом работает before; вариант until ten («вплоть до десяти») здесь тоже возможен и означал бы «не пиши до десяти, а после — можно» — before просто фиксирует границу.",
+    "explanation": "I'm not a night owl — отрицание глагола be: am not, в сокращении I'm not. a night owl — идиома «сова, ночной человек»; перед исчисляемым существительным в единственном числе артикль a обязателен, даже в шутке. at all усиливает отрицание: «совсем не». after ten — «после десяти»: предлог after, час называется просто числом, без o'clock. Дальше шутка с олицетворением: my phone goes to sleep — «телефон засыпает»; go to sleep значит именно «засыпать», а fall asleep — «провалиться в сон». so — «так что», связка следствия. don't expect a reply — отрицательный императив: don't + V1 без подлежащего; expect — «ждать, рассчитывать на», после него дополнение без предлога, а reply — исчисляемое, поэтому с артиклем a.",
     "level": "A2",
     "grammarTags": [
       "negation",
@@ -1837,40 +1859,36 @@
   },
   {
     "id": 146,
-    "russian": "Я иду на обед с коллегами, наберу тебя позже.",
-    "english": "I'm heading to lunch with my coworkers — I'll call you later.",
+    "russian": "Я убегаю на обед с подругой — наберу тебя после.",
+    "english": "I'm heading out to lunch with a friend — I'll call you later.",
     "alternatives": [
-      "I'm going out to lunch with the team — I'll give you a call later.",
-      "Off to lunch with my coworkers, I'll ring you later.",
-      "Lunch with my coworkers now — talk to you later."
+      "I'm off to lunch with a friend — I'll give you a call later.",
+      "Running out for lunch with a friend, I'll ring you afterwards.",
+      "Lunch with a friend now — I'll call you when I'm back."
     ],
     "vocab": [
       {
-        "word": "head to",
-        "translation": "направляться в"
+        "word": "head out",
+        "translation": "выходить, отправляться"
       },
       {
         "word": "lunch",
         "translation": "обед"
       },
       {
-        "word": "coworker",
-        "translation": "коллега"
+        "word": "friend",
+        "translation": "друг, подруга"
       },
       {
         "word": "call",
         "translation": "звонить"
       },
       {
-        "word": "later",
-        "translation": "позже"
-      },
-      {
         "word": "give someone a call",
         "translation": "позвонить кому-либо"
       }
     ],
-    "explanation": "I'm heading to lunch — Present Continuous о движении, которое происходит прямо сейчас. head to — разговорное «направляться»: head здесь глагол («держать курс»), а to указывает цель движения; звучит живее нейтрального go. to lunch без артикля — приёмы пищи как события идут без артиклей (to lunch, at dinner). with my coworkers — «с коллегами»: предлог with и обязательное притяжательное my. I'll call you later — will для обещания, которое рождается в момент речи: «наберу позже». call you — «позвонить тебе» без предлога: не call to you — это частая калька с русского «звонить ТЕБЕ». later — «позже», одним словом, без всяких предлогов.",
+    "explanation": "I'm heading out to lunch — Present Continuous о том, что происходит прямо сейчас. head out — разговорное «выходить, отправляться»: head здесь глагол «держать курс», out добавляет «наружу, из дома»; звучит живее нейтрального go. to lunch — без артикля: приёмы пищи как события идут без артиклей (to lunch, at dinner, for breakfast). with a friend — «с подругой»: английское friend не показывает пол, поэтому «друг» и «подруга» звучат одинаково, а уточнить можно потом через she; артикль a, потому что собеседник её не знает. I'll call you later — will для обещания, рождающегося в момент речи. call you — «позвонить тебе» БЕЗ предлога: not call to you, это калька с русского. later — «позже», одним словом.",
     "level": "A2",
     "grammarTags": [
       "present-continuous",
@@ -1879,18 +1897,18 @@
     ],
     "topicTags": [
       "texting",
-      "work",
-      "food"
+      "food",
+      "friends"
     ]
   },
   {
     "id": 147,
-    "russian": "Не могу говорить — я сейчас в офисе, тут шумно.",
-    "english": "I can't talk — I'm at the office right now, and it's kind of noisy.",
+    "russian": "Не могу говорить — я в шахматном клубе, тут все играют в тишине.",
+    "english": "I can't talk — I'm at the chess club, and everyone's playing in silence.",
     "alternatives": [
-      "I can't talk right now — I'm at work and it's loud here.",
-      "Not a good time to talk, I'm in the office and it's pretty noisy.",
-      "I'm at the office and it's too loud to talk — I'll call you back."
+      "I can't talk right now — I'm at chess club and it's dead quiet in here.",
+      "Not a good time to talk: I'm at the chess club, everybody's playing.",
+      "I'm at the chess club, so I can't really talk — it's completely silent here."
     ],
     "vocab": [
       {
@@ -1898,23 +1916,23 @@
         "translation": "не могу говорить"
       },
       {
-        "word": "at the office",
-        "translation": "в офисе"
+        "word": "chess club",
+        "translation": "шахматный клуб"
       },
       {
-        "word": "kind of",
-        "translation": "как-то, довольно"
+        "word": "in silence",
+        "translation": "в тишине, молча"
       },
       {
-        "word": "noisy",
-        "translation": "шумный"
+        "word": "quiet",
+        "translation": "тихий"
       },
       {
-        "word": "loud",
-        "translation": "громкий, шумный"
+        "word": "everyone",
+        "translation": "все, каждый"
       }
     ],
-    "explanation": "I can't talk — отрицание модального глагола can: can't = cannot, а после модального идёт голый инфинитив без to: can't talk. at the office — предлог места at: офис как точка, где я сейчас нахожусь (in the office подчёркивало бы «внутри помещения»). Артикль the — потому что речь о конкретном офисе, моём рабочем месте. it's kind of noisy — по-английски нельзя сказать просто noisy here без подлежащего: для описания обстановки нужно безличное it + is: it's noisy. kind of — разговорное смягчение «как-то, довольно-таки». right now — «прямо сейчас».",
+    "explanation": "I can't talk — отрицание модального глагола: can't = cannot, а после модального идёт голый инфинитив без to (can't talk, а не can't to talk). at the chess club — предлог места at, потому что клуб здесь точка на карте, куда я пришла; артикль the — клуб конкретный, мой (in the chess club подчёркивало бы «внутри помещения»). everyone's playing = everyone is playing — Present Continuous о том, что происходит сейчас; и главное: everyone, everybody — грамматически ЕДИНСТВЕННОЕ число, поэтому is, а не are, хотя по смыслу это много людей. in silence — устойчивое «в тишине, молча», предлог in и нулевой артикль. Русское безличное «тут все играют» английский строит с подлежащим everyone.",
     "level": "A2",
     "grammarTags": [
       "negation",
@@ -1924,7 +1942,7 @@
     ],
     "topicTags": [
       "texting",
-      "work"
+      "interests"
     ]
   },
   {
@@ -1969,17 +1987,17 @@
   },
   {
     "id": 149,
-    "russian": "Моя сестра тоже работает в маркетинге — это у нас семейное.",
-    "english": "My sister works in marketing too — it runs in the family.",
+    "russian": "Моя сестра тоже играет на скрипке — это у нас семейное.",
+    "english": "My sister plays the violin too — it runs in the family.",
     "alternatives": [
-      "My sister is in marketing too — it's a family thing.",
-      "My sister does marketing as well — I guess it's in our blood.",
-      "Marketing runs in the family — my sister does it too."
+      "My sister plays the violin as well — it's a family thing.",
+      "Violin runs in our family — my sister plays too.",
+      "My sister is a violinist too; I guess it's in our blood."
     ],
     "vocab": [
       {
-        "word": "work in marketing",
-        "translation": "работать в маркетинге"
+        "word": "play the violin",
+        "translation": "играть на скрипке"
       },
       {
         "word": "too",
@@ -1994,12 +2012,13 @@
         "translation": "быть в крови"
       }
     ],
-    "explanation": "works — Present Simple в третьем лице единственного числа: окончание -s (my sister works). Сфера деятельности присоединяется предлогом in без артикля: in marketing, in IT, in sales — «в маркетинге» как отрасли (сравни: at a company — конкретное место работы). too — «тоже» в конце утвердительного предложения (в отрицаниях было бы either). it runs in the family — идиома «это у нас семейное»: глагол run здесь в значении «передаваться, водиться» — черта как будто «бежит» по семье из поколения в поколение; форма runs — третье лицо, the family — артикль the, потому что семья конкретная, наша. Отличный способ легко пошутить о фамильных чертах.",
+    "explanation": "plays — Present Simple в третьем лице единственного числа, отсюда окончание -s (my sister plays). Названия музыкальных инструментов после play идут с определённым артиклем the: play the violin, play the piano, play the guitar — это фиксированное правило (а вот в спорте наоборот, без артикля: play chess, play tennis). too — «тоже» в конце утвердительного предложения (в отрицаниях вместо него было бы either). it runs in the family — идиома «это у нас семейное»: глагол run здесь значит «передаваться, водиться», черта как будто «бежит» по семье из поколения в поколение; форма runs — третье лицо единственного числа, а the family с артиклем the, потому что семья конкретная, наша.",
     "level": "A2",
     "grammarTags": [
       "present-simple",
       "preposition",
-      "collocation"
+      "collocation",
+      "article"
     ],
     "topicTags": [
       "family",
