@@ -3,450 +3,2203 @@
     "id": 751,
     "russian": "Звучит отлично, я в деле!",
     "english": "Sounds great — I'm in!",
+    "alternatives": [
+      "Sounds good — count me in!",
+      "That sounds awesome, I'm down!"
+    ],
+    "vocab": [
+      {
+        "word": "sound great",
+        "translation": "звучать отлично"
+      },
+      {
+        "word": "be in",
+        "translation": "быть в деле, участвовать"
+      },
+      {
+        "word": "count me in",
+        "translation": "запиши меня, я участвую"
+      }
+    ],
     "explanation": "Sounds great — разговорное согласие: в начале опущено подлежащее it (полностью — It sounds great), в живой переписке так сокращают постоянно. sounds — Present Simple с окончанием -s, потому что подразумеваемое подлежащее it — третье лицо единственного числа. После sound идёт прилагательное, а не наречие: sounds great, а не sounds greatly — глаголы восприятия (sound, look, feel, taste) сочетаются с прилагательными. I'm in — устойчивое разговорное выражение «я в деле, я согласна, участвую»; дословно «я внутри». Противоположность — I'm out («я пас»). Обрати внимание: русское «я в деле» нельзя собирать по словам — здесь работает только готовая идиома I'm in, её стоит выучить целиком.",
     "level": "A2",
-    "grammarTags": ["present-simple", "collocation"],
-    "topicTags": ["texting", "plans"]
+    "grammarTags": [
+      "present-simple",
+      "collocation"
+    ],
+    "topicTags": [
+      "texting",
+      "plans"
+    ]
   },
   {
     "id": 752,
     "russian": "Да, давай так и сделаем. Во сколько мне к тебе подойти?",
     "english": "Yeah, let's do that. What time should I come over?",
+    "alternatives": [
+      "Sure, let's go with that. When should I stop by?",
+      "Okay, sounds like a plan. What time do you want me there?"
+    ],
+    "vocab": [
+      {
+        "word": "let's do that",
+        "translation": "давай так и сделаем"
+      },
+      {
+        "word": "what time",
+        "translation": "во сколько"
+      },
+      {
+        "word": "come over",
+        "translation": "зайти в гости, прийти к кому-то домой"
+      },
+      {
+        "word": "stop by",
+        "translation": "заскочить, заглянуть"
+      }
+    ],
     "explanation": "let's do that = let us do that — согласие-предложение «давай так и сделаем»; после let's всегда идёт глагол в V1 без to. that здесь заменяет весь план, о котором вы только что договорились. Дальше вопрос с модальным глаголом should: What time should I come over? — «во сколько мне подойти?». Русское безличное «мне подойти» передаётся через should I — так спрашивают совета или инструкции у собеседника. Порядок слов вопроса: вопросительное слово (What time) + модальный (should) + подлежащее (I) + глагол (come). come over — фразовый глагол «зайти в гости, прийти к кому-то домой»; частица over уже содержит смысл «к тебе», отдельное to your place не нужно.",
     "level": "A2",
-    "grammarTags": ["imperative", "question", "modal", "phrasal-verb"],
-    "topicTags": ["plans", "communication"]
+    "grammarTags": [
+      "imperative",
+      "question",
+      "modal",
+      "phrasal-verb"
+    ],
+    "topicTags": [
+      "plans",
+      "communication"
+    ]
   },
   {
     "id": 753,
     "russian": "Я с удовольствием схожу с тобой на эту выставку.",
     "english": "I'd love to go to that exhibit with you.",
+    "alternatives": [
+      "I'd be happy to go to that exhibit with you.",
+      "Count me in for that exhibit!",
+      "I'd really enjoy seeing that exhibit with you."
+    ],
+    "vocab": [
+      {
+        "word": "I'd love to",
+        "translation": "я бы с радостью"
+      },
+      {
+        "word": "exhibit",
+        "translation": "выставка"
+      },
+      {
+        "word": "go to",
+        "translation": "пойти на, сходить в"
+      },
+      {
+        "word": "with you",
+        "translation": "с тобой"
+      }
+    ],
     "explanation": "I'd love to = I would love to — тёплое согласие, сильнее, чем I'd like to: «я бы с радостью». Здесь I'd — это I would (не I had): подсказка — после would идёт V1 (love). После love в этой конструкции стоит инфинитив с to: love to go. go to that exhibit — to здесь предлог направления «на выставку»; с мероприятиями и местами после go нужен to (go to a concert, go to the movies). exhibit — обычное американское слово для музейной выставки (exhibition тоже верно, но звучит формальнее). that, а не this, потому что о выставке уже шла речь в разговоре — «та самая, про которую ты говорил». with you в конце — обычное место для «с тобой»: русский порядок «с тобой на выставку» в английском перестраивается — сначала куда, потом с кем.",
     "level": "B1",
-    "grammarTags": ["would-like", "infinitive", "movement-preposition", "preposition"],
-    "topicTags": ["dating", "acquaintance", "interests"]
+    "grammarTags": [
+      "would-like",
+      "infinitive",
+      "movement-preposition",
+      "preposition"
+    ],
+    "topicTags": [
+      "dating",
+      "acquaintance",
+      "interests"
+    ]
   },
   {
     "id": 754,
     "russian": "Отличная идея! Я давно хотела попробовать тайскую кухню.",
     "english": "Great idea! I've wanted to try Thai food for a while.",
+    "alternatives": [
+      "Love it! I've been meaning to try Thai food forever.",
+      "Perfect! I've always wanted to try Thai food."
+    ],
+    "vocab": [
+      {
+        "word": "great idea",
+        "translation": "отличная идея"
+      },
+      {
+        "word": "want to",
+        "translation": "хотеть (сделать)"
+      },
+      {
+        "word": "try",
+        "translation": "попробовать"
+      },
+      {
+        "word": "Thai food",
+        "translation": "тайская кухня"
+      },
+      {
+        "word": "for a while",
+        "translation": "уже какое-то время, давно"
+      }
+    ],
     "explanation": "I've wanted = I have wanted — Present Perfect (have + V3), потому что желание возникло в прошлом и до сих пор актуально: «давно хотела и всё ещё хочу». Русское «давно хотела» — ловушка: Past Simple (I wanted) означал бы, что желание осталось в прошлом и прошло. for a while — «уже какое-то время»: for показывает длительность периода (for — сколько времени, since — с какого момента). После want идёт инфинитив с to: wanted to try. Thai food — без артикля: food неисчисляемое, и речь о тайской еде вообще, а не о конкретной порции. И заметь: «тайская кухня» по-английски — Thai food или Thai cuisine, но не Thai kitchen (kitchen — это помещение, где готовят).",
     "level": "B1",
-    "grammarTags": ["present-perfect", "infinitive", "for-since", "article"],
-    "topicTags": ["food", "dating"]
+    "grammarTags": [
+      "present-perfect",
+      "infinitive",
+      "for-since",
+      "article"
+    ],
+    "topicTags": [
+      "food",
+      "dating"
+    ]
   },
   {
     "id": 755,
     "russian": "Если в субботу будет хорошая погода, я с радостью присоединюсь к вам.",
     "english": "If the weather's nice on Saturday, I'll be happy to join you.",
+    "alternatives": [
+      "If it's nice out on Saturday, I'd love to join you.",
+      "I'll gladly come along on Saturday, weather permitting."
+    ],
+    "vocab": [
+      {
+        "word": "weather",
+        "translation": "погода"
+      },
+      {
+        "word": "nice",
+        "translation": "хороший, приятный (о погоде)"
+      },
+      {
+        "word": "be happy to",
+        "translation": "с радостью (сделать)"
+      },
+      {
+        "word": "join",
+        "translation": "присоединиться к"
+      },
+      {
+        "word": "come along",
+        "translation": "пойти вместе с кем-то"
+      }
+    ],
     "explanation": "First Conditional — реальное условие о будущем. Главное правило: в части с if будущее время НЕ ставится, хотя по-русски «будет хорошая погода»: If the weather's nice (Present Simple: the weather is nice), а не if the weather will be nice. Будущее живёт только в главной части: I'll be happy to join you (will + V1). the weather — всегда с определённым артиклем: погода — уникальное для собеседников явление. on Saturday — с днями недели предлог on (at — для времени по часам, in — для месяцев и лет). be happy to + V1 — устойчивый оборот «с радостью сделаю». join you — «присоединюсь к вам» без предлога: join не требует to, калька join to you — ошибка.",
     "level": "B1",
-    "grammarTags": ["conditional-1", "future-will", "time-preposition", "article"],
-    "topicTags": ["plans", "small-talk"]
+    "grammarTags": [
+      "conditional-1",
+      "future-will",
+      "time-preposition",
+      "article"
+    ],
+    "topicTags": [
+      "plans",
+      "small-talk"
+    ]
   },
   {
     "id": 756,
     "russian": "Договорились, тогда до пятницы! Очень жду нашей встречи.",
     "english": "It's a deal — see you Friday! I'm really looking forward to it.",
+    "alternatives": [
+      "Deal — see you on Friday! Can't wait.",
+      "Sounds like a plan. Friday it is — I'm really excited!"
+    ],
+    "vocab": [
+      {
+        "word": "it's a deal",
+        "translation": "договорились"
+      },
+      {
+        "word": "see you",
+        "translation": "до встречи, увидимся"
+      },
+      {
+        "word": "look forward to",
+        "translation": "ждать с нетерпением"
+      },
+      {
+        "word": "can't wait",
+        "translation": "не могу дождаться"
+      }
+    ],
     "explanation": "It's a deal — устойчивая формула «договорились» (дословно «это сделка»); обязательно с артиклем a. see you Friday — разговорное прощание: подлежащее I опущено, а перед днём недели в American English предлог on часто выпадает (see you on Friday → see you Friday). I'm really looking forward to it — «очень жду»: look forward to — особая конструкция, в которой to — ПРЕДЛОГ, а не частица инфинитива, поэтому после него идёт существительное, местоимение или V-ing: looking forward to it / to seeing you, но никогда to see you. Present Continuous (I'm looking) для этой фразы стандартен — ожидание длится прямо сейчас. really усиливает и стоит перед смысловым глаголом.",
     "level": "B1",
-    "grammarTags": ["look-forward-to", "to-preposition", "present-continuous", "collocation"],
-    "topicTags": ["dating", "plans"]
+    "grammarTags": [
+      "look-forward-to",
+      "to-preposition",
+      "present-continuous",
+      "collocation"
+    ],
+    "topicTags": [
+      "dating",
+      "plans"
+    ]
   },
   {
     "id": 757,
     "russian": "Прости, в четверг я не смогу прийти — у меня завал на работе.",
     "english": "Sorry, I can't make it on Thursday — I'm swamped at work.",
+    "alternatives": [
+      "Sorry, Thursday's not going to work — work is crazy right now.",
+      "I'm afraid I can't do Thursday — I'm buried at work."
+    ],
+    "vocab": [
+      {
+        "word": "make it",
+        "translation": "успеть, суметь прийти"
+      },
+      {
+        "word": "swamped",
+        "translation": "заваленный делами"
+      },
+      {
+        "word": "at work",
+        "translation": "на работе"
+      },
+      {
+        "word": "buried",
+        "translation": "заваленный (работой)"
+      },
+      {
+        "word": "work for someone",
+        "translation": "подходить кому-то (о времени)"
+      }
+    ],
     "explanation": "can't make it — ключевая разговорная формула отказа: make it здесь значит «успеть прийти, суметь быть», а не «сделать это». Русское «не смогу прийти» почти всегда переводится именно так, а не I can't come (грамматически верно, но суше). can't = cannot — отрицание модального can; отдельно выражать будущее не нужно: can't make it on Thursday уже про четверг, will can не существует. on Thursday — предлог on с днями недели. I'm swamped — «я завалена делами»: от swamp «болото», очень частое разговорное слово о загрузке; по форме это be + V3, но воспринимается как прилагательное-состояние. at work — «на работе»: предлог at и без артикля — устойчивое сочетание, как at home, at school.",
     "level": "B1",
-    "grammarTags": ["negation", "modal", "collocation", "time-preposition", "place-preposition"],
-    "topicTags": ["work", "communication"]
+    "grammarTags": [
+      "negation",
+      "modal",
+      "collocation",
+      "time-preposition",
+      "place-preposition"
+    ],
+    "topicTags": [
+      "work",
+      "communication"
+    ]
   },
   {
     "id": 758,
     "russian": "Боюсь, в этот раз мне придётся отказаться: на выходных прилетает моя сестра.",
     "english": "I'm afraid I'll have to pass this time — my sister's flying in this weekend.",
+    "alternatives": [
+      "I'm going to have to sit this one out — my sister's coming in for the weekend.",
+      "Unfortunately I'll have to skip it — my sister gets in this weekend."
+    ],
+    "vocab": [
+      {
+        "word": "I'm afraid",
+        "translation": "боюсь, что…"
+      },
+      {
+        "word": "have to",
+        "translation": "быть вынужденным, придётся"
+      },
+      {
+        "word": "pass",
+        "translation": "пропустить, отказаться (я пас)"
+      },
+      {
+        "word": "this time",
+        "translation": "в этот раз"
+      },
+      {
+        "word": "fly in",
+        "translation": "прилететь (сюда)"
+      },
+      {
+        "word": "sit out",
+        "translation": "пропустить, не участвовать"
+      }
+    ],
     "explanation": "I'm afraid — вежливое «боюсь, что…» для неприятных новостей; настоящий страх тут ни при чём. I'll have to pass — will + have to: «придётся» о будущем; pass в разговорном значении «пропустить, отказаться» (наше «я пас»). this time — «в этот раз», без предлога. my sister's flying in = my sister is flying in — Present Continuous в значении БУДУЩЕГО: так говорят о договорённостях, которые уже назначены (билеты куплены, дата известна). fly in — фразовый глагол «прилететь (сюда, к нам)»: частица in показывает движение в наш город. this weekend — тоже без предлога: со словами this/next/last предлоги времени не ставятся (не on this weekend).",
     "level": "B1",
-    "grammarTags": ["future-will", "phrasal-verb", "present-continuous-future", "collocation"],
-    "topicTags": ["family", "communication"]
+    "grammarTags": [
+      "future-will",
+      "phrasal-verb",
+      "present-continuous-future",
+      "collocation"
+    ],
+    "topicTags": [
+      "family",
+      "communication"
+    ]
   },
   {
     "id": 759,
     "russian": "Мне очень жаль, но я уже пообещала родителям приехать к ним на ужин.",
     "english": "I'm really sorry, but I've already promised my parents I'd come over for dinner.",
+    "alternatives": [
+      "I'm so sorry, but I already told my parents I'd be there for dinner.",
+      "I feel bad, but I've already committed to dinner at my parents' place."
+    ],
+    "vocab": [
+      {
+        "word": "I'm sorry",
+        "translation": "мне жаль"
+      },
+      {
+        "word": "promise",
+        "translation": "обещать"
+      },
+      {
+        "word": "already",
+        "translation": "уже"
+      },
+      {
+        "word": "come over",
+        "translation": "приехать в гости"
+      },
+      {
+        "word": "for dinner",
+        "translation": "на ужин"
+      },
+      {
+        "word": "commit to",
+        "translation": "взять на себя обязательство"
+      }
+    ],
     "explanation": "I've already promised — Present Perfect (have + V3): обещание дано в прошлом, но связывает меня сейчас — поэтому не Past Simple; already («уже») стоит между have и V3. promised my parents (that) I'd come over — после promise идёт адресат без предлога, затем придаточное; союз that в разговоре опускается. I'd come = I would come: обещание передаётся из прошлого, поэтому will сдвигается в would — согласование времён (I promised I would come). come over — фразовый глагол «приехать к кому-то домой, в гости». for dinner — предлог for с приёмами пищи: «на ужин» (come over for dinner, meet for lunch); dinner без артикля — названия приёмов пищи обычно артикля не берут.",
     "level": "B1",
-    "grammarTags": ["present-perfect", "phrasal-verb", "preposition"],
-    "topicTags": ["family", "communication"]
+    "grammarTags": [
+      "present-perfect",
+      "phrasal-verb",
+      "preposition"
+    ],
+    "topicTags": [
+      "family",
+      "communication"
+    ]
   },
   {
     "id": 760,
     "russian": "Можно пропустим в этот раз? У меня сейчас слишком много всего, и я неважно себя чувствую.",
     "english": "Can we skip it this time? I've got too much going on, and I'm not feeling great.",
+    "alternatives": [
+      "Could we take a rain check? I'm overwhelmed right now and feeling kind of off.",
+      "Mind if we skip this one? I've got a lot on my plate, and I'm a bit under the weather."
+    ],
+    "vocab": [
+      {
+        "word": "skip",
+        "translation": "пропустить"
+      },
+      {
+        "word": "have got",
+        "translation": "иметь (у меня есть)"
+      },
+      {
+        "word": "too much",
+        "translation": "слишком много"
+      },
+      {
+        "word": "go on",
+        "translation": "происходить"
+      },
+      {
+        "word": "not feel great",
+        "translation": "неважно себя чувствовать"
+      },
+      {
+        "word": "take a rain check",
+        "translation": "перенести на другой раз"
+      }
+    ],
     "explanation": "Can we skip it? — вопрос-просьба с модальным can: can выходит перед подлежащим. skip — «пропустить» (встречу, занятие, серию). I've got = I have got — разговорное «у меня есть». too much going on — важный оборот: «слишком много всего происходит»; too much — с неисчисляемым (обобщённое «всё происходящее»), с исчисляемыми было бы too many. going on — фразовый глагол go on «происходить» в форме V-ing. I'm not feeling great — отрицание в Present Continuous (am + not + V-ing): самочувствие — временное состояние прямо сейчас, и о самочувствии feel часто ставят в континуус. Русское «неважно» передано мягким not great: носители чаще смягчают отрицанием хорошего, чем говорят I feel bad.",
     "level": "B1",
-    "grammarTags": ["question", "modal", "quantifier", "negation", "present-continuous"],
-    "topicTags": ["texting", "feelings"]
+    "grammarTags": [
+      "question",
+      "modal",
+      "quantifier",
+      "negation",
+      "present-continuous"
+    ],
+    "topicTags": [
+      "texting",
+      "feelings"
+    ]
   },
   {
     "id": 761,
     "russian": "Пожалуйста, не принимай на свой счёт — дело не в тебе, я просто очень устала.",
     "english": "Please don't take it personally — it's not you, I'm just really tired.",
+    "alternatives": [
+      "Please don't take it the wrong way — it has nothing to do with you, I'm just exhausted.",
+      "It's not about you, honestly — I'm just completely wiped out."
+    ],
+    "vocab": [
+      {
+        "word": "take it personally",
+        "translation": "принимать на свой счёт"
+      },
+      {
+        "word": "it's not you",
+        "translation": "дело не в тебе"
+      },
+      {
+        "word": "tired",
+        "translation": "уставший"
+      },
+      {
+        "word": "have nothing to do with",
+        "translation": "не иметь отношения к"
+      },
+      {
+        "word": "wiped out",
+        "translation": "вымотанный"
+      }
+    ],
     "explanation": "don't take it personally — отрицательный императив: просьба «не делай» строится через don't + V1, и please этого не отменяет (Please don't take…). take it personally — устойчивое выражение «принимать на свой счёт, обижаться»; русское «на свой счёт» дословно не переводится, учи оборот целиком. it's not you — короткое отрицание с be: it is not; знаменитая формула «дело не в тебе». I'm just really tired — обрати внимание на порядок усилителей: just («просто») перед really («очень»), оба перед прилагательным tired. И само «я устала» — это состояние be + tired, а не глагол: I'm tired; сказать I tire нельзя.",
     "level": "B1",
-    "grammarTags": ["imperative", "negation", "collocation"],
-    "topicTags": ["feelings", "dating", "communication"]
+    "grammarTags": [
+      "imperative",
+      "negation",
+      "collocation"
+    ],
+    "topicTags": [
+      "feelings",
+      "dating",
+      "communication"
+    ]
   },
   {
     "id": 762,
     "russian": "Ты не обидишься, если я сегодня останусь дома? День был ужасно длинный.",
     "english": "Will you be upset if I stay home tonight? I had a really long day.",
+    "alternatives": [
+      "Would you mind if I stayed in tonight? It's been a really long day.",
+      "Are you going to be mad if I just stay home tonight? I'm wiped."
+    ],
+    "vocab": [
+      {
+        "word": "upset",
+        "translation": "расстроенный, обиженный"
+      },
+      {
+        "word": "stay home",
+        "translation": "остаться дома"
+      },
+      {
+        "word": "tonight",
+        "translation": "сегодня вечером"
+      },
+      {
+        "word": "have a long day",
+        "translation": "иметь тяжёлый, длинный день"
+      },
+      {
+        "word": "stay in",
+        "translation": "остаться дома, никуда не идти"
+      }
+    ],
     "explanation": "First Conditional в форме вопроса: будущее (Will you be upset) — в главной части, а после if — Present Simple (if I stay), хотя по-русски «если останусь» звучит как будущее. Ставить will после if нельзя: if I will stay — ошибка. Will you be upset…? — will выходит перед подлежащим, дальше be + прилагательное (upset — «расстроен, обижен»). stay home — «остаться дома» без предлога и артикля: home здесь наречие (не stay at the home). tonight — «сегодня вечером» одним словом, без предлога. I had a really long day — Past Simple (have → had, неправильный глагол have—had—had): день уже закончился как период; a long day — с артиклем a, стандартная фраза про тяжёлый день.",
     "level": "B1",
-    "grammarTags": ["question", "conditional-1", "future-will", "past-simple"],
-    "topicTags": ["texting", "dating"]
+    "grammarTags": [
+      "question",
+      "conditional-1",
+      "future-will",
+      "past-simple"
+    ],
+    "topicTags": [
+      "texting",
+      "dating"
+    ]
   },
   {
     "id": 763,
     "russian": "Можем перенести наш созвон на завтра? Сегодня какой-то сумасшедший день.",
     "english": "Can we push our call back to tomorrow? Today's been crazy.",
+    "alternatives": [
+      "Could we move our call to tomorrow? Today's been nuts.",
+      "Any chance we could reschedule our call for tomorrow? It's been a hectic day."
+    ],
+    "vocab": [
+      {
+        "word": "push back",
+        "translation": "сдвинуть на более позднее время"
+      },
+      {
+        "word": "call",
+        "translation": "созвон, звонок"
+      },
+      {
+        "word": "crazy",
+        "translation": "сумасшедший, безумный"
+      },
+      {
+        "word": "reschedule",
+        "translation": "перенести на другое время"
+      },
+      {
+        "word": "hectic",
+        "translation": "суматошный"
+      }
+    ],
     "explanation": "Can we…? — просьба-вопрос через модальный can перед подлежащим. push back — фразовый глагол «сдвинуть на более позднее время» (встречу, звонок, дедлайн); дополнение может вставать внутрь, между глаголом и частицей: push our call back. Перенести НА какой-то день — предлог to: push back to tomorrow. Если сдвигаем на более раннее время, глагол другой — move up. call — «созвон»: наш рабочий «созвон» по-английски просто call. Today's been crazy = Today has been crazy — Present Perfect: день ещё не закончился, поэтому has been (has + V3 от be: be—was/were—been), а не was. Сокращение 's здесь — has, а не is: подсказка — следом идёт been.",
     "level": "B1",
-    "grammarTags": ["question", "modal", "phrasal-verb", "present-perfect"],
-    "topicTags": ["work", "communication"]
+    "grammarTags": [
+      "question",
+      "modal",
+      "phrasal-verb",
+      "present-perfect"
+    ],
+    "topicTags": [
+      "work",
+      "communication"
+    ]
   },
   {
     "id": 764,
     "russian": "Во сколько тебе завтра удобно созвониться? Напиши мне до обеда, ладно?",
     "english": "What time works for you tomorrow? Let me know by noon, okay?",
+    "alternatives": [
+      "When's a good time for you tomorrow? Text me before noon, okay?",
+      "What time suits you tomorrow? Just let me know by lunchtime."
+    ],
+    "vocab": [
+      {
+        "word": "work for someone",
+        "translation": "подходить, быть удобным кому-то"
+      },
+      {
+        "word": "let me know",
+        "translation": "дай мне знать"
+      },
+      {
+        "word": "by noon",
+        "translation": "до полудня, не позднее полудня"
+      },
+      {
+        "word": "noon",
+        "translation": "полдень"
+      },
+      {
+        "word": "suit",
+        "translation": "подходить, устраивать"
+      }
+    ],
     "explanation": "What time works for you? — очень частая формула согласования времени: дословно «какое время работает для тебя», то есть «когда тебе удобно». Подлежащее здесь — само what time, поэтому вспомогательный do не нужен, а works получает -s (третье лицо). work for someone — «подходить кому-то»; перевод «удобно» через convenient звучал бы книжно. Let me know — «дай знать, сообщи»: после let идёт объект + голый инфинитив без to (let me know, а не let me to know). by noon — предлог by о сроке: «не позднее полудня»; until значил бы «вплоть до» (действие длится до момента), поэтому «напиши до обеда» — именно by. okay? в конце превращает просьбу в мягкую договорённость.",
     "level": "B1",
-    "grammarTags": ["question", "present-simple", "bare-infinitive", "by-until", "collocation"],
-    "topicTags": ["work", "communication", "plans"]
+    "grammarTags": [
+      "question",
+      "present-simple",
+      "bare-infinitive",
+      "by-until",
+      "collocation"
+    ],
+    "topicTags": [
+      "work",
+      "communication",
+      "plans"
+    ]
   },
   {
     "id": 765,
     "russian": "Прости, что переношу всё в последний момент, — у дочки поднялась температура.",
     "english": "Sorry for rescheduling at the last minute — my daughter's running a fever.",
+    "alternatives": [
+      "Sorry for the last-minute change — my daughter's got a fever.",
+      "I apologize for moving things around so late — my daughter came down with a fever."
+    ],
+    "vocab": [
+      {
+        "word": "sorry for",
+        "translation": "извини за"
+      },
+      {
+        "word": "reschedule",
+        "translation": "перенести"
+      },
+      {
+        "word": "at the last minute",
+        "translation": "в последний момент"
+      },
+      {
+        "word": "run a fever",
+        "translation": "температурить"
+      },
+      {
+        "word": "fever",
+        "translation": "температура, жар"
+      },
+      {
+        "word": "come down with",
+        "translation": "заболеть (чем-то)"
+      }
+    ],
     "explanation": "Sorry for + V-ing — извинение за действие: for — предлог, поэтому после него глагол в форме герундия (rescheduling); инфинитив невозможен (sorry for to reschedule — ошибка). reschedule — «перенести на другое время» одним словом. at the last minute — устойчивое «в последний момент»: предлог at + артикль the, менять их нельзя. my daughter's running a fever = my daughter is running a fever — Present Continuous: температура держится прямо сейчас, состояние актуально. run a fever — идиома «температурить»: run здесь не «бежать», сочетание фиксированное, с артиклем a (синоним — have a fever). Русское «поднялась» через прошедшее время сбивает: по-английски описывают текущее состояние, а не момент подъёма.",
     "level": "B1",
-    "grammarTags": ["gerund", "preposition", "present-continuous", "collocation", "article"],
-    "topicTags": ["family", "work", "communication"]
+    "grammarTags": [
+      "gerund",
+      "preposition",
+      "present-continuous",
+      "collocation",
+      "article"
+    ],
+    "topicTags": [
+      "family",
+      "work",
+      "communication"
+    ]
   },
   {
     "id": 766,
     "russian": "Я перезвоню тебе через час, хорошо?",
     "english": "I'll call you back in an hour, okay?",
+    "alternatives": [
+      "Let me call you back in about an hour, okay?",
+      "I'll get back to you in an hour, alright?"
+    ],
+    "vocab": [
+      {
+        "word": "call back",
+        "translation": "перезвонить"
+      },
+      {
+        "word": "in an hour",
+        "translation": "через час"
+      },
+      {
+        "word": "okay?",
+        "translation": "хорошо? ладно?"
+      },
+      {
+        "word": "get back to",
+        "translation": "перезвонить, ответить позже"
+      }
+    ],
     "explanation": "I'll call you back = I will call — will для решения, принятого прямо в момент разговора («ладно, перезвоню») — классический случай will, а не going to (going to — про заранее обдуманные планы). call back — фразовый глагол «перезвонить»; местоимение-дополнение обязательно встаёт между глаголом и частицей: call you back, а не call back you. in an hour — «через час»: русское «через» о будущем — это предлог in, а не after и тем более не through. an, а не a, потому что hour начинается с гласного ЗВУКА — буква h в нём не читается. okay? с вопросительной интонацией — мягкая проверка согласия, полный аналог нашего «хорошо?» в конце фразы.",
     "level": "A2",
-    "grammarTags": ["future-will", "phrasal-verb", "time-preposition", "article", "question"],
-    "topicTags": ["communication", "daily-life"]
+    "grammarTags": [
+      "future-will",
+      "phrasal-verb",
+      "time-preposition",
+      "article",
+      "question"
+    ],
+    "topicTags": [
+      "communication",
+      "daily-life"
+    ]
   },
   {
     "id": 767,
     "russian": "Наш созвон перенесли на понедельник, так что вечер у меня освободился.",
     "english": "Our call has been moved to Monday, so my evening just opened up.",
+    "alternatives": [
+      "They pushed our call to Monday, so I'm free tonight now.",
+      "Our call got bumped to Monday, so my evening's wide open."
+    ],
+    "vocab": [
+      {
+        "word": "move to",
+        "translation": "перенести на"
+      },
+      {
+        "word": "open up",
+        "translation": "освободиться (о времени)"
+      },
+      {
+        "word": "evening",
+        "translation": "вечер"
+      },
+      {
+        "word": "push to",
+        "translation": "сдвинуть на"
+      },
+      {
+        "word": "bump",
+        "translation": "перенести, сдвинуть (разг.)"
+      },
+      {
+        "word": "wide open",
+        "translation": "полностью свободный"
+      }
+    ],
     "explanation": "Русское неопределённо-личное «перенесли» (неважно кто) по-английски передаётся пассивом: has been moved — Present Perfect Passive (has + been + V3). Present Perfect, потому что важен результат для настоящего: созвон УЖЕ стоит на понедельнике, и поэтому вечер свободен. Формула пассива — be + V3, где be само стоит в перфекте: has been. moved to Monday — предлог to: перенос НА другой день. so — «так что», связка причины и следствия. my evening just opened up — open up здесь фразовый глагол «освободиться» (о времени в расписании): «в календаре образовалось окно»; just — «только что». opened — Past Simple: констатируем событие, которое произошло в конкретный момент.",
     "level": "B1",
-    "grammarTags": ["passive", "present-perfect", "phrasal-verb", "preposition"],
-    "topicTags": ["work", "plans"]
+    "grammarTags": [
+      "passive",
+      "present-perfect",
+      "phrasal-verb",
+      "preposition"
+    ],
+    "topicTags": [
+      "work",
+      "plans"
+    ]
   },
   {
     "id": 768,
     "russian": "Ты не против, если созвонимся попозже вечером? Я сначала собираюсь сходить в зал.",
     "english": "Do you mind if we talk later tonight? I'm going to hit the gym first.",
+    "alternatives": [
+      "Is it okay if we chat a bit later tonight? I want to get a workout in first.",
+      "Could we talk later this evening? I'm heading to the gym first."
+    ],
+    "vocab": [
+      {
+        "word": "do you mind if",
+        "translation": "ты не против, если"
+      },
+      {
+        "word": "later",
+        "translation": "позже"
+      },
+      {
+        "word": "hit the gym",
+        "translation": "сходить в зал"
+      },
+      {
+        "word": "first",
+        "translation": "сначала"
+      },
+      {
+        "word": "get a workout in",
+        "translation": "успеть потренироваться"
+      }
+    ],
     "explanation": "Do you mind if…? — вежливое «ты не против, если…»: вопрос в Present Simple через do. Важная ловушка: mind значит «возражать», поэтому согласие — это No, not at all («нет, не против»), а не Yes. После if — обычный порядок слов: if we talk. later tonight — «попозже сегодня вечером», без предлогов. I'm going to hit the gym — going to для плана, сложившегося заранее (в зал я собиралась ещё до этого разговора); will здесь прозвучал бы как решение на ходу. hit the gym — разговорная идиома «сходить в зал»: hit в значении «наведаться» (hit the road, hit the store). the gym — с определённым артиклем, как the store или the office: типовое место, которое собеседник легко представит. first — «сначала», в конце фразы.",
     "level": "B1",
-    "grammarTags": ["question", "present-simple", "going-to", "collocation", "article"],
-    "topicTags": ["texting", "interests", "lifestyle"]
+    "grammarTags": [
+      "question",
+      "present-simple",
+      "going-to",
+      "collocation",
+      "article"
+    ],
+    "topicTags": [
+      "texting",
+      "interests",
+      "lifestyle"
+    ]
   },
   {
     "id": 769,
     "russian": "Может, встретимся в шесть вместо семи? Тогда успеем спокойно поужинать до сеанса.",
     "english": "Could we meet at six instead of seven? That way we'll have time for a nice dinner before the movie.",
+    "alternatives": [
+      "How about six instead of seven? Then we can grab a proper dinner before the movie.",
+      "Would six work instead of seven? That gives us time for a relaxed dinner before the show."
+    ],
+    "vocab": [
+      {
+        "word": "instead of",
+        "translation": "вместо"
+      },
+      {
+        "word": "that way",
+        "translation": "тогда, в таком случае"
+      },
+      {
+        "word": "have time for",
+        "translation": "успеть, иметь время на"
+      },
+      {
+        "word": "dinner",
+        "translation": "ужин"
+      },
+      {
+        "word": "movie",
+        "translation": "фильм, сеанс"
+      },
+      {
+        "word": "how about",
+        "translation": "как насчёт"
+      }
+    ],
     "explanation": "Could we meet…? — could вместо can делает предложение мягче и вежливее: «может, встретимся…?». at six — время по часам всегда с предлогом at. instead of seven — «вместо семи»: составной предлог instead of; после него идёт существительное, местоимение или V-ing. That way — «тогда, в таком случае» (дословно «таким путём»), удобная связка для последствий. we'll have time for… — will о будущем результате; have time for + существительное — «успеть, иметь время на». a nice dinner — заметь артикль: приём пищи без определения идёт без артикля (have dinner), но с прилагательным появляется a (a nice dinner, a quick lunch). before the movie — предлог before «до»; the — сеанс конкретный, наш.",
     "level": "B1",
-    "grammarTags": ["question", "modal", "time-preposition", "preposition", "future-will", "article"],
-    "topicTags": ["dating", "plans"]
+    "grammarTags": [
+      "question",
+      "modal",
+      "time-preposition",
+      "preposition",
+      "future-will",
+      "article"
+    ],
+    "topicTags": [
+      "dating",
+      "plans"
+    ]
   },
   {
     "id": 770,
     "russian": "Я освободилась раньше, чем думала, — уже еду к тебе.",
     "english": "I got off work earlier than I thought — I'm on my way to you now.",
+    "alternatives": [
+      "I got out of work earlier than expected — I'm heading your way now.",
+      "Work let out early — I'm already on my way over."
+    ],
+    "vocab": [
+      {
+        "word": "get off work",
+        "translation": "освободиться с работы"
+      },
+      {
+        "word": "earlier than",
+        "translation": "раньше, чем"
+      },
+      {
+        "word": "on my way",
+        "translation": "в пути, уже еду"
+      },
+      {
+        "word": "head your way",
+        "translation": "ехать к тебе"
+      },
+      {
+        "word": "expected",
+        "translation": "ожидаемый"
+      }
+    ],
     "explanation": "got off work — «освободилась с работы»: get off work — устойчивое сочетание об окончании рабочего дня; got — Past Simple от get (get—got—gotten), конкретное сегодняшнее событие. earlier than I thought — сравнительная степень: early → earlier + союз than «чем»; thought — Past Simple от think (think—thought—thought). Обе части в прошедшем — естественное согласование: думала тогда и освободилась тогда. I'm on my way — идиома «я уже в пути»: обязательно с притяжательным местоимением (on my way, on his way). to you — направление. now подчёркивает «прямо сейчас». Русское «уже еду» нельзя переводить как already go: носитель скажет I'm on my way или I'm heading your way.",
     "level": "B1",
-    "grammarTags": ["past-simple", "comparative", "collocation"],
-    "topicTags": ["texting", "daily-life"]
+    "grammarTags": [
+      "past-simple",
+      "comparative",
+      "collocation"
+    ],
+    "topicTags": [
+      "texting",
+      "daily-life"
+    ]
   },
   {
     "id": 771,
     "russian": "Давай придём пораньше, пока в кафе не набился народ.",
     "english": "Let's get there early, before the café gets packed.",
+    "alternatives": [
+      "Let's head over early, before the café fills up.",
+      "We should get there early so we beat the crowd."
+    ],
+    "vocab": [
+      {
+        "word": "get there",
+        "translation": "добраться туда"
+      },
+      {
+        "word": "early",
+        "translation": "рано, пораньше"
+      },
+      {
+        "word": "packed",
+        "translation": "битком набитый"
+      },
+      {
+        "word": "fill up",
+        "translation": "наполняться"
+      },
+      {
+        "word": "beat the crowd",
+        "translation": "опередить толпу"
+      }
+    ],
     "explanation": "Let's get there early — предложение через let's + V1. get there — «добраться туда»: get в значении движения + наречие there (без предлога: не get to there). Русское «пока не набился народ» — ловушка: по-английски это before + утверждение, БЕЗ отрицания: before the café gets packed, дословно «до того как кафе станет забитым»; калька while people don't come не работает. После before о будущем идёт Present Simple (gets), а не will — то же правило, что в условных предложениях. gets packed — get + причастие/прилагательное передаёт смену состояния: «становится переполненным»; packed — разговорное «битком», сильнее, чем crowded. the café — артикль the: оба знают, о каком кафе речь.",
     "level": "B1",
-    "grammarTags": ["imperative", "present-simple", "article", "collocation"],
-    "topicTags": ["plans", "food"]
+    "grammarTags": [
+      "imperative",
+      "present-simple",
+      "article",
+      "collocation"
+    ],
+    "topicTags": [
+      "plans",
+      "food"
+    ]
   },
   {
     "id": 772,
     "russian": "Ты жаворонок или сова? Я-то обычно встаю в шесть утра.",
     "english": "Are you a morning person or a night owl? I usually get up at six.",
+    "alternatives": [
+      "Are you an early bird or a night owl? I'm usually up by six.",
+      "Do you like mornings or are you more of a night person? I tend to get up at six."
+    ],
+    "vocab": [
+      {
+        "word": "morning person",
+        "translation": "жаворонок"
+      },
+      {
+        "word": "night owl",
+        "translation": "сова"
+      },
+      {
+        "word": "get up",
+        "translation": "вставать (с постели)"
+      },
+      {
+        "word": "usually",
+        "translation": "обычно"
+      },
+      {
+        "word": "early bird",
+        "translation": "ранняя пташка, жаворонок"
+      }
+    ],
     "explanation": "Are you…or…? — альтернативный вопрос с глаголом be: are выходит перед подлежащим. a morning person / a night owl — так по-английски «жаворонок» и «сова»: дословно «утренний человек» и «ночная сова»; переводить нашего жаворонка дословно (lark) нельзя — не поймут. Артикль a перед обоими: ты — один из типа людей. I usually get up — Present Simple для привычки; наречие частотности usually стоит на своём законном месте — между подлежащим и смысловым глаголом. get up — фразовый глагол «вставать с постели» (сравни: wake up — проснуться, get up — именно встать). at six — время по часам с at; «утра» можно не уточнять — in the morning добавляют, только когда это правда важно.",
     "level": "A2",
-    "grammarTags": ["question", "present-simple", "article", "word-order", "phrasal-verb", "time-preposition"],
-    "topicTags": ["acquaintance", "small-talk", "lifestyle"]
+    "grammarTags": [
+      "question",
+      "present-simple",
+      "article",
+      "word-order",
+      "phrasal-verb",
+      "time-preposition"
+    ],
+    "topicTags": [
+      "acquaintance",
+      "small-talk",
+      "lifestyle"
+    ]
   },
   {
     "id": 773,
     "russian": "Я как раз собиралась предложить то же самое — давай тогда в пять.",
     "english": "I was actually going to suggest the same thing — let's do five, then.",
+    "alternatives": [
+      "I was just about to say the same thing — five it is.",
+      "Funny, I was going to suggest exactly that — let's go with five."
+    ],
+    "vocab": [
+      {
+        "word": "be going to",
+        "translation": "собираться (сделать)"
+      },
+      {
+        "word": "suggest",
+        "translation": "предлагать"
+      },
+      {
+        "word": "the same thing",
+        "translation": "то же самое"
+      },
+      {
+        "word": "actually",
+        "translation": "как раз, вообще-то"
+      },
+      {
+        "word": "be about to",
+        "translation": "как раз собираться"
+      }
+    ],
     "explanation": "was going to + V1 — «собиралась (сделать)»: конструкция going to в прошедшем времени описывает намерение, которое сложилось ДО текущего момента (будущее в прошедшем). Здесь она идеально передаёт «как раз собиралась»: мысль созрела раньше, чем собеседник написал. actually — «вообще-то, как раз», стоит между was и going. suggest the same thing — «предложить то же самое»: the same всегда с артиклем the, «тот же самый» конкретен по определению. Попутно запомни: suggest не сочетается с объектом и инфинитивом (suggest you to meet — ошибка), но здесь после него просто существительное, так что всё чисто. let's do five — очень разговорное «давай в пять»: do заменяет «назначим на»; then — «тогда, в таком случае» в конце реплики.",
     "level": "B1",
-    "grammarTags": ["going-to", "imperative", "article"],
-    "topicTags": ["texting", "plans"]
+    "grammarTags": [
+      "going-to",
+      "imperative",
+      "article"
+    ],
+    "topicTags": [
+      "texting",
+      "plans"
+    ]
   },
   {
     "id": 774,
     "russian": "Да ладно! Ты что, серьёзно переезжаешь в Лиссабон?",
     "english": "No way! Are you seriously moving to Lisbon?",
+    "alternatives": [
+      "Wait, what? You're actually moving to Lisbon?",
+      "Get out of here! Are you for real moving to Lisbon?"
+    ],
+    "vocab": [
+      {
+        "word": "no way",
+        "translation": "да ладно, не может быть"
+      },
+      {
+        "word": "seriously",
+        "translation": "серьёзно, всерьёз"
+      },
+      {
+        "word": "move to",
+        "translation": "переезжать в"
+      },
+      {
+        "word": "for real",
+        "translation": "серьёзно, по-настоящему"
+      }
+    ],
     "explanation": "No way! — главная разговорная реакция удивления: «да ладно, не может быть!». Are you moving…? — Present Continuous в значении БУДУЩЕГО: так спрашивают о решённых планах, когда процесс уже запущен (квартира ищется, билеты выбираются). Will you move звучал бы как гадание о далёком будущем, а не реакция на новость. Порядок вопроса: are + подлежащее + V-ing. seriously — «всерьёз? правда?» — передаёт недоверие, стоит перед смысловым глаголом. move to Lisbon — move «переезжать» + предлог направления to; заметь: «переехать В город» — именно to, не in. Отдельно стоящее move in означает совсем другое — «въехать (в новое жильё)» или «съехаться с кем-то».",
     "level": "B1",
-    "grammarTags": ["question", "present-continuous-future", "movement-preposition"],
-    "topicTags": ["travel", "texting"]
+    "grammarTags": [
+      "question",
+      "present-continuous-future",
+      "movement-preposition"
+    ],
+    "topicTags": [
+      "travel",
+      "texting"
+    ]
   },
   {
     "id": 775,
     "russian": "Я не ожидала, что он вот так возьмёт и уволится.",
     "english": "I didn't expect him to just quit like that.",
+    "alternatives": [
+      "I never thought he'd just up and quit like that.",
+      "It really caught me off guard that he quit out of nowhere."
+    ],
+    "vocab": [
+      {
+        "word": "expect",
+        "translation": "ожидать"
+      },
+      {
+        "word": "quit",
+        "translation": "уволиться"
+      },
+      {
+        "word": "like that",
+        "translation": "вот так (запросто)"
+      },
+      {
+        "word": "up and quit",
+        "translation": "взять и уволиться"
+      },
+      {
+        "word": "out of nowhere",
+        "translation": "ни с того ни с сего"
+      }
+    ],
     "explanation": "I didn't expect — отрицание в Past Simple: did + not + V1 (expect), удивление относится к прошлому событию. Главная конструкция: expect someone to do something — «ожидать, что кто-то сделает». Русское «ожидала, ЧТО ОН уволится» перестраивается в объект + инфинитив: expect him to quit, а не expect that he will quit (возможно, но тяжелее и книжнее). Та же схема у want, ask, tell: I want you to come. just перед quit — «просто взять и»; like that — «вот так (запросто)». quit — «уволиться по собственному желанию»: неправильный глагол quit—quit—quit, форма не меняется; be fired — это когда уволили тебя. Калька I didn't expect that he quits — типичная русская ошибка.",
     "level": "B1",
-    "grammarTags": ["negation", "past-simple", "want-someone-to", "infinitive"],
-    "topicTags": ["work", "feelings"]
+    "grammarTags": [
+      "negation",
+      "past-simple",
+      "want-someone-to",
+      "infinitive"
+    ],
+    "topicTags": [
+      "work",
+      "feelings"
+    ]
   },
   {
     "id": 776,
     "russian": "Ты уже слышал новость? Аня выходит замуж!",
     "english": "Have you heard the news? Anya's getting married!",
+    "alternatives": [
+      "Did you hear? Anya's tying the knot!",
+      "Guess what — Anya's engaged, the wedding's happening!"
+    ],
+    "vocab": [
+      {
+        "word": "hear the news",
+        "translation": "услышать новость"
+      },
+      {
+        "word": "news",
+        "translation": "новость, новости"
+      },
+      {
+        "word": "get married",
+        "translation": "выходить замуж, жениться"
+      },
+      {
+        "word": "tie the knot",
+        "translation": "пожениться (разг.)"
+      },
+      {
+        "word": "engaged",
+        "translation": "помолвленный"
+      }
+    ],
     "explanation": "Have you heard…? — Present Perfect (have + V3; heard от hear—heard—heard): спрашиваем о результате к настоящему моменту — «дошла ли новость», неважно, когда именно. Past Simple (Did you hear the news?) американцы тоже говорят, но перфект подчёркивает «уже». the news — с артиклем the (конкретная новость, которую я сейчас расскажу) и всегда с глаголом в единственном числе, хотя выглядит как множественное: news — неисчисляемое, the news IS. Anya's getting married = Anya is getting married — Present Continuous о ближайшем решённом будущем: свадьба уже готовится. get married — «выходить замуж / жениться»: смена статуса передаётся через get; be married — уже состоять в браке. married, а не marry: marry требует объекта (marry him).",
     "level": "A2",
-    "grammarTags": ["question", "present-perfect", "present-continuous-future", "article", "countable-uncountable"],
-    "topicTags": ["small-talk", "friends"]
+    "grammarTags": [
+      "question",
+      "present-perfect",
+      "present-continuous-future",
+      "article",
+      "countable-uncountable"
+    ],
+    "topicTags": [
+      "small-talk",
+      "friends"
+    ]
   },
   {
     "id": 777,
     "russian": "Когда ты позвонил, я как раз смотрела твою сторис — ну и совпадение!",
     "english": "When you called, I was literally watching your story — what a coincidence!",
+    "alternatives": [
+      "I was right in the middle of watching your story when you called — what are the odds!",
+      "Funny — your story was up on my screen the moment you called. Such a coincidence!"
+    ],
+    "vocab": [
+      {
+        "word": "call",
+        "translation": "звонить"
+      },
+      {
+        "word": "literally",
+        "translation": "буквально, прямо"
+      },
+      {
+        "word": "story",
+        "translation": "сторис"
+      },
+      {
+        "word": "coincidence",
+        "translation": "совпадение"
+      },
+      {
+        "word": "what are the odds",
+        "translation": "ну и совпадение, какова вероятность"
+      }
+    ],
     "explanation": "Классическая пара времён: длительное действие-фон — Past Continuous (I was watching — was/were + V-ing), а короткое событие, которое в него «врезалось», — Past Simple (you called). «Смотрела» — процесс, «позвонил» — точка. Союз when обычно присоединяет короткое действие: When you called, I was watching… literally — разговорное усиление «буквально, прямо в тот момент», стоит между was и V-ing. your story — «твоя сторис»: в английском story в этом значении — обычное исчисляемое слово. What a coincidence! — восклицание по формуле What + a + существительное: артикль a обязателен с исчисляемым в единственном числе (What a day!, What a surprise!); без артикля — только с неисчисляемыми и множественным числом (What nonsense!).",
     "level": "B1",
-    "grammarTags": ["past-simple", "past-continuous", "article"],
-    "topicTags": ["texting", "small-talk"]
+    "grammarTags": [
+      "past-simple",
+      "past-continuous",
+      "article"
+    ],
+    "topicTags": [
+      "texting",
+      "small-talk"
+    ]
   },
   {
     "id": 778,
     "russian": "Поверить не могу, что вы знакомы уже десять лет.",
     "english": "I can't believe you two have known each other for ten years.",
+    "alternatives": [
+      "It's crazy that you two go back ten years.",
+      "Hard to believe you've been friends for a whole decade."
+    ],
+    "vocab": [
+      {
+        "word": "can't believe",
+        "translation": "не могу поверить"
+      },
+      {
+        "word": "know each other",
+        "translation": "быть знакомыми, знать друг друга"
+      },
+      {
+        "word": "for ten years",
+        "translation": "уже десять лет"
+      },
+      {
+        "word": "you two",
+        "translation": "вы двое, вы оба"
+      },
+      {
+        "word": "go back",
+        "translation": "быть знакомыми с давних пор"
+      },
+      {
+        "word": "decade",
+        "translation": "десятилетие"
+      }
+    ],
     "explanation": "I can't believe (that)… — устойчивое «поверить не могу, что…»; союз that в разговоре опущен. have known — Present Perfect, потому что состояние тянется из прошлого до сих пор: знакомы десять лет И СЕЙЧАС тоже. know — глагол состояния, континуус с ним не используется: have been knowing — ошибка, только have known. for ten years — for + отрезок времени («в течение десяти лет»); since был бы с точкой отсчёта (since 2016). Русское «вы знакомы» через Present Simple (you know each other for ten years) — типичная калька: срок, длящийся с прошлого, требует перфекта. you two — разговорное «вы двое, вы оба». each other — «друг друга»: know each other, а не know themselves (это «знают самих себя»).",
     "level": "B1",
-    "grammarTags": ["negation", "modal", "present-perfect", "for-since"],
-    "topicTags": ["friends", "small-talk"]
+    "grammarTags": [
+      "negation",
+      "modal",
+      "present-perfect",
+      "for-since"
+    ],
+    "topicTags": [
+      "friends",
+      "small-talk"
+    ]
   },
   {
     "id": 779,
     "russian": "Ты шутишь? Он правда ведёт блог про носки?",
     "english": "Are you kidding? He seriously runs a blog about socks?",
+    "alternatives": [
+      "You're joking, right? He actually has a blog about socks?",
+      "For real? He runs an entire blog on socks?"
+    ],
+    "vocab": [
+      {
+        "word": "kid",
+        "translation": "шутить, разыгрывать"
+      },
+      {
+        "word": "seriously",
+        "translation": "правда, всерьёз"
+      },
+      {
+        "word": "run a blog",
+        "translation": "вести блог"
+      },
+      {
+        "word": "about",
+        "translation": "про, о"
+      },
+      {
+        "word": "socks",
+        "translation": "носки"
+      }
+    ],
     "explanation": "Are you kidding? — «ты шутишь?»: kid — разговорный глагол «шутить, разыгрывать», в Present Continuous, потому что «шутишь прямо сейчас, в этой реплике». Второй вопрос — эхо-вопрос удивления: порядок слов утвердительный (He seriously runs…?), вопросительность передают только интонация и знак вопроса — так переспрашивают, не веря услышанному. Нейтральный вопрос выглядел бы иначе: Does he really run…? runs — Present Simple с -s: вести блог — регулярное занятие. run a blog — именно run («вести, управлять»): run a business, run a channel; калька lead a blog — ошибка. a blog — артикль a: упоминается впервые. about socks — «про носки»: предлог about; socks во множественном числе без артикля — носки вообще.",
     "level": "A2",
-    "grammarTags": ["question", "present-continuous", "present-simple", "preposition", "article"],
-    "topicTags": ["humor", "acquaintance", "interests"]
+    "grammarTags": [
+      "question",
+      "present-continuous",
+      "present-simple",
+      "preposition",
+      "article"
+    ],
+    "topicTags": [
+      "humor",
+      "acquaintance",
+      "interests"
+    ]
   },
   {
     "id": 780,
     "russian": "Вот это новость! Расскажи мне всё с самого начала.",
     "english": "That's big news! Tell me everything from the very beginning.",
+    "alternatives": [
+      "Wow, that's huge! Start from the top and tell me everything.",
+      "Okay, that's a big deal — I need all the details, from the start."
+    ],
+    "vocab": [
+      {
+        "word": "big news",
+        "translation": "важная новость"
+      },
+      {
+        "word": "tell",
+        "translation": "рассказать"
+      },
+      {
+        "word": "everything",
+        "translation": "всё"
+      },
+      {
+        "word": "from the very beginning",
+        "translation": "с самого начала"
+      },
+      {
+        "word": "from the top",
+        "translation": "с самого начала (разг.)"
+      },
+      {
+        "word": "details",
+        "translation": "подробности"
+      }
+    ],
     "explanation": "That's big news! — реакция на услышанное. Главное здесь — слово news: оно неисчисляемое, поэтому БЕЗ артикля a (не a big news) и с глаголом в единственном числе (that IS big news). Если нужна ровно «одна новость» — a piece of news. Tell me everything — императив: глагол в V1 без подлежащего; tell обязательно требует адресата без предлога — tell me, а не say me (say используется без адресата или с to: say it to me — частая точка ошибок). from the very beginning — «с самого начала»: предлог from отмечает отправную точку; very перед существительным — усилитель «самый» (the very beginning, the very end); артикль the — начало у истории одно, конкретное.",
     "level": "A2",
-    "grammarTags": ["imperative", "countable-uncountable", "preposition", "article"],
-    "topicTags": ["communication", "small-talk"]
+    "grammarTags": [
+      "imperative",
+      "countable-uncountable",
+      "preposition",
+      "article"
+    ],
+    "topicTags": [
+      "communication",
+      "small-talk"
+    ]
   },
   {
     "id": 781,
     "russian": "Напомни, где именно мы встречаемся — у метро или прямо у кафе?",
     "english": "Remind me where exactly we're meeting — at the subway station or right outside the café?",
+    "alternatives": [
+      "Wait, where are we meeting again — by the subway or right in front of the café?",
+      "Just to double-check: are we meeting at the subway station or at the café itself?"
+    ],
+    "vocab": [
+      {
+        "word": "remind",
+        "translation": "напомнить"
+      },
+      {
+        "word": "exactly",
+        "translation": "именно, точно"
+      },
+      {
+        "word": "meet",
+        "translation": "встречаться"
+      },
+      {
+        "word": "subway station",
+        "translation": "станция метро"
+      },
+      {
+        "word": "outside",
+        "translation": "снаружи, у входа"
+      },
+      {
+        "word": "double-check",
+        "translation": "перепроверить"
+      }
+    ],
     "explanation": "Remind me — императив «напомни мне»: remind — напомнить кому-то другому, в отличие от remember — помнить самому; их путают постоянно. Дальше косвенный вопрос: where exactly we're meeting — внутри него ПРЯМОЙ порядок слов, вспомогательный глагол вперёд не выносится (отдельным прямым вопросом было бы Where are we meeting?). we're meeting — Present Continuous о договорённости: встреча уже назначена, уточняется только место. at the subway station — предлог at для точки встречи «у метро»; в American English метро — subway, а точка на карте — subway station (сказать просто at the subway нельзя: subway — это система, а не место). right outside the café — right усиливает: «прямо у»; outside — «снаружи, у входа». Оба места с the: это конкретные, известные обоим точки города.",
     "level": "B1",
-    "grammarTags": ["imperative", "indirect-question", "present-continuous-future", "place-preposition", "article"],
-    "topicTags": ["dating", "texting"]
+    "grammarTags": [
+      "imperative",
+      "indirect-question",
+      "present-continuous-future",
+      "place-preposition",
+      "article"
+    ],
+    "topicTags": [
+      "dating",
+      "texting"
+    ]
   },
   {
     "id": 782,
     "russian": "Во сколько начинается концерт? Не хочу пропустить разогрев.",
     "english": "What time does the concert start? I don't want to miss the opening act.",
+    "alternatives": [
+      "When does the concert start? I'd hate to miss the opener.",
+      "What time does the show kick off? I want to catch the opening act."
+    ],
+    "vocab": [
+      {
+        "word": "start",
+        "translation": "начинаться"
+      },
+      {
+        "word": "miss",
+        "translation": "пропустить"
+      },
+      {
+        "word": "opening act",
+        "translation": "разогрев, разогревающая группа"
+      },
+      {
+        "word": "concert",
+        "translation": "концерт"
+      },
+      {
+        "word": "kick off",
+        "translation": "начинаться"
+      },
+      {
+        "word": "catch",
+        "translation": "успеть на, застать"
+      }
+    ],
     "explanation": "What time does the concert start? — вопрос о расписании: Present Simple, потому что о событиях по расписанию (концерты, поезда, сеансы) англичане говорят в настоящем простом, даже когда речь о будущем. Вспомогательный does (третье лицо), а смысловой глагол остаётся в V1: does…start, ни в коем случае не does…starts. the concert — артикль the: оба знают, о каком концерте речь. I don't want to miss — отрицание через don't; после want — инфинитив с to: want to miss. miss здесь — «пропустить, не успеть на» (значение «скучать» у miss появляется в другом контексте: I miss you). the opening act — «разогрев, разогревающая группа»: устойчивый термин; the — у конкретного концерта разогрев конкретный.",
     "level": "A2",
-    "grammarTags": ["question", "present-simple", "negation", "infinitive", "article"],
-    "topicTags": ["plans", "interests"]
+    "grammarTags": [
+      "question",
+      "present-simple",
+      "negation",
+      "infinitive",
+      "article"
+    ],
+    "topicTags": [
+      "plans",
+      "interests"
+    ]
   },
   {
     "id": 783,
     "russian": "Подскажешь, как добраться до твоего офиса от вокзала?",
     "english": "Could you tell me how to get to your office from the station?",
+    "alternatives": [
+      "What's the best way to get to your office from the station?",
+      "Any chance you could give me directions from the station to your office?"
+    ],
+    "vocab": [
+      {
+        "word": "get to",
+        "translation": "добраться до"
+      },
+      {
+        "word": "office",
+        "translation": "офис"
+      },
+      {
+        "word": "station",
+        "translation": "вокзал, станция"
+      },
+      {
+        "word": "from",
+        "translation": "от, из"
+      },
+      {
+        "word": "directions",
+        "translation": "маршрут, как добраться"
+      }
+    ],
     "explanation": "Could you tell me…? — самая вежливая форма просьбы: could мягче, чем can. Внутри — косвенный вопрос how to get…: после вопросительного слова стоит просто инфинитив с to (how to get, where to go, what to say) — компактный способ спросить «как сделать», без подлежащего и вспомогательных глаголов. get to your office — get в значении «добраться» + предлог направления to. from the station — «от вокзала»: from — отправная точка, to — конечная; вместе они размечают весь маршрут (from…to…). the station — с артиклем the: вокзал обычно один и понятен обоим. И заметь: tell me — без предлога (не tell to me): tell присоединяет адресата напрямую, в отличие от say to me или explain to me.",
     "level": "B1",
-    "grammarTags": ["question", "indirect-question", "modal", "infinitive", "movement-preposition"],
-    "topicTags": ["work", "communication"]
+    "grammarTags": [
+      "question",
+      "indirect-question",
+      "modal",
+      "infinitive",
+      "movement-preposition"
+    ],
+    "topicTags": [
+      "work",
+      "communication"
+    ]
   },
   {
     "id": 784,
     "russian": "Мы встречаемся прямо в отеле или на пляже?",
     "english": "Are we meeting at the hotel or on the beach?",
+    "alternatives": [
+      "Should we meet at the hotel or head straight to the beach?",
+      "Where do you want to meet — the hotel or the beach?"
+    ],
+    "vocab": [
+      {
+        "word": "meet",
+        "translation": "встречаться"
+      },
+      {
+        "word": "at the hotel",
+        "translation": "у отеля, в отеле (как точка встречи)"
+      },
+      {
+        "word": "on the beach",
+        "translation": "на пляже"
+      },
+      {
+        "word": "head to",
+        "translation": "направляться к"
+      }
+    ],
     "explanation": "Are we meeting…? — Present Continuous о запланированной встрече: договорённость уже есть, уточняется только место; порядок вопроса — are + we + V-ing. at the hotel — предлог at называет отель как ТОЧКУ программы, место встречи («у отеля, при отеле»); in the hotel подчёркивал бы «внутри здания». Это важная пара: at — пункт на маршруте, in — физически внутри помещения. on the beach — «на пляже» всегда с on: пляж — открытая поверхность (on the beach, on the coast). Оба существительных с артиклем the: и отель, и пляж конкретные — те, где мы отдыхаем. or соединяет альтернативы: ответом будет выбор одного из вариантов, а не yes/no.",
     "level": "A2",
-    "grammarTags": ["question", "present-continuous-future", "place-preposition", "article"],
-    "topicTags": ["travel", "plans"]
+    "grammarTags": [
+      "question",
+      "present-continuous-future",
+      "place-preposition",
+      "article"
+    ],
+    "topicTags": [
+      "travel",
+      "plans"
+    ]
   },
   {
     "id": 785,
     "russian": "Столик забронирован на моё имя или на твоё?",
     "english": "Is the reservation under my name or yours?",
+    "alternatives": [
+      "Whose name is the table booked under — mine or yours?",
+      "Did you make the reservation in your name, or should I use mine?"
+    ],
+    "vocab": [
+      {
+        "word": "reservation",
+        "translation": "бронь"
+      },
+      {
+        "word": "under my name",
+        "translation": "на моё имя"
+      },
+      {
+        "word": "yours",
+        "translation": "твой (абсолютная форма)"
+      },
+      {
+        "word": "book",
+        "translation": "бронировать"
+      },
+      {
+        "word": "make a reservation",
+        "translation": "забронировать столик"
+      }
+    ],
     "explanation": "Is the reservation…? — вопрос с глаголом be: is просто выходит вперёд, вспомогательный do не нужен. the reservation — бронь конкретная, наша, поэтому the; в American English «бронь» — reservation (booking — чаще британское слово). under my name — устойчивое «на моё имя»: по-английски бронь именно UNDER («под») именем; калька on my name — ошибка. Эта же формула пригодится на ресепшене: I have a reservation under Ivanova. or yours — yours — абсолютная форма притяжательного местоимения: она заменяет your name целиком, чтобы не повторять существительное (my name or yours звучит естественно, my name or your name — грамматично, но тяжеловесно). Ответ будет таким же коротким: Under mine.",
     "level": "B1",
-    "grammarTags": ["question", "present-simple", "preposition", "collocation", "article"],
-    "topicTags": ["food", "travel"]
+    "grammarTags": [
+      "question",
+      "present-simple",
+      "preposition",
+      "collocation",
+      "article"
+    ],
+    "topicTags": [
+      "food",
+      "travel"
+    ]
   },
   {
     "id": 786,
     "russian": "Сколько времени нужно, чтобы доехать до аэропорта в час пик?",
     "english": "How much time do we need to get to the airport during rush hour?",
+    "alternatives": [
+      "How long does it take to get to the airport in rush-hour traffic?",
+      "How early should we leave for the airport if it's rush hour?"
+    ],
+    "vocab": [
+      {
+        "word": "how much time",
+        "translation": "сколько времени"
+      },
+      {
+        "word": "need",
+        "translation": "нуждаться, нужно"
+      },
+      {
+        "word": "get to",
+        "translation": "добраться до"
+      },
+      {
+        "word": "airport",
+        "translation": "аэропорт"
+      },
+      {
+        "word": "during",
+        "translation": "во время"
+      },
+      {
+        "word": "rush hour",
+        "translation": "час пик"
+      }
+    ],
     "explanation": "How much time…? — time («время» как ресурс) неисчисляемое, поэтому how much, а не how many; с исчисляемым было бы how many hours. Дальше обычный вопрос в Present Simple: do we need. Русское безличное «нужно» в английском получает подлежащее — у need всегда есть кто-то: do WE need. need to get — после need идёт инфинитив с to; get to — «добраться до», предлог направления to: get to the airport. the airport — артикль the: аэропорт города, известный обоим. during rush hour — «в час пик»: предлог during («во время, в течение») + rush hour, в American English обычно без артикля. Синонимичный способ спросить то же самое — How long does it take to get to the airport?",
     "level": "B1",
-    "grammarTags": ["question", "quantifier", "countable-uncountable", "infinitive", "movement-preposition", "time-preposition"],
-    "topicTags": ["travel", "daily-life"]
+    "grammarTags": [
+      "question",
+      "quantifier",
+      "countable-uncountable",
+      "infinitive",
+      "movement-preposition",
+      "time-preposition"
+    ],
+    "topicTags": [
+      "travel",
+      "daily-life"
+    ]
   },
   {
     "id": 787,
     "russian": "Я стою у третьего выхода — ты меня видишь?",
     "english": "I'm standing by exit three — can you see me?",
+    "alternatives": [
+      "I'm right by exit three — do you see me?",
+      "I'm waiting at exit three — can you spot me?"
+    ],
+    "vocab": [
+      {
+        "word": "stand",
+        "translation": "стоять"
+      },
+      {
+        "word": "by",
+        "translation": "у, возле, рядом с"
+      },
+      {
+        "word": "exit",
+        "translation": "выход"
+      },
+      {
+        "word": "see",
+        "translation": "видеть"
+      },
+      {
+        "word": "spot",
+        "translation": "заметить, разглядеть"
+      }
+    ],
     "explanation": "I'm standing — Present Continuous (am + V-ing): описываю, что делаю прямо в эту секунду; Present Simple (I stand) прозвучал бы как привычка «я обычно стою». by exit three — предлог by «у, возле, рядом с»; exit three — «третий выход»: числительное после существительного и без артикля (как gate five, platform two, room 208) — номер превращает слово почти в имя собственное. can you see me? — о восприятии спрашивают через can: глаголы see и hear в этом значении не ставятся в континуус (are you seeing me — ошибка), а can see как раз передаёт «видишь ли прямо сейчас». Порядок вопроса с модальным: can + подлежащее + V1.",
     "level": "A2",
-    "grammarTags": ["present-continuous", "question", "modal", "place-preposition"],
-    "topicTags": ["travel", "texting"]
+    "grammarTags": [
+      "present-continuous",
+      "question",
+      "modal",
+      "place-preposition"
+    ],
+    "topicTags": [
+      "travel",
+      "texting"
+    ]
   },
   {
     "id": 788,
     "russian": "Прости за поздний ответ — я весь день просидела на созвонах.",
     "english": "Sorry for the late reply — I've been on calls all day.",
+    "alternatives": [
+      "Sorry I'm getting back to you so late — I was in meetings all day.",
+      "Apologies for the slow reply — it's been back-to-back calls all day."
+    ],
+    "vocab": [
+      {
+        "word": "late reply",
+        "translation": "поздний ответ"
+      },
+      {
+        "word": "be on a call",
+        "translation": "быть на созвоне"
+      },
+      {
+        "word": "all day",
+        "translation": "весь день"
+      },
+      {
+        "word": "get back to",
+        "translation": "ответить, перезвонить"
+      },
+      {
+        "word": "back-to-back",
+        "translation": "подряд, один за другим"
+      }
+    ],
     "explanation": "Sorry for + существительное — извинение за что-то конкретное: the late reply — «поздний ответ», с артиклем the, потому что ответ вот этот самый, конкретный. Вся формула Sorry for the late reply — дежурная фраза переписки, стоит выучить целиком. I've been on calls = I have been — Present Perfect: состояние длилось весь день вплоть до настоящего и объясняет его (почему не отвечала); been — V3 от be (be—was/were—been). on calls — «на созвонах»: предлог on для звонков и созвонов (on a call, on the phone, on Zoom); множественное calls без артикля — созвонов было несколько, речь о них в целом. all day — «весь день», без предлога и артикля: не all the day и не during all day.",
     "level": "B1",
-    "grammarTags": ["preposition", "article", "present-perfect", "collocation"],
-    "topicTags": ["texting", "work"]
+    "grammarTags": [
+      "preposition",
+      "article",
+      "present-perfect",
+      "collocation"
+    ],
+    "topicTags": [
+      "texting",
+      "work"
+    ]
   },
   {
     "id": 789,
     "russian": "Я только что увидела твоё сообщение — телефон весь вечер лежал на беззвучном.",
     "english": "I just now saw your message — my phone was on silent all evening.",
+    "alternatives": [
+      "I only just noticed your text — my phone was on mute all evening.",
+      "Just seeing this now — sorry, my phone was silenced the whole evening."
+    ],
+    "vocab": [
+      {
+        "word": "just now",
+        "translation": "только что"
+      },
+      {
+        "word": "message",
+        "translation": "сообщение"
+      },
+      {
+        "word": "on silent",
+        "translation": "на беззвучном"
+      },
+      {
+        "word": "all evening",
+        "translation": "весь вечер"
+      },
+      {
+        "word": "on mute",
+        "translation": "на беззвучном, отключённый звук"
+      }
+    ],
     "explanation": "just now saw — Past Simple, а не Present Perfect: со словами just now («только что», отсылка к конкретному моменту) в American English спокойно используют Past Simple — I just saw / I just now saw; британское I've just seen тоже верно, но американцы чаще упрощают. saw — V2 от неправильного see (see—saw—seen). my phone was on silent — «телефон был на беззвучном»: устойчивое on silent — режим устройства, как on vibrate («на вибрации»); предлог on для режимов и состояний техники. was — Past Simple от be: состояние в прошлом, вечер уже закончился. all evening — «весь вечер» без предлога: с all временные отрезки идут без in/during (all day, all night, all week).",
     "level": "A2",
-    "grammarTags": ["past-simple", "collocation", "preposition"],
-    "topicTags": ["texting", "daily-life"]
+    "grammarTags": [
+      "past-simple",
+      "collocation",
+      "preposition"
+    ],
+    "topicTags": [
+      "texting",
+      "daily-life"
+    ]
   },
   {
     "id": 790,
     "russian": "Я тебя не игнорировала, честное слово, — просто всё навалилось разом.",
     "english": "I wasn't ignoring you, I swear — everything just hit at once.",
+    "alternatives": [
+      "I promise I wasn't blowing you off — it's just that everything piled up at once.",
+      "Honestly, I wasn't avoiding you — life just got insane for a minute."
+    ],
+    "vocab": [
+      {
+        "word": "ignore",
+        "translation": "игнорировать"
+      },
+      {
+        "word": "I swear",
+        "translation": "клянусь, честное слово"
+      },
+      {
+        "word": "hit",
+        "translation": "навалиться, ударить"
+      },
+      {
+        "word": "at once",
+        "translation": "разом, одновременно"
+      },
+      {
+        "word": "blow someone off",
+        "translation": "игнорировать, продинамить"
+      },
+      {
+        "word": "pile up",
+        "translation": "накапливаться"
+      }
+    ],
     "explanation": "I wasn't ignoring you — отрицание в Past Continuous (was + not + V-ing): речь о процессе, растянутом на тот период («не игнорировала тебя всё это время»), а не об одном действии. Past Simple (I didn't ignore you) прозвучал бы как сухой отчёт о факте; континуус живее и точнее описывает «те дни». ignore — «игнорировать» без предлога: ignore you, никаких ignore on you. I swear — «честное слово, клянусь» — короткая разговорная вставка-заверение. everything just hit at once — hit здесь образное: «всё разом навалилось, ударило»; hit — неправильный глагол hit—hit—hit, прошедшая форма совпадает с V1. at once — «разом, одновременно». just — «просто», смягчает оправдание.",
     "level": "B1",
-    "grammarTags": ["past-continuous", "negation", "past-simple"],
-    "topicTags": ["texting", "feelings", "communication"]
+    "grammarTags": [
+      "past-continuous",
+      "negation",
+      "past-simple"
+    ],
+    "topicTags": [
+      "texting",
+      "feelings",
+      "communication"
+    ]
   },
   {
     "id": 791,
     "russian": "Обычно я отвечаю быстро, но вчера просто вырубилась в девять.",
     "english": "I usually reply fast, but last night I just crashed at nine.",
+    "alternatives": [
+      "I'm normally quick to reply, but I was out cold by nine last night.",
+      "I usually text back right away, but I passed out at nine yesterday."
+    ],
+    "vocab": [
+      {
+        "word": "reply",
+        "translation": "отвечать"
+      },
+      {
+        "word": "fast",
+        "translation": "быстро"
+      },
+      {
+        "word": "crash",
+        "translation": "вырубиться, уснуть (разг.)"
+      },
+      {
+        "word": "last night",
+        "translation": "вчера вечером"
+      },
+      {
+        "word": "out cold",
+        "translation": "крепко спящий, без сознания"
+      },
+      {
+        "word": "pass out",
+        "translation": "отключиться, уснуть"
+      }
+    ],
     "explanation": "Контраст двух времён в одной фразе. I usually reply fast — Present Simple для привычки; usually стоит между подлежащим и смысловым глаголом — законное место наречий частотности. fast здесь наречие «быстро»: у fast формы прилагательного и наречия совпадают (слова fastly не существует). but last night I just crashed — Past Simple: конкретный вчерашний вечер, привычка нарушилась один раз. crash — разговорное «вырубиться, отключиться и уснуть» (а не «разбиться»!): I crashed at nine = «в девять уже спала без задних ног». at nine — время по часам с at. last night — «вчера вечером»: с last предлог не ставится (не in last night); и запомни — разговорное «вчера вечером» это именно last night, а не yesterday evening.",
     "level": "B1",
-    "grammarTags": ["present-simple", "past-simple", "word-order", "time-preposition"],
-    "topicTags": ["texting", "daily-life"]
+    "grammarTags": [
+      "present-simple",
+      "past-simple",
+      "word-order",
+      "time-preposition"
+    ],
+    "topicTags": [
+      "texting",
+      "daily-life"
+    ]
   },
   {
     "id": 792,
     "russian": "Отвечать по три дня — это совсем на меня не похоже, извини.",
     "english": "Taking three days to reply isn't like me at all — I'm sorry.",
+    "alternatives": [
+      "I'm sorry — going three days without answering is really not my style.",
+      "That's so unlike me, taking three days to get back to you. I apologize."
+    ],
+    "vocab": [
+      {
+        "word": "take three days",
+        "translation": "занять три дня"
+      },
+      {
+        "word": "reply",
+        "translation": "отвечать"
+      },
+      {
+        "word": "be like me",
+        "translation": "быть в моём духе, похоже на меня"
+      },
+      {
+        "word": "not at all",
+        "translation": "совсем не"
+      },
+      {
+        "word": "unlike me",
+        "translation": "не похоже на меня"
+      }
+    ],
     "explanation": "Taking three days to reply — герундий в роли подлежащего: действие («то, что я отвечаю по три дня») превращается в существительное через V-ing и открывает предложение. По-русски мы начинаем с инфинитива («отвечать по три дня»), по-английски естественнее герундий: Taking…, как Smoking is bad или Learning English takes time. Внутри спрятана конструкция take + время + to + V1 — «занимать столько-то времени, чтобы сделать»: it takes me three days to reply. isn't like me — «не похоже на меня»: be like someone — «быть в чьём-то духе, характере»; отрицание через isn't. Важно: герундий-подлежащее всегда согласуется как единственное число — isn't, а не aren't. at all в конце усиливает отрицание: «совсем не».",
     "level": "B1",
-    "grammarTags": ["gerund", "negation", "infinitive"],
-    "topicTags": ["texting", "communication"]
+    "grammarTags": [
+      "gerund",
+      "negation",
+      "infinitive"
+    ],
+    "topicTags": [
+      "texting",
+      "communication"
+    ]
   },
   {
     "id": 793,
     "russian": "Если я не отвечаю сразу, это обычно значит, что я за рулём.",
     "english": "If I don't reply right away, it usually means I'm driving.",
+    "alternatives": [
+      "When I don't answer right away, I'm usually behind the wheel.",
+      "If I go quiet for a bit, it's usually because I'm driving."
+    ],
+    "vocab": [
+      {
+        "word": "reply",
+        "translation": "отвечать"
+      },
+      {
+        "word": "right away",
+        "translation": "сразу, немедленно"
+      },
+      {
+        "word": "mean",
+        "translation": "значить, означать"
+      },
+      {
+        "word": "drive",
+        "translation": "водить, быть за рулём"
+      },
+      {
+        "word": "behind the wheel",
+        "translation": "за рулём"
+      }
+    ],
     "explanation": "Zero Conditional — условие-закономерность, «всегда так»: в обеих частях Present Simple (if I don't reply … it means), никакого will, потому что речь не об одном будущем случае, а об общем правиле жизни. don't reply — отрицание в Present Simple через don't + V1. right away — «сразу, немедленно»; синонимы immediately и at once, но right away — самый разговорный американский вариант. it usually means (that)… — «это обычно значит, что»: usually на своём месте перед смысловым глаголом, у means окончание -s (it — третье лицо), союз that опущен. I'm driving — Present Continuous внутри придаточного: «я в этот момент за рулём», процесс, который идёт, когда приходит сообщение. Русское «за рулём» — просто driving; behind the wheel тоже существует, но длиннее и нужен реже.",
     "level": "B1",
-    "grammarTags": ["conditional-0", "negation", "present-simple", "present-continuous"],
-    "topicTags": ["texting", "daily-life"]
+    "grammarTags": [
+      "conditional-0",
+      "negation",
+      "present-simple",
+      "present-continuous"
+    ],
+    "topicTags": [
+      "texting",
+      "daily-life"
+    ]
   },
   {
     "id": 794,
     "russian": "Спасибо, что помог мне перевезти вещи, — одна я бы точно не справилась.",
     "english": "Thanks for helping me move — I couldn't have done it alone.",
+    "alternatives": [
+      "Thank you so much for helping with the move — there's no way I could've managed by myself.",
+      "I really appreciate your help with the move — I'd never have pulled it off on my own."
+    ],
+    "vocab": [
+      {
+        "word": "thanks for",
+        "translation": "спасибо за"
+      },
+      {
+        "word": "help someone move",
+        "translation": "помочь кому-то переехать"
+      },
+      {
+        "word": "move",
+        "translation": "переезжать, перевозить вещи"
+      },
+      {
+        "word": "alone",
+        "translation": "одна, в одиночку"
+      },
+      {
+        "word": "manage",
+        "translation": "справиться"
+      },
+      {
+        "word": "pull off",
+        "translation": "справиться, провернуть"
+      }
+    ],
     "explanation": "Thanks for + V-ing — благодарность за действие: for — предлог, поэтому helping, а не to help. Дальше конструкция help + объект + голый инфинитив: helping me move — после help частица to не обязательна, и в American English её обычно опускают (help me move, а не help me to move). move здесь — «перевезти вещи, переехать»: одно слово move уже включает весь смысл переезда. I couldn't have done it — модальный перфект: could + have + V3 о прошлом — «не смогла бы тогда»; это нереальное прошлое со скрытым условием «если бы не ты» (полная версия — Third Conditional). done — V3 от do (do—did—done). alone — «одна, в одиночку», ставится в конец; разговорный синоним — by myself.",
     "level": "B1",
-    "grammarTags": ["gerund", "bare-infinitive", "modal", "negation"],
-    "topicTags": ["daily-life", "friends", "feelings"]
+    "grammarTags": [
+      "gerund",
+      "bare-infinitive",
+      "modal",
+      "negation"
+    ],
+    "topicTags": [
+      "daily-life",
+      "friends",
+      "feelings"
+    ]
   },
   {
     "id": 795,
     "russian": "Ты меня вчера очень выручил. С меня кофе!",
     "english": "You really saved me yesterday. Coffee's on me!",
+    "alternatives": [
+      "You were a lifesaver yesterday. Let me buy you a coffee!",
+      "You totally bailed me out yesterday — coffee's my treat."
+    ],
+    "vocab": [
+      {
+        "word": "save",
+        "translation": "выручить, спасти"
+      },
+      {
+        "word": "yesterday",
+        "translation": "вчера"
+      },
+      {
+        "word": "it's on me",
+        "translation": "я угощаю, за мой счёт"
+      },
+      {
+        "word": "lifesaver",
+        "translation": "спаситель, палочка-выручалочка"
+      },
+      {
+        "word": "bail out",
+        "translation": "выручить"
+      },
+      {
+        "word": "my treat",
+        "translation": "я угощаю"
+      }
+    ],
     "explanation": "You really saved me — Past Simple (saved), потому что есть маркер конкретного прошлого — yesterday. save в значении «выручить, спасти положение»: русское «выручил» ближе всего к saved me или к идиоме you saved my day. really стоит перед глаголом — обычное место усилителя. Важно: «очень» с глаголами — это really, а не very: very saved — грубая ошибка, very сочетается только с прилагательными и наречиями. Coffee's on me = Coffee is on me — идиома «с меня кофе, я угощаю»: on me / on him значит «за мой/его счёт» (It's on me — «я плачу», drinks are on the house — «за счёт заведения»). Дословно перевести «с меня кофе» невозможно — учи оборот целиком.",
     "level": "A2",
-    "grammarTags": ["past-simple", "collocation"],
-    "topicTags": ["work", "friends"]
+    "grammarTags": [
+      "past-simple",
+      "collocation"
+    ],
+    "topicTags": [
+      "work",
+      "friends"
+    ]
   },
   {
     "id": 796,
     "russian": "Я очень ценю, что ты нашёл время всё мне объяснить.",
     "english": "I really appreciate you taking the time to explain everything to me.",
+    "alternatives": [
+      "Thanks so much for taking the time to walk me through everything.",
+      "It means a lot that you sat down and explained it all to me."
+    ],
+    "vocab": [
+      {
+        "word": "appreciate",
+        "translation": "ценить"
+      },
+      {
+        "word": "take the time",
+        "translation": "найти, выделить время"
+      },
+      {
+        "word": "explain",
+        "translation": "объяснять"
+      },
+      {
+        "word": "walk someone through",
+        "translation": "подробно объяснить кому-то"
+      },
+      {
+        "word": "mean a lot",
+        "translation": "много значить"
+      }
+    ],
     "explanation": "I really appreciate — «я очень ценю»: усилитель — снова really (не very). После appreciate благодарность за чьё-то действие строится не через «что ты…», а через объект + герундий: appreciate you taking — дословно «ценю тебя, находящего время». Это важная модель: appreciate + you/him + V-ing. take the time to + V1 — устойчивое «найти, выделить время, чтобы сделать»: именно с артиклем the (took the time to explain — нашёл время специально). to explain — инфинитив после time показывает цель. explain everything TO me — explain присоединяет адресата только через to: explain me the rule — частая русская ошибка, правильно explain it to me. Всё предложение в Present Simple: ценю сейчас и вообще.",
     "level": "B1",
-    "grammarTags": ["gerund", "infinitive", "collocation", "present-simple"],
-    "topicTags": ["work", "communication", "feelings"]
+    "grammarTags": [
+      "gerund",
+      "infinitive",
+      "collocation",
+      "present-simple"
+    ],
+    "topicTags": [
+      "work",
+      "communication",
+      "feelings"
+    ]
   },
   {
     "id": 797,
     "russian": "Даже не представляю, что бы я без тебя делала.",
     "english": "I honestly don't know what I'd do without you.",
+    "alternatives": [
+      "I'd be lost without you, honestly.",
+      "Seriously, what would I do without you?"
+    ],
+    "vocab": [
+      {
+        "word": "honestly",
+        "translation": "честно говоря"
+      },
+      {
+        "word": "I'd do",
+        "translation": "я бы делала"
+      },
+      {
+        "word": "without",
+        "translation": "без"
+      },
+      {
+        "word": "be lost",
+        "translation": "быть потерянным, не знать, что делать"
+      }
+    ],
     "explanation": "I don't know — отрицание в Present Simple через don't. Дальше косвенный вопрос: what I'd do — ПРЯМОЙ порядок слов, без выноса вспомогательного глагола (не what would I do — так выглядел бы отдельный прямой вопрос What would I do?). I'd do = I would do — скрытое условное второго типа: «что бы я делала (если бы тебя не было)» — само if-условие не произносится, оно спрятано в without you. would + V1 — форма нереального, воображаемого действия. without you — предлог without «без» + местоимение в объектной форме. honestly — «честно говоря, даже» — делает фразу тёплой и личной. Вся конструкция I don't know what I'd do without you — устойчивая формула благодарности, её стоит запомнить как единое целое.",
     "level": "B1",
-    "grammarTags": ["negation", "indirect-question", "conditional-2", "preposition"],
-    "topicTags": ["feelings", "friends"]
+    "grammarTags": [
+      "negation",
+      "indirect-question",
+      "conditional-2",
+      "preposition"
+    ],
+    "topicTags": [
+      "feelings",
+      "friends"
+    ]
   },
   {
     "id": 798,
     "russian": "Спасибо за наводку — попробую забронировать жильё через этот сайт.",
     "english": "Thanks for the tip — I'm going to try booking a place through that site.",
+    "alternatives": [
+      "Thanks for the heads-up — I'll try to book something on that site.",
+      "Good to know! I'll see if I can find a place through that website."
+    ],
+    "vocab": [
+      {
+        "word": "tip",
+        "translation": "совет, наводка"
+      },
+      {
+        "word": "try",
+        "translation": "попробовать"
+      },
+      {
+        "word": "book a place",
+        "translation": "забронировать жильё"
+      },
+      {
+        "word": "through",
+        "translation": "через"
+      },
+      {
+        "word": "site",
+        "translation": "сайт"
+      },
+      {
+        "word": "heads-up",
+        "translation": "предупреждение, наводка"
+      }
+    ],
     "explanation": "Thanks for the tip — «спасибо за наводку/совет»: tip — разговорная «подсказка»; с артиклем the — конкретный совет, только что данный. I'm going to try — going to для намерения, которое уже созрело в голове. Дальше знаменитая тонкость глагола try: try + V-ing (try booking) значит «попробовать способ» — забронировать через этот сайт как один из вариантов; а try + to book значило бы «постараться, приложить усилия» (с сомнением, что получится). Форма меняет смысл! Здесь пробуем именно способ → герундий. book a place — «забронировать жильё»: place — разговорное «жильё, квартира»; артикль a — какое-то, пока не выбранное. through that site — «через сайт»: канал или средство — предлог through; that — «тот сайт, который ты назвал».",
     "level": "B1",
-    "grammarTags": ["going-to", "stop-remember-try", "gerund", "preposition", "article"],
-    "topicTags": ["travel", "communication"]
+    "grammarTags": [
+      "going-to",
+      "stop-remember-try",
+      "gerund",
+      "preposition",
+      "article"
+    ],
+    "topicTags": [
+      "travel",
+      "communication"
+    ]
   },
   {
     "id": 799,
     "russian": "Раньше я всё делала сама, а теперь учусь просить о помощи.",
     "english": "I used to do everything myself, but now I'm learning to ask for help.",
+    "alternatives": [
+      "I always used to handle everything on my own, but I'm getting better at asking for help.",
+      "I used to be a do-it-all-myself person; now I'm learning to lean on people."
+    ],
+    "vocab": [
+      {
+        "word": "used to",
+        "translation": "раньше (делала)"
+      },
+      {
+        "word": "myself",
+        "translation": "сама, своими силами"
+      },
+      {
+        "word": "learn to",
+        "translation": "учиться (делать)"
+      },
+      {
+        "word": "ask for help",
+        "translation": "просить о помощи"
+      },
+      {
+        "word": "handle",
+        "translation": "справляться с"
+      },
+      {
+        "word": "lean on",
+        "translation": "опираться на, полагаться на"
+      }
+    ],
     "explanation": "used to + V1 — «раньше делала, а теперь нет»: конструкция для прошлых привычек, которые изменились; контраст «раньше — теперь» в ней уже заложен. Не путай с be used to + V-ing («привыкла к чему-то») — это совсем другая конструкция: I used to do — раньше делала, I'm used to doing — привыкла делать. myself — «сама, своими силами» (= by myself). but now I'm learning — Present Continuous: учусь В ЭТОТ период жизни, процесс идёт и меняется — классический случай континууса для «сейчас осваиваю». learn to + V1 — после learn инфинитив с to: learning to ask. ask for help — «просить О помощи»: по-английски просят FOR что-то (ask for help, ask for advice); калька ask about help значила бы «расспрашивать про помощь». help — неисчисляемое, без артикля.",
     "level": "B1",
-    "grammarTags": ["used-to", "present-continuous", "infinitive", "preposition"],
-    "topicTags": ["deep-talk", "lifestyle"]
+    "grammarTags": [
+      "used-to",
+      "present-continuous",
+      "infinitive",
+      "preposition"
+    ],
+    "topicTags": [
+      "deep-talk",
+      "lifestyle"
+    ]
   },
   {
     "id": 800,
     "russian": "Передай маме спасибо за пирог — он был просто бесподобный.",
     "english": "Tell your mom thanks for the pie — it was absolutely amazing.",
+    "alternatives": [
+      "Say thanks to your mom for the pie — it was incredible.",
+      "Please thank your mom for me — that pie was out of this world."
+    ],
+    "vocab": [
+      {
+        "word": "tell",
+        "translation": "сказать, передать"
+      },
+      {
+        "word": "thanks for",
+        "translation": "спасибо за"
+      },
+      {
+        "word": "pie",
+        "translation": "пирог"
+      },
+      {
+        "word": "absolutely amazing",
+        "translation": "просто бесподобный"
+      },
+      {
+        "word": "thank someone for",
+        "translation": "благодарить кого-то за"
+      },
+      {
+        "word": "out of this world",
+        "translation": "невероятный, бесподобный"
+      }
+    ],
     "explanation": "Tell your mom thanks — императив: глагол в V1 без подлежащего; tell + адресат без предлога (tell your mom, не tell to your mom). Обрати внимание: по-русски спасибо «передают», но по-английски глагол pass тут невозможен — говорят tell her thanks или say thanks to her. your mom — с притяжательным your: о родственниках собеседника англичане говорят your mom, your sister, даже когда по-русски просто «мама». for the pie — благодарят FOR что-то; the — тот самый пирог, который она передала. it was absolutely amazing — Past Simple was: пирог уже съеден, впечатление о прошлом. amazing — сильное прилагательное, поэтому усилитель absolutely, а не very: very amazing звучит неграмотно (very — для обычных прилагательных: very good; absolutely/really — для сильных: amazing, incredible).",
     "level": "A2",
-    "grammarTags": ["imperative", "past-simple", "article", "preposition"],
-    "topicTags": ["family", "food"]
+    "grammarTags": [
+      "imperative",
+      "past-simple",
+      "article",
+      "preposition"
+    ],
+    "topicTags": [
+      "family",
+      "food"
+    ]
   }
 ]
