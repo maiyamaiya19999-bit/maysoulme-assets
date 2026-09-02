@@ -196,7 +196,7 @@
     "english": "If you like crime shows, you'll definitely love this one.",
     "alternatives": [
       "If you're into crime shows, this one is right up your alley.",
-      "Crime show fans will love this series — you included."
+      "If you're a fan of crime shows, you're going to love this one."
     ],
     "vocab": [
       {
@@ -348,7 +348,7 @@
     "english": "I've been reading this book for two weeks, and I'm still only halfway through.",
     "alternatives": [
       "It's been two weeks and I'm still only halfway through this book.",
-      "I started this book two weeks ago and I'm only at the middle."
+      "I started this book two weeks ago and I'm still only halfway."
     ],
     "vocab": [
       {
@@ -488,11 +488,11 @@
   },
   {
     "id": 514,
-    "russian": "Я записалась на танцы — в четверг первое занятие.",
-    "english": "I signed up for dance classes — my first class is on Thursday.",
+    "russian": "Я записалась на мастер-класс по итальянской кухне — в четверг первое занятие.",
+    "english": "I signed up for an Italian cooking class — the first session is on Thursday.",
     "alternatives": [
-      "I enrolled in a dance class — the first session is Thursday.",
-      "I just joined a dance class; my first lesson is this Thursday."
+      "I enrolled in an Italian cooking class — my first lesson is Thursday.",
+      "I just booked an Italian cooking workshop; the first class is this Thursday."
     ],
     "vocab": [
       {
@@ -500,25 +500,26 @@
         "translation": "записаться на"
       },
       {
-        "word": "dance class",
-        "translation": "занятие по танцам"
+        "word": "cooking class",
+        "translation": "кулинарный мастер-класс, занятие по кулинарии"
       },
       {
-        "word": "first",
-        "translation": "первый"
+        "word": "session",
+        "translation": "занятие, сессия"
       },
       {
         "word": "on Thursday",
         "translation": "в четверг"
       }
     ],
-    "explanation": "sign up for — фразовый глагол «записаться на»: sign up (зарегистрироваться) + for (на что именно): signed up for dance classes. Past Simple, потому что запись уже произошла — законченное действие. «Танцы» как курс — dance classes, во множественном числе (много занятий) и без артикля. Во второй части по-русски глагола нет («в четверг первое занятие»), а по-английски он обязателен: my first class is on Thursday — связку is опускать нельзя. С днями недели предлог on: on Thursday (не in и не at). my first class — по-английски естественно уточнять чьё: притяжательное my ставится там, где русский спокойно обходится без «моё».",
+    "explanation": "sign up for — фразовый глагол «записаться на»: sign up (зарегистрироваться) + for (на что именно): signed up for a cooking class. Past Simple, потому что запись уже произошла — законченное действие. «Мастер-класс по кухне» по-английски чаще всего просто cooking class (слово masterclass есть, но звучит пафосно); «по итальянской кухне» превращается в прилагательное перед существительным: an Italian cooking class, без предлога — не class of Italian kitchen (kitchen — это помещение, а кухня как еда — cuisine или cooking). Артикль a → an перед гласным звуком: an Italian. Во второй части по-русски глагола нет («в четверг первое занятие»), а по-английски он обязателен: the first session is on Thursday — связку is опускать нельзя. the first — с порядковым числительным всегда the. С днями недели предлог on: on Thursday (не in и не at).",
     "level": "A2",
     "grammarTags": [
       "past-simple",
       "phrasal-verb",
       "time-preposition",
-      "preposition"
+      "preposition",
+      "article"
     ],
     "topicTags": [
       "plans",
@@ -528,16 +529,20 @@
   },
   {
     "id": 515,
-    "russian": "Я учусь танцевать сальсу, и пока получается так себе.",
-    "english": "I'm learning to dance salsa, and honestly I'm not very good at it yet.",
+    "russian": "Я учусь играть в падел, и пока получается так себе.",
+    "english": "I'm learning to play padel, and honestly I'm not very good at it yet.",
     "alternatives": [
-      "I'm taking salsa lessons, and I'm still pretty bad at it, to be honest.",
-      "I've started learning salsa — so far, it's not going great."
+      "I'm taking padel lessons, and I'm still pretty bad at it, to be honest.",
+      "I've just started learning padel — so far, it's not going great."
     ],
     "vocab": [
       {
-        "word": "learn to dance",
-        "translation": "учиться танцевать"
+        "word": "learn to play",
+        "translation": "учиться играть"
+      },
+      {
+        "word": "padel",
+        "translation": "падел"
       },
       {
         "word": "honestly",
@@ -552,7 +557,7 @@
         "translation": "пока ещё"
       }
     ],
-    "explanation": "Present Continuous (I'm learning): обучение — процесс, растянутый в настоящем, я хожу на занятия в этот период жизни. После learn идёт инфинитив с to: learn to dance. «Получается так себе» дословно не переводится — по-английски это через be good at: I'm not very good at it — «я в этом пока не очень». Прилагательное good требует предлог at, когда речь о навыке: good at dancing, good at math. Отрицание через am not, а смягчитель very делает фразу самоироничной, а не самокритичной: not very good мягче, чем bad. yet — «пока ещё», ставится в конец отрицательного предложения и намекает, что прогресс впереди. honestly — «честно говоря», разговорное вводное слово.",
+    "explanation": "Present Continuous (I'm learning): обучение — процесс, растянутый в настоящем, я хожу на тренировки в этот период жизни. После learn идёт инфинитив с to: learn to play. Виды спорта и игры идут с play без предлога и без артикля: play padel, play tennis, play chess — русское «играть в» превращается просто в play + название, кальки play in padel нет. «Получается так себе» дословно не переводится — по-английски это через be good at: I'm not very good at it — «я в этом пока не очень». Прилагательное good требует предлог at, когда речь о навыке: good at sports, good at math. Отрицание через am not, а смягчитель very делает фразу самоироничной, а не самокритичной: not very good мягче, чем bad. yet — «пока ещё», ставится в конец отрицательного предложения и намекает, что прогресс впереди. honestly — «честно говоря», разговорное вводное слово.",
     "level": "B1",
     "grammarTags": [
       "present-continuous",
@@ -567,11 +572,11 @@
   },
   {
     "id": 516,
-    "russian": "Ты когда-нибудь пробовал танцевать бачату?",
-    "english": "Have you ever tried dancing bachata?",
+    "russian": "Ты когда-нибудь пробовал играть в падел?",
+    "english": "Have you ever tried playing padel?",
     "alternatives": [
-      "Have you ever given bachata a try?",
-      "Ever danced bachata?"
+      "Have you ever given padel a try?",
+      "Ever played padel?"
     ],
     "vocab": [
       {
@@ -583,11 +588,11 @@
         "translation": "попробовать (ради интереса)"
       },
       {
-        "word": "dance",
-        "translation": "танцевать"
+        "word": "play padel",
+        "translation": "играть в падел"
       }
     ],
-    "explanation": "Present Perfect — вопрос о жизненном опыте вообще, без привязки к моменту: Have you ever tried…? Формула have/has + V3, в вопросе have выходит вперёд; ever («когда-нибудь») ставится между подлежащим и V3. Важная пара: try + V-ing и try + to V значат разное. tried dancing = «попробовал ради интереса, ради эксперимента» — наш случай: попробовать новый танец. А tried to dance значило бы «пытался, но было трудно или не получилось». Поэтому здесь герундий: tried dancing bachata. Названия танцев — без артикля: dance salsa, dance bachata. Если бы речь шла о конкретном прошлом случае, был бы Past Simple: Did you try dancing at the party last night?",
+    "explanation": "Present Perfect — вопрос о жизненном опыте вообще, без привязки к моменту: Have you ever tried…? Формула have/has + V3, в вопросе have выходит вперёд; ever («когда-нибудь») ставится между подлежащим и V3. Важная пара: try + V-ing и try + to V значат разное. tried playing = «попробовал ради интереса, ради эксперимента» — наш случай: попробовать новую игру. А tried to play значило бы «пытался, но было трудно или не получилось». Поэтому здесь герундий: tried playing padel. Названия игр и видов спорта — с play, без предлога и без артикля: play padel, play tennis; русское «в» не переводится. Если бы речь шла о конкретном прошлом случае, был бы Past Simple: Did you try playing padel on vacation?",
     "level": "B1",
     "grammarTags": [
       "present-perfect",
@@ -1086,11 +1091,11 @@
   },
   {
     "id": 530,
-    "russian": "Объясни, пожалуйста, попроще — я не сильна в технических терминах.",
-    "english": "Please explain it more simply — I'm not great with technical terms.",
+    "russian": "Объясни, пожалуйста, попроще — я не сильна в терминах из твоей сферы.",
+    "english": "Please explain it more simply — I'm not great with the jargon in your field.",
     "alternatives": [
-      "Can you put that in simpler terms? Technical stuff isn't my strong suit.",
-      "Could you dumb it down a little? I'm not good with tech jargon."
+      "Can you put that in simpler terms? I don't know the lingo in your industry.",
+      "Could you break it down a little? I'm not familiar with the terms in your field."
     ],
     "vocab": [
       {
@@ -1106,11 +1111,15 @@
         "translation": "хорошо разбираться в"
       },
       {
-        "word": "technical term",
-        "translation": "технический термин"
+        "word": "jargon",
+        "translation": "профессиональные термины, жаргон"
+      },
+      {
+        "word": "field",
+        "translation": "сфера, область"
       }
     ],
-    "explanation": "Императив — просьба без подлежащего: Explain в начальной форме, Please смягчает тон. explain it — глаголу нужно дополнение «это»; и помни: explain me сказать нельзя — если добавлять адресата, то только через to (explain it to me). more simply — сравнительная степень наречия: simply («просто») → more simply («попроще»); наречия на -ly сравниваются через more. Хорошая альтернатива — in simpler terms. I'm not great with… — мягкое отрицание вместо прямолинейного I'm bad at: not great звучит легче и с самоиронией. Предлог with после good/great в значении «хорошо управляюсь с чем-то»: good with numbers, great with kids, not great with technical terms. technical terms — устойчивая пара «технические термины».",
+    "explanation": "Императив — просьба без подлежащего: Explain в начальной форме, Please смягчает тон. explain it — глаголу нужно дополнение «это»; и помни: explain me сказать нельзя — если добавлять адресата, то только через to (explain it to me). more simply — сравнительная степень наречия: simply («просто») → more simply («попроще»); наречия на -ly сравниваются через more. Хорошая альтернатива — in simpler terms. I'm not great with… — мягкое отрицание вместо прямолинейного I'm bad at: not great звучит легче и с самоиронией. Предлог with после good/great в значении «хорошо управляюсь с чем-то»: good with numbers, great with kids, not great with the jargon. jargon — «профессиональные термины», неисчисляемое, поэтому без a; артикль the — жаргон конкретной сферы. «В твоей сфере» — in your field: о профессиональной области говорят field (или industry), и предлог in, а не from.",
     "level": "B1",
     "grammarTags": [
       "imperative",
@@ -1429,36 +1438,36 @@
   },
   {
     "id": 539,
-    "russian": "В детстве я собирала наклейки и менялась ими с подружками.",
-    "english": "As a kid, I collected stickers and traded them with my friends.",
+    "russian": "В детстве я занималась гимнастикой, а с подружками мы часами играли в шахматы.",
+    "english": "As a kid, I did gymnastics, and my friends and I played chess for hours.",
     "alternatives": [
-      "When I was little, I used to collect stickers and swap them with my friends.",
-      "Growing up, I collected stickers and traded them with my girlfriends."
+      "When I was little, I did gymnastics and spent hours playing chess with my friends.",
+      "Growing up, I was a gymnast, and my girlfriends and I would play chess for hours."
     ],
     "vocab": [
       {
-        "word": "collect",
-        "translation": "собирать, коллекционировать"
-      },
-      {
-        "word": "sticker",
-        "translation": "наклейка"
-      },
-      {
-        "word": "trade",
-        "translation": "меняться, обмениваться"
+        "word": "do gymnastics",
+        "translation": "заниматься гимнастикой"
       },
       {
         "word": "as a kid",
         "translation": "в детстве"
+      },
+      {
+        "word": "play chess",
+        "translation": "играть в шахматы"
+      },
+      {
+        "word": "for hours",
+        "translation": "часами"
       }
     ],
-    "explanation": "Past Simple (collected, traded) — регулярные действия в закрытом периоде прошлого: детство закончилось, поэтому привычки того времени спокойно передаются Past Simple. Можно и used to collect — это подчеркнуло бы контраст «раньше собирала, а теперь нет». collect — «собирать, коллекционировать»; stickers — без артикля, во множественном числе: наклейки как категория. trade — обычное американское слово «меняться» (карточками, наклейками, вещами): traded them, где them заменяет stickers. Русское возвратное «менялась» отдельно не переводится — trade уже включает взаимность; «с подружками» — with my friends, предлог with. As a kid в начале предложения отделяется запятой.",
+    "explanation": "Past Simple (did, played) — регулярные занятия в закрытом периоде прошлого: детство закончилось, поэтому привычки того времени спокойно передаются Past Simple; можно и used to (I used to do gymnastics), если хочется подчеркнуть «раньше, а теперь нет». «Заниматься гимнастикой» — do gymnastics: с видами спорта без мяча и соперника (gymnastics, yoga, karate) идёт do; do — неправильный глагол do — did — done. А игры — через play: play chess, без предлога и без артикля (не play in chess). «Мы с подружками» — my friends and I: перечисление, где себя вежливо ставят в конец, а калька we with my friends не работает. Подлежащее «подружки + я» — множественное число. for hours — «часами»: for + множественное число без числительного передаёт «подолгу» (for hours, for days). As a kid в начале предложения отделяется запятой.",
     "level": "A2",
     "grammarTags": [
       "past-simple",
       "preposition",
-      "article"
+      "word-order"
     ],
     "topicTags": [
       "interests",
@@ -1502,37 +1511,42 @@
   },
   {
     "id": 541,
-    "russian": "Когда мне было десять, мы переехали, и я долго ни с кем не общалась.",
-    "english": "When I was ten, we moved, and I didn't talk to anyone for a long time.",
+    "russian": "Когда мне было семь, мама отдала меня на скрипку, и первые полгода я вообще не хотела заниматься — а теперь не могу без неё.",
+    "english": "When I was seven, my mom signed me up for violin, and for the first six months I didn't want to practice at all — and now I can't live without it.",
     "alternatives": [
-      "We moved when I was ten, and I kept to myself for a long time after that.",
-      "After we moved when I was ten, I didn't really talk to anybody for ages."
+      "My mom put me in violin lessons when I was seven, and I hated practicing for the first six months — now I can't imagine my life without it.",
+      "When I was seven, my mom got me started on the violin; for the first six months I refused to practice, and now it's my favorite thing."
     ],
     "vocab": [
       {
-        "word": "move",
-        "translation": "переехать"
+        "word": "sign someone up for",
+        "translation": "записать кого-то на"
       },
       {
-        "word": "talk to someone",
-        "translation": "общаться с кем-то"
+        "word": "violin",
+        "translation": "скрипка"
       },
       {
-        "word": "anyone",
-        "translation": "кто-либо (никто при отрицании)"
+        "word": "practice",
+        "translation": "заниматься (на инструменте), репетировать"
       },
       {
-        "word": "for a long time",
-        "translation": "долго, долгое время"
+        "word": "at all",
+        "translation": "вообще, совсем"
+      },
+      {
+        "word": "for the first six months",
+        "translation": "первые полгода"
       }
     ],
-    "explanation": "Past Simple во всей цепочке — последовательные факты прошлого: was, moved, didn't talk. «Мне было десять» — по-английски через be: I was ten (years old можно опустить); кальки I had ten years в английском нет — возраст не «имеют», им «являются». move — «переехать», дополнение не обязательно: we moved достаточно (при уточнении — we moved to another city). Отрицание didn't + V1: didn't talk. «Ни с кем» — anyone при отрицательном глаголе: didn't talk to anyone; двойное отрицание didn't talk to no one — ошибка. talk to someone — «общаться, разговаривать с кем-то», предлог to. for a long time — «долго»: предлог for с длительностью, устойчивое сочетание.",
+    "explanation": "Past Simple во всей цепочке — последовательные факты прошлого: was, signed up, didn't want. «Мне было семь» — по-английски через be: I was seven (years old можно опустить); кальки I had seven years в английском нет — возраст не «имеют», им «являются». sign someone up for — «записать кого-то на»: местоимение встаёт внутрь фразового глагола (signed me up for violin), а не после него. Отрицание didn't + V1: didn't want; после want инфинитив с to: want to practice. practice — именно так по-английски «заниматься» на инструменте (practice the violin, practice scales), не study и не exercise. at all усиливает отрицание — «вообще, совсем». for the first six months — предлог for с длительностью (отрезок «полгода»); since стоял бы с точкой начала. «Полгода» — six months, слова halfyear нет. Финал в настоящем: can't live without it — модальный can в отрицании + without + местоимение.",
     "level": "B1",
     "grammarTags": [
       "past-simple",
       "negation",
       "for-since",
-      "preposition"
+      "preposition",
+      "modal"
     ],
     "topicTags": [
       "family",
@@ -1541,11 +1555,11 @@
   },
   {
     "id": 542,
-    "russian": "Раньше я рисовала часами, а теперь беру карандаш хорошо если раз в год.",
-    "english": "I used to draw for hours, but now I pick up a pencil maybe once a year.",
+    "russian": "Раньше я занималась гимнастикой каждый день, а теперь просто хожу в зал четыре раза в неделю.",
+    "english": "I used to do gymnastics every day, but now I just work out at the gym four times a week.",
     "alternatives": [
-      "I used to spend hours drawing; now I barely touch a pencil once a year.",
-      "Back in the day I'd draw for hours, but these days I hardly ever pick up a pencil."
+      "I did gymnastics every day as a kid; these days I just hit the gym four times a week.",
+      "Back in the day I trained in gymnastics daily, but now it's just the gym four times a week."
     ],
     "vocab": [
       {
@@ -1553,29 +1567,30 @@
         "translation": "раньше (делал), бывало"
       },
       {
-        "word": "draw",
-        "translation": "рисовать"
+        "word": "do gymnastics",
+        "translation": "заниматься гимнастикой"
       },
       {
-        "word": "for hours",
-        "translation": "часами"
+        "word": "work out",
+        "translation": "тренироваться, заниматься в зале"
       },
       {
-        "word": "pick up",
-        "translation": "взять, поднять"
+        "word": "gym",
+        "translation": "спортзал"
       },
       {
-        "word": "once a year",
-        "translation": "раз в год"
+        "word": "four times a week",
+        "translation": "четыре раза в неделю"
       }
     ],
-    "explanation": "used to + V1 — привычка прошлого, которой больше нет: I used to draw — «раньше рисовала (а теперь нет)». Сам контраст «раньше — теперь» и есть сигнал для used to; простой Past Simple (I drew) потерял бы это значение «а сейчас всё иначе». for hours — «часами»: for + множественное число без числительного передаёт «подолгу» (for hours, for days). but now I pick up — нынешняя редкая привычка в Present Simple. pick up — фразовый глагол «взять, поднять» (в руку): pick up a pencil; артикль a — любой карандаш, не конкретный. maybe once a year — «хорошо если раз в год»: maybe передаёт сомнение, once a year — «раз в год», где артикль a работает как «в расчёте на» (как в twice a week), и предлог не нужен.",
+    "explanation": "used to + V1 — привычка прошлого, которой больше нет: I used to do gymnastics — «раньше занималась (а теперь нет)». Сам контраст «раньше — теперь» и есть сигнал для used to; простой Past Simple (I did gymnastics) потерял бы это значение «а сейчас всё иначе». do gymnastics — с гимнастикой, йогой, боевыми искусствами идёт do, а не play (play — для игр с мячом и соперником). but now I work out — нынешняя регулярная привычка в Present Simple. work out — фразовый глагол «тренироваться, заниматься в зале»; русское «хожу в зал» естественнее передать именно им, а не go to the gym (тоже верно, но менее живо). at the gym — предлог at для места как «точки», куда ходят; артикль the — «мой» зал, известное место. four times a week — «четыре раза в неделю»: артикль a работает как «в расчёте на» (как в once a year), и предлог не нужен — не in a week. just — «просто, всего лишь», ставится перед глаголом.",
     "level": "B1",
     "grammarTags": [
       "used-to",
       "present-simple",
       "phrasal-verb",
-      "article"
+      "article",
+      "place-preposition"
     ],
     "topicTags": [
       "interests",
@@ -1620,11 +1635,11 @@
   },
   {
     "id": 544,
-    "russian": "Этот сериал всегда заставляет меня смеяться, даже когда день совсем ужасный.",
-    "english": "This show always makes me laugh, even when I'm having a terrible day.",
+    "russian": "Этот сериал всегда заставляет меня смеяться, даже когда день не задался.",
+    "english": "This show always makes me laugh, even when I'm having a rough day.",
     "alternatives": [
-      "This show never fails to crack me up, even on my worst days.",
-      "No matter how bad my day is, this show always gets a laugh out of me."
+      "This show never fails to crack me up, even on a rough day.",
+      "No matter how my day is going, this show always gets a laugh out of me."
     ],
     "vocab": [
       {
@@ -1636,15 +1651,15 @@
         "translation": "даже когда"
       },
       {
-        "word": "have a terrible day",
-        "translation": "переживать ужасный день"
+        "word": "have a rough day",
+        "translation": "переживать непростой день"
       },
       {
-        "word": "terrible",
-        "translation": "ужасный"
+        "word": "rough",
+        "translation": "непростой, тяжёлый"
       }
     ],
-    "explanation": "make в значении «заставлять, вызывать реакцию» присоединяет голый инфинитив без to: makes me laugh, а не makes me to laugh — одно из главных исключений английской грамматики (так же работает let: let me go). makes — с -s: this show = it, третье лицо единственного числа. always — между подлежащим и глаголом: always makes. even when — «даже когда». I'm having a terrible day — Present Continuous с have: здесь have не «владеть», а часть выражения have a day / have fun — процесс, поэтому Continuous допустим (в значении «иметь» have в Continuous не ставится: нельзя I'm having a car). have a terrible/great day — устойчивое «день не задался / день отличный», артикль a обязателен.",
+    "explanation": "make в значении «заставлять, вызывать реакцию» присоединяет голый инфинитив без to: makes me laugh, а не makes me to laugh — одно из главных исключений английской грамматики (так же работает let: let me go). makes — с -s: this show = it, третье лицо единственного числа. always — между подлежащим и глаголом: always makes. even when — «даже когда». I'm having a rough day — Present Continuous с have: здесь have не «владеть», а часть выражения have a day / have fun — процесс, поэтому Continuous допустим (в значении «иметь» have в Continuous не ставится: нельзя I'm having a car). have a rough/great day — устойчивое «день не задался / день отличный», артикль a обязателен. rough («непростой», буквально «шероховатый») — мягкое разговорное слово: оно про день, который не сложился, без драмы, в отличие от terrible.",
     "level": "B1",
     "grammarTags": [
       "bare-infinitive",
@@ -1794,36 +1809,37 @@
   },
   {
     "id": 548,
-    "russian": "В детстве брат вечно что-то мастерил, пока я смотрела мультики.",
-    "english": "When we were kids, my brother was always building something while I was watching cartoons.",
+    "russian": "В детстве сестра вечно пела, пока я занималась на скрипке.",
+    "english": "When we were kids, my sister was always singing while I was practicing the violin.",
     "alternatives": [
-      "Growing up, my brother was constantly building stuff while I watched cartoons.",
-      "As kids, my brother was forever making something and I'd be watching cartoons."
+      "Growing up, my sister was constantly singing while I practiced the violin.",
+      "As kids, my sister was forever singing, and I'd be practicing my violin."
     ],
     "vocab": [
       {
-        "word": "build",
-        "translation": "мастерить, строить"
+        "word": "sing",
+        "translation": "петь"
       },
       {
         "word": "while",
         "translation": "пока, в то время как"
       },
       {
-        "word": "cartoon",
-        "translation": "мультфильм"
+        "word": "practice",
+        "translation": "заниматься (на инструменте)"
       },
       {
         "word": "always",
         "translation": "вечно, постоянно"
       }
     ],
-    "explanation": "Past Continuous в обеих частях (was building, was watching): два длительных процесса шли параллельно в прошлом, их соединяет while («пока, в то время как»). Формула: was/were + V-ing. was always building — Continuous с always даёт оттенок «вечно, постоянно что-то мастерил», лёгкое преувеличение с эмоцией; always встаёт между was и V-ing. When we were kids — временная рамка в Past Simple: «были детьми» — это фон-состояние, а не процесс. «Мастерить» по-английски — build или make: was building something. my brother — родственники почти всегда с притяжательным: my brother, my mom, а не просто brother. cartoons — «мультики», множественное число без артикля: категория вообще, а не конкретный мультфильм.",
+    "explanation": "Past Continuous в обеих частях (was singing, was practicing): два длительных процесса шли параллельно в прошлом, их соединяет while («пока, в то время как»). Формула: was/were + V-ing. was always singing — Continuous с always даёт оттенок «вечно, постоянно пела», лёгкое преувеличение с тёплой эмоцией; always встаёт между was и V-ing. When we were kids — временная рамка в Past Simple: «были детьми» — это фон-состояние, а не процесс. «Заниматься на скрипке» — practice the violin: с музыкальными инструментами по-английски обычно ставится the (play the piano, practice the violin), в отличие от видов спорта без артикля (play chess). Русское «заниматься» здесь — practice, не study. my sister — родственники почти всегда с притяжательным: my sister, my mom, а не просто sister. sing — неправильный глагол sing — sang — sung, но в Continuous нужна только форма -ing.",
     "level": "B1",
     "grammarTags": [
       "past-continuous",
       "past-simple",
-      "word-order"
+      "word-order",
+      "article"
     ],
     "topicTags": [
       "family",
@@ -1832,11 +1848,11 @@
   },
   {
     "id": 549,
-    "russian": "Давно не читала ничего, что по-настоящему зацепило, — собираюсь наконец взяться за классику.",
-    "english": "I haven't read anything that really hooked me in a while — I'm finally going to give the classics a try.",
+    "russian": "Давно не читала ничего сильнее Достоевского — собираюсь наконец взяться за «Братьев Карамазовых».",
+    "english": "I haven't read anything as powerful as Dostoevsky in a while — I'm finally going to tackle The Brothers Karamazov.",
     "alternatives": [
-      "It's been ages since a book really grabbed me — I'm finally going to try the classics.",
-      "Nothing I've read lately has really pulled me in, so I'm finally giving the classics a shot."
+      "It's been ages since anything hit me the way Dostoevsky does — I'm finally going to start The Brothers Karamazov.",
+      "Nothing I've read lately comes close to Dostoevsky, so I'm finally giving The Brothers Karamazov a shot."
     ],
     "vocab": [
       {
@@ -1844,30 +1860,31 @@
         "translation": "уже давно"
       },
       {
-        "word": "hook",
-        "translation": "зацепить, затянуть"
+        "word": "as … as",
+        "translation": "такой же … как"
+      },
+      {
+        "word": "powerful",
+        "translation": "сильный, мощный (о книге)"
+      },
+      {
+        "word": "tackle",
+        "translation": "взяться за (что-то большое)"
       },
       {
         "word": "finally",
         "translation": "наконец"
-      },
-      {
-        "word": "give something a try",
-        "translation": "попробовать, дать шанс"
-      },
-      {
-        "word": "the classics",
-        "translation": "классика (литературы)"
       }
     ],
-    "explanation": "Present Perfect в отрицании (haven't read) — «давно не…»: период тянется от прошлого до сейчас; read — неправильный глагол read — read — read (форма пишется одинаково, но V2/V3 произносится «ред»). in a while в конце — «уже довольно давно»: в отрицаниях привычнее in a while, чем for a while. anything при отрицательном глаголе: not… anything = «ничего» — второе отрицание с nothing не ставится. that really hooked me — «что по-настоящему зацепило»: hook — разговорное «зацепить, затянуть» (буквально — «подцепить крючком»), Past Simple о конкретных прочитанных книгах. I'm finally going to — план через be going to + V1; finally — «наконец-то». give something a try — устойчивое «попробовать, дать шанс»: give the classics a try; the classics — «классика» как известный всем корпус книг, поэтому the.",
+    "explanation": "Present Perfect в отрицании (haven't read) — «давно не…»: период тянется от прошлого до сейчас; read — неправильный глагол read — read — read (форма пишется одинаково, но V2/V3 произносится «ред»). in a while в конце — «уже довольно давно»: в отрицаниях привычнее in a while, чем for a while. anything при отрицательном глаголе: not… anything = «ничего» — второе отрицание с nothing не ставится. «Ничего сильнее Достоевского» передано через сравнение равенства as powerful as — «настолько же сильное, как»; можно и stronger than, но о книгах говорят powerful, а не strong. Имя автора без артикля обозначает его книги: as powerful as Dostoevsky = «как у Достоевского». I'm finally going to — план через be going to + V1; finally — «наконец-то». tackle — разговорное «взяться за» что-то большое и сложное (tackle a big book, tackle a project), буквально «схватить». Названия книг пишутся с заглавных букв, и артикль The входит в название: The Brothers Karamazov.",
     "level": "B1",
     "grammarTags": [
       "present-perfect",
       "negation",
       "going-to",
       "collocation",
-      "article"
+      "article",
+      "comparative"
     ],
     "topicTags": [
       "interests",
