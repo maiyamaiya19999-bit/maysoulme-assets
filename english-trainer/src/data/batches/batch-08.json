@@ -1,0 +1,2017 @@
+[
+  {
+    "id": 351,
+    "russian": "Если честно, что ты надеешься найти в этом приложении?",
+    "english": "Honestly, what are you hoping to find on this app?",
+    "alternatives": [
+      "To be honest, what are you looking for on here?",
+      "Honestly, what brought you to this app?"
+    ],
+    "vocab": [
+      {
+        "word": "honestly",
+        "translation": "если честно"
+      },
+      {
+        "word": "hope to",
+        "translation": "надеяться (сделать)"
+      },
+      {
+        "word": "find",
+        "translation": "найти"
+      },
+      {
+        "word": "on this app",
+        "translation": "в этом приложении"
+      }
+    ],
+    "explanation": "Present Continuous (are you hoping), потому что речь о надежде в текущий период жизни — hope спокойно ставится в Continuous, когда смысл «сейчас, в этой ситуации», и вопрос звучит мягче, чем прямое What do you hope. Формула вопроса: What + are + you + V-ing. После hope идёт инфинитив с to: hoping to find. Предлог on с приложениями и платформами: on this app, on Instagram — русская логика подсказывает in, но приложение по-английски «платформа», НА которой находятся. Honestly в начале — разговорное «если честно»; вариант — to be honest.",
+    "level": "B1",
+    "grammarTags": [
+      "question",
+      "present-continuous",
+      "infinitive",
+      "preposition"
+    ],
+    "topicTags": [
+      "dating",
+      "acquaintance"
+    ]
+  },
+  {
+    "id": 352,
+    "russian": "Я не ищу ничего несерьёзного — мне хочется чего-то настоящего.",
+    "english": "I'm not looking for anything casual — I want something real.",
+    "alternatives": [
+      "I'm not into casual stuff — I want something serious.",
+      "I'm not here for a fling. I'm looking for the real thing."
+    ],
+    "vocab": [
+      {
+        "word": "look for",
+        "translation": "искать"
+      },
+      {
+        "word": "casual",
+        "translation": "несерьёзный, без обязательств"
+      },
+      {
+        "word": "something real",
+        "translation": "что-то настоящее"
+      }
+    ],
+    "explanation": "I'm not looking for — Present Continuous в отрицании (am not + V-ing): поиск — процесс текущего периода жизни, а не постоянная характеристика. look for — фразовый глагол «искать», предлог for обязателен: looking for anything, а не looking anything. anything, а не nothing: not уже даёт отрицание, а в английском одно отрицание на предложение — not… anything = «ничего». casual — «несерьёзное, без обязательств», стандартное слово из мира знакомств (casual dating). Во второй части want — Present Simple: want — глагол состояния и почти не используется в Continuous. something real — прилагательное после something/anything ставится ПОСЛЕ слова: something real, а не real something.",
+    "level": "A2",
+    "grammarTags": [
+      "present-continuous",
+      "negation",
+      "phrasal-verb",
+      "present-simple",
+      "word-order"
+    ],
+    "topicTags": [
+      "dating",
+      "feelings"
+    ]
+  },
+  {
+    "id": 353,
+    "russian": "Ты давно в этом приложении? Я здесь всего лишь с мая.",
+    "english": "How long have you been on this app? I've only been on it since May.",
+    "alternatives": [
+      "Have you been on this app for a while? I only joined in May.",
+      "Have you been here long? I just got on in May."
+    ],
+    "vocab": [
+      {
+        "word": "how long",
+        "translation": "как долго, давно ли"
+      },
+      {
+        "word": "be on an app",
+        "translation": "быть (зарегистрированным) в приложении"
+      },
+      {
+        "word": "since",
+        "translation": "с (какого-то момента)"
+      },
+      {
+        "word": "only",
+        "translation": "всего лишь"
+      }
+    ],
+    "explanation": "Present Perfect (have been), потому что состояние «быть в приложении» началось в прошлом и длится до сих пор — русское «давно ты здесь?» спрашивается именно How long have you been…?, а не How long are you (частая ошибка). Формула вопроса: How long + have + подлежащее + been. Предлог on с приложениями и платформами: on this app, on it — приложение по-английски место, НА котором находятся, а не «в» котором. since May — since называет точку старта («с мая») и дружит с Present Perfect; для длительности был бы for (for three months). only ставится внутри сказуемого, после have: I've only been.",
+    "level": "B1",
+    "grammarTags": [
+      "question",
+      "present-perfect",
+      "for-since",
+      "preposition"
+    ],
+    "topicTags": [
+      "dating",
+      "texting"
+    ]
+  },
+  {
+    "id": 354,
+    "russian": "Я скачала его неделю назад и до сих пор не понимаю, как тут всё устроено.",
+    "english": "I downloaded it a week ago, and I still don't understand how everything works here.",
+    "alternatives": [
+      "I got it a week ago and I'm still figuring out how it works.",
+      "It's been a week since I downloaded it, and I still can't make sense of it."
+    ],
+    "vocab": [
+      {
+        "word": "download",
+        "translation": "скачать"
+      },
+      {
+        "word": "a week ago",
+        "translation": "неделю назад"
+      },
+      {
+        "word": "still",
+        "translation": "до сих пор, всё ещё"
+      },
+      {
+        "word": "understand",
+        "translation": "понимать"
+      },
+      {
+        "word": "work",
+        "translation": "работать, функционировать"
+      }
+    ],
+    "explanation": "Past Simple (downloaded), потому что действие произошло в конкретный законченный момент прошлого: a week ago; ago всегда стоит ПОСЛЕ отрезка времени (a week ago, two days ago). a week — артикль a в значении «одну неделю». Дальше контраст: I still don't understand — Present Simple в отрицании (don't + V1); understand — глагол состояния и не ставится в Continuous (нельзя I'm not understanding). still «до сих пор» идёт перед don't: I still don't understand. how everything works — косвенный вопрос: обычный порядок слов и -s у глагола (works), без вспомогательного do — не how does everything work внутри утверждения.",
+    "level": "A2",
+    "grammarTags": [
+      "past-simple",
+      "negation",
+      "present-simple",
+      "indirect-question",
+      "article"
+    ],
+    "topicTags": [
+      "dating",
+      "texting"
+    ]
+  },
+  {
+    "id": 355,
+    "russian": "Большинство людей здесь даже профиль не читают.",
+    "english": "Most people on here don't even read your profile.",
+    "alternatives": [
+      "Most guys on here don't even bother reading your profile.",
+      "Hardly anyone here actually reads profiles."
+    ],
+    "vocab": [
+      {
+        "word": "most people",
+        "translation": "большинство людей"
+      },
+      {
+        "word": "not even",
+        "translation": "даже не"
+      },
+      {
+        "word": "profile",
+        "translation": "профиль, анкета"
+      },
+      {
+        "word": "on here",
+        "translation": "здесь (на платформе)"
+      }
+    ],
+    "explanation": "Most people — «большинство людей»: most + существительное без of и без the, когда речь о людях вообще (most of the people было бы о конкретной группе). people — нерегулярное множественное число без -s, поэтому don't, а не doesn't. don't even read — even «даже» ставится после вспомогательного глагола, перед смысловым. Present Simple, потому что это обобщение о том, как обычно бывает. your profile — your здесь обобщённое «твой/чей-то»: разговорный английский любит обращаться к собеседнику как к «любому человеку». on here — разговорное «здесь», об онлайн-платформе.",
+    "level": "A2",
+    "grammarTags": [
+      "present-simple",
+      "negation",
+      "quantifier",
+      "word-order"
+    ],
+    "topicTags": [
+      "dating",
+      "humor"
+    ]
+  },
+  {
+    "id": 356,
+    "russian": "А что заставило тебя остановиться на моём профиле?",
+    "english": "So what made you stop on my profile?",
+    "alternatives": [
+      "So what caught your eye about my profile?",
+      "What was it about my profile that made you stop?"
+    ],
+    "vocab": [
+      {
+        "word": "make someone do",
+        "translation": "заставить кого-то сделать"
+      },
+      {
+        "word": "stop on",
+        "translation": "остановиться на"
+      },
+      {
+        "word": "profile",
+        "translation": "профиль"
+      }
+    ],
+    "explanation": "made you stop — конструкция make + объект + голый инфинитив (bare infinitive): после make «заставлять» глагол идёт БЕЗ to — made you stop, а не made you to stop. Так же работают let и see/hear someone do. Вопрос строится от подлежащего: What made…? — когда вопросительное слово само является подлежащим, вспомогательный did не нужен (нельзя What did make). made — V2 от make (make—made—made). stop on my profile — предлог on, потому что профиль — страница/экран, НА которой останавливаешься при пролистывании (та же логика, что on a page, on the screen). So в начале — разговорная связка «ну и», смягчает вопрос. Past Simple, потому что речь о конкретном моменте: листал — и остановился.",
+    "level": "B1",
+    "grammarTags": [
+      "question",
+      "past-simple",
+      "bare-infinitive",
+      "place-preposition"
+    ],
+    "topicTags": [
+      "dating",
+      "acquaintance"
+    ]
+  },
+  {
+    "id": 357,
+    "russian": "Я не играю в игры и не намекаю — если человек мне нравится, я так прямо и говорю.",
+    "english": "I don't play games or drop hints — if I like someone, I just come out and say it.",
+    "alternatives": [
+      "I'm not into games or mixed signals — if I like someone, I tell them straight up.",
+      "No games, no hints from me — when I like someone, I say so."
+    ],
+    "vocab": [
+      {
+        "word": "play games",
+        "translation": "играть в игры (в отношениях)"
+      },
+      {
+        "word": "drop hints",
+        "translation": "намекать"
+      },
+      {
+        "word": "come out and say",
+        "translation": "сказать прямо, в открытую"
+      },
+      {
+        "word": "someone",
+        "translation": "человек, кто-то"
+      }
+    ],
+    "explanation": "I don't play games or drop hints — отрицание Present Simple через don't + V1; одно don't накрывает оба глагола, а связка между ними — or, не and: русское «не… и не…» в английском отрицании обычно даёт or (I don't play games or drop hints). play games — устойчивое «играть в игры» о манипуляциях в отношениях; drop hints — collocation «намекать», дословно «ронять намёки». games и hints — исчисляемые существительные во множественном числе без артикля: так говорят о явлении вообще (не a game, не the hints). if I like someone, I just come out and say it — нулевое условие (Zero Conditional): If + Present Simple, Present Simple — это личное правило, «всякий раз, когда». Никакого will в if-части. come out and say — разговорный оборот «сказать прямо, в открытую»: come out здесь фразовый глагол «выйти наружу (с тем, что думаешь)», а say it — «сказать это». just — «просто», подчёркивает лёгкость. someone — «человек, кто-то», без артикля.",
+    "level": "B1",
+    "grammarTags": [
+      "negation",
+      "present-simple",
+      "phrasal-verb",
+      "collocation",
+      "countable-uncountable",
+      "conditional-0"
+    ],
+    "topicTags": [
+      "dating",
+      "feelings"
+    ]
+  },
+  {
+    "id": 358,
+    "russian": "А как для тебя выглядят хорошие отношения?",
+    "english": "What does a good relationship look like for you?",
+    "alternatives": [
+      "What's a good relationship to you?",
+      "How would you describe a healthy relationship?"
+    ],
+    "vocab": [
+      {
+        "word": "relationship",
+        "translation": "отношения"
+      },
+      {
+        "word": "look like",
+        "translation": "выглядеть как"
+      },
+      {
+        "word": "for you",
+        "translation": "для тебя"
+      }
+    ],
+    "explanation": "Вопрос Present Simple с does, потому что подлежащее a good relationship — третье лицо единственного числа; после does глагол в базовой форме: look, без -s. look like — «выглядеть как»: в вопросе спрашиваем через what, а like уходит в самый конец — What does it look like? Русское «как» здесь именно what … like, а не how. a relationship — артикль a: отношения как один абстрактный пример; по-английски relationship — исчисляемое существительное в единственном числе, в отличие от русского «отношения», которое бывает только во множественном. for you — «для тебя», именно его взгляд.",
+    "level": "B1",
+    "grammarTags": [
+      "question",
+      "present-simple",
+      "collocation",
+      "article",
+      "word-order"
+    ],
+    "topicTags": [
+      "dating",
+      "deep-talk"
+    ]
+  },
+  {
+    "id": 359,
+    "russian": "Я никуда не тороплюсь — хочу сначала узнать тебя получше.",
+    "english": "I'm not in a hurry — I want to get to know you better first.",
+    "alternatives": [
+      "There's no rush — I'd rather get to know you first.",
+      "I'm taking my time. I want to learn more about you before anything else."
+    ],
+    "vocab": [
+      {
+        "word": "be in a hurry",
+        "translation": "торопиться"
+      },
+      {
+        "word": "get to know",
+        "translation": "узнать (человека) поближе"
+      },
+      {
+        "word": "better",
+        "translation": "лучше"
+      },
+      {
+        "word": "first",
+        "translation": "сначала"
+      }
+    ],
+    "explanation": "I'm not in a hurry — «не тороплюсь» по-английски выражается состоянием be in a hurry, дословно «быть в спешке»; отрицание через am not. a hurry — устойчиво с артиклем a. want to get — после want идёт инфинитив с to. get to know — важная связка «узнавать человека постепенно», процесс — в отличие от know «уже знать»: именно поэтому не I want to know you better, а get to know. better — сравнительная степень от well: «получше». first в конце — «сначала», обычная разговорная позиция этого наречия.",
+    "level": "A2",
+    "grammarTags": [
+      "negation",
+      "present-simple",
+      "infinitive",
+      "collocation",
+      "comparative"
+    ],
+    "topicTags": [
+      "dating",
+      "communication"
+    ]
+  },
+  {
+    "id": 360,
+    "russian": "А для тебя важно, чтобы человек умел слушать?",
+    "english": "Is it important to you that someone can really listen?",
+    "alternatives": [
+      "Does it matter to you whether someone's a good listener?",
+      "How important is it to you that a person knows how to listen?"
+    ],
+    "vocab": [
+      {
+        "word": "important to",
+        "translation": "важно для (кого-то)"
+      },
+      {
+        "word": "someone",
+        "translation": "человек, кто-то"
+      },
+      {
+        "word": "really",
+        "translation": "по-настоящему"
+      },
+      {
+        "word": "listen",
+        "translation": "слушать"
+      }
+    ],
+    "explanation": "Вопрос с глаголом be строится инверсией, без do: Is it important…? Безличное it обязательно: «важно» = it is important — у английского предложения всегда есть подлежащее. important to you — прилагательное important в значении «важно кому» идёт с to, не с for. that someone can… — придаточное с обычным порядком слов. can + V1 без to: can listen — после модального глагола всегда голый инфинитив. really перед глаголом усиливает: «по-настоящему слушать». Русское «чтобы человек умел» не переводится через to или would — просто that + подлежащее + can. someone — «человек, кто-то», без артикля.",
+    "level": "A2",
+    "grammarTags": [
+      "question",
+      "present-simple",
+      "modal",
+      "preposition"
+    ],
+    "topicTags": [
+      "deep-talk",
+      "communication"
+    ]
+  },
+  {
+    "id": 361,
+    "russian": "Если человек не уважает моё время, я теряю интерес.",
+    "english": "If someone doesn't respect my time, I lose interest.",
+    "alternatives": [
+      "When someone doesn't value my time, I lose interest.",
+      "If a guy doesn't respect my time, I'm out."
+    ],
+    "vocab": [
+      {
+        "word": "respect",
+        "translation": "уважать"
+      },
+      {
+        "word": "time",
+        "translation": "время"
+      },
+      {
+        "word": "lose interest",
+        "translation": "терять интерес"
+      }
+    ],
+    "explanation": "Zero Conditional (нулевой тип условия): If + Present Simple, Present Simple — так описывают закономерность, личное правило «всегда так»: если X, то (каждый раз) Y. Никакого will ни в одной части: это не прогноз на будущее, а общий принцип. doesn't respect — отрицание третьего лица через doesn't + V1: someone грамматически единственное число. lose interest — устойчивое сочетание «терять интерес», без артикля: interest здесь неисчисляемое абстрактное понятие. lose — неправильный глагол (lose—lost—lost), не путать с loose «свободный, болтающийся». my time — по-русски притяжательное можно опустить («не уважает время»), по-английски my обычно нужно.",
+    "level": "A2",
+    "grammarTags": [
+      "conditional-0",
+      "present-simple",
+      "negation",
+      "collocation"
+    ],
+    "topicTags": [
+      "feelings",
+      "dating"
+    ]
+  },
+  {
+    "id": 362,
+    "russian": "Раньше я думала, что мне нужен идеальный мужчина, но я так больше не думаю.",
+    "english": "I used to think I needed the perfect guy, but I don't think that anymore.",
+    "alternatives": [
+      "I once believed I needed the perfect guy, but not anymore.",
+      "Back then I thought I was looking for Mr. Perfect, but I've moved past that."
+    ],
+    "vocab": [
+      {
+        "word": "used to",
+        "translation": "раньше (делала что-то)"
+      },
+      {
+        "word": "need",
+        "translation": "нуждаться"
+      },
+      {
+        "word": "perfect",
+        "translation": "идеальный"
+      },
+      {
+        "word": "guy",
+        "translation": "парень, мужчина"
+      },
+      {
+        "word": "anymore",
+        "translation": "больше (не)"
+      }
+    ],
+    "explanation": "used to + V1 — «раньше делала/считала, а теперь нет»: used to think подчёркивает, что убеждение осталось в прошлом; сама форма используется только о прошлом. I needed — Past Simple из-за согласования времён: главный глагол в прошлом (used to think), поэтому «нужен» тоже уходит в прошедшее, хотя по-русски время не меняется. the perfect guy — артикль the: «тот самый идеальный», единственный в своём роде. but I don't think that anymore — отрицание Present Simple + anymore «больше не»: anymore ставится в конец и требует отрицания. Не путать used to think с be used to thinking «привыкла думать» — это совсем другая конструкция.",
+    "level": "B1",
+    "grammarTags": [
+      "used-to",
+      "past-simple",
+      "negation",
+      "present-simple",
+      "article"
+    ],
+    "topicTags": [
+      "deep-talk",
+      "dating"
+    ]
+  },
+  {
+    "id": 363,
+    "russian": "Моё первое впечатление: ты умеешь говорить о чувствах, и это редкость.",
+    "english": "My first impression is that you know how to talk about feelings, and that's rare.",
+    "alternatives": [
+      "My first take? You're good at talking about feelings, and that's rare.",
+      "First impression: you're comfortable opening up about your feelings, which doesn't happen often."
+    ],
+    "vocab": [
+      {
+        "word": "first impression",
+        "translation": "первое впечатление"
+      },
+      {
+        "word": "know how to",
+        "translation": "уметь"
+      },
+      {
+        "word": "talk about",
+        "translation": "говорить о"
+      },
+      {
+        "word": "feelings",
+        "translation": "чувства"
+      },
+      {
+        "word": "rare",
+        "translation": "редкий"
+      }
+    ],
+    "explanation": "My first impression is that… — типичная рамка для мнения: после is идёт придаточное с that. know how to + V1 — «уметь»: русское «умеешь» чаще всего переводится know how to do something (или can); просто know to talk — ошибка. talk about — «говорить о» с предлогом about. feelings — во множественном числе и без артикля: чувства вообще, как тема. that's rare — «это редкость»: по-английски естественнее прилагательным rare «редкий», чем существительным (a rarity звучит книжно). Present Simple во всём предложении: речь об общих качествах человека, а не о процессе в моменте.",
+    "level": "A2",
+    "grammarTags": [
+      "present-simple",
+      "infinitive",
+      "preposition"
+    ],
+    "topicTags": [
+      "feelings",
+      "communication",
+      "dating"
+    ]
+  },
+  {
+    "id": 364,
+    "russian": "А какое у тебя было первое впечатление обо мне?",
+    "english": "What was your first impression of me?",
+    "alternatives": [
+      "What did you think of me at first?",
+      "So what was your first take on me?"
+    ],
+    "vocab": [
+      {
+        "word": "first impression",
+        "translation": "первое впечатление"
+      },
+      {
+        "word": "impression of",
+        "translation": "впечатление о"
+      }
+    ],
+    "explanation": "Вопрос с was строится инверсией, без did: What was…? — когда смысловой глагол be, вспомогательный do не нужен ни в одном времени. Past Simple (was), потому что впечатление сложилось в конкретный момент прошлого — при первом взгляде на профиль или первом сообщении. first impression of — впечатление «о ком-то» по-английски со стандартным предлогом of: impression of me (about тоже возможен, но для first impression привычнее of). your first impression — порядковые числительные (first, second) идут с the или с притяжательным местоимением, здесь your.",
+    "level": "A2",
+    "grammarTags": [
+      "question",
+      "past-simple",
+      "preposition"
+    ],
+    "topicTags": [
+      "dating",
+      "communication"
+    ]
+  },
+  {
+    "id": 365,
+    "russian": "Ты кажешься спокойнее большинства парней, с которыми я в последнее время общалась.",
+    "english": "You seem calmer than most of the guys I've talked to lately.",
+    "alternatives": [
+      "You come across as more laid-back than most guys I've been chatting with lately.",
+      "You're a lot more chill than the guys I've been talking to recently."
+    ],
+    "vocab": [
+      {
+        "word": "seem",
+        "translation": "казаться"
+      },
+      {
+        "word": "calm",
+        "translation": "спокойный"
+      },
+      {
+        "word": "most of the",
+        "translation": "большинство из"
+      },
+      {
+        "word": "talk to",
+        "translation": "общаться с"
+      },
+      {
+        "word": "lately",
+        "translation": "в последнее время"
+      }
+    ],
+    "explanation": "seem + прилагательное — «казаться каким-то»: You seem calm, без like (like нужно перед существительным: seem like a calm person). calmer than — сравнительная степень: короткое прилагательное calm получает -er; «чем» = than, не then. most of the guys — здесь most OF THE, потому что речь о конкретной группе (те, с кем общалась), а не о парнях вообще (тогда было бы most guys). the guys I've talked to — контактное придаточное без who/that: «с которыми общалась»; предлог to остаётся в конце. I've talked — Present Perfect + lately: опыт за последний период, тянущийся до сих пор, без конкретной даты.",
+    "level": "B1",
+    "grammarTags": [
+      "comparative",
+      "quantifier",
+      "relative-clause",
+      "present-perfect",
+      "preposition"
+    ],
+    "topicTags": [
+      "dating",
+      "feelings"
+    ]
+  },
+  {
+    "id": 366,
+    "russian": "Сначала я думала, что ты слишком серьёзный, а теперь посмотри на нас — шутим, как старые друзья.",
+    "english": "At first I thought you were too serious, and now look at us — we're joking around like old friends.",
+    "alternatives": [
+      "In the beginning I figured you were too serious, and now here we are, joking like old friends.",
+      "I thought you were kind of stiff at first, but look at us now — cracking jokes like we've known each other forever."
+    ],
+    "vocab": [
+      {
+        "word": "at first",
+        "translation": "сначала, поначалу"
+      },
+      {
+        "word": "too serious",
+        "translation": "слишком серьёзный"
+      },
+      {
+        "word": "look at",
+        "translation": "посмотреть на"
+      },
+      {
+        "word": "joke around",
+        "translation": "шутить, дурачиться"
+      },
+      {
+        "word": "old friends",
+        "translation": "старые друзья"
+      }
+    ],
+    "explanation": "At first — «поначалу»: именно at first, когда дальше есть контраст «а потом всё изменилось» (просто first — «во-первых, сперва»). I thought you were — Past Simple + согласование времён: после thought «ты серьёзный» тоже уходит в прошедшее (were), по-русски время не меняется. too serious — too «слишком» (с оттенком перебора), very было бы нейтральное «очень». look at us — повелительное наклонение: голый глагол без подлежащего; «смотреть на» = look at. we're joking around — Present Continuous: происходит прямо сейчас, в этой переписке; joke around — фразовый глагол «дурачиться, перешучиваться». like old friends — сравнение через like + существительное без артикля.",
+    "level": "B1",
+    "grammarTags": [
+      "past-simple",
+      "present-continuous",
+      "imperative",
+      "phrasal-verb",
+      "preposition"
+    ],
+    "topicTags": [
+      "humor",
+      "texting",
+      "dating"
+    ]
+  },
+  {
+    "id": 367,
+    "russian": "Обычно я не отвечаю на односложное «привет», но твоя шутка про шахматы меня рассмешила.",
+    "english": "I don't usually reply to a one-word 'hey,' but your chess joke made me laugh.",
+    "alternatives": [
+      "I usually ignore one-word openers, but your chess joke cracked me up.",
+      "A plain 'hey' normally doesn't get a reply from me, but your chess joke was hilarious."
+    ],
+    "vocab": [
+      {
+        "word": "usually",
+        "translation": "обычно"
+      },
+      {
+        "word": "reply to",
+        "translation": "отвечать на"
+      },
+      {
+        "word": "one-word",
+        "translation": "односложный, из одного слова"
+      },
+      {
+        "word": "joke",
+        "translation": "шутка"
+      },
+      {
+        "word": "make someone laugh",
+        "translation": "рассмешить кого-то"
+      }
+    ],
+    "explanation": "don't usually reply — отрицание Present Simple; наречие частотности usually стоит после вспомогательного don't и перед смысловым глаголом: I don't usually reply (I usually don't reply тоже встречается, но звучит чуть резче). reply to — «отвечать на» требует предлога to: reply to a message (reply a message — калька). a one-word 'hey' — само слово 'hey' превращено в существительное «одно такое „привет“», отсюда артикль a; one-word — прилагательное через дефис, «односложный». your chess joke — существительное chess в роли определения: «шутка про шахматы» = chess joke, без предлога. made me laugh — конструкция make + объект + голый инфинитив: «рассмешила» = «заставила смеяться», laugh без to (не made me to laugh); made — V2 от make (make—made—made). Past Simple, потому что рассмешила один раз, в момент прочтения. Обрати внимание: подлежащее — неодушевлённое your joke; по-английски так говорят постоянно, а по-русски мы бы скорее сказали «я рассмеялась».",
+    "level": "A2",
+    "grammarTags": [
+      "negation",
+      "present-simple",
+      "word-order",
+      "bare-infinitive",
+      "past-simple"
+    ],
+    "topicTags": [
+      "texting",
+      "dating",
+      "humor"
+    ]
+  },
+  {
+    "id": 368,
+    "russian": "Ты мне интересен. Расскажи, чем ты занимаешься, когда не работаешь.",
+    "english": "I find you interesting. Tell me what you do when you're not working.",
+    "alternatives": [
+      "You seem interesting. What do you do outside of work?",
+      "I'm curious about you. What do you get up to when you're off work?"
+    ],
+    "vocab": [
+      {
+        "word": "find someone interesting",
+        "translation": "находить кого-то интересным"
+      },
+      {
+        "word": "tell",
+        "translation": "рассказать"
+      },
+      {
+        "word": "what you do",
+        "translation": "чем ты занимаешься"
+      },
+      {
+        "word": "work",
+        "translation": "работать"
+      }
+    ],
+    "explanation": "I find you interesting — конструкция find + объект + прилагательное: «нахожу тебя интересным»; живее и естественнее, чем you are interesting for me (калька). interesting, а не interested: форма на -ing описывает того, кто ВЫЗЫВАЕТ интерес, interested — того, кто интерес испытывает. Tell me — повелительное наклонение: глагол без подлежащего; tell идёт с адресатом без to (tell me, а не tell to me). what you do — косвенный вопрос: прямой порядок слов, без вспомогательного do (не what do you do внутри просьбы). Контраст времён: you do — Present Simple о занятиях вообще, you're not working — Present Continuous в отрицании: «в те периоды, когда ты не работаешь».",
+    "level": "B1",
+    "grammarTags": [
+      "imperative",
+      "indirect-question",
+      "present-simple",
+      "present-continuous",
+      "negation"
+    ],
+    "topicTags": [
+      "interests",
+      "work",
+      "daily-life"
+    ]
+  },
+  {
+    "id": 369,
+    "russian": "Ты давно работаешь в своей компании?",
+    "english": "How long have you worked at your company?",
+    "alternatives": [
+      "Have you been with your company for a long time?",
+      "How long have you been at your current job?"
+    ],
+    "vocab": [
+      {
+        "word": "how long",
+        "translation": "как долго"
+      },
+      {
+        "word": "work at",
+        "translation": "работать в (компании)"
+      },
+      {
+        "word": "company",
+        "translation": "компания"
+      }
+    ],
+    "explanation": "Present Perfect (have worked), потому что человек работает там до сих пор — период тянется из прошлого в настоящее. Русское «давно работаешь?» нельзя переводить Present Simple: How long do you work — ошибка, это звучало бы как вопрос о длине рабочего дня. Формула вопроса: How long + have + you + V3; work — правильный глагол, V3 = worked. at your company — предлог at для места работы как организации-точки: at a company, at Google; in the company прозвучало бы как «внутри здания». Ответ обычно строится с for или since: for two years / since 2023.",
+    "level": "A2",
+    "grammarTags": [
+      "question",
+      "present-perfect",
+      "place-preposition"
+    ],
+    "topicTags": [
+      "work",
+      "acquaintance"
+    ]
+  },
+  {
+    "id": 370,
+    "russian": "Я уже три года работаю на себя, поэтому могу работать откуда угодно — и много путешествую.",
+    "english": "I've worked for myself for three years, so I can work from anywhere — and I travel a lot.",
+    "alternatives": [
+      "I've been self-employed for three years, so I can work from anywhere — I travel a ton.",
+      "I've been my own boss for three years now, which means I can work from wherever, and I'm on the road a lot."
+    ],
+    "vocab": [
+      {
+        "word": "work for yourself",
+        "translation": "работать на себя"
+      },
+      {
+        "word": "for three years",
+        "translation": "три года, в течение трёх лет"
+      },
+      {
+        "word": "from anywhere",
+        "translation": "откуда угодно"
+      },
+      {
+        "word": "travel",
+        "translation": "путешествовать"
+      },
+      {
+        "word": "a lot",
+        "translation": "много"
+      }
+    ],
+    "explanation": "I've worked … for three years — Present Perfect + for: период начался три года назад и продолжается; русское настоящее «работаю уже три года» по-английски требует именно Perfect (I work for three years — ошибка). for + длительность (for three years); с точкой старта был бы since (since 2023). work for myself — «работать на себя»: предлог for + возвратное myself. can work — модальный can + голый инфинитив без to. from anywhere — «откуда угодно»: anywhere в утвердительном контексте значит «где/куда угодно». I travel a lot — Present Simple для привычки; a lot «много» в конце предложения.",
+    "level": "B1",
+    "grammarTags": [
+      "present-perfect",
+      "for-since",
+      "modal",
+      "present-simple",
+      "preposition"
+    ],
+    "topicTags": [
+      "work",
+      "travel",
+      "lifestyle"
+    ]
+  },
+  {
+    "id": 371,
+    "russian": "Какая часть твоей работы для тебя самая интересная?",
+    "english": "What part of your job do you find the most interesting?",
+    "alternatives": [
+      "What's the most interesting part of your job?",
+      "Which part of your work do you enjoy the most?"
+    ],
+    "vocab": [
+      {
+        "word": "part of",
+        "translation": "часть (чего-то)"
+      },
+      {
+        "word": "job",
+        "translation": "работа"
+      },
+      {
+        "word": "find something interesting",
+        "translation": "находить что-то интересным"
+      },
+      {
+        "word": "the most interesting",
+        "translation": "самый интересный"
+      }
+    ],
+    "explanation": "Вопрос в Present Simple: What part of your job + do + you + find. do — вспомогательный, find остаётся в базовой форме V1. find something interesting — устойчивая конструкция «находить что-то интересным»: find + объект + прилагательное, по-русски мы бы сказали «что тебе кажется самым интересным». the most interesting — превосходная степень длинного прилагательного: the most + прилагательное (короткие прилагательные получают -est: the easiest, а длинные — most). Превосходная степень почти всегда идёт с артиклем the, потому что выделяет один-единственный элемент из группы. part of your job — предлог of связывает часть и целое.",
+    "level": "A2",
+    "grammarTags": [
+      "question",
+      "present-simple",
+      "superlative",
+      "preposition"
+    ],
+    "topicTags": [
+      "work",
+      "interests"
+    ]
+  },
+  {
+    "id": 372,
+    "russian": "Я бы с удовольствием послушала ещё про твою поездку в Грузию — фото, которые ты выложил в пятницу, потрясающие.",
+    "english": "I'd like to hear more about your trip to Georgia — the photos you posted on Friday are incredible.",
+    "alternatives": [
+      "I'd love to hear more about Georgia — the pictures you put up on Friday are stunning.",
+      "Tell me more about your Georgia trip! Those photos from Friday are amazing."
+    ],
+    "vocab": [
+      {
+        "word": "would like to",
+        "translation": "хотелось бы"
+      },
+      {
+        "word": "hear more about",
+        "translation": "послушать ещё о"
+      },
+      {
+        "word": "trip to",
+        "translation": "поездка в"
+      },
+      {
+        "word": "post",
+        "translation": "выложить, опубликовать"
+      },
+      {
+        "word": "incredible",
+        "translation": "потрясающий"
+      }
+    ],
+    "explanation": "I'd like = I would like — вежливое «хотелось бы»; после would like всегда to + V1: I'd like to hear. I'd здесь однозначно would, потому что дальше like to (I'd + V3 было бы had). hear more about — «послушать ещё о»: about для темы. trip to Georgia — поездка «куда» с to. the photos you posted — контактное придаточное без which/that: «фото, которые ты выложил»; артикль the, потому что фото конкретные, определённые придаточным. posted — Past Simple: выложены в конкретный момент. on Friday — с днями недели предлог on (три уровня времени: in May, on Friday, at seven). are incredible — настоящее время: фото и сейчас в профиле.",
+    "level": "B1",
+    "grammarTags": [
+      "would-like",
+      "infinitive",
+      "relative-clause",
+      "time-preposition",
+      "past-simple",
+      "article"
+    ],
+    "topicTags": [
+      "travel",
+      "texting"
+    ]
+  },
+  {
+    "id": 373,
+    "russian": "Я никогда не была в Японии, но очень хочу съездить — она в самом верху моего списка.",
+    "english": "I've never been to Japan, but I really want to go — it's at the very top of my list.",
+    "alternatives": [
+      "I haven't been to Japan yet, but it's number one on my list.",
+      "Japan's somewhere I've never been, and I'd love to go — it's my top pick."
+    ],
+    "vocab": [
+      {
+        "word": "have been to",
+        "translation": "бывать в (где-то)"
+      },
+      {
+        "word": "never",
+        "translation": "никогда"
+      },
+      {
+        "word": "really want to",
+        "translation": "очень хотеть"
+      },
+      {
+        "word": "at the top of",
+        "translation": "в самом верху, на первом месте"
+      },
+      {
+        "word": "list",
+        "translation": "список (мест, куда хочу)"
+      }
+    ],
+    "explanation": "Present Perfect для жизненного опыта: I've never been — «за всю жизнь ни разу», без привязки к дате. never ставится между have и V3 и уже несёт отрицание — not не нужен (I haven't never been — двойное отрицание, ошибка). been to Japan — именно to, не in: been to с Present Perfect означает «съездила туда и вернулась». Japan — названия стран без артикля. really want — «очень хочу» = really + глагол (very want — калька, так сказать нельзя). want to go — инфинитив с to; куда — понятно из контекста, поэтому просто go, без повторения to Japan; go покрывает русские «съездить, поехать». it's at the very top of my list — «в самом верху списка»: место «на вершине» = at the top, а не on; very перед top усиливает («в самом-самом верху»); of связывает вершину и список. my list — «мой список» мест, куда хочу поехать: по-английски так и говорят — it's on my list.",
+    "level": "A2",
+    "grammarTags": [
+      "present-perfect",
+      "negation",
+      "present-simple",
+      "infinitive",
+      "preposition"
+    ],
+    "topicTags": [
+      "travel",
+      "interests"
+    ]
+  },
+  {
+    "id": 374,
+    "russian": "Ты собираешься съездить куда-нибудь на праздники?",
+    "english": "Are you going to go anywhere over the holidays?",
+    "alternatives": [
+      "Any travel plans for the holidays?",
+      "Are you heading anywhere for the holidays?"
+    ],
+    "vocab": [
+      {
+        "word": "be going to",
+        "translation": "собираться (сделать)"
+      },
+      {
+        "word": "anywhere",
+        "translation": "куда-нибудь"
+      },
+      {
+        "word": "over the holidays",
+        "translation": "на праздники"
+      }
+    ],
+    "explanation": "Вопрос с конструкцией be going to (планы и намерения): вспомогательный are выходит перед подлежащим — Are you going to…?, а после to стоит базовая форма go. Сочетание going to go звучит странно для русского уха, но для носителей это абсолютно нормально: первое going — часть конструкции намерения, второе go — смысловой глагол «ехать». anywhere — «куда-нибудь» в вопросах и отрицаниях (в утверждении было бы somewhere: I'm going somewhere). over the holidays — предлог over с периодом времени: «на праздники, в течение праздничных дней»; можно сказать и for the holidays. Праздничный сезон по-английски — the holidays, с артиклем the.",
+    "level": "A2",
+    "grammarTags": [
+      "question",
+      "going-to",
+      "preposition"
+    ],
+    "topicTags": [
+      "travel",
+      "plans"
+    ]
+  },
+  {
+    "id": 375,
+    "russian": "Этим летом я лечу в Лиссабон — поживу у подруги.",
+    "english": "I'm flying to Lisbon this summer to stay with a friend.",
+    "alternatives": [
+      "This summer I'm heading to Lisbon to stay with a friend.",
+      "I'm off to Lisbon this summer — I'll be staying at a friend's place."
+    ],
+    "vocab": [
+      {
+        "word": "fly to",
+        "translation": "лететь в"
+      },
+      {
+        "word": "this summer",
+        "translation": "этим летом"
+      },
+      {
+        "word": "stay with",
+        "translation": "пожить у (кого-то)"
+      },
+      {
+        "word": "friend",
+        "translation": "подруга, друг"
+      }
+    ],
+    "explanation": "I'm flying — Present Continuous в значении будущего: так говорят о договорённостях, которые уже устроены (билеты куплены) — «я лечу», а не «я, может быть, полечу». Это одна из главных ролей Present Continuous в разговоре о планах. fly to Lisbon — to как направление движения «в». this summer — без предлога: this/next/last вытесняют предлог (не in this summer). to stay — инфинитив цели: «чтобы пожить»; цель по-английски часто выражается просто to + V1. stay with a friend — «пожить у подруги»: stay with someone (stay at было бы с местом: at a friend's place). a friend — артикль a: подруга упоминается впервые, собеседник её не знает.",
+    "level": "B1",
+    "grammarTags": [
+      "present-continuous",
+      "present-continuous-future",
+      "movement-preposition",
+      "infinitive",
+      "article"
+    ],
+    "topicTags": [
+      "travel",
+      "plans",
+      "friends"
+    ]
+  },
+  {
+    "id": 376,
+    "russian": "У тебя есть братья или сёстры? Вы близки?",
+    "english": "Do you have any siblings? Are you guys close?",
+    "alternatives": [
+      "Do you have brothers or sisters? Are you close with them?",
+      "Got any siblings? Do you get along?"
+    ],
+    "vocab": [
+      {
+        "word": "siblings",
+        "translation": "братья и сёстры"
+      },
+      {
+        "word": "any",
+        "translation": "какие-нибудь"
+      },
+      {
+        "word": "be close",
+        "translation": "быть близкими"
+      },
+      {
+        "word": "you guys",
+        "translation": "вы (мн. ч., разг.)"
+      }
+    ],
+    "explanation": "Do you have — вопрос о наличии через do + have: «у тебя есть» по-английски строится от глагола have. any siblings — any типичен в вопросах: «есть ли хоть какие-нибудь»; siblings — удобное общее слово «братья и сёстры» разом, не нужно перечислять brothers or sisters. Второй вопрос — с глаголом be, поэтому инверсия без do: Are you close? be close — «быть близкими» эмоционально. you guys — американское разговорное «вы» во множественном числе: обычное you не показывает число, а you guys ясно говорит «ты и они». Оба вопроса — Present Simple: речь о постоянном положении дел.",
+    "level": "A2",
+    "grammarTags": [
+      "question",
+      "present-simple",
+      "quantifier"
+    ],
+    "topicTags": [
+      "family",
+      "acquaintance",
+      "small-talk"
+    ]
+  },
+  {
+    "id": 377,
+    "russian": "Мы с сёстрами до сих пор созваниваемся каждое воскресенье в шесть вечера — и, честно говоря, это мой любимый час недели.",
+    "english": "My sisters and I still call each other every Sunday at six, and honestly, it's my favorite hour of the week.",
+    "alternatives": [
+      "My sisters and I still have a call every Sunday at six, and I honestly love that.",
+      "To this day my sisters and I get on a call every Sunday at 6 p.m. — and truthfully, it's the best hour of my week."
+    ],
+    "vocab": [
+      {
+        "word": "sister",
+        "translation": "сестра"
+      },
+      {
+        "word": "still",
+        "translation": "до сих пор"
+      },
+      {
+        "word": "call each other",
+        "translation": "созваниваться"
+      },
+      {
+        "word": "every Sunday",
+        "translation": "каждое воскресенье"
+      },
+      {
+        "word": "at six",
+        "translation": "в шесть"
+      },
+      {
+        "word": "favorite",
+        "translation": "любимый"
+      }
+    ],
+    "explanation": "My sisters and I — русское «мы с сёстрами» по-английски строится как «мои сёстры и я», причём I ставится в конец: My sisters and I (Me and my sisters в разговоре встречается, но считается небрежным), и точно не We with my sisters — это калька. still «до сих пор» стоит перед смысловым глаголом: still call. call — Present Simple без -s, потому что подлежащее множественное (мы). call each other — «созваниваться»: взаимность передаётся через each other, без предлога (call to each other — ошибка, call someone всегда без to). every Sunday — без предлога: every вытесняет предлог (не on every Sunday). at six — точное время с предлогом at; «вечера» здесь понятно из контекста, иначе at 6 p.m. honestly — вводное «честно говоря». my favorite hour of the week — favorite «любимый» уже само по себе превосходная степень, most не нужен; of the week — «недели», с the, потому что неделя — понятный всем цикл.",
+    "level": "A2",
+    "grammarTags": [
+      "present-simple",
+      "word-order",
+      "time-preposition"
+    ],
+    "topicTags": [
+      "family",
+      "daily-life"
+    ]
+  },
+  {
+    "id": 378,
+    "russian": "А что вы обычно готовите, когда собирается вся семья?",
+    "english": "What do you usually cook when the whole family gets together?",
+    "alternatives": [
+      "What's usually on the menu when the whole family gets together?",
+      "What do you guys normally make when everyone comes over?"
+    ],
+    "vocab": [
+      {
+        "word": "usually",
+        "translation": "обычно"
+      },
+      {
+        "word": "cook",
+        "translation": "готовить"
+      },
+      {
+        "word": "the whole family",
+        "translation": "вся семья"
+      },
+      {
+        "word": "get together",
+        "translation": "собираться вместе"
+      }
+    ],
+    "explanation": "Вопрос Present Simple: What + do + you + V1; usually между подлежащим и смысловым глаголом: do you usually cook. Present Simple в обеих частях, потому что речь о традиции, повторяющемся сценарии. the whole family — артикль the + whole: «вся семья» как конкретная известная группа; whole «целая» стоит после артикля (the whole family, а не whole the family). gets together — фразовый глагол get together «собираться вместе»; окончание -s, потому что family в американском английском грамматически единственное число: the family gets, не get. cook — именно «готовить еду» (prepare food), а не make в этом вопросе.",
+    "level": "A2",
+    "grammarTags": [
+      "question",
+      "present-simple",
+      "phrasal-verb",
+      "article",
+      "word-order"
+    ],
+    "topicTags": [
+      "family",
+      "food",
+      "daily-life"
+    ]
+  },
+  {
+    "id": 379,
+    "russian": "Что тебя привлекает в человеке в первую очередь?",
+    "english": "What attracts you to someone in the first place?",
+    "alternatives": [
+      "What draws you to someone right away?",
+      "What's the first thing that attracts you to a person?"
+    ],
+    "vocab": [
+      {
+        "word": "attract",
+        "translation": "привлекать"
+      },
+      {
+        "word": "someone",
+        "translation": "человек, кто-то"
+      },
+      {
+        "word": "in the first place",
+        "translation": "в первую очередь"
+      }
+    ],
+    "explanation": "What attracts you — вопрос от подлежащего: What здесь само является подлежащим («что привлекает»), поэтому вспомогательный does не нужен, а глагол получает -s: attracts (сравни с обычным вопросом What do you like?). attract someone TO someone — русское «привлекает В человеке» по-английски строится с to: attracts you to someone; предлог in здесь был бы калькой. someone — обобщённое «человек, кто-то», без артикля. in the first place — устойчивое «в первую очередь, изначально»; артикль the — обязательная часть идиомы. Present Simple, потому что вопрос о постоянных предпочтениях, а не о конкретном случае.",
+    "level": "B1",
+    "grammarTags": [
+      "question",
+      "present-simple",
+      "preposition",
+      "collocation"
+    ],
+    "topicTags": [
+      "deep-talk",
+      "dating"
+    ]
+  },
+  {
+    "id": 380,
+    "russian": "Меня притягивают люди, которые не боятся быть смешными.",
+    "english": "I'm drawn to people who aren't afraid to be funny.",
+    "alternatives": [
+      "I'm attracted to people who don't mind being silly.",
+      "People who aren't scared to be goofy really appeal to me."
+    ],
+    "vocab": [
+      {
+        "word": "be drawn to",
+        "translation": "тянуться к, быть притянутым к"
+      },
+      {
+        "word": "be afraid to",
+        "translation": "бояться (сделать)"
+      },
+      {
+        "word": "funny",
+        "translation": "смешной"
+      }
+    ],
+    "explanation": "I'm drawn to — пассив: «меня притягивают» по-английски удобнее сказать «я притянута к» — be drawn to someone/something, устойчивое выражение о симпатии; drawn — V3 от draw (draw—drew—drawn). Русское безличное «меня притягивают» в английском обязано получить подлежащее — I. people who aren't afraid — придаточное с who «которые»; people — множественное число, поэтому aren't. be afraid to + V1 — «бояться что-то делать»: afraid to be funny. funny — «смешной», то есть умеет рассмешить; не путать с fun: he's fun — «с ним весело», he's funny — «он смешно шутит».",
+    "level": "B1",
+    "grammarTags": [
+      "passive",
+      "relative-clause",
+      "negation",
+      "infinitive",
+      "preposition"
+    ],
+    "topicTags": [
+      "dating",
+      "humor"
+    ]
+  },
+  {
+    "id": 381,
+    "russian": "Чувство юмора для меня важнее внешности.",
+    "english": "A sense of humor matters more to me than looks.",
+    "alternatives": [
+      "Humor is more important to me than looks.",
+      "I care more about a sense of humor than about appearance."
+    ],
+    "vocab": [
+      {
+        "word": "sense of humor",
+        "translation": "чувство юмора"
+      },
+      {
+        "word": "matter",
+        "translation": "иметь значение"
+      },
+      {
+        "word": "more than",
+        "translation": "больше, чем"
+      },
+      {
+        "word": "looks",
+        "translation": "внешность"
+      }
+    ],
+    "explanation": "A sense of humor — устойчивое «чувство юмора» с артиклем a: в этой идиоме sense — исчисляемая «одна» способность. matters — глагол matter «иметь значение»: русское «важнее» естественно передать через matters more «значит больше»; -s, потому что sense — единственное число. more … than — сравнение: значит больше, ЧЕМ внешность; than, не then. to me — с matter идёт предлог to (matters to me), не for. looks — «внешность» именно во множественном числе (good looks); look в единственном — «взгляд» или «вид, образ». Present Simple: постоянная система ценностей, а не сиюминутное настроение.",
+    "level": "B1",
+    "grammarTags": [
+      "present-simple",
+      "article",
+      "collocation",
+      "comparative",
+      "preposition"
+    ],
+    "topicTags": [
+      "deep-talk",
+      "humor"
+    ]
+  },
+  {
+    "id": 382,
+    "russian": "Обожаю, когда у человека есть увлечение, о котором он может говорить часами.",
+    "english": "I love it when someone has a hobby they can talk about for hours.",
+    "alternatives": [
+      "I love it when a person has a passion they could go on about for hours.",
+      "It's great when someone's got a hobby they can talk about forever."
+    ],
+    "vocab": [
+      {
+        "word": "love it when",
+        "translation": "обожать, когда"
+      },
+      {
+        "word": "hobby",
+        "translation": "увлечение, хобби"
+      },
+      {
+        "word": "talk about",
+        "translation": "говорить о"
+      },
+      {
+        "word": "for hours",
+        "translation": "часами"
+      }
+    ],
+    "explanation": "I love it when — «обожаю, когда»: формальное it после love обязательно в стандартной грамматике — глагол требует дополнения. someone has — someone грамматически единственное число, поэтому has. a hobby — артикль a: какое-то одно увлечение, любое. they can talk about — they здесь единственное «он или она»: нейтральное singular they, обычное в разговорном английском, когда пол неизвестен (someone… they). Придаточное контактное, без that: a hobby (that) they can talk about — предлог about остаётся в конце: «о котором говорить» = talk about. can + голый инфинитив. for hours — «часами»: for + отрезок времени, без артикля.",
+    "level": "B1",
+    "grammarTags": [
+      "present-simple",
+      "modal",
+      "relative-clause",
+      "article",
+      "preposition"
+    ],
+    "topicTags": [
+      "interests",
+      "deep-talk"
+    ]
+  },
+  {
+    "id": 383,
+    "russian": "А что тебя отталкивает в самом начале общения?",
+    "english": "What turns you off when you're just getting to know someone?",
+    "alternatives": [
+      "What's a turn-off for you early on?",
+      "What puts you off when you first start talking to someone?"
+    ],
+    "vocab": [
+      {
+        "word": "turn off",
+        "translation": "отталкивать, отбивать интерес"
+      },
+      {
+        "word": "just",
+        "translation": "только (что), только-только"
+      },
+      {
+        "word": "get to know",
+        "translation": "узнавать (человека)"
+      }
+    ],
+    "explanation": "turn off — фразовый глагол «отталкивать, отбивать интерес» (противоположность turn on «привлекать»); он разделяемый: местоимение внутри — turns you off, не turns off you. What здесь подлежащее вопроса, поэтому без does и с -s: What turns…. when you're just getting to know someone — Present Continuous: процесс знакомства разворачивается («в самом начале общения» = пока ты только узнаёшь человека); get to know — «узнавать постепенно»; just подчёркивает «только-только». Контраст в одной фразе: Simple для постоянных предпочтений, Continuous для процесса — очень типично для живой речи.",
+    "level": "B1",
+    "grammarTags": [
+      "question",
+      "phrasal-verb",
+      "present-continuous",
+      "present-simple",
+      "collocation"
+    ],
+    "topicTags": [
+      "communication",
+      "dating"
+    ]
+  },
+  {
+    "id": 384,
+    "russian": "Для меня много значит, когда человек помнит мелочи, которые я говорю.",
+    "english": "It means a lot to me when someone remembers the little things I say.",
+    "alternatives": [
+      "It really matters to me when someone remembers the small stuff I mention.",
+      "I really appreciate it when a person remembers the little details I share."
+    ],
+    "vocab": [
+      {
+        "word": "mean a lot to",
+        "translation": "много значить для"
+      },
+      {
+        "word": "remember",
+        "translation": "помнить"
+      },
+      {
+        "word": "little things",
+        "translation": "мелочи"
+      },
+      {
+        "word": "say",
+        "translation": "говорить, сказать"
+      }
+    ],
+    "explanation": "It means a lot to me — устойчивое «для меня это много значит»: mean a lot to someone; безличное it — подлежащее, без него предложение не строится. when someone remembers — Present Simple с -s: обобщение «всякий раз, когда». the little things I say — артикль the, потому что мелочи конкретизированы придаточным («те самые, которые я говорю»); придаточное контактное, без that: the things (that) I say. little things — «мелочи»: по-английски буквально «маленькие вещи», отдельного слова не нужно. say, а не tell: say используется без адресата, tell требует адресата (tell you something).",
+    "level": "B1",
+    "grammarTags": [
+      "present-simple",
+      "relative-clause",
+      "article",
+      "collocation"
+    ],
+    "topicTags": [
+      "feelings",
+      "communication"
+    ]
+  },
+  {
+    "id": 385,
+    "russian": "Кстати, я немного стесняюсь переписываться на английском, так что не смейся над моими ошибками.",
+    "english": "By the way, I'm a little shy about texting in English, so don't laugh at my mistakes.",
+    "alternatives": [
+      "Just so you know, I'm a bit self-conscious about texting in English, so go easy on my mistakes.",
+      "Also, I get a little nervous writing in English, so please don't make fun of my typos."
+    ],
+    "vocab": [
+      {
+        "word": "by the way",
+        "translation": "кстати"
+      },
+      {
+        "word": "be shy about",
+        "translation": "стесняться (чего-то)"
+      },
+      {
+        "word": "text",
+        "translation": "переписываться"
+      },
+      {
+        "word": "in English",
+        "translation": "на английском"
+      },
+      {
+        "word": "laugh at",
+        "translation": "смеяться над"
+      },
+      {
+        "word": "mistake",
+        "translation": "ошибка"
+      }
+    ],
+    "explanation": "shy about + V-ing — после прилагательного с предлогом действие идёт герундием: shy about texting — to text здесь нельзя, потому что about — предлог. a little смягчает: «немного». in English — «на английском» = in + язык (on English — калька). don't laugh — отрицательное повелительное наклонение: don't + V1, так строится любой запрет или просьба «не делай». laugh at — «смеяться над» передаётся предлогом at, не over: laugh at my mistakes. By the way — «кстати», разговорная связка для смены темы. so — «так что», вводит следствие.",
+    "level": "A2",
+    "grammarTags": [
+      "gerund",
+      "imperative",
+      "negation",
+      "preposition"
+    ],
+    "topicTags": [
+      "texting",
+      "feelings",
+      "communication"
+    ]
+  },
+  {
+    "id": 386,
+    "russian": "Если я сделаю ошибку, просто скажи — я не обижусь, обещаю.",
+    "english": "If I make a mistake, just tell me — I won't get offended, I promise.",
+    "alternatives": [
+      "If I mess something up, just let me know — I promise I won't take it personally.",
+      "Feel free to correct me if I make a mistake. I won't be upset, promise."
+    ],
+    "vocab": [
+      {
+        "word": "make a mistake",
+        "translation": "сделать ошибку"
+      },
+      {
+        "word": "just",
+        "translation": "просто"
+      },
+      {
+        "word": "tell",
+        "translation": "сказать"
+      },
+      {
+        "word": "get offended",
+        "translation": "обидеться"
+      },
+      {
+        "word": "promise",
+        "translation": "обещать"
+      }
+    ],
+    "explanation": "First Conditional: If + Present Simple, а результат — с will. В if-части будущего НЕТ, хотя по-русски «если сделаю»: If I make, а не If I will make — одна из самых частых ошибок. make a mistake — устойчивое «сделать ошибку» именно с make, не с do (do a mistake — калька); артикль a. just tell me — повелительное наклонение, just смягчает: «просто скажи»; tell me без to. I won't get offended — will not сокращается в won't; get offended «обижусь» — get + V3/прилагательное для смены состояния (get tired, get upset). I promise — Present Simple: обещание даётся прямо в момент речи.",
+    "level": "B1",
+    "grammarTags": [
+      "conditional-1",
+      "imperative",
+      "future-will",
+      "negation",
+      "collocation"
+    ],
+    "topicTags": [
+      "texting",
+      "communication"
+    ]
+  },
+  {
+    "id": 387,
+    "russian": "Ты не против, если я иногда буду отвечать голосовыми? Говорить мне проще, чем печатать.",
+    "english": "Do you mind if I send voice messages sometimes? Speaking is easier for me than typing.",
+    "alternatives": [
+      "Is it okay if I reply with voice messages sometimes? Talking is easier for me than typing.",
+      "Would you mind if I sent voice notes now and then? I find it easier to talk than to type."
+    ],
+    "vocab": [
+      {
+        "word": "do you mind if",
+        "translation": "ты не против, если"
+      },
+      {
+        "word": "send",
+        "translation": "отправлять"
+      },
+      {
+        "word": "voice message",
+        "translation": "голосовое сообщение"
+      },
+      {
+        "word": "sometimes",
+        "translation": "иногда"
+      },
+      {
+        "word": "easier",
+        "translation": "проще"
+      },
+      {
+        "word": "type",
+        "translation": "печатать"
+      }
+    ],
+    "explanation": "Do you mind if — вежливое «ты не против, если»: после mind if идёт обычное настоящее (if I send), будущее не нужно, хотя по-русски «буду отвечать». Ловушка в ответе: mind значит «возражать», поэтому «не против» — это No, not at all, а не Yes. sometimes стоит в конце куска (или перед смысловым глаголом). Speaking is easier than typing — герундии в роли подлежащих: «говорить» и «печатать» превращаются в -ing формы, потому что действие выступает как «вещь». easier — сравнительная степень easy (y → i + -er); for me — «для меня». voice messages — «голосовые», по-английски полным словосочетанием.",
+    "level": "B1",
+    "grammarTags": [
+      "question",
+      "present-simple",
+      "gerund",
+      "comparative"
+    ],
+    "topicTags": [
+      "texting",
+      "communication"
+    ]
+  },
+  {
+    "id": 388,
+    "russian": "Понимаю я почти всё, а вот разговорной практики мне пока не хватает.",
+    "english": "I understand almost everything, but I still need more speaking practice.",
+    "alternatives": [
+      "I get almost everything, but I could use more speaking practice.",
+      "My comprehension is pretty good; it's the speaking part I still need to work on."
+    ],
+    "vocab": [
+      {
+        "word": "understand",
+        "translation": "понимать"
+      },
+      {
+        "word": "almost everything",
+        "translation": "почти всё"
+      },
+      {
+        "word": "still",
+        "translation": "всё ещё, пока"
+      },
+      {
+        "word": "need",
+        "translation": "нуждаться"
+      },
+      {
+        "word": "speaking practice",
+        "translation": "разговорная практика"
+      }
+    ],
+    "explanation": "understand — глагол состояния, только Present Simple (нельзя I'm understanding). almost everything — «почти всё»; everything грамматически единственное число. Русское «не хватает практики» удобнее сказать утвердительно: I need more — «мне нужно больше»: английский часто предпочитает утверждение с need там, где по-русски отрицание «не хватает». practice — неисчисляемое: без артикля и без множественного числа (не a practice и не practices), поэтому «больше практики» = more practice. speaking practice — герундий в роли определения: «практика говорения». still «всё ещё» стоит перед смысловым глаголом need.",
+    "level": "A2",
+    "grammarTags": [
+      "present-simple",
+      "countable-uncountable",
+      "quantifier",
+      "word-order",
+      "gerund"
+    ],
+    "topicTags": [
+      "communication"
+    ]
+  },
+  {
+    "id": 389,
+    "russian": "Мой английский стал лучше с тех пор, как мы начали переписываться.",
+    "english": "My English has gotten better since we started texting.",
+    "alternatives": [
+      "My English has improved since we started chatting.",
+      "Texting with you has really helped my English."
+    ],
+    "vocab": [
+      {
+        "word": "get better",
+        "translation": "становиться лучше"
+      },
+      {
+        "word": "since",
+        "translation": "с тех пор, как"
+      },
+      {
+        "word": "start",
+        "translation": "начать"
+      },
+      {
+        "word": "text",
+        "translation": "переписываться"
+      }
+    ],
+    "explanation": "has gotten better — Present Perfect: изменение накопилось за период, который тянется до сих пор, и результат виден сейчас. gotten — американская V3 от get (get—got—gotten; британцы скажут got). get better — «становиться лучше»: get + сравнительная степень для смены состояния. since we started — since + точка отсчёта, и здесь это целое придаточное в Past Simple: «с тех пор, как мы начали» — начало случилось в конкретный момент прошлого, поэтому started, а не have started. start + V-ing: started texting — после start возможны и герундий, и инфинитив, герундий разговорнее. My English — притяжательное + язык.",
+    "level": "B1",
+    "grammarTags": [
+      "present-perfect",
+      "for-since",
+      "past-simple",
+      "gerund",
+      "comparative"
+    ],
+    "topicTags": [
+      "texting",
+      "communication"
+    ]
+  },
+  {
+    "id": 390,
+    "russian": "Спасибо, что ты такой терпеливый со мной — с тобой легко разговаривать.",
+    "english": "Thanks for being so patient with me — you're easy to talk to.",
+    "alternatives": [
+      "I appreciate how patient you are with me — talking to you is so easy.",
+      "Thank you for your patience with me — it's really easy to talk to you."
+    ],
+    "vocab": [
+      {
+        "word": "thanks for",
+        "translation": "спасибо за"
+      },
+      {
+        "word": "patient with",
+        "translation": "терпеливый с (кем-то)"
+      },
+      {
+        "word": "be easy to talk to",
+        "translation": "быть таким, с кем легко разговаривать"
+      }
+    ],
+    "explanation": "Thanks for + V-ing — «спасибо за то, что»: после предлога for действие всегда герундием — for being, а не for be и не for you are. being patient — герундий от be. patient with — «терпеливый с кем-то»: прилагательное patient требует with. you're easy to talk to — важная конструкция: «с тобой легко разговаривать» по-английски строится с человеком-подлежащим — You are easy to talk to, дословно «ты лёгкий, чтобы с тобой говорить»; предлог to в конце обязателен (talk TO someone). Русские безличные фразы («легко разговаривать») в английском часто становятся личными: easy/hard/difficult + to + V1.",
+    "level": "B1",
+    "grammarTags": [
+      "gerund",
+      "preposition",
+      "infinitive"
+    ],
+    "topicTags": [
+      "feelings",
+      "communication"
+    ]
+  },
+  {
+    "id": 391,
+    "russian": "У тебя очень добрая улыбка на этой фотографии.",
+    "english": "You have such a kind smile in this picture.",
+    "alternatives": [
+      "Your smile in this photo is so warm.",
+      "You've got a really kind smile in this pic."
+    ],
+    "vocab": [
+      {
+        "word": "such a",
+        "translation": "такой (усиление)"
+      },
+      {
+        "word": "kind",
+        "translation": "добрый"
+      },
+      {
+        "word": "smile",
+        "translation": "улыбка"
+      },
+      {
+        "word": "in this picture",
+        "translation": "на этой фотографии"
+      }
+    ],
+    "explanation": "You have — «у тебя есть» через have. such a kind smile — усиление such a + прилагательное + существительное: «такая добрая улыбка»; порядок жёсткий — such стоит ПЕРЕД артиклем a (нельзя a such kind smile). Русское «очень добрая» в комплименте теплее передать через such, чем через very. a smile — улыбка исчисляемая, артикль a. in this picture — «на фотографии» по-английски IN the picture: логика «внутри кадра»; предлог on (on the picture) означал бы «на поверхности фотокарточки» и звучит калькой. kind — «добрый»; smile — существительное «улыбка» (и одновременно глагол «улыбаться»).",
+    "level": "A2",
+    "grammarTags": [
+      "present-simple",
+      "article",
+      "place-preposition",
+      "word-order"
+    ],
+    "topicTags": [
+      "dating",
+      "small-talk"
+    ]
+  },
+  {
+    "id": 392,
+    "russian": "Мне нравится, как ты рассказываешь о своей работе — сразу видно, что ты её любишь.",
+    "english": "I like the way you talk about your work — you can tell you really love it.",
+    "alternatives": [
+      "I love how you talk about your job — it's obvious you're passionate about it.",
+      "The way you describe your work says a lot — anyone can see you love what you do."
+    ],
+    "vocab": [
+      {
+        "word": "the way",
+        "translation": "то, как"
+      },
+      {
+        "word": "talk about",
+        "translation": "рассказывать о"
+      },
+      {
+        "word": "work",
+        "translation": "работа"
+      },
+      {
+        "word": "you can tell",
+        "translation": "видно, заметно"
+      },
+      {
+        "word": "love",
+        "translation": "любить, обожать"
+      }
+    ],
+    "explanation": "the way you talk — «то, как ты говоришь»: устойчивая рамка the way + придаточное, артикль the обязателен; можно how you talk, но the way звучит теплее и разговорнее. talk about your work — «о работе» с about; work здесь неисчисляемое «работа как дело». you can tell — идиома «видно, заметно»: дословно «можно определить по признакам»; you — обобщённое «любой человек», а can tell не имеет отношения к «сказать» — это «понять, почувствовать». you really love it — придаточное после tell с опущенным that, как обычно в разговоре; really перед глаголом — «по-настоящему». it заменяет your work.",
+    "level": "B1",
+    "grammarTags": [
+      "present-simple",
+      "article",
+      "modal",
+      "collocation",
+      "preposition"
+    ],
+    "topicTags": [
+      "work",
+      "feelings"
+    ]
+  },
+  {
+    "id": 393,
+    "russian": "Можно скажу кое-что приятное, или это тебя спугнёт?",
+    "english": "Can I say something nice, or will that scare you off?",
+    "alternatives": [
+      "Mind if I say something sweet, or is that going to freak you out?",
+      "Can I give you a compliment, or would that scare you away?"
+    ],
+    "vocab": [
+      {
+        "word": "can I",
+        "translation": "можно я"
+      },
+      {
+        "word": "something nice",
+        "translation": "что-то приятное"
+      },
+      {
+        "word": "scare off",
+        "translation": "спугнуть, отпугнуть"
+      }
+    ],
+    "explanation": "Can I + V1 — разговорная просьба разрешения: «можно я…»; чуть вежливее было бы Could I. say something nice — прилагательное после something ставится ПОСЛЕ слова: something nice, не nice something. Вторая часть — вопрос о будущем с will и инверсией: will that scare you off? scare off — фразовый глагол «спугнуть, отпугнуть»; разделяемый: scare you off — местоимение между глаголом и частицей. that — «это», то, что я собираюсь сказать. Обрати внимание, как в двух половинах меняется вспомогательный глагол: can (разрешение) → will (прогноз) — потому что меняется смысл вопроса.",
+    "level": "B1",
+    "grammarTags": [
+      "question",
+      "modal",
+      "future-will",
+      "phrasal-verb",
+      "word-order"
+    ],
+    "topicTags": [
+      "dating",
+      "humor"
+    ]
+  },
+  {
+    "id": 394,
+    "russian": "Ты не пытаешься казаться лучше, чем ты есть, и это подкупает.",
+    "english": "You don't try to seem better than you are, and that's really refreshing.",
+    "alternatives": [
+      "You don't pretend to be someone you're not, and that's refreshing.",
+      "You're not trying to impress anyone, and honestly, that's what wins me over."
+    ],
+    "vocab": [
+      {
+        "word": "try to",
+        "translation": "пытаться"
+      },
+      {
+        "word": "seem",
+        "translation": "казаться"
+      },
+      {
+        "word": "better than",
+        "translation": "лучше, чем"
+      },
+      {
+        "word": "refreshing",
+        "translation": "подкупающий, освежающий"
+      }
+    ],
+    "explanation": "don't try to seem — отрицание Present Simple + цепочка try to + V1 «пытаться сделать»: try to seem. better than you are — сравнение с целым придаточным: «лучше, чем ты есть» = than + подлежащее + be; better — сравнительная степень good (good—better—best). that's really refreshing — «это подкупает»: refreshing дословно «освежающий» — прилагательные на -ing описывают то, что ВЫЗЫВАЕТ ощущение (сравни refreshed — тот, кто ощущает). Русское «подкупает» нельзя переводить глаголом bribe — это про взятку; по-английски здесь refreshing или disarming. really — усилитель перед прилагательным.",
+    "level": "B1",
+    "grammarTags": [
+      "negation",
+      "present-simple",
+      "infinitive",
+      "comparative"
+    ],
+    "topicTags": [
+      "dating",
+      "feelings",
+      "communication"
+    ]
+  },
+  {
+    "id": 395,
+    "russian": "Ты первый, кто спросил, как прошёл мой день, а не просто написал «привет».",
+    "english": "You're the first guy who actually asked how my day went instead of just saying 'hey.'",
+    "alternatives": [
+      "You're the first one who actually asked about my day instead of just sending a 'hey.'",
+      "Nobody else bothered to ask how my day was — they all just wrote 'hey.'"
+    ],
+    "vocab": [
+      {
+        "word": "the first guy who",
+        "translation": "первый, кто"
+      },
+      {
+        "word": "actually",
+        "translation": "действительно, реально"
+      },
+      {
+        "word": "ask",
+        "translation": "спросить"
+      },
+      {
+        "word": "how my day went",
+        "translation": "как прошёл мой день"
+      },
+      {
+        "word": "instead of",
+        "translation": "вместо (того чтобы)"
+      }
+    ],
+    "explanation": "the first guy who — «первый, кто»: порядковое first всегда с артиклем the + придаточное с who. asked — Past Simple: спросил в конкретный момент переписки. how my day went — косвенный вопрос: прямой порядок слов, без did (не how did my day go в этой позиции); went — V2 от go (go—went—gone). Русское «как прошёл день» по-английски буквально «как день ШЁЛ»: how my day went. instead of + V-ing — «вместо того чтобы»: после предлога of действие герундием — instead of saying. actually — «реально, действительно», подчёркивает контраст с остальными. saying 'hey' — say перед цитируемым словом.",
+    "level": "B1",
+    "grammarTags": [
+      "past-simple",
+      "relative-clause",
+      "indirect-question",
+      "gerund",
+      "article"
+    ],
+    "topicTags": [
+      "texting",
+      "dating",
+      "communication"
+    ]
+  },
+  {
+    "id": 396,
+    "russian": "А когда ты понял, что я тебе нравлюсь?",
+    "english": "So when did you realize you liked me?",
+    "alternatives": [
+      "So when did it hit you that you liked me?",
+      "At what point did you figure out you were into me?"
+    ],
+    "vocab": [
+      {
+        "word": "realize",
+        "translation": "осознать, понять"
+      },
+      {
+        "word": "like",
+        "translation": "нравиться"
+      }
+    ],
+    "explanation": "Вопрос Past Simple: When + did + you + V1 — realize возвращается в базовую форму, прошедшее время показывает did (не When did you realized). you liked me — согласование времён: после realized «нравлюсь» тоже уходит в прошедшее — liked, хотя по-русски настоящее время; союз that опущен: realize (that) you liked. Внимание на направление: «я тебе нравлюсь» = you liked ME — по-английски тот, кому нравится, становится подлежащим, а тот, кто нравится, — дополнением: русская логика перевёрнута. realize — «осознать, вдруг понять» (understand — «понимать смысл», это другое).",
+    "level": "B1",
+    "grammarTags": [
+      "question",
+      "past-simple"
+    ],
+    "topicTags": [
+      "dating",
+      "feelings"
+    ]
+  },
+  {
+    "id": 397,
+    "russian": "Я поймала себя на том, что во вторник за обедом перечитываю твои сообщения вместо новостей про ИИ.",
+    "english": "I caught myself rereading your messages at lunch on Tuesday instead of my AI news.",
+    "alternatives": [
+      "On Tuesday I realized I was reading your messages again over lunch instead of catching up on AI news.",
+      "There I was at lunch on Tuesday, going through your texts one more time instead of my usual AI news."
+    ],
+    "vocab": [
+      {
+        "word": "catch yourself doing",
+        "translation": "поймать себя на том, что делаешь"
+      },
+      {
+        "word": "reread",
+        "translation": "перечитывать"
+      },
+      {
+        "word": "at lunch",
+        "translation": "за обедом"
+      },
+      {
+        "word": "on Tuesday",
+        "translation": "во вторник"
+      },
+      {
+        "word": "instead of",
+        "translation": "вместо"
+      },
+      {
+        "word": "AI news",
+        "translation": "новости про ИИ"
+      }
+    ],
+    "explanation": "caught myself rereading — конструкция catch yourself + V-ing: «поймать себя на том, что делаешь» — после catch oneself действие идёт герундием; caught — V2 от catch (catch—caught—caught). myself — возвратное «себя», меняется по лицам (yourself, himself). reread — приставка re- «заново»: reread = «перечитывать», одним словом, без «again». your messages — притяжательное обязательно, по-русски его часто опускают. at lunch — «за обедом» с предлогом at: приём пищи как точка дня (at lunch, at dinner, at breakfast). on Tuesday — с днями недели всегда on (не in, не at). instead of + существительное — «вместо чего-то»: instead of my AI news; если бы дальше стоял глагол, он был бы в V-ing (instead of reading). AI news — news неисчисляемое: без артикля, без множественного числа, и глагол с ним всегда в единственном (the news is).",
+    "level": "B1",
+    "grammarTags": [
+      "past-simple",
+      "gerund",
+      "time-preposition",
+      "preposition"
+    ],
+    "topicTags": [
+      "texting",
+      "feelings",
+      "daily-life"
+    ]
+  },
+  {
+    "id": 398,
+    "russian": "Скажу честно: я начинаю ждать твоих сообщений с нетерпением — и буду скучать по ним, если ты пропадёшь.",
+    "english": "I'll be honest — I'm starting to look forward to your texts, and I'll miss them if you disappear.",
+    "alternatives": [
+      "Truth is, I've started looking forward to your messages, and I'd miss them if you went quiet.",
+      "Not gonna lie — your texts have become the highlight of my day, and I'd hate it if you vanished."
+    ],
+    "vocab": [
+      {
+        "word": "be honest",
+        "translation": "быть честным"
+      },
+      {
+        "word": "start to",
+        "translation": "начинать"
+      },
+      {
+        "word": "look forward to",
+        "translation": "ждать с нетерпением"
+      },
+      {
+        "word": "miss",
+        "translation": "скучать по"
+      },
+      {
+        "word": "disappear",
+        "translation": "пропасть, исчезнуть"
+      }
+    ],
+    "explanation": "I'll be honest — will для решения, принятого прямо в момент речи: «скажу-ка честно». I'm starting — Present Continuous: перемена происходит прямо сейчас, «начинаю»; после start здесь инфинитив: starting to look. look forward to — «ждать с нетерпением»; в этой конструкции to — предлог: после него существительное (your texts) или V-ing (look forward to seeing you), но не голый инфинитив. I'll miss them — will для прогноза; miss «скучать по» идёт БЕЗ предлога: miss them, а не miss about them. if you disappear — First Conditional: в if-части Present Simple, никакого will (не if you will disappear).",
+    "level": "B1",
+    "grammarTags": [
+      "future-will",
+      "present-continuous",
+      "look-forward-to",
+      "conditional-1",
+      "infinitive"
+    ],
+    "topicTags": [
+      "texting",
+      "feelings",
+      "communication"
+    ]
+  },
+  {
+    "id": 399,
+    "russian": "Ты вообще собираешься позвать меня на свидание, или мы так и будем вечно переписываться?",
+    "english": "Are you ever going to ask me out, or are we just going to text forever?",
+    "alternatives": [
+      "So are you ever going to ask me on a date, or is this going to stay a text thing forever?",
+      "Are we ever meeting up, or are we just pen pals now?"
+    ],
+    "vocab": [
+      {
+        "word": "ever",
+        "translation": "вообще, когда-нибудь"
+      },
+      {
+        "word": "be going to",
+        "translation": "собираться (сделать)"
+      },
+      {
+        "word": "ask out",
+        "translation": "позвать на свидание"
+      },
+      {
+        "word": "text",
+        "translation": "переписываться"
+      },
+      {
+        "word": "forever",
+        "translation": "вечно"
+      }
+    ],
+    "explanation": "Are you going to + V1 — вопрос о намерении: be выходит вперёд. ever — «вообще, когда-нибудь», ставится между you и going и добавляет шутливое нетерпение. ask out — фразовый глагол «позвать на свидание»; разделяемый, местоимение обязательно внутри: ask ME out, а не ask out me. Во второй части снова going to: are we just going to text — «так и будем переписываться», сценарий, к которому всё идёт; just — «просто, всего лишь». forever — «вечно» одним словом. Вопрос-подкол с or — классика лёгкого флирта: оба варианта через going to, потому что речь о том, куда движется история.",
+    "level": "B1",
+    "grammarTags": [
+      "question",
+      "going-to",
+      "phrasal-verb",
+      "word-order"
+    ],
+    "topicTags": [
+      "dating",
+      "texting",
+      "humor"
+    ]
+  },
+  {
+    "id": 400,
+    "russian": "Что-то мне подсказывает, что вживую ты понравишься мне ещё больше.",
+    "english": "Something tells me I'm going to like you even more in person.",
+    "alternatives": [
+      "I have a feeling I'll like you even more in real life.",
+      "My gut says you'll be even better in person."
+    ],
+    "vocab": [
+      {
+        "word": "something tells me",
+        "translation": "что-то мне подсказывает"
+      },
+      {
+        "word": "like",
+        "translation": "нравиться"
+      },
+      {
+        "word": "even more",
+        "translation": "ещё больше"
+      },
+      {
+        "word": "in person",
+        "translation": "вживую, лично"
+      }
+    ],
+    "explanation": "Something tells me — «что-то мне подсказывает»: something — подлежащее, поэтому tells с -s; дальше придаточное с опущенным that. I'm going to like — be going to для прогноза с основанием: «по всем признакам к этому идёт» (will тоже возможен, но going to передаёт уверенность от уже увиденного). even more — «ещё больше»: even усиливает сравнение (не more more и не still more в разговоре). in person — устойчивое «вживую, лично», без артикля; противопоставляется online и over text. Такой комплимент-аванс перед первой встречей — очень частая фраза в переписке на этапе знакомства.",
+    "level": "B1",
+    "grammarTags": [
+      "going-to",
+      "present-simple",
+      "comparative",
+      "collocation"
+    ],
+    "topicTags": [
+      "dating",
+      "feelings",
+      "plans"
+    ]
+  }
+]
