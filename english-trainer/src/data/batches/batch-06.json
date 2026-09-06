@@ -1,0 +1,2104 @@
+[
+  {
+    "id": 251,
+    "russian": "Вчера после работы я встретилась с подругой.",
+    "english": "I met up with my friend after work yesterday.",
+    "alternatives": [
+      "I got together with a friend after work yesterday.",
+      "I hung out with my friend after work yesterday.",
+      "I caught up with a friend yesterday after work."
+    ],
+    "vocab": [
+      {
+        "word": "meet up with",
+        "translation": "встретиться с (по договорённости)"
+      },
+      {
+        "word": "friend",
+        "translation": "подруга, друг"
+      },
+      {
+        "word": "after work",
+        "translation": "после работы"
+      },
+      {
+        "word": "yesterday",
+        "translation": "вчера"
+      }
+    ],
+    "explanation": "Past Simple, потому что действие завершилось в конкретный момент прошлого — есть маркер yesterday. meet — неправильный глагол: meet—met—met, здесь V2 met. meet up (with someone) — фразовый глагол «встретиться, пересечься» именно по договорённости, а не случайно; up добавляет оттенок «специально собрались», with вводит того, с кем встреча. Русское «встретилась С подругой» не превращается в кальку met with my friend — естественнее met up with. after work — устойчивое «после работы», work здесь без артикля, потому что имеется в виду работа как часть дня, а не конкретное место. Обстоятельства выстраиваются в конце: сначала after work, потом yesterday — время «крупнее» ставится последним.",
+    "level": "A2",
+    "grammarTags": [
+      "past-simple",
+      "phrasal-verb",
+      "preposition"
+    ],
+    "topicTags": [
+      "friends",
+      "daily-life"
+    ]
+  },
+  {
+    "id": 252,
+    "russian": "Мы сходили в новое кафе рядом с моим домом.",
+    "english": "We went to a new cafe near my place.",
+    "alternatives": [
+      "We checked out a new coffee shop near my place.",
+      "We tried a new cafe close to where I live.",
+      "We stopped by a new cafe right by my house."
+    ],
+    "vocab": [
+      {
+        "word": "go to",
+        "translation": "сходить, пойти в"
+      },
+      {
+        "word": "cafe",
+        "translation": "кафе"
+      },
+      {
+        "word": "near",
+        "translation": "рядом с, недалеко от"
+      },
+      {
+        "word": "my place",
+        "translation": "мой дом, моя квартира"
+      }
+    ],
+    "explanation": "Past Simple: go — неправильный глагол go—went—gone, здесь V2 went, потому что событие уже произошло и закончилось. went to — предлог to показывает направление «куда пошли». a new cafe — неопределённый артикль a, потому что кафе упоминается впервые и собеседник о нём ещё не знает; при повторном упоминании было бы the cafe. near — предлог места «рядом с», после него сразу существительное, без лишнего with (не near with!). my place — очень разговорное американское «мой дом / моя квартира»; звучит гораздо естественнее, чем my house, когда неважно, дом это или квартира.",
+    "level": "A2",
+    "grammarTags": [
+      "past-simple",
+      "article",
+      "place-preposition"
+    ],
+    "topicTags": [
+      "food",
+      "daily-life",
+      "friends"
+    ]
+  },
+  {
+    "id": 253,
+    "russian": "Мы не виделись почти два месяца.",
+    "english": "We didn't see each other for almost two months.",
+    "alternatives": [
+      "We hadn't seen each other in almost two months.",
+      "It had been almost two months since we last saw each other.",
+      "We hadn't hung out in nearly two months."
+    ],
+    "vocab": [
+      {
+        "word": "see each other",
+        "translation": "видеться"
+      },
+      {
+        "word": "each other",
+        "translation": "друг друга"
+      },
+      {
+        "word": "for almost two months",
+        "translation": "почти два месяца (на протяжении)"
+      },
+      {
+        "word": "almost",
+        "translation": "почти"
+      }
+    ],
+    "explanation": "Русское взаимное «не виделись» по-английски передаётся через each other — «друг друга»: see each other. Отрицание в Past Simple строится через didn't + V1: didn't see, а не didn't saw — после вспомогательного did смысловой глагол всегда возвращается в первую форму. for + период времени показывает длительность: for almost two months — «на протяжении почти двух месяцев»; for здесь обязателен, по-русски мы предлог опускаем, а в английском без него фраза ломается. almost = «почти», ставится прямо перед числом. Past Simple выбран потому, что речь о завершённом отрезке до вчерашней встречи.",
+    "level": "A2",
+    "grammarTags": [
+      "past-simple",
+      "negation",
+      "preposition"
+    ],
+    "topicTags": [
+      "friends",
+      "daily-life"
+    ]
+  },
+  {
+    "id": 254,
+    "russian": "Ты можешь позвонить мне сегодня вечером? Я расскажу тебе про свой день.",
+    "english": "Could you call me tonight? I'll tell you about my day.",
+    "alternatives": [
+      "Can you give me a call tonight? I'll fill you in on my day.",
+      "Call me tonight if you can — I'll tell you all about my day.",
+      "Would you mind calling me tonight? I want to tell you about my day."
+    ],
+    "vocab": [
+      {
+        "word": "call",
+        "translation": "позвонить"
+      },
+      {
+        "word": "tonight",
+        "translation": "сегодня вечером"
+      },
+      {
+        "word": "tell someone about",
+        "translation": "рассказать кому-то о"
+      },
+      {
+        "word": "my day",
+        "translation": "мой день"
+      }
+    ],
+    "explanation": "Could you + V1 — вежливая просьба. could здесь не прошедшее время, а более мягкий вариант can: Could you call звучит деликатнее, чем Can you call. После модального глагола инфинитив идёт без to: could you call, а не could you to call. call me — «позвонить мне» без предлога: call someone, калька call to me — ошибка. tonight — «сегодня вечером» одним словом и без предлога (не in tonight). I'll = I will: will + V1 выражает обещание и решение, принятое прямо в момент речи, — классический случай для will, а не для going to (going to — про заранее обдуманные планы). tell you about my day — tell требует сначала адресата без предлога (tell you), а тема вводится через about. Разница tell/say: tell — «рассказать кому-то», say — просто «сказать».",
+    "level": "A2",
+    "grammarTags": [
+      "question",
+      "modal",
+      "future-will",
+      "preposition"
+    ],
+    "topicTags": [
+      "texting",
+      "plans"
+    ]
+  },
+  {
+    "id": 255,
+    "russian": "Ты вчера куда-нибудь выбирался с друзьями?",
+    "english": "Did you go out with your friends yesterday?",
+    "alternatives": [
+      "Did you do anything with your friends last night?",
+      "Did you hang out with your friends yesterday?",
+      "Did you and your friends go anywhere yesterday?"
+    ],
+    "vocab": [
+      {
+        "word": "go out",
+        "translation": "выбраться куда-то, пойти развлекаться"
+      },
+      {
+        "word": "friend",
+        "translation": "друг"
+      },
+      {
+        "word": "with",
+        "translation": "с (кем-то)"
+      },
+      {
+        "word": "yesterday",
+        "translation": "вчера"
+      }
+    ],
+    "explanation": "Вопрос в Past Simple: вспомогательный Did выходит на первое место, а смысловой глагол возвращается в V1 — Did you go, а не Did you went. go out — фразовый глагол «выбраться куда-то, пойти развлекаться» (в бар, в кино, на прогулку); просто go значило бы «пойти в конкретное место», а go out — именно «провести время вне дома». with your friends — предлог with «с кем»; притяжательное your обязательно, по-английски почти всегда уточняют чьи (my friends, your friends), тогда как по-русски «с друзьями» обходится без «своими». yesterday стоит в конце — обычное место обстоятельства времени.",
+    "level": "A2",
+    "grammarTags": [
+      "question",
+      "past-simple",
+      "phrasal-verb"
+    ],
+    "topicTags": [
+      "acquaintance",
+      "friends",
+      "small-talk"
+    ]
+  },
+  {
+    "id": 256,
+    "russian": "Ты не поверишь, что со мной сегодня случилось в спортзале.",
+    "english": "You won't believe what happened to me at the gym today.",
+    "alternatives": [
+      "You're not going to believe what happened to me at the gym today.",
+      "Guess what happened to me at the gym today.",
+      "Something crazy happened to me at the gym today."
+    ],
+    "vocab": [
+      {
+        "word": "believe",
+        "translation": "верить"
+      },
+      {
+        "word": "happen to someone",
+        "translation": "случиться с кем-то"
+      },
+      {
+        "word": "gym",
+        "translation": "спортзал"
+      },
+      {
+        "word": "today",
+        "translation": "сегодня"
+      }
+    ],
+    "explanation": "You won't believe... — классический разговорный зачин для интриги: «ты не поверишь...». won't = will not — отрицание будущего: собеседник ещё не слышал историю, поэтому «не поверишь» относится к его будущей реакции. После won't глагол в V1: won't believe. Дальше идёт придаточное what happened to me — в нём прямой порядок слов и никакого вспомогательного did, потому что what здесь само подлежащее: «что-то случилось». happen to someone — «случиться с кем-то»: только предлог to, калька happened with me — ошибка. happened — Past Simple правильного глагола (окончание -ed): событие уже произошло. at the gym — предлог at обозначает место как точку, куда ходишь; артикль the — «мой обычный зал», оба понимают, о каком месте речь.",
+    "level": "A2",
+    "grammarTags": [
+      "future-will",
+      "negation",
+      "past-simple",
+      "place-preposition",
+      "preposition"
+    ],
+    "topicTags": [
+      "texting",
+      "humor",
+      "lifestyle"
+    ]
+  },
+  {
+    "id": 257,
+    "russian": "Чем ты обычно занимаешься с друзьями?",
+    "english": "What do you usually do with your friends?",
+    "alternatives": [
+      "What do you and your friends usually get up to?",
+      "What do you usually do when you hang out with your friends?",
+      "How do you usually spend time with your friends?"
+    ],
+    "vocab": [
+      {
+        "word": "usually",
+        "translation": "обычно"
+      },
+      {
+        "word": "do",
+        "translation": "делать, заниматься"
+      },
+      {
+        "word": "with your friends",
+        "translation": "с друзьями"
+      },
+      {
+        "word": "What do you do?",
+        "translation": "чем ты занимаешься?"
+      }
+    ],
+    "explanation": "Вопрос в Present Simple о привычках, поэтому нужен вспомогательный do: What do you do. Здесь два do, и это не ошибка: первый — вспомогательный (строит вопрос), второй — смысловой глагол «делать, заниматься». usually — наречие частотности, его место в вопросе — между подлежащим и смысловым глаголом: do you usually do, не usually do you. Русское «чем занимаешься» переводится через what + do, а не через занимайся-кальку: What do you usually do — буквально «что ты обычно делаешь». with your friends — with «с кем» + обязательное your. Внимание: What do you do? без usually и контекста означает «кем ты работаешь?» — наречие и хвост фразы меняют смысл вопроса.",
+    "level": "A2",
+    "grammarTags": [
+      "question",
+      "present-simple",
+      "word-order"
+    ],
+    "topicTags": [
+      "acquaintance",
+      "friends"
+    ]
+  },
+  {
+    "id": 258,
+    "russian": "По пятницам мы часто играем в настольные игры.",
+    "english": "We often play board games on Fridays.",
+    "alternatives": [
+      "We have board game nights on Fridays a lot.",
+      "We usually get together to play board games on Fridays.",
+      "Fridays are often board game night for us."
+    ],
+    "vocab": [
+      {
+        "word": "often",
+        "translation": "часто"
+      },
+      {
+        "word": "play",
+        "translation": "играть"
+      },
+      {
+        "word": "board game",
+        "translation": "настольная игра"
+      },
+      {
+        "word": "on Fridays",
+        "translation": "по пятницам"
+      }
+    ],
+    "explanation": "Present Simple, потому что это регулярная привычка. often — наречие частотности, стоит между подлежащим и смысловым глаголом: We often play, не Often we play и не We play often (это возможно, но нейтральное место — перед глаголом). play board games — «играть в настольные игры»: после play нет предлога in (калька «играть В игры» не работает — play games, play volleyball), и нет артикля, потому что games во множественном числе и речь об играх вообще. board games — устойчивое «настолки». on Fridays — предлог on с днями недели; множественное число Fridays передаёт русское «по пятницам» — каждую пятницу.",
+    "level": "A2",
+    "grammarTags": [
+      "present-simple",
+      "word-order",
+      "time-preposition"
+    ],
+    "topicTags": [
+      "friends",
+      "interests"
+    ]
+  },
+  {
+    "id": 259,
+    "russian": "Мои друзья обожают готовить у меня дома.",
+    "english": "My friends love cooking at my place.",
+    "alternatives": [
+      "My friends love to cook at my place.",
+      "My friends are big fans of cooking at my apartment.",
+      "My friends are always happy to cook at my place."
+    ],
+    "vocab": [
+      {
+        "word": "love",
+        "translation": "обожать, очень любить"
+      },
+      {
+        "word": "cook",
+        "translation": "готовить"
+      },
+      {
+        "word": "at my place",
+        "translation": "у меня дома"
+      }
+    ],
+    "explanation": "Present Simple — постоянное положение дел. friends — множественное число, поэтому love без окончания -s (окончание -s появляется только с he/she/it). После глаголов love, like, enjoy, hate действие обычно идёт в форме герундия V-ing: love cooking — «обожают готовить» как процесс; вариант love to cook тоже возможен в американском английском, но с love/enjoy герундий звучит чуть естественнее, когда речь о постоянном удовольствии. at my place — предлог at обозначает локацию как точку «у меня», а my place — разговорное «у меня дома»; калька in my home звучит неестественно, носители говорят at my place или at home.",
+    "level": "A2",
+    "grammarTags": [
+      "present-simple",
+      "gerund",
+      "place-preposition"
+    ],
+    "topicTags": [
+      "friends",
+      "food"
+    ]
+  },
+  {
+    "id": 260,
+    "russian": "У тебя много друзей в твоём городе?",
+    "english": "Do you have a lot of friends in your city?",
+    "alternatives": [
+      "Do you have many friends in your city?",
+      "Do you know a lot of people in your city?",
+      "Have you got a lot of friends where you live?"
+    ],
+    "vocab": [
+      {
+        "word": "have",
+        "translation": "иметь (у меня есть)"
+      },
+      {
+        "word": "a lot of",
+        "translation": "много"
+      },
+      {
+        "word": "friend",
+        "translation": "друг"
+      },
+      {
+        "word": "city",
+        "translation": "город"
+      }
+    ],
+    "explanation": "Русское «у тебя есть» переводится глаголом have: Do you have...? — вопрос в Present Simple со вспомогательным do; американский английский спрашивает именно так (британское Have you got тоже существует, но в США чаще do you have). a lot of — универсальный квантификатор «много», работает и с исчисляемыми (a lot of friends), и с неисчисляемыми (a lot of time); в вопросе можно было бы сказать many friends, но a lot of звучит разговорнее. friends — исчисляемое во множественном числе. in your city — предлог in, потому что город воспринимается как пространство, внутри которого находишься; и снова притяжательное your, где по-русски просто «в городе».",
+    "level": "A1",
+    "grammarTags": [
+      "question",
+      "present-simple",
+      "quantifier",
+      "place-preposition"
+    ],
+    "topicTags": [
+      "acquaintance",
+      "friends"
+    ]
+  },
+  {
+    "id": 261,
+    "russian": "Сегодня утром я налила кофе в тарелку вместо чашки.",
+    "english": "This morning I poured my coffee into a bowl instead of a cup.",
+    "alternatives": [
+      "This morning I accidentally poured my coffee into a bowl instead of a mug.",
+      "I made my coffee in a bowl instead of a cup this morning.",
+      "This morning I ended up pouring my coffee into a bowl, not a cup."
+    ],
+    "vocab": [
+      {
+        "word": "this morning",
+        "translation": "сегодня утром"
+      },
+      {
+        "word": "pour",
+        "translation": "наливать"
+      },
+      {
+        "word": "into",
+        "translation": "в (внутрь)"
+      },
+      {
+        "word": "bowl",
+        "translation": "миска, глубокая тарелка"
+      },
+      {
+        "word": "instead of",
+        "translation": "вместо"
+      },
+      {
+        "word": "cup",
+        "translation": "чашка"
+      }
+    ],
+    "explanation": "Past Simple: pour — правильный глагол, поэтому просто poured; действие произошло в завершённый отрезок «сегодня утром». This morning — без предлога: не in this morning, указатели с this/last/next предлог не берут. poured into — предлог into показывает движение ВНУТРЬ чего-то (налила в тарелку); просто in обозначал бы положение, а не движение. a bowl, a cup — неопределённые артикли: любая тарелка, любая чашка, впервые упомянутые предметы. instead of + существительное = «вместо»: instead of a cup; предлог of обязателен, одно instead без of работает только в конце фразы. my coffee — «свой кофе»; по-английски принадлежность уточняют чаще, чем по-русски.",
+    "level": "A2",
+    "grammarTags": [
+      "past-simple",
+      "article",
+      "movement-preposition"
+    ],
+    "topicTags": [
+      "humor",
+      "daily-life"
+    ]
+  },
+  {
+    "id": 262,
+    "russian": "Не смейся, но я иногда разговариваю со своим котом.",
+    "english": "Don't laugh, but I sometimes talk to my cat.",
+    "alternatives": [
+      "Don't make fun of me, but I talk to my cat sometimes.",
+      "Please don't laugh — I sometimes have conversations with my cat.",
+      "You'll laugh, but I talk to my cat from time to time."
+    ],
+    "vocab": [
+      {
+        "word": "laugh",
+        "translation": "смеяться"
+      },
+      {
+        "word": "sometimes",
+        "translation": "иногда"
+      },
+      {
+        "word": "talk to",
+        "translation": "разговаривать с"
+      },
+      {
+        "word": "cat",
+        "translation": "кот, кошка"
+      }
+    ],
+    "explanation": "Don't + V1 — отрицательный императив, запрет или просьба «не делай»: Don't laugh. В повелительном наклонении нет подлежащего — глагол стоит в начале. Дальше обычное Present Simple, потому что «разговариваю с котом» — регулярная (и слегка постыдная) привычка. sometimes — наречие частотности, его нейтральное место — между подлежащим и глаголом: I sometimes talk; можно и Sometimes I talk — в начале предложения оно тоже допустимо, в отличие от always/never. talk to someone — «разговаривать с кем-то»: американцы чаще говорят talk to, чем talk with, и это не калька русского «с». my cat — притяжательное my вместо русского «своим».",
+    "level": "A2",
+    "grammarTags": [
+      "imperative",
+      "negation",
+      "present-simple",
+      "word-order"
+    ],
+    "topicTags": [
+      "humor",
+      "daily-life"
+    ]
+  },
+  {
+    "id": 263,
+    "russian": "Расскажи мне что-нибудь смешное о себе.",
+    "english": "Tell me something funny about yourself.",
+    "alternatives": [
+      "Tell me a funny story about yourself.",
+      "What's something funny about you?",
+      "Share something funny about yourself."
+    ],
+    "vocab": [
+      {
+        "word": "tell",
+        "translation": "рассказать"
+      },
+      {
+        "word": "something funny",
+        "translation": "что-нибудь смешное"
+      },
+      {
+        "word": "funny",
+        "translation": "смешной"
+      },
+      {
+        "word": "about yourself",
+        "translation": "о себе"
+      }
+    ],
+    "explanation": "Императив: глагол в V1 без подлежащего — Tell me. tell требует адресата сразу после себя и без предлога: tell me, а не tell to me. Главная ловушка — порядок слов с something: прилагательное ставится ПОСЛЕ слов something, anything, nothing, someone: something funny, а не funny something. Это исключение из обычного правила «прилагательное перед существительным». about yourself — возвратное местоимение yourself «о себе самом», потому что действие возвращается к собеседнику: расскажи ты — о тебе же. Не about you (это звучало бы, будто спрашивает кто-то третий) и тем более не about himself. Отличная фраза для знакомства: просьба звучит легко и без допроса.",
+    "level": "A2",
+    "grammarTags": [
+      "imperative",
+      "word-order",
+      "preposition"
+    ],
+    "topicTags": [
+      "acquaintance",
+      "humor"
+    ]
+  },
+  {
+    "id": 264,
+    "russian": "Я сова — вечером у меня больше энергии, чем утром.",
+    "english": "I'm a night owl — I have more energy in the evening than in the morning.",
+    "alternatives": [
+      "I'm not a morning person — I've got way more energy at night.",
+      "I'm more of a night person; I get my energy in the evening, not the morning.",
+      "I'm a night owl — evenings are when I really come alive."
+    ],
+    "vocab": [
+      {
+        "word": "night owl",
+        "translation": "сова (человек, активный вечером)"
+      },
+      {
+        "word": "energy",
+        "translation": "энергия"
+      },
+      {
+        "word": "more ... than",
+        "translation": "больше, чем"
+      },
+      {
+        "word": "in the evening",
+        "translation": "вечером"
+      },
+      {
+        "word": "in the morning",
+        "translation": "утром"
+      }
+    ],
+    "explanation": "Present Simple — описание себя, постоянная характеристика. I'm = I am. a night owl — буквально «ночная сова»: устойчивое выражение про человека, который активен вечером и ночью; противоположность — a morning person или an early bird («жаворонок»). Артикль a обязателен: я — один из таких людей. more energy than — сравнение: energy — неисчисляемое существительное, поэтому «больше энергии» строится через more ... than, а не через окончание -er (оно только для коротких прилагательных: bigger, older). in the evening, in the morning — предлог in с частями суток и артикль the: устойчивые сочетания, которые стоит запомнить целиком (но: at night). Тире перед второй частью — типичный разговорный способ пояснить первую.",
+    "level": "A2",
+    "grammarTags": [
+      "present-simple",
+      "comparative",
+      "time-preposition",
+      "collocation"
+    ],
+    "topicTags": [
+      "lifestyle",
+      "acquaintance"
+    ]
+  },
+  {
+    "id": 265,
+    "russian": "А ты рано встаёшь или отсыпаешься до обеда?",
+    "english": "Do you get up early, or do you sleep in till noon?",
+    "alternatives": [
+      "Are you an early riser, or do you sleep till noon?",
+      "Do you wake up early, or do you like to sleep in?",
+      "Are you up early, or are you more of a sleep-in-till-noon kind of guy?"
+    ],
+    "vocab": [
+      {
+        "word": "get up",
+        "translation": "вставать (с постели)"
+      },
+      {
+        "word": "early",
+        "translation": "рано"
+      },
+      {
+        "word": "sleep in",
+        "translation": "отсыпаться, спать подольше"
+      },
+      {
+        "word": "till",
+        "translation": "до (о времени)"
+      },
+      {
+        "word": "noon",
+        "translation": "полдень"
+      }
+    ],
+    "explanation": "Альтернативный вопрос с or: обе части — вопросы в Present Simple о привычках, поэтому в каждой свой вспомогательный do: Do you get up ... or do you sleep in. Повтор do you во второй части делает фразу симметричной и естественной. get up — фразовый глагол «вставать с постели». sleep in — фразовый глагол «отсыпаться, спать дольше обычного» (специально, в удовольствие); не путай с oversleep — «проспать» случайно. till — разговорный вариант until, предлог «до» о времени: till noon — «до полудня». noon — «полдень» одним словом, естественнее, чем twelve o'clock in the afternoon. early — наречие «рано», стоит после глагола: get up early.",
+    "level": "A2",
+    "grammarTags": [
+      "question",
+      "present-simple",
+      "phrasal-verb",
+      "time-preposition"
+    ],
+    "topicTags": [
+      "acquaintance",
+      "small-talk"
+    ]
+  },
+  {
+    "id": 266,
+    "russian": "Мне тяжело просыпаться, когда на улице ещё темно.",
+    "english": "It's hard for me to wake up when it's still dark outside.",
+    "alternatives": [
+      "I have a hard time waking up when it's still dark out.",
+      "Waking up while it's still dark outside is tough for me.",
+      "It's a struggle for me to get up when it's still dark outside."
+    ],
+    "vocab": [
+      {
+        "word": "hard",
+        "translation": "тяжело, трудно"
+      },
+      {
+        "word": "wake up",
+        "translation": "просыпаться"
+      },
+      {
+        "word": "still",
+        "translation": "всё ещё"
+      },
+      {
+        "word": "dark",
+        "translation": "темно"
+      },
+      {
+        "word": "outside",
+        "translation": "на улице, снаружи"
+      }
+    ],
+    "explanation": "Конструкция It's hard for me to + V1 — «мне тяжело что-то делать». Английский начинает с формального подлежащего it: It's hard, а реальное действие уходит в инфинитив с to: to wake up. Для кого тяжело — вводится через for: hard for me; калька For me hard to wake up без it — ошибка, предложению нужно подлежащее. when it's still dark — в придаточном тоже формальное it: о погоде, свете и времени английский говорит через it (it's dark, it's cold, it's late). still — «всё ещё», ставится после глагола be: it's still dark. outside — «на улице» одним словом; калька on the street здесь не работает: on the street — про конкретную улицу, а «на улице = не дома» — это outside.",
+    "level": "A2",
+    "grammarTags": [
+      "infinitive",
+      "present-simple"
+    ],
+    "topicTags": [
+      "daily-life",
+      "lifestyle"
+    ]
+  },
+  {
+    "id": 267,
+    "russian": "Я хожу в зал два раза в неделю, обычно после работы.",
+    "english": "I go to the gym twice a week, usually after work.",
+    "alternatives": [
+      "I hit the gym twice a week, usually after work.",
+      "I work out at the gym two times a week, mostly after work.",
+      "I go to the gym a couple of times a week, typically after work."
+    ],
+    "vocab": [
+      {
+        "word": "go to the gym",
+        "translation": "ходить в спортзал"
+      },
+      {
+        "word": "twice a week",
+        "translation": "два раза в неделю"
+      },
+      {
+        "word": "usually",
+        "translation": "обычно"
+      },
+      {
+        "word": "after work",
+        "translation": "после работы"
+      }
+    ],
+    "explanation": "Present Simple — регулярная привычка. go to the gym — устойчивое «ходить в зал»: с местами, куда регулярно ходят, используется артикль the (the gym, the office, the doctor), даже если собеседник не знает, какой именно это зал. twice a week — «два раза в неделю»: twice естественнее, чем two times; артикль a здесь значит «в, за» (per): once a day, three times a month — запомни модель «количество раз + a + период». usually after work — уточнение в конце; after work без артикля, потому что work — часть дня и занятие, а не конкретное место. Обрати внимание на порядок: сначала что и как часто, потом когда.",
+    "level": "A2",
+    "grammarTags": [
+      "present-simple",
+      "article",
+      "collocation",
+      "time-preposition"
+    ],
+    "topicTags": [
+      "lifestyle",
+      "daily-life"
+    ]
+  },
+  {
+    "id": 268,
+    "russian": "Я пытаюсь втянуться в утренние пробежки, но пока получается не каждый день.",
+    "english": "I'm trying to get into running in the mornings, but it doesn't happen every day yet.",
+    "alternatives": [
+      "I'm trying to make morning runs a habit, but I'm not there yet.",
+      "I'm working on becoming a morning runner, but I still skip some days.",
+      "I'm trying to get into the habit of running in the mornings, but I don't manage it every day yet."
+    ],
+    "vocab": [
+      {
+        "word": "try to",
+        "translation": "пытаться"
+      },
+      {
+        "word": "get into",
+        "translation": "втянуться, увлечься"
+      },
+      {
+        "word": "running",
+        "translation": "бег"
+      },
+      {
+        "word": "in the mornings",
+        "translation": "по утрам"
+      },
+      {
+        "word": "happen",
+        "translation": "случаться, получаться"
+      },
+      {
+        "word": "yet",
+        "translation": "пока ещё"
+      }
+    ],
+    "explanation": "I'm trying — Present Continuous, потому что попытка — процесс текущего периода жизни: я сейчас в стадии «приучаю себя». После try идёт to + V1: trying to get into. get into — фразовый глагол «втянуться, увлечься чем-то»: get into running — «втянуться в бег»; после предлога into действие стоит в форме V-ing, потому что это уже занятие-существительное. in the mornings — «по утрам»: предлог in с частью суток, множественное число подчёркивает регулярность. Во второй части отрицание в Present Simple: it doesn't happen — вспомогательный doesn't (третье лицо it) + V1 happen, не doesn't happens. every day — раздельно «каждый день» (everyday слитно — прилагательное «повседневный»). yet — «пока ещё», ставится в конец отрицательного предложения.",
+    "level": "A2",
+    "grammarTags": [
+      "present-continuous",
+      "infinitive",
+      "negation",
+      "phrasal-verb",
+      "time-preposition"
+    ],
+    "topicTags": [
+      "lifestyle",
+      "daily-life"
+    ]
+  },
+  {
+    "id": 269,
+    "russian": "Как часто ты тренируешься?",
+    "english": "How often do you work out?",
+    "alternatives": [
+      "How often do you exercise?",
+      "How many times a week do you work out?",
+      "Do you work out a lot?"
+    ],
+    "vocab": [
+      {
+        "word": "how often",
+        "translation": "как часто"
+      },
+      {
+        "word": "work out",
+        "translation": "тренироваться"
+      },
+      {
+        "word": "workout",
+        "translation": "тренировка"
+      }
+    ],
+    "explanation": "How often — «как часто», стандартное начало вопроса о регулярности. Дальше обычный вопрос в Present Simple: вспомогательный do + подлежащее + V1: do you work out. work out — фразовый глагол «тренироваться, заниматься спортом» (в зале, дома — неважно); американцы говорят именно так, а не make sport или do sport — таких сочетаний в английском нет (есть play sports про игровые виды). Существительное от этого глагола пишется слитно: a workout — «тренировка». Ответить можно коротко: Twice a week / Every other day («через день») / Not as often as I'd like («не так часто, как хотелось бы»).",
+    "level": "A1",
+    "grammarTags": [
+      "question",
+      "present-simple",
+      "phrasal-verb"
+    ],
+    "topicTags": [
+      "acquaintance",
+      "small-talk"
+    ]
+  },
+  {
+    "id": 270,
+    "russian": "После йоги я всегда лучше сплю.",
+    "english": "I always sleep better after yoga.",
+    "alternatives": [
+      "I sleep so much better after yoga.",
+      "Yoga always helps me sleep better.",
+      "I always get better sleep after doing yoga."
+    ],
+    "vocab": [
+      {
+        "word": "always",
+        "translation": "всегда"
+      },
+      {
+        "word": "sleep",
+        "translation": "спать"
+      },
+      {
+        "word": "better",
+        "translation": "лучше"
+      },
+      {
+        "word": "after",
+        "translation": "после"
+      },
+      {
+        "word": "yoga",
+        "translation": "йога"
+      }
+    ],
+    "explanation": "Present Simple — регулярная закономерность: так происходит каждый раз после йоги. always — наречие частотности, его место — между подлежащим и смысловым глаголом: I always sleep, а не Always I sleep (always, в отличие от sometimes, не ставится в начало предложения). sleep better — «сплю лучше»: better — сравнительная степень от well, одна из форм-исключений, которые надо просто выучить: good/well — better — best. Наречие ставится после глагола: sleep better, а не better sleep (better sleep — это уже существительное «лучший сон»). after yoga — «после йоги»: yoga без артикля, потому что виды активности и занятия идут без артикля (after work, after lunch, do yoga).",
+    "level": "A2",
+    "grammarTags": [
+      "present-simple",
+      "comparative",
+      "word-order"
+    ],
+    "topicTags": [
+      "lifestyle",
+      "daily-life"
+    ]
+  },
+  {
+    "id": 271,
+    "russian": "Эта гантель тяжелее моего кота, и я не шучу.",
+    "english": "This dumbbell is heavier than my cat, and I'm not joking.",
+    "alternatives": [
+      "This dumbbell weighs more than my cat, and I'm not kidding.",
+      "No joke — this dumbbell is heavier than my cat.",
+      "I'm serious: this dumbbell weighs more than my cat."
+    ],
+    "vocab": [
+      {
+        "word": "dumbbell",
+        "translation": "гантель"
+      },
+      {
+        "word": "heavy",
+        "translation": "тяжёлый"
+      },
+      {
+        "word": "heavier than",
+        "translation": "тяжелее, чем"
+      },
+      {
+        "word": "cat",
+        "translation": "кот"
+      },
+      {
+        "word": "I'm not joking",
+        "translation": "я не шучу"
+      }
+    ],
+    "explanation": "Шутка построена на сравнении: heavier than — сравнительная степень «тяжелее». heavy — двусложное прилагательное на -y, поэтому степень образуется окончанием: y меняется на i + -er: heavy → heavier, а не more heavy. than вводит то, с чем сравниваем: heavier than my cat. This dumbbell — указательное this «вот эта»; артикль при this не нужен. I'm not joking — Present Continuous в отрицании: am + not + V-ing; «я не шучу» именно прямо сейчас, в этот момент разговора — поэтому Continuous, а не Simple (I don't joke значило бы «я вообще никогда не шучу»). Это очень частая живая фраза: I'm not joking / I'm not kidding — «я серьёзно».",
+    "level": "A2",
+    "grammarTags": [
+      "comparative",
+      "negation",
+      "present-continuous"
+    ],
+    "topicTags": [
+      "humor",
+      "lifestyle"
+    ]
+  },
+  {
+    "id": 272,
+    "russian": "Я сейчас гуляю в парке — осенью здесь так красиво.",
+    "english": "I'm walking in the park right now — it's so beautiful here in the fall.",
+    "alternatives": [
+      "I'm out for a walk in the park right now — it's gorgeous here in the fall.",
+      "I'm taking a walk in the park — it's so pretty here in autumn.",
+      "I'm strolling through the park right now, and it's absolutely beautiful here in the fall."
+    ],
+    "vocab": [
+      {
+        "word": "walk",
+        "translation": "гулять, идти пешком"
+      },
+      {
+        "word": "park",
+        "translation": "парк"
+      },
+      {
+        "word": "right now",
+        "translation": "прямо сейчас"
+      },
+      {
+        "word": "beautiful",
+        "translation": "красивый"
+      },
+      {
+        "word": "in the fall",
+        "translation": "осенью"
+      }
+    ],
+    "explanation": "I'm walking — Present Continuous: действие происходит прямо в момент переписки, есть маркер right now. Формула: am/is/are + V-ing. in the park — предлог in, потому что парк — пространство, внутри которого находишься; артикль the — конкретный парк, в котором я сейчас. it's so beautiful — формальное подлежащее it для описания обстановки («здесь красиво» = it is beautiful here); so — усилитель «так, настолько» перед прилагательным. here — «здесь», без предлога. in the fall — «осенью»: американский вариант (британцы скажут in autumn); с временами года предлог in, и в американском английском обычен артикль the: in the fall, in the summer.",
+    "level": "A2",
+    "grammarTags": [
+      "present-continuous",
+      "place-preposition",
+      "time-preposition",
+      "article"
+    ],
+    "topicTags": [
+      "texting",
+      "daily-life"
+    ]
+  },
+  {
+    "id": 273,
+    "russian": "Хочешь как-нибудь погулять со мной в парке у реки?",
+    "english": "Would you like to take a walk with me in the park by the river sometime?",
+    "alternatives": [
+      "Want to go for a walk with me in the park by the river sometime?",
+      "Would you be up for a walk in the riverside park with me one of these days?",
+      "How about we take a walk in the park by the river sometime?"
+    ],
+    "vocab": [
+      {
+        "word": "would you like to",
+        "translation": "хочешь ли, не хотел бы ты"
+      },
+      {
+        "word": "take a walk",
+        "translation": "прогуляться"
+      },
+      {
+        "word": "by the river",
+        "translation": "у реки"
+      },
+      {
+        "word": "river",
+        "translation": "река"
+      },
+      {
+        "word": "sometime",
+        "translation": "как-нибудь, когда-нибудь"
+      }
+    ],
+    "explanation": "Would you like to + V1 — вежливое предложение-приглашение: «хочешь / не хотел бы ты»; звучит мягче, чем прямое Do you want. После would like идёт инфинитив с to: like to take. take a walk — устойчивое американское «прогуляться»: именно take (британцы чаще говорят go for a walk), артикль a обязателен — прогулка считается штучным событием. with me — «со мной». in the park by the river — два уточнения места: in the park (внутри пространства парка) и by the river — предлог by означает «у, возле»: парк, который стоит у реки. sometime — «как-нибудь, когда-нибудь» одним словом (не путай с some time — «некоторое время» и sometimes — «иногда»); смягчает приглашение: без конкретной даты, без давления.",
+    "level": "A2",
+    "grammarTags": [
+      "question",
+      "would-like",
+      "infinitive",
+      "article",
+      "place-preposition",
+      "collocation"
+    ],
+    "topicTags": [
+      "plans",
+      "acquaintance"
+    ]
+  },
+  {
+    "id": 274,
+    "russian": "В этом парке есть озеро с утками — я иногда их подкармливаю.",
+    "english": "There's a lake with ducks in this park, and I sometimes feed them.",
+    "alternatives": [
+      "This park has a lake with ducks, and sometimes I feed them.",
+      "There's a duck pond in this park — I feed the ducks every now and then.",
+      "In this park there's a lake full of ducks, and I feed them from time to time."
+    ],
+    "vocab": [
+      {
+        "word": "there's",
+        "translation": "есть, имеется"
+      },
+      {
+        "word": "lake",
+        "translation": "озеро"
+      },
+      {
+        "word": "duck",
+        "translation": "утка"
+      },
+      {
+        "word": "sometimes",
+        "translation": "иногда"
+      },
+      {
+        "word": "feed",
+        "translation": "кормить"
+      }
+    ],
+    "explanation": "There's = There is — конструкция «есть, имеется»: когда мы впервые сообщаем, что что-то где-то существует, английский начинает с there, а не с места: There's a lake in this park, а не In this park is a lake. a lake — неопределённый артикль: озеро упоминается впервые. with ducks — «с утками»: ducks во множественном числе без артикля, потому что речь об утках вообще. in this park — предлог in: внутри пространства парка; указательное this — «в этом самом». Во второй части — Present Simple о привычке: I sometimes feed them; sometimes стоит между подлежащим и глаголом. feed — «кормить» (feed—fed—fed, здесь V1). them — «их», объектная форма от they: русское «их подкармливаю» → feed them, местоимение-объект стоит после глагола.",
+    "level": "A2",
+    "grammarTags": [
+      "there-is",
+      "present-simple",
+      "place-preposition",
+      "article"
+    ],
+    "topicTags": [
+      "daily-life",
+      "interests"
+    ]
+  },
+  {
+    "id": 275,
+    "russian": "Мы с сестрой каждое воскресенье выгуливаем её собаку.",
+    "english": "My sister and I take her dog for a walk every Sunday.",
+    "alternatives": [
+      "Every Sunday my sister and I walk her dog.",
+      "My sister and I take her dog out every Sunday.",
+      "On Sundays, my sister and I go walk her dog together."
+    ],
+    "vocab": [
+      {
+        "word": "my sister and I",
+        "translation": "мы с сестрой"
+      },
+      {
+        "word": "take ... for a walk",
+        "translation": "выгуливать, выводить на прогулку"
+      },
+      {
+        "word": "dog",
+        "translation": "собака"
+      },
+      {
+        "word": "every Sunday",
+        "translation": "каждое воскресенье"
+      }
+    ],
+    "explanation": "My sister and I — правильный порядок: себя называют последним, и в роли подлежащего используется I, а не me (Me and my sister звучит небрежно; калька We with my sister — ошибка: русское «мы с сестрой» по-английски строится именно как My sister and I). Present Simple — регулярный ритуал, маркер every Sunday. take her dog for a walk — устойчивое «выгуливать собаку»: буквально «брать собаку на прогулку»; сначала кого (her dog), потом for a walk. every Sunday — «каждое воскресенье» без предлога: со словом every предлог не нужен (не on every Sunday). Глагол take без окончания -s, потому что подлежащее множественное — нас двое.",
+    "level": "A2",
+    "grammarTags": [
+      "present-simple",
+      "collocation",
+      "word-order"
+    ],
+    "topicTags": [
+      "family",
+      "daily-life"
+    ]
+  },
+  {
+    "id": 276,
+    "russian": "Пойдём пешком или возьмём самокаты?",
+    "english": "Should we walk or take scooters?",
+    "alternatives": [
+      "Do you want to walk, or should we grab scooters?",
+      "Are we walking or taking scooters?",
+      "Walk or scooters?"
+    ],
+    "vocab": [
+      {
+        "word": "should we",
+        "translation": "давай...? может, нам...?"
+      },
+      {
+        "word": "walk",
+        "translation": "идти пешком"
+      },
+      {
+        "word": "take",
+        "translation": "взять, поехать на (транспорте)"
+      },
+      {
+        "word": "scooter",
+        "translation": "самокат"
+      }
+    ],
+    "explanation": "Should we + V1 — вопрос-предложение «давай...? может, нам...?»: удобный способ обсудить совместный план. should — модальный глагол, поэтому вопрос строится простой перестановкой: Should we walk, без вспомогательного do. После модального глагола оба действия идут в чистом инфинитиве без to (bare infinitive): walk и take. or соединяет два варианта в альтернативном вопросе — интонация вверх на первом, вниз на втором. take scooters — с транспортом используется глагол take: take a bus, take a taxi, take scooters («поехать на...»); scooters во множественном числе без артикля — по одному на каждого, речь о самокатах вообще. walk — глагол «идти пешком» одним словом: go on foot тоже существует, но walk короче и естественнее.",
+    "level": "A2",
+    "grammarTags": [
+      "question",
+      "modal",
+      "bare-infinitive"
+    ],
+    "topicTags": [
+      "plans",
+      "friends"
+    ]
+  },
+  {
+    "id": 277,
+    "russian": "Мне очень нравится с тобой разговаривать — время просто пролетает.",
+    "english": "I really like talking to you — time just flies by.",
+    "alternatives": [
+      "I love talking to you — the time just flies.",
+      "Talking to you is so much fun that I lose track of time.",
+      "I really enjoy our conversations — time goes by so fast."
+    ],
+    "vocab": [
+      {
+        "word": "really",
+        "translation": "очень, действительно"
+      },
+      {
+        "word": "like",
+        "translation": "нравиться"
+      },
+      {
+        "word": "talk to",
+        "translation": "разговаривать с"
+      },
+      {
+        "word": "time flies",
+        "translation": "время летит"
+      },
+      {
+        "word": "fly by",
+        "translation": "пролетать (о времени)"
+      }
+    ],
+    "explanation": "I really like — Present Simple о постоянном отношении; усилитель really ставится перед глаголом: I really like, и это единственный верный порядок — кальки I very like в английском не существует. После like действие идёт в герундии: like talking — «нравится разговаривать» как процесс. talk to you — американцы чаще говорят talk to, а не talk with. time just flies by — идиома «время просто пролетает»: fly by — фразовый глагол о времени, которое проходит незаметно; time flies — устойчивое выражение (как в поговорке time flies when you're having fun). just — усилитель «просто». flies с окончанием -es, потому что time — третье лицо единственного числа, и y после согласной меняется на ie.",
+    "level": "A2",
+    "grammarTags": [
+      "present-simple",
+      "gerund",
+      "collocation",
+      "phrasal-verb"
+    ],
+    "topicTags": [
+      "texting",
+      "feelings"
+    ]
+  },
+  {
+    "id": 278,
+    "russian": "Ты вообще думаешь обо мне иногда?",
+    "english": "Do you ever think about me?",
+    "alternatives": [
+      "Do you ever think of me?",
+      "Do I ever cross your mind?",
+      "Do you think about me at all sometimes?"
+    ],
+    "vocab": [
+      {
+        "word": "ever",
+        "translation": "вообще, хоть когда-нибудь"
+      },
+      {
+        "word": "think about",
+        "translation": "думать о"
+      },
+      {
+        "word": "think of",
+        "translation": "вспоминать о, думать о"
+      },
+      {
+        "word": "cross someone's mind",
+        "translation": "приходить кому-то в голову"
+      }
+    ],
+    "explanation": "Вопрос в Present Simple: вспомогательный Do + you + V1 think. ever — «вообще, хоть когда-нибудь»: ставится между подлежащим и смысловым глаголом (do you ever think) и добавляет вопросу лёгкую кокетливую интонацию — «а ты хоть иногда...?». think about someone — «думать о ком-то»: предлог about обязателен; вариант think of me тоже существует и звучит чуть нежнее («вспоминаешь ли меня»), а think about — «размышляешь ли обо мне». me — объектная форма от I: после предлога всегда объектное местоимение (about me, about him, about us). Present Simple, а не Continuous, потому что спрашиваем о повторяющемся: думаешь ли вообще, а не в эту секунду.",
+    "level": "A2",
+    "grammarTags": [
+      "question",
+      "present-simple",
+      "preposition"
+    ],
+    "topicTags": [
+      "texting",
+      "feelings"
+    ]
+  },
+  {
+    "id": 279,
+    "russian": "Кажется, ты начинаешь мне нравиться.",
+    "english": "I think I'm starting to like you.",
+    "alternatives": [
+      "I think I'm beginning to like you.",
+      "I might be starting to fall for you.",
+      "I'm kind of starting to like you, I think."
+    ],
+    "vocab": [
+      {
+        "word": "I think",
+        "translation": "мне кажется"
+      },
+      {
+        "word": "start to",
+        "translation": "начинать"
+      },
+      {
+        "word": "like",
+        "translation": "нравиться"
+      },
+      {
+        "word": "fall for",
+        "translation": "влюбиться в"
+      }
+    ],
+    "explanation": "I think — Present Simple, вводное «мне кажется»: мнения и ощущения (think, know, believe) обычно стоят в Simple, а не в Continuous. Дальше I'm starting to like you — Present Continuous от start: процесс идёт прямо сейчас, чувство в развитии — «начинаешь нравиться» именно в эти дни, поэтому Continuous. После start возможны и to + V1, и V-ing, но когда сам start уже в форме -ing, английский избегает двух -ing подряд: starting to like, а не starting liking. like you — обрати внимание, как перевёрнута конструкция: в русском «ты нравишься мне» подлежащее — тот, кто нравится, а в английском наоборот: I like you — «я» подлежащее, «ты» объект. Калька You are liking me невозможна вдвойне: и логика не та, и like почти не используется в Continuous.",
+    "level": "A2",
+    "grammarTags": [
+      "present-continuous",
+      "infinitive",
+      "present-simple"
+    ],
+    "topicTags": [
+      "feelings",
+      "dating"
+    ]
+  },
+  {
+    "id": 280,
+    "russian": "Я улыбаюсь, как дурочка, когда читаю твои сообщения.",
+    "english": "I smile like an idiot when I read your texts.",
+    "alternatives": [
+      "I grin like a fool whenever I read your messages.",
+      "Your texts make me smile like an idiot.",
+      "I can't stop smiling like a dork when I read your messages."
+    ],
+    "vocab": [
+      {
+        "word": "smile",
+        "translation": "улыбаться"
+      },
+      {
+        "word": "like an idiot",
+        "translation": "как дурак, как дурочка"
+      },
+      {
+        "word": "idiot",
+        "translation": "дурак, идиот"
+      },
+      {
+        "word": "read",
+        "translation": "читать"
+      },
+      {
+        "word": "text",
+        "translation": "сообщение (смс)"
+      }
+    ],
+    "explanation": "Present Simple в обеих частях, потому что это повторяющаяся ситуация: каждый раз, когда читаю, — улыбаюсь. when I read your texts — придаточное времени с when тоже в Present Simple. smile like an idiot — разговорное «улыбаюсь как дурак/дурочка»: like здесь предлог сравнения «как», после него существительное с артиклем an (an idiot — «какой-то дурак», один из). Не путай like-предлог с глаголом like «нравиться» — это разные слова, совпавшие по форме. your texts — в американском английском text — это «сообщение» (смс или мессенджер): text me — «напиши мне»; слово message тоже верно, но texts короче и разговорнее. Такое лёгкое признание отлично работает во флирте: конкретный факт вместо прямого «ты мне нравишься».",
+    "level": "A2",
+    "grammarTags": [
+      "present-simple",
+      "collocation",
+      "preposition"
+    ],
+    "topicTags": [
+      "texting",
+      "humor",
+      "feelings"
+    ]
+  },
+  {
+    "id": 281,
+    "russian": "Ты не похож на других людей, с которыми я здесь общаюсь.",
+    "english": "You're not like the other people I talk to here.",
+    "alternatives": [
+      "You're different from the other guys I talk to on here.",
+      "You're nothing like the other people I've been chatting with here.",
+      "You're not like anyone else I've talked to on here."
+    ],
+    "vocab": [
+      {
+        "word": "be like",
+        "translation": "быть похожим на"
+      },
+      {
+        "word": "the other people",
+        "translation": "остальные люди, другие люди"
+      },
+      {
+        "word": "talk to",
+        "translation": "общаться с"
+      },
+      {
+        "word": "different from",
+        "translation": "отличающийся от, не такой, как"
+      },
+      {
+        "word": "here",
+        "translation": "здесь"
+      }
+    ],
+    "explanation": "Отрицание с глаголом be: You're not (= You are not) — be сам образует отрицание, вспомогательный don't не нужен: You're not like, а не You don't like (это значило бы «тебе не нравится»!). like — предлог «как, похожий на»: be like someone — «быть похожим на кого-то». the other people — артикль the + other: «все остальные», конкретная группа — те, с кем я тут уже общалась. Дальше сокращённое придаточное без союза: the other people I talk to here = «люди, с которыми я здесь общаюсь» — слово that/who опущено, разговорный английский делает так постоянно, а предлог to остаётся в конце: talk to. Русская логика требует «с которыми», английская — people I talk to. here — «здесь», то есть в этом приложении.",
+    "level": "A2",
+    "grammarTags": [
+      "negation",
+      "present-simple",
+      "article",
+      "relative-clause"
+    ],
+    "topicTags": [
+      "dating",
+      "acquaintance"
+    ]
+  },
+  {
+    "id": 282,
+    "russian": "Над чем ты сейчас работаешь?",
+    "english": "What are you working on right now?",
+    "alternatives": [
+      "What are you up to at work these days?",
+      "What kind of project are you working on right now?",
+      "What's keeping you busy at work lately?"
+    ],
+    "vocab": [
+      {
+        "word": "work on",
+        "translation": "работать над"
+      },
+      {
+        "word": "right now",
+        "translation": "сейчас, прямо сейчас"
+      },
+      {
+        "word": "be up to",
+        "translation": "заниматься чем-то"
+      },
+      {
+        "word": "busy",
+        "translation": "занятой"
+      }
+    ],
+    "explanation": "Вопрос в Present Continuous: действие-процесс происходит в текущий период, есть маркер right now. Формула вопроса: What + are + you + V-ing: What are you working on. work on something — «работать над чем-то»: предлог on, и в вопросе он уезжает в самый конец — What are you working on?, а не On what are you working (так в живой речи не говорят). Это общий закон английских вопросов: предлог остаётся на своём месте после глагола, а вопросительное слово уходит вперёд. Русское «над чем» = on what, но английский порядок другой. Хороший рабочий вопрос для переписки — конкретнее, чем дежурное How's work?, и показывает настоящий интерес к делам собеседника.",
+    "level": "A2",
+    "grammarTags": [
+      "question",
+      "present-continuous",
+      "preposition"
+    ],
+    "topicTags": [
+      "work",
+      "small-talk"
+    ]
+  },
+  {
+    "id": 283,
+    "russian": "Сегодня я заканчиваю работу пораньше, а потом встречаюсь с коллегами в парке.",
+    "english": "I'm finishing work early today, and then I'm meeting my coworkers in the park.",
+    "alternatives": [
+      "I'm getting off work early today, and then I'm meeting up with some coworkers in the park.",
+      "I'm wrapping up work early today and then heading to the park to see my coworkers.",
+      "Today I'm leaving work early, and after that I've got plans with my coworkers in the park."
+    ],
+    "vocab": [
+      {
+        "word": "finish work",
+        "translation": "заканчивать работу"
+      },
+      {
+        "word": "early",
+        "translation": "рано, пораньше"
+      },
+      {
+        "word": "meet",
+        "translation": "встречаться с"
+      },
+      {
+        "word": "coworker",
+        "translation": "коллега"
+      },
+      {
+        "word": "get off work",
+        "translation": "уйти с работы, освободиться"
+      }
+    ],
+    "explanation": "Два Present Continuous с разными смыслами. I'm finishing work early today — исключение из обычного графика именно сегодня, временная ситуация (постоянное расписание было бы в Present Simple: I finish at six). and then I'm meeting my coworkers — Present Continuous в значении будущего: договорённость уже существует, время и люди известны — такие планы английский описывает через Continuous: I'm meeting = «встречаюсь (сегодня, уже договорились)». meet someone — без предлога with: meeting my coworkers; meet with уместно только про официальные встречи-переговоры. coworkers — американское «коллеги» (британцы чаще говорят colleagues). in the park — внутри пространства парка, the — конкретный парк, который все знают.",
+    "level": "A2",
+    "grammarTags": [
+      "present-continuous",
+      "present-continuous-future",
+      "place-preposition"
+    ],
+    "topicTags": [
+      "work",
+      "plans",
+      "friends"
+    ]
+  },
+  {
+    "id": 284,
+    "russian": "Я не отвечаю на рабочие письма после восьми вечера.",
+    "english": "I don't answer work emails after eight in the evening.",
+    "alternatives": [
+      "I don't reply to work emails after 8 p.m.",
+      "I don't check work email after eight at night.",
+      "After eight in the evening, I stop responding to work emails."
+    ],
+    "vocab": [
+      {
+        "word": "answer",
+        "translation": "отвечать на"
+      },
+      {
+        "word": "work email",
+        "translation": "рабочее письмо"
+      },
+      {
+        "word": "after eight",
+        "translation": "после восьми"
+      },
+      {
+        "word": "in the evening",
+        "translation": "вечером"
+      },
+      {
+        "word": "reply to",
+        "translation": "отвечать на"
+      }
+    ],
+    "explanation": "Отрицание в Present Simple: I don't answer — don't + V1; речь о твёрдом правиле, привычке, поэтому Simple. answer work emails — answer без предлога: answer something, калька answer on emails — ошибка (предлог появляется только у существительного: an answer to your question). work emails — существительное work в роли определения «рабочие»: английский спокойно ставит существительное перед существительным (work emails, coffee break, phone number). emails во множественном числе без артикля — про рабочие письма вообще. after eight in the evening — after + время «после восьми»; уточнение in the evening с предлогом in; можно короче: after 8 p.m. Отличная фраза про личные границы — звучит спокойно и без оправданий.",
+    "level": "A2",
+    "grammarTags": [
+      "negation",
+      "present-simple",
+      "time-preposition"
+    ],
+    "topicTags": [
+      "work",
+      "lifestyle"
+    ]
+  },
+  {
+    "id": 285,
+    "russian": "Ты больше похож на маму или на папу?",
+    "english": "Do you take after your mom or your dad?",
+    "alternatives": [
+      "Are you more like your mom or your dad?",
+      "Who are you more like — your mom or your dad?",
+      "Did you get more from your mom's side or your dad's?"
+    ],
+    "vocab": [
+      {
+        "word": "take after",
+        "translation": "пойти в кого-то, быть похожим на"
+      },
+      {
+        "word": "mom",
+        "translation": "мама"
+      },
+      {
+        "word": "dad",
+        "translation": "папа"
+      },
+      {
+        "word": "look like",
+        "translation": "быть похожим внешне"
+      }
+    ],
+    "explanation": "take after someone — фразовый глагол «пойти в кого-то, быть похожим на кого-то из старших родственников» (характером или внешностью): Do you take after your mom? — «ты в маму?». Его нельзя собрать из слов буквально — надо запомнить целиком. Вопрос в Present Simple: вспомогательный Do + you + V1 take. Альтернатива с or: ...your mom or your dad — интонация вверх-вниз, ответ предполагает выбор, а не yes/no. your mom, your dad — американские разговорные mom и dad (британский вариант — mum); притяжательное your обязательно. Про чисто внешнее сходство есть look like: I look like my dad, but I take after my mom — «внешне в папу, а характером в маму».",
+    "level": "A2",
+    "grammarTags": [
+      "question",
+      "present-simple",
+      "phrasal-verb"
+    ],
+    "topicTags": [
+      "family",
+      "acquaintance"
+    ]
+  },
+  {
+    "id": 286,
+    "russian": "У меня сейчас гостят родители, так что пишу тебе с кухни.",
+    "english": "My parents are visiting me right now, so I'm texting you from the kitchen.",
+    "alternatives": [
+      "My parents are staying with me right now, so I'm texting you from the kitchen.",
+      "I've got my parents over at the moment, so I'm hiding in the kitchen to text you.",
+      "My parents are in town, so I'm messaging you from the kitchen."
+    ],
+    "vocab": [
+      {
+        "word": "parents",
+        "translation": "родители"
+      },
+      {
+        "word": "visit",
+        "translation": "гостить, навещать"
+      },
+      {
+        "word": "right now",
+        "translation": "прямо сейчас"
+      },
+      {
+        "word": "text",
+        "translation": "писать сообщения"
+      },
+      {
+        "word": "from the kitchen",
+        "translation": "с кухни"
+      },
+      {
+        "word": "kitchen",
+        "translation": "кухня"
+      }
+    ],
+    "explanation": "My parents are visiting me — Present Continuous: родители гостят в эти дни, временная ситуация, не постоянная (сравни: My parents live with me — постоянно, Simple). visit someone — без предлога: visiting me, не visiting to me. right now усиливает «прямо сейчас». so — «поэтому, так что», соединяет причину и следствие. I'm texting you — второй Continuous: пишу тебе в этот самый момент; text — глагол «писать сообщения», тоже без предлога: text you. from the kitchen — предлог from показывает, откуда именно я пишу; артикль the — конкретная кухня в моей квартире. Юмор ситуации в подтексте: родители рядом, поэтому переписка идёт полутайно, с кухни.",
+    "level": "A2",
+    "grammarTags": [
+      "present-continuous",
+      "place-preposition"
+    ],
+    "topicTags": [
+      "family",
+      "texting",
+      "humor"
+    ]
+  },
+  {
+    "id": 287,
+    "russian": "Этим летом мы с друзьями собираемся пойти в поход в горы.",
+    "english": "My friends and I are going to go camping in the mountains this summer.",
+    "alternatives": [
+      "My friends and I are planning a camping trip to the mountains this summer.",
+      "This summer, my friends and I are going hiking in the mountains.",
+      "Me and my friends are heading to the mountains for a camping trip this summer."
+    ],
+    "vocab": [
+      {
+        "word": "be going to",
+        "translation": "собираться (сделать)"
+      },
+      {
+        "word": "go camping",
+        "translation": "пойти в поход с палатками"
+      },
+      {
+        "word": "in the mountains",
+        "translation": "в горах"
+      },
+      {
+        "word": "mountain",
+        "translation": "гора"
+      },
+      {
+        "word": "this summer",
+        "translation": "этим летом"
+      }
+    ],
+    "explanation": "be going to + V1 — план, решение о котором уже принято заранее: мы собираемся, договорились до этого разговора. Формула: are going to go. Сочетание going to go режет русское ухо, но для носителей абсолютно нормально: первое going — часть конструкции, второе go — смысловой глагол. go camping — устойчивая модель go + V-ing для активностей: go camping, go hiking, go swimming — «пойти в поход с палатками, в горы, поплавать». My friends and I — правильный порядок: себя в конце и в форме I, потому что это подлежащее (русское «мы с друзьями» ≠ we with friends!). in the mountains — предлог in и множественное число: «в горах» как местность. this summer — без предлога: с this/next/last предлог времени не ставится.",
+    "level": "A2",
+    "grammarTags": [
+      "going-to",
+      "word-order",
+      "collocation",
+      "place-preposition"
+    ],
+    "topicTags": [
+      "travel",
+      "friends",
+      "plans"
+    ]
+  },
+  {
+    "id": 288,
+    "russian": "Куда ты собираешься поехать в следующий отпуск?",
+    "english": "Where are you going to go for your next vacation?",
+    "alternatives": [
+      "Where are you headed for your next vacation?",
+      "Any plans for where you'll go on your next vacation?",
+      "Where are you planning to go on your next trip?"
+    ],
+    "vocab": [
+      {
+        "word": "be going to",
+        "translation": "собираться"
+      },
+      {
+        "word": "vacation",
+        "translation": "отпуск"
+      },
+      {
+        "word": "next",
+        "translation": "следующий"
+      },
+      {
+        "word": "be headed",
+        "translation": "направляться"
+      }
+    ],
+    "explanation": "Вопрос с be going to о планах: Where + are + you + going to go. going to — конструкция намерения, а второе go — смысловой глагол «поехать»; в вопросе на первое место выходит are, как в любом предложении с be. Спрашиваем именно через going to, а не will, потому что интересуемся уже существующим намерением, а не просим предсказание. for your next vacation — предлог for: «на следующий отпуск», поездка на период отпуска; vacation — американское «отпуск» (британцы говорят holiday). next без артикля the: your next vacation. В устной речи going to часто сжимается в gonna: Where are you gonna go? — в переписке так писать можно, но это очень неформально.",
+    "level": "A2",
+    "grammarTags": [
+      "question",
+      "going-to",
+      "preposition"
+    ],
+    "topicTags": [
+      "travel",
+      "small-talk"
+    ]
+  },
+  {
+    "id": 289,
+    "russian": "В отпуске я могу целый день гулять по новому городу.",
+    "english": "On vacation, I can walk around a new city all day long.",
+    "alternatives": [
+      "When I'm on vacation, I can spend the whole day wandering around a new city.",
+      "On vacation, I could explore a new city on foot all day.",
+      "I can walk around a new city for hours when I'm on vacation."
+    ],
+    "vocab": [
+      {
+        "word": "on vacation",
+        "translation": "в отпуске"
+      },
+      {
+        "word": "walk around",
+        "translation": "гулять по, бродить по"
+      },
+      {
+        "word": "city",
+        "translation": "город"
+      },
+      {
+        "word": "all day long",
+        "translation": "весь день напролёт"
+      },
+      {
+        "word": "wander around",
+        "translation": "бродить, слоняться"
+      }
+    ],
+    "explanation": "can + V1 — модальный глагол возможности: могу и мне в радость, ничто не мешает; после can инфинитив без to: can walk, а не can to walk. walk around a new city — предлог around означает движение «по, туда-сюда, без строгого маршрута»: гулять по городу = walk around the city, калька walk on the city — ошибка. a new city — неопределённый артикль a: любой новый город, каждый раз какой-то другой. On vacation — «в отпуске»: американский предлог именно on (on vacation), в начале предложения задаёт рамку и отделяется запятой. all day long — усиленное «весь день напролёт»: long в конце добавляет оттенок «и мне не надоест»; можно и просто all day — без предлога for и без артикля.",
+    "level": "A2",
+    "grammarTags": [
+      "modal",
+      "movement-preposition",
+      "article"
+    ],
+    "topicTags": [
+      "travel",
+      "lifestyle"
+    ]
+  },
+  {
+    "id": 290,
+    "russian": "Утром мне нужно немного времени и много кофе, чтобы почувствовать себя человеком.",
+    "english": "I need some time and a lot of coffee to feel human in the morning.",
+    "alternatives": [
+      "In the morning, it takes me a while and a lot of coffee to feel like a person.",
+      "I'm not human in the morning until I've had some time and plenty of coffee.",
+      "I need a little time and a whole lot of coffee before I feel human in the morning."
+    ],
+    "vocab": [
+      {
+        "word": "need",
+        "translation": "нуждаться, мне нужно"
+      },
+      {
+        "word": "some time",
+        "translation": "немного времени"
+      },
+      {
+        "word": "a lot of",
+        "translation": "много"
+      },
+      {
+        "word": "coffee",
+        "translation": "кофе"
+      },
+      {
+        "word": "feel human",
+        "translation": "чувствовать себя человеком"
+      },
+      {
+        "word": "in the morning",
+        "translation": "утром"
+      }
+    ],
+    "explanation": "Конструкция need + существительное + to + V1: цель выражена инфинитивом to feel — «чтобы почувствовать». Квантификаторы подобраны под неисчисляемые существительные: time и coffee нельзя посчитать штуками, поэтому some time («немного времени») и a lot of coffee («много кофе»); many coffee было бы ошибкой — many только для исчисляемых, а a lot of универсален и звучит разговорно. feel human — шутливое устойчивое «чувствовать себя человеком»: после feel идёт прилагательное без as и без like (feel human, feel great, feel awful); заметь, что русское «себя» не переводится — feel myself была бы грубая калька с совсем другим смыслом. in the morning — предлог in с частью суток и артикль the.",
+    "level": "A2",
+    "grammarTags": [
+      "quantifier",
+      "countable-uncountable",
+      "infinitive",
+      "present-simple"
+    ],
+    "topicTags": [
+      "humor",
+      "lifestyle",
+      "daily-life"
+    ]
+  },
+  {
+    "id": 291,
+    "russian": "А что тебя обычно смешит?",
+    "english": "What usually makes you laugh?",
+    "alternatives": [
+      "What kind of stuff makes you laugh?",
+      "What do you find funny?",
+      "What usually cracks you up?"
+    ],
+    "vocab": [
+      {
+        "word": "usually",
+        "translation": "обычно"
+      },
+      {
+        "word": "make someone laugh",
+        "translation": "смешить кого-то"
+      },
+      {
+        "word": "laugh",
+        "translation": "смеяться"
+      },
+      {
+        "word": "find funny",
+        "translation": "находить смешным"
+      },
+      {
+        "word": "crack someone up",
+        "translation": "рассмешить, уморить"
+      }
+    ],
+    "explanation": "Вопрос к подлежащему: what здесь само подлежащее («что смешит»), поэтому вспомогательный does не нужен и порядок слов прямой: What usually makes you laugh?, а не What does usually make. makes с окончанием -s — согласование с what как с третьим лицом единственного числа. usually — наречие частотности, стоит перед смысловым глаголом. Главная конструкция: make + someone + V1 — «заставлять, вызывать реакцию»: после make инфинитив идёт БЕЗ to: makes you laugh, а не makes you to laugh — одна из самых частых ошибок русскоговорящих. laugh — глагол «смеяться». Отличный вопрос для знакомства: открытый, лёгкий, и ответ многое говорит о человеке. Ответить можно: Dumb memes, honestly — «глупые мемы, если честно».",
+    "level": "A2",
+    "grammarTags": [
+      "question",
+      "present-simple",
+      "bare-infinitive",
+      "word-order"
+    ],
+    "topicTags": [
+      "acquaintance",
+      "humor"
+    ]
+  },
+  {
+    "id": 292,
+    "russian": "Что ты сейчас смотришь или читаешь?",
+    "english": "What are you watching or reading these days?",
+    "alternatives": [
+      "What are you into right now — any shows or books?",
+      "Are you watching or reading anything good these days?",
+      "What shows or books are you into at the moment?"
+    ],
+    "vocab": [
+      {
+        "word": "watch",
+        "translation": "смотреть"
+      },
+      {
+        "word": "read",
+        "translation": "читать"
+      },
+      {
+        "word": "these days",
+        "translation": "в последнее время, в эти дни"
+      },
+      {
+        "word": "be into",
+        "translation": "увлекаться, интересоваться"
+      },
+      {
+        "word": "show",
+        "translation": "сериал, шоу"
+      }
+    ],
+    "explanation": "Present Continuous в значении «в эти дни, в текущий период»: What are you watching or reading — речь не о том, что собеседник делает в эту секунду, а о сериале или книге, которые «идут» у него сейчас по жизни. Это второе важное значение Continuous: незаконченное дело текущего периода (I'm reading a great book — читаю сейчас, но не обязательно в данный момент). Формула вопроса: What + are + you + V-ing; or соединяет два варианта, второй глагол reading тоже в -ing, а вспомогательный are не повторяется. these days — разговорное «в последнее время», типичный маркер именно такого Continuous. Вопрос-палочка-выручалочка для переписки: у каждого всегда найдётся, что ответить.",
+    "level": "A2",
+    "grammarTags": [
+      "question",
+      "present-continuous"
+    ],
+    "topicTags": [
+      "acquaintance",
+      "interests",
+      "small-talk"
+    ]
+  },
+  {
+    "id": 293,
+    "russian": "Тебе ещё не надоело переписываться со мной каждый день?",
+    "english": "Don't you get bored of texting me every day?",
+    "alternatives": [
+      "Aren't you tired of texting me every day yet?",
+      "Don't you ever get sick of texting me every single day?",
+      "Haven't you gotten bored of talking to me every day?"
+    ],
+    "vocab": [
+      {
+        "word": "get bored of",
+        "translation": "заскучать от, устать от"
+      },
+      {
+        "word": "bored",
+        "translation": "скучающий, которому надоело"
+      },
+      {
+        "word": "text",
+        "translation": "переписываться, писать сообщения"
+      },
+      {
+        "word": "every day",
+        "translation": "каждый день"
+      },
+      {
+        "word": "get sick of",
+        "translation": "устать от, задолбаться"
+      }
+    ],
+    "explanation": "Отрицательный вопрос: Don't you get bored...? — «неужели тебе не надоело...?»; отрицание в вопросе добавляет эмоцию — удивление или кокетство, а не просто запрос информации. Строится как обычный вопрос Present Simple, но с don't: Don't + you + V1. get bored — «заскучать, устать от»: get + прилагательное описывает переход в состояние (get tired, get angry, get bored). bored of + V-ing — «надоело что-то делать»: после предлога of действие в герундии: bored of texting (вариант bored with тоже живой). texting me — text + объект без предлога: «писать мне». every day — раздельно «каждый день» (everyday слитно — прилагательное «повседневный»). Ожидаемый флиртовый ответ: Not even a little — «ни капельки».",
+    "level": "A2",
+    "grammarTags": [
+      "question",
+      "negation",
+      "gerund",
+      "preposition"
+    ],
+    "topicTags": [
+      "texting",
+      "acquaintance"
+    ]
+  },
+  {
+    "id": 294,
+    "russian": "Какая у тебя любимая часть дня?",
+    "english": "What's your favorite part of the day?",
+    "alternatives": [
+      "What part of the day do you like best?",
+      "Which part of the day is your favorite?",
+      "What's the best part of your day?"
+    ],
+    "vocab": [
+      {
+        "word": "favorite",
+        "translation": "любимый"
+      },
+      {
+        "word": "part of the day",
+        "translation": "часть дня"
+      },
+      {
+        "word": "part",
+        "translation": "часть"
+      },
+      {
+        "word": "like best",
+        "translation": "любить больше всего"
+      }
+    ],
+    "explanation": "What's = What is — вопрос с глаголом be: be сам выходит вперёд, вспомогательный do не нужен. favorite — «любимый» (американское написание; британское — favourite); перед ним притяжательное your, и артикль в этой модели не ставится: your favorite part, а не the your favorite part — артикль и притяжательное вместе не используются. part of the day — «часть дня»: конструкция «существительное + of + существительное» для отношения «часть чего-то»; артикль the перед day, потому что день — знакомый обоим суточный цикл. Простой, но небанальный вопрос для лёгкой переписки. Ответ строится по той же модели: My favorite part of the day is the morning / Probably late evening, when everyone's asleep.",
+    "level": "A1",
+    "grammarTags": [
+      "question",
+      "present-simple",
+      "article"
+    ],
+    "topicTags": [
+      "small-talk",
+      "acquaintance"
+    ]
+  },
+  {
+    "id": 295,
+    "russian": "Я стою в очереди в магазине и умираю от скуки — развлеки меня.",
+    "english": "I'm standing in line at the store, and I'm dying of boredom — entertain me.",
+    "alternatives": [
+      "I'm waiting in line at the store and I'm bored out of my mind — entertain me.",
+      "I'm stuck in a line at the store, bored to death — keep me company.",
+      "Standing in line at the store, dying of boredom. Amuse me."
+    ],
+    "vocab": [
+      {
+        "word": "stand in line",
+        "translation": "стоять в очереди"
+      },
+      {
+        "word": "line",
+        "translation": "очередь"
+      },
+      {
+        "word": "store",
+        "translation": "магазин"
+      },
+      {
+        "word": "die of boredom",
+        "translation": "умирать от скуки"
+      },
+      {
+        "word": "boredom",
+        "translation": "скука"
+      },
+      {
+        "word": "entertain",
+        "translation": "развлекать"
+      }
+    ],
+    "explanation": "Два Present Continuous о происходящем прямо сейчас: I'm standing и I'm dying. stand in line — американское «стоять в очереди» (британцы говорят queue): line — «очередь», предлог in. at the store — предлог at: магазин как точка, где я нахожусь (in the store подчёркивало бы «внутри здания»); store — американское слово для магазина, артикль the — конкретный магазин. die of boredom — устойчивое преувеличение «умирать от скуки»: причина вводится предлогом of (die of boredom, die of hunger). Драматичный глагол die в Continuous звучит смешно и живо: I'm dying — «умираю» прямо в эту минуту. entertain me — повелительное наклонение: V1 без подлежащего, «развлекай меня»; во флиртовой переписке звучит игриво, а не грубо.",
+    "level": "A2",
+    "grammarTags": [
+      "present-continuous",
+      "imperative",
+      "place-preposition",
+      "collocation"
+    ],
+    "topicTags": [
+      "texting",
+      "humor",
+      "daily-life"
+    ]
+  },
+  {
+    "id": 296,
+    "russian": "Ты сейчас улыбаешься? Мне кажется, что да.",
+    "english": "Are you smiling right now? I feel like you are.",
+    "alternatives": [
+      "Are you smiling right now? I bet you are.",
+      "Are you smiling? Something tells me you are.",
+      "You're smiling right now, aren't you? I can tell."
+    ],
+    "vocab": [
+      {
+        "word": "smile",
+        "translation": "улыбаться"
+      },
+      {
+        "word": "right now",
+        "translation": "прямо сейчас"
+      },
+      {
+        "word": "feel like",
+        "translation": "мне кажется, у меня ощущение"
+      },
+      {
+        "word": "I bet",
+        "translation": "спорим, готова поспорить"
+      }
+    ],
+    "explanation": "Are you smiling right now? — вопрос в Present Continuous: интересует действие именно в этот момент, у экрана. Формула вопроса: are выходит вперёд, смысловой глагол в V-ing: Are you smiling. I feel like you are — «мне кажется, что да»: feel like + утверждение — разговорное «у меня ощущение, что...». Главная фишка — короткий хвост you are: полное you are smiling обрезано до подлежащего и вспомогательного глагола, потому что английский не повторяет то, что и так понятно: I feel like you are (smiling). Такое сокращение до вспомогательного встречается сплошь и рядом: I think she is. / Yes, I am. Флиртовая реплика, которая делает переписку почти осязаемой: ты как будто видишь собеседника через экран.",
+    "level": "A2",
+    "grammarTags": [
+      "question",
+      "present-continuous",
+      "short-answer"
+    ],
+    "topicTags": [
+      "texting",
+      "feelings",
+      "dating"
+    ]
+  },
+  {
+    "id": 297,
+    "russian": "Кто самый смешной в твоей семье?",
+    "english": "Who's the funniest person in your family?",
+    "alternatives": [
+      "Who's the funny one in your family?",
+      "Who in your family has the best sense of humor?",
+      "Who makes everyone laugh the most in your family?"
+    ],
+    "vocab": [
+      {
+        "word": "funny",
+        "translation": "смешной"
+      },
+      {
+        "word": "the funniest",
+        "translation": "самый смешной"
+      },
+      {
+        "word": "person",
+        "translation": "человек"
+      },
+      {
+        "word": "family",
+        "translation": "семья"
+      },
+      {
+        "word": "sense of humor",
+        "translation": "чувство юмора"
+      }
+    ],
+    "explanation": "Who's = Who is — вопрос к подлежащему с глаголом be: who само является подлежащим, поэтому порядок прямой и вспомогательный do не нужен. the funniest — превосходная степень: funny → funnier → the funniest; у двусложных прилагательных на -y окончание -est, y меняется на i, и обязателен артикль the — «самый» всегда единственный в своём роде. После превосходной степени идёт существительное: the funniest person. in your family — предлог in для группы, внутри которой сравниваем: самый смешной В семье (превосходная степень часто сочетается именно с in: the best player in the team). Тёплый вопрос для знакомства: и о семье узнаёшь, и разговор уходит в смешные истории. Ответ: Probably my grandma, honestly.",
+    "level": "A2",
+    "grammarTags": [
+      "question",
+      "superlative",
+      "article",
+      "present-simple"
+    ],
+    "topicTags": [
+      "family",
+      "acquaintance",
+      "humor"
+    ]
+  },
+  {
+    "id": 298,
+    "russian": "Если честно, я весь день ждала твоего сообщения.",
+    "english": "Honestly, I waited for your message all day.",
+    "alternatives": [
+      "To be honest, I've been waiting for your text all day.",
+      "Honestly, I kept checking my phone for your message all day.",
+      "I'll be honest — I spent the whole day waiting to hear from you."
+    ],
+    "vocab": [
+      {
+        "word": "honestly",
+        "translation": "если честно"
+      },
+      {
+        "word": "wait for",
+        "translation": "ждать (чего-то, кого-то)"
+      },
+      {
+        "word": "message",
+        "translation": "сообщение"
+      },
+      {
+        "word": "all day",
+        "translation": "весь день"
+      },
+      {
+        "word": "hear from someone",
+        "translation": "получить весточку от кого-то"
+      }
+    ],
+    "explanation": "Honestly — вводное «если честно», стоит в начале и отделяется запятой; английский любит такие наречия-комментарии в начале фразы. I waited — Past Simple правильного глагола (wait + -ed): день закончился, ожидание — завершённый факт. Главное здесь — предлог: wait FOR something/someone — «ждать чего-то или кого-то»: waited for your message; калька I waited your message без for — одна из самых частых ошибок русскоговорящих, по-русски «ждала сообщения» без предлога, а по-английски без for фраза сломана. your message — «твоего сообщения». all day — «весь день»: без предлога for и без артикля (all day, all night, all week). Признание лёгкое, но честное — хороший шаг к сближению в переписке.",
+    "level": "A2",
+    "grammarTags": [
+      "past-simple",
+      "preposition",
+      "word-order"
+    ],
+    "topicTags": [
+      "texting",
+      "feelings",
+      "dating"
+    ]
+  },
+  {
+    "id": 299,
+    "russian": "И как ты переживаешь эту жару?",
+    "english": "How are you handling this heat?",
+    "alternatives": [
+      "How are you holding up in this heat?",
+      "How are you dealing with this heat?",
+      "Are you surviving this heat?"
+    ],
+    "vocab": [
+      {
+        "word": "handle",
+        "translation": "справляться, переносить"
+      },
+      {
+        "word": "heat",
+        "translation": "жара"
+      },
+      {
+        "word": "hold up",
+        "translation": "держаться, справляться"
+      },
+      {
+        "word": "deal with",
+        "translation": "справляться с"
+      },
+      {
+        "word": "survive",
+        "translation": "выживать, пережить"
+      }
+    ],
+    "explanation": "Вопрос в Present Continuous: How are you handling — жара стоит в эти дни, и «переживание» её — процесс текущего периода, поэтому Continuous, а не Simple. handle — «справляться, переносить, выдерживать»: handle the heat, handle stress, handle a difficult client; очень частотный американский глагол без точного русского двойника. Модель How are you handling X? — живой способ спросить «ну и как ты там с X?» вместо школьного Do you like the weather? this heat — указательное this: «вот эта самая жара», которую мы оба сейчас терпим; heat — неисчисляемое «жара», без артикля a. Это small talk о погоде на уровне носителя: не сухая констатация, а сочувствующий вопрос. Ответ: Barely surviving — «еле выживаю».",
+    "level": "A2",
+    "grammarTags": [
+      "question",
+      "present-continuous"
+    ],
+    "topicTags": [
+      "small-talk",
+      "texting"
+    ]
+  },
+  {
+    "id": 300,
+    "russian": "Чему ты хочешь научиться в этом году?",
+    "english": "What do you want to learn this year?",
+    "alternatives": [
+      "What do you want to pick up this year?",
+      "Is there anything new you'd like to learn this year?",
+      "What skill are you hoping to learn this year?"
+    ],
+    "vocab": [
+      {
+        "word": "want to",
+        "translation": "хотеть"
+      },
+      {
+        "word": "learn",
+        "translation": "научиться, освоить"
+      },
+      {
+        "word": "this year",
+        "translation": "в этом году"
+      },
+      {
+        "word": "pick up",
+        "translation": "освоить, нахвататься (навык)"
+      },
+      {
+        "word": "skill",
+        "translation": "навык"
+      }
+    ],
+    "explanation": "Вопрос в Present Simple: What + do + you + want. После want действие всегда в инфинитиве с to: want to learn, а не want learn и не want learning — want с герундием не сочетается. learn — «научиться, освоить» (learn to drive, learn Spanish); не путай с teach — «учить кого-то другого» и study — «заниматься, изучать» как процесс: learn — про результат, освоенный навык. this year — «в этом году» без предлога: со словами this/next/last/every предлоги времени не ставятся (не in this year). Отличный вопрос для знакомства: смотрит в будущее и открывает разговор про мечты и планы. Ответ строится по той же модели: I want to learn how to surf — «хочу научиться сёрфить».",
+    "level": "A2",
+    "grammarTags": [
+      "question",
+      "present-simple",
+      "infinitive"
+    ],
+    "topicTags": [
+      "acquaintance",
+      "interests"
+    ]
+  }
+]
