@@ -15,18 +15,23 @@ body { font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif; back
 .nav__logo img { height: 30px; width: auto; }
 .nav__logo-name { font-family: 'DM Sans', sans-serif; font-size: 14px; font-weight: 400; font-style: italic; color: #888; letter-spacing: 0.5px; margin-left: auto; }
 .container { max-width: 740px; margin: 0 auto; padding: 0 24px; }
-.hero { padding: 60px 0 48px; }
+.hero { padding: 60px 0 42px; position: relative; border-bottom: 1px solid #ececec; }
+.hero::after { content: "MS"; position: absolute; right: 0; bottom: 18px; font-family: 'Libre Baskerville', Georgia, serif; font-size: 72px; font-style: italic; color: #f4f1f1; z-index: -1; }
 .badge { display: inline-block; font-size: 11px; font-weight: 600; color: var(--accent); border: 1px solid var(--accent); padding: 5px 16px; margin-bottom: 20px; letter-spacing: 2px; text-transform: uppercase; }
 .hero h1 { font-family: 'Libre Baskerville', Georgia, serif; font-size: 38px; font-weight: 700; line-height: 1.25; margin-bottom: 16px; }
 .hero h1 em { font-style: italic; color: var(--accent); }
 .hero__desc { font-size: 18px; color: #666; line-height: 1.7; }
 .hero__meta { font-size: 14px; color: #999; margin-top: 16px; letter-spacing: 1px; }
+.hero-stats { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; margin-top: 30px; }
+.hero-stat { border: 1px solid #e8e8e8; background: #fafafa; padding: 14px 16px; min-height: 94px; }
+.hero-stat__mark { font-family: 'Libre Baskerville', Georgia, serif; font-size: 18px; font-style: italic; color: var(--accent); margin-bottom: 6px; }
+.hero-stat__text { font-size: 13px; line-height: 1.55; color: #555; }
 .intro-bold { font-size: 18px; font-weight: 700; line-height: 1.65; color: #1a1a1a; padding: 40px 0 16px; }
 .intro-text { font-size: 17px; color: #444; line-height: 1.75; padding-bottom: 48px; }
 .section-heading { font-family: 'Libre Baskerville', Georgia, serif; font-size: 30px; font-weight: 700; line-height: 1.3; padding: 56px 0 24px; border-top: 1px solid #e8e8e8; }
 .section-heading span { color: var(--accent); margin-right: 8px; }
 .section-heading em { font-style: italic; color: var(--accent); }
-.highlight { background: #f5f5f5; padding: 20px 24px; margin: 24px 0; font-size: 16px; line-height: 1.75; color: #444; }
+.highlight { background: #f5f5f5; padding: 20px 24px 20px 28px; margin: 24px 0; font-size: 16px; line-height: 1.75; color: #444; border-left: 2px solid var(--accent); }
 .sub-heading { font-family: 'Libre Baskerville', Georgia, serif; font-size: 22px; font-weight: 700; padding: 36px 0 16px; }
 .text { font-size: 17px; color: #444; line-height: 1.75; margin-bottom: 16px; }
 .guide-list { list-style: none; margin: 16px 0 24px; }
@@ -39,16 +44,29 @@ body { font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif; back
 .headline-list li:first-child { border-top: 1px solid #f0f0f0; }
 .headline-num { font-family: 'Libre Baskerville', Georgia, serif; font-style: italic; font-size: 15px; color: var(--accent); min-width: 28px; flex-shrink: 0; }
 .headline-text { font-size: 17px; line-height: 1.6; color: #1a1a1a; font-weight: 500; }
-.route-map { border-top: 1px solid #e8e8e8; border-bottom: 1px solid #e8e8e8; padding: 24px 0; margin: 24px 0 48px; }
-.route-map__item { display: grid; grid-template-columns: 88px 1fr; gap: 18px; padding: 14px 0; border-bottom: 1px solid #f0f0f0; }
-.route-map__item:last-child { border-bottom: none; }
+.route-map { border: 1px solid #e8e8e8; background: linear-gradient(180deg, #fff 0%, #f8f8f8 100%); padding: 28px; margin: 24px 0 48px; position: relative; }
+.route-map::before { content: ""; position: absolute; top: 48px; bottom: 48px; left: 44px; width: 1px; background: #dedede; }
+.route-map__item { display: grid; grid-template-columns: 72px 1fr; gap: 18px; padding: 14px 0; position: relative; }
 .route-map__label { font-family: 'Libre Baskerville', Georgia, serif; font-style: italic; color: var(--accent); font-size: 15px; }
+.route-map__label::before { content: ""; display: inline-block; width: 9px; height: 9px; background: var(--accent); border: 5px solid #f8f8f8; outline: 1px solid #d9d9d9; margin-right: 10px; vertical-align: middle; }
 .route-map__text { font-size: 16px; line-height: 1.65; color: #333; }
+.schema-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; margin: 26px 0 32px; }
+.schema-card { border: 1px solid #e6e6e6; background: #fff; padding: 20px; min-height: 150px; position: relative; }
+.schema-card::before { content: ""; position: absolute; top: 0; left: 0; right: 0; height: 3px; background: var(--accent); }
+.schema-card__index { font-family: 'Libre Baskerville', Georgia, serif; font-size: 18px; font-style: italic; color: var(--accent); margin-bottom: 12px; }
+.schema-card__title { font-weight: 700; font-size: 15px; color: #1a1a1a; line-height: 1.35; margin-bottom: 8px; }
+.schema-card__text { font-size: 13.5px; line-height: 1.6; color: #666; }
+.equation { display: grid; grid-template-columns: 1fr 32px 1fr 32px 1fr; align-items: stretch; gap: 10px; margin: 24px 0 32px; }
+.equation__item { border: 1px solid #e6e6e6; background: #fafafa; padding: 18px 14px; text-align: center; }
+.equation__mark { font-family: 'Libre Baskerville', Georgia, serif; color: var(--accent); font-style: italic; font-size: 19px; margin-bottom: 4px; }
+.equation__text { font-size: 13.5px; line-height: 1.45; color: #444; }
+.equation__plus { font-family: 'Libre Baskerville', Georgia, serif; font-size: 24px; color: #aaa; display: flex; align-items: center; justify-content: center; }
 .prompt-box { background: #f5f5f5; padding: 36px; margin: 32px 0; }
 .prompt-box__title { font-family: 'Libre Baskerville', Georgia, serif; font-size: 20px; font-weight: 700; color: var(--accent); margin-bottom: 6px; }
 .prompt-box__subtitle { font-size: 13px; color: #888; margin-bottom: 20px; }
 .prompt-box__text { font-size: 15px; line-height: 1.8; color: #444; }
-.scenario-card { border: 1px solid #e8e8e8; padding: 32px; margin: 24px 0; background: #f9f9f9; }
+.scenario-card { border: 1px solid #e3e3e3; padding: 32px; margin: 24px 0; background: #f9f9f9; box-shadow: 0 18px 40px rgba(113, 12, 4, 0.045); position: relative; }
+.scenario-card::before { content: ""; position: absolute; left: 0; top: 0; bottom: 0; width: 3px; background: var(--accent); opacity: 0.75; }
 .scenario-card__num { font-family: 'Libre Baskerville', Georgia, serif; font-style: italic; font-size: 14px; color: var(--accent); letter-spacing: 1px; margin-bottom: 8px; }
 .scenario-card__title { font-family: 'Libre Baskerville', Georgia, serif; font-size: 20px; font-weight: 700; line-height: 1.4; margin-bottom: 20px; }
 .scenario-card__point { margin-bottom: 14px; }
@@ -61,7 +79,7 @@ body { font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif; back
 .footer .tiny { font-size: 12.5px; color: #bbb; max-width: 52ch; margin: 12px auto 0; line-height: 1.6; letter-spacing: 0; }
 .footer-note { font-family: 'Libre Baskerville', Georgia, serif; font-size: 18px; font-style: italic; color: #444; text-align: center; padding: 48px 24px 0; }
 .footer-note em { color: var(--accent); }
-@media (max-width: 768px) { .nav { padding: 16px 20px; } .hero h1 { font-size: 28px; } .section-heading { font-size: 24px; } .scenario-card { padding: 20px; } .prompt-box { padding: 24px; } .route-map__item { grid-template-columns: 1fr; gap: 4px; } }
+@media (max-width: 768px) { .nav { padding: 16px 20px; } .hero h1 { font-size: 28px; } .hero-stats, .schema-grid, .equation { grid-template-columns: 1fr; } .equation__plus { min-height: 18px; } .section-heading { font-size: 24px; } .scenario-card { padding: 20px; } .prompt-box { padding: 24px; } .route-map { padding: 22px; } .route-map::before { display: none; } .route-map__item { grid-template-columns: 1fr; gap: 4px; } }
   </style>
 </head>
 <body>
@@ -75,6 +93,11 @@ body { font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif; back
       <h1>Как установить <em>Claude и ChatGPT</em> в России</h1>
       <p class="hero__desc">Понятный маршрут: подготовка, регистрация, номер для Claude, установка приложений, выбор карты, пополнение и первая безопасная оплата.</p>
       <p class="hero__meta">Claude &middot; ChatGPT &middot; обновлено в сентябре 2026</p>
+      <div class="hero-stats">
+        <div class="hero-stat"><div class="hero-stat__mark">01</div><div class="hero-stat__text">Сначала доступ, email и рабочий аккаунт.</div></div>
+        <div class="hero-stat"><div class="hero-stat__mark">02</div><div class="hero-stat__text">Потом номер для Claude и проверка Free.</div></div>
+        <div class="hero-stat"><div class="hero-stat__mark">03</div><div class="hero-stat__text">Только в конце карта, баланс и подписка.</div></div>
+      </div>
     </div>
 
     <p class="intro-bold">Главная логика такая: сначала делаешь рабочий аккаунт и проверяешь бесплатный доступ. Только после этого выпускаешь карту и оплачиваешь первый месяц.</p>
@@ -195,6 +218,23 @@ body { font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif; back
 
     <h2 class="section-heading"><span>08.</span> Выбери стратегию <em>оплаты</em></h2>
     <p class="text">Сильная стратегия не в том, чтобы найти одну «вечную» карту, а в том, чтобы выбрать способ под свою ситуацию и проверить его до выпуска. Самый стабильный вариант - своя иностранная карта. Если её нет, можно использовать виртуальную карту, но только с понятными условиями.</p>
+    <div class="schema-grid">
+      <div class="schema-card">
+        <div class="schema-card__index">I</div>
+        <div class="schema-card__title">Есть иностранная карта</div>
+        <div class="schema-card__text">Проверяешь 3DS, billing address и лимиты. Это самый чистый путь.</div>
+      </div>
+      <div class="schema-card">
+        <div class="schema-card__index">II</div>
+        <div class="schema-card__title">Нужна виртуальная карта</div>
+        <div class="schema-card__text">Сначала спрашиваешь поддержку про Claude/ChatGPT, потом выпускаешь карту.</div>
+      </div>
+      <div class="schema-card">
+        <div class="schema-card__index">III</div>
+        <div class="schema-card__title">Пополнение через крипту</div>
+        <div class="schema-card__text">Подходит, только если ты уверенно проверяешь сеть, адрес и комиссии.</div>
+      </div>
+    </div>
     <div class="scenario-card">
       <div class="scenario-card__num">СТРАТЕГИЯ 01</div>
       <div class="scenario-card__title">Есть своя иностранная карта</div>
@@ -219,6 +259,13 @@ body { font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif; back
 
     <h2 class="section-heading"><span>09.</span> Выпусти карту и <em>пополни баланс</em></h2>
     <p class="text">Перед оплатой важно разделить три суммы: цена выпуска карты, баланс карты и комиссии. Деньги за выпуск - это не деньги на карте. Чтобы оплатить подписку, на самой карте должен быть отдельный баланс.</p>
+    <div class="equation" aria-label="Формула бюджета карты">
+      <div class="equation__item"><div class="equation__mark">выпуск</div><div class="equation__text">плата за создание карты</div></div>
+      <div class="equation__plus">+</div>
+      <div class="equation__item"><div class="equation__mark">баланс</div><div class="equation__text">деньги именно на карте</div></div>
+      <div class="equation__plus">+</div>
+      <div class="equation__item"><div class="equation__mark">запас</div><div class="equation__text">налоги, комиссия, конвертация</div></div>
+    </div>
     <h3 class="sub-heading">Рабочие сервисы в 2026</h3>
     <ul class="guide-list">
       <li><strong><a href="https://platipomiru.com/?code=PGQ6XMU6" target="_blank" rel="noopener noreferrer">Плати по миру</a>.</strong> Вариант с рублёвым пополнением через СБП и виртуальными USD/EUR-картами. По опубликованным условиям карты «Для подписок» выпуск стоит 2990 ₽, минимальное пополнение $5, подтверждение 3DS проходит в приложении. При этом автоплатежи в условиях указаны как неподдерживаемые, поэтому для подписок заранее уточни у поддержки, пройдёт ли первый платёж и как будет работать продление.</li>
