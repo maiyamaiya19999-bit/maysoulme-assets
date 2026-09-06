@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Распаковка себя на контент — maysoulme</title>
+<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Inter:wght@400;500;600;700;800&family=DM+Sans:ital@1&display=swap" rel="stylesheet">
+<style>
+*, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+:root { --accent: #710C04; }
+
+body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  background: #ffffff;
+  color: #1a1a1a;
+  font-size: 17px;
+  line-height: 1.75;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Nav */
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 48px;
+  border-bottom: 1px solid #f0f0f0;
+  position: sticky;
+  top: 0;
+  background: #fff;
+  z-index: 100;
+}
+.nav__logo { text-decoration: none; display: flex; align-items: center; }
+.nav__logo img { height: 30px; width: auto; }
+.nav__logo-name {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 14px; font-weight: 400; font-style: italic;
+  color: #888; letter-spacing: 0.5px;
+  margin-left: auto;
+}
+
+/* Container */
+.container { max-width: 740px; margin: 0 auto; padding: 0 24px; }
+
+/* Hero */
+.hero { padding: 60px 0 48px; }
+.badge {
+  display: inline-block; font-size: 11px; font-weight: 600;
+  color: var(--accent); border: 1px solid var(--accent);
+  padding: 5px 16px; margin-bottom: 20px;
+  letter-spacing: 2px; text-transform: uppercase;
+}
+.hero h1 {
+  font-family: 'Libre Baskerville', Georgia, serif;
+  font-size: 38px; font-weight: 700; line-height: 1.25; margin-bottom: 16px;
+}
+.hero h1 em { font-style: italic; color: var(--accent); }
+.hero__desc { font-size: 18px; color: #666; line-height: 1.7; }
+.hero__meta { font-size: 14px; color: #999; margin-top: 16px; letter-spacing: 1px; }
+
+/* Intro */
+.intro-bold { font-size: 18px; font-weight: 700; line-height: 1.65; color: #1a1a1a; padding: 40px 0 16px; }
+.intro-text { font-size: 17px; color: #444; line-height: 1.75; padding-bottom: 48px; }
+
+/* Section heading */
+.section-heading {
+  font-family: 'Libre Baskerville', Georgia, serif;
+  font-size: 30px; font-weight: 700; line-height: 1.3;
+  padding: 56px 0 24px; border-top: 1px solid #e8e8e8;
+}
+.section-heading span { color: var(--accent); margin-right: 8px; }
+.section-heading em { font-style: italic; color: var(--accent); }
+
+/* Highlight block */
+.highlight { background: #f5f5f5; padding: 20px 24px; margin: 24px 0; font-size: 16px; line-height: 1.75; color: #444; }
+
+/* Sub heading */
+.sub-heading { font-family: 'Libre Baskerville', Georgia, serif; font-size: 22px; font-weight: 700; padding: 36px 0 16px; }
+
+/* Text */
+.text { font-size: 17px; color: #444; line-height: 1.75; margin-bottom: 16px; }
+
+/* List */
+.guide-list { list-style: none; margin: 16px 0 24px; }
+.guide-list li {
+  font-size: 16px; line-height: 1.75; color: #444;
+  padding: 8px 0 8px 20px; position: relative;
+  border-bottom: 1px solid #f0f0f0;
+}
+.guide-list li:last-child { border-bottom: none; }
+.guide-list li::before {
+  content: ''; position: absolute; left: 0; top: 16px;
+  width: 6px; height: 6px; border-radius: 50%; background: var(--accent);
+}
+.guide-list li strong { color: #1a1a1a; }
+
+/* Headline list (нумерованный) */
+.headline-list { list-style: none; margin: 16px 0 32px; }
+.headline-list li {
+  display: flex; gap: 16px; padding: 16px 0;
+  border-bottom: 1px solid #f0f0f0; align-items: baseline;
+}
+.headline-list li:first-child { border-top: 1px solid #f0f0f0; }
+.headline-num {
+  font-family: 'Libre Baskerville', Georgia, serif;
+  font-style: italic; font-size: 15px;
+  color: var(--accent); min-width: 28px; flex-shrink: 0;
+}
+.headline-text { font-size: 17px; line-height: 1.6; color: #1a1a1a; font-weight: 500; }
+
+/* Prompt box */
+.prompt-box { background: #f5f5f5; padding: 36px; margin: 32px 0; }
+.prompt-box__title {
+  font-family: 'Libre Baskerville', Georgia, serif;
+  font-size: 20px; font-weight: 700;
+  color: var(--accent); margin-bottom: 6px;
+}
+.prompt-box__subtitle { font-size: 13px; color: #888; margin-bottom: 20px; }
+.prompt-box__text { font-size: 15px; line-height: 1.8; color: #444; }
+
+/* Scenario / step card */
+.scenario-card { border: 1px solid #e8e8e8; padding: 32px; margin: 24px 0; background: #f9f9f9; }
+.scenario-card__num {
+  font-family: 'Libre Baskerville', Georgia, serif;
+  font-style: italic; font-size: 14px;
+  color: var(--accent); letter-spacing: 1px; margin-bottom: 8px;
+}
+.scenario-card__title {
+  font-family: 'Libre Baskerville', Georgia, serif;
+  font-size: 20px; font-weight: 700; line-height: 1.4; margin-bottom: 20px;
+}
+.scenario-card__point { margin-bottom: 14px; }
+.scenario-card__point-label { font-weight: 600; font-size: 16px; color: #1a1a1a; }
+.scenario-card__point-text { font-size: 15px; color: #666; line-height: 1.7; }
+.scenario-card__ending {
+  font-family: 'Libre Baskerville', Georgia, serif;
+  font-size: 17px; font-style: italic; color: #1a1a1a;
+  padding-top: 16px; margin-top: 16px; border-top: 1px solid #e0e0e0;
+}
+.scenario-card__tip {
+  background: #f0f0f0; padding: 14px 18px; margin-top: 16px;
+  font-size: 14px; color: #555; line-height: 1.65;
+}
+.scenario-card__tip strong { color: var(--accent); }
+
+/* Footer */
+.footer {
+  text-align: center; padding: 64px 24px;
+  border-top: 1px solid #e8e8e8; margin-top: 64px;
+  color: #999; font-size: 14px;
+}
+.footer .tiny {
+  font-size: 12.5px; color: #bbb; max-width: 52ch;
+  margin: 12px auto 0; line-height: 1.6; letter-spacing: 0;
+}
+.footer-note {
+  font-family: 'Libre Baskerville', Georgia, serif;
+  font-size: 18px; font-style: italic; color: #444;
+  text-align: center; padding: 48px 24px 0;
+}
+.footer-note em { color: var(--accent); }
+
+/* Copy button */
+.copy-btn {
+  display: inline-flex; align-items: center; gap: 10px;
+  font-family: 'Inter', sans-serif;
+  font-size: 13px; font-weight: 600;
+  letter-spacing: 1.5px; text-transform: uppercase;
+  color: #fff; background: var(--accent);
+  border: 1px solid var(--accent);
+  padding: 14px 28px; margin-top: 28px;
+  cursor: pointer; transition: opacity 0.2s;
+}
+.copy-btn:hover { opacity: 0.85; }
+.copy-btn.copied { background: #1a1a1a; border-color: #1a1a1a; }
+.copy-btn__hint { display: block; font-size: 13px; color: #999; margin-top: 10px; }
+
+/* Responsive */
+@media (max-width: 768px) {
+  .nav { padding: 16px 20px; }
+  .hero h1 { font-size: 28px; }
+  .section-heading { font-size: 24px; }
+  .scenario-card { padding: 20px; }
+  .prompt-box { padding: 24px; }
+}
+</style>
+</head>
+<body>
+
+<nav class="nav">
+  <a class="nav__logo" href="#"><img src="https://maiyamaiya19999-bit.github.io/maysoulme-assets/logo-ms.png" alt="MS"></a>
+  <span class="nav__logo-name">maysoulme</span>
+</nav>
+
+<div class="container">
+
+  <div class="hero">
+    <div class="badge">Гайд</div>
+    <h1>Распаковка себя <em>на контент</em></h1>
+    <p class="hero__desc">40 вопросов, после которых у тебя не останется мысли «у меня скучная жизнь и нечего рассказать». Отвечай голосом — идеи соберутся сами.</p>
+    <p class="hero__meta">Контент &middot; Личный бренд &middot; ~15 минут</p>
+    <button class="copy-btn" id="copyAllBtn" onclick="copyAllText()">Скопировать весь гайд</button>
+    <span class="copy-btn__hint">Одна кнопка — все вопросы в буфере. Можно вставить в заметки или сразу в Claude.</span>
+  </div>
+
+  <p class="intro-bold">Как использовать.</p>
+  <p class="intro-text">Не отвечай письменно и красиво — наговаривай голосом, хаотично, как рассказывала бы подруге. Детали важнее формулировок: цифры, имена, что почувствовала. Необязательно проходить всё: выбери вопросы, на которых внутри что-то ёкнуло — «ооо, тут есть история» или «блин, об этом страшновато». Именно там лежит твой самый сильный контент. Десяти честных ответов хватает на месяц постов.</p>
+
+  <h2 class="section-heading"><span>01.</span> Деньги и <em>работа</em></h2>
+  <p class="text">То, о чём все думают, глядя на любой блог: «а на что она живёт?»</p>
+  <ul class="guide-list">
+    <li><strong>На что ты живёшь и как к этому пришла?</strong> Путь денег: первая зарплата → сегодняшний доход</li>
+    <li><strong>Самая крупная сумма, которую ты заработала за раз</strong> — и что ты почувствовала в тот момент</li>
+    <li><strong>Трата, которой гордишься, и трата, которой стыдишься</strong></li>
+    <li><strong>Что в твоей работе выглядит красиво со стороны, а на деле — рутина?</strong> И наоборот: что незаметное ты обожаешь?</li>
+    <li><strong>Кем ты работала раньше?</strong> Самая странная работа или подработка в жизни</li>
+    <li><strong>Сколько стоит твой обычный день?</strong> Посчитай хотя бы раз — это готовый пост</li>
+  </ul>
+
+  <h2 class="section-heading"><span>02.</span> Быт и <em>обычный день</em></h2>
+  <p class="text">Подглядывание — главный триггер. Люди хотят видеть, как живут другие на самом деле.</p>
+  <ul class="guide-list">
+    <li><strong>Опиши вчерашний день по часам</strong>, ничего не приукрашивая — с тупняком и прокрастинацией</li>
+    <li><strong>Твоё реальное утро</strong> против того, как «должно быть по правилам успешных людей»</li>
+    <li><strong>Какая вещь в твоём доме рассказывает о тебе больше всего?</strong> История одной вещи</li>
+    <li><strong>Что ты ешь на самом деле?)</strong></li>
+    <li><strong>Привычка или ритуал, который со стороны выглядит странно</strong></li>
+    <li><strong>Что ты делаешь, когда никто не видит и дедлайнов нет?</strong></li>
+    <li><strong>Без какого приложения или предмета твой день разваливается?</strong></li>
+  </ul>
+
+  <h2 class="section-heading"><span>03.</span> Путь и <em>трансформации</em></h2>
+  <p class="text">Истории «до и после» — то, ради чего смотрят сериалы.</p>
+  <ul class="guide-list">
+    <li><strong>Какой ты была 5 лет назад?</strong> Что бы та девочка сказала, увидев тебя сейчас?</li>
+    <li><strong>Решение, принятое за один день, которое изменило всё</strong></li>
+    <li><strong>Самый большой провал</strong> — и каким было утро после него</li>
+    <li><strong>Момент «всё, я так больше не могу»</strong> — и что ты сделала дальше</li>
+    <li><strong>От чего ты отказалась, чтобы жить как сейчас?</strong> Чего это стоило?</li>
+    <li><strong>Есть фото «до»?</strong> Расскажи, что стоит за тем снимком</li>
+  </ul>
+
+  <h2 class="section-heading"><span>04.</span> Люди <em>вокруг</em></h2>
+  <p class="text">Отношения — триггер №1. Даже если блог про работу.</p>
+  <ul class="guide-list">
+    <li><strong>Человек, который повлиял на тебя сильнее всех</strong> — что он сказал или сделал?</li>
+    <li><strong>Кто в тебя не верил?</strong> Где он теперь)</li>
+    <li><strong>За кем следишь и слегка фанатеешь ты сама</strong> — и почему именно за ним?</li>
+    <li><strong>Фраза от близких, которая тебя бесит.</strong> И фраза, которая держит на плаву</li>
+    <li><strong>Кому ты благодарна, но никогда не говорила этого вслух?</strong></li>
+    <li><strong>Как близкие относятся к тому, чем ты занимаешься?</strong> Что говорит мама?)</li>
+  </ul>
+
+  <h2 class="section-heading"><span>05.</span> Странности и <em>любимое</em></h2>
+  <p class="text">Именно «нелогичные» детали делают тебя запоминающейся.</p>
+  <ul class="guide-list">
+    <li><strong>Что ты умеешь, о чём не знают даже подписчики?</strong> Инструмент, спорт, язык, странный навык</li>
+    <li><strong>Что ты можешь делать часами</strong> и забыть про телефон?</li>
+    <li><strong>Твоя «глупая» покупка, которая принесла больше счастья, чем все умные</strong></li>
+    <li><strong>Что доводит тебя до слёз?</strong> Фильм, песня, момент — почему именно это?</li>
+    <li><strong>Самая нетипичная для человека твоей профессии вещь, которую ты делаешь</strong></li>
+  </ul>
+
+  <h2 class="section-heading"><span>06.</span> Страхи, мечты и <em>планы</em></h2>
+  <p class="text">Уязвимость сближает сильнее любых достижений.</p>
+  <ul class="guide-list">
+    <li><strong>Мечта, о которой страшно говорить вслух</strong> — потому что «вдруг не получится»</li>
+    <li><strong>Чего ты боишься, несмотря на все свои успехи?</strong></li>
+    <li><strong>Каким ты видишь свой обычный день через 3 года?</strong> Именно день, а не цели</li>
+    <li><strong>Что бы ты делала, если бы завтра всё исчезло</strong> — деньги, блог, статус?</li>
+    <li><strong>Что ты откладываешь «на потом» уже больше года?</strong></li>
+  </ul>
+
+  <h2 class="section-heading"><span>07.</span> Острое и <em>запретное</em></h2>
+  <p class="text">По желанию. Но именно такие посты пересылают подругам.</p>
+  <ul class="guide-list">
+    <li><strong>Мнение, которое ты думаешь, но не решаешься написать</strong></li>
+    <li><strong>Что тебя бесит в твоей нише?</strong></li>
+    <li><strong>Самый неприятный хейт в твою сторону</strong> — и что задело на самом деле</li>
+    <li><strong>Тренд, который все обожают, а ты нет</strong></li>
+    <li><strong>Вопрос, который тебе задают постоянно и который уже надоел</strong></li>
+  </ul>
+
+  <div class="highlight"><strong>Что делать с ответами.</strong> Собери расшифровки хотя бы 10 ответов (голосовые удобно расшифровывать ботом-транскрибатором) и отправь их нейросети вместе с промптом ниже — получишь идеи и план на месяц вперёд.</div>
+
+  <div class="prompt-box">
+    <div class="prompt-box__title">Промпт для Claude</div>
+    <p>Вот мои ответы на вопросы распаковки. Проанализируй их и: 1) выдели 15 самых сильных историй и фактов, которые зацепят аудиторию; 2) под каждую предложи формат (пост, reels, сторис) и цепляющий первый абзац; 3) собери из этого контент-план на месяц, чередуя личное и экспертное. Пиши моим языком и сохраняй мои формулировки из ответов.</p>
+  </div>
+
+  <div class="highlight"><strong>Хочешь глубже?</strong> Это быстрая распаковка на идеи. Есть и полная версия — <a href="raspakovka-lichnosti.html">«Распаковка личности для блога»</a>: она вытаскивает твои смыслы и голос так, что на них можно обучить ИИ-ассистентов писать за тебя.</div>
+
+  <div class="footer">
+    © 2026 · maysoulme · Распаковка себя на контент
+    <div class="tiny">Гайд для личного использования. Отвечай честно — скучных жизней не бывает.</div>
+  </div>
+
+</div>
+
+<script>
+function copyAllText() {
+  var btn = document.getElementById('copyAllBtn');
+  var hint = document.querySelector('.copy-btn__hint');
+  var container = document.querySelector('.container');
+  btn.style.display = 'none';
+  hint.style.display = 'none';
+  var text = container.innerText.trim();
+  btn.style.display = '';
+  hint.style.display = '';
+
+  function done() {
+    btn.classList.add('copied');
+    btn.textContent = 'Скопировано ✓';
+    setTimeout(function () {
+      btn.classList.remove('copied');
+      btn.textContent = 'Скопировать весь гайд';
+    }, 2500);
+  }
+
+  if (navigator.clipboard && navigator.clipboard.writeText) {
+    navigator.clipboard.writeText(text).then(done).catch(function () { fallbackCopy(text, done); });
+  } else {
+    fallbackCopy(text, done);
+  }
+}
+
+function fallbackCopy(text, done) {
+  var ta = document.createElement('textarea');
+  ta.value = text;
+  ta.style.position = 'fixed';
+  ta.style.opacity = '0';
+  document.body.appendChild(ta);
+  ta.focus();
+  ta.select();
+  try { document.execCommand('copy'); done(); } catch (e) {}
+  document.body.removeChild(ta);
+}
+</script>
+
+</body>
+</html>
