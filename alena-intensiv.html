@@ -57,7 +57,9 @@ section{padding:76px 0;border-top:1px solid var(--hair);}
 .why-key{font-family:'Libre Baskerville',serif;font-style:italic;font-size:23px;line-height:1.6;color:var(--ink);margin-top:28px;}
 .why-key span{color:var(--bordo);}
 
-.module{max-width:760px;margin:0 auto;padding:44px 0;border-bottom:1px solid var(--hair);}
+.module{max-width:760px;margin:0 auto;padding:44px 0;border-bottom:1px solid var(--hair);position:relative;}
+.mod-ghost{position:absolute;top:2px;right:-10px;font-family:'Libre Baskerville',Georgia,serif;font-weight:700;font-size:210px;line-height:1;color:rgba(113,12,4,.055);z-index:0;pointer-events:none;user-select:none;}
+.module>*:not(.mod-ghost){position:relative;z-index:1;}
 .module:last-of-type{border-bottom:none;padding-bottom:0;}
 .mod-eyebrow{font-family:'Libre Baskerville',serif;font-style:italic;font-size:16px;color:var(--bordo);margin-bottom:8px;}
 .mod-title{font-family:'Libre Baskerville',serif;font-weight:700;font-size:19.5px;line-height:1.5;color:var(--ink);margin-bottom:16px;text-transform:uppercase;letter-spacing:.045em;}
@@ -123,6 +125,7 @@ footer{text-align:center;padding:52px 24px 60px;}
 @media (prefers-reduced-motion:reduce){.hero-glow,.price-glow,.hero .lead-in,.hero h1,.hero .offer,.hero .no,.hero .promise,.hero .btn,.hero .photo-side{animation:none;}}
 
 @media (max-width:820px){
+  .mod-ghost{font-size:120px;top:6px;right:0;}
   .head-cta{display:none;}
   .hero{grid-template-columns:1fr;gap:44px;padding:44px 0 60px;}
   .hero h1{font-size:34px;}
@@ -194,7 +197,8 @@ footer{text-align:center;padding:52px 24px 60px;}
   <h2 class="sec-title">Четыре модуля — <em>четыре шага к себе</em></h2>
 
   <div class="module">
-    <p class="mod-eyebrow">модуль первый</p>
+    <div class="mod-ghost">1</div>
+    <p class="mod-eyebrow">модуль 1</p>
     <h3 class="mod-title">Активация энергии: тело, которое <em>снова живёт</em></h3>
     <p class="mod-intro">В тебе уже есть та женщина, которая светится, — ты её помнишь. Энергия не берётся из кофе и силы воли: она возвращается сама, когда тело отпускает лишнее. Здесь ты вернёшь себе силы, которые всегда были твоими, — и почувствуешь это уже в первую ночь.</p>
     <p class="mod-know">в этом модуле ты узнаешь</p>
@@ -208,7 +212,8 @@ footer{text-align:center;padding:52px 24px 60px;}
   </div>
 
   <div class="module">
-    <p class="mod-eyebrow">модуль второй</p>
+    <div class="mod-ghost">2</div>
+    <p class="mod-eyebrow">модуль 2</p>
     <h3 class="mod-title">Тело и чувственность: <em>разрешение чувствовать</em></h3>
     <p class="mod-intro">Чувственность в тебе уже живёт — ей не нужно учиться, ей нужно разрешение. Когда женщина в контакте со своим телом, это считывается за секунду, до слов и до макияжа: походка, взгляд, спокойная уверенность.</p>
     <p class="mod-know">в этом модуле ты узнаешь</p>
@@ -222,7 +227,8 @@ footer{text-align:center;padding:52px 24px 60px;}
   </div>
 
   <div class="module">
-    <p class="mod-eyebrow">модуль третий</p>
+    <div class="mod-ghost">3</div>
+    <p class="mod-eyebrow">модуль 3</p>
     <h3 class="mod-title">Перепрошивка: загружаем <em>новую реальность</em></h3>
     <p class="mod-intro">Представь, что внутри стоит старая программа, которую установили без твоего согласия. Ты выросла, а программа осталась. Хорошая новость: её можно переустановить — и жизнь разворачивается удивительно быстро, потому что вся твоя сила уже при тебе.</p>
     <p class="mod-know">в этом модуле ты узнаешь</p>
@@ -235,7 +241,8 @@ footer{text-align:center;padding:52px 24px 60px;}
   </div>
 
   <div class="module">
-    <p class="mod-eyebrow">модуль четвёртый</p>
+    <div class="mod-ghost">4</div>
+    <p class="mod-eyebrow">модуль 4</p>
     <h3 class="mod-title">Женщина, которую выбирают: <em>магнетизм и забота</em></h3>
     <p class="mod-intro">Женщина в своём состоянии притягивает лучшее естественно: ей хотят помогать, её хотят радовать — от любимого мужчины до случайного бариста. Это навык из маленьких ежедневных вещей, и здесь ты его освоишь.</p>
     <p class="mod-know">в этом модуле ты узнаешь</p>
