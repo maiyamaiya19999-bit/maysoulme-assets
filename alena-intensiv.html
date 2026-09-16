@@ -16,7 +16,9 @@ body{font-family:'Inter',sans-serif;background:var(--milk);color:var(--body);fon
 .bask{font-family:'Libre Baskerville',Georgia,serif;}
 .wrap{max-width:1020px;margin:0 auto;padding:0 28px;}
 
-header{display:flex;justify-content:space-between;align-items:baseline;padding:26px 0;border-bottom:1px solid var(--hair);}
+header{display:flex;justify-content:space-between;align-items:baseline;gap:24px;padding:26px 0;border-bottom:1px solid var(--hair);}
+.head-cta{font-size:13.5px;font-weight:600;color:var(--bordo);text-decoration:none;border-bottom:1px solid var(--bordo);padding-bottom:2px;}
+.head-cta:hover{opacity:.75;}
 .brand{font-family:'Libre Baskerville',serif;font-weight:700;font-size:19px;color:var(--ink);}
 .brand-sub{font-family:'DM Sans',sans-serif;font-style:italic;font-size:14px;color:var(--soft);}
 
@@ -26,7 +28,8 @@ header{display:flex;justify-content:space-between;align-items:baseline;padding:2
 .hero-glow{position:absolute;width:560px;height:560px;right:-120px;top:-60px;border-radius:50%;background:radial-gradient(circle at 40% 40%, #F6D9C2, #F2C4B4 45%, rgba(253,252,249,0) 72%);filter:blur(40px);opacity:.65;z-index:0;pointer-events:none;}
 .hero .hero-glow{position:absolute;z-index:0;}
 .lead-in{font-family:'Libre Baskerville',serif;font-style:italic;font-size:18px;color:var(--bordo);margin-bottom:20px;}
-.hero h1{font-family:'Libre Baskerville',serif;font-weight:700;font-size:52px;line-height:1.18;color:var(--ink);margin-bottom:24px;}
+.hero h1{font-family:'Libre Baskerville',serif;font-weight:700;font-size:44px;line-height:1.28;color:var(--ink);margin-bottom:24px;text-transform:uppercase;letter-spacing:.035em;}
+.hero h1 em,.sec-title em,.mod-title em,.price h2 em{font-style:italic;color:var(--bordo);}
 .offer{font-size:17px;margin-bottom:26px;max-width:46ch;}
 .no{list-style:none;margin-bottom:26px;max-width:440px;}
 .no li{padding:10px 0 10px 28px;position:relative;font-size:15.5px;border-bottom:1px solid var(--hair);}
@@ -41,12 +44,12 @@ header{display:flex;justify-content:space-between;align-items:baseline;padding:2
 
 /* Sections */
 section{padding:76px 0;border-top:1px solid var(--hair);}
-.sec-lead{font-family:'Libre Baskerville',serif;font-style:italic;font-size:17px;color:var(--bordo);text-align:center;margin-bottom:12px;}
-.sec-title{font-family:'Libre Baskerville',serif;font-weight:700;font-size:36px;line-height:1.3;color:var(--ink);text-align:center;margin-bottom:44px;}
+.sec-lead{font-size:11.5px;font-weight:600;letter-spacing:3px;text-transform:uppercase;color:var(--bordo);text-align:center;margin-bottom:14px;}
+.sec-title{font-family:'Libre Baskerville',serif;font-weight:700;font-size:29px;line-height:1.42;color:var(--ink);text-align:center;margin-bottom:44px;text-transform:uppercase;letter-spacing:.04em;}
 
-.if-list{list-style:none;max-width:640px;margin:0 auto;}
-.if-list li{padding:16px 0 16px 34px;position:relative;font-size:16.5px;border-bottom:1px solid var(--hair);}
-.if-list li:first-child{border-top:1px solid var(--hair);}
+.if-list{list-style:none;max-width:760px;margin:0 auto;columns:2;column-gap:56px;}
+@media (max-width:760px){.if-list{columns:1;}}
+.if-list li{padding:15px 0 15px 30px;position:relative;font-size:15.5px;border-bottom:1px solid var(--hair);break-inside:avoid;}
 .if-list li::before{content:'◆';position:absolute;left:4px;top:17px;font-size:9px;color:var(--bordo);}
 
 .why{max-width:660px;margin:0 auto;text-align:center;}
@@ -57,7 +60,7 @@ section{padding:76px 0;border-top:1px solid var(--hair);}
 .module{max-width:760px;margin:0 auto;padding:44px 0;border-bottom:1px solid var(--hair);}
 .module:last-of-type{border-bottom:none;padding-bottom:0;}
 .mod-eyebrow{font-family:'Libre Baskerville',serif;font-style:italic;font-size:16px;color:var(--bordo);margin-bottom:8px;}
-.mod-title{font-family:'Libre Baskerville',serif;font-weight:700;font-size:24px;line-height:1.35;color:var(--ink);margin-bottom:16px;}
+.mod-title{font-family:'Libre Baskerville',serif;font-weight:700;font-size:19.5px;line-height:1.5;color:var(--ink);margin-bottom:16px;text-transform:uppercase;letter-spacing:.045em;}
 .mod-intro{font-size:15.5px;margin-bottom:20px;}
 .mod-know{font-family:'Libre Baskerville',serif;font-style:italic;font-size:16px;color:var(--ink);margin-bottom:10px;}
 .mod-list{list-style:none;margin-bottom:22px;}
@@ -91,7 +94,8 @@ section{padding:76px 0;border-top:1px solid var(--hair);}
 .price-glow{position:absolute;width:520px;height:520px;border-radius:50%;right:-140px;top:-160px;background:radial-gradient(circle, #A24630, rgba(74,11,4,0) 70%);filter:blur(30px);opacity:.55;}
 .price>*{position:relative;}
 .price .lead-in{color:#E8AE93;}
-.price h2{font-family:'Libre Baskerville',serif;font-weight:700;font-size:40px;color:#FBF3EA;margin-bottom:16px;}
+.price h2{font-family:'Libre Baskerville',serif;font-weight:700;font-size:34px;color:#FBF3EA;margin-bottom:16px;text-transform:uppercase;letter-spacing:.05em;}
+.price h2 em{color:#E8AE93;}
 .price p{max-width:52ch;margin:0 auto 30px;font-size:15.5px;}
 .price .sum{font-family:'Libre Baskerville',serif;font-size:64px;color:#FBF3EA;margin-bottom:30px;}
 .price .btn{background:#FBF3EA;color:#4A0B04;}
@@ -99,7 +103,8 @@ section{padding:76px 0;border-top:1px solid var(--hair);}
 .btn-sub{display:block;margin-top:14px;font-size:13px;color:#C99B85;}
 
 footer{text-align:center;padding:52px 24px 60px;}
-.foot-line{font-family:'Libre Baskerville',serif;font-style:italic;font-size:19px;color:var(--ink);margin-bottom:22px;}
+.foot-line{font-family:'Libre Baskerville',serif;font-size:15.5px;letter-spacing:.06em;text-transform:uppercase;color:var(--ink);margin-bottom:22px;}
+.foot-line em{font-style:italic;color:var(--bordo);}
 .foot-line em{color:var(--bordo);}
 .foot-meta{font-size:12.5px;color:var(--soft);line-height:2;}
 
@@ -118,6 +123,7 @@ footer{text-align:center;padding:52px 24px 60px;}
 @media (prefers-reduced-motion:reduce){.hero-glow,.price-glow,.hero .lead-in,.hero h1,.hero .offer,.hero .no,.hero .promise,.hero .btn,.hero .photo-side{animation:none;}}
 
 @media (max-width:820px){
+  .head-cta{display:none;}
   .hero{grid-template-columns:1fr;gap:44px;padding:44px 0 60px;}
   .hero h1{font-size:34px;}
   .hero-glow{width:380px;height:380px;right:-120px;top:40px;}
@@ -137,13 +143,14 @@ footer{text-align:center;padding:52px 24px 60px;}
 <header>
   <span class="brand">Алёна</span>
   <span class="brand-sub">телесные практики и психология</span>
+  <a class="head-cta" href="#price">Купить — 5 000 ₽</a>
 </header>
 
 <div class="hero">
   <div class="hero-glow"></div>
   <div class="hero-copy">
     <p class="lead-in">интенсив на 7 дней</p>
-    <h1>Женщина, которую выбирают</h1>
+    <h1>Женщина, которую <em>выбирают</em></h1>
     <p class="offer">За 7 дней ты включишь энергию и магнетизм женщины, которую любят, ценят и хотят баловать, — через телесные практики и психологию, всего по 15 минут в день лёжа.</p>
     <ul class="no">
       <li>без года терапии и раскапывания детства</li>
@@ -160,8 +167,8 @@ footer{text-align:center;padding:52px 24px 60px;}
 </div>
 
 <section>
-  <p class="sec-lead">про тебя</p>
-  <h2 class="sec-title">Этот интенсив для тебя, если…</h2>
+  <p class="sec-lead">01 — про тебя</p>
+  <h2 class="sec-title">Этот интенсив <em>для тебя</em>, если…</h2>
   <ul class="if-list">
     <li>Ты просыпаешься уже уставшей, и кофе давно не помогает</li>
     <li>Реагируешь на близких резче, чем сама хочешь, а вечером коришь себя</li>
@@ -173,8 +180,8 @@ footer{text-align:center;padding:52px 24px 60px;}
 </section>
 
 <section>
-  <p class="sec-lead">метод</p>
-  <h2 class="sec-title">Почему здесь получится,<br>даже если раньше не получалось</h2>
+  <p class="sec-lead">02 — метод</p>
+  <h2 class="sec-title">Почему здесь <em>получится</em>,<br>даже если раньше не получалось</h2>
   <div class="why">
     <p>С тобой всё в порядке. Просто всё, что ты пробовала раньше, работало с головой, а твои реакции живут в теле: в плечах, в дыхании, в зажатой челюсти. Голова давно всё поняла, тело продолжает по-старому.</p>
     <p>На интенсиве мы заходим через тело: оно расслабляется, реакции меняются сами, а вслед за ними меняется то, как ты себя чувствуешь и как мир отвечает тебе.</p>
@@ -183,12 +190,12 @@ footer{text-align:center;padding:52px 24px 60px;}
 </section>
 
 <section>
-  <p class="sec-lead">программа</p>
-  <h2 class="sec-title">Четыре модуля — четыре шага к себе</h2>
+  <p class="sec-lead">03 — программа</p>
+  <h2 class="sec-title">Четыре модуля — <em>четыре шага к себе</em></h2>
 
   <div class="module">
     <p class="mod-eyebrow">модуль первый</p>
-    <h3 class="mod-title">Активация энергии: тело, которое снова живёт</h3>
+    <h3 class="mod-title">Активация энергии: тело, которое <em>снова живёт</em></h3>
     <p class="mod-intro">В тебе уже есть та женщина, которая светится, — ты её помнишь. Энергия не берётся из кофе и силы воли: она возвращается сама, когда тело отпускает лишнее. Здесь ты вернёшь себе силы, которые всегда были твоими, — и почувствуешь это уже в первую ночь.</p>
     <p class="mod-know">в этом модуле ты узнаешь</p>
     <ul class="mod-list">
@@ -202,7 +209,7 @@ footer{text-align:center;padding:52px 24px 60px;}
 
   <div class="module">
     <p class="mod-eyebrow">модуль второй</p>
-    <h3 class="mod-title">Тело и чувственность: разрешение чувствовать</h3>
+    <h3 class="mod-title">Тело и чувственность: <em>разрешение чувствовать</em></h3>
     <p class="mod-intro">Чувственность в тебе уже живёт — ей не нужно учиться, ей нужно разрешение. Когда женщина в контакте со своим телом, это считывается за секунду, до слов и до макияжа: походка, взгляд, спокойная уверенность.</p>
     <p class="mod-know">в этом модуле ты узнаешь</p>
     <ul class="mod-list">
@@ -216,7 +223,7 @@ footer{text-align:center;padding:52px 24px 60px;}
 
   <div class="module">
     <p class="mod-eyebrow">модуль третий</p>
-    <h3 class="mod-title">Перепрошивка: загружаем новую реальность</h3>
+    <h3 class="mod-title">Перепрошивка: загружаем <em>новую реальность</em></h3>
     <p class="mod-intro">Представь, что внутри стоит старая программа, которую установили без твоего согласия. Ты выросла, а программа осталась. Хорошая новость: её можно переустановить — и жизнь разворачивается удивительно быстро, потому что вся твоя сила уже при тебе.</p>
     <p class="mod-know">в этом модуле ты узнаешь</p>
     <ul class="mod-list">
@@ -229,7 +236,7 @@ footer{text-align:center;padding:52px 24px 60px;}
 
   <div class="module">
     <p class="mod-eyebrow">модуль четвёртый</p>
-    <h3 class="mod-title">Женщина, которую выбирают: магнетизм и забота</h3>
+    <h3 class="mod-title">Женщина, которую выбирают: <em>магнетизм и забота</em></h3>
     <p class="mod-intro">Женщина в своём состоянии притягивает лучшее естественно: ей хотят помогать, её хотят радовать — от любимого мужчины до случайного бариста. Это навык из маленьких ежедневных вещей, и здесь ты его освоишь.</p>
     <p class="mod-know">в этом модуле ты узнаешь</p>
     <ul class="mod-list">
@@ -240,11 +247,12 @@ footer{text-align:center;padding:52px 24px 60px;}
     </ul>
     <span class="bonus"><i>бонус</i>аудио-подкаст «Как позволить миру заботиться о тебе»</span>
   </div>
+  <p style="text-align:center;margin-top:52px;"><a class="btn" href="#price">Забрать интенсив — 5 000 ₽</a></p>
 </section>
 
 <section>
-  <p class="sec-lead">наполнение</p>
-  <h2 class="sec-title">Что ты получаешь</h2>
+  <p class="sec-lead">04 — наполнение</p>
+  <h2 class="sec-title">Что ты <em>получаешь</em></h2>
   <div class="get">
     <div class="get-card"><h4>4 видеомодуля</h4><p>Прямо в Telegram — смотришь, когда удобно</p></div>
     <div class="get-card"><h4>7 практик навсегда</h4><p>Продолжают работать и после интенсива</p></div>
@@ -255,8 +263,8 @@ footer{text-align:center;padding:52px 24px 60px;}
 </section>
 
 <section>
-  <p class="sec-lead">результаты</p>
-  <h2 class="sec-title">Что ты почувствуешь уже во время прохождения</h2>
+  <p class="sec-lead">05 — результаты</p>
+  <h2 class="sec-title">Что ты почувствуешь <em>уже во время</em> прохождения</h2>
   <div class="res">
     <div class="res-row"><span class="res-when">первая ночь</span><span class="res-what">Засыпаешь легче и впервые за долгое время по-настоящему отдыхаешь</span></div>
     <div class="res-row"><span class="res-when">первая неделя</span><span class="res-what">Утром появляется энергия, днём — спокойствие там, где раньше вспыхивала</span></div>
@@ -272,8 +280,8 @@ footer{text-align:center;padding:52px 24px 60px;}
 </section>
 
 <section>
-  <p class="sec-lead">честно</p>
-  <h2 class="sec-title">Кому не подойдёт</h2>
+  <p class="sec-lead">06 — честно</p>
+  <h2 class="sec-title">Кому <em>не подойдёт</em></h2>
   <p class="fine">Если ты ждёшь, что всё изменится совсем без твоего участия, — не подойдёт: 15 минут в день всё-таки твои. И если сильная усталость держится месяцами, сначала загляни к врачу — практики дополняют заботу о здоровье, а не заменяют её.</p>
   <p class="flow"><b>Первый поток</b> — поэтому такая цена. Следующий будет стоить 7 900 ₽.</p>
 </section>
@@ -283,7 +291,7 @@ footer{text-align:center;padding:52px 24px 60px;}
 <div class="price" id="price">
   <div class="price-glow"></div>
   <p class="lead-in">первый поток</p>
-  <h2>Готова включиться?</h2>
+  <h2>Готова <em>включиться?</em></h2>
   <p>4 модуля, 7 практик навсегда, йога-нидра, чек-листы и закрытый канал. При покупке в первые 24 часа — дополнительная аудио-практика в подарок.</p>
   <div class="sum">5 000 ₽</div>
   <a class="btn" href="#">Забрать интенсив</a>
