@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex, nofollow">
+<title>Марафон BLOGGIRL</title>
+<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Inter:wght@400;500;600;700&family=DM+Sans:ital@1&display=swap" rel="stylesheet">
+<style>
+*,*::before,*::after{margin:0;padding:0;box-sizing:border-box;}
+html,body{overflow-x:hidden;max-width:100%;}
+html{overflow-x:clip;}
+:root{
+  --milk:#FDFCF9; --ink:#262220; --body:#55504B; --soft:#948C83;
+  --bordo:#710C04; --hair:#E9E4DC; --wash:#F7F3EC;
+}
+body{font-family:'Inter',sans-serif;background:var(--milk);color:var(--body);font-size:16.5px;line-height:1.8;-webkit-font-smoothing:antialiased;overflow-x:hidden;}
+.bask{font-family:'Libre Baskerville',Georgia,serif;}
+.wrap{max-width:1020px;margin:0 auto;padding:0 28px;}
+
+header{display:flex;justify-content:space-between;align-items:baseline;gap:24px;padding:26px 0;border-bottom:1px solid var(--hair);}
+.head-cta{font-size:13.5px;font-weight:600;color:var(--bordo);text-decoration:none;border-bottom:1px solid var(--bordo);padding-bottom:2px;}
+.head-cta:hover{opacity:.75;}
+.brand{font-family:'Libre Baskerville',serif;font-weight:700;font-size:19px;color:var(--ink);}
+.brand-sub{font-family:'DM Sans',sans-serif;font-style:italic;font-size:14px;color:var(--soft);}
+
+/* Hero */
+.hero{display:grid;grid-template-columns:1.08fr .92fr;gap:64px;align-items:center;padding:72px 0 84px;position:relative;}
+.hero-copy,.photo-side{position:relative;z-index:1;}
+.hero-glow{position:absolute;width:560px;height:560px;right:-120px;top:-60px;border-radius:50%;background:radial-gradient(circle at 40% 40%, #F6D9C2, #F2C4B4 45%, rgba(253,252,249,0) 72%);filter:blur(40px);opacity:.65;z-index:0;pointer-events:none;}
+.hero .hero-glow{position:absolute;z-index:0;}
+.lead-in{font-family:'Libre Baskerville',serif;font-style:italic;font-size:18px;color:var(--bordo);margin-bottom:20px;}
+.hero h1{font-family:'Libre Baskerville',serif;font-weight:700;font-size:44px;line-height:1.28;color:var(--ink);margin-bottom:24px;text-transform:uppercase;letter-spacing:.035em;}
+.hero h1 em,.sec-title em,.mod-title em,.price h2 em{font-style:italic;color:var(--bordo);}
+.offer{font-size:17px;margin-bottom:26px;max-width:46ch;}
+.no{list-style:none;margin-bottom:26px;max-width:440px;}
+.no li{padding:10px 0 10px 28px;position:relative;font-size:15.5px;border-bottom:1px solid var(--hair);}
+.no li:first-child{border-top:1px solid var(--hair);}
+.no li::before{content:'✕';position:absolute;left:2px;top:10px;color:var(--bordo);font-size:11px;}
+.promise{font-family:'Libre Baskerville',serif;font-style:italic;font-size:18.5px;color:var(--ink);margin-bottom:30px;}
+.btn{display:inline-block;background:var(--bordo);color:#FCF8F3;font-size:15px;font-weight:500;padding:18px 42px;text-decoration:none;transition:background .25s,transform .25s;}
+.btn:hover{background:#8C1D12;transform:translateY(-2px);}
+.photo-frame{border:1px solid var(--ink);padding:14px;background:var(--milk);}
+.photo{aspect-ratio:3/4;background:#E9CDB9 none center 22%/cover no-repeat;display:block;}
+.photo-cap{font-family:'DM Sans',sans-serif;font-style:italic;font-size:13.5px;color:var(--soft);margin-top:12px;text-align:right;}
+
+/* Sections */
+section{padding:76px 0;border-top:1px solid var(--hair);}
+.sec-lead{font-size:11.5px;font-weight:600;letter-spacing:3px;text-transform:uppercase;color:var(--bordo);text-align:center;margin-bottom:14px;}
+.sec-title{font-family:'Libre Baskerville',serif;font-weight:700;font-size:29px;line-height:1.42;color:var(--ink);text-align:center;margin-bottom:44px;text-transform:uppercase;letter-spacing:.04em;}
+
+.if-list{list-style:none;max-width:760px;margin:0 auto;columns:2;column-gap:56px;}
+@media (max-width:760px){.if-list{columns:1;}}
+.if-list li{padding:15px 0 15px 30px;position:relative;font-size:15.5px;border-bottom:1px solid var(--hair);break-inside:avoid;}
+.if-list li::before{content:'◆';position:absolute;left:4px;top:17px;font-size:9px;color:var(--bordo);}
+
+.why{max-width:660px;margin:0 auto;text-align:center;}
+.why p{margin-bottom:18px;}
+.why-key{font-family:'Libre Baskerville',serif;font-style:italic;font-size:23px;line-height:1.6;color:var(--ink);margin-top:28px;}
+.why-key span{color:var(--bordo);}
+
+.module{max-width:760px;margin:0 auto;padding:44px 0;border-bottom:1px solid var(--hair);position:relative;}
+.mod-ghost{position:absolute;top:2px;right:-10px;font-family:'Libre Baskerville',Georgia,serif;font-weight:700;font-size:210px;line-height:1;color:rgba(113,12,4,.055);z-index:0;pointer-events:none;user-select:none;}
+.module>*:not(.mod-ghost){position:relative;z-index:1;}
+.module:last-of-type{border-bottom:none;padding-bottom:0;}
+.mod-eyebrow{font-family:'Libre Baskerville',serif;font-style:italic;font-size:16px;color:var(--bordo);margin-bottom:8px;}
+.mod-title{font-family:'Libre Baskerville',serif;font-weight:700;font-size:19.5px;line-height:1.5;color:var(--ink);margin-bottom:16px;text-transform:uppercase;letter-spacing:.045em;}
+.mod-intro{font-size:15.5px;margin-bottom:20px;}
+.mod-know{font-family:'Libre Baskerville',serif;font-style:italic;font-size:16px;color:var(--ink);margin-bottom:10px;}
+.mod-list{list-style:none;margin-bottom:22px;}
+.mod-list li{padding:9px 0 9px 24px;position:relative;font-size:15px;line-height:1.75;}
+.mod-list li::before{content:'—';position:absolute;left:0;top:9px;color:var(--bordo);}
+.bonus{display:inline-block;background:var(--wash);padding:12px 22px;font-size:13.5px;color:var(--ink);}
+.bonus i{font-family:'Libre Baskerville',serif;color:var(--bordo);margin-right:10px;font-size:14.5px;}
+
+.get{display:grid;grid-template-columns:1fr 1fr;gap:16px;max-width:720px;margin:0 auto;}
+.get-card{border:1px solid var(--hair);padding:26px 30px;transition:border-color .25s;}
+.get-card:hover{border-color:var(--bordo);}
+.get-card h4{font-family:'Libre Baskerville',serif;font-weight:700;font-size:17px;color:var(--ink);margin-bottom:6px;}
+.get-card p{font-size:14px;color:var(--soft);}
+.anchor{font-family:'Libre Baskerville',serif;font-style:italic;text-align:center;font-size:18px;color:var(--ink);margin-top:36px;}
+
+.res{max-width:680px;margin:0 auto;}
+.res-row{display:grid;grid-template-columns:180px 1fr;gap:28px;padding:20px 0;border-bottom:1px solid var(--hair);align-items:baseline;}
+.res-row:first-child{border-top:1px solid var(--hair);}
+.res-when{font-family:'Libre Baskerville',serif;font-style:italic;font-size:17px;color:var(--bordo);}
+.res-what{font-size:15.5px;}
+
+.guar{max-width:660px;margin:0 auto;border:1px solid var(--bordo);outline:1px solid var(--bordo);outline-offset:5px;padding:48px 52px;text-align:center;}
+.guar .sec-lead{margin-bottom:16px;}
+.guar p{font-size:16.5px;color:var(--ink);line-height:1.9;}
+
+.fine{max-width:580px;margin:0 auto;text-align:center;font-size:14.5px;color:var(--soft);}
+.flow{max-width:580px;margin:22px auto 0;text-align:center;font-size:15px;color:var(--ink);}
+.flow b{color:var(--bordo);font-weight:600;}
+
+.price{background:#4A0B04;position:relative;overflow:hidden;text-align:center;padding:92px 28px;color:#E3C2B4;margin-top:76px;}
+.price-glow{position:absolute;width:520px;height:520px;border-radius:50%;right:-140px;top:-160px;background:radial-gradient(circle, #A24630, rgba(74,11,4,0) 70%);filter:blur(30px);opacity:.55;}
+.price>*{position:relative;}
+.price .lead-in{color:#E8AE93;}
+.price h2{font-family:'Libre Baskerville',serif;font-weight:700;font-size:34px;color:#FBF3EA;margin-bottom:16px;text-transform:uppercase;letter-spacing:.05em;}
+.price h2 em{color:#E8AE93;}
+.price p{max-width:52ch;margin:0 auto 30px;font-size:15.5px;}
+.price .old-sum{font-family:'Libre Baskerville',serif;font-size:26px;color:#B98A76;text-decoration:line-through;margin-bottom:4px;}
+.price .sum{font-family:'Libre Baskerville',serif;font-size:64px;color:#FBF3EA;margin-bottom:30px;}
+.price .btn{background:#FBF3EA;color:#4A0B04;}
+.price .btn:hover{background:#F0DCC8;}
+.btn-sub{display:block;margin-top:14px;font-size:13px;color:#C99B85;}
+
+footer{text-align:center;padding:52px 24px 60px;}
+.foot-line{font-family:'Libre Baskerville',serif;font-size:15.5px;letter-spacing:.06em;text-transform:uppercase;color:var(--ink);margin-bottom:22px;}
+.foot-line em{font-style:italic;color:var(--bordo);}
+.foot-line em{color:var(--bordo);}
+.foot-meta{font-size:12.5px;color:var(--soft);line-height:2;}
+
+/* Анимации */
+@keyframes rise{from{opacity:0;transform:translateY(24px);}to{opacity:1;transform:translateY(0);}}
+.hero .lead-in{animation:rise .8s cubic-bezier(.22,.7,.3,1) .05s both;}
+.hero h1{animation:rise .8s cubic-bezier(.22,.7,.3,1) .16s both;}
+.hero .offer{animation:rise .8s cubic-bezier(.22,.7,.3,1) .3s both;}
+.hero .no{animation:rise .8s cubic-bezier(.22,.7,.3,1) .42s both;}
+.hero .promise{animation:rise .8s cubic-bezier(.22,.7,.3,1) .54s both;}
+.hero .btn{animation:rise .8s cubic-bezier(.22,.7,.3,1) .66s both;}
+.hero .photo-side{animation:rise 1s cubic-bezier(.22,.7,.3,1) .5s both;}
+@keyframes breathe{0%,100%{transform:scale(1) translate(0,0);}50%{transform:scale(1.1) translate(-24px,18px);}}
+.hero-glow{animation:breathe 14s ease-in-out infinite;}
+.price-glow{animation:breathe 18s ease-in-out infinite;}
+@media (prefers-reduced-motion:reduce){.hero-glow,.price-glow,.hero .lead-in,.hero h1,.hero .offer,.hero .no,.hero .promise,.hero .btn,.hero .photo-side{animation:none;}}
+
+@media (max-width:820px){
+  .mod-ghost{font-size:120px;top:6px;right:0;}
+  .head-cta{display:none;}
+  .hero{grid-template-columns:1fr;gap:44px;padding:44px 0 60px;}
+  .hero h1{font-size:34px;}
+  .hero-glow{width:320px;height:320px;right:-60px;top:40px;}
+  .photo-side{max-width:340px;}
+  .module{padding:36px 0;}
+  .get{grid-template-columns:1fr;}
+  .res-row{grid-template-columns:1fr;gap:4px;}
+  .guar{padding:36px 24px;}
+  .price .old-sum{font-family:'Libre Baskerville',serif;font-size:26px;color:#B98A76;text-decoration:line-through;margin-bottom:4px;}
+.price .sum{font-size:46px;}
+  section{padding:56px 0;}
+}
+
+/* Текст урока (рабочий блок) */
+.script-sec{border-top:1px solid var(--hair);padding:64px 0 40px;}
+.script-note{text-align:center;font-size:12px;letter-spacing:2px;text-transform:uppercase;color:var(--soft);margin-bottom:26px;}
+.script-btns{display:flex;gap:14px;justify-content:center;flex-wrap:wrap;margin-bottom:30px;}
+.sbtn{font-family:'Inter',sans-serif;font-size:13.5px;font-weight:600;color:var(--bordo);background:none;border:1px solid var(--bordo);padding:13px 26px;cursor:pointer;}
+.sbtn:hover{background:var(--bordo);color:#FCF8F3;}
+.script-body{display:none;max-width:700px;margin:0 auto;font-size:13.5px;line-height:1.9;color:#6E675F;}
+.script-body.open{display:block;}
+.script-h{font-size:11px;font-weight:700;letter-spacing:2.5px;text-transform:uppercase;color:var(--bordo);margin:26px 0 10px;}
+.script-body p{margin-bottom:10px;}
+.copied{background:var(--bordo);color:#FCF8F3;}
+</style>
+<style>
+.hero{display:block;}
+.hero-copy{max-width:740px;position:relative;z-index:1;}
+.tarif{margin-top:14px;font-size:14px;color:rgba(253,252,249,.75);}
+</style>
+
+</head>
+<body>
+
+<div class="wrap">
+
+<header>
+  <span class="brand">Олеся Байгильдина</span>
+  <span class="brand-sub">маркетолог · блог с лицом и без</span>
+  <a class="head-cta" href="#price">Купить — 2 990 ₽</a>
+</header>
+
+<div class="hero">
+  <div class="hero-glow"></div>
+  <div class="hero-copy">
+    <p class="lead-in">BLOGGIRL · марафон на 7 дней</p>
+    <h1>Блог, который <em>работает на тебя</em></h1>
+    <p class="offer"><strong>Ты создана не для того, чтобы вписываться 🖤</strong> Пока другие годами «готовятся» завести блог, ты за 7 дней запустишь свой: упакуешь профиль, соберёшь контент на неделю вперёд, создашь первый платный продукт и отправишь первое предложение реальным людям. Одно простое действие в день, по 15 минут.</p>
+    <ul class="no">
+      <li>без выхода в камеру — блог можно вести полностью без лица</li>
+      <li>без бюджета на рекламу, команду и монтаж</li>
+      <li>даже если тебе кажется, что у тебя нет экспертности</li>
+    </ul>
+    <p class="promise">К вечеру седьмого дня у тебя будет не «мотивация начать», а оформленный блог, готовый продукт и отправленное предложение.</p>
+    <a class="btn" href="#price">Хочу в BLOGGIRL — 2 990 ₽</a>
+  </div>
+</div>
+
+<section>
+  <p class="sec-lead">01 — про тебя</p>
+  <h2 class="sec-title">Этот марафон <em>для тебя</em>, если…</h2>
+  <ul class="if-list">
+    <li>Ты давно хочешь свой блог, но уже который месяц «почти готова» — и всё не начинаешь</li>
+    <li>Боишься камеры и думаешь, что без лица блог не растёт</li>
+    <li>Ведёшь блог, стараешься, а подписчиков и денег это не приносит</li>
+    <li>Хочешь свои деньги — не семейные и не «попроси у мужа», а свои</li>
+    <li>Уже покупала курсы на сорок уроков и бросала на третьем</li>
+    <li>Кажется, что тебе нечего продавать и не о чем рассказывать</li>
+  </ul>
+</section>
+
+<section>
+  <p class="sec-lead">02 — метод</p>
+  <h2 class="sec-title">Почему здесь <em>получится</em>,<br>даже если раньше не получалось</h2>
+  <div class="why">
+    <p>С тобой всё в порядке, и лени в тебе тоже нет. Просто почти все обучения устроены одинаково: сорок уроков теории, домашки как в школе и обещание, что жизнь изменится где-то потом. На это не хватает времени и сил ни у кого, поэтому ты и бросала — как бросают почти все.</p>
+    <p>BLOGGIRL устроен по-другому. Каждый день ты делаешь одно конкретное действие, на которое нужно минут пятнадцать, а чёрную работу — идеи, тексты, структуру — берёт на себя ИИ-ассистент, настроенный под твой голос. К концу недели эти действия складываются в живой блог с продуктом, и всё это время рядом живой человек: каждый вечер Олеся разбирает то, что ты сделала за день.</p>
+    <p class="why-key">Не нужно ждать смелости и свободного года.<br><span>Нужно 15 минут в день и телефон.</span></p>
+  </div>
+</section>
+
+<section>
+  <p class="sec-lead">03 — программа</p>
+  <h2 class="sec-title">Семь дней — <em>семь поступков</em></h2>
+
+  <div class="module">
+    <div class="mod-ghost">1</div>
+    <p class="mod-eyebrow">день 1</p>
+    <h3 class="mod-title">Выходишь из тени — <em>в первый же вечер</em></h3>
+    <p class="mod-intro">Смелость появляется не до первого шага, а после него. И этот шаг ты сделаешь уже сегодня — маленький, посильный и очень конкретный.</p>
+    <p class="mod-know">в этот день ты</p>
+    <ul class="mod-list">
+      <li>Разберёшься, что именно держало тебя все эти месяцы, и назовёшь это своими словами — страх, которому дали имя, сразу теряет половину силы</li>
+      <li>Сделаешь первую публикацию: мысль, позицию, наблюдение. Без шедевра — он и не нужен</li>
+      <li>Если показываться пока страшно, опубликуешь без лица: это полноценный формат, а не запасной выход</li>
+    </ul>
+    <span class="bonus"><i>итог дня</i>пост, который ты откладывала месяцами, опубликован</span>
+  </div>
+
+  <div class="module">
+    <div class="mod-ghost">2</div>
+    <p class="mod-eyebrow">день 2</p>
+    <h3 class="mod-title">Находишь, <em>что продавать</em></h3>
+    <p class="mod-intro">Экспертность у тебя уже есть, ты просто привыкла называть её обычной жизнью. Сегодня достаём её на свет.</p>
+    <p class="mod-know">в этот день ты</p>
+    <ul class="mod-list">
+      <li>Пройдёшь распаковку опыта с ИИ-ассистентом: он задаёт вопросы, а из ответов собирает твоё позиционирование, пока ты пьёшь кофе</li>
+      <li>Получишь формулу «кто я и для кого» и фразу в шапку профиля, которую не стыдно поставить</li>
+      <li>Найдёшь темы, о которых можешь говорить долго и с удовольствием, — их окажется больше, чем ты думаешь</li>
+    </ul>
+    <span class="bonus"><i>итог дня</i>ты знаешь, кто ты в блоге, — это больше не философский вопрос</span>
+  </div>
+
+  <div class="module">
+    <div class="mod-ghost">3</div>
+    <p class="mod-eyebrow">день 3</p>
+    <h3 class="mod-title">Оформляешь блог: <em>с лицом или без</em></h3>
+    <p class="mod-intro">Честно разбираем оба формата — что даёт лицо и что даёт свобода без него. Олеся прошла оба пути и покажет их изнутри, а выбирать будешь ты.</p>
+    <p class="mod-know">в этот день ты</p>
+    <ul class="mod-list">
+      <li>Увидишь плюсы и подводные камни обоих форматов на живых примерах</li>
+      <li>Упакуешь профиль: шапка, обложки, первые публикации</li>
+      <li>Настроишь аккаунт так, чтобы контент выходил на твою аудиторию, а не на случайных людей</li>
+    </ul>
+    <span class="bonus"><i>итог дня</i>блог оформлен, и на него хочется подписаться</span>
+  </div>
+
+  <div class="module">
+    <div class="mod-ghost">4</div>
+    <p class="mod-eyebrow">день 4</p>
+    <h3 class="mod-title">Собираешь контент <em>на неделю вперёд</em></h3>
+    <p class="mod-intro">Внимание в ленте живёт несколько секунд, и выигрывают его не самые талантливые, а те, кто знает формулы.</p>
+    <p class="mod-know">в этот день ты</p>
+    <ul class="mod-list">
+      <li>Получишь хуки для постов, Reels и каруселей — первые строки, после которых дочитывают до конца</li>
+      <li>Освоишь приём «одна идея — неделя контента»: из единственной мысли рождается целая серия публикаций</li>
+      <li>Напишешь пять готовых постов с ИИ-ассистентом — в твоём голосе, за один вечер</li>
+    </ul>
+    <span class="bonus"><i>итог дня</i>контент на неделю готов и запланирован</span>
+  </div>
+
+  <div class="module">
+    <div class="mod-ghost">5</div>
+    <p class="mod-eyebrow">день 5</p>
+    <h3 class="mod-title">Первые <em>живые подписчики</em></h3>
+    <p class="mod-intro">Тысяча случайных подписчиков не стоит сотни живых. Тебе нужны те, кто читает, отвечает и покупает.</p>
+    <p class="mod-know">в этот день ты</p>
+    <ul class="mod-list">
+      <li>Запустишь механики роста без рекламного бюджета: Reels-воронку, коллаборации, вовлечение</li>
+      <li>Узнаешь, как набрать первую сотню не из знакомых, которые молчат из вежливости</li>
+      <li>Поймёшь, почему монетизация начинается с пятисот подписчиков, а не с миллиона</li>
+    </ul>
+    <span class="bonus"><i>итог дня</i>план роста на месяц и первые шаги — уже сегодня</span>
+  </div>
+
+  <div class="module">
+    <div class="mod-ghost">6</div>
+    <p class="mod-eyebrow">день 6</p>
+    <h3 class="mod-title">Создаёшь <em>первый продукт</em></h3>
+    <p class="mod-intro">Продукт делается за вечер, когда понимаешь главное: люди покупают результат, а не количество уроков.</p>
+    <p class="mod-know">в этот день ты</p>
+    <ul class="mod-list">
+      <li>Решишь, что продавать, если кажется, что нечего: гайд, разбор, мини-курс, консультацию</li>
+      <li>Упакуешь продукт через результат клиента и назовёшь цену вслух, без «но можно дешевле»</li>
+      <li>Напишешь продающее описание без ощущения «я впариваю» — вместе с ИИ-ассистентом</li>
+    </ul>
+    <span class="bonus"><i>итог дня</i>первый продукт создан, цена названа</span>
+  </div>
+
+  <div class="module">
+    <div class="mod-ghost">7</div>
+    <p class="mod-eyebrow">день 7</p>
+    <h3 class="mod-title">Делаешь <em>первое предложение</em></h3>
+    <p class="mod-intro">Здесь заканчивается подготовка и начинается настоящее: ты предлагаешь свой продукт живым людям.</p>
+    <p class="mod-know">в этот день ты</p>
+    <ul class="mod-list">
+      <li>Соберёшь предложение по формуле, за которую не стыдно</li>
+      <li>Напишешь серию из пяти продающих сторис — вместе, не в одиночку</li>
+      <li>Отправишь предложение реальным людям сегодня, а не «когда-нибудь», и получишь план на 30 дней после марафона</li>
+    </ul>
+    <span class="bonus"><i>итог дня</i>первое предложение отправлено — первые деньги возможны уже сегодня</span>
+  </div>
+  <p style="text-align:center;margin-top:52px;"><a class="btn" href="#price">Забрать место — 2 990 ₽</a></p>
+</section>
+
+<section>
+  <p class="sec-lead">04 — наполнение</p>
+  <h2 class="sec-title">Что ты <em>получаешь</em></h2>
+  <div class="get">
+    <div class="get-card"><h4>7 уроков в Telegram</h4><p>Короткие, по 20–25 минут, смотришь когда удобно. Записи остаются навсегда</p></div>
+    <div class="get-card"><h4>ИИ-ассистент в твоём голосе</h4><p>Настраиваешь один раз — пользуешься всегда</p></div>
+    <div class="get-card"><h4>Шаблоны на всё</h4><p>Шапка, посты, хуки, контент-план, воронка продаж</p></div>
+    <div class="get-card"><h4>Живые разборы и чат</h4><p>Каждый вечер Олеся разбирает сделанное, рядом такие же участницы</p></div>
+  </div>
+  <p class="anchor">Плюс бонусы: 50 идей для постов на месяц вперёд, подборка рабочих ИИ-инструментов блогера и разбор твоей шапки профиля лично от Олеси.</p>
+</section>
+
+<section>
+  <p class="sec-lead">05 — результаты</p>
+  <h2 class="sec-title">Что изменится <em>уже за неделю</em></h2>
+  <div class="res">
+    <div class="res-row"><span class="res-when">день первый</span><span class="res-what">Публикация, которую ты откладывала месяцами, уже выложена — и мир не рухнул</span></div>
+    <div class="res-row"><span class="res-when">день седьмой</span><span class="res-what">Блог оформлен, контент выходит, продукт создан, предложение отправлено реальным людям</span></div>
+    <div class="res-row"><span class="res-when">дальше</span><span class="res-what">У тебя план на 30 дней и система, в которой блог занимает 15 минут в день, а не всю жизнь</span></div>
+  </div>
+</section>
+
+<section>
+  <div class="guar">
+    <p class="sec-lead">гарантия</p>
+    <p>Пройди первые два дня марафона. Если поймёшь, что это не твоё, — напиши, и я верну деньги без вопросов и без обид. Я спокойно даю такую гарантию, потому что знаю: когда человек делает одно простое действие в день, у него получается.</p>
+  </div>
+</section>
+
+<section>
+  <p class="sec-lead">06 — честно</p>
+  <h2 class="sec-title">Кому <em>не подойдёт</em></h2>
+  <p class="fine">Если хочется волшебную кнопку «сто тысяч за три дня» — это не сюда, таких кнопок не существует. И если планируешь просто смотреть уроки, ничего не делая, — тоже мимо: марафон построен на маленьких ежедневных действиях, в них весь его смысл.</p>
+  <p class="flow"><b>Ранний вход</b> — поэтому такая цена. Дальше она будет только выше.</p>
+</section>
+
+</div>
+
+<div class="price" id="price">
+  <div class="price-glow"></div>
+  <p class="lead-in">ранний вход</p>
+  <h2>Готова <em>начать?</em></h2>
+  <p>7 дней, одно действие в день, ИИ-ассистент навсегда, шаблоны, живые вечерние разборы и чат участниц. Записи остаются с тобой.</p>
+  <div class="old-sum">5 900 ₽</div>
+  <div class="sum">2 990 ₽</div>
+  <a class="btn" href="#">Забрать место</a>
+  <span class="btn-sub">Оплата картой любой страны, доступ сразу после оплаты</span>
+  <p class="tarif">Тариф с личной обратной связью от Олеси на всех семи днях — 9 900 ₽</p>
+</div>
+
+<div class="wrap">
+<section class="script-sec" id="script">
+  <p class="sec-lead">рабочий блок</p>
+  <h2 class="sec-title">Текст <em>продающего урока</em></h2>
+  <p class="script-note">для записи с суфлёра · удалить этот блок перед публикацией страницы · в скобках — что показывать на экране</p>
+  <div class="script-btns">
+    <button class="sbtn" id="toggleScript" type="button">Развернуть текст</button>
+    <button class="sbtn" id="copyScript" type="button">Скопировать для суфлёра</button>
+  </div>
+  <div class="script-body" id="scriptBody">
+
+<div class="script-h">Блок 1 · 0:00–2:00 · Остановить внимание</div>
+<p>Смотри, я сейчас при тебе нажму одну кнопку, и мой ИИ-ассистент напишет пять готовых постов для блога. В моём стиле, с цепляющими первыми строчками, под мои темы.</p>
+<p>(показываешь экран: открываешь ассистента, нажимаешь, посты генерируются в реальном времени)</p>
+<p>Вот они. Пять постов, на которые обычно уходит неделя, появились, пока я договаривала это предложение. Мне остаётся выбрать лучшие и выложить, и на всё это я трачу пятнадцать минут в день.</p>
+<p>Меня зовут Олеся, я маркетолог, за моей спиной агентство по личному брендингу и аккаунты известных блогеров, которые я вела своими руками. И сегодня я покажу тебе систему, с которой ты запустишь собственный блог за семь дней, даже если сейчас боишься камеры и думаешь, что тебе нечего сказать. Досмотри это видео до конца, потому что в конце я расскажу, как забрать эту систему по цене, которой больше не будет.</p>
+
+<div class="script-h">Блок 2 · 2:00–4:00 · Доказать</div>
+<p>Сначала коротко, почему меня вообще стоит слушать. Я не блогер, который вчера завёл страничку и сегодня учит других. Я годами строила чужие блоги: упаковывала экспертов, вела аккаунты блогеров с большой аудиторией, собирала воронки, через которые люди покупают.</p>
+<p>(если есть: скрины работ, аккаунтов, отзывов клиентов — показать здесь)</p>
+<p>Я видела изнутри, чем блог, который приносит деньги, отличается от блога, в который просто вкладывают душу. И все эти годы я наблюдала одну и ту же картину: талантливые женщины с настоящим опытом молчат, потому что им кажется, что они недостаточно эксперты. А рядом кто-то попроще и посмелее спокойно зарабатывает на том же самом.</p>
+
+<div class="script-h">Блок 3 · 4:00–7:00 · Моя история</div>
+<p>Я хорошо понимаю, каково это, потому что сама начинала с обычного мамского блога. Мне тоже когда-то сказали «не высовывайся», и я долго слушалась: вела блог для своих, стеснялась называть себя экспертом и ждала момента, когда почувствую себя достаточно готовой.</p>
+<p>При этом у меня работа в продажах, дети, дом. И я честно думала, что настоящий блог требует свободной жизни, которой у меня нет: часы на съёмки, монтаж, тексты, сторис. Каждый раз, когда я начинала, жизнь очень быстро расставляла всё по местам, и блог снова оказывался в конце списка.</p>
+<p>А потом я собрала собственную систему из двух вещей: моего маркетингового опыта и искусственного интеллекта. Одно действие в день, а всю остальную работу делают настроенные ИИ-ассистенты. И оказалось, что пятнадцати минут между работой и детьми достаточно, чтобы блог жил, рос и продавал.</p>
+<p>Поэтому моя система и построена на пятнадцати минутах в день. Не потому, что это красивая цифра, а потому, что у меня самой других пятнадцати минут никогда не было.</p>
+
+<div class="script-h">Блок 4 · 7:00–10:00 · Где ты ошибаешься</div>
+<p>Теперь давай честно разберём, почему у тебя до сих пор нет блога, который работает. Обычно дело в трёх ошибках, и я делала каждую из них.</p>
+<p>Ошибка первая: ты готовишься вместо того, чтобы делать. Покупаешь курсы, сохраняешь чужие посты, читаешь про алгоритмы и уже год «почти готова». Но знание без действия ничего не меняет, оно просто красиво лежит в голове. Пока ты готовишься, твоя аудитория покупает у тех, кто начал.</p>
+<p>Ошибка вторая: ты делаешь без системы. Выкладываешь посты по вдохновению, пробуешь то один формат, то другой, смотришь на чужие результаты и выгораешь. Подписчики сами по себе не превращаются в деньги: между постом и оплатой должен стоять понятный путь, и если его нет, блог остаётся дорогим хобби.</p>
+<p>Ошибка третья: ты используешь ИИ как поисковик. Пишешь «придумай пост про мою тему», получаешь пластмассовый текст, который видно за километр, и решаешь, что ИИ не работает. А ИИ работает как сотрудник: чем подробнее ты объяснишь ему, кто ты и как ты говоришь, тем точнее он попадает в твой голос. Мои ассистенты настроены техзаданиями на несколько страниц, и поэтому их тексты не отличить от моих.</p>
+
+<div class="script-h">Блок 5 · 10:00–13:00 · Что происходит на самом деле</div>
+<p>И вот что я поняла на своём опыте и на десятках чужих блогов, которые прошли через мои руки. Блог перестал быть творчеством на полную ставку. Сегодня это система из трёх частей: понятное позиционирование, контент, который делается быстро и в твоём голосе, и путь, по которому читатель становится клиентом.</p>
+<p>Когда эти три части собраны, блог перестаёт зависеть от вдохновения, настроения и свободного времени. Ты делаешь одно действие в день, система делает остальное.</p>
+<p>(показываешь ассистента-распаковщика: как он задаёт вопросы и собирает позиционирование)</p>
+<p>Смотри, вот мой ассистент-распаковщик. Ты отвечаешь ему на простые вопросы про свою жизнь и опыт, а он собирает из этого твоё позиционирование и темы для контента. То, на что у маркетологов уходят недели и десятки тысяч рублей, происходит за один вечер, пока ты пьёшь кофе.</p>
+<p>И именно из этой системы я собрала марафон.</p>
+
+<div class="script-h">Блок 6 · 13:00–16:30 · Продукт</div>
+<p>Он называется BLOGGIRL. Семь дней, одно действие в день, и к концу недели у тебя запущенный блог с первым продуктом.</p>
+<p>В первый день ты выходишь из тени и делаешь первую публикацию — маленькую, посильную, но настоящую. Во второй день мы распаковываем твой опыт с ИИ-ассистентом, и ты находишь, что продавать: экспертность у тебя уже есть, ты просто привыкла называть её обычной жизнью. В третий день оформляем блог, и здесь ты сама выбираешь формат, с лицом или без: я прошла оба пути и покажу оба изнутри. В четвёртый день собираем контент на неделю вперёд с хуками, после которых дочитывают. В пятый — запускаем рост: механики без рекламного бюджета, которые приводят живых подписчиков, а не мёртвые цифры. В шестой день ты создаёшь свой первый платный продукт и называешь цену вслух. А в седьмой отправляешь предложение реальным людям, и с этого момента первые деньги с блога становятся вопросом времени.</p>
+<p>Внутри семь коротких уроков в Telegram, задания на пятнадцать минут, все шаблоны — шапка, посты, хуки, контент-план, воронка. Мой ИИ-ассистент в твоём голосе, который остаётся с тобой навсегда. И каждый вечер я лично разбираю то, что ты сделала за день, в закрытом чате участниц.</p>
+
+<div class="script-h">Блок 7 · 16:30–17:30 · Цена</div>
+<p>Марафон стоит две тысячи девятьсот девяносто рублей. И сразу скажу, почему так мало. Полная цена — пять тысяч девятьсот, а это ранняя: я специально сделала её такой, чтобы зайти могла каждая, кто давно хочет свой блог. Те, кто заходит сейчас, получают всё за эту цену навсегда, и всё, что я добавлю позже, придёт тебе бесплатно. Дальше цена будет только выше.</p>
+<p>Если хочешь пройти марафон с моей личной обратной связью на каждом из семи дней, есть отдельный тариф за девять тысяч девятьсот.</p>
+<p>Ты годами откладывала блог, потому что не хватало времени, смелости и понимания, с чего начать. Здесь всё это решается за неделю и стоит меньше одного похода в салон.</p>
+
+<div class="script-h">Блок 8 · 17:30–19:30 · Страхи</div>
+<p>Теперь про сомнения, которые у тебя наверняка есть, я их слышу каждый день.</p>
+<p>«У меня нет экспертности, мне нечего продавать». Это мы решаем во второй день, и это вообще самое частое заблуждение. У тебя есть опыт, которого нет у других, ты просто обесцениваешь его, потому что для тебя он обычная жизнь. Распаковка покажет тебе твоё золото, я это видела много раз.</p>
+<p>«Я боюсь камеры». Тебе и не нужно в неё выходить. Блог без лица — полноценный формат, который растёт и продаёт, и в марафоне под него есть весь арсенал. Захочешь показаться позже — покажешься, когда будешь готова.</p>
+<p>«У меня нет времени». Марафон и построен для женщин, у которых его нет. Пятнадцать минут в день: пока пьёшь кофе, пока едешь в транспорте, пока ждёшь ребёнка с кружка. Я сама запускала всё это между офисом и детьми, поэтому лишнего в заданиях просто нет.</p>
+<p>«Я уже пробовала, и не получилось». Верю. Потому что там, где ты пробовала, было сорок уроков и никакой обратной связи. Здесь семь маленьких поступков, живые разборы каждый вечер и система, которая не даёт слиться.</p>
+<p>И чтобы тебе было совсем спокойно: пройди первые два дня, и если поймёшь, что это не твоё, я верну деньги. Без вопросов и без обид. Весь риск я беру на себя.</p>
+
+<div class="script-h">Блок 9 · 19:30–20:30 · Призыв</div>
+<p>И последнее, что я хочу тебе сказать.</p>
+<p>Ты уже достаточна. С тем опытом, который у тебя есть, с той жизнью, которой ты живёшь. Тебе не нужно становиться другим человеком, чтобы вести блог, — нужно просто начать, и на этот раз не в одиночку.</p>
+<p>Через неделю у тебя может быть блог, продукт и первое отправленное предложение. А может быть ещё одна неделя «почти готова» — и это тоже выбор.</p>
+<p>Ссылка на марафон прямо под этим видео. Ранняя цена — две девятьсот девяносто, и она действует, пока идёт набор.</p>
+<p>Увидимся внутри.</p>
+
+  </div>
+</section>
+</div>
+
+<div class="wrap">
+<section class="script-sec" id="dozhim">
+  <p class="sec-lead">рабочий блок</p>
+  <h2 class="sec-title">Дожимные <em>сообщения</em></h2>
+  <p class="script-note">цепочка для бота или ручной отправки · удалить этот блок перед публикацией страницы · [дата] и [ссылка] подставить свои</p>
+  <div class="script-btns">
+    <button class="sbtn" id="togglePack" type="button">Развернуть сообщения</button>
+    <button class="sbtn" id="copyPack" type="button">Скопировать все</button>
+  </div>
+  <div class="script-body" id="packBody">
+
+<div class="script-h">Сообщение 1 · через час после урока</div>
+<p>Привет 🖤 Вижу, ты посмотрела урок про BLOGGIRL и о чём-то задумалась. Это нормально, я не давлю и уговаривать не буду. Просто спрошу честно: что останавливает — цена, сомнения или классическое «потом»? Напиши мне, я отвечу лично. Иногда одно короткое сообщение экономит месяцы раздумий.</p>
+
+<div class="script-h">Сообщение 2 · через 24 часа</div>
+<p>Знаешь, что я заметила за годы работы с блогами? Женщины, которые говорят «потом», действительно возвращаются. Через месяц, через полгода, с теми же мыслями и тем же страхом, только времени уже меньше, а цена уже другая. «Потом» — это не план, это способ не начинать. BLOGGIRL стартует [дата], ранняя цена 2 990 ₽ действует до [дата], дальше будет 5 900 ₽. [ссылка]</p>
+
+<div class="script-h">Сообщение 3 · через 48 часов</div>
+<p>Расскажу, как устроен первый день марафона, чтобы ты понимала, что тебя ждёт. Вечером ты открываешь короткий урок минут на двадцать, потом делаешь одно задание: называешь свой страх своими словами и публикуешь первый пост. Маленький, без претензии на шедевр, можно вообще без лица. И в тот же вечер я разбираю сделанное в чате. Всё. Никаких сорока уроков и конспектов. Именно из таких маленьких поступков за неделю собирается блог с продуктом. [ссылка]</p>
+
+<div class="script-h">Сообщение 4 · за 24 часа до конца ранней цены</div>
+<p>Завтра ранняя цена закрывается: 2 990 ₽ превратятся в 5 900 ₽. Говорю без давления, просто чтобы ты не узнала об этом постфактум. И один вопрос, который стоит задать себе честно: что изменится через месяц, если снова отложить? [ссылка]</p>
+
+<div class="script-h">Сообщение 5 · за 3 часа до конца ранней цены</div>
+<p>Через три часа ранний вход закрывается. Если внутри есть хоть тихое «хочу» — сейчас тот момент, когда ему стоит поверить. Одна публикация в день, пятнадцать минут, и через неделю у тебя блог, продукт и первое отправленное предложение. [ссылка]</p>
+
+<div class="script-h">Сообщение 6 · после закрытия ранней цены</div>
+<p>Ранний вход закрылся, и дальше марафон стоит 5 900 ₽ — здесь всё честно, иначе ранняя цена не имела бы смысла для тех, кто решился вовремя. Если ты хотела зайти, но не успела чисто технически — с оплатой, с картой, с переводом, — напиши мне сегодня, разберёмся вместе.</p>
+
+<div class="script-h">Сообщение 7 · финальное</div>
+<p>Это моё последнее сообщение про марафон, дальше я просто продолжу делиться пользой в блоге. Хочу сказать тебе одну вещь независимо от того, зайдёшь ты или нет. У тебя есть опыт, история и мысли, за которые люди готовы платить, ты просто пока не разрешила себе это показать. Когда разрешишь — я рядом. А следующий поток BLOGGIRL будет дороже, это единственное, что я знаю точно 🖤</p>
+
+<div class="script-h">Вставка · если написала в директ и пропала</div>
+<p>Первое сообщение, через 2 часа: «Привет 🖤 Ты писала мне и пропала — жизнь, я понимаю. Просто хочу убедиться, что ты получила ответ на свой вопрос. Если что-то осталось непонятным, напиши, отвечу лично». Дальше цепочка продолжается с сообщения 2.</p>
+
+<div class="script-h">Вставка · если зарегистрировалась, но не оплатила</div>
+<p>Первое сообщение, через 30 минут: «Привет 🖤 Ты зарегистрировалась на BLOGGIRL, но оплата не прошла. Всё окей? Если возник технический вопрос или что-то с картой — напиши, разберёмся вместе за пару минут». Второе, через 12 часов: «Ты уже сделала самое сложное — решилась. Осталась одна кнопка. Если есть вопросы по оплате или рассрочке, я на связи. [ссылка оплаты]». Дальше цепочка продолжается с сообщения 4.</p>
+
+  </div>
+</section>
+</div>
+
+<script>
+(function(){
+  var t=document.getElementById('toggleScript'), c=document.getElementById('copyScript'), b=document.getElementById('scriptBody');
+  t.addEventListener('click',function(){
+    var open=b.classList.toggle('open');
+    t.textContent=open?'Свернуть текст':'Развернуть текст';
+  });
+  c.addEventListener('click',function(){
+    var parts=[];
+    b.querySelectorAll('p').forEach(function(p){parts.push(p.textContent.trim());});
+    var txt=parts.join('\n\n');
+    function done(){var o=c.textContent;c.textContent='Скопировано';c.classList.add('copied');setTimeout(function(){c.textContent=o;c.classList.remove('copied');},1800);}
+    function fallback(){var ta=document.createElement('textarea');ta.value=txt;document.body.appendChild(ta);ta.select();try{document.execCommand('copy');done();}catch(e){}document.body.removeChild(ta);}
+    if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(txt).then(done,fallback);}else{fallback();}
+  });
+})();
+(function(){
+  var t=document.getElementById('togglePack'), c=document.getElementById('copyPack'), b=document.getElementById('packBody');
+  t.addEventListener('click',function(){
+    var open=b.classList.toggle('open');
+    t.textContent=open?'Свернуть сообщения':'Развернуть сообщения';
+  });
+  c.addEventListener('click',function(){
+    var parts=[];
+    b.querySelectorAll('.script-h, p').forEach(function(el){
+      var tx=el.innerText.trim();
+      if(el.classList.contains('script-h')) tx='\n=== '+tx+' ===';
+      parts.push(tx);
+    });
+    var txt=parts.join('\n\n');
+    function done(){var o=c.textContent;c.textContent='Скопировано';c.classList.add('copied');setTimeout(function(){c.textContent=o;c.classList.remove('copied');},1800);}
+    function fallback(){var ta=document.createElement('textarea');ta.value=txt;document.body.appendChild(ta);ta.select();try{document.execCommand('copy');done();}catch(e){}document.body.removeChild(ta);}
+    if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(txt).then(done,fallback);}else{fallback();}
+  });
+})();
+</script>
+
+</body>
+</html>
