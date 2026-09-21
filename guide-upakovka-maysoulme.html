@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Упаковка блога — maysoulme</title>
+<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Inter:wght@400;500;600;700;800&family=DM+Sans:ital@1&display=swap" rel="stylesheet">
+<style>
+*, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+:root { --accent: #710C04; }
+
+body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  background: #ffffff;
+  color: #1a1a1a;
+  font-size: 17px;
+  line-height: 1.75;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Nav */
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 48px;
+  border-bottom: 1px solid #f0f0f0;
+  position: sticky;
+  top: 0;
+  background: #fff;
+  z-index: 100;
+}
+.nav__logo { text-decoration: none; display: flex; align-items: center; }
+.nav__logo img { height: 30px; width: auto; }
+.nav__logo-name {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 14px; font-weight: 400; font-style: italic;
+  color: #888; letter-spacing: 0.5px;
+  margin-left: auto;
+}
+
+/* Container */
+.container { max-width: 740px; margin: 0 auto; padding: 0 24px; }
+
+/* Hero */
+.hero { padding: 60px 0 48px; }
+.badge {
+  display: inline-block; font-size: 11px; font-weight: 600;
+  color: var(--accent); border: 1px solid var(--accent);
+  padding: 5px 16px; margin-bottom: 20px;
+  letter-spacing: 2px; text-transform: uppercase;
+}
+.hero h1 {
+  font-family: 'Libre Baskerville', Georgia, serif;
+  font-size: 38px; font-weight: 700; line-height: 1.25; margin-bottom: 16px;
+}
+.hero h1 em { font-style: italic; color: var(--accent); }
+.hero__desc { font-size: 18px; color: #666; line-height: 1.7; }
+.hero__meta { font-size: 14px; color: #999; margin-top: 16px; letter-spacing: 1px; }
+
+/* Intro */
+.intro-bold { font-size: 18px; font-weight: 700; line-height: 1.65; color: #1a1a1a; padding: 40px 0 16px; }
+.intro-text { font-size: 17px; color: #444; line-height: 1.75; padding-bottom: 48px; }
+
+/* Section heading */
+.section-heading {
+  font-family: 'Libre Baskerville', Georgia, serif;
+  font-size: 30px; font-weight: 700; line-height: 1.3;
+  padding: 56px 0 24px; border-top: 1px solid #e8e8e8;
+}
+.section-heading span { color: var(--accent); margin-right: 8px; }
+.section-heading em { font-style: italic; color: var(--accent); }
+
+/* Highlight block */
+.highlight { background: #f5f5f5; padding: 20px 24px; margin: 24px 0; font-size: 16px; line-height: 1.75; color: #444; }
+
+/* Sub heading */
+.sub-heading { font-family: 'Libre Baskerville', Georgia, serif; font-size: 22px; font-weight: 700; padding: 36px 0 16px; }
+
+/* Text */
+.text { font-size: 17px; color: #444; line-height: 1.75; margin-bottom: 16px; }
+
+/* List */
+.guide-list { list-style: none; margin: 16px 0 24px; }
+.guide-list li {
+  font-size: 16px; line-height: 1.75; color: #444;
+  padding: 8px 0 8px 20px; position: relative;
+  border-bottom: 1px solid #f0f0f0;
+}
+.guide-list li:last-child { border-bottom: none; }
+.guide-list li::before {
+  content: ''; position: absolute; left: 0; top: 16px;
+  width: 6px; height: 6px; border-radius: 50%; background: var(--accent);
+}
+.guide-list li strong { color: #1a1a1a; }
+
+/* Headline list (нумерованный) */
+.headline-list { list-style: none; margin: 16px 0 32px; }
+.headline-list li {
+  display: flex; gap: 16px; padding: 16px 0;
+  border-bottom: 1px solid #f0f0f0; align-items: baseline;
+}
+.headline-list li:first-child { border-top: 1px solid #f0f0f0; }
+.headline-num {
+  font-family: 'Libre Baskerville', Georgia, serif;
+  font-style: italic; font-size: 15px;
+  color: var(--accent); min-width: 28px; flex-shrink: 0;
+}
+.headline-text { font-size: 17px; line-height: 1.6; color: #1a1a1a; font-weight: 500; }
+
+/* Prompt box */
+.prompt-box { background: #f5f5f5; padding: 36px; margin: 32px 0; }
+.prompt-box__title {
+  font-family: 'Libre Baskerville', Georgia, serif;
+  font-size: 20px; font-weight: 700;
+  color: var(--accent); margin-bottom: 6px;
+}
+.prompt-box__subtitle { font-size: 13px; color: #888; margin-bottom: 20px; }
+.prompt-box__text { font-size: 15px; line-height: 1.8; color: #444; }
+
+/* Scenario / step card */
+.scenario-card { border: 1px solid #e8e8e8; padding: 32px; margin: 24px 0; background: #f9f9f9; }
+.scenario-card__num {
+  font-family: 'Libre Baskerville', Georgia, serif;
+  font-style: italic; font-size: 14px;
+  color: var(--accent); letter-spacing: 1px; margin-bottom: 8px;
+}
+.scenario-card__title {
+  font-family: 'Libre Baskerville', Georgia, serif;
+  font-size: 20px; font-weight: 700; line-height: 1.4; margin-bottom: 20px;
+}
+.scenario-card__point { margin-bottom: 14px; }
+.scenario-card__point-label { font-weight: 600; font-size: 16px; color: #1a1a1a; }
+.scenario-card__point-text { font-size: 15px; color: #666; line-height: 1.7; }
+.scenario-card__ending {
+  font-family: 'Libre Baskerville', Georgia, serif;
+  font-size: 17px; font-style: italic; color: #1a1a1a;
+  padding-top: 16px; margin-top: 16px; border-top: 1px solid #e0e0e0;
+}
+.scenario-card__tip {
+  background: #f0f0f0; padding: 14px 18px; margin-top: 16px;
+  font-size: 14px; color: #555; line-height: 1.65;
+}
+.scenario-card__tip strong { color: var(--accent); }
+
+/* Copy / download button */
+.copy-btn {
+  display: inline-flex; align-items: center; gap: 10px;
+  font-family: 'Inter', sans-serif;
+  font-size: 13px; font-weight: 600;
+  letter-spacing: 1.5px; text-transform: uppercase;
+  color: #fff; background: var(--accent);
+  border: 1px solid var(--accent);
+  padding: 14px 28px; margin-top: 28px;
+  cursor: pointer; transition: opacity 0.2s;
+  text-decoration: none;
+}
+.copy-btn:hover { opacity: 0.85; }
+.copy-btn__hint { display: block; font-size: 13px; color: #999; margin-top: 10px; }
+
+/* Footer */
+.footer {
+  text-align: center; padding: 64px 24px;
+  border-top: 1px solid #e8e8e8; margin-top: 64px;
+  color: #999; font-size: 14px;
+}
+.footer .tiny {
+  font-size: 12.5px; color: #bbb; max-width: 52ch;
+  margin: 12px auto 0; line-height: 1.6; letter-spacing: 0;
+}
+.footer-note {
+  font-family: 'Libre Baskerville', Georgia, serif;
+  font-size: 18px; font-style: italic; color: #444;
+  text-align: center; padding: 48px 24px 0;
+}
+.footer-note em { color: var(--accent); }
+
+/* Responsive */
+@media (max-width: 768px) {
+  .nav { padding: 16px 20px; }
+  .hero h1 { font-size: 28px; }
+  .section-heading { font-size: 24px; }
+  .scenario-card { padding: 20px; }
+  .prompt-box { padding: 24px; }
+}
+</style>
+</head>
+<body>
+
+<nav class="nav">
+  <a class="nav__logo" href="#"><img src="https://maiyamaiya19999-bit.github.io/maysoulme-assets/logo-ms.png" alt="MS"></a>
+  <span class="nav__logo-name">maysoulme</span>
+</nav>
+
+<div class="container">
+
+<div class="hero">
+  <div class="badge">Гайд</div>
+  <h1>Упаковка блога: шапка, актуальные <em>и сторителлинги, которым верят</em></h1>
+  <p class="hero__desc">Полная система упаковки: фундамент профиля, формула шапки, 5–7 актуальных со сторителлингами и план постов. В конце — скилл для Claude, который собирает всё это из информации о тебе.</p>
+  <p class="hero__meta">Система maysoulme &middot; скилл для Claude внутри</p>
+</div>
+
+<p class="intro-bold">Правило трёх секунд: человек заходит с reels, смотрит аватарку, читает шапку, листает актуальные — и за 3 секунды решает, подписаться или уйти.</p>
+<p class="intro-text">Упаковка — это первое впечатление, а не «красивые картинки». Люди подписываются после историй, которые раскрывают личность, а не после сухой самопрезентации. В этом гайде разберём упаковку по слоям: фундамент → технические элементы → шапка → актуальные → посты. Стандартная упаковка блога = шапка профиля + 5–7 актуальных + 9–12 постов.</p>
+
+<h2 class="section-heading"><span>01.</span> Фундамент <em>до упаковки</em></h2>
+
+<p class="text">Прежде чем трогать визуал и шапку, ответь себе на вопросы фундамента — без них любая упаковка получается «как у всех»:</p>
+
+<ul class="guide-list">
+  <li><strong>Цель блога.</strong> Продажа инфопродуктов / личный бренд / реклама. Цель убирает кашу из головы: под неё выстраивается и шапка, и актуальные.</li>
+  <li><strong>Аудитория.</strong> Кто тебя смотрит: сколько им лет, как выглядит их день, какие у них боли, цели и желания.</li>
+  <li><strong>Тема.</strong> Пересечение «что интересно мне» × «что нужно моей аудитории». Направлений контента максимум 2–3, внутри каждого 3–6 категорий.</li>
+</ul>
+
+<div class="highlight"><strong>Главный принцип:</strong> любой контент совмещает две стороны — экспертность (советы, инструкции, разборы, развенчивание мифов) и личность (история, опыт, эмоции, образ жизни). Покупают у человека, а не у википедии.</div>
+
+<h2 class="section-heading"><span>02.</span> Технические элементы <em>профиля</em></h2>
+
+<ul class="guide-list">
+  <li><strong>Ник.</strong> Короткий, запоминающийся, без цифр и знаков — чтобы легко находился в поиске.</li>
+  <li><strong>Аватарка.</strong> Лицо крупным планом, яркое фото (можно нейрофотосессию). Мелкое фото в полный рост не работает: его смотрят размером с монету.</li>
+  <li><strong>Жирная строка.</strong> Имя + деятельность одним словом — это поле индексируется поиском.</li>
+</ul>
+
+<h2 class="section-heading"><span>03.</span> Шапка профиля <em>по формуле</em></h2>
+
+<p class="text">Шапка собирается из четырёх строк ↓</p>
+
+<div class="scenario-card">
+  <div class="scenario-card__num">ФОРМУЛА ШАПКИ</div>
+  <div class="scenario-card__title">Четыре строки, которые продают подписку</div>
+  <div class="scenario-card__point">
+    <span class="scenario-card__point-label">Строка 1.</span>
+    <span class="scenario-card__point-text"> Имя | ниша или профессия</span>
+  </div>
+  <div class="scenario-card__point">
+    <span class="scenario-card__point-label">Строка 2.</span>
+    <span class="scenario-card__point-text"> Самый сильный факт-крючок: цифра, контраст, результат. Примеры: «В 23 заработала на две квартиры в Мск», «Живу в Тае, 5+ лет имею дело мечты», «Как превратить долги в миллионный капитал, живя "обычную" жизнь»</span>
+  </div>
+  <div class="scenario-card__point">
+    <span class="scenario-card__point-label">Строка 3.</span>
+    <span class="scenario-card__point-text"> Обещание трансформации или лайфстайл-маркер</span>
+  </div>
+  <div class="scenario-card__point">
+    <span class="scenario-card__point-label">Строка 4.</span>
+    <span class="scenario-card__point-text"> Указатель на актуальное: «Как … с "0" — смотри в актуальных ↓»</span>
+  </div>
+  <div class="scenario-card__ending">Плохо: «Помогаю женщинам стать лучше». Только конкретика, никаких расплывчатых слов.</div>
+</div>
+
+<h3 class="sub-heading">Что работает в шапке</h3>
+
+<ul class="guide-list">
+  <li><strong>Цифры.</strong> Сколько учениц, оборот, годы опыта — люди любят цифры.</li>
+  <li><strong>Заявление о цели.</strong> «Ставлю цель заработать … за 6 месяцев, наблюдай за моим путём» — режим сериала, за которым следят.</li>
+  <li><strong>Трансформация «было → стало».</strong> «Похудела на 20 кг, помогу и тебе».</li>
+  <li><strong>Призыв к действию в конце.</strong> На хайлайт с воронкой / на бесплатник в директе или чат-боте / на Telegram-канал. Если воронки нет — веди в Telegram, это страховка базы.</li>
+</ul>
+
+<h2 class="section-heading"><span>04.</span> Актуальные: <em>5–7 хайлайтов</em></h2>
+
+<p class="text">Актуальные — это витрина блога, и каждое из них — не обложка «для галочки», а готовый сторителлинг: серия сторис, которая формирует доверие и ведёт к продукту. Выбери 5–7 под себя из стандартного набора ↓</p>
+
+<ol class="headline-list">
+  <li><span class="headline-num">01.</span><span class="headline-text">«X шагов» / «100к с 0» — схема результата для новичка + подводка к продукту</span></li>
+  <li><span class="headline-num">02.</span><span class="headline-text">«Кто я?» / «Мой путь» — почему тебя нужно слушать: успехи с «0», крупные клиенты, доверие</span></li>
+  <li><span class="headline-num">03.</span><span class="headline-text">«Капитал» / «Активы» — соцдоказательство через то, чего добилась</span></li>
+  <li><span class="headline-num">04.</span><span class="headline-text">«Лайфхаки» / Подборки — 3–4 пользы в нише, которую хочется сохранить</span></li>
+  <li><span class="headline-num">05.</span><span class="headline-text">Ценностная линия («Здоровье», «Баланс») — ролевая модель, человечность, состояние</span></li>
+  <li><span class="headline-num">06.</span><span class="headline-text">Мировоззренческая линия («Бедность» и другое хайповое название) — твой метод достижения успеха как ценность</span></li>
+  <li><span class="headline-num">07.</span><span class="headline-text">Экспертный сторителлинг — разбор проблемы или развенчивание мифов</span></li>
+  <li><span class="headline-num">08.</span><span class="headline-text">Отзывы / Кейсы — истории результатов учениц и клиентов (обязательно, если есть продукт)</span></li>
+  <li><span class="headline-num">09.</span><span class="headline-text">Интересная история из жизни — перекликается с темой блога и болью аудитории, цепляющее название</span></li>
+</ol>
+
+<div class="highlight"><strong>Не делай все актуальные продающими:</strong> ценностная и мировоззренческая линии продают доверие, а не продукт. Названия — цепляющие и интригующие, не «для галочки».</div>
+
+<h3 class="sub-heading">Пример: как устроена арка «Кто я?»</h3>
+
+<p class="text">Каждый сторителлинг строится по проверенной арке. Вот последовательность серии «Кто я?» (~10–11 сторис):</p>
+
+<div class="scenario-card">
+  <div class="scenario-card__num">АРКА «КТО Я?» / «МОЙ ПУТЬ»</div>
+  <div class="scenario-card__title">Доверие + экспертность</div>
+  <div class="scenario-card__point"><span class="scenario-card__point-label">1.</span><span class="scenario-card__point-text"> Текстовая с красивым фото — анонс: «В следующих сторис расскажу, кто я такая и на чём заработала …»</span></div>
+  <div class="scenario-card__point"><span class="scenario-card__point-label">2.</span><span class="scenario-card__point-text"> Говорящая по пояс, опрятный фон — представление: «Я — эксперт по … Уже N лет я помогаю …»</span></div>
+  <div class="scenario-card__point"><span class="scenario-card__point-label">3.</span><span class="scenario-card__point-text"> Текстовая — было/раньше: с чего начинала, кем работала</span></div>
+  <div class="scenario-card__point"><span class="scenario-card__point-label">4.</span><span class="scenario-card__point-text"> Текстовая + скрины — крупные клиенты и бренды поимённо</span></div>
+  <div class="scenario-card__point"><span class="scenario-card__point-label">5.</span><span class="scenario-card__point-text"> Текстовая + 2–3 скрина — ценник выше среднего + благодарности клиентов</span></div>
+  <div class="scenario-card__point"><span class="scenario-card__point-label">6.</span><span class="scenario-card__point-text"> Говорящая с субтитрами — экспертное объяснение ниши + подтверждённые результаты</span></div>
+  <div class="scenario-card__point"><span class="scenario-card__point-label">7.</span><span class="scenario-card__point-text"> Видео (ноутбук, работа, путешествия) — лайфстайл: «Благодаря … я работаю откуда хочу. И ты можешь так же ❤️»</span></div>
+  <div class="scenario-card__point"><span class="scenario-card__point-label">8.</span><span class="scenario-card__point-text"> Кейс — результат ученицы с именем и конкретикой</span></div>
+  <div class="scenario-card__point"><span class="scenario-card__point-label">9.</span><span class="scenario-card__point-text"> Говорящая селфи — снятие барьеров списком: «Тебе НЕ нужны: ❌ вложения ❌ связи ❌ диплом»</span></div>
+  <div class="scenario-card__point"><span class="scenario-card__point-label">10.</span><span class="scenario-card__point-text"> Текстовая с сильным кейсом — «… — это сфера, где ты можешь … Именно поэтому девушки делают такие результаты!»</span></div>
+  <div class="scenario-card__point"><span class="scenario-card__point-label">11.</span><span class="scenario-card__point-text"> Текстовая — призыв: «Если ты тоже хочешь … — пиши в директ слово "…"»</span></div>
+  <div class="scenario-card__ending">Всего в системе 6 таких арок — по одной на каждый тип актуального. Все они внутри скилла в конце гайда.</div>
+</div>
+
+<h3 class="sub-heading">Принципы, которые держат серию</h3>
+
+<ul class="guide-list">
+  <li><strong>Первая сторис интригует.</strong> Она только обещает и не раскрывает деталей.</li>
+  <li><strong>Смена ракурсов.</strong> Никогда два одинаковых кадра подряд: лицо крупно, по пояс, в движении, текст на фоне, скрины, предметы. Говорящих — не больше двух подряд.</li>
+  <li><strong>Текст — король.</strong> Суть каждой сторис понятна без звука, к говорящим — подпись с выжимкой.</li>
+  <li><strong>Мало текста.</strong> 1–2 коротких абзаца на текстовую, много информации — разбивай.</li>
+  <li><strong>Наглядность.</strong> Говоришь о клиентах — скрины, об активах — фото, о кейсах — подтверждения. Никаких пустых слов.</li>
+  <li><strong>Небанальность.</strong> Конкретика вместо «верь в себя»: не «клиентка», а «Влада увеличила чек за работу»; не «недавно», а «в 20 лет первый запуск на миллион».</li>
+</ul>
+
+<h2 class="section-heading"><span>05.</span> План постов: <em>9–12 в сетке</em></h2>
+
+<p class="text">Посты в сетке достраивают упаковку: 9–12 постов в пропорции 50% личность / 50% экспертность. Опорные темы:</p>
+
+<ul class="guide-list">
+  <li>«Кто я?»</li>
+  <li>«Что у меня можно купить?» — список продуктов + кодовое слово</li>
+  <li>«Почему 95% не получается …»</li>
+  <li>Пост-боли аудитории через свою историю → решение</li>
+  <li>«Главные ценности»</li>
+  <li>«Моя мечта / цель на год»</li>
+  <li>«Как я попала в сферу»</li>
+  <li>«Почему одни …, а другие …»</li>
+  <li>Пост с нативным лайфстайлом («Почему я выбрала Тай»)</li>
+</ul>
+
+<h2 class="section-heading"><span>06.</span> Скилл для Claude: <em>упаковка на автопилоте</em></h2>
+
+<p class="text">Вся эта система собрана в скилл для Claude. Устанавливаешь один раз — и Claude превращает хаотичную информацию о тебе (распаковку, факты, кейсы, цифры — в любом порядке) в готовые сторителлинги для актуальных: с форматами съёмки, текстами сторис и подписями. Внутри все 6 арок, формула шапки и план постов.</p>
+
+<div class="prompt-box">
+  <div class="prompt-box__title">Скилл «Сторителлинги для актуальных»</div>
+  <div class="prompt-box__subtitle">Скачай архив → загрузи в Claude как скилл → скинь информацию о себе и попроси упаковать блог</div>
+  <p class="prompt-box__text">Скилл работает по принципу «ничего не выдумывать»: только твои факты, а где не хватает — плейсхолдеры и уточняющие вопросы. Финальные тексты проходят хуманизатор, чтобы речь звучала живой, а не машинной.</p>
+  <a class="copy-btn" href="gift/storytelling-aktualnye-skill.zip" download>Скачать скилл →</a>
+  <span class="copy-btn__hint">Архив со скиллом · устанавливается в Claude в один шаг</span>
+</div>
+
+</div>
+
+<p class="footer-note">Люди подписываются после историй, которые раскрывают личность, — <em>упаковка просто даёт этим историям сцену.</em></p>
+
+<div class="footer">
+  © 2026 · maysoulme · Все права защищены
+  <div class="tiny">Гайд создан для подписчиц канала «Майя maysoulme | блог и ИИ». Делиться ссылкой можно, выдавать за свой материал — нельзя 🤍</div>
+</div>
+
+</body>
+</html>
