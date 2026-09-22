@@ -9,7 +9,8 @@
 <style>
 *,*::before,*::after{margin:0;padding:0;box-sizing:border-box;}
 html,body{overflow-x:hidden;max-width:100%;}
-html{overflow-x:clip;}
+html{overflow-x:clip;scroll-behavior:smooth;}
+section[id],div[id]{scroll-margin-top:64px;}
 :root{
   --milk:#FDFCF9; --ink:#262220; --body:#55504B; --soft:#948C83;
   --bordo:#710C04; --hair:#E9E4DC; --wash:#F7F3EC;
@@ -22,6 +23,13 @@ a{color:var(--bordo);text-decoration:none;border-bottom:1px solid rgba(113,12,4,
 a:hover{opacity:.7;}
 
 header{display:flex;justify-content:space-between;align-items:baseline;gap:24px;padding:26px 0;border-bottom:1px solid var(--hair);}
+
+/* Меню-оглавление */
+.toc{position:sticky;top:0;z-index:60;background:rgba(253,252,249,.96);backdrop-filter:blur(8px);border-bottom:1px solid var(--hair);display:flex;flex-wrap:wrap;justify-content:center;gap:6px 22px;padding:14px 12px;}
+.toc a{font-size:11.5px;font-weight:600;letter-spacing:1.6px;text-transform:uppercase;color:var(--body);border-bottom:none;padding:2px 0;}
+.toc a:hover{color:var(--bordo);opacity:1;}
+.toc a b{color:var(--bordo);font-weight:700;margin-right:5px;font-family:'Libre Baskerville',serif;font-style:italic;letter-spacing:0;}
+@media (max-width:820px){.toc{gap:4px 14px;padding:11px 8px;}.toc a{font-size:10.5px;letter-spacing:1.1px;}}
 .head-cta{font-size:13.5px;font-weight:600;color:var(--bordo);text-decoration:none;border-bottom:1px solid var(--bordo);padding-bottom:2px;}
 .head-cta:hover{opacity:.75;}
 .brand{font-family:'Libre Baskerville',serif;font-weight:700;font-size:19px;color:var(--ink);}
@@ -43,7 +51,7 @@ header{display:flex;justify-content:space-between;align-items:baseline;gap:24px;
 .btn{display:inline-block;background:var(--bordo);color:#FCF8F3;font-size:15px;font-weight:500;padding:18px 42px;text-decoration:none;border-bottom:none;transition:background .25s,transform .25s;}
 .btn:hover{background:#8C1D12;transform:translateY(-2px);opacity:1;}
 .photo-frame{border:1px solid var(--ink);padding:14px;background:var(--milk);}
-.photo{aspect-ratio:3/4;background:#E9CDB9 url("img/rayan-photo.webp") center 20%/cover no-repeat;display:block;}
+.photo{aspect-ratio:3/4;background:#E9CDB9 url("https://anketa.mayasoul.ru/img/rayan-photo.webp") center 20%/cover no-repeat;display:block;}
 .photo-cap{font-family:'DM Sans',sans-serif;font-style:italic;font-size:13.5px;color:var(--soft);margin-top:12px;text-align:right;}
 
 /* Sections */
@@ -94,7 +102,7 @@ section{padding:76px 0;border-top:1px solid var(--hair);}
 .guar .sec-lead{margin-bottom:16px;}
 .guar p{font-size:15.5px;color:var(--ink);line-height:1.9;}
 
-.dark{background:#4A0B04;position:relative;overflow:hidden;text-align:center;padding:92px 28px;color:#E3C2B4;margin-top:76px;}
+.dark{background:#4A0B04;position:relative;overflow:hidden;text-align:center;padding:58px 28px;color:#E3C2B4;margin-top:56px;min-height:0;height:auto;}
 .dark-glow{position:absolute;width:520px;height:520px;border-radius:50%;right:-140px;top:-160px;background:radial-gradient(circle, #A24630, rgba(74,11,4,0) 70%);filter:blur(30px);opacity:.55;}
 .dark>*{position:relative;}
 .dark .lead-in{color:#E8AE93;}
@@ -151,6 +159,21 @@ footer{text-align:center;padding:52px 24px 60px;}
   <span class="brand-sub">досье по открытым источникам</span>
   <a class="head-cta" href="#sources">Все источники ↓</a>
 </header>
+</div>
+
+<nav class="toc">
+  <a href="#persona"><b>01</b>Самопрезентация</a>
+  <a href="#bio"><b>02</b>Легенда</a>
+  <a href="#projects"><b>03</b>Проекты</a>
+  <a href="#online"><b>04</b>Площадки</a>
+  <a href="#courts"><b>05</b>Суды</a>
+  <a href="#gaps"><b>06</b>Пробелы</a>
+  <a href="#summary"><b>—</b>Итог</a>
+  <a href="#identity"><b>07</b>Данные из отчётов</a>
+  <a href="#sources"><b>08</b>Источники</a>
+</nav>
+
+<div class="wrap">
 
 <div class="hero">
   <div class="hero-glow"></div>
@@ -190,7 +213,7 @@ footer{text-align:center;padding:52px 24px 60px;}
   </div>
 </section>
 
-<section>
+<section id="bio">
   <p class="sec-lead">02 — легенда</p>
   <h2 class="sec-title">Биография, которую он <em>рассказывает о себе</em></h2>
   <p class="sec-note">Классическая арка «герой из низов». Описание его YouTube-канала начинается словами: «Меня зовут Раян. Я обычный парень, который родился в бедной семье и хотел чего-то большего».</p>
@@ -203,7 +226,7 @@ footer{text-align:center;padding:52px 24px 60px;}
   <p class="anchor">Ни один пункт биографии не подтверждён независимо — всё известно со слов самого героя (<a href="https://politnews.net/159621">PolitNews</a>, <a href="https://news.myseldon.com/ru/news/index/217230669">Селдон.Новости</a>).</p>
 </section>
 
-<section>
+<section id="projects">
   <p class="sec-lead">03 — проекты</p>
   <h2 class="sec-title">Четыре проекта — <em>и что с ними стало</em></h2>
 
@@ -259,7 +282,7 @@ footer{text-align:center;padding:52px 24px 60px;}
   </div>
 </section>
 
-<section>
+<section id="online">
   <p class="sec-lead">04 — площадки</p>
   <h2 class="sec-title">Где он <em>в сети</em></h2>
   <div class="get">
@@ -271,7 +294,7 @@ footer{text-align:center;padding:52px 24px 60px;}
   <p class="anchor">Статьи о нём: <a href="https://politnews.net/159621">PolitNews «Кто такой корпоративный блогер?»</a> и <a href="https://news.myseldon.com/ru/news/index/217230669">Селдон «ТОП-3 инсайта от бизнесмена»</a> — обе по тону PR-размещения.</p>
 </section>
 
-<section>
+<section id="courts">
   <p class="sec-lead">05 — обратная сторона</p>
   <h2 class="sec-title">Суды и претензии: <em>что задокументировано</em></h2>
   <p class="sec-note">Самая фактурная часть его публичного следа — в поиске по его имени она видна едва ли не лучше собственного контента.</p>
@@ -295,7 +318,7 @@ footer{text-align:center;padding:52px 24px 60px;}
   </div>
 </section>
 
-<section>
+<section id="gaps">
   <p class="sec-lead">06 — пробелы</p>
   <h2 class="sec-title">Чего в интернете <em>про него нет</em></h2>
   <div class="why">
@@ -313,7 +336,7 @@ footer{text-align:center;padding:52px 24px 60px;}
 
 </div>
 
-<div class="dark">
+<div class="dark" id="summary">
   <div class="dark-glow"></div>
   <p class="lead-in">итог</p>
   <h2>Как читать <em>эту фигуру</em></h2>
@@ -322,8 +345,31 @@ footer{text-align:center;padding:52px 24px 60px;}
 </div>
 
 <div class="wrap">
+<section id="identity">
+  <p class="sec-lead">07 — данные из отчётов</p>
+  <h2 class="sec-title">Что добавили <em>новые документы</em></h2>
+  <p class="sec-note">Сведения ниже извлечены из двух отчётов VOID, присланных самим Раяном. Это данные из агрегированных записей, а не независимая проверка личности; противоречия в датах и написании имени сохранены.</p>
+  <div class="get">
+    <div class="get-card"><h4>Идентичность</h4><p>ФИО: Раян Романович Ахмедьянов. Основная дата рождения — 05.03.1992; в части записей встречается 03.05.1992. Место рождения в отдельном отчёте указано как Москва, в основном — Кисловодск.</p></div>
+    <div class="get-card"><h4>Контакты</h4><p>Основной телефон: +7 917 567-56-72. Основной email: ray.ahmedyanov@gmail.com. В дополнительном отчёте также указан golova202@mail.ru; часть адресов выглядит как старые или ошибочные регистрации.</p></div>
+    <div class="get-card"><h4>Публичные аккаунты</h4><p>В отчётах связаны логины Rayanmedla в Telegram и rayan_comedy в TikTok, а также Instagram-аккаунты rayan_ahmedyanov и rayanahmedianov. Эти связи требуют отдельной проверки владельцем.</p></div>
+    <div class="get-card"><h4>Документы и записи</h4><p>Паспорт: 0711663940; также встречаются IIАЯ502605, 8305761125 и 736681797. СНИЛС: 15538769812. ИНН: 262811987272. В записях также есть госномер В110ХА777 и VIN WDD2130421A168324 автомобиля Mercedes-Benz E200.</p></div>
+  </div>
+  <div class="res" style="margin-top:34px;">
+    <div class="res-row"><span class="res-when">адреса</span><span class="res-what">Москва: Нижняя Красносельская, д. 48, кв. 12; Нижняя Красносельская, д. 35с3, кв. 3209; Нижняя Красносельская, д. 35с50, кв. 216; ул. Радио, 24к1; ул. 1905 года, д. 5. Также встречаются Балашиха, ул. Карбышева, д. 3, кв. 167; Кисловодск, ул. Красивая, д. 25, кв. 114; Нальчик, ул. Кабардинская, д. 192.</span></div>
+    <div class="res-row"><span class="res-when">почта</span><span class="res-what">ray.ahmedyanov@gmail.com; golova202@mail.ru; agereverso.ru@gmail.com; ray.agmedyanov@gmail.com; day.ahmedyanov@gmail.com; mail@rosspeckomplekt.ru; diana-ishk@yandex.ru; kuzsydfvgosa@gmail.com; 1741964220@78fakef.org.</span></div>
+    <div class="res-row"><span class="res-when">аккаунты</span><span class="res-what">Telegram: @rayanmedla, ID 304888962. TikTok: @rayan_comedy, ID 6839324647436321798. Instagram: rayan_ahmedyanov и rayanahmedianov. Также найдены регистрации на tutu.ru, Avito, S7, Сбер, Тинькофф, Whoosh, Яндекс Еде, Delivery Club и других сервисах.</span></div>
+    <div class="res-row"><span class="res-when">связи</span><span class="res-what">В отчёте отмечены родственники Раян Романович Ахмедьянов и Роман Романович Ахмедьянов, а также Эмилия Раяновна Ахмедьянова (22.07.2021) и Инесса Андреевна Галуга (04.05.1986). Эти связи приведены как совпадения агрегатора.</span></div>
+    <div class="res-row"><span class="res-when">поездки</span><span class="res-what">В выгрузке есть авиабилеты и бронирования с датами 2019–2026, включая маршруты через Москву, Анталью и San Jose, а также записи такси, каршеринга, доставки и переводов.</span></div>
+  </div>
+  <div class="guar">
+    <p class="sec-lead">важно</p>
+    <p>Это дословно структурированные совпадения из двух присланных отчётов VOID. Наличие записи в агрегаторе не доказывает её актуальность или принадлежность человеку; расхождения (например, 05.03.1992 и 03.05.1992, Москва и Кисловодск) сохранены.</p>
+  </div>
+</section>
+
 <section id="sources">
-  <p class="sec-lead">07 — источники</p>
+  <p class="sec-lead">08 — источники</p>
   <h2 class="sec-title">Все ссылки <em>одним списком</em></h2>
   <ul class="src">
     <li><a href="https://www.instagram.com/rayanahmedianov/">instagram.com/rayanahmedianov</a><small>его Instagram, ~38K подписчиков</small></li>
