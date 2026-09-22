@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex, nofollow">
+<title>Программа «Перезагрузка пищеварения»</title>
+<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Inter:wght@400;500;600;700&family=DM+Sans:ital@1&display=swap" rel="stylesheet">
+<style>
+*,*::before,*::after{margin:0;padding:0;box-sizing:border-box;}
+html,body{overflow-x:hidden;max-width:100%;}
+html{overflow-x:clip;}
+:root{
+  --milk:#FDFCF9; --ink:#262220; --body:#55504B; --soft:#948C83;
+  --bordo:#710C04; --hair:#E9E4DC; --wash:#F7F3EC;
+}
+body{font-family:'Inter',sans-serif;background:var(--milk);color:var(--body);font-size:16.5px;line-height:1.8;-webkit-font-smoothing:antialiased;overflow-x:hidden;}
+.bask{font-family:'Libre Baskerville',Georgia,serif;}
+.wrap{max-width:1020px;margin:0 auto;padding:0 28px;}
+
+header{display:flex;justify-content:space-between;align-items:baseline;gap:24px;padding:26px 0;border-bottom:1px solid var(--hair);}
+.head-cta{font-size:13.5px;font-weight:600;color:var(--bordo);text-decoration:none;border-bottom:1px solid var(--bordo);padding-bottom:2px;}
+.head-cta:hover{opacity:.75;}
+.brand{font-family:'Libre Baskerville',serif;font-weight:700;font-size:19px;color:var(--ink);}
+.brand-sub{font-family:'DM Sans',sans-serif;font-style:italic;font-size:14px;color:var(--soft);}
+
+/* Hero */
+.hero{display:grid;grid-template-columns:1.08fr .92fr;gap:64px;align-items:center;padding:72px 0 84px;position:relative;}
+.hero-copy,.photo-side{position:relative;z-index:1;}
+.hero-glow{position:absolute;width:560px;height:560px;right:-120px;top:-60px;border-radius:50%;background:radial-gradient(circle at 40% 40%, #F6D9C2, #F2C4B4 45%, rgba(253,252,249,0) 72%);filter:blur(40px);opacity:.65;z-index:0;pointer-events:none;}
+.hero .hero-glow{position:absolute;z-index:0;}
+.lead-in{font-family:'Libre Baskerville',serif;font-style:italic;font-size:18px;color:var(--bordo);margin-bottom:20px;}
+.hero h1{font-family:'Libre Baskerville',serif;font-weight:700;font-size:44px;line-height:1.28;color:var(--ink);margin-bottom:24px;text-transform:uppercase;letter-spacing:.035em;}
+.hero h1 em,.sec-title em,.mod-title em,.price h2 em{font-style:italic;color:var(--bordo);}
+.offer{font-size:17px;margin-bottom:26px;max-width:46ch;}
+.no{list-style:none;margin-bottom:26px;max-width:440px;}
+.no li{padding:10px 0 10px 28px;position:relative;font-size:15.5px;border-bottom:1px solid var(--hair);}
+.no li:first-child{border-top:1px solid var(--hair);}
+.no li::before{content:'✕';position:absolute;left:2px;top:10px;color:var(--bordo);font-size:11px;}
+.promise{font-family:'Libre Baskerville',serif;font-style:italic;font-size:18.5px;color:var(--ink);margin-bottom:30px;}
+.btn{display:inline-block;background:var(--bordo);color:#FCF8F3;font-size:15px;font-weight:500;padding:18px 42px;text-decoration:none;transition:background .25s,transform .25s;}
+.btn:hover{background:#8C1D12;transform:translateY(-2px);}
+.photo-frame{border:1px solid var(--ink);padding:14px;background:var(--milk);}
+.photo{aspect-ratio:3/4;background:#E9CDB9 none center 22%/cover no-repeat;display:block;}
+.photo-cap{font-family:'DM Sans',sans-serif;font-style:italic;font-size:13.5px;color:var(--soft);margin-top:12px;text-align:right;}
+
+/* Sections */
+section{padding:76px 0;border-top:1px solid var(--hair);}
+.sec-lead{font-size:11.5px;font-weight:600;letter-spacing:3px;text-transform:uppercase;color:var(--bordo);text-align:center;margin-bottom:14px;}
+.sec-title{font-family:'Libre Baskerville',serif;font-weight:700;font-size:29px;line-height:1.42;color:var(--ink);text-align:center;margin-bottom:44px;text-transform:uppercase;letter-spacing:.04em;}
+
+.if-list{list-style:none;max-width:760px;margin:0 auto;columns:2;column-gap:56px;}
+@media (max-width:760px){.if-list{columns:1;}}
+.if-list li{padding:15px 0 15px 30px;position:relative;font-size:15.5px;border-bottom:1px solid var(--hair);break-inside:avoid;}
+.if-list li::before{content:'◆';position:absolute;left:4px;top:17px;font-size:9px;color:var(--bordo);}
+
+.why{max-width:660px;margin:0 auto;text-align:center;}
+.why p{margin-bottom:18px;}
+.why-key{font-family:'Libre Baskerville',serif;font-style:italic;font-size:23px;line-height:1.6;color:var(--ink);margin-top:28px;}
+.why-key span{color:var(--bordo);}
+
+.module{max-width:760px;margin:0 auto;padding:44px 0;border-bottom:1px solid var(--hair);position:relative;}
+.mod-ghost{position:absolute;top:2px;right:-10px;font-family:'Libre Baskerville',Georgia,serif;font-weight:700;font-size:210px;line-height:1;color:rgba(113,12,4,.055);z-index:0;pointer-events:none;user-select:none;}
+.module>*:not(.mod-ghost){position:relative;z-index:1;}
+.module:last-of-type{border-bottom:none;padding-bottom:0;}
+.mod-eyebrow{font-family:'Libre Baskerville',serif;font-style:italic;font-size:16px;color:var(--bordo);margin-bottom:8px;}
+.mod-title{font-family:'Libre Baskerville',serif;font-weight:700;font-size:19.5px;line-height:1.5;color:var(--ink);margin-bottom:16px;text-transform:uppercase;letter-spacing:.045em;}
+.mod-intro{font-size:15.5px;margin-bottom:20px;}
+.mod-know{font-family:'Libre Baskerville',serif;font-style:italic;font-size:16px;color:var(--ink);margin-bottom:10px;}
+.mod-list{list-style:none;margin-bottom:22px;}
+.mod-list li{padding:9px 0 9px 24px;position:relative;font-size:15px;line-height:1.75;}
+.mod-list li::before{content:'—';position:absolute;left:0;top:9px;color:var(--bordo);}
+.bonus{display:inline-block;background:var(--wash);padding:12px 22px;font-size:13.5px;color:var(--ink);}
+.bonus i{font-family:'Libre Baskerville',serif;color:var(--bordo);margin-right:10px;font-size:14.5px;}
+
+.get{display:grid;grid-template-columns:1fr 1fr;gap:16px;max-width:720px;margin:0 auto;}
+.get-card{border:1px solid var(--hair);padding:26px 30px;transition:border-color .25s;}
+.get-card:hover{border-color:var(--bordo);}
+.get-card h4{font-family:'Libre Baskerville',serif;font-weight:700;font-size:17px;color:var(--ink);margin-bottom:6px;}
+.get-card p{font-size:14px;color:var(--soft);}
+.anchor{font-family:'Libre Baskerville',serif;font-style:italic;text-align:center;font-size:18px;color:var(--ink);margin-top:36px;}
+
+.res{max-width:680px;margin:0 auto;}
+.res-row{display:grid;grid-template-columns:180px 1fr;gap:28px;padding:20px 0;border-bottom:1px solid var(--hair);align-items:baseline;}
+.res-row:first-child{border-top:1px solid var(--hair);}
+.res-when{font-family:'Libre Baskerville',serif;font-style:italic;font-size:17px;color:var(--bordo);}
+.res-what{font-size:15.5px;}
+
+.guar{max-width:660px;margin:0 auto;border:1px solid var(--bordo);outline:1px solid var(--bordo);outline-offset:5px;padding:48px 52px;text-align:center;}
+.guar .sec-lead{margin-bottom:16px;}
+.guar p{font-size:16.5px;color:var(--ink);line-height:1.9;}
+
+.fine{max-width:580px;margin:0 auto;text-align:center;font-size:14.5px;color:var(--soft);}
+.flow{max-width:580px;margin:22px auto 0;text-align:center;font-size:15px;color:var(--ink);}
+.flow b{color:var(--bordo);font-weight:600;}
+
+.price{background:#4A0B04;position:relative;overflow:hidden;text-align:center;padding:92px 28px;color:#E3C2B4;margin-top:76px;}
+.price-glow{position:absolute;width:520px;height:520px;border-radius:50%;right:-140px;top:-160px;background:radial-gradient(circle, #A24630, rgba(74,11,4,0) 70%);filter:blur(30px);opacity:.55;}
+.price>*{position:relative;}
+.price .lead-in{color:#E8AE93;}
+.price h2{font-family:'Libre Baskerville',serif;font-weight:700;font-size:34px;color:#FBF3EA;margin-bottom:16px;text-transform:uppercase;letter-spacing:.05em;}
+.price h2 em{color:#E8AE93;}
+.price p{max-width:52ch;margin:0 auto 30px;font-size:15.5px;}
+.price .old-sum{font-family:'Libre Baskerville',serif;font-size:26px;color:#B98A76;text-decoration:line-through;margin-bottom:4px;}
+.price .sum{font-family:'Libre Baskerville',serif;font-size:64px;color:#FBF3EA;margin-bottom:30px;}
+.price .btn{background:#FBF3EA;color:#4A0B04;}
+.price .btn:hover{background:#F0DCC8;}
+.btn-sub{display:block;margin-top:14px;font-size:13px;color:#C99B85;}
+
+footer{text-align:center;padding:52px 24px 60px;}
+.foot-line{font-family:'Libre Baskerville',serif;font-size:15.5px;letter-spacing:.06em;text-transform:uppercase;color:var(--ink);margin-bottom:22px;}
+.foot-line em{font-style:italic;color:var(--bordo);}
+.foot-line em{color:var(--bordo);}
+.foot-meta{font-size:12.5px;color:var(--soft);line-height:2;}
+
+/* Анимации */
+@keyframes rise{from{opacity:0;transform:translateY(24px);}to{opacity:1;transform:translateY(0);}}
+.hero .lead-in{animation:rise .8s cubic-bezier(.22,.7,.3,1) .05s both;}
+.hero h1{animation:rise .8s cubic-bezier(.22,.7,.3,1) .16s both;}
+.hero .offer{animation:rise .8s cubic-bezier(.22,.7,.3,1) .3s both;}
+.hero .no{animation:rise .8s cubic-bezier(.22,.7,.3,1) .42s both;}
+.hero .promise{animation:rise .8s cubic-bezier(.22,.7,.3,1) .54s both;}
+.hero .btn{animation:rise .8s cubic-bezier(.22,.7,.3,1) .66s both;}
+.hero .photo-side{animation:rise 1s cubic-bezier(.22,.7,.3,1) .5s both;}
+@keyframes breathe{0%,100%{transform:scale(1) translate(0,0);}50%{transform:scale(1.1) translate(-24px,18px);}}
+.hero-glow{animation:breathe 14s ease-in-out infinite;}
+.price-glow{animation:breathe 18s ease-in-out infinite;}
+@media (prefers-reduced-motion:reduce){.hero-glow,.price-glow,.hero .lead-in,.hero h1,.hero .offer,.hero .no,.hero .promise,.hero .btn,.hero .photo-side{animation:none;}}
+
+@media (max-width:820px){
+  .mod-ghost{font-size:120px;top:6px;right:0;}
+  .head-cta{display:none;}
+  .hero{grid-template-columns:1fr;gap:44px;padding:44px 0 60px;}
+  .hero h1{font-size:34px;}
+  .hero-glow{width:320px;height:320px;right:-60px;top:40px;}
+  .photo-side{max-width:340px;}
+  .module{padding:36px 0;}
+  .get{grid-template-columns:1fr;}
+  .res-row{grid-template-columns:1fr;gap:4px;}
+  .guar{padding:36px 24px;}
+  .price .old-sum{font-family:'Libre Baskerville',serif;font-size:26px;color:#B98A76;text-decoration:line-through;margin-bottom:4px;}
+.price .sum{font-size:46px;}
+  section{padding:56px 0;}
+}
+
+/* Текст урока (рабочий блок) */
+.script-sec{border-top:1px solid var(--hair);padding:64px 0 40px;}
+.script-note{text-align:center;font-size:12px;letter-spacing:2px;text-transform:uppercase;color:var(--soft);margin-bottom:26px;}
+.script-btns{display:flex;gap:14px;justify-content:center;flex-wrap:wrap;margin-bottom:30px;}
+.sbtn{font-family:'Inter',sans-serif;font-size:13.5px;font-weight:600;color:var(--bordo);background:none;border:1px solid var(--bordo);padding:13px 26px;cursor:pointer;}
+.sbtn:hover{background:var(--bordo);color:#FCF8F3;}
+.script-body{display:none;max-width:700px;margin:0 auto;font-size:13.5px;line-height:1.9;color:#6E675F;}
+.script-body.open{display:block;}
+.script-h{font-size:11px;font-weight:700;letter-spacing:2.5px;text-transform:uppercase;color:var(--bordo);margin:26px 0 10px;}
+.script-body p{margin-bottom:10px;}
+.copied{background:var(--bordo);color:#FCF8F3;}
+</style>
+<style>
+.hero{display:block;}
+.hero-copy{max-width:740px;position:relative;z-index:1;}
+.tarif{margin-top:14px;font-size:14px;color:rgba(253,252,249,.75);}
+</style>
+
+</head>
+<body>
+
+<div class="wrap">
+
+<header>
+  <span class="brand">Валентина</span>
+  <span class="brand-sub">восточная медицина для пищеварения</span>
+  <a class="head-cta" href="#price">Купить — 2 500 ₽</a>
+</header>
+
+<div class="hero">
+  <div class="hero-glow"></div>
+  <div class="hero-copy">
+    <p class="lead-in">программа на 4 недели</p>
+    <h1>Пищеварение, которое <em>не мешает жить</em></h1>
+    <p class="offer"><strong>Изжога, вздутие, отрыжка и нестабильный стул — не «твоя особенность», от них можно избавиться 🌿</strong> Пока другие годами глушат симптомы таблетками, ты за месяц перезапустишь пищеварение методами восточной медицины: питание по циклу пяти элементов и работа с причиной, а не со следствием. А вслед за животом вернутся энергия, спокойный сон и жизнь, в которой ты больше не подстраиваешься под свой ЖКТ.</p>
+    <ul class="no">
+      <li>без аптечных препаратов и горстей БАДов</li>
+      <li>без голодовок и жёстких диет — рацион остаётся сытным и вкусным</li>
+      <li>даже если ты уже прошла всех врачей и «ничего не помогает»</li>
+    </ul>
+    <p class="promise">По опыту программы первые изменения приходят уже в первые две недели.</p>
+    <a class="btn" href="#price">Хочу разобраться с животом — 2 500 ₽</a>
+  </div>
+</div>
+
+<section>
+  <p class="sec-lead">01 — про тебя</p>
+  <h2 class="sec-title">Эта программа <em>для тебя</em>, если…</h2>
+  <ul class="if-list">
+    <li>Изжога стала фоном жизни, а омепразол прописался в сумочке</li>
+    <li>К вечеру живот вздувается так, что хочется расстегнуть джинсы</li>
+    <li>Стул нестабильный: то запор, то диарея, и ты планируешь день вокруг этого</li>
+    <li>Стесняешься близко разговаривать из-за запаха изо рта</li>
+    <li>Врачи разводят руками: анализы «в норме», а симптомы никуда не делись</li>
+    <li>Таблетки давали облегчение ровно до первой отмены</li>
+    <li>Сил нет уже с утра, и ты давно забыла, что такое лёгкость после еды</li>
+  </ul>
+</section>
+
+<section>
+  <p class="sec-lead">02 — метод</p>
+  <h2 class="sec-title">Почему здесь <em>получится</em>,<br>даже если врачи не помогли</h2>
+  <div class="why">
+    <p>С тобой всё в порядке, и ты не «просто такая». Таблетки не сработали, потому что они глушат симптом: пока причина на месте, изжога и вздутие возвращаются после каждой отмены, а список побочных эффектов у таких препаратов длиннее списка показаний.</p>
+    <p>Восточная медицина заходит с другой стороны: она убирает причину. Основа программы — питание по циклу пяти элементов: ты ешь привычные продукты, но в то время суток, когда организм готов их переварить, и пищеварение постепенно налаживается само. Эту систему Валентина изучила у врачей тибетской медицины и годами применяет в индивидуальной работе, которая стоит 60 000 ₽, — здесь та же система собрана в самостоятельную программу.</p>
+    <p class="why-key">Не нужно голодать и жить на таблетках.<br><span>Нужно есть правильные продукты в правильное время.</span></p>
+  </div>
+</section>
+
+<section>
+  <p class="sec-lead">03 — программа</p>
+  <h2 class="sec-title">Четыре недели — <em>четыре шага к спокойному животу</em></h2>
+
+  <div class="module">
+    <div class="mod-ghost">1</div>
+    <p class="mod-eyebrow">неделя 1</p>
+    <h3 class="mod-title">Находим причину: <em>почему таблетки не сработали</em></h3>
+    <p class="mod-intro">Сначала ты поймёшь, что на самом деле происходит с твоим пищеварением и почему годы лечения не дали результата. Когда видишь причину, симптомы перестают быть пугающей загадкой.</p>
+    <p class="mod-know">на этой неделе ты узнаешь</p>
+    <ul class="mod-list">
+      <li>Как восточная медицина видит твой ЖКТ и что такое «огонь пищеварения» — простыми словами, без эзотерики</li>
+      <li>Почему омепразол и его родственники дают облегчение только до отмены и чем ты платишь за месяцы их приёма</li>
+      <li>Разбор твоих симптомов: о чём говорят изжога, вздутие, отрыжка и нестабильный стул на самом деле</li>
+    </ul>
+    <span class="bonus"><i>итог недели</i>ты понимаешь свою причину — и впервые видишь понятный план</span>
+  </div>
+
+  <div class="module">
+    <div class="mod-ghost">2</div>
+    <p class="mod-eyebrow">неделя 2</p>
+    <h3 class="mod-title">Питание по циклу <em>пяти элементов</em></h3>
+    <p class="mod-intro">Главный инструмент программы. Ты не отказываешься от привычной еды — ты начинаешь есть её в правильное время, когда организм готов её принять.</p>
+    <p class="mod-know">на этой неделе ты узнаешь</p>
+    <ul class="mod-list">
+      <li>Суточный цикл элементов: что и когда есть, чтобы еда переваривалась, а не бродила</li>
+      <li>Готовый план питания и рецепты с фотографиями — сытно, вкусно и без экзотики</li>
+      <li>Как сочетать эту систему с привычной жизнью: семья, работа, гости, поездки</li>
+    </ul>
+    <span class="bonus"><i>итог недели</i>ты ешь по новой схеме, и живот отвечает первыми улучшениями</span>
+  </div>
+
+  <div class="module">
+    <div class="mod-ghost">3</div>
+    <p class="mod-eyebrow">неделя 3</p>
+    <h3 class="mod-title">Разбираем <em>каждый симптом</em></h3>
+    <p class="mod-intro">У каждого симптома своя механика и свой порядок действий. Здесь ты работаешь адресно с тем, что беспокоит именно тебя.</p>
+    <p class="mod-know">на этой неделе ты узнаешь</p>
+    <ul class="mod-list">
+      <li>Изжога и рефлюкс: как убирать их питанием, а не блокаторами кислоты</li>
+      <li>Вздутие, газы и отрыжка: что именно в рационе и режиме их запускает</li>
+      <li>Запор и диарея: как приходит стабильный стул и почему это вопрос причин, а не «крепящих» и «слабящих» продуктов</li>
+    </ul>
+    <span class="bonus"><i>итог недели</i>у тебя есть личная схема по твоим симптомам</span>
+  </div>
+
+  <div class="module">
+    <div class="mod-ghost">4</div>
+    <p class="mod-eyebrow">неделя 4</p>
+    <h3 class="mod-title">Закрепляем: <em>энергия и жизнь без ограничений</em></h3>
+    <p class="mod-intro">Когда пищеварение налаживается, тело начинает возвращать долги: энергию, сон, кожу, настроение. Задача этой недели — сделать новый режим твоей нормой навсегда.</p>
+    <p class="mod-know">на этой неделе ты узнаешь</p>
+    <ul class="mod-list">
+      <li>Как не откатиться назад: праздники, путешествия, срывы — что делать, чтобы результат остался</li>
+      <li>Что происходит с весом, кожей и энергией, когда еда наконец усваивается</li>
+      <li>Как поддерживать себя дальше самостоятельно — программа остаётся с тобой навсегда</li>
+    </ul>
+    <span class="bonus"><i>итог недели</i>новый режим стал привычкой, и ты больше не подстраиваешь жизнь под живот</span>
+  </div>
+  <p style="text-align:center;margin-top:52px;"><a class="btn" href="#price">Забрать программу — 2 500 ₽</a></p>
+</section>
+
+<section>
+  <p class="sec-lead">04 — истории</p>
+  <h2 class="sec-title">Что происходит с теми, <em>кто прошёл этот путь</em></h2>
+  <div class="res">
+    <div class="res-row"><span class="res-when">Николай, 27</span><span class="res-what">За месяц ушли боли, вздутие и запах изо рта, камень в желчном уменьшился с 1,5 до 0,9 см, гомоцистеин снизился с 32,9 до 14,5, минус 12 кг</span></div>
+    <div class="res-row"><span class="res-when">Марина, 59</span><span class="res-what">Три года жидкого стула, жизнь взаперти и работа брошена — через две недели стул нормализовался, вернулись силы, а позже и работа</span></div>
+    <div class="res-row"><span class="res-when">Елена, 60</span><span class="res-what">Ежедневный омепразол от изжоги — теперь «стул безупречный», еда без страха, ушли рефлюкс и ком в пищеводе, нормализовалось давление</span></div>
+  </div>
+  <p class="anchor">Это результаты индивидуальной работы с Валентиной — в программе собрана та же система питания и подхода к причине.</p>
+</section>
+
+<section>
+  <p class="sec-lead">05 — наполнение</p>
+  <h2 class="sec-title">Что ты <em>получаешь</em></h2>
+  <div class="get">
+    <div class="get-card"><h4>Видеоуроки навсегда</h4><p>Смотришь в удобное время, возвращаешься когда нужно</p></div>
+    <div class="get-card"><h4>План питания и рецепты</h4><p>По циклу пяти элементов, с фотографиями, из обычных продуктов</p></div>
+    <div class="get-card"><h4>Разборы всех симптомов</h4><p>Изжога, вздутие, отрыжка, запор, диарея — по каждому своя схема</p></div>
+    <div class="get-card"><h4>Чек-листы и памятки</h4><p>Что есть, когда есть, что делать при откате</p></div>
+  </div>
+  <p class="anchor">Одна консультация гастроэнтеролога стоит дороже. Здесь — система, которая остаётся с тобой навсегда.</p>
+</section>
+
+<section>
+  <p class="sec-lead">06 — результаты</p>
+  <h2 class="sec-title">Что изменится <em>уже за месяц</em></h2>
+  <div class="res">
+    <div class="res-row"><span class="res-when">первая неделя</span><span class="res-what">Ты понимаешь причину своих симптомов и начинаешь есть по-новому — без голода и запретов</span></div>
+    <div class="res-row"><span class="res-when">вторая неделя</span><span class="res-what">Живот заметно спокойнее: меньше вздутия и тяжести, еда перестаёт быть источником страха</span></div>
+    <div class="res-row"><span class="res-when">дальше</span><span class="res-what">Симптомы уходят один за другим, возвращаются энергия и сон, и ты перестаёшь планировать жизнь вокруг ЖКТ</span></div>
+  </div>
+</section>
+
+<section>
+  <div class="guar">
+    <p class="sec-lead">честно про метод</p>
+    <p>Питание по циклу элементов работает с причиной, но оно не отменяет медицину: если у тебя острая боль, кровь в стуле или резкая потеря веса — сначала обследование у врача. Программа прекрасно дополняет обычное лечение и наблюдение, и именно так с ней работают внимательные к себе люди.</p>
+  </div>
+</section>
+
+<section>
+  <p class="sec-lead">07 — честно</p>
+  <h2 class="sec-title">Кому <em>не подойдёт</em></h2>
+  <p class="fine">Если ты ждёшь эффект как от таблетки — съела и через час прошло, — это не сюда: телу нужно несколько недель, чтобы перестроиться. И если совсем не готова менять питание, программа тоже не поможет: в ней вся сила именно в еде и времени её приёма.</p>
+  <p class="flow"><b>Первый поток новой версии</b> — поэтому такая цена. Дальше она будет только выше.</p>
+</section>
+
+</div>
+
+<div class="price" id="price">
+  <div class="price-glow"></div>
+  <p class="lead-in">первый поток</p>
+  <h2>Готова <em>начать?</em></h2>
+  <p>4 недели, видеоуроки навсегда, план питания по циклу пяти элементов, рецепты с фото, разборы всех симптомов и чек-листы.</p>
+  <div class="old-sum">5 000 ₽</div>
+  <div class="sum">2 500 ₽</div>
+  <a class="btn" href="#">Забрать программу</a>
+  <span class="btn-sub">Оплата картой любой страны, доступ сразу после оплаты</span>
+  <p class="tarif">Нужен личный разбор? Индивидуальная программа с Валентиной — 60 000 ₽, 2–3 места в месяц</p>
+</div>
+
+<div class="wrap">
+<section class="script-sec" id="script">
+  <p class="sec-lead">рабочий блок</p>
+  <h2 class="sec-title">Текст <em>продающего урока</em></h2>
+  <p class="script-note">для записи с суфлёра · удалить этот блок перед публикацией страницы · в скобках — что показывать на экране</p>
+  <div class="script-btns">
+    <button class="sbtn" id="toggleScript" type="button">Развернуть текст</button>
+    <button class="sbtn" id="copyScript" type="button">Скопировать для суфлёра</button>
+  </div>
+  <div class="script-body" id="scriptBody">
+
+<div class="script-h">Блок 1 · 0:00–2:00 · Остановить внимание</div>
+<p>Изжога, вздутие, отрыжка, нестабильный стул. Симптомы, с которыми люди живут годами, просто уходят за месяц. Без омепразола, без горстей БАДов и без голодовок.</p>
+<p>Звучит слишком хорошо? Тогда смотри. Марина, пятьдесят девять лет, три года жила с жидким стулом, перестала работать и почти не выходила из дома, потому что три года лечения таблетками не дали ничего. Через две недели работы со мной стул нормализовался. Сейчас она гуляет, занимается тай цзи и вернулась на работу.</p>
+<p>(на экране — кейс Марины, можно скрин переписки)</p>
+<p>Или Николай, двадцать семь лет: боли в желудке, вздутие, запах изо рта, камень в желчном полтора сантиметра. За месяц ушли все симптомы, камень уменьшился до девяти миллиметров, и это видно на УЗИ, а не в моих обещаниях.</p>
+<p>(на экране — результаты анализов и УЗИ Николая)</p>
+<p>Меня зовут Валентина, я специалист по восточной медицине, и сегодня я расскажу, почему твой живот всё ещё мучает тебя, хотя ты давно лечишься, и покажу систему, которая убирает причину. Досмотри до конца — в конце расскажу, как забрать эту систему по цене, которой больше не будет.</p>
+
+<div class="script-h">Блок 2 · 2:00–4:00 · Доказать</div>
+<p>Сначала о том, почему меня стоит слушать. Я работаю методами тибетской и в целом восточной медицины, и через мою индивидуальную программу прошли люди с диагнозами, на которых обычное лечение уже махнуло рукой: синдром Жильбера, камни в желчном, годы рефлюкса, диарея, которую не могли остановить три года.</p>
+<p>(на экране — карусель кейсов: анализы до и после, скрины сообщений)</p>
+<p>Индивидуальная работа со мной стоит шестьдесят тысяч рублей, и я беру двух-трёх человек в месяц, потому что каждому нужно моё личное включение: созвоны, диагностика, сопровождение. Мест всегда меньше, чем желающих. Именно поэтому появилась программа, о которой я расскажу в этом видео: та же система, но в формате, который доступен каждому.</p>
+
+<div class="script-h">Блок 3 · 4:00–7:00 · Моя история</div>
+<p>Я пришла к этому не из книжек. Восемь лет назад я сама ходила по кругу: рефлюкс, изжога, и врачи, которые прописывали мне Омез. Таблетки не помогали, а от некоторых становилось хуже — я чувствовала недомогание и не понимала, почему лечение желудка делает мне плохо.</p>
+<p>Потом я открыла список побочных действий того, что пила месяцами, и ужаснулась: абдоминальная боль, запор, диарея, метеоризм. То есть мы лечим ЖКТ препаратом, у которого в частых побочках — проблемы ЖКТ. Я поняла, что годами травила свой организм, пытаясь залечить то, к чему сама себя привела питанием и образом жизни.</p>
+<p>А в двадцать семь лет я узнала от врачей тибетской медицины о питании по циклу элементов — и с тех пор не представляю, как жила без этого знания. Я перестала пить таблетки, перестроила еду по этой системе, и симптомы, которые я считала своей особенностью, ушли. С тех пор я веду людей этим же путём и каждый месяц вижу, как он срабатывает у тех, кто уже ни во что не верил.</p>
+
+<div class="script-h">Блок 4 · 7:00–10:00 · Где ты ошибаешься</div>
+<p>Теперь давай честно разберём, почему твой живот всё ещё с симптомами, хотя ты лечишься давно. Обычно дело в трёх ошибках, и я делала каждую из них сама.</p>
+<p>Ошибка первая: ты глушишь симптом вместо причины. Изжога — блокатор кислоты, вздутие — ферменты, запор — слабительное. Облегчение приходит, но ровно до отмены, потому что причина осталась на месте. Так можно жить на таблетках годами, и многие живут.</p>
+<p>Ошибка вторая: ты лечишь ЖКТ по частям. Желудок у гастроэнтеролога, стул у другого специалиста, энергию у третьего, и ещё БАДы по советам из интернета. А пищеварение — это одна система, и пока её лечат кусочками, она не собирается в целое.</p>
+<p>Ошибка третья: ты меняешь продукты, но не время. Правильное питание, исключение глютена и молочки, дневники еды — а результата нет. Потому что дело не только в том, что ты ешь, а в том, когда ты это ешь: один и тот же продукт утром лечит, а вечером бродит и вздувает.</p>
+
+<div class="script-h">Блок 5 · 10:00–13:00 · Что происходит на самом деле</div>
+<p>А теперь сама система. В восточной медицине пищеварение держится на том, что называют огнём пищеварения, и у большинства людей с симптомами этот огонь ослаблен: еда не переваривается до конца, а бродит, гниёт и копит тот самый «холод», из которого растут изжога, вздутие и нестабильный стул.</p>
+<p>Восстанавливается это не таблетками, а питанием по циклу пяти элементов. Сутки делятся на периоды: с семи до одиннадцати — время Воды и Земли, с одиннадцати до пятнадцати — время Огня, дальше — Воздуха, и вечером снова Вода и Земля. Каждый продукт тоже несёт свои элементы, и когда ты ешь продукт в его время, организм переваривает его легко, а когда в чужое — получает нагрузку.</p>
+<p>(на экране — простая схема цикла элементов по часам)</p>
+<p>Ты продолжаешь есть сытно и вкусно, даже каши и любимые продукты остаются, просто каждый встаёт на своё время. И пищеварение начинает восстанавливаться само, потому что ты убрала то, что его ломало.</p>
+<p>И вот что важно: это не требует силы воли. Ты не голодаешь, не считаешь калории и не живёшь на брокколи. По этой системе за месяц тело успевает перестроиться настолько, что симптомы начинают уходить один за другим — ты видела это на кейсах в начале видео.</p>
+<p>Именно эту систему я собрала в программу.</p>
+
+<div class="script-h">Блок 6 · 13:00–16:00 · Продукт</div>
+<p>Она называется «Перезагрузка пищеварения». Четыре недели, и каждая решает свою задачу.</p>
+<p>Первая неделя — причина. Ты понимаешь, что происходит с твоим ЖКТ, почему таблетки не сработали и о чём говорят твои симптомы. Вторая неделя — питание по циклу пяти элементов: готовый план, рецепты с фотографиями, всё из обычных продуктов, и живот отвечает первыми улучшениями. Третья неделя — адресная работа с симптомами: изжога, вздутие, отрыжка, запор и диарея, по каждому своя схема. И четвёртая — закрепление: как не откатиться на праздниках и в поездках, что происходит с весом, кожей и энергией и как поддерживать себя дальше самой.</p>
+<p>Внутри видеоуроки, которые остаются с тобой навсегда, план питания, рецепты, разборы симптомов и чек-листы на каждый день. Ты проходишь программу в своём темпе, из любой точки мира.</p>
+
+<div class="script-h">Блок 7 · 16:00–17:30 · Цена</div>
+<p>Программа стоит две тысячи пятьсот рублей. И сразу скажу, почему так мало при индивидуальной работе за шестьдесят тысяч. Я специально сделала цену такой, чтобы разобраться с животом могла каждая — не когда-нибудь, когда накопит, а сейчас. Это первый поток новой версии программы: те, кто заходит сегодня, получают всё за эту цену навсегда, и все обновления придут бесплатно. Дальше цена будет только выше.</p>
+<p>И посчитай сама: одна консультация гастроэнтеролога стоит дороже, а ты годами платила за приёмы, анализы и препараты, которые глушили симптом. Здесь — система, которая работает с причиной и остаётся с тобой навсегда.</p>
+
+<div class="script-h">Блок 8 · 17:30–19:30 · Страхи</div>
+<p>Теперь о сомнениях, которые я слышу каждый день.</p>
+<p>«У меня всё запущено, мне уже ничего не поможет». Посмотри ещё раз на кейсы: Марина пришла после трёх лет диареи, Николай — с камнем в желчном, Елена — с ежедневным омепразолом. Запущенные случаи — это как раз те, с кем я работаю, и именно у них самые впечатляющие результаты, потому что причина наконец получает внимание.</p>
+<p>«Это восточная медицина, а мы же другие, нам не подойдёт». Мы все устроены одинаково, если только ты не с другой планеты. Питание по циклу элементов работает с базовой физиологией: время суток, переваривание, ритмы организма. Да, знание пришло с Востока, но организм у нас с тобой тот же самый, и мои кейсы — это обычные русскоязычные люди.</p>
+<p>«У меня нет времени готовить сложное». А сложного и нет: план построен на обычных продуктах из обычного магазина, и готовки в нём не больше, чем в твоей привычной жизни. Меняется не количество готовки, а время, когда что стоит есть.</p>
+<p>«Я уже всё пробовала». Ты пробовала глушить симптом и менять продукты. Ты не пробовала убирать причину и менять время — это другой подход, и именно поэтому у него другой результат.</p>
+
+<div class="script-h">Блок 9 · 19:30–20:30 · Призыв</div>
+<p>И последнее, что я хочу сказать.</p>
+<p>Ты не обязана жить с изжогой, вздутием и туалетной картой города в голове. Это не характер, не наследственность и не «просто такой организм» — это причина, которую можно убрать, и тело, которое очень хочет тебе помочь, как только ты перестанешь ему мешать.</p>
+<p>Через месяц ты можешь есть без страха, спать спокойно и вспоминать про свой ЖКТ только с благодарностью. А можешь ещё год носить омепразол в сумочке — и это тоже выбор.</p>
+<p>Ссылка на программу прямо под этим видео. Две тысячи пятьсот рублей, пока идёт первый поток.</p>
+<p>Жду тебя внутри — и жду сообщение про твой «безупречный стул», как пишет мне Елена.</p>
+
+  </div>
+</section>
+</div>
+
+<div class="wrap">
+<section class="script-sec" id="dozhim">
+  <p class="sec-lead">рабочий блок</p>
+  <h2 class="sec-title">Дожимные <em>сообщения</em></h2>
+  <p class="script-note">цепочка для бота или ручной отправки · удалить этот блок перед публикацией страницы · [дата] и [ссылка] подставить свои</p>
+  <div class="script-btns">
+    <button class="sbtn" id="togglePack" type="button">Развернуть сообщения</button>
+    <button class="sbtn" id="copyPack" type="button">Скопировать все</button>
+  </div>
+  <div class="script-body" id="packBody">
+
+<div class="script-h">Сообщение 1 · через час после урока</div>
+<p>Привет 🌿 Вижу, ты посмотрела урок про программу и о чём-то задумалась. Это нормально, тема здоровья не терпит спешки. Просто спрошу честно: что останавливает — сомнения в методе, цена или «начну с понедельника»? Напиши мне, я отвечу лично. Иногда один вопрос экономит месяцы жизни с изжогой.</p>
+
+<div class="script-h">Сообщение 2 · через 24 часа</div>
+<p>Знаешь, что я слышу чаще всего от тех, кто уже прошёл программу? «Почему я не сделала это раньше». Марина три года жила с диареей и перестала работать, а стул нормализовался за две недели. Три года таблеток против двух недель работы с причиной. «Потом» в вопросах ЖКТ — это просто ещё месяцы с теми же симптомами. Программа стоит 2 500 ₽, пока идёт первый поток, дальше цена вырастет. [ссылка]</p>
+
+<div class="script-h">Сообщение 3 · через 48 часов</div>
+<p>Расскажу, как устроена первая неделя, чтобы ты понимала, что тебя ждёт. Ты смотришь короткие уроки и впервые видишь картину целиком: что на самом деле происходит с твоим пищеварением, почему омепразол давал облегчение только до отмены и о чём говорят именно твои симптомы. Уже на этом этапе многим становится спокойнее, потому что хаос превращается в понятный план. А со второй недели ты начинаешь есть по циклу элементов — и живот отвечает. [ссылка]</p>
+
+<div class="script-h">Сообщение 4 · за 24 часа до конца первого потока</div>
+<p>Завтра закрывается вход по цене первого потока: 2 500 ₽ превратятся в 5 000 ₽. Говорю заранее, чтобы ты не узнала постфактум. И один честный вопрос: что изменится с твоим животом через месяц, если ничего не менять? Опыт подсказывает — ничего, симптомы сами не уходят. [ссылка]</p>
+
+<div class="script-h">Сообщение 5 · за 3 часа до конца</div>
+<p>Через три часа цена первого потока закрывается. Если ты читаешь это с изжогой, вздутием или очередной «схемой» из аптеки — может, хватит глушить симптом? Месяц работы с причиной, обычные продукты, никаких голодовок. [ссылка]</p>
+
+<div class="script-h">Сообщение 6 · после закрытия</div>
+<p>Первый поток закрылся, дальше программа стоит 5 000 ₽ — здесь всё честно, иначе ранняя цена не имела бы смысла для тех, кто решился вовремя. Если ты хотела зайти, но не успела чисто технически — с оплатой или картой, — напиши мне сегодня, разберёмся вместе.</p>
+
+<div class="script-h">Сообщение 7 · финальное</div>
+<p>Это моё последнее сообщение про программу, дальше я просто продолжу делиться пользой в блоге. Скажу одну вещь независимо от того, зайдёшь ты или нет. Изжога, вздутие и нестабильный стул — не твоя особенность и не приговор, у них есть причина, и она убирается. Когда решишь ею заняться — я рядом. Здоровья тебе 🌿</p>
+
+<div class="script-h">Вставка · если написала в директ и пропала</div>
+<p>Первое сообщение, через 2 часа: «Привет 🌿 Ты писала мне про программу и пропала — понимаю, жизнь. Просто хочу убедиться, что ты получила ответ. Если остались вопросы про метод или свой случай — напиши, отвечу лично». Дальше цепочка продолжается с сообщения 2.</p>
+
+<div class="script-h">Вставка · если зарегистрировалась, но не оплатила</div>
+<p>Первое сообщение, через 30 минут: «Привет 🌿 Ты оставила заявку на программу, но оплата не прошла. Всё окей? Если возник вопрос с картой или оплатой — напиши, решим за пару минут». Второе, через 12 часов: «Ты уже сделала главное — решила заняться причиной, а не симптомами. Осталась одна кнопка. Если есть вопросы, я на связи. [ссылка оплаты]». Дальше цепочка продолжается с сообщения 4.</p>
+
+  </div>
+</section>
+</div>
+
+<div class="wrap">
+<section class="script-sec" id="upakovka">
+  <p class="sec-lead">рабочий блок</p>
+  <h2 class="sec-title">Материалы <em>для упаковки блога</em></h2>
+  <p class="script-note">шапки, актуальные, посты и смыслы · удалить этот блок перед публикацией страницы</p>
+  <div class="script-btns">
+    <button class="sbtn" id="togglePack2" type="button">Развернуть материалы</button>
+    <button class="sbtn" id="copyPack2" type="button">Скопировать все</button>
+  </div>
+  <div class="script-body" id="packBody2">
+
+<div class="script-h">Шапка профиля · основной вариант</div>
+<p>Валентина | восточная медицина для ЖКТ<br>Уберу изжогу, отрыжку и вздутие за 1 месяц 🌿<br>Лечу причину, а не симптом: питание по циклу элементов и сборы. Реальные кейсы с анализами — в актуальном. Начни с урока ↓</p>
+
+<div class="script-h">Шапка профиля · вариант 2, через трансформацию</div>
+<p>Валентина | здоровое пищеварение<br>Ты снова сможешь просто есть и жить 🌿<br>Камень в желчном 1,5 → 0,9 см за месяц, нормальный стул после 3 лет диареи — мои кейсы. Как это работает — смотри урок ↓</p>
+
+<div class="script-h">Шапка профиля · вариант 3, через историю</div>
+<p>Валентина | тибетская медицина для ЖКТ 🌿<br>8 лет назад выбросила таблетки — и убрала свой рефлюкс питанием<br>Теперь помогаю убрать изжогу, вздутие и нестабильный стул за месяц. Программа — 2 500 ₽ ↓</p>
+
+<div class="script-h">Актуальные</div>
+<p>1. «Начни тут» — навигация: кто я, что здесь есть, с чего смотреть. Последняя сторис ведёт на продающий урок.</p>
+<p>2. «Кейсы» — истории с цифрами: Николай (камень, −12 кг), Марина (3 года диареи), Елена (изжога без омепразола). Скрины анализов до и после — главный актив доверия.</p>
+<p>3. «Симптомы» — мини-разборы: изжога, вздутие, отрыжка, запор, диарея, запах изо рта. Каждый разбор прогревает к методу.</p>
+<p>4. «Питание» — цикл пяти элементов простыми словами, примеры завтраков и ужинов, бесплатный «Умный детокс» как вход в воронку.</p>
+<p>5. «Программа» — оффер, наполнение по неделям, ответы на вопросы, позже отзывы участниц. Кодовое слово и ссылка.</p>
+<p>6. «Я» — путь: как сама жила на Омезе, встреча с тибетской медициной, декрет и возвращение. Доверие через личное.</p>
+
+<div class="script-h">Посты</div>
+<p>1. История: 8 лет назад я выбросила таблетки — как я жила с рефлюксом на Омезе и что изменило всё.</p>
+<p>2. Кейс Николая: камень в желчном 1,5 → 0,9 см за месяц — с УЗИ и анализами. Как это возможно без препаратов.</p>
+<p>3. Разбор: почему омепразол не лечит — читаем вместе список побочных действий и удивляемся.</p>
+<p>4. Экспертный: питание по циклу пяти элементов — почему один и тот же продукт утром лечит, а вечером вздувает.</p>
+<p>5. Снятие сомнения: «нам ли подходит восточная медицина?» — мы все устроены одинаково, и вот доказательства.</p>
+<p>6. Кейс Марины: три года диареи, брошенная работа — и две недели, которые всё изменили.</p>
+<p>7. Польза: изжога — что происходит на самом деле и первые три шага, которые можно сделать уже сегодня.</p>
+<p>8. Личное: декрет, ребёнок, возвращение в блог — и почему я больше не строю жизнь на ручных запусках.</p>
+<p>9. Продающий: программа «Перезагрузка пищеварения» — месяц работы с причиной за 2 500 ₽, через результат, с дедлайном первого потока.</p>
+
+<div class="script-h">Медийный образ · краткое описание</div>
+<p>Спокойный тёплый эксперт, которому доверяют здоровье: без паники, без запугивания, без эзотерического тумана — знания восточной медицины, поданные на языке анализов и бытовой жизни. Визуал: природные тона, зелень и молочный, еда крупным планом, сборы, скрины анализов до и после, тихая уверенность вместо кричащих обещаний. Личное измерение — мама после декрета, которая сама прошла путь от таблеток к здоровью и говорит с аудиторией как равная.</p>
+
+<div class="script-h">Кто такая Валентина</div>
+<p>Специалист по тибетской и восточной медицине с фокусом на пищеварении. Сама прошла путь пациента: годы рефлюкса и Омеза, разочарование в таблетках, встреча с врачами тибетской медицины в 27 лет — и собственное выздоровление через питание по циклу элементов. Ведёт индивидуальные программы за 60 000 ₽ с реальными кейсами, подтверждёнными анализами, и после полутора лет декрета возвращается в блог, чтобы собрать систему, которая продаёт без ручных запусков.</p>
+
+<div class="script-h">Целевая аудитория</div>
+<p>Женщины и мужчины 25–60 с хроническими симптомами ЖКТ: изжога, вздутие, отрыжка, запоры и диарея, запах изо рта, тяжесть. Уже прошли врачей и анализы, живут на препаратах «до первой отмены», устали и почти не верят, что можно иначе. Глубинные боли — не сам живот, а то, что он отнимает: отношения (стеснение, запах, газы), деньги («не могу закрыть ипотеку из-за этих симптомов»), энергию и базовую радость жизни.</p>
+
+<div class="script-h">Какие проблемы решает</div>
+<p>Хронические симптомы ЖКТ, которые не убрали таблетки; страх еды и жизнь по карте туалетов; зависимость от препаратов; отсутствие энергии; непонимание причины при «нормальных» анализах; стеснение в близких отношениях из-за симптомов.</p>
+
+<div class="script-h">Уникальность</div>
+<p>Работает с причиной методами восточной медицины, но говорит языком доказательств: каждый кейс подтверждён анализами и УЗИ до и после. Сама прошла путь пациента — это даёт честность, которой нет у теоретиков. Метод не требует голодовок и экзотики: обычные продукты, изменённое время приёма. И редкое сочетание: недорогая системная программа плюс индивидуальное сопровождение премиум-уровня.</p>
+
+<div class="script-h">Облако смыслов (нити всех касаний)</div>
+<p>Причина, а не симптом; таблетки работают до первой отмены; питание по циклу пяти элементов; один продукт утром лечит, вечером вздувает; кейсы с анализами; за месяц; без голодовок и экзотики; живот отнимает отношения, деньги и энергию — вернём; ты не «просто такая»; тело хочет тебе помочь.</p>
+
+<div class="script-h">Стиль общения и сюжетные линии</div>
+<p>Стиль: тёплый, обстоятельный, с уважением к науке и анализам, без запугивания и без «чудо-исцелений» — чудеса объясняются физиологией. Личные истории вплетаются в экспертность.</p>
+<p>Сюжетные линии: мой путь от Омеза к здоровью; кейсы с цифрами (главная линия доверия); разборы симптомов; питание по циклу элементов в обычной жизни (что ем я и семья); разоблачения с любовью (почему таблетки, БАДы и модные диеты не убирают причину); закулисье индивидуальной работы; декрет и возвращение.</p>
+
+<div class="script-h">Главная мысль</div>
+<p>Симптомы ЖКТ — не приговор и не особенность организма. У них есть причина, и когда убираешь её питанием по природным ритмам, тело возвращает тебе спокойный живот, энергию и жизнь, в которой еда снова радость, а не угроза.</p>
+
+  </div>
+</section>
+</div>
+
+<script>
+(function(){
+  var t=document.getElementById('toggleScript'), c=document.getElementById('copyScript'), b=document.getElementById('scriptBody');
+  t.addEventListener('click',function(){
+    var open=b.classList.toggle('open');
+    t.textContent=open?'Свернуть текст':'Развернуть текст';
+  });
+  c.addEventListener('click',function(){
+    var parts=[];
+    b.querySelectorAll('p').forEach(function(p){parts.push(p.textContent.trim());});
+    var txt=parts.join('\n\n');
+    function done(){var o=c.textContent;c.textContent='Скопировано';c.classList.add('copied');setTimeout(function(){c.textContent=o;c.classList.remove('copied');},1800);}
+    function fallback(){var ta=document.createElement('textarea');ta.value=txt;document.body.appendChild(ta);ta.select();try{document.execCommand('copy');done();}catch(e){}document.body.removeChild(ta);}
+    if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(txt).then(done,fallback);}else{fallback();}
+  });
+})();
+function wireCopyBlock(tid, cid, bid, openLabel, closeLabel){
+  var t=document.getElementById(tid), c=document.getElementById(cid), b=document.getElementById(bid);
+  t.addEventListener('click',function(){
+    var open=b.classList.toggle('open');
+    t.textContent=open?closeLabel:openLabel;
+  });
+  c.addEventListener('click',function(){
+    var parts=[];
+    b.querySelectorAll('.script-h, p').forEach(function(el){
+      var tx=el.innerText.trim();
+      if(el.classList.contains('script-h')) tx='\n=== '+tx+' ===';
+      parts.push(tx);
+    });
+    var txt=parts.join('\n\n');
+    function done(){var o=c.textContent;c.textContent='Скопировано';c.classList.add('copied');setTimeout(function(){c.textContent=o;c.classList.remove('copied');},1800);}
+    function fallback(){var ta=document.createElement('textarea');ta.value=txt;document.body.appendChild(ta);ta.select();try{document.execCommand('copy');done();}catch(e){}document.body.removeChild(ta);}
+    if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(txt).then(done,fallback);}else{fallback();}
+  });
+}
+wireCopyBlock('togglePack','copyPack','packBody','Развернуть сообщения','Свернуть сообщения');
+wireCopyBlock('togglePack2','copyPack2','packBody2','Развернуть материалы','Свернуть материалы');
+</script>
+
+</body>
+</html>
