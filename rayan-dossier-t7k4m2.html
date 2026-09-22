@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex, nofollow">
+<title>Кто такой Раян</title>
+<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Inter:wght@400;500;600;700&family=DM+Sans:ital@1&display=swap" rel="stylesheet">
+<style>
+*,*::before,*::after{margin:0;padding:0;box-sizing:border-box;}
+html,body{overflow-x:hidden;max-width:100%;}
+html{overflow-x:clip;}
+:root{
+  --milk:#FDFCF9; --ink:#262220; --body:#55504B; --soft:#948C83;
+  --bordo:#710C04; --hair:#E9E4DC; --wash:#F7F3EC;
+}
+body{font-family:'Inter',sans-serif;background:var(--milk);color:var(--body);font-size:16.5px;line-height:1.8;-webkit-font-smoothing:antialiased;overflow-x:hidden;}
+.bask{font-family:'Libre Baskerville',Georgia,serif;}
+.wrap{max-width:1020px;margin:0 auto;padding:0 28px;}
+
+a{color:var(--bordo);text-decoration:none;border-bottom:1px solid rgba(113,12,4,.35);transition:opacity .2s;}
+a:hover{opacity:.7;}
+
+header{display:flex;justify-content:space-between;align-items:baseline;gap:24px;padding:26px 0;border-bottom:1px solid var(--hair);}
+.head-cta{font-size:13.5px;font-weight:600;color:var(--bordo);text-decoration:none;border-bottom:1px solid var(--bordo);padding-bottom:2px;}
+.head-cta:hover{opacity:.75;}
+.brand{font-family:'Libre Baskerville',serif;font-weight:700;font-size:19px;color:var(--ink);}
+.brand-sub{font-family:'DM Sans',sans-serif;font-style:italic;font-size:14px;color:var(--soft);}
+
+/* Hero */
+.hero{display:grid;grid-template-columns:1.08fr .92fr;gap:64px;align-items:center;padding:72px 0 84px;position:relative;}
+.hero-copy,.photo-side{position:relative;z-index:1;}
+.hero-glow{position:absolute;width:560px;height:560px;right:-120px;top:-60px;border-radius:50%;background:radial-gradient(circle at 40% 40%, #F6D9C2, #F2C4B4 45%, rgba(253,252,249,0) 72%);filter:blur(40px);opacity:.65;z-index:0;pointer-events:none;}
+.lead-in{font-family:'Libre Baskerville',serif;font-style:italic;font-size:18px;color:var(--bordo);margin-bottom:20px;}
+.hero h1{font-family:'Libre Baskerville',serif;font-weight:700;font-size:44px;line-height:1.28;color:var(--ink);margin-bottom:24px;text-transform:uppercase;letter-spacing:.035em;}
+.hero h1 em,.sec-title em,.mod-title em,.dark h2 em{font-style:italic;color:var(--bordo);}
+.offer{font-size:17px;margin-bottom:26px;max-width:46ch;}
+.no{list-style:none;margin-bottom:26px;max-width:460px;}
+.no li{padding:10px 0 10px 28px;position:relative;font-size:15.5px;border-bottom:1px solid var(--hair);}
+.no li:first-child{border-top:1px solid var(--hair);}
+.no li::before{content:'✕';position:absolute;left:2px;top:10px;color:var(--bordo);font-size:11px;}
+.promise{font-family:'Libre Baskerville',serif;font-style:italic;font-size:18.5px;color:var(--ink);margin-bottom:30px;}
+.btn{display:inline-block;background:var(--bordo);color:#FCF8F3;font-size:15px;font-weight:500;padding:18px 42px;text-decoration:none;border-bottom:none;transition:background .25s,transform .25s;}
+.btn:hover{background:#8C1D12;transform:translateY(-2px);opacity:1;}
+.photo-frame{border:1px solid var(--ink);padding:14px;background:var(--milk);}
+.photo{aspect-ratio:3/4;background:#E9CDB9 url("img/rayan-photo.webp") center 20%/cover no-repeat;display:block;}
+.photo-cap{font-family:'DM Sans',sans-serif;font-style:italic;font-size:13.5px;color:var(--soft);margin-top:12px;text-align:right;}
+
+/* Sections */
+section{padding:76px 0;border-top:1px solid var(--hair);}
+.sec-lead{font-size:11.5px;font-weight:600;letter-spacing:3px;text-transform:uppercase;color:var(--bordo);text-align:center;margin-bottom:14px;}
+.sec-title{font-family:'Libre Baskerville',serif;font-weight:700;font-size:29px;line-height:1.42;color:var(--ink);text-align:center;margin-bottom:44px;text-transform:uppercase;letter-spacing:.04em;}
+.sec-note{max-width:640px;margin:-24px auto 40px;text-align:center;font-size:15px;color:var(--soft);}
+
+.if-list{list-style:none;max-width:760px;margin:0 auto;columns:2;column-gap:56px;}
+@media (max-width:760px){.if-list{columns:1;}}
+.if-list li{padding:15px 0 15px 30px;position:relative;font-size:15.5px;border-bottom:1px solid var(--hair);break-inside:avoid;}
+.if-list li::before{content:'◆';position:absolute;left:4px;top:17px;font-size:9px;color:var(--bordo);}
+.if-list b{color:var(--ink);font-weight:600;}
+
+.why{max-width:660px;margin:0 auto;text-align:center;}
+.why p{margin-bottom:18px;}
+.why-key{font-family:'Libre Baskerville',serif;font-style:italic;font-size:23px;line-height:1.6;color:var(--ink);margin-top:28px;}
+.why-key span{color:var(--bordo);}
+
+.module{max-width:760px;margin:0 auto;padding:44px 0;border-bottom:1px solid var(--hair);position:relative;}
+.mod-ghost{position:absolute;top:2px;right:-10px;font-family:'Libre Baskerville',Georgia,serif;font-weight:700;font-size:210px;line-height:1;color:rgba(113,12,4,.055);z-index:0;pointer-events:none;user-select:none;}
+.module>*:not(.mod-ghost){position:relative;z-index:1;}
+.module:last-of-type{border-bottom:none;padding-bottom:0;}
+.mod-eyebrow{font-family:'Libre Baskerville',serif;font-style:italic;font-size:16px;color:var(--bordo);margin-bottom:8px;}
+.mod-title{font-family:'Libre Baskerville',serif;font-weight:700;font-size:19.5px;line-height:1.5;color:var(--ink);margin-bottom:16px;text-transform:uppercase;letter-spacing:.045em;}
+.mod-intro{font-size:15.5px;margin-bottom:20px;}
+.mod-know{font-family:'Libre Baskerville',serif;font-style:italic;font-size:16px;color:var(--ink);margin-bottom:10px;}
+.mod-list{list-style:none;margin-bottom:22px;}
+.mod-list li{padding:9px 0 9px 24px;position:relative;font-size:15px;line-height:1.75;}
+.mod-list li::before{content:'—';position:absolute;left:0;top:9px;color:var(--bordo);}
+.bonus{display:inline-block;background:var(--wash);padding:12px 22px;font-size:13.5px;color:var(--ink);}
+.bonus i{font-family:'Libre Baskerville',serif;color:var(--bordo);margin-right:10px;font-size:14.5px;}
+
+.get{display:grid;grid-template-columns:1fr 1fr;gap:16px;max-width:720px;margin:0 auto;}
+.get-card{border:1px solid var(--hair);padding:26px 30px;transition:border-color .25s;}
+.get-card:hover{border-color:var(--bordo);}
+.get-card h4{font-family:'Libre Baskerville',serif;font-weight:700;font-size:17px;color:var(--ink);margin-bottom:6px;}
+.get-card p{font-size:14px;color:var(--soft);}
+.anchor{font-family:'Libre Baskerville',serif;font-style:italic;text-align:center;font-size:18px;color:var(--ink);margin-top:36px;}
+
+.res{max-width:680px;margin:0 auto;}
+.res-row{display:grid;grid-template-columns:180px 1fr;gap:28px;padding:20px 0;border-bottom:1px solid var(--hair);align-items:baseline;}
+.res-row:first-child{border-top:1px solid var(--hair);}
+.res-when{font-family:'Libre Baskerville',serif;font-style:italic;font-size:17px;color:var(--bordo);}
+.res-what{font-size:15.5px;}
+
+.guar{max-width:660px;margin:44px auto 0;border:1px solid var(--bordo);outline:1px solid var(--bordo);outline-offset:5px;padding:48px 52px;text-align:center;}
+.guar .sec-lead{margin-bottom:16px;}
+.guar p{font-size:15.5px;color:var(--ink);line-height:1.9;}
+
+.dark{background:#4A0B04;position:relative;overflow:hidden;text-align:center;padding:92px 28px;color:#E3C2B4;margin-top:76px;}
+.dark-glow{position:absolute;width:520px;height:520px;border-radius:50%;right:-140px;top:-160px;background:radial-gradient(circle, #A24630, rgba(74,11,4,0) 70%);filter:blur(30px);opacity:.55;}
+.dark>*{position:relative;}
+.dark .lead-in{color:#E8AE93;}
+.dark h2{font-family:'Libre Baskerville',serif;font-weight:700;font-size:34px;color:#FBF3EA;margin-bottom:16px;text-transform:uppercase;letter-spacing:.05em;}
+.dark h2 em{color:#E8AE93;}
+.dark p{max-width:56ch;margin:0 auto 22px;font-size:15.5px;}
+.dark .key{font-family:'Libre Baskerville',serif;font-style:italic;font-size:21px;line-height:1.7;color:#FBF3EA;max-width:44ch;}
+
+.src{list-style:none;max-width:720px;margin:0 auto;}
+.src li{padding:13px 0 13px 26px;position:relative;font-size:15px;border-bottom:1px solid var(--hair);}
+.src li:first-child{border-top:1px solid var(--hair);}
+.src li::before{content:'→';position:absolute;left:0;top:13px;color:var(--bordo);font-size:13px;}
+.src small{color:var(--soft);display:block;font-size:13px;}
+
+footer{text-align:center;padding:52px 24px 60px;}
+.foot-line{font-family:'Libre Baskerville',serif;font-size:15.5px;letter-spacing:.06em;text-transform:uppercase;color:var(--ink);margin-bottom:22px;}
+.foot-line em{font-style:italic;color:var(--bordo);}
+.foot-meta{font-size:12.5px;color:var(--soft);line-height:2;max-width:60ch;margin:0 auto;}
+
+/* Анимации */
+@keyframes rise{from{opacity:0;transform:translateY(24px);}to{opacity:1;transform:translateY(0);}}
+.hero .lead-in{animation:rise .8s cubic-bezier(.22,.7,.3,1) .05s both;}
+.hero h1{animation:rise .8s cubic-bezier(.22,.7,.3,1) .16s both;}
+.hero .offer{animation:rise .8s cubic-bezier(.22,.7,.3,1) .3s both;}
+.hero .no{animation:rise .8s cubic-bezier(.22,.7,.3,1) .42s both;}
+.hero .promise{animation:rise .8s cubic-bezier(.22,.7,.3,1) .54s both;}
+.hero .btn{animation:rise .8s cubic-bezier(.22,.7,.3,1) .66s both;}
+.hero .photo-side{animation:rise 1s cubic-bezier(.22,.7,.3,1) .5s both;}
+@keyframes breathe{0%,100%{transform:scale(1) translate(0,0);}50%{transform:scale(1.1) translate(-24px,18px);}}
+.hero-glow{animation:breathe 14s ease-in-out infinite;}
+.dark-glow{animation:breathe 18s ease-in-out infinite;}
+@media (prefers-reduced-motion:reduce){.hero-glow,.dark-glow,.hero .lead-in,.hero h1,.hero .offer,.hero .no,.hero .promise,.hero .btn,.hero .photo-side{animation:none;}}
+
+@media (max-width:820px){
+  .mod-ghost{font-size:120px;top:6px;right:0;}
+  .head-cta{display:none;}
+  .hero{grid-template-columns:1fr;gap:44px;padding:44px 0 60px;}
+  .hero h1{font-size:34px;}
+  .hero-glow{width:320px;height:320px;right:-60px;top:40px;}
+  .photo-side{max-width:340px;}
+  .module{padding:36px 0;}
+  .get{grid-template-columns:1fr;}
+  .res-row{grid-template-columns:1fr;gap:4px;}
+  .guar{padding:36px 24px;}
+  section{padding:56px 0;}
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header>
+  <span class="brand">Раян Ахмедьянов</span>
+  <span class="brand-sub">досье по открытым источникам</span>
+  <a class="head-cta" href="#sources">Все источники ↓</a>
+</header>
+
+<div class="hero">
+  <div class="hero-glow"></div>
+  <div class="hero-copy">
+    <p class="lead-in">исследование · сентябрь 2026</p>
+    <h1>Кто такой <em>Раян Ахмедьянов</em></h1>
+    <p class="offer"><strong>Предприниматель и тренер, называющий себя «тренером №1 по проявленности в России и СНГ».</strong> Автор программы «Феномен», создатель курса «Корпоративный блогер» за 130 000 ₽ и генеральный директор Rayan Media. Публичная история — «из сварщиков в миллионеры». Это досье собирает всё, что о нём есть в интернете, — с двух сторон.</p>
+    <ul class="no">
+      <li>титулы «№1» и «первая в России академия» — самопровозглашённые</li>
+      <li>биография известна только с его собственных слов</li>
+      <li>ученики добивались возврата денег за курс через суды</li>
+    </ul>
+    <p class="promise">Каждый факт ниже — со ссылкой на источник.</p>
+    <a class="btn" href="#persona">Смотреть досье</a>
+  </div>
+  <div class="photo-side">
+    <div class="photo-frame"><span class="photo" role="img" aria-label="Раян Ахмедьянов"></span></div>
+    <p class="photo-cap">Раян Ахмедьянов · кадр из видео</p>
+  </div>
+</div>
+
+<section id="persona">
+  <p class="sec-lead">01 — самопрезентация</p>
+  <h2 class="sec-title">Как он <em>себя называет</em></h2>
+  <p class="sec-note">Всё ниже — его собственные формулировки из профилей и статей о нём (почти все такие статьи по тону — PR-размещения).</p>
+  <ul class="if-list">
+    <li><b>«Тренер №1 по проявленности</b> в России и СНГ», тренер «по смелости и настоящести»</li>
+    <li><b>Автор «легендарной» программы «Феномен»</b> — флагманский тренинг по личностному росту</li>
+    <li><b>Основатель «первой в России Академии корпоративных блогеров»</b> — главный коммерческий продукт</li>
+    <li><b>Генеральный директор Rayan Media</b> — «продающие и вирусные видео», продюсирование YouTube-каналов</li>
+    <li><b>Основатель креативного агентства hypeacademy lab</b></li>
+    <li><b>«Лауреат всероссийской премии №1</b> за революцию в креативном видеомаркетинге» (2020) — что за премия, не расшифровывается</li>
+  </ul>
+  <div class="guar">
+    <p class="sec-lead">важно</p>
+    <p>Ни один из этих титулов не подтверждается независимыми источниками: рейтингов «тренеров по проявленности», реестра такой премии или сторонних публикаций о «первой академии» в открытом доступе нет. Всё это — самоописания, повторённые платными статьями.</p>
+  </div>
+</section>
+
+<section>
+  <p class="sec-lead">02 — легенда</p>
+  <h2 class="sec-title">Биография, которую он <em>рассказывает о себе</em></h2>
+  <p class="sec-note">Классическая арка «герой из низов». Описание его YouTube-канала начинается словами: «Меня зовут Раян. Я обычный парень, который родился в бедной семье и хотел чего-то большего».</p>
+  <div class="res">
+    <div class="res-row"><span class="res-when">корни</span><span class="res-what">Родился в бедной семье, родом из Кисловодска (Ставропольский край)</span></div>
+    <div class="res-row"><span class="res-when">работа</span><span class="res-what">Работал сварщиком — по его словам, за 15 000 ₽ в месяц, жил в комнате в общежитии; «ещё 5 лет назад варил металл»</span></div>
+    <div class="res-row"><span class="res-when">учёба</span><span class="res-what">Указывает учёбу в МГУ им. Ломоносова; живёт в Москве</span></div>
+    <div class="res-row"><span class="res-when">сегодня</span><span class="res-what">«Миллионер» и «топ-тренер по личностному росту». Ключевой транслируемый инсайт: «Если другой человек смог — значит, и я смогу»</span></div>
+  </div>
+  <p class="anchor">Ни один пункт биографии не подтверждён независимо — всё известно со слов самого героя (<a href="https://politnews.net/159621">PolitNews</a>, <a href="https://news.myseldon.com/ru/news/index/217230669">Селдон.Новости</a>).</p>
+</section>
+
+<section>
+  <p class="sec-lead">03 — проекты</p>
+  <h2 class="sec-title">Четыре проекта — <em>и что с ними стало</em></h2>
+
+  <div class="module">
+    <div class="mod-ghost">1</div>
+    <p class="mod-eyebrow">проект 1 · главный продукт</p>
+    <h3 class="mod-title">Курс «Корпоративный блогер» <em>(Rayan Media)</em></h3>
+    <p class="mod-intro">Продавался как «профессия XXI века»: корпоративный блогер берёт интервью у предпринимателей, зарабатывает на их продаже, снимает видео для YouTube и Instagram компаний. Цена — 130 000 ₽, активно продавался в рассрочку. Обещанный доход после прохождения — «до полумиллиона в месяц».</p>
+    <p class="mod-know">что о курсе говорят источники</p>
+    <ul class="mod-list">
+      <li>По отзывам, курс собран из информации в открытом доступе и «не даёт особых навыков для заработка» (<a href="https://vklader.com/rayan-media-otzyvy/">Вкладер</a>, <a href="https://seoseed.ru/rayan-ahmedyanov-otzyvy-o-kursah-rayan-media/">Seoseed</a>)</li>
+      <li>«Успешные кейсы» выпускников с сайта не находятся на YouTube — успешными блогерами они не являются (<a href="https://traders-rejting.ru/rayan-akhmedyanov-otzyvy/">Traders-rejting</a>)</li>
+      <li>Редкое реальное упоминание ученицы — «корпоративный блогер академии Анастасия Ильина», интервью в ноябре 2024</li>
+    </ul>
+    <span class="bonus"><i>статус</i>основной след бренда сегодня — отзовики и суды</span>
+  </div>
+
+  <div class="module">
+    <div class="mod-ghost">2</div>
+    <p class="mod-eyebrow">проект 2 · текущий образ</p>
+    <h3 class="mod-title">«Феномен» и тренерство <em>по проявленности</em></h3>
+    <p class="mod-intro">Программа личностного роста, вокруг которой построен его сегодняшний контент: смелость, «послания», уличные знакомства, истории клиентов.</p>
+    <p class="mod-know">что он публикует</p>
+    <ul class="mod-list">
+      <li><a href="https://www.instagram.com/rayanahmedianov/reel/DEQKjBHgpZg/">Reels «Как я пишу послание»</a> — пошаговая инструкция техники письменных намерений</li>
+      <li><a href="https://www.instagram.com/rayanahmedianov/reel/C-8N_xrgtHf/">Reels «Знакомлюсь с людьми на улице»</a> — уличные интервью и «выходы из зоны комфорта»</li>
+      <li><a href="https://www.instagram.com/rayanahmedianov/reel/DGQS18Kz1H_/">Reels «Это голосовое нам отправил тур…»</a> — кейсы и голосовые клиентов</li>
+    </ul>
+    <span class="bonus"><i>статус</i>независимых отзывов о «Феномене» в сети нет — ни плохих, ни хороших</span>
+  </div>
+
+  <div class="module">
+    <div class="mod-ghost">3</div>
+    <p class="mod-eyebrow">проект 3 · компания</p>
+    <h3 class="mod-title">Rayan Media / <em>Rayan Media Holding</em></h3>
+    <p class="mod-intro">Заявка: продающие и вирусные рекламные ролики, создание и продюсирование YouTube-каналов под ключ. Именно под этим брендом продавался курс и шли рассрочки.</p>
+    <p class="mod-know">что удалось проверить</p>
+    <ul class="mod-list">
+      <li>Живого сайта компании в поиске нет</li>
+      <li>Юрлицо с таким названием в открытых реестрах не находится</li>
+      <li>YouTube-канал Rayan Media заблокирован платформой за нарушение авторских прав — об этом есть <a href="https://m.youtube.com/shorts/pgaoEi0jkzQ">отдельный Shorts</a></li>
+    </ul>
+  </div>
+
+  <div class="module">
+    <div class="mod-ghost">4</div>
+    <p class="mod-eyebrow">проект 4 · агентство</p>
+    <h3 class="mod-title">hypeacademy <em>lab</em></h3>
+    <p class="mod-intro">Креативное агентство из его самоописаний. Показательная деталь о судьбе проекта:</p>
+    <ul class="mod-list">
+      <li>Домен hypeacademy.ru сегодня занят сайтом онлайн-казино Jet Casino — домен утрачен, проект, судя по всему, давно заброшен</li>
+    </ul>
+  </div>
+</section>
+
+<section>
+  <p class="sec-lead">04 — площадки</p>
+  <h2 class="sec-title">Где он <em>в сети</em></h2>
+  <div class="get">
+    <div class="get-card"><h4><a href="https://www.instagram.com/rayanahmedianov/">Instagram @rayanahmedianov</a></h4><p>Главная активная площадка, ~38 000 подписчиков: Reels про смелость, «послания», уличные интервью</p></div>
+    <div class="get-card"><h4><a href="https://www.youtube.com/@RayanAhmedyanov">YouTube @RayanAhmedyanov</a></h4><p>Действующий канал — прежний (Rayan Media) заблокирован за нарушение авторских прав</p></div>
+    <div class="get-card"><h4><a href="https://www.facebook.com/p/%D0%A0%D0%B0%D1%8F%D0%BD-%D0%90%D1%85%D0%BC%D0%B5%D0%B4%D1%8C%D1%8F%D0%BD%D0%BE%D0%B2-100009978733348/">Facebook «Раян Ахмедьянов»</a></h4><p>Личный профиль с видео и постами</p></div>
+    <div class="get-card"><h4>VK · Telegram · TenChat · Дзен</h4><p>Публично индексируемых профилей не находится</p></div>
+  </div>
+  <p class="anchor">Статьи о нём: <a href="https://politnews.net/159621">PolitNews «Кто такой корпоративный блогер?»</a> и <a href="https://news.myseldon.com/ru/news/index/217230669">Селдон «ТОП-3 инсайта от бизнесмена»</a> — обе по тону PR-размещения.</p>
+</section>
+
+<section>
+  <p class="sec-lead">05 — обратная сторона</p>
+  <h2 class="sec-title">Суды и претензии: <em>что задокументировано</em></h2>
+  <p class="sec-note">Самая фактурная часть его публичного следа — в поиске по его имени она видна едва ли не лучше собственного контента.</p>
+  <ul class="if-list">
+    <li><b>Пять исков в Москве.</b> По данным <a href="https://vklader.com/rayan-media-otzyvy/">Вкладера</a>, возврата денег за курс в московских судах добивались пять покупателей</li>
+    <li><b>Выигранное дело в Петербурге.</b> Как минимум один ученик вернул стоимость обучения через суд</li>
+    <li><b>Суды удовлетворяют требования.</b> Средства взыскиваются; ответчик, по публикациям, на заседания не является</li>
+    <li><b>Схема с рассрочкой.</b> Ученики предупреждают: курс продавался в рассрочку, люди оставались с кредитными долгами</li>
+    <li><b>Качество курса.</b> Центральная претензия всех источников: контент из открытых материалов, обещанный заработок не подтверждается</li>
+    <li><b>Блокировка YouTube.</b> Претензия, зафиксированная самой платформой, а не отзовиком</li>
+  </ul>
+  <p class="mod-know" style="text-align:center;margin-top:36px;">видео-разоблачения на Rutube</p>
+  <ul class="src">
+    <li><a href="https://rutube.ru/video/e6230ee47065efd7dd85b1470a793475/">«Rayan Media отзывы. Раян Ахмедьянов»</a><small>8 октября 2024</small></li>
+    <li><a href="https://rutube.ru/video/bcbba3590dc00699a2877488bcb227ea/">«Отзывы Раян Медиа — корпоративный блогер о курсе»</a><small>14 ноября 2024</small></li>
+    <li><a href="https://rutube.ru/video/9e463547b08ef798664711c93e8e93d7/">«Чёрный отзыв — осторожно, Раян Медиа»</a></li>
+  </ul>
+  <div class="guar">
+    <p class="sec-lead">оговорка</p>
+    <p>Иски и взыскания описаны в публикациях отзовиков; номера дел в источниках не приводятся, сами решения судов здесь не проверялись. Всё в этом разделе — утверждения учеников и авторов публикаций, а не установленный судом факт мошенничества. Уголовных дел в открытых источниках нет.</p>
+  </div>
+</section>
+
+<section>
+  <p class="sec-lead">06 — пробелы</p>
+  <h2 class="sec-title">Чего в интернете <em>про него нет</em></h2>
+  <div class="why">
+    <ul class="no" style="max-width:520px;margin:0 auto;text-align:left;">
+      <li>отчество (в запросе «Романович» — публично нигде не подтверждено), дата рождения</li>
+      <li>официальные юрлица или ИП на его имя в открытых реестрах</li>
+      <li>независимые СМИ-публикации — всё, что есть, это PR-агрегаторы и отзовики</li>
+      <li>подтверждение «премии №1» и титула «тренер №1»</li>
+      <li>живой сайт Rayan Media или Академии корпоративных блогеров</li>
+      <li>проверяемые успешные кейсы выпускников курса</li>
+    </ul>
+    <p class="why-key" style="margin-top:36px;">Публичный образ и проверяемые факты<br><span>расходятся практически по каждому пункту.</span></p>
+  </div>
+</section>
+
+</div>
+
+<div class="dark">
+  <div class="dark-glow"></div>
+  <p class="lead-in">итог</p>
+  <h2>Как читать <em>эту фигуру</em></h2>
+  <p>Сильная сторителлинг-арка «сварщик за 15 000 ₽ → миллионер и тренер №1». Громкие титулы без единого независимого подтверждения. Дорогой продукт с обещанием конкретного дохода — и шлейф судебных претензий, заблокированный канал, потерянный домен. Из всех проектов сегодня жив только Instagram.</p>
+  <p class="key">Личный бренд — это история, которую ты рассказываешь. Репутация — история, которую рассказывают о тебе.</p>
+</div>
+
+<div class="wrap">
+<section id="sources">
+  <p class="sec-lead">07 — источники</p>
+  <h2 class="sec-title">Все ссылки <em>одним списком</em></h2>
+  <ul class="src">
+    <li><a href="https://www.instagram.com/rayanahmedianov/">instagram.com/rayanahmedianov</a><small>его Instagram, ~38K подписчиков</small></li>
+    <li><a href="https://www.youtube.com/@RayanAhmedyanov">youtube.com/@RayanAhmedyanov</a><small>его действующий YouTube-канал</small></li>
+    <li><a href="https://www.facebook.com/p/%D0%A0%D0%B0%D1%8F%D0%BD-%D0%90%D1%85%D0%BC%D0%B5%D0%B4%D1%8C%D1%8F%D0%BD%D0%BE%D0%B2-100009978733348/">facebook.com — «Раян Ахмедьянов»</a><small>личный профиль</small></li>
+    <li><a href="https://www.instagram.com/rayanahmedianov/reel/C-8N_xrgtHf/">Reels «Знакомлюсь с людьми на улице»</a><small>его контент про смелость</small></li>
+    <li><a href="https://www.instagram.com/rayanahmedianov/reel/DEQKjBHgpZg/">Reels «Как я пишу послание»</a><small>инструкция его техники намерений</small></li>
+    <li><a href="https://www.instagram.com/rayanahmedianov/reel/DGQS18Kz1H_/">Reels «Это голосовое нам отправил тур…»</a><small>кейсы клиентов</small></li>
+    <li><a href="https://politnews.net/159621">politnews.net — «Кто такой корпоративный блогер?»</a><small>PR-статья о нём и профессии</small></li>
+    <li><a href="https://news.myseldon.com/ru/news/index/217230669">news.myseldon.com — «ТОП-3 инсайта от бизнесмена»</a><small>PR-статья: сварщик за 15 000 ₽ → миллионер</small></li>
+    <li><a href="https://vklader.com/rayan-media-otzyvy/">vklader.com — «Ученики требуют деньги назад»</a><small>суды, рассрочки, долги</small></li>
+    <li><a href="https://seoseed.ru/rayan-ahmedyanov-otzyvy-o-kursah-rayan-media/">seoseed.ru — отзывы о курсах Rayan Media</a><small>разбор обещаний и качества</small></li>
+    <li><a href="https://traders-rejting.ru/rayan-akhmedyanov-otzyvy/">traders-rejting.ru — «Разоблачение Rayan Media Holding»</a><small>проверка кейсов учеников</small></li>
+    <li><a href="https://rutube.ru/video/e6230ee47065efd7dd85b1470a793475/">rutube.ru — «Rayan Media отзывы»</a><small>видео, 08.10.2024</small></li>
+    <li><a href="https://rutube.ru/video/bcbba3590dc00699a2877488bcb227ea/">rutube.ru — «Отзывы Раян Медиа»</a><small>видео, 14.11.2024</small></li>
+    <li><a href="https://rutube.ru/video/9e463547b08ef798664711c93e8e93d7/">rutube.ru — «Чёрный отзыв»</a><small>видео-разоблачение</small></li>
+    <li><a href="https://m.youtube.com/shorts/pgaoEi0jkzQ">youtube.com — Shorts «Раян Ахмедьянов ЗАБЛОКИРОВАН ютуб»</a><small>о блокировке канала</small></li>
+    <li><a href="http://hypeacademy.ru/">hypeacademy.ru</a><small>бывший домен его агентства — сейчас сайт казино</small></li>
+  </ul>
+</section>
+</div>
+
+<footer>
+  <p class="foot-line">Досье собрано по открытым источникам — <em>сентябрь 2026.</em></p>
+  <p class="foot-meta">Материал отражает содержание цитируемых публикаций, а не установленные судом факты. Утверждения о качестве курсов, исках и взысканиях — позиция авторов этих публикаций. Биографические сведения приведены со слов самого героя.</p>
+</footer>
+
+</body>
+</html>
