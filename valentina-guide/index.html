@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="robots" content="noindex, nofollow">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Рабочее место Валентины</title>
+<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Inter:wght@400;500;600;700&family=DM+Sans:ital@1&display=swap" rel="stylesheet">
+<style>
+*,*::before,*::after{margin:0;padding:0;box-sizing:border-box;}
+html,body{overflow-x:hidden;max-width:100%;}
+:root{--milk:#FDFCF9;--ink:#262220;--body:#55504B;--soft:#948C83;--bordo:#710C04;--hair:#E9E4DC;--wash:#F7F3EC;}
+body{font-family:'Inter',-apple-system,sans-serif;background:var(--milk);color:var(--ink);font-size:17px;line-height:1.75;-webkit-font-smoothing:antialiased;}
+.nav{display:flex;align-items:baseline;justify-content:space-between;padding:18px 48px;border-bottom:1px solid var(--hair);position:sticky;top:0;background:var(--milk);z-index:100;}
+.nav b{font-family:'Libre Baskerville',Georgia,serif;font-size:18px;font-weight:700;letter-spacing:.4px;}
+.nav span{font-family:'DM Sans',sans-serif;font-style:italic;font-size:14px;color:var(--soft);}
+.container{max-width:760px;margin:0 auto;padding:0 24px;}
+.hero{padding:64px 0 36px;}
+.badge{display:inline-block;font-size:11px;font-weight:600;color:var(--bordo);border:1px solid var(--bordo);padding:5px 16px;margin-bottom:22px;letter-spacing:2px;text-transform:uppercase;}
+.hero h1{font-family:'Libre Baskerville',Georgia,serif;font-size:36px;font-weight:700;line-height:1.3;margin-bottom:16px;text-transform:uppercase;letter-spacing:.5px;}
+.hero h1 em{font-style:italic;color:var(--bordo);text-transform:none;letter-spacing:0;}
+.hero .desc{font-size:18px;color:var(--body);line-height:1.7;}
+.hero .meta{font-size:13px;color:var(--soft);margin-top:18px;letter-spacing:2px;text-transform:uppercase;}
+.intro-bold{font-size:18px;font-weight:700;line-height:1.65;padding:28px 0 10px;}
+.intro-text{font-size:17px;color:var(--body);padding-bottom:28px;}
+.sec{font-family:'Libre Baskerville',Georgia,serif;font-size:26px;font-weight:700;line-height:1.35;padding:60px 0 18px;border-top:1px solid var(--hair);text-transform:uppercase;letter-spacing:.5px;}
+.sec span{color:var(--bordo);margin-right:10px;}
+.sec em{font-style:italic;color:var(--bordo);text-transform:none;letter-spacing:0;}
+.lead{font-size:17px;color:var(--body);margin-bottom:20px;}
+.sub{font-family:'Libre Baskerville',Georgia,serif;font-size:20px;font-weight:700;padding:30px 0 12px;}
+.text{font-size:17px;color:var(--body);margin-bottom:16px;}
+.highlight{background:var(--wash);padding:20px 24px;margin:24px 0;font-size:16px;line-height:1.75;color:var(--body);}
+.highlight strong{color:var(--ink);}
+.prompt{background:var(--wash);border-left:3px solid var(--bordo);padding:24px 28px;margin:22px 0;}
+.prompt .pt{font-family:'DM Sans',sans-serif;font-style:italic;font-size:14px;color:var(--bordo);margin-bottom:6px;}
+.prompt .px{font-size:15px;line-height:1.8;color:var(--body);white-space:pre-wrap;}
+.card{border:1px solid var(--ink);padding:26px 30px;margin:24px 0;background:var(--milk);}
+.card .cn{font-family:'DM Sans',sans-serif;font-style:italic;font-size:13px;color:var(--bordo);letter-spacing:1px;margin-bottom:8px;text-transform:uppercase;}
+.card .ct{font-family:'Libre Baskerville',Georgia,serif;font-size:19px;font-weight:700;line-height:1.4;margin-bottom:14px;}
+.card p{margin-bottom:11px;font-size:15.5px;color:var(--body);line-height:1.7;}
+.card p strong{color:var(--ink);font-weight:600;}
+.step{display:flex;gap:20px;padding:18px 0;border-bottom:1px solid var(--hair);}
+.step .n{font-family:'Libre Baskerville',Georgia,serif;font-style:italic;font-size:30px;color:var(--bordo);opacity:.35;min-width:42px;line-height:1.1;}
+.step .t{font-weight:600;font-size:16.5px;color:var(--ink);margin-bottom:4px;}
+.step .x{font-size:15.5px;color:var(--body);line-height:1.7;}
+.step .x a{color:var(--bordo);}
+code{font-family:ui-monospace,Menlo,monospace;font-size:14px;background:var(--wash);padding:1px 6px;}
+table{width:100%;border-collapse:collapse;margin:16px 0 26px;font-size:15px;}
+th,td{text-align:left;vertical-align:top;padding:12px;border-bottom:1px solid var(--hair);line-height:1.55;}
+th{font-size:11.5px;letter-spacing:1.5px;text-transform:uppercase;color:var(--soft);font-weight:600;}
+td strong{color:var(--ink);}
+.table-wrap{overflow-x:auto;}
+.toc{background:var(--wash);padding:26px 30px;margin:8px 0 22px;}
+.toc .tt{font-size:11.5px;letter-spacing:2px;text-transform:uppercase;color:var(--soft);font-weight:600;margin-bottom:12px;}
+.toc ol{list-style:none;counter-reset:t;}
+.toc li{counter-increment:t;padding:7px 0;border-bottom:1px solid var(--hair);font-size:15.5px;}
+.toc li:last-child{border-bottom:none;}
+.toc li::before{content:counter(t,decimal-leading-zero) '.';font-family:'Libre Baskerville',Georgia,serif;font-style:italic;color:var(--bordo);margin-right:12px;}
+.toc a{color:var(--ink);text-decoration:none;font-weight:500;}
+.toc a:hover{color:var(--bordo);}
+.btns{display:flex;flex-wrap:wrap;gap:10px;margin:18px 0 8px;}
+.btn{display:inline-block;text-decoration:none;font-size:13px;font-weight:600;letter-spacing:1px;text-transform:uppercase;padding:13px 22px;border:1px solid var(--bordo);color:var(--bordo);background:transparent;transition:.15s;}
+.btn:hover{background:var(--bordo);color:#FDFCF9;}
+.btn.pr{background:var(--bordo);color:#FDFCF9;}
+.btn.pr:hover{background:#4A0B04;}
+ul.g{list-style:none;margin:12px 0 22px;}
+ul.g li{font-size:16px;line-height:1.75;color:var(--body);padding:8px 0 8px 20px;position:relative;border-bottom:1px solid var(--hair);}
+ul.g li:last-child{border-bottom:none;}
+ul.g li::before{content:'';position:absolute;left:0;top:17px;width:6px;height:6px;background:var(--bordo);}
+ul.g li strong{color:var(--ink);}
+.footer{text-align:center;padding:64px 24px;border-top:1px solid var(--hair);margin-top:64px;color:var(--soft);font-size:14px;}
+@media (max-width:768px){.nav{padding:14px 20px;}.hero h1{font-size:26px;}.sec{font-size:21px;}.card,.prompt,.toc{padding:20px;}.step{gap:12px;}}
+</style>
+</head>
+<body>
+<nav class="nav"><b>Валентина</b><span>maysoulme · рабочее место</span></nav>
+<div class="container">
+<section class="hero">
+<div class="badge">Личная работа · maysoulme</div>
+<h1>Рабочее место Валентины: <em>от установки Claude до воронки</em></h1>
+<p class="desc">Пошаговый гайд, по которому мы идём вместе. Каждый этап: что делаем, зачем, что сказать Claude и что скачать одной кнопкой. Все ассистенты настроены под тебя: твой метод, твои кейсы, твой голос.</p>
+<p class="meta">7 этапов · 12 скиллов · созвоны по понедельникам</p>
+</section>
+<p class="intro-bold">Порядок такой: фундамент → материалы о тебе → оффер и продукт → воронка → контент.</p>
+<p class="intro-text">Ядро — оффер, продукт и воронка: продукт делается один раз, а дальше воронка продаёт его сама, и денежка капает без ручных запусков. Ролики и продвижение — самая простая часть цепочки, ими займёмся после ядра. Этот гайд собирает всё из нашего созвона 14 сентября в одно место, чтобы ничего не потерялось.</p>
+<div class="toc"><div class="tt">Маршрут</div><ol>
+<li><a href="#s1">Установка Claude: браузер, VPN, прогрев</a></li>
+<li><a href="#s2">Пакет одной фразой: скиллы и твой профиль</a></li>
+<li><a href="#s3">Материалы о тебе: распаковка, ЦА, кейсы, голос</a></li>
+<li><a href="#s4">Оффер и продукт: возвращаем базовую программу</a></li>
+<li><a href="#s5">Воронка: продающий урок и дожимные</a></li>
+<li><a href="#s6">Упаковка блога</a></li>
+<li><a href="#s7">Все скиллы и починка</a></li>
+</ol></div>
+<div class="btns">
+<a class="btn pr" href="downloads/valentina-guide-full-package.zip" download>Скачать весь пакет (zip)</a>
+<a class="btn" href="downloads/files/README.md" download>README для тебя</a>
+<a class="btn" href="downloads/files/INSTALL-FOR-CLAUDE.md" download>Инструкция для Claude</a>
+</div>
+
+<h2 class="sec" id="s1"><span>01.</span>Установка Claude: <em>браузер, VPN, прогрев</em></h2>
+<p class="lead">Главное задание первой недели. Порядок важен — идём по шагам из нашего созвона.</p>
+<div class="step"><div class="n">1</div><div><div class="t">Отдельный чистый браузер</div><div class="x">Скачай новый браузер, с которого ты не сидишь вообще нигде и у которого чистая история (например, Opera). Если Google Chrome уже использовался — он не подходит.</div></div></div>
+<div class="step"><div class="n">2</div><div><div class="t">VPN — одна страна навсегда</div><div class="x">Поставь VPN, который пришлёт Майя. Ключевое правило: страна всегда одна и та же. И поставь второй резервный VPN с той же страной — VPN-ы правда часто отлетают, но их быстро чинят. Если пользоваться заблокированным VPN, есть риск блокировки аккаунта Claude.</div></div></div>
+<div class="step"><div class="n">3</div><div><div class="t">Регистрация — и не оплачивай сразу</div><div class="x">Из нового браузера, под включённым VPN, зайди со старого Google-аккаунта и зарегистрируй аккаунт Claude. После регистрации просто пользуйся бесплатно.</div></div></div>
+<div class="step"><div class="n">4</div><div><div class="t">Прогрев 1–2 недели</div><div class="x">Каждый день пользуйся Claude бесплатно, чтобы система видела: обычный пользователь зашёл, попользовался, понравилось — и только потом купил подписку.</div></div></div>
+<div class="step"><div class="n">5</div><div><div class="t">Подписка и Claude Code</div><div class="x">Первая подписка ~1 700 ₽/мес — её хватит, Claude Code работает и на ней. Карта — в идеале той же страны, что VPN. После оплаты скачай приложение Claude Code и зайди: отдельный браузер под него не нужен, делается за 2 минуты. Тариф за $100 — потом, когда вырастут объёмы, спешки нет.</div></div></div>
+<div class="highlight"><strong>Спокойствие:</strong> если всё вовремя оплачивать — проблем возникнуть не должно. Сбои у сервисов случаются, но их быстро чинят.</div>
+
+<h2 class="sec" id="s2"><span>02.</span>Пакет <em>одной фразой</em></h2>
+<p class="lead">Результат: Claude знает твой метод, твою историю, твои кейсы с цифрами и твой голос — и у тебя стоят все 12 скиллов.</p>
+<div class="prompt"><div class="pt">Фраза для Claude — установка одной фразой</div><div class="px">Скачай архив https://maiyamaiya19999-bit.github.io/maysoulme-assets/valentina-guide/downloads/valentina-guide-full-package.zip и распакуй его в папку ~/valentina-guide-setup. Открой в ней файл INSTALL-FOR-CLAUDE.md и выполни установку строго по нему. Потом отчитайся по каждому пункту: что установлено и что проверено.</div></div>
+<div class="step"><div class="n">✓</div><div><div class="t">Проверка</div><div class="x">Напиши <code>/tg-posts</code> и тему: «почему омепразол даёт облегчение только до отмены». Если пост звучит твоим тёплым обстоятельным голосом, с конкретикой и без рубленых фраз — установка прошла.</div></div></div>
+<div class="highlight"><strong>Если архив не скачался.</strong> Проверь интернет и VPN, повтори фразу ещё раз. Не помогло — напиши Майе.</div>
+
+<h2 class="sec" id="s3"><span>03.</span>Материалы о тебе: <em>распаковка, ЦА, кейсы, голос</em></h2>
+<p class="lead">Любая работа ассистентов строится на ТЗ и знаниях о владельце блога. ТЗ у Майи уже есть — от тебя нужны знания о тебе. Всё лежит в группе, в модуле № 1 «Подготовка и фундамент».</p>
+<div class="card">
+<div class="cn">Пять материалов недели</div>
+<div class="ct">Что прислать Майе к воскресенью</div>
+<p><strong>1. Распаковка.</strong> Открываешь файл с вопросами → надиктовываешь подробное голосовое на каждый вопрос в «Избранное» в Telegram → расшифровка через бота «Буквица» из первого модуля. Плюс второй файл с распаковкой, который пришлёт Майя.</p>
+<p><strong>2. Анализ ЦА.</strong> Заполненный материал из первого модуля, отдельным файлом.</p>
+<p><strong>3. Все кейсы в одном месте.</strong> Каждый скрин + подробное голосовое: как было до, как стало после. Три главных кейса (Николай, Марина, Елена) уже вшиты в твой профиль с цифрами анализов — добавь остальные, чем подробнее, тем лучше: кейсы пойдут в прогревы и контент, это твой главный актив доверия.</p>
+<p><strong>4. Tone of voice.</strong> Твои посты уже вшиты в пакет как эталон голоса. Если есть ещё 10–15 текстов, от которых кайфуешь, — пришли, добавим.</p>
+<p><strong>5. Список блогеров ниши</strong> — не срочно, пойдёт в работу на этапе продвижения.</p>
+</div>
+<div class="prompt"><div class="pt">Фраза для Claude</div><div class="px">/raspakovka — пройди со мной по всем пометкам [нужна деталь] в моём профиле по одной. Я отвечаю, ты вписываешь.</div></div>
+
+<h2 class="sec" id="s4"><span>04.</span>Оффер и продукт: <em>возвращаем базовую программу</em></h2>
+<p class="lead">Недорогой продукт — сто процентов обязателен: если хочешь, чтобы «само продавалось», без него никак. Переделывать руками не будем — это сделает Claude, быстро и качественно.</p>
+<div class="table-wrap"><table>
+<tr><th>Ступень</th><th>Что</th><th>Цена</th><th>Статус</th></tr>
+<tr><td><strong>Умный детокс</strong></td><td>Бесплатная версия на 1 день — вход в воронку</td><td>0 ₽</td><td>есть на сайте</td></tr>
+<tr><td><strong>Базовая программа</strong></td><td>«Перезагрузка пищеварения» (рабочее название): 4 недели, автопродукт</td><td>~2 500 ₽</td><td>приоритет № 1</td></tr>
+<tr><td><strong>Индивидуальная</strong></td><td>Созвоны, диагностики, личное включение</td><td>60 000 ₽</td><td>2–3 места в месяц</td></tr>
+</table></div>
+<div class="highlight"><strong>Главный оффер — симптомный:</strong> изжога, отрыжка, вздутие, запор, диарея, боли — эти симптомы просто уходят за месяц. А поверх — трансформация, которую человек хочет слышать: возвращение доступа к базовым сферам жизни — отношениям, деньгам, энергии и целям. Это основа упаковки и воронки.</div>
+<p class="text">Черновик лендинга новой программы уже собран: <a href="https://maiyamaiya19999-bit.github.io/maysoulme-assets/valentina-perezagruzka.html" style="color:var(--bordo)">посмотреть страницу</a>. На ней же внизу рабочие блоки: текст продающего урока и дожимные — развернёшь кнопками.</p>
+<div class="prompt"><div class="pt">Фраза для Claude</div><div class="px">/offer — продукт «базовая программа по пищеварению». Собери оффер по формуле и сверь с черновиком лендинга, который сделала Майя. Предложи, что усилить.</div></div>
+
+<h2 class="sec" id="s5"><span>05.</span>Воронка: <em>продающий урок и дожимные</em></h2>
+<p class="lead">Схема: ролики и посты ведут на продающий урок → урок продаёт базовую программу → часть покупателей дорастает до индивидуальной. Воронка работает каждый день без твоего участия.</p>
+<div class="step"><div class="n">1</div><div><div class="t">Продающий урок</div><div class="x">Черновик текста под суфлёр (9 блоков, с твоими кейсами в крюке) уже лежит на лендинге — кнопка «Развернуть текст». Дорабатываем через <code>/selling-lesson</code>, записываешь с суфлёра.</div></div></div>
+<div class="step"><div class="n">2</div><div><div class="t">Дожимные сообщения</div><div class="x">Черновик цепочки из 7 сообщений — там же, кнопка в блоке «Дожимные сообщения». Правки — через <code>/dozhim</code>.</div></div></div>
+<div class="step"><div class="n">3</div><div><div class="t">Сборка</div><div class="x">Бот, оплата и кодовое слово собираем вместе с Майей на созвоне, когда урок записан.</div></div></div>
+
+<h2 class="sec" id="s6"><span>06.</span>Упаковка <em>блога</em></h2>
+<p class="lead">Шапка профиля (3 варианта), 6 актуальных, 9 заходов для постов, медийный образ и облако смыслов уже подготовлены — рабочий блок «Материалы для упаковки блога» внизу лендинга, кнопка «Развернуть материалы».</p>
+<div class="prompt"><div class="pt">Фраза для Claude</div><div class="px">/ca — собери портрет моей аудитории из PROFILE.md и кастдевов, которые я пришлю. Отдельно покажи, какие фразы клиентов брать в тексты дословно.</div></div>
+
+<h2 class="sec" id="s7"><span>07.</span>Все скиллы <em>и починка</em></h2>
+<p class="lead">Каждый скилл сначала читает твой профиль, твои тексты и правила живой речи — поэтому пишет как ты и не выдумывает факты: если чего-то не знает, ставит пометку и задаёт один вопрос.</p>
+<div class="table-wrap"><table>
+<tr><th>Скилл</th><th>Что делает</th></tr>
+<tr><td><strong>/raspakovka</strong></td><td>Задаёт вопросы по одному и заполняет твой профиль — с него начинаем</td></tr>
+<tr><td><strong>/voice-edit</strong></td><td>Переписывает любой текст твоим живым голосом</td></tr>
+<tr><td><strong>/tg-posts</strong></td><td>Посты для Telegram: личный, экспертный, подборка</td></tr>
+<tr><td><strong>/reels-expert</strong></td><td>Сценарий экспертного reels под суфлёр</td></tr>
+<tr><td><strong>/reels-story</strong></td><td>Сценарий reels с твоей личной историей</td></tr>
+<tr><td><strong>/stories</strong></td><td>Серия из 6–8 сторис — только по твоей команде</td></tr>
+<tr><td><strong>/progrev</strong></td><td>Прогрев к запуску: план по дням с готовыми черновиками</td></tr>
+<tr><td><strong>/selling-lesson</strong></td><td>Продающий урок по структуре Майи: 9 блоков под суфлёр</td></tr>
+<tr><td><strong>/dozhim</strong></td><td>Цепочка дожимных сообщений для бота, с честными дедлайнами</td></tr>
+<tr><td><strong>/offer</strong></td><td>Оффер по формуле Майи и текст лендинга продукта</td></tr>
+<tr><td><strong>/ca</strong></td><td>Анализ аудитории: аватар, боли её словами, возражения</td></tr>
+<tr><td><strong>/content-plan</strong></td><td>Контент-план на неделю под 15 минут в день</td></tr>
+</table></div>
+<div class="highlight"><strong>Если что-то сломалось.</strong> Скилл пишет не твоим голосом — проверь, что в <code>~/.claude/brand/TOV-SAMPLES.md</code> лежат твои тексты, и скажи «перечитай TOV-SAMPLES и перепиши». Появились рубленые фразы и «это не X, это Y» — скажи «перечитай WRITING-RULES и перепиши». Скилл выдумал факт — значит, в профиле дыра: вызови <code>/raspakovka</code>. Всё остальное — напиши Майе.</div>
+<div class="footer">Собрано Майей · @maysoulme · вопросы — ей в личку</div>
+</div>
+</body>
+</html>
