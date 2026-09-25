@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<meta name="robots" content="noindex">
+<title>Мадрид, 25–26 сентября</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,500;0,6..96,600;1,6..96,500&family=Manrope:wght@400;500;600;700&display=swap">
+<style>
+:root{
+  --bg:#F5F4F1;
+  --surface:#FFFFFF;
+  --ink:#1C2230;
+  --muted:#5E6677;
+  --line:#E3E1DC;
+  --slate:#34466B;
+  --gold:#A8812F;
+  --rose:#C9707E;
+  --rose-soft:#F7E6E8;
+  --slate-soft:#E7EBF3;
+  --gold-soft:#F4EBD6;
+  --now:#2E7D5B;
+  --now-soft:#E2F2EA;
+  --shadow:0 1px 2px rgba(28,34,48,.06),0 4px 16px rgba(28,34,48,.05);
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    color-scheme:dark;
+    --bg:#12151C;--surface:#1A1F29;--ink:#ECEAE5;--muted:#A3A9B6;--line:#2A303C;
+    --slate:#9DB2DD;--gold:#D6B268;--rose:#E79AA6;
+    --rose-soft:#3A2429;--slate-soft:#212B3E;--gold-soft:#342B19;
+    --now:#6FD3A4;--now-soft:#173427;
+    --shadow:0 1px 2px rgba(0,0,0,.3);
+  }
+}
+:root[data-theme="dark"]{
+  color-scheme:dark;
+  --bg:#12151C;--surface:#1A1F29;--ink:#ECEAE5;--muted:#A3A9B6;--line:#2A303C;
+  --slate:#9DB2DD;--gold:#D6B268;--rose:#E79AA6;
+  --rose-soft:#3A2429;--slate-soft:#212B3E;--gold-soft:#342B19;
+  --now:#6FD3A4;--now-soft:#173427;
+  --shadow:0 1px 2px rgba(0,0,0,.3);
+}
+*{box-sizing:border-box}
+body{
+  background:var(--bg);color:var(--ink);
+  font:15px/1.5 "Manrope",system-ui,-apple-system,"Segoe UI",sans-serif;
+  padding:28px 16px 48px;
+}
+.wrap{max-width:640px;margin:0 auto;display:flex;flex-direction:column;gap:28px}
+header{display:flex;flex-direction:column;gap:6px}
+.eyebrow{font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:var(--gold);font-weight:700}
+h1{font-family:"Bodoni Moda",Didot,"Times New Roman",serif;font-weight:500;font-size:38px;line-height:1.05;margin:0;text-wrap:balance}
+h1 em{font-style:italic;color:var(--rose)}
+.sub{color:var(--muted);margin:0}
+.facts{display:flex;flex-wrap:wrap;gap:8px;margin-top:8px}
+.chip{font-size:13px;font-weight:600;padding:6px 10px;border-radius:999px;background:var(--surface);border:1px solid var(--line);font-variant-numeric:tabular-nums}
+.chip b{color:var(--gold)}
+.tabs{display:flex;gap:6px;background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:4px;position:sticky;top:env(safe-area-inset-top,0px);z-index:5;box-shadow:var(--shadow)}
+.tab{flex:1;border:0;background:transparent;color:var(--muted);font:inherit;font-weight:700;padding:10px 8px;border-radius:9px;cursor:pointer}
+.tab[aria-selected="true"]{background:var(--slate);color:var(--bg)}
+.tab:focus-visible,.btn:focus-visible{outline:2px solid var(--gold);outline-offset:2px}
+section{display:flex;flex-direction:column;gap:0}
+.day-head{display:flex;justify-content:space-between;align-items:baseline;gap:12px;flex-wrap:wrap;margin-bottom:14px}
+h2{font-family:"Bodoni Moda",Didot,serif;font-weight:500;font-size:26px;margin:0}
+.all-route{font-size:13px;font-weight:700;color:var(--slate);text-decoration:none;border-bottom:1px solid currentColor}
+.stop{display:grid;grid-template-columns:64px 1fr;gap:14px}
+.time{font-variant-numeric:tabular-nums;font-weight:700;font-size:15px;padding-top:16px;text-align:right;color:var(--ink)}
+.time small{display:block;font-weight:500;font-size:12px;color:var(--muted)}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:14px 16px;display:flex;flex-direction:column;gap:8px;box-shadow:var(--shadow);position:relative}
+.stop.is-now .card{border-color:var(--now);box-shadow:0 0 0 2px var(--now-soft)}
+.now-tag{display:none;align-self:flex-start;font-size:11px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--now);background:var(--now-soft);padding:3px 8px;border-radius:999px}
+.stop.is-now .now-tag{display:inline-block}
+.kind{font-size:11px;font-weight:700;letter-spacing:.1em;text-transform:uppercase}
+.k-food{color:var(--gold)}.k-shop{color:var(--slate)}.k-photo{color:var(--rose)}.k-home{color:var(--muted)}.k-art{color:var(--gold)}
+h3{margin:0;font-size:18px;line-height:1.25;font-weight:700}
+.addr{margin:0;color:var(--muted);font-size:14px}
+ul.notes{margin:0;padding-left:18px;display:flex;flex-direction:column;gap:3px;font-size:14px}
+.warn{font-size:13px;font-weight:600;background:var(--rose-soft);color:var(--ink);padding:8px 10px;border-radius:9px}
+.actions{display:flex;flex-wrap:wrap;gap:8px;margin-top:2px}
+.btn{display:inline-flex;align-items:center;gap:6px;font:inherit;font-size:14px;font-weight:700;text-decoration:none;padding:9px 12px;border-radius:10px;border:1px solid var(--line);background:var(--bg);color:var(--ink);cursor:pointer}
+.btn.primary{background:var(--slate);border-color:var(--slate);color:var(--bg)}
+.btn svg{width:16px;height:16px;flex:none}
+.leg{display:grid;grid-template-columns:64px 1fr;gap:14px}
+.leg .line{justify-self:end;width:2px;margin-right:6px;background:repeating-linear-gradient(var(--line) 0 4px,transparent 4px 8px);min-height:40px}
+.leg p{margin:0;align-self:center;font-size:13px;color:var(--muted);padding-block:10px;font-variant-numeric:tabular-nums}
+.leg p b{color:var(--ink);font-weight:600}
+.foot{font-size:12px;color:var(--muted);border-top:1px solid var(--line);padding-top:14px;margin:0}
+@media (max-width:420px){
+  h1{font-size:32px}
+  .stop,.leg{grid-template-columns:52px 1fr;gap:10px}
+  .time{font-size:14px}
+}
+@media (prefers-reduced-motion:no-preference){.btn{transition:transform .12s}.btn:active{transform:scale(.97)}}
+</style>
+</head>
+<body>
+
+<div class="wrap">
+  <header>
+    <span class="eyebrow">Маршрут · Мадрид</span>
+    <h1>Обед над Gran Vía, <em>розы</em> и закат</h1>
+    <p class="sub">Сегодня центр и Retiro, завтра утром Museo Cerralbo в новом платье. Кнопки открывают Google Maps.</p>
+    <div class="facts">
+      <span class="chip">Закат <b>~19:55</b></span>
+      <span class="chip">Розарий до <b>20:00</b></span>
+      <span class="chip">Музей: вход до <b>14:00</b></span>
+    </div>
+  </header>
+
+  <div class="tabs" role="tablist">
+    <button class="tab" role="tab" id="tab-today" aria-controls="today" aria-selected="true">Пт, 25 сентября</button>
+    <button class="tab" role="tab" id="tab-tomorrow" aria-controls="tomorrow" aria-selected="false">Сб, 26 сентября</button>
+  </div>
+
+  <!-- TODAY -->
+  <section id="today" role="tabpanel" aria-labelledby="tab-today">
+    <div class="day-head">
+      <h2>Пятница</h2>
+      <a class="all-route" target="_blank" rel="noopener" href="https://www.google.com/maps/dir/?api=1&origin=The+Principal+Madrid,+Calle+Marqu%C3%A9s+de+Valdeiglesias+1,+Madrid&destination=Mercado+de+San+Miguel,+Madrid&waypoints=Zara,+Gran+V%C3%ADa+34,+Madrid%7CRosaleda+del+Retiro,+Madrid%7CPalacio+de+Cristal,+Parque+del+Retiro,+Madrid%7CC%C3%ADrculo+de+Bellas+Artes,+Calle+de+Alcal%C3%A1+42,+Madrid&travelmode=walking">Весь маршрут на карте →</a>
+    </div>
+
+    <div class="stop" data-start="2026-09-25T15:00" data-end="2026-09-25T16:30">
+      <div class="time">15:00<small>–16:30</small></div>
+      <div class="card">
+        <span class="now-tag">Сейчас</span>
+        <span class="kind k-food">Обед · бронь на 15:00</span>
+        <h3>Ático, The Principal</h3>
+        <p class="addr">Calle Marqués de Valdeiglesias, 1 · верхний этаж</p>
+        <ul class="notes">
+          <li>Вход через лобби отеля, лифт наверх</li>
+          <li>Фото на балконе с видом на Metrópolis</li>
+          <li>Тел.: <span id="tel">+34 915 329 496</span></li>
+        </ul>
+        <div class="actions">
+          <a class="btn primary" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=The+Principal+Madrid+%C3%81tico,+Calle+Marqu%C3%A9s+de+Valdeiglesias+1,+Madrid"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 21s-7-6.2-7-11.5A7 7 0 0 1 19 9.5C19 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg>Google Maps</a>
+          <button class="btn" type="button" data-copy="+34915329496">Скопировать номер</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="leg"><span class="line"></span><p><b>Пешком 5 мин</b> по Gran Vía</p></div>
+
+    <div class="stop" data-start="2026-09-25T16:30" data-end="2026-09-25T17:30">
+      <div class="time">16:30<small>–17:30</small></div>
+      <div class="card">
+        <span class="now-tag">Сейчас</span>
+        <span class="kind k-shop">Шопинг</span>
+        <h3>Zara Gran Vía</h3>
+        <p class="addr">Gran Vía, 34 · открыто до 22:00</p>
+        <ul class="notes">
+          <li>Длинное платье к музею. Четыре этажа, вся коллекция</li>
+          <li>Сохраните чек</li>
+          <li>Нет размера — Zara на Plaza de España</li>
+        </ul>
+        <div class="actions">
+          <a class="btn primary" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Zara,+Gran+V%C3%ADa+34,+Madrid"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 21s-7-6.2-7-11.5A7 7 0 0 1 19 9.5C19 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg>Google Maps</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="leg"><span class="line"></span><p><b>Такси ~10 мин, ~€8</b> · водителю: «Rosaleda del Retiro, Puerta del Ángel Caído»</p></div>
+
+    <div class="stop" data-start="2026-09-25T17:30" data-end="2026-09-25T19:00">
+      <div class="time">17:45<small>–19:00</small></div>
+      <div class="card">
+        <span class="now-tag">Сейчас</span>
+        <span class="kind k-photo">Фото · золотой час с 18:30</span>
+        <h3>Розарий Rosaleda del Retiro</h3>
+        <p class="addr">Parque del Retiro, южная часть · вход бесплатный</p>
+        <ul class="notes">
+          <li>Солнце держите за спиной или сбоку</li>
+          <li>На iPhone: тап по лицу и свайп вниз, чтобы убавить экспозицию</li>
+          <li>Конец сентября: второе, более скромное цветение</li>
+        </ul>
+        <p class="warn">Закрывается в 20:00. Будьте там до 18:30.</p>
+        <div class="actions">
+          <a class="btn primary" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Rosaleda+del+Retiro,+Madrid"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 21s-7-6.2-7-11.5A7 7 0 0 1 19 9.5C19 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg>Google Maps</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="leg"><span class="line"></span><p><b>Пешком ~10 мин</b> через парк</p></div>
+
+    <div class="stop" data-start="2026-09-25T19:00" data-end="2026-09-25T19:35">
+      <div class="time">19:00<small>–19:30</small></div>
+      <div class="card">
+        <span class="now-tag">Сейчас</span>
+        <span class="kind k-photo">Прогулка</span>
+        <h3>Palacio de Cristal и пруд</h3>
+        <p class="addr">Parque del Retiro</p>
+        <ul class="notes">
+          <li>Стеклянный дворец в мягком вечернем свете</li>
+          <li>Лодки на большом пруду Estanque</li>
+        </ul>
+        <div class="actions">
+          <a class="btn primary" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Palacio+de+Cristal,+Parque+del+Retiro,+Madrid"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 21s-7-6.2-7-11.5A7 7 0 0 1 19 9.5C19 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg>Google Maps</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="leg"><span class="line"></span><p><b>Такси ~10 мин, ~€8</b></p></div>
+
+    <div class="stop" data-start="2026-09-25T19:35" data-end="2026-09-25T20:40">
+      <div class="time">19:40<small>–20:30</small></div>
+      <div class="card">
+        <span class="now-tag">Сейчас</span>
+        <span class="kind k-photo">Закат ~19:55</span>
+        <h3>Крыша Círculo de Bellas Artes</h3>
+        <p class="addr">Calle de Alcalá, 42 · Azotea, вход ~€5</p>
+        <ul class="notes">
+          <li>Вид на купол Metrópolis и Gran Vía</li>
+          <li>Бокал вина на закате</li>
+        </ul>
+        <div class="actions">
+          <a class="btn primary" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Azotea+del+C%C3%ADrculo+de+Bellas+Artes,+Calle+de+Alcal%C3%A1+42,+Madrid"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 21s-7-6.2-7-11.5A7 7 0 0 1 19 9.5C19 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg>Google Maps</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="leg"><span class="line"></span><p><b>Пешком ~15 мин</b> или такси ~€7</p></div>
+
+    <div class="stop" data-start="2026-09-25T20:40" data-end="2026-09-25T22:40">
+      <div class="time">21:00<small>–22:30</small></div>
+      <div class="card">
+        <span class="now-tag">Сейчас</span>
+        <span class="kind k-food">Ужин и тапас</span>
+        <h3>Mercado de San Miguel</h3>
+        <p class="addr">Plaza de San Miguel, рядом с Plaza Mayor</p>
+        <ul class="notes">
+          <li>После позднего обеда хватит лёгкого ужина</li>
+          <li>Альтернатива: улица Cava Baja в районе La Latina, тапас-бары</li>
+        </ul>
+        <div class="actions">
+          <a class="btn primary" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Mercado+de+San+Miguel,+Madrid"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 21s-7-6.2-7-11.5A7 7 0 0 1 19 9.5C19 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg>Google Maps</a>
+          <a class="btn" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Calle+de+la+Cava+Baja,+Madrid">Cava Baja</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="leg"><span class="line"></span><p><b>Такси ~20 мин, ~€15–20</b></p></div>
+
+    <div class="stop" data-start="2026-09-25T22:40" data-end="2026-09-26T08:50">
+      <div class="time">22:45</div>
+      <div class="card">
+        <span class="now-tag">Сейчас</span>
+        <span class="kind k-home">Отель</span>
+        <h3>Elba Madrid Alcalá</h3>
+        <p class="addr">Calle de Alcalá, 476</p>
+        <ul class="notes">
+          <li>Приготовить платье и собрать вещи на завтра</li>
+          <li>Уточнить на ресепшене время выезда</li>
+        </ul>
+        <div class="actions">
+          <a class="btn primary" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Hotel+Elba+Madrid+Alcal%C3%A1,+Calle+de+Alcal%C3%A1+476,+Madrid"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 21s-7-6.2-7-11.5A7 7 0 0 1 19 9.5C19 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg>Google Maps</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TOMORROW -->
+  <section id="tomorrow" role="tabpanel" aria-labelledby="tab-tomorrow" hidden>
+    <div class="day-head">
+      <h2>Суббота</h2>
+      <a class="all-route" target="_blank" rel="noopener" href="https://www.google.com/maps/dir/?api=1&origin=Hotel+Elba+Madrid+Alcal%C3%A1,+Madrid&destination=Hotel+Elba+Madrid+Alcal%C3%A1,+Madrid&waypoints=Museo+Cerralbo,+Madrid%7CTemplo+de+Debod,+Madrid&travelmode=driving">Весь маршрут на карте →</a>
+    </div>
+
+    <div class="stop" data-start="2026-09-26T08:50" data-end="2026-09-26T09:30">
+      <div class="time">9:00</div>
+      <div class="card">
+        <span class="now-tag">Сейчас</span>
+        <span class="kind k-home">Выезд</span>
+        <h3>Такси от Elba до музея</h3>
+        <p class="addr">~25 мин · ~€20–25</p>
+        <div class="actions">
+          <a class="btn primary" target="_blank" rel="noopener" href="https://www.google.com/maps/dir/?api=1&origin=Hotel+Elba+Madrid+Alcal%C3%A1,+Madrid&destination=Museo+Cerralbo,+Calle+Ventura+Rodr%C3%ADguez+17,+Madrid&travelmode=driving"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 21s-7-6.2-7-11.5A7 7 0 0 1 19 9.5C19 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg>Маршрут</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="leg"><span class="line"></span><p>Приезжаете к открытию, залы пустые</p></div>
+
+    <div class="stop" data-start="2026-09-26T09:30" data-end="2026-09-26T11:00">
+      <div class="time">9:30<small>–11:00</small></div>
+      <div class="card">
+        <span class="now-tag">Сейчас</span>
+        <span class="kind k-art">Музей · в новом платье</span>
+        <h3>Museo Cerralbo</h3>
+        <p class="addr">Calle Ventura Rodríguez, 17 · Сб 9:30–15:00</p>
+        <ul class="notes">
+          <li>Билет в кассе на входе, €3. Возьмите карту и наличные</li>
+          <li>Снимать без вспышки и штатива</li>
+          <li>Сумку можно сдать в гардероб у кассы</li>
+        </ul>
+        <div class="actions">
+          <a class="btn primary" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Museo+Cerralbo,+Calle+Ventura+Rodr%C3%ADguez+17,+Madrid"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 21s-7-6.2-7-11.5A7 7 0 0 1 19 9.5C19 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg>Google Maps</a>
+          <a class="btn" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Templo+de+Debod,+Madrid">Templo de Debod, 5 мин</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="leg"><span class="line"></span><p><b>Такси ~25 мин, ~€20–25</b></p></div>
+
+    <div class="stop" data-start="2026-09-26T11:00" data-end="2026-09-26T12:15">
+      <div class="time">11:15</div>
+      <div class="card">
+        <span class="now-tag">Сейчас</span>
+        <span class="kind k-home">Отель</span>
+        <h3>Elba: выселение</h3>
+        <p class="addr">Calle de Alcalá, 476</p>
+        <div class="actions">
+          <a class="btn primary" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Hotel+Elba+Madrid+Alcal%C3%A1,+Calle+de+Alcal%C3%A1+476,+Madrid"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 21s-7-6.2-7-11.5A7 7 0 0 1 19 9.5C19 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg>Google Maps</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="leg"><span class="line"></span><p><b>Такси ~15 мин, ~€20</b></p></div>
+
+    <div class="stop" data-start="2026-09-26T12:15" data-end="2026-09-26T16:00">
+      <div class="time">≥ 2 ч</div>
+      <div class="card">
+        <span class="now-tag">Сейчас</span>
+        <span class="kind k-home">Вылет в Ниццу</span>
+        <h3>Аэропорт Madrid-Barajas</h3>
+        <p class="addr">Будьте в аэропорту за 2 часа до вылета</p>
+        <div class="actions">
+          <a class="btn primary" target="_blank" rel="noopener" href="https://www.google.com/maps/dir/?api=1&origin=Hotel+Elba+Madrid+Alcal%C3%A1,+Madrid&destination=Aeropuerto+Adolfo+Su%C3%A1rez+Madrid-Barajas&travelmode=driving"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 21s-7-6.2-7-11.5A7 7 0 0 1 19 9.5C19 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg>Маршрут</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <p class="foot">Время и цены на такси примерные. Часы работы музея, розария и Zara взяты из поиска 25 сентября. Карточка «Сейчас» подсвечивается по мадридскому времени.</p>
+</div>
+
+<script>
+(function(){
+  var tabs=[document.getElementById('tab-today'),document.getElementById('tab-tomorrow')];
+  var panels={'tab-today':document.getElementById('today'),'tab-tomorrow':document.getElementById('tomorrow')};
+  function select(id){
+    tabs.forEach(function(t){var on=t.id===id;t.setAttribute('aria-selected',on);panels[t.id].hidden=!on;});
+    try{localStorage.setItem('madrid-tab',id)}catch(e){}
+  }
+  tabs.forEach(function(t){t.addEventListener('click',function(){select(t.id)})});
+
+  function madridNow(){
+    var p=new Intl.DateTimeFormat('en-CA',{timeZone:'Europe/Madrid',year:'numeric',month:'2-digit',day:'2-digit',hour:'2-digit',minute:'2-digit',hour12:false}).formatToParts(new Date());
+    var o={};p.forEach(function(x){o[x.type]=x.value});
+    return o.year+'-'+o.month+'-'+o.day+'T'+(o.hour==='24'?'00':o.hour)+':'+o.minute;
+  }
+  function mark(){
+    var now=madridNow(),found=null;
+    document.querySelectorAll('.stop').forEach(function(s){
+      var on=now>=s.dataset.start&&now<s.dataset.end;
+      s.classList.toggle('is-now',on);if(on)found=s;
+    });
+    return found;
+  }
+  var cur=mark();
+  var saved=null;try{saved=localStorage.getItem('madrid-tab')}catch(e){}
+  if(cur){select(cur.closest('section').id==='tomorrow'?'tab-tomorrow':'tab-today');}
+  else if(saved&&panels[saved]){select(saved);}
+  setInterval(mark,60000);
+
+  document.querySelectorAll('[data-copy]').forEach(function(b){
+    b.addEventListener('click',function(){
+      var v=b.dataset.copy,label=b.textContent;
+      function done(){b.textContent='Скопировано';setTimeout(function(){b.textContent=label},1500)}
+      if(navigator.clipboard&&navigator.clipboard.writeText){
+        navigator.clipboard.writeText(v).then(done,function(){selectTel()});
+      }else selectTel();
+    });
+  });
+  function selectTel(){var r=document.createRange();r.selectNodeContents(document.getElementById('tel'));var s=getSelection();s.removeAllRanges();s.addRange(r);}
+})();
+</script>
+</body>
+</html>
