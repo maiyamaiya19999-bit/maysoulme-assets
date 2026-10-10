@@ -7,6 +7,8 @@
 <title>Анализ целевой аудитории — maysoulme</title>
 <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Inter:wght@400;500;600;700;800&family=DM+Sans:ital@1&display=swap" rel="stylesheet">
 <style>
+@font-face{font-family:'Denistina';src:url('denistina.ttf') format('truetype');font-display:swap;}
+.hand{font-family:'Denistina',cursive;font-weight:400;font-style:normal;color:var(--bordo);text-transform:none;letter-spacing:0;}
 *,*::before,*::after{margin:0;padding:0;box-sizing:border-box;}
 html,body{overflow-x:hidden;max-width:100%;}
 :root{--milk:#FDFCF9;--ink:#262220;--body:#55504B;--soft:#948C83;--bordo:#710C04;--hair:#E9E4DC;--wash:#F7F3EC;--accent:#710C04;}
@@ -24,6 +26,7 @@ body{font-family:'Inter',sans-serif;background:var(--milk);color:var(--body);fon
 .badge{display:inline-block;font-size:11.5px;font-weight:600;letter-spacing:3px;text-transform:uppercase;color:var(--bordo);margin-bottom:22px;}
 .hero h1{font-family:'Libre Baskerville',serif;font-weight:700;font-size:40px;line-height:1.3;color:var(--ink);text-transform:uppercase;letter-spacing:.035em;margin:0 auto 24px;max-width:18ch;}
 .hero h1 em{font-style:italic;color:var(--bordo);text-transform:none;letter-spacing:0;}
+.hero h1 .hand{font-size:1.45em;line-height:.9;}
 .hero__desc{font-size:17px;color:var(--body);max-width:56ch;margin:0 auto;}
 .hero__meta{font-family:'DM Sans',sans-serif;font-style:italic;font-size:13.5px;color:var(--soft);margin-top:22px;letter-spacing:.5px;}
 
@@ -110,6 +113,8 @@ tr:hover td{background:var(--wash);}
 .band .lead{font-family:'Libre Baskerville',serif;font-style:italic;font-size:16px;color:#E8AE93;margin-bottom:14px;}
 .band h2{font-family:'Libre Baskerville',serif;font-weight:700;font-size:26px;line-height:1.45;color:#FBF3EA;text-transform:uppercase;letter-spacing:.05em;max-width:24ch;margin:0 auto 18px;}
 .band h2 em{color:#E8AE93;font-style:italic;text-transform:none;letter-spacing:0;}
+.band .hand{color:#E8AE93;font-size:1.4em;line-height:.9;}
+.band .sign{display:block;font-family:'Denistina',cursive;font-size:46px;line-height:1;color:#E8AE93;margin-top:34px;}
 .band p{max-width:56ch;margin:0 auto;font-size:15.5px;line-height:1.8;}
 
 .footer-note{font-family:'Libre Baskerville',serif;font-size:17px;letter-spacing:.06em;text-transform:uppercase;color:var(--ink);text-align:center;padding:64px 24px 0;}
@@ -144,7 +149,7 @@ tr:hover td{background:var(--wash);}
 <section class="hero">
   <div class="hero-glow"></div>
   <div class="badge">Исследование · внутренний документ</div>
-  <h1>Моя аудитория: <em>два сегмента</em>, их боли, желания и то, куда всё движется</h1>
+  <h1>Моя аудитория: <span class="hand">два сегмента</span>, их боли, желания и то, куда всё движется</h1>
   <p class="hero__desc">Рабочий документ под «ИИ-стратегию». Кто у меня покупает, что у них болит, чего они боятся, чего хотят на самом деле, какие возражения я слышу и что с этим делать в текстах и в оффере.</p>
   <p class="hero__meta">октябрь 2026 · гипотезы до проверки на реальных покупательницах</p>
 </section>
@@ -1197,8 +1202,9 @@ tr:hover td{background:var(--wash);}
 
 <div class="band"><div class="band-glow"></div>
   <p class="lead">главный вывод</p>
-  <h2>Инструмент у всех. <em>Вкус, данные и живое лицо</em> у единиц</h2>
+  <h2>Инструмент у всех. <span class="hand">Вкус, данные и живое лицо</span> у единиц</h2>
   <p>Подписчик как актив умер, реклама для микроблогера умерла, «просто контент» обесценен, площадки нестабильны все сразу. Выживает та, у кого есть то, чего нет ни у ИИ, ни у платформы: своя база, данные по нише, доверие и продукт.</p>
+  <span class="sign">Майя</span>
 </div>
 
 
