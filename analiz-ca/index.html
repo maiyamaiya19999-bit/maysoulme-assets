@@ -107,16 +107,13 @@ td{color:var(--body);}
 td strong{color:var(--ink);font-weight:600;}
 tr:hover td{background:var(--wash);}
 
-.band{background:#4A0B04;color:#E3C2B4;text-align:center;padding:72px 28px;margin:72px -28px 0;position:relative;overflow:hidden;}
-.band-glow{position:absolute;width:520px;height:520px;border-radius:50%;right:-140px;top:-160px;background:radial-gradient(circle,#A24630,rgba(74,11,4,0) 70%);filter:blur(30px);opacity:.55;}
-.band>*:not(.band-glow){position:relative;}
-.band .lead{font-family:'Libre Baskerville',serif;font-style:italic;font-size:16px;color:#E8AE93;margin-bottom:14px;}
-.band h2{font-family:'Libre Baskerville',serif;font-weight:700;font-size:26px;line-height:1.45;color:#FBF3EA;text-transform:uppercase;letter-spacing:.05em;max-width:24ch;margin:0 auto 18px;}
-.band h2 em{color:#E8AE93;font-style:italic;text-transform:none;letter-spacing:0;}
-.band .hand{color:#E8AE93;font-size:1.4em;line-height:.9;}
-.band .sign{display:block;font-family:'Denistina',cursive;font-size:46px;line-height:1;color:#E8AE93;margin-top:34px;}
 .band p{max-width:56ch;margin:0 auto;font-size:15.5px;line-height:1.8;}
 
+.final{max-width:660px;margin:96px auto 0;border:1px solid var(--bordo);outline:1px solid var(--bordo);outline-offset:5px;padding:52px 48px;text-align:center;}
+.final__lead{font-size:11.5px;font-weight:600;letter-spacing:3px;text-transform:uppercase;color:var(--bordo);margin-bottom:16px;}
+.final__title{font-family:'Libre Baskerville',serif;font-weight:700;font-size:24px;line-height:1.5;color:var(--ink);text-transform:uppercase;letter-spacing:.05em;margin-bottom:18px;}
+.final__title .hand{font-size:1.3em;line-height:1;}
+.final__text{font-size:15.5px;line-height:1.85;color:var(--body);}
 .footer-note{font-family:'Libre Baskerville',serif;font-size:17px;letter-spacing:.06em;text-transform:uppercase;color:var(--ink);text-align:center;padding:64px 24px 0;}
 .footer-note em{font-style:italic;color:var(--bordo);text-transform:none;letter-spacing:0;}
 .footer{text-align:center;padding:40px 24px 64px;color:var(--soft);font-size:12.5px;line-height:2;}
@@ -1200,11 +1197,10 @@ tr:hover td{background:var(--wash);}
   <li><a href="https://vc.ru/marketing/3046418-auditoriya-sotsialnykh-setey-v-rossii">vc.ru: аудитория соцсетей в России в 2026</a></li>
 </ul>
 
-<div class="band"><div class="band-glow"></div>
-  <p class="lead">главный вывод</p>
-  <h2>Инструмент у всех. <span class="hand">Вкус, данные и живое лицо</span> у единиц</h2>
-  <p>Подписчик как актив умер, реклама для микроблогера умерла, «просто контент» обесценен, площадки нестабильны все сразу. Выживает та, у кого есть то, чего нет ни у ИИ, ни у платформы: своя база, данные по нише, доверие и продукт.</p>
-  <span class="sign">Майя</span>
+<div class="final">
+  <p class="final__lead">главный вывод</p>
+  <h2 class="final__title">Инструмент у всех. <span class="hand">Вкус, данные и живое лицо</span> у единиц</h2>
+  <p class="final__text">Подписчик как актив умер, реклама для микроблогера умерла, «просто контент» обесценен, площадки нестабильны все сразу. Выживает та, у кого есть то, чего нет ни у ИИ, ни у платформы: своя база, данные по нише, доверие и продукт.</p>
 </div>
 
 
